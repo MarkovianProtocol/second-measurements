@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use these scripts, cite the paper for the measurement you used. Each paper page has its own citation."
+title: "second-measurements"
+authors:
+  - name: "Markovian Protocol"
+url: "https://markovianprotocol.com/measurements/"
+repository-code: "https://github.com/MarkovianProtocol/second-measurements"
+license: MIT
+type: software
