@@ -1,6 +1,6 @@
 # second-measurements
 
-Public claims about logs and datasets, recomputed by a different path than the one that produced them. Each folder holds the scripts behind one paper on [markovianprotocol.com/measurements](https://markovianprotocol.com/measurements/).
+Public claims about logs and datasets, recomputed by a different path than the one that produced them. Each folder holds the scripts behind one paper on [markovianprotocol.com/measurements](https://markovianprotocol.com/measurements/). One row per check, with exhibits and log receipts: [the dataset on Hugging Face](https://huggingface.co/datasets/MarkovianProtocol/second-measurements).
 
 | | Finding | Status | |
 |---|---|---|---|
