@@ -11,7 +11,7 @@ Public claims about logs and datasets, recomputed by a different path than the o
 | [SM-006](sm-006/) | x402 payments on Base fell by three-quarters in two months, and the same two operators still send most of them | Sent to the authors 2026-10-01, response pending | [paper](https://markovianprotocol.com/measurements/sm-006.html) |
 | [SM-005](sm-005/) | Meta's private-AI log updates half as often as its whitepaper says | Sent to Meta 2026-10-01, response pending | [paper](https://markovianprotocol.com/measurements/sm-005.html) |
 
-[A review of the first month](https://markovianprotocol.com/measurements/review-2026-10.html) puts every check side by side; `rechecks/` reruns SM-001, SM-005 and SM-006 on a schedule ([live page](https://markovianprotocol.com/measurements/rechecks.html)).
+[A review of the first month](https://markovianprotocol.com/measurements/review-2026-10.html) puts every check side by side; `review/aidev-map.json` lists the 47 papers built on AIDev that report agent-specific results, with quotes and sample sizes; `rechecks/` reruns SM-001, SM-005 and SM-006 on a schedule ([live page](https://markovianprotocol.com/measurements/rechecks.html)).
 
 Earlier measurements in their own repos: [x402-second-measurement](https://github.com/MarkovianProtocol/x402-second-measurement), [ocsf-second-measurement](https://github.com/MarkovianProtocol/ocsf-second-measurement). Every finding reported to someone else and what happened next: [findings-ledger](https://github.com/MarkovianProtocol/findings-ledger).
 

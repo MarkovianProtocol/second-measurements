@@ -1,0 +1,2064 @@
+{
+ "about": "Papers built on the AIDev dataset that report agent-specific results, with each claim quoted and the sample behind it. Compiled 2026-10-02 for markovianprotocol.com/measurements/review-2026-10.html.",
+ "papers": [
+  {
+   "id": "arXiv:2602.08915",
+   "doi": null,
+   "title": "Comparing AI Coding Agents: A Task-Stratified Analysis of Pull Request Acceptance",
+   "authors": [
+    "Giovanni Pinna",
+    "Jingzhi Gong",
+    "David Williams",
+    "Federica Sarro"
+   ],
+   "venue": "MSR 2026 Mining Challenge (ICSE 2026 co-located)",
+   "msr2026_challenge": true,
+   "aidev_version": "AIDev-pop (33,596 PRs, Hugging Face); filtered to 7,156 closed PRs",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "However, no single agent performs best across all task types: Claude Code leads in documentation (92.3%) and features (72.6%), while Cursor excels in fix tasks (80.4%).",
+     "location": "p1, Abstract"
+    },
+    {
+     "agent": "Claude Code",
+     "quote": "However, other agents achieve higher rates in specific categories: Claude Code leads in docs (92.3%, albeit with few samples) and feat (72.6%), while Cursor excels in test (77.8%, also with few samples).",
+     "location": "p3, Sec 4.3 (RQ3), Figure 2"
+    },
+    {
+     "agent": "Devin",
+     "quote": "Devin exhibits the only consistent positive trend in acceptance rate (+0.77% per week over 32 weeks), whereas other agents remain largely stable.",
+     "location": "p1, Abstract"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "Claude Code 02/24/25 139 19 7.3 71.9%  [Table 1 row: agent, first week, PRs, weeks, ..., acceptance]; Table 3: 'Claude Code 52.5% 22.3% 9.4%\u2020 9.4%\u2020' with '\u2020 indicates <20 PRs'",
+    "location": "p2 Table 1; p3 Table 3",
+    "note": "Paper states the CC docs cell holds <20 PRs and that docs = 9.4% of CC's 139 PRs; it does not state the exact docs count. ~13 is arithmetic (0.094 x 139), not a number printed in the paper -> exact count UNVERIFIED."
+   },
+   "bias_discussion": {
+    "discusses": "small-n only, not identification",
+    "quote": "It should be noted that any results for Claude Code must be interpreted with caution due to the limited sample size (139 PRs total).",
+    "location": "p3"
+   },
+   "assessment": "small-n + rate-related: the headline CC 92.3% docs acceptance rests on a <20-PR cell drawn from the trailer-selected ~1-in-11 subset; merge rate was not significantly different in SM-002, but a <20-PR cell cannot carry an agent ranking either way.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2602.02345",
+   "doi": null,
+   "title": "A Task-Level Evaluation of AI Agents in Open-Source Projects",
+   "authors": [
+    "Shojibur Rahman",
+    "Md Fazle Rabbi",
+    "Minhaz F. Zibran"
+   ],
+   "venue": "MSR 2026 Mining Challenge (ICSE 2026 co-located)",
+   "msr2026_challenge": true,
+   "aidev_version": "AIDev-pop (33,596 PRs, up to 2025-08-01)",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "Claude achieves the highest overall good commit rate, with an average of 0.68 across task types. However, Claude also exhibits the highest variability in commit message quality among all agents, with a standard deviation of 0.19.",
+     "location": "p3, Sec 3.3 / Table 4"
+    },
+    {
+     "agent": "Claude Code",
+     "quote": "Table 4: Good Commit Rate across Agents and Task Types ... perf 1.00 [Claude column]",
+     "location": "p3, Table 4"
+    },
+    {
+     "agent": "Claude Code / Cursor",
+     "quote": "Cursor and Claude show moderate average acceptance rates of 0.67 and 0.66, respectively.",
+     "location": "p2, Sec 3.1 / Table 2"
+    },
+    {
+     "agent": "Devin",
+     "quote": "Devin shows moderate commit message quality, with an average of 0.57, and exhibits the most stable performance across task types, as reflected by the lowest standard deviation (0.07).",
+     "location": "p4"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "Table 1 (Claude column): build 8, chore 14, ci 5, docs 32, feat 250, fix 115, other 0, perf 3, refactor 26, revert 0, style 0, test 6; Total 459",
+    "location": "p2, Table 1",
+    "note": "Brief's figures confirmed: CC build 8, perf 3, test 6 of 459. The CC perf good-commit rate of 1.00 rests on 3 PRs."
+   },
+   "bias_discussion": {
+    "discusses": "no",
+    "quote": null,
+    "location": null
+   },
+   "assessment": "small-n + rate-related: per-task CC rates (e.g. perf 1.00 on 3 PRs, build 0.88/0.80 on 8) are cells of 3-8 PRs from the trailer-selected subset; the 0.68 'highest good commit rate' averages those cells.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2601.16839",
+   "doi": null,
+   "title": "AI builds, We Analyze: An Empirical Study of AI-Generated Build Code Quality",
+   "authors": [
+    "Anwar Ghammam",
+    "Mohamed Almukhtar"
+   ],
+   "venue": "MSR 2026 Mining Challenge (ICSE 2026 co-located)",
+   "msr2026_challenge": true,
+   "aidev_version": "AIDev (MSR 2026 Mining Challenge release)",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "Finally, Claude Code introduces none, though this result is based on only three build files.",
+     "location": "p3, Sec 5.1 (RQ1)"
+    },
+    {
+     "agent": "Cursor / Devin",
+     "quote": "Cursor follows with 60 smells across 155 files. ... Devin also has a relatively low rate, with 23 smells across 195 files.",
+     "location": "p3, Sec 5.1"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "These consisted of 173, 104, 69, 38, and 2 PRs generated by Codex, Copilot, Devin, Cursor, and Claude Code, respectively.",
+    "location": "p2, Sec 4.2"
+   },
+   "bias_discussion": {
+    "discusses": "small-n acknowledged inline",
+    "quote": "though this result is based on only three build files",
+    "location": "p3"
+   },
+   "assessment": "small-n: 2 CC PRs / 3 build files; not interpretable as an agent property regardless of identification.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2601.04886",
+   "doi": null,
+   "title": "Analyzing Message-Code Inconsistency in AI Coding Agent-Authored Pull Requests",
+   "authors": [
+    "Jingzhi Gong",
+    "Giovanni Pinna",
+    "Yixin Bian",
+    "Jie M. Zhang"
+   ],
+   "venue": "MSR 2026 Mining Challenge (ICSE 2026 co-located)",
+   "msr2026_challenge": true,
+   "aidev_version": "AIDev-pop (33,596 PRs, >100 stars); 23,247 analyzed",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "High-MCI Prevalence by Agent (%) ... Claude Code 0.9% [0.2, 3.3]",
+     "location": "p2-3, Figure 1"
+    },
+    {
+     "agent": "Cursor / Devin",
+     "quote": "GitHub Copilot had the highest rate (8.7%, 234 highMCI PRs out of 2,675), followed by Cursor (4.5%, 31 out of 682).",
+     "location": "p3, Sec 4.1"
+    },
+    {
+     "agent": "Cursor / Devin",
+     "quote": "For agent-specific patterns, GitHub Copilot was dominated by Phantom Changes (74.0%), while Scope Understated was the primary issue for Cursor (52.8%) and Devin (41.0%).",
+     "location": "p3, Sec 4.2"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "(4) Sample size imbalance: Agent sample sizes are imbalanced (e.g., Claude Code has only 220 PRs), limiting the reliability of agent-specific conclusions for smaller samples.",
+    "location": "p4, Threats"
+   },
+   "bias_discussion": {
+    "discusses": "small-n only",
+    "quote": "Agent sample sizes are imbalanced (e.g., Claude Code has only 220 PRs), limiting the reliability of agent-specific conclusions for smaller samples.",
+    "location": "p4"
+   },
+   "assessment": "small-n: a 0.9% prevalence on 220 PRs (CI 0.2-3.3%); the count of high-MCI CC PRs is not printed.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2601.03556",
+   "doi": "10.1145/3793302.3793604",
+   "title": "An Empirical Study of Tests in Agentic Pull Requests (arXiv title: Do Autonomous Agents Contribute Test Code? A Study of Tests in Agentic Pull Requests)",
+   "authors": [
+    "Sabrina Haque",
+    "Sarvesh Ingale",
+    "Christoph Csallner"
+   ],
+   "venue": "MSR 2026 Mining Challenge (ICSE 2026 co-located)",
+   "msr2026_challenge": true,
+   "aidev_version": "AIDev-pop (33.5k PRs, >100 stars)",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "Table 4: Agents' lifecycle traits for all closed PRs: Cm = median churn (LOC) ... Claude 183 1,736 1.03 4.15 70.6 72.1 0.42",
+     "location": "p4, Table 4 (CC non-test median churn 183 LOC, test-PR median churn 1,736 LOC - the largest of any agent)"
+    },
+    {
+     "agent": "Claude Code",
+     "quote": "Table 1 ... Claude PR 8 29 15 23 140 244 / T 37 24 7 43 49 55 (Feb-Jul)",
+     "location": "p3, Table 1 (monthly CC PR counts and test-inclusion %)"
+    },
+    {
+     "agent": "Devin",
+     "quote": "Devin PRs receive frequent test modifications (59%) and often a test file is modified more than once (32%).",
+     "location": "p3, Sec 4.2"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "Claude PR \u2013 8 29 15 23 140 244 (Jan-Jul)",
+    "location": "p3, Table 1 (sums to 459)"
+   },
+   "bias_discussion": {
+    "discusses": "no (threats discuss test-file heuristics, not agent identification)",
+    "quote": null,
+    "location": null
+   },
+   "assessment": "size-related: CC test-PR median churn of 1,736 LOC is the largest per-agent value; SM-002 found the trailer-caught subset is larger than typical CC PRs (median 736 vs 447).",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2601.20109",
+   "doi": "10.1145/3793302.3793615",
+   "title": "Beyond Bug Fixes: An Empirical Investigation of Post-Merge Code Quality Issues in Agent-Generated Pull Requests",
+   "authors": [
+    "Shamse Tasnim Cynthia",
+    "Al Muttakin",
+    "Banani Roy"
+   ],
+   "venue": "MSR 2026 Mining Challenge (ICSE 2026 co-located)",
+   "msr2026_challenge": true,
+   "aidev_version": "AIDev-pop curated subset (33,596) -> 1,210 merged Python fix PRs",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "Agent % w/ Issues Claude Copilot Cursor Devin Codex 53.3(8/15) 20.8(22/106) 22.5(9/40) 26.0(26/100) 13.2(125/949)",
+     "location": "p2, Table 2"
+    },
+    {
+     "agent": "Claude Code",
+     "quote": "In absolute terms, OpenAI Codex contributes the most issues (456), while Claude Code contributes the fewest (69).",
+     "location": "p2"
+    },
+    {
+     "agent": "Cursor",
+     "quote": "Cursor exhibits a more pronounced imbalance: despite contributing only 40 fix PRs, it accounts for the secondhighest total number of issues (331), along with the highest average issues per PR (mean = 8.3) and substantial dispersion (std = 38.2, max = 233).",
+     "location": "p2"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "# of Claude Code PRs 15",
+    "location": "p2, Table 1"
+   },
+   "bias_discussion": {
+    "discusses": "imbalance, not identification",
+    "quote": "Overall, these results indicate that agent-level differences in observed issue frequency are largely explained by contribution volume and change size, reinforcing the need to interpret per-agent breakdowns with caution under imbalanced sampling.",
+    "location": "p3"
+   },
+   "assessment": "small-n + size-related: 8 of 15 CC PRs; paper itself attributes per-agent differences to volume and change size, and the trailer-caught CC subset skews large.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2601.00753",
+   "doi": "10.1145/3793302.3793609",
+   "title": "Early-Stage Prediction of Review Effort in AI-Generated Pull Requests",
+   "authors": [
+    "Dao Sy Duy Minh",
+    "Huynh Trung Kiet",
+    "Nguyen Lam Phu Quy",
+    "Pham Phu Hoa",
+    "Tran Chi Nguyen",
+    "Nguyen Dinh Ha Duong",
+    "Truong Bao Tran"
+   ],
+   "venue": "MSR 2026 Mining Challenge (ICSE 2026 co-located)",
+   "msr2026_challenge": true,
+   "aidev_version": "AIDev v1.0, 33,707 PRs from 2,807 repos (>100 stars)",
+   "agents_with_claims": [
+    "Claude Code",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code (labelled 'Claude 3.5' in the paper)",
+     "quote": "Agent | Total PRs | Instant % | Ghosting %  ...  Claude 3.5 [2] 523 2.9 3.1",
+     "location": "p2, Table (agent summary)"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "Claude 3.5 [2] 523",
+    "location": "p2, agent table",
+    "note": "523 differs from the 459 CC PRs other papers report for AIDev-pop; the paper identifies agents 'via AIDev metadata (type=\u2019Bot\u2019) plus generative agent names (Codex, Claude, Devin, Copilot)'. No Cursor row appears."
+   },
+   "bias_discussion": {
+    "discusses": "no",
+    "quote": null,
+    "location": null
+   },
+   "assessment": "rate-related (instant-merge %): CC row is labelled with a model name and has a count (523) that does not match other AIDev-pop CC counts; identification path differs from AIDev's trailer search, so exposure cannot be assessed from the text.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2601.17406",
+   "doi": null,
+   "title": "Fingerprinting AI Coding Agents on GitHub",
+   "authors": [
+    "Taher A. Ghaleb"
+   ],
+   "venue": "MSR 2026 Mining Challenge (ICSE 2026 co-located)",
+   "msr2026_challenge": true,
+   "aidev_version": "AIDev-pop (Oct 28, 2025 update); 33,580 PRs",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "Claude Code, the smallest class (458 samples, 1.4% of the dataset), has lower recall (57%) but high precision (82%), meaning predictions of Claude Code are usually correct, but many Claude Code PRs are misclassified as other agents (mainly Devin and OpenAI Codex).",
+     "location": "p2, Table 2"
+    },
+    {
+     "agent": "Claude Code",
+     "quote": "We uncover distinct fingerprints: Codex shows unique multiline commit patterns (67.5% feature importance), and Claude Code exhibits distinctive code structure (27.2% importance of conditional statements).",
+     "location": "p1, Abstract"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "Claude Code 458 0.82 0.57 0.67 11.2",
+    "location": "p2, Table 2 (Samples, Precision, Recall, F1, EPV)"
+   },
+   "bias_discussion": {
+    "discusses": "attribution is the topic; no discussion of how AIDev's own CC label was made",
+    "quote": "When developers use AI agents to generate code under their own accounts, code authorship attribution becomes critical for repository governance, research validity, and understanding modern development practices.",
+    "location": "p1"
+   },
+   "assessment": "not exposed for the classifier metric itself, but the 'fingerprint' is learned from trailer-selected, larger-than-typical CC PRs; AgenTag (2608.00966) shows CC separability largely comes from the trailer.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2602.17084",
+   "doi": null,
+   "title": "How AI Coding Agents Communicate: A Study of Pull Request Description Characteristics and Human Review Responses",
+   "authors": [
+    "Kan Watanabe",
+    "Rikuto Tsuchida",
+    "Takahiro Monno",
+    "Bin Huang",
+    "Kazuma Yamasaki",
+    "Youmei Fan",
+    "Kazumasa Shimari",
+    "Kenichi Matsumoto"
+   ],
+   "venue": "MSR 2026 Mining Challenge (ICSE 2026 co-located)",
+   "msr2026_challenge": true,
+   "aidev_version": "AIDev pull_request table, 33,596 PRs",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "Table 4: Outcome metrics by agent for RQ2-2 ... Claude Code 59.0 1.95 [Merge Rate (%), Time to Completion (hours)]",
+     "location": "p4, Table 4"
+    },
+    {
+     "agent": "Cursor / Devin",
+     "quote": "Codex showed the highest merge rate and shortest completion time, while Cursor maintained the second-highest merge rate despite receiving negative sentiment. ... Devin received minimal engagement and tended to be closed without resolution.",
+     "location": "p4"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "Table 2: Comment distribution across AI coding agents ... Claude Code 902 790 [comments for engagement metrics / for sentiment analysis]",
+    "location": "p3, Table 2",
+    "note": "PR count behind the CC merge rate is not printed in Table 4; AIDev-pop CC = 459 PRs."
+   },
+   "bias_discussion": {
+    "discusses": "no",
+    "quote": null,
+    "location": null
+   },
+   "assessment": "rate-related: CC merge rate 59.0% on AIDev-pop CC PRs; SM-002 found no significant merge-rate difference between trailer-caught and all CC PRs, so exposure here is modest.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2601.20160",
+   "doi": null,
+   "title": "How do Agents Refactor: An Empirical Study",
+   "authors": [
+    "Lukas Ottenhof",
+    "Daniel Penner",
+    "Abram Hindle",
+    "Thibaud Lutellier"
+   ],
+   "venue": "MSR 2026 Mining Challenge (ICSE 2026 co-located)",
+   "msr2026_challenge": true,
+   "aidev_version": "AIDev (932,791 PRs), Java subset",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "For instance, over 91% of Claude Code\u2019s refactorings were annotation related.",
+     "location": "p2"
+    },
+    {
+     "agent": "Claude Code",
+     "quote": "Claude also performed a high number of changes per commit with a mean of 762.73 and a median of 475, suggesting it is doing large batches of annotation updates.",
+     "location": "p2-3, Table 3"
+    },
+    {
+     "agent": "Claude Code",
+     "quote": "Claude Code had the largest average increase in code smells among all agents, rising from 179.1 to 214.6 per commit (mean \u0394 = 35.5).",
+     "location": "p3, Table 4"
+    },
+    {
+     "agent": "Cursor",
+     "quote": "Cursor is the only agent with a statistically significant difference in code smell changes (mean \u0394 = 19.86 vs. developer 2.43, p = 0.013, Cliff\u2019s Delta = 0.51).",
+     "location": "p4"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "Claude 37 22 59.46 [43.24, 75.68] [# Commits, # Ref. Commits, % Rate, 95% CI]",
+    "location": "p2, Table 1"
+   },
+   "bias_discussion": {
+    "discusses": "small-n / repo count",
+    "quote": "However, Claude Code, Cursor, Devin, and OpenAI Codex appear in fewer than 10 Java repositories each, limiting generalizability for them.",
+    "location": "p4, Threats"
+   },
+   "assessment": "small-n + size-related: CC claims rest on 22 refactoring commits in <10 repos; the 'large batches' finding (mean 762.73 refactors/commit) is a size property, and the trailer-caught subset skews large.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2604.04059",
+   "doi": "10.1145/3793302.3793595",
+   "title": "Humans Integrate, Agents Fix: How Agent-Authored Pull Requests Are Referenced in Practice",
+   "authors": [
+    "Islem Khemissi",
+    "Moataz Chouchen",
+    "Dong Wang",
+    "Raula Gaikovina Kula"
+   ],
+   "venue": "MSR 2026 Mining Challenge (ICSE 2026 co-located)",
+   "msr2026_challenge": true,
+   "aidev_version": "AIDev-pop subset (33,596 PRs, >500 stars per paper)",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code / Cursor",
+     "quote": "In our dataset, Cursor\u2019s agent-to-agent self-references are exclusively (100%) corrective, while Claude Code\u2019s are exclusively (100%) constructive, suggesting agent-specific interaction profiles.",
+     "location": "p4"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "Table 2: Breakdown of Agent-to-Agent References (N=88) ... Self-Referencing 84 95.5%",
+    "location": "p3, Table 2",
+    "note": "Per-agent count of CC self-references is not printed in text; UNVERIFIED (figure only)."
+   },
+   "bias_discussion": {
+    "discusses": "no",
+    "quote": null,
+    "location": null
+   },
+   "assessment": "small-n: a 100% share over an unprinted, at most 84-reference pool; not exposed to size, exposed to n.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "DOI:10.1145/3793302.3793621",
+   "doi": "10.1145/3793302.3793621",
+   "title": "LGTM! Characteristics of Auto-Merged LLM-based Agentic PRs",
+   "authors": [
+    "Ruben Branco",
+    "Paulo Canelas",
+    "Catarina Gamboa",
+    "Alcides Fonseca"
+   ],
+   "venue": "MSR 2026 Mining Challenge (ICSE 2026 co-located)",
+   "msr2026_challenge": true,
+   "aidev_version": "AIDev (subset as stated in paper)",
+   "agents_with_claims": [
+    "Claude Code"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "While Claude Code achieves the highest proportion of repositories with 50% auto-merge, its small sample size (\ud835\udc5b = 12) limits statistical comparison.",
+     "location": "p4 (author PDF pcanelas.com), Figure 3"
+    },
+    {
+     "agent": "Claude Code",
+     "quote": "Some agents, such as OpenAI Codex and Claude Code, still exhibit high auto-merge rates in our sample, though Claude Code has limited adoption time and a smaller number of observations (\ud835\udc5b = 12).",
+     "location": "p3"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "Claude Code ... n=12",
+    "location": "p4, Figure 3"
+   },
+   "bias_discussion": {
+    "discusses": "small-n + adoption time",
+    "quote": "Agent representation is also uneven: for instance, Claude Code was released in late February 2025, resulting in less time for adoption.",
+    "location": "p4"
+   },
+   "assessment": "small-n: n=12 repositories.",
+   "verification": "VERIFIED from author-hosted PDF (pcanelas.com/assets/papers/2026-msr-lgtm.pdf)"
+  },
+  {
+   "id": "arXiv:2602.17955",
+   "doi": null,
+   "title": "Mining Type Constructs Using Patterns in AI-Generated Code",
+   "authors": [
+    "Imgyeong Lee",
+    "Tayyib Ul Hassan",
+    "Abram Hindle"
+   ],
+   "venue": "MSR 2026 Mining Challenge (ICSE 2026 co-located)",
+   "msr2026_challenge": true,
+   "aidev_version": "AIDev (33,596 PRs) -> TypeScript subset",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "Table 3: Acceptance rates of TypeScript by AI agents. ... Claude_Code 50.0",
+     "location": "p4, Table 3"
+    },
+    {
+     "agent": "Claude Code",
+     "quote": "Developer / Agent Mean Features Claude_Code Cursor Devin Copilot OpenAI_Codex 6.74 5.96 5.79 5.57 5.50 Human 2.66",
+     "location": "p3"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "Original Dataset TS\u2013AI Agent ... 33,596 ... After Regex Parser TS\u2013AI Agent ... 1,083",
+    "location": "p2, Table 1",
+    "note": "Per-agent n behind CC 50.0% is not printed in text read; UNVERIFIED."
+   },
+   "bias_discussion": {
+    "discusses": "no",
+    "quote": null,
+    "location": null
+   },
+   "assessment": "rate-related, n unknown: CC TypeScript acceptance 50.0% from an unstated (necessarily small) CC subset.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2602.12144",
+   "doi": null,
+   "title": "On the Adoption of AI Coding Agents in Open-source Android and iOS Development",
+   "authors": [
+    "Muhammad Ahmad Khan",
+    "Hasnain Ali",
+    "Muneeb Rana",
+    "Muhammad Saqib Ilyas",
+    "Abdul Ali Bangash"
+   ],
+   "venue": "MSR 2026 Mining Challenge (ICSE 2026 co-located)",
+   "msr2026_challenge": true,
+   "aidev_version": "AIDev (932k PRs, full)",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "On Android, post-hoc Dunn\u2019s test shows significant differences between Codex and Claude (\ud835\udc5d < 0.05), while other pairwise differences are insignificant. Codex resolves PRs 3\u00d7 faster than Claude.",
+     "location": "p3, Sec 4.3"
+    },
+    {
+     "agent": "Cursor",
+     "quote": "On Android, maintainers accept Codex PRs significantly more often (76.8%) than Copilot (28.0%) and Cursor (42.3%).",
+     "location": "p3"
+    },
+    {
+     "agent": "Devin",
+     "quote": "Although Devin appears fastest, its small sample size (\ud835\udc5b = 7) prevents reliable inference; Codex remains the fastest agent on both platforms.",
+     "location": "p3"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": null,
+    "location": null,
+    "note": "CC Android PR count behind the 3x resolution claim not located in text; UNVERIFIED."
+   },
+   "bias_discussion": {
+    "discusses": "small-n only",
+    "quote": "Since some agents have only a few PRs in certain categories, the raw PR acceptance rates become sensitive to small samples.",
+    "location": "p2"
+   },
+   "assessment": "size-related (resolution time tracks PR size): CC slower resolution is consistent with the trailer subset's larger PRs; n unstated.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2604.18334",
+   "doi": null,
+   "title": "Reliability of AI Bots Footprints in GitHub Actions CI/CD Workflows",
+   "authors": [
+    "Syed Muhammad Ashhar Shah",
+    "Sehrish Habib",
+    "Muizz Hussain",
+    "Maryam Abdul Ghafoor",
+    "Abdul Ali Bangash"
+   ],
+   "venue": "MSR 2026 Mining Challenge (ICSE 2026 co-located)",
+   "msr2026_challenge": true,
+   "aidev_version": "AIDev pull_request + pr_commits (33,596 PRs, 2,355 repos)",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "We find that Copilot and Codex achieves the highest success at 93.28% and 94.44%, while Claude had the lowest reliability at 64.86%.",
+     "location": "p3"
+    },
+    {
+     "agent": "Claude Code / Cursor / Devin",
+     "quote": "Copilot has significantly higher odds of workflow success than Claude (OR = 7.53), Cursor (OR = 5.29), and Devin (OR = 4.05), while showing no statistically significant difference relative to Codex after correction (OR = 0.816).",
+     "location": "p3"
+    },
+    {
+     "agent": "Claude Code / Cursor",
+     "quote": "Our findings reveal that reliability is primarily agent-dependent: while Copilot and Codex achieve success rates exceeding 93%, other agents like Claude and Cursor show a significantly higher tendency for failure.",
+     "location": "p4, Conclusion"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "Claude 63.89% 36.00 100.00% 1.00 64.86% 37.00 [High-level success, runs; Low-level success, runs; Total success, Total Runs]",
+    "location": "p3, Table 1"
+   },
+   "bias_discussion": {
+    "discusses": "no",
+    "quote": null,
+    "location": null
+   },
+   "assessment": "small-n: CC 'lowest reliability' and OR = 7.53 rest on 37 workflow runs (vs 43,852 for Devin); rate-related.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2603.27524",
+   "doi": "10.1145/3793302.3793610",
+   "title": "Safer Builders, Risky Maintainers: A Comparative Study of Breaking Changes in Human vs Agentic PRs",
+   "authors": [
+    "K M Ferdous",
+    "Dipayan Banik",
+    "Kowshik Chowdhury",
+    "Shazibul Islam Shamim"
+   ],
+   "venue": "MSR 2026 Mining Challenge (ICSE 2026 co-located)",
+   "msr2026_challenge": true,
+   "aidev_version": "AIDev (Python PR patches)",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "Claude Code exhibits 74 breaking changes across 1,450 patches (ratio 5.10), while Copilot, Cursor, Devin, and OpenAI Codex have ratios of 3.04, 4.20, 4.09, and 2.62, respectively.",
+     "location": "p3"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "74 breaking changes across 1,450 patches",
+    "location": "p3"
+   },
+   "bias_discussion": {
+    "discusses": "no",
+    "quote": null,
+    "location": null
+   },
+   "assessment": "size-related: breaking changes per patch; larger multi-file CC PRs (as the trailer subset is) produce more patches and more surface for API breaks.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2601.21102",
+   "doi": "10.1145/3793302.3793574",
+   "title": "The Quiet Contributions: Insights into AI-Generated Silent Pull Requests",
+   "authors": [
+    "S. M. Mahedy Hasan",
+    "Md Fazle Rabbi",
+    "Minhaz F. Zibran"
+   ],
+   "venue": "MSR 2026 Mining Challenge (ICSE 2026 co-located)",
+   "msr2026_challenge": true,
+   "aidev_version": "AIDev, popular Python projects (>100 stars)",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "If we compare the accepted and rejected SPRs from each AI agent separately, we see that the percentage of Claude\u2019s SPRs causing an increase in complexity is substantially higher for accepted SPRs (60.00%) compared to rejected SPRs (28.57%).",
+     "location": "p2, Sec 3.1"
+    },
+    {
+     "agent": "Claude Code",
+     "quote": "For example, 68.00% of the accepted SPRs from Claude introduce quality issue C0301, while 64.00% of these SPRs also fixed the same C0301 issue.",
+     "location": "p3"
+    },
+    {
+     "agent": "Cursor",
+     "quote": "Only 6.67% rejected SPRs from Cursor cause an increase in net vulnerability count, while even a smaller percentage (1.96%) of accepted SPRs cause a reduction.",
+     "location": "p4"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "Figure 1: Accepted and rejected SPRs from each agent ... Claude 7 25",
+    "location": "p2, Figure 1",
+    "note": "Figure labels read 25 and 7 for Claude; 60.00% = 15/25 and 28.57% = 2/7 are consistent with accepted=25, rejected=7, but the mapping is from a figure -> UNVERIFIED."
+   },
+   "bias_discussion": {
+    "discusses": "no",
+    "quote": null,
+    "location": null
+   },
+   "assessment": "small-n: CC accepted-vs-rejected contrast rests on ~25 vs ~7 silent PRs.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2601.17413",
+   "doi": null,
+   "title": "When AI Agents Touch CI/CD Configurations: Frequency and Success",
+   "authors": [
+    "Taher A. Ghaleb"
+   ],
+   "venue": "MSR 2026 Mining Challenge (ICSE 2026 co-located)",
+   "msr2026_challenge": true,
+   "aidev_version": "AIDev-pop (Oct 28, 2025 update); 8,031 PRs",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "Claude Code\u2019s 6.08pp gain is marginal (\ud835\udc5d = 0.051), and OpenAI Codex shows virtually no difference (-0.12pp, \ud835\udc5d = 0.930).",
+     "location": "p3, Table 3"
+    },
+    {
+     "agent": "Claude Code / Cursor",
+     "quote": "Devin has a modest but significant edge on CI/CD changes (63.37% versus 52.52%, +10.85pp, \ud835\udc5d < 0.0001), while Cursor and Claude Code show no significant differences (\ud835\udc5d = 0.2225 and \ud835\udc5d = 0.8701), indicating comparable PR quality for CI/CD and non-CI/CD changes.",
+     "location": "p3, Table 2"
+    },
+    {
+     "agent": "Devin",
+     "quote": "CI/CD configuration files account for 3.25% of agent changes, varying by agent (Devin: 4.83%, Codex: 2.01%, \ud835\udc5d < 0.001).",
+     "location": "p1, Abstract"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "Claude Code 23,296 972 4.17% [Total Files, YAML Files, YAML %]",
+    "location": "p2, Table 1",
+    "note": "PR counts per agent behind Tables 2-3 not printed per agent."
+   },
+   "bias_discussion": {
+    "discusses": "selection bias (submitted PRs only), not agent identification",
+    "quote": "Temporal confounding may arise from agent capability evolution, and selection bias exists because only submitted PRs are analyzed, underrepresenting rejected or previewed suggestions, particularly for Copilot.",
+    "location": "p4"
+   },
+   "assessment": "rate-related: CC merge/build-success rates; no significant CC effect reported, so limited exposure.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2601.15195",
+   "doi": null,
+   "title": "Where Do AI Coding Agents Fail? An Empirical Study of Failed Agentic Pull Requests in GitHub",
+   "authors": [
+    "Ramtin Ehsani",
+    "Sakshi Pathak",
+    "Shriya Rawal",
+    "Abdullah Al Mujahid",
+    "Mia Mohammad Imran",
+    "Preetha Chatterjee"
+   ],
+   "venue": "MSR 2026 Mining Challenge (ICSE 2026 co-located)",
+   "msr2026_challenge": true,
+   "aidev_version": "AIDev-pop (33k PRs, >100 stars)",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "Cursor follows with a 65.22% merge rate (1,005), then Claude Code at 59.04% (271), and Devin at 53.76% (2,595).",
+     "location": "p3"
+    },
+    {
+     "agent": "Claude Code",
+     "quote": "Claude Code\u2019s highest merge rates appear in build (0.88), documentations (0.75), and CI (0.57), with lower rates for test (0.50) and refactoring (0.50).",
+     "location": "p3"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "Claude Code at 59.04% (271)",
+    "location": "p3 (271 merged of 459)"
+   },
+   "bias_discussion": {
+    "discusses": "no",
+    "quote": null,
+    "location": null
+   },
+   "assessment": "rate-related + small-n per task (CC build = 8 PRs per 2602.02345 Table 1).",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2605.22534",
+   "doi": null,
+   "title": "Why Are Agentic Pull Requests Merged or Rejected? An Empirical Study",
+   "authors": [
+    "Sien Reeve O. Peralta",
+    "Fumika Hoshi",
+    "Hironori Washizaki",
+    "Naoyasu Ubayashi",
+    "Inase Kondo",
+    "Yoshiki Higo",
+    "Hiroki Mukai",
+    "Norihiro Yoshida",
+    "Kazuki Kusama",
+    "Hidetake Tanaka",
+    "Youmei Fan"
+   ],
+   "venue": "MSR 2026 Mining Challenge (ICSE 2026 co-located)",
+   "msr2026_challenge": true,
+   "aidev_version": "AIDev, closed PRs from >=500-star repos (11,048 -> 9,799)",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "Claude Code showed 0 cases categorized as FL or HI in the inspected sample.",
+     "location": "p4"
+    },
+    {
+     "agent": "Devin",
+     "quote": "For Devin, 37 of 153 rejected PRs (24.2%) were categorized as AF, 69 (45.1%) as Non-AF, and 47 (30.7%) as Unknown.",
+     "location": "p3"
+    },
+    {
+     "agent": "Cursor",
+     "quote": "Cursor showed 1 of 33 merged PRs (3.0%) categorized as FL and 0 categorized as HI.",
+     "location": "p4"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "Claude Code 213 2.2 130 83 [Total PRs, % of total, Merged, Rejected]; 'Claude Code accounted for 8 rejected PRs in the sample'",
+    "location": "p2 Table 1; p3"
+   },
+   "bias_discussion": {
+    "discusses": "misattribution of outcomes to agent capability (deployment context), not identification",
+    "quote": "We further observed systematic differences across agents, with Copilot and Devin more often embedded in workflow-heavy repositories and Codex and Cursor more frequently merged without interaction, indicating that observed outcomes reflect deployment context as much as agent-generated code.",
+    "location": "p4"
+   },
+   "assessment": "small-n: CC qualitative findings from 8 sampled rejected PRs.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2602.00164",
+   "doi": "10.1145/3793302.3793611",
+   "title": "Why Are AI Agent\u2013Involved Pull Requests (Fix-Related) Remain Unmerged? An Empirical Study",
+   "authors": [
+    "Khairul Alam",
+    "Saikat Mondal",
+    "Banani Roy"
+   ],
+   "venue": "MSR 2026 Mining Challenge (ICSE 2026 co-located)",
+   "msr2026_challenge": true,
+   "aidev_version": "AIDev-pop (33,596 PRs) -> 8,106 fix-related",
+   "agents_with_claims": [
+    "Claude Code",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "Claude Code 115 66 (57.4%) 25 (21.7%) 24 (20.9%) [Total PRs, Merged, Closed w/o Merge, Open]",
+     "location": "p3, Table 1"
+    },
+    {
+     "agent": "Devin",
+     "quote": "Merge rates differ considerably by agent, ranging from 81.6% (OpenAI Codex) to 42.9% (Devin), suggesting that real-world effectiveness may depend on agent design and alignment with project workflows.",
+     "location": "p4"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "Claude Code (115)",
+    "location": "p2"
+   },
+   "bias_discussion": {
+    "discusses": "no",
+    "quote": null,
+    "location": null
+   },
+   "assessment": "rate-related: CC fix merge rate on 115 PRs; 20.9% still open at collection.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2601.18749",
+   "doi": "10.1145/3793302.3793567",
+   "title": "Let's Make Every Pull Request Meaningful: An Empirical Analysis of Developer and Agentic Pull Requests",
+   "authors": [
+    "Haruhiko Yoshioka",
+    "Takahiro Monno",
+    "Haruka Tokumasu",
+    "Taiki Wakamatsu",
+    "Yuki Ota",
+    "Nimmi Weeraddana",
+    "Kenichi Matsumoto"
+   ],
+   "venue": "MSR 2026 Mining Challenge (ICSE 2026 co-located)",
+   "msr2026_challenge": true,
+   "aidev_version": "AIDev (33,596 agentic + 6,618 human PRs)",
+   "agents_with_claims": [
+    "Devin",
+    "(Claude Code, Cursor excluded)"
+   ],
+   "claims": [
+    {
+     "agent": "Devin",
+     "quote": "For example, within the PR change size and commit family, a unit increase in the number of commits linked to a PR increases merge likelihood by 2.11 times for Copilot and 1.57 times for OpenAI Codex, but is associated with an approximately 7% decrease in merge odds for Devin.",
+     "location": "p4"
+    },
+    {
+     "agent": "Claude Code / Cursor (exclusion)",
+     "quote": "Note that we exclude the logistic regression models for Cursor and Claude Code because they exceed the degrees-of-freedom budget defined as # PRs in minority class [9, 10].",
+     "location": "p4"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "Cursor (\ud835\udc41 = 1, 541), Devin (\ud835\udc41 = 4, 827), and Claude Code (\ud835\udc41 = 459)",
+    "location": "p2"
+   },
+   "bias_discussion": {
+    "discusses": "small-n exclusion",
+    "quote": "Additionally, Cursor and Claude Code were excluded from RQ3 due to small sample sizes (\ud835\udc41 =1,541 and \ud835\udc41 =459), limiting generalizability of our results for these agents.",
+    "location": "p4"
+   },
+   "assessment": "not exposed for CC (excluded); Devin identification checked out near-complete in SM-002.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2604.00299",
+   "doi": null,
+   "title": "When is Generated Code Difficult to Comprehend? Assessing AI Agent Python Code Proficiency in the Wild",
+   "authors": [
+    "Nanthit Temkulkiat",
+    "Chaiyong Ragkhitwetsagul",
+    "Morakot Choetkiertikul",
+    "Ruksit Rojpaisarnkit",
+    "Raula Gaikovina Kula"
+   ],
+   "venue": "MSR 2026 Mining Challenge (ICSE 2026 co-located)",
+   "msr2026_challenge": true,
+   "aidev_version": "AIDev-pop (>100 stars), merged Python PRs",
+   "agents_with_claims": [
+    "Cursor",
+    "Devin",
+    "(Claude Code excluded)"
+   ],
+   "claims": [
+    {
+     "agent": "Cursor",
+     "quote": "Copilot and Cursor show the highest proportion of C1 and C2 constructs (1.18% and 0.44%), respectively.",
+     "location": "p3, Table 3"
+    },
+    {
+     "agent": "Claude Code (exclusion)",
+     "quote": "Nonetheless, Claude Code and OpenAI Codex attribute their contributions to human developers [5]. Thus, the authors of the commits using them were varied, and we could not precisely decide which commits were actually made by agents. To ensure the validity of our analysis, we restricted ourselves to analyzing only the three remaining agents: Copilot, Cursor, and Devin.",
+     "location": "p3, Sec 3"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "Collected merged PRs ... 591 ... Analyzed by pycefr ... 524 [PRs]",
+    "location": "p3, Table 2"
+   },
+   "bias_discussion": {
+    "discusses": "YES - CC attribution",
+    "quote": "Nonetheless, Claude Code and OpenAI Codex attribute their contributions to human developers [5]. Thus, the authors of the commits using them were varied, and we could not precisely decide which commits were actually made by agents.",
+    "location": "p3"
+   },
+   "assessment": "not exposed for CC (excluded on attribution grounds).",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2602.19441",
+   "doi": null,
+   "title": "When AI Teammates Meet Code Review: Collaboration Signals Shaping the Integration of Agent-Authored Pull Requests",
+   "authors": [
+    "Costain Nachuma",
+    "Minhaz F. Zibran"
+   ],
+   "venue": "MSR 2026 Mining Challenge (ICSE 2026 co-located)",
+   "msr2026_challenge": true,
+   "aidev_version": "AIDev Zenodo version 3 (accessed Nov 2025)",
+   "agents_with_claims": [
+    "Claude Code (reference category)",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code (reference)",
+     "quote": "Claude Code is used as the reference category for agent indicators.",
+     "location": "p3, Sec 4.3"
+    },
+    {
+     "agent": "Devin",
+     "quote": "For example, OpenAI_Codex shows the highest merge share (82.6%), while Copilot merges substantially less often (43.0%); Devin lies in between (53.8%).",
+     "location": "p2"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": null,
+    "location": null,
+    "note": "Agent odds ratios (Devin, Cursor, Copilot, OpenAI vs. Claude Code baseline) appear only in a figure; values UNVERIFIED."
+   },
+   "bias_discussion": {
+    "discusses": "no",
+    "quote": null,
+    "location": null
+   },
+   "assessment": "rate-related: every agent odds ratio in the merge model is relative to the trailer-selected CC baseline (459 PRs in AIDev-pop).",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "DOI:10.1145/3793302.3793600",
+   "doi": "10.1145/3793302.3793600",
+   "title": "The Dose Makes the Agent: Therapeutic Index Analysis of AI Coding Contributions",
+   "authors": [
+    "Giuseppe Destefanis",
+    "Ronnie de Souza Santos",
+    "Marco Ortu",
+    "Mairieli Wessel"
+   ],
+   "venue": "MSR 2026 Mining Challenge (ICSE 2026 co-located)",
+   "msr2026_challenge": true,
+   "aidev_version": "AIDev >100-star subset (Hugging Face), 33,078 PRs",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "Claude Code | 457 | 59.1% | -0.12 | 17,419 | 85.9",
+     "location": "Table 2 (Agent, N, Baseline, \u03b21, ED50, TI)"
+    },
+    {
+     "agent": "Claude Code",
+     "quote": "Bootstrap confidence intervals reveal substantial sampling uncertainty, with coefficients of variation from 0.42 (Devin) to 20.7 (Claude Code).",
+     "location": "Sec 3.1"
+    },
+    {
+     "agent": "Cursor",
+     "quote": "TI values range from 23.1 (Cursor) to 214.2 (Copilot).",
+     "location": "Sec 3.1"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "Claude Code | 457 | 0.591",
+    "location": "Table 1"
+   },
+   "bias_discussion": {
+    "discusses": "generic selection",
+    "quote": "Agent selection effects may also confound results [9].",
+    "location": "Sec 4, Internal Validity"
+   },
+   "assessment": "size-related (the whole analysis is dose = churn): CC dose-response is estimated on the trailer-selected subset, which SM-002 found larger than typical CC PRs; CV 20.7 already flags the estimate as unstable.",
+   "verification": "VERIFIED from ACM DL full-text HTML (open access, CC-BY 4.0); excerpt saved papers/acm/3793600_dose.md"
+  },
+  {
+   "id": "DOI:10.1145/3793302.3793588",
+   "doi": "10.1145/3793302.3793588",
+   "title": "Characterizing Self-Admitted Technical Debt Generated by AI Coding Agents",
+   "authors": [
+    "Zaki Brahmi",
+    "Ali Ouni",
+    "Mohammed Sayagh",
+    "Mohamed Aymen Saied"
+   ],
+   "venue": "MSR 2026 Mining Challenge (ICSE 2026 co-located)",
+   "msr2026_challenge": true,
+   "aidev_version": "AIDev-pop (856 repos, >500 stars), commit level; Codex excluded",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "Claude | 111 | 457 | 589 | 2 | 1.80 | 0.44 | 0.34",
+     "location": "Table 1 (#Commits, #Files, #Comments, SATDs, %Commits, %Files, %Comments)"
+    },
+    {
+     "agent": "Cursor",
+     "quote": "Among the agents, Cursor has the highest SATD ratio per commit (2.8%) and per file (0.72%), indicating that its generated code more often contains technical debt.",
+     "location": "Sec 3.1.1",
+     "note": "Table 1 prints Copilot %Commits = 2.90 and Cursor = 2.83; quoted as written."
+    },
+    {
+     "agent": "Devin",
+     "quote": "In contrast, Devin shows the highest SATD density per comment (1.1%), meaning that its comments are more likely to contain explicit technical debt.",
+     "location": "Sec 3.1.1"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "Claude | 111 [commits] ... 2 [SATDs]",
+    "location": "Table 1"
+   },
+   "bias_discussion": {
+    "discusses": "YES - CC identification named",
+    "quote": "In contrast, other agents explicitly indicate their authorship at the commit level, except for Claude, whose authorship is extracted from the \u201c Co-Authored-By: Claude\u201d message.",
+    "location": "Sec 2.1"
+   },
+   "assessment": "small-n: CC = 2 SATDs in 111 commits; Claude is then absent from Tables 2-4.",
+   "verification": "VERIFIED from ACM DL full-text HTML; excerpt saved papers/acm/3793588_satd.md"
+  },
+  {
+   "id": "DOI:10.1145/3793302.3793598",
+   "doi": "10.1145/3793302.3793598",
+   "title": "Studying the Footprints of AI Coding Agents in Blockchain Repositories",
+   "authors": [
+    "Munim Iftikhar",
+    "Maaz Shahid",
+    "Shahreyar Ashraf",
+    "Muhammad Saqib Ilyas",
+    "Abdul Ali Bangash"
+   ],
+   "venue": "MSR 2026 Mining Challenge (ICSE 2026 co-located)",
+   "msr2026_challenge": true,
+   "aidev_version": "AIDev (version July 2025), 33,596 PRs; 162 blockchain repos, 497 PRs",
+   "agents_with_claims": [
+    "Claude Code (grouped)",
+    "Cursor (grouped)",
+    "Devin (grouped)"
+   ],
+   "claims": [
+    {
+     "agent": "Cursor / Claude Code (low-contribution group)",
+     "quote": "high-contribution agents (Codex, Devin) and low-contribution agents (Copilot, Cursor, Claude Code) have similar PR acceptance rates (57%), high-contribution agents achieve 15 hours faster PR resolution times.",
+     "location": "Sec 7"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "The number of PRs each agent contributed is 230 (Codex), 137 (Devin), 109 (Copilot), 17 (Cursor), and 4 (Claude Code).",
+    "location": "Sec 3.2"
+   },
+   "bias_discussion": {
+    "discusses": "small-n (CC called an outlier)",
+    "quote": "We calculated the average number of contributions across agents, excluding Claude Code as an outlier (only 4 PRs).",
+    "location": "Sec 3.2"
+   },
+   "assessment": "small-n: CC contributes 4 of 130 low-group PRs; grouped claim barely exposed.",
+   "verification": "VERIFIED from ACM DL full-text HTML; excerpt saved papers/acm/3793598_blockchain.md"
+  },
+  {
+   "id": "arXiv:2601.17581",
+   "doi": "10.1145/3793302.3793603",
+   "title": "How AI Coding Agents Modify Code: A Large-Scale Study of GitHub Pull Requests",
+   "authors": [
+    "Daniel Ogenrwot",
+    "John Businge"
+   ],
+   "venue": "MSR 2026 Mining Challenge (ICSE 2026 co-located)",
+   "msr2026_challenge": true,
+   "aidev_version": "AIDev MSR 2026 Mining Challenge version (retrieved Nov 1, 2025); 24,014 merged agentic PRs",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "Within the Agentic group, Claude Code and OpenAI Codex display somewhat greater variability in their additions, whereas Devin, Cursor, and especially Copilot produce more consistently small and localized changes.",
+     "location": "p2, Fig. 2"
+    },
+    {
+     "agent": "Claude Code",
+     "quote": "Claude Code and OpenAI Codex again show a wider spread than other agents, while Devin, Cursor, and Copilot exhibit narrow distributions that reflect highly localized edits.",
+     "location": "p3, Fig. 3"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": null,
+    "location": null,
+    "note": "Per-agent counts within the 24,014 merged agentic PRs not printed in the text read; UNVERIFIED."
+   },
+   "bias_discussion": {
+    "discusses": "no",
+    "quote": null,
+    "location": null
+   },
+   "assessment": "size-related: a qualitative claim that CC PRs have wider size spread, measured on the trailer-caught subset that SM-002 found larger than typical CC PRs.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2609.17598",
+   "doi": null,
+   "title": "Not All Agents Are Equal: Code Quality and Post-Merge Maintenance Across Five Autonomous Coding Agents in the Wild",
+   "authors": [
+    "Obada Kraishan"
+   ],
+   "venue": "arXiv preprint (Sep 2026)",
+   "msr2026_challenge": false,
+   "aidev_version": "AIDev-pop (2,807 repos, Dec 2024-Jul 2025) + 58,792 GitHub API responses",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "Claude Code PRs wait longest for a first human review (median 12.6 hours vs. 1\u20134 hours elsewhere), plausibly because its PRs are an order of magnitude larger.",
+     "location": "p7, Fig. 5"
+    },
+    {
+     "agent": "Claude Code",
+     "quote": "Cursor (1.6%) and Codex (2.5%) are the cleanest; Claude Code is the outlier at 9.5%, roughly twice [sentence continues after Fig. 2; continuation not captured]",
+     "location": "p4, Fig. 2 (security-smell presence)"
+    },
+    {
+     "agent": "Claude Code",
+     "quote": "Normalizing by PR size (2) sharpens the ranking: Claude Code shows the lowest churn per changed line of any group (\u03b4 = \u2212.33 vs. humans, medium, p < .001; median ci = 0.5 vs. 5.3 for humans)",
+     "location": "p5, Sec 4.3"
+    },
+    {
+     "agent": "Devin",
+     "quote": "Codex-authored PRs were reverted about half as often as human PRs (6.1% vs. 11.5%, odds ratio 0.50), while Devin PRs were reverted more often (14.5%, odds ratio 1.31).",
+     "location": "p1, Abstract"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "Claude Code 459 271 456 241 495 [PRs, Merged, Enrich., Anal., Med. changed lines]; Table 2: 'Claude Code 267 10.5% 0.90 [0.60, 1.36] .878'",
+    "location": "p3 Table 1; p5 Table 2",
+    "note": "Brief's 459 confirmed as CC corpus total. The number of CC PRs behind the 12.6 h median (PRs with >=1 human review) is not printed; paper says review coverage is '5\u201351% by group'."
+   },
+   "bias_discussion": {
+    "discusses": "size confound + small n; not identification",
+    "quote": "Size is the confound to watch. Claude Code\u2019s higher smell prevalence, heavier structure, and slower first review all co-occur with PRs about eight times the median size of the other groups.",
+    "location": "p7, Sec 5"
+   },
+   "assessment": "size-related: the paper itself ties all three CC outliers to PR size (median 495 changed lines); SM-002 shows the trailer-caught subset is larger than typical CC PRs, so the size gap is partly a selection effect.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2606.22711",
+   "doi": null,
+   "title": "Beyond Simpson's Paradox: A Cascade of Confounders in AI Agent Pull-Request Co-Authorship",
+   "authors": [
+    "Haoran Yu",
+    "Xiaochong Jiang",
+    "Lifei Liu",
+    "Su Wang",
+    "Pin Qian",
+    "Yihang Chen"
+   ],
+   "venue": "KDD 2026 Workshop on Agentic Software Engineering (SE 3.0) (per arXiv comment)",
+   "msr2026_challenge": false,
+   "aidev_version": "AIDev-pop (33,596 PRs incl. Claude Code n = 459)",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "Restricting to non-bot co-author emails leaves the within-repo Copilot finding essentially unchanged (+36.1 vs +36.2 pp) but reveals a previously masked positive Claude Code effect (cross-sectional +33.8 pp, \ud835\udc5b=47).",
+     "location": "p4, Limitations"
+    },
+    {
+     "agent": "Claude Code",
+     "quote": "Claude Code 76.7% 60.2% 55.1% +5.1 pp [% coauth, MR (coauth), MR (pure), \u0394]",
+     "location": "p3, Table 1"
+    },
+    {
+     "agent": "Devin",
+     "quote": "Devin\u2019s cross-sectional gap (+33.5 pp) collapses to +1.6 pp (\ud835\udc5d = 0.73) within repos.",
+     "location": "p3"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "cross-sectional +33.8 pp, \ud835\udc5b=47",
+    "location": "p4"
+   },
+   "bias_discussion": {
+    "discusses": "YES - CC trailer self-attribution",
+    "quote": "Our headline definition counts any trailer as \u201ccollaborative,\u201d which is conservative for Copilot/Cursor/Devin (where \u2265 99% of trailers are human emails) but inflates apparent collaboration for Claude Code and Codex, which often self-attribute via noreply@anthropic.com.",
+    "location": "p4"
+   },
+   "assessment": "small-n + rate-related: +33.8 pp on n=47; a trailer-based co-authorship split inside a population that was itself selected by a trailer.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2607.21832",
+   "doi": null,
+   "title": "How Do AI Coding Agents Contribute to Software Development? an Empirical Study of Agentic Pull Requests",
+   "authors": [
+    "Iren Mazloomzadeh",
+    "Mohammad Mehdi Morovati",
+    "Foutse Khomh"
+   ],
+   "venue": "arXiv preprint (Jul 2026)",
+   "msr2026_challenge": false,
+   "aidev_version": "AIDev (Hugging Face, Aug 10, 2025 update) to select Python repos (>=100 stars), plus GitHub-collected PRs",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "Among the studied agents, Claude (84.3%) and Codex (73.5%) achieve the highest PRs merge probabilities.",
+     "location": "p10, GLMM EMM table"
+    },
+    {
+     "agent": "Claude Code",
+     "quote": "The pairwise comparisons indicate that PRs generated by Claude exhibit a significantly higher probability of being merged compared to those generated by Copilot, Cursor, and Devin (p-value < 0.05), suggesting superior performance of Claude in terms of PRs merge rate.",
+     "location": "p13"
+    },
+    {
+     "agent": "Claude Code",
+     "quote": "By comparing agentic PRs, the results of the statistical analysis reported in Table 8 indicate that PRs generated by Claude modify significantly more LOC, on average, than those generated by the other studied agents.",
+     "location": "p27"
+    },
+    {
+     "agent": "Devin",
+     "quote": "In contrast, Devin exhibits the lowest merge probability, with only 43% of its generated PRs being accepted.",
+     "location": "p10"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "Claude Code 50 54,481 219 166 53 [# Repos with \u2265 1 A-PR, # All PRs, # A-PRs, # AM-PRs, # AR-PRs]",
+    "location": "p7, Table (repos with >=1 agentic PR)"
+   },
+   "bias_discussion": {
+    "discusses": "names the trailer criterion; generic unobserved-agent caveat",
+    "quote": "For Claude Code, we included repositories with at least one PR whose body explicitly contained the message \"Co-Authored-By: Claude\".",
+    "location": "p6; also p37: 'some agent-assisted contributions may not be explicitly identifiable through repository metadata'"
+   },
+   "assessment": "size-related + rate-related + small-n: 'Claude highest merge probability' (219 PRs, 50 repos) and 'Claude modifies significantly more LOC' are both measured on trailer-identified PRs; SM-002 found that subset larger than typical CC PRs, so the LOC claim is directly exposed.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2608.00966",
+   "doi": null,
+   "title": "AgenTag: Attribution of AI Coding Agents from Behavioral Fingerprints",
+   "authors": [
+    "Taher A. Ghaleb"
+   ],
+   "venue": "arXiv preprint (Aug 2026)",
+   "msr2026_challenge": false,
+   "aidev_version": "AIDev-pop (33,580 PRs after cleaning) + 6,618 human PRs",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "Because every one of the 458 Claude Code PRs includes a \u201cCo-Authored-By: Claude\u201d line, identifying the agent from unstripped text would be circular.",
+     "location": "p12"
+    },
+    {
+     "agent": "Claude Code",
+     "quote": "Restoring the removed markers provides little benefit overall, except for Claude Code (0.45 \u2192 0.72), whose dataset label is derived mainly from its trailer.",
+     "location": "p8, Table V"
+    },
+    {
+     "agent": "Claude Code",
+     "quote": "Cursor writes plain, minimally structured descriptions, whereas Claude Code uses much longer commit messages (median 231 characters after stripping its trailer vs. 58 for the next agent), with a summaryplus-bullets format in 74% of PRs.",
+     "location": "p7"
+    },
+    {
+     "agent": "Cursor",
+     "quote": "A few PRs contain markers from multiple agents (e.g., 11 Cursor PRs include a Claude Code trailer), indicating multi-agent workflows, but these markers are stripped before attribution.",
+     "location": "p12"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "Claude Code (458, 1.4%)",
+    "location": "p3"
+   },
+   "bias_discussion": {
+    "discusses": "YES - directly",
+    "quote": "This mode is not hypothetical: AIDev can identify Claude Code from its commit trailer, since it commits under the developer\u2019s account [1], and we later find that at least 5% of AIDev\u2019s human-labeled PRs are in fact agent-assisted (Section V-D).",
+    "location": "p2"
+   },
+   "assessment": "not exposed as a claim about CC behaviour; this paper independently documents that AIDev's CC label is trailer-derived (circularity) and that >=5% of AIDev human-labelled PRs are agent-assisted - corroborating context for SM-002.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2601.00477",
+   "doi": null,
+   "title": "Security in the Age of AI Teammates: An Empirical Study of Agentic Pull Requests on GitHub",
+   "authors": [
+    "Mohammed Latif Siddiq",
+    "Xinye Zhao",
+    "Vinicius Carvalho Lopes",
+    "Beatrice Casey",
+    "Joanna C. S. Santos"
+   ],
+   "venue": "Under minor revision, Information and Software Technology (per arXiv comment)",
+   "msr2026_challenge": false,
+   "aidev_version": "AIDev-pop (33,596 PRs, >=100 stars)",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "Claude Code has the highest security-PR rate (14.6%) but also the largest merge-rate gap: its security PRs merge at 58.6%, compared with 73.6% for non-security PRs (+15.0 pp).",
+     "location": "p27, Table 5"
+    },
+    {
+     "agent": "Claude Code",
+     "quote": "Critically, this difference persists within each semantic category: for Vulnerability Fix PRs alone, the median body length is 37 words for Codex versus 356 words for Copilot and 477 words for Claude Code",
+     "location": "p37"
+    },
+    {
+     "agent": "Devin",
+     "quote": "Securityrelated PRs authored by Devin experience the largest median delay (+16.08 hours), followed by Copilot (+5.46 hours) and Claude Code (+3.42 hours)",
+     "location": "p34"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "Claude Code\u2019s small footprint (n = 67 confirmed security PRs, statistical",
+    "location": "p46, Threats"
+   },
+   "bias_discussion": {
+    "discusses": "small-n / recency",
+    "quote": "We treat Claude Code figures as a preliminary snapshot reflecting its recent public release (2025-Q2\u2013Q3).",
+    "location": "p47"
+   },
+   "assessment": "rate-related + small-n: CC security share and merge gap on 67 confirmed security PRs from the trailer subset.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2605.08017",
+   "doi": "10.1145/3805760.3814893",
+   "title": "Collaborator or Assistant? How AI Coding Agents Partition Work across Pull Request Lifecycles",
+   "authors": [
+    "Young Jo",
+    " Chung",
+    "Safwat Hassan"
+   ],
+   "venue": "AIware 2026",
+   "msr2026_challenge": false,
+   "aidev_version": "AIDev curated >100-star subset (33,600 -> 29,585 included)",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "Claude has a split profile: it meets the Assistant threshold by initiation pattern (\u226595.6% human-initiated), yet its review behavior resembles Collaborator tools: 37.6% direct resolution, closer to Cursor (34.6%) than to OpenAI (76.5%).",
+     "location": "p8"
+    },
+    {
+     "agent": "Cursor / Devin",
+     "quote": "Collaborator tools route PRs through Review (Copilot 90.3%, Cursor 51.3%, Devin 52.2%) with substantive revision loops",
+     "location": "p5"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "Claude Code 459 1 120 338 [Total, No-Commit, Incomplete, Included]",
+    "location": "p4, Table 1"
+   },
+   "bias_discussion": {
+    "discusses": "small-n",
+    "quote": "Claude\u2019s classification as Assistant rests on its initiation pattern (\u226595.6% human-initiated) and should be interpreted with caution given \ud835\udc5b = 338; replication with a larger Claude corpus is needed before drawing firm conclusions about its position on the spectrum.",
+    "location": "p8"
+   },
+   "assessment": "rate-related: '\u226595.6% human-initiated' is partly definitional for a population selected by a human-account commit trailer.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2609.37985",
+   "doi": null,
+   "title": "Merged, Not Measured: An Empirical Study of Performance Issues Fixed by Coding Agents",
+   "authors": [
+    "Zhenyu Qi",
+    "Haotang Li",
+    "Jinfu Chen",
+    "Huashan Chen",
+    "Yutong Zhao",
+    "Derui Zhu",
+    "Tomas Cerny",
+    "Bo Liu",
+    "Sen He"
+   ],
+   "venue": "arXiv preprint (Sep 2026)",
+   "msr2026_challenge": false,
+   "aidev_version": "AIDev v4 (71,677 agent PRs in >100-star repos, to 2025-10-24)",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "Codex, Claude Code and Jules are each accepted in 73% of cases, Copilot in 50%, Cursor in 42% and Devin in 30%.",
+     "location": "p19"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "Claude Code 36 51 37 73% [Repos, Fixes, Merged, Accepted]",
+    "location": "p19, table 'By agent'"
+   },
+   "bias_discussion": {
+    "discusses": "same-vendor judge bias, not identification",
+    "quote": "The blind-pair judge and the re-execution agent are Claude Opus models, and 60 of the 1,262 fixes come from Claude Code, so a samevendor bias in judging that agent\u2019s fixes cannot be ruled out for those two instruments.",
+    "location": "p44"
+   },
+   "assessment": "rate-related + small-n: 51 closed CC fixes.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2604.19965",
+   "doi": null,
+   "title": "Insights into Security-Related AI-Generated Pull Requests",
+   "authors": [
+    "Md Fazle Rabbi",
+    "Asif K. Turzo",
+    "Arifa I. Champa",
+    "Minhaz F. Zibran"
+   ],
+   "venue": "EASE 2026 (per arXiv comment)",
+   "msr2026_challenge": false,
+   "aidev_version": "AIDev (version updated Aug 1, 2025), >100-star repos",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "Claude Code Copilot High Low ... Total CMs 188 83 ... Accepted 112 50 ... Acceptance Rate (%) 59.6% 60.2%",
+     "location": "p11, Table 8"
+    },
+    {
+     "agent": "Cursor",
+     "quote": "Cursor has nearly half of its rejected PRs labeled as Introduce bugs or break APIs (46.7%), suggesting recurring functional issues.",
+     "location": "p12"
+    },
+    {
+     "agent": "Devin",
+     "quote": "Devin exhibits the most Are inactive rejections (31.6%), consistent with automated closure behavior.",
+     "location": "p12"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "Total CMs 188 83 [Claude Code high / low quality commit messages]",
+    "location": "p11, Table 8"
+   },
+   "bias_discussion": {
+    "discusses": "no",
+    "quote": null,
+    "location": null
+   },
+   "assessment": "rate-related: CC acceptance by commit-message quality; modest exposure.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2609.26847",
+   "doi": null,
+   "title": "Who Finishes the Job? A Study of Follow-Up Fixes and Commit Authorship on AI Coding Agent Pull Requests",
+   "authors": [
+    "Wannita Takerngsaksiri",
+    "Nhat Duong",
+    "Scott Barnett"
+   ],
+   "venue": "arXiv preprint (Sep 2026)",
+   "msr2026_challenge": false,
+   "aidev_version": "AIDev-pop (>=500 stars), 6,774 merged agent PRs",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "The rate ranges from 3.2 % (Claude Code, n=63) to 5.5 % (OpenAI Codex, n=2, 049).",
+     "location": "p8"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "It is worth noting that the population of Claude Code is small due to half of the PRs (67 of 130) being merged after the 30-day cut-off date, so they are dropped.",
+    "location": "p8"
+   },
+   "bias_discussion": {
+    "discusses": "small-n",
+    "quote": "Note that Claude Code\u2019s population is small from RQ1, because most PRs fall after the 30-day cut-off date.",
+    "location": "p10"
+   },
+   "assessment": "small-n: 3.2% of 63 merges = ~2 fixes (count not printed).",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2602.04226",
+   "doi": null,
+   "title": "Why Agentic-PRs Get Rejected: A Comparative Study of Coding Agents",
+   "authors": [
+    "Sota Nakashima",
+    "Yuta Ishimoto",
+    "Masanari Kondo",
+    "Shane Mclntosh",
+    "Yasutaka Kamei"
+   ],
+   "venue": "arXiv preprint (5 pages)",
+   "msr2026_challenge": false,
+   "aidev_version": "AIDev (932,791 PRs; >100-star subset)",
+   "agents_with_claims": [
+    "Claude Code",
+    "Devin",
+    "Cursor"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "Claude Code ... #PR 380 ... Acceptance Rate 71.3%",
+     "location": "p2, Table 1"
+    },
+    {
+     "agent": "Devin",
+     "quote": "Figure 1 shows that PRs generated by Devin have a markedly higher proportion of rejections due to Are inactive (author/community) (32.1%).",
+     "location": "p3"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "The smallest group is Claude Code, with 109 rejected PRs; therefore, we randomly sample 109 rejected PRs from each of the six groups, yielding 654 PRs in total.",
+    "location": "p2"
+   },
+   "bias_discussion": {
+    "discusses": "no",
+    "quote": null,
+    "location": null
+   },
+   "assessment": "rate-related: CC acceptance on 380 PRs; sample size of every agent's rejection analysis is set by the CC count.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2606.18168",
+   "doi": "10.1109/AITest70988.2026.00038",
+   "title": "All Smoke, No Alarm: Oracle Signals in Agent-Authored Test Code",
+   "authors": [
+    "Dipayan Banik",
+    "Kowshik Chowdhury",
+    "Shazibul Islam Shamim"
+   ],
+   "venue": "IEEE AITest 2026",
+   "msr2026_challenge": false,
+   "aidev_version": "AIDev-pop (33,596 PRs, 86,156 test-file patches)",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "Second, newly created files show higher strong-oracle rates than modified files (\u03c72 = 810.2, p < 0.001), ranging from 18% for OpenAI Codex to 67% for Claude Code.",
+     "location": "p2"
+    },
+    {
+     "agent": "Claude Code / Devin",
+     "quote": "First, agents differ in how often they introduce oracle signals (\u03c72 = 2497.3, p < 0.001), with Claude Code and Devin producing stronger oracle profiles than Copilot, Cursor, and OpenAI Codex.",
+     "location": "p2"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "Claude Code ... 41% strong (n=1,923) ... (b) Newly Added Files Claude Code ... 67% strong (n=461)",
+    "location": "p3, Figure/Table 1"
+   },
+   "bias_discussion": {
+    "discusses": "no",
+    "quote": null,
+    "location": null
+   },
+   "assessment": "size-related: patch counts scale with PR size; 1,923 CC test patches come from 459 PRs.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2604.03551",
+   "doi": "10.1145/3805760.3814923",
+   "title": "AgenticFlict: A Large-Scale Dataset of Merge Conflicts in AI Coding Agent Pull Requests on GitHub",
+   "authors": [
+    "Daniel Ogenrwot",
+    "John Businge"
+   ],
+   "venue": "AIware 2026",
+   "msr2026_challenge": false,
+   "aidev_version": "AIDev full (932,791 PRs, Hugging Face as of Jan 5, 2026)",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "Claude_Code also demonstrates relatively high conflict rates (26.86%), although with wider confidence intervals due to smaller sample size.",
+     "location": "p5"
+    },
+    {
+     "agent": "Claude Code",
+     "quote": "Claude_Code 779 202 25.93 22.85 29.01 [PRs, Conflicting PRs, Conflict Rate (%), 95% CI Low, High]",
+     "location": "p6, Table 2",
+     "note": "Text (26.86%) and table (25.93%) print different CC rates; both quoted as written."
+    },
+    {
+     "agent": "Cursor / Devin",
+     "quote": "Copilot exhibits the lowest conflict rate at 15.43%, followed by Cursor (20.06%) and Devin (23.04%).",
+     "location": "p5"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "Claude_Code 779 202",
+    "location": "p6, Table 2"
+   },
+   "bias_discussion": {
+    "discusses": "small-n (wide CI)",
+    "quote": "although with wider confidence intervals due to smaller sample size",
+    "location": "p5"
+   },
+   "assessment": "size-related: merge-conflict likelihood rises with PR size (the paper plots conflict rate vs churn), and the trailer-caught CC subset skews large.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2607.04697",
+   "doi": null,
+   "title": "AI Agent Pull Requests on GitHub: Frequency, Structure, and Merge Conflict Rates",
+   "authors": [
+    "George Xu",
+    "Arjun Subramanian",
+    "Nithilan Karthik"
+   ],
+   "venue": "arXiv preprint (Jul 2026)",
+   "msr2026_challenge": false,
+   "aidev_version": "AIDev-pop (33,596 PRs, 2,807 repos)",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "Devin achieved the highest rates of PR-level co-activity at 82.5%, followed by OpenAI Codex at 80.9%, Copilot at 76.7%, Cursor at 69.8%, and Claude Code at 39.7%.",
+     "location": "p5"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "Claude Code (459)",
+    "location": "p3"
+   },
+   "bias_discussion": {
+    "discusses": "no",
+    "quote": null,
+    "location": null
+   },
+   "assessment": "rate-related: CC co-activity share computed on trailer-identified PRs; whether untagged CC PRs share the pattern is untested.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2605.21453",
+   "doi": "10.1145/3805760.3814886",
+   "title": "Quality and Security Signals in AI-Generated Python Refactoring Pull Requests",
+   "authors": [
+    "Mohamed Almukhtar",
+    "Anwar Ghammam",
+    "Hua Ming"
+   ],
+   "venue": "AIware 2026 (per S2 DOI)",
+   "msr2026_challenge": false,
+   "aidev_version": "AIDev (33,596 PRs >100 stars) -> 438 Python refactoring PRs",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "Claude Code had 2 of 6 PRs merged (33.3%), but this percentage is based on very few instances and should not be overinterpreted.",
+     "location": "p8"
+    },
+    {
+     "agent": "Cursor",
+     "quote": "Cursor PRs were merged in 19 of 31 cases (61.3%), followed by Copilot with 23 of 42 merged PRs (54.8%) and Devin with 16 of 38 merged PRs (42.1%).",
+     "location": "p8"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "6 by Claude Code",
+    "location": "p2"
+   },
+   "bias_discussion": {
+    "discusses": "small-n",
+    "quote": "Finally, Claude_Code has very few samples (only 7 per QA), so its percentages may not be informative.",
+    "location": "p4"
+   },
+   "assessment": "small-n: 6 PRs.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2607.05666",
+   "doi": null,
+   "title": "What Do AI Agents Actually Change? An Empirical Taxonomy of Mutation Patterns in Performance-Improving Pull Requests",
+   "authors": [
+    "Illia Dovhoshliubnyi",
+    "Nima Soroush",
+    "Ashkan Sami",
+    "Alexander Brownlee"
+   ],
+   "venue": "SSBSE 2026 Challenge track (per replication-package name; UNVERIFIED)",
+   "msr2026_challenge": false,
+   "aidev_version": "AIDev-pop",
+   "agents_with_claims": [
+    "Devin",
+    "Cursor",
+    "(Claude Code excluded)"
+   ],
+   "claims": [
+    {
+     "agent": "Devin",
+     "quote": "Devin (670 total) is dominated by name modification (361; 54%), reflecting dependency substitution at scale.",
+     "location": "p4"
+    },
+    {
+     "agent": "Claude Code (exclusion)",
+     "quote": "Category assignments are broken down by agent (Claude Code excluded due to small sample size, n=16).",
+     "location": "p4"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "n=16",
+    "location": "p4"
+   },
+   "bias_discussion": {
+    "discusses": "small-n exclusion",
+    "quote": "Claude Code excluded due to small sample size, n=16",
+    "location": "p4"
+   },
+   "assessment": "not exposed for CC (excluded).",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2606.22721",
+   "doi": null,
+   "title": "Habituation at the Gate: Rising Approval and Declining Scrutiny in Human Review of AI Agent Code",
+   "authors": [
+    "Haoran Yu",
+    "Lifei Liu",
+    "Xiaochong Jiang",
+    "Yuwen Jia",
+    "Su Wang",
+    "Pin Qian",
+    "Yihang Chen"
+   ],
+   "venue": "KDD 2026 Workshop on Agentic Software Engineering (per arXiv comment)",
+   "msr2026_challenge": false,
+   "aidev_version": "AIDev (>100-star repos), 16,895 human reviews",
+   "agents_with_claims": [
+    "Cursor",
+    "Devin",
+    "(Claude Code excluded)"
+   ],
+   "claims": [
+    {
+     "agent": "Cursor",
+     "quote": "Cursor (\ud835\udc5b = 10 pairs) shows \u221210.3 pp, but this estimate is extremely noisy given the small sample.",
+     "location": "p3"
+    },
+    {
+     "agent": "Claude Code (exclusion)",
+     "quote": "We focus our per-agent analysis on the four agents with sufficient repeat-reviewer coverage; Claude Code contributes <2% of repeatreviewer reviews.",
+     "location": "p2"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "Cursor (\ud835\udc5b = 10 pairs)",
+    "location": "p3"
+   },
+   "bias_discussion": {
+    "discusses": "small-n",
+    "quote": "Codex (\ud835\udc5b = 51) and Cursor (\ud835\udc5b = 18) are underpowered for reliable agentspecific conclusions.",
+    "location": "p4"
+   },
+   "assessment": "not exposed for CC (excluded).",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2609.06213",
+   "doi": null,
+   "title": "Beyond Lexical Metrics: Sentence-Embedding Detection of Reviewer Habituation in AI Code Review",
+   "authors": [
+    "Haoran Yu",
+    "Lifei Liu",
+    "Danping Zhang"
+   ],
+   "venue": "arXiv preprint (Sep 2026)",
+   "msr2026_challenge": false,
+   "aidev_version": "AIDev (>=100 stars, Jan-Jul 2025)",
+   "agents_with_claims": [
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Devin",
+     "quote": "Cross-agent generalisation is examined among multi-agent reviewers in the AIDev cohort; agent-specific RQ1 effects, where data are sufficient (Copilot n = 209, Devin n = 88), are similar in direction.",
+     "location": "p10"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": "Devin n = 88",
+    "location": "p10"
+   },
+   "bias_discussion": {
+    "discusses": "states AIDev attribution precision",
+    "quote": "The dataset provides PR metadata, reviewer events, and inline review comments; agent attribution combines commit signatures, bot account markers, and PR-metadata patterns at 94% precision per the dataset authors.",
+    "location": "p4",
+    "note": "The '94% precision' figure is attributed to the AIDev authors; not located in the AIDev papers read here (UNVERIFIED). Precision is not recall: SM-002's 1-in-11 finding is a recall gap."
+   },
+   "assessment": "not exposed (no CC claim); notable as a downstream paper asserting AIDev attribution quality.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2507.15003",
+   "doi": null,
+   "title": "The Rise of AI Teammates in Software Engineering (SE) 3.0: How Autonomous Coding Agents Are Reshaping Software Engineering (AIDev v1 paper)",
+   "authors": [
+    "Hao Li",
+    "Haoxiang Zhang",
+    "Ahmed E. Hassan"
+   ],
+   "venue": "arXiv preprint (dataset paper)",
+   "msr2026_challenge": false,
+   "aidev_version": "AIDev v1 (456,535 PRs) / AIDev-pop",
+   "agents_with_claims": [
+    "Claude Code",
+    "Cursor",
+    "Devin"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "In Figure 3, both OpenAI Codex (88.6%) and Claude Code (85.7%) outperform the human baseline (76.5%) in documentation-related PRs.",
+     "location": "p10, Fig. 3"
+    },
+    {
+     "agent": "Claude Code / Cursor / Devin",
+     "quote": "In Devin, Cursor, and Claude Code, human reviewers remain dominant, with 33.2%, 32.6%, and 23.8% of PRs reviewed solely by humans, respectively.",
+     "location": "p13"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": null,
+    "location": null,
+    "note": "Per-agent n behind the 85.7% docs figure not printed in text read; UNVERIFIED."
+   },
+   "bias_discussion": {
+    "discusses": "describes the trailer query and that it can be disabled",
+    "quote": "While Claude Code includes a default \u201cCo-Authored-By: Claude\u201d message (which can be disabled), OpenAI Codex provides no attribution at all.",
+    "location": "p16"
+   },
+   "assessment": "rate-related + small-n: the dataset authors' own CC docs-acceptance figure, on the trailer-selected subset.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  },
+  {
+   "id": "arXiv:2606.24429",
+   "doi": null,
+   "title": "Detecting AI Coding Agents in Open Source: A Validated Multi-Method Census of 180 Million Repositories",
+   "authors": [
+    "Arsham Khosravani",
+    "Audris Mockus"
+   ],
+   "venue": "arXiv preprint (Jun 2026)",
+   "msr2026_challenge": false,
+   "aidev_version": "compares against AIDev (context paper, not an AIDev user)",
+   "agents_with_claims": [
+    "Claude Code (detection)"
+   ],
+   "claims": [
+    {
+     "agent": "Claude Code",
+     "quote": "Adding message-signature detection (commits with Co-authored-by: Claude <noreply@anthropic.com> or a Generated with Claude Code trailer) identifies an additional 821,824 distinct commits; the intersection of the two methods is 21,971 commits.",
+     "location": "p6"
+    }
+   ],
+   "n_behind_claim": {
+    "quote": null,
+    "location": null,
+    "note": "Context entry; brief's 5,137 vs 850,157 figures not re-extracted here."
+   },
+   "bias_discussion": {
+    "discusses": "YES",
+    "quote": "Their methodology is PR-centric, capturing Type A agents (centralized bot accounts) but missing silent tools (Type D) and distributed-attribution agents (Type C).",
+    "location": "p2"
+   },
+   "assessment": "context: independent evidence of AIDev CC under-coverage.",
+   "verification": "VERIFIED from primary text (arXiv PDF, pdftotext); page = PDF page"
+  }
+ ]
+}
