@@ -24,7 +24,7 @@ body = f'''<main class="paper">
 <p class="id">SECOND MEASUREMENTS</p>
 <h1>Rechecks</h1>
 <p class="plain">Each paper's check runs again on a schedule, and every result stays here. A claim that is still wrong months later reads differently from one that was fixed the week after we wrote.</p>
-<p class="meta"><span>Updated {datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M")} UTC</span><span>SM-001 daily, SM-005 weekly, SM-006 monthly</span></p>
+<p class="meta"><span>Updated {datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M")} UTC</span><span>SM-001 daily, SM-005 and SM-007 weekly, SM-006 monthly</span></p>
 
 <h2>SM-001 · Google's Pixel software ledger</h2>
 <p>Google says the log covers every factory image on its download page, from Pixel 6 on. <a href="sm-001.html">Paper</a>.</p>
@@ -44,8 +44,17 @@ body = f'''<main class="paper">
        [[H(r["date"]), fmt(r["settlements"]), fmt(r["payers"]), f'{r["busiest_payer_share"]}%', f'${r["value_usd"]:,.0f}', f'${r["median_usd"]}',
          f'{r["group_a"]["share"]:.1f}%', f'{r["group_b"]["share"]:.1f}%', f'{r["same_wallets_as_august"][0]}/{r["group_a"]["wallets"]}, {r["same_wallets_as_august"][1]}/{r["group_b"]["wallets"]}'] for r in s6])}
 <p class="cap">Group shares come from 400 random blocks per day. Counts include every EIP-3009 transfer, so they are upper bounds on x402.</p>
-<p>Scripts: <a href="https://github.com/MarkovianProtocol/second-measurements/tree/main/rechecks">github.com/MarkovianProtocol/second-measurements/rechecks</a>.</p>
 '''
+s7 = load("sm-007")
+body += f'''
+<h2>SM-007 · Docker Official Images signatures</h2>
+<p>Docker committed to signed SBOM and provenance attestations for all Official Images. Its old signing service shuts down on 8 December 2026. <a href="sm-007.html">Paper</a>.</p>
+{table([("Date",0),("Linux images attested",1),("Repos checked for signatures",1),("Signed",1),("Days to 8 Dec shutdown",1)],
+       [[H(r["date"]), f'{r["linux_attested"]:,} of {r["linux_images"]:,}', fmt(r["repos_checked_for_signatures"]), fmt(r["signed"]), fmt(r["days_to_notary_shutdown"])] for r in s7])}
+<p class="cap">Weekly: a random 300 image entries for coverage, 10 repositories for signatures (attestation envelope and referrers). The first row is the full census.</p>
+'''
+
+body += '<p>Scripts: <a href="https://github.com/MarkovianProtocol/second-measurements/tree/main/rechecks">github.com/MarkovianProtocol/second-measurements/rechecks</a>.</p>\n'
 sys.path.insert(0, R); import og_tags
 open(os.path.join(SITE, "rechecks.html"), "w").write(og_tags.apply(head + body + foot, "rechecks"))
 print("wrote", os.path.join(SITE, "rechecks.html"))
