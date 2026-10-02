@@ -1,8 +1,8 @@
-# SM-003: Half of a well-known collection of software ingredient lists came from one robot
+# SM-003: Wild SBOMs was billed as the work of many developers. Nearly half came from one robot
 
-An SBOM is an ingredients list for software. Wild SBOMs is a research collection of 78,612 of them, described as written by many real developers. Nearly half (37,306) came from one automated run in 2022. A 2026 study used the collection to say GitHub's tool leaves out which ingredient depends on which. That was the robot's tool, from another company; GitHub's own tool records them for 78 of 78 projects we checked.
+An SBOM is an ingredients list for software, and Wild SBOMs is a research collection of 78,612 of them, described as written by practitioners in the wild. We traced where they came from: 37,306, almost half, were made by a single automated run in 2022. That robot then sent a 2026 study down the wrong path. The “GitHub tool” it blamed for missing dependency links was the robot's own tool, from another company; GitHub's real exporter records those links in 78 of 78 projects we checked.
 
-Paper: [https://markovianprotocol.com/measurements/sm-003.html](https://markovianprotocol.com/measurements/sm-003.html) · log leaf [9096](https://log.markovianprotocol.com/leaf/9096) · Sent to the authors 2026-10-01, response pending
+Paper: [https://markovianprotocol.com/measurements/sm-003.html](https://markovianprotocol.com/measurements/sm-003.html) · log leaf [9118](https://log.markovianprotocol.com/leaf/9118) · Sent to the authors 2026-10-01, response pending
 
 ## Run it
 

@@ -1,8 +1,8 @@
-# SM-005: Meta's private-AI log updates half as often as its whitepaper says
+# SM-005: Meta's whitepaper says its private-AI log refreshes every 3 hours. Since January it's been every 6
 
-When WhatsApp or Meta's AI glasses send a request to Meta's private AI servers, those servers are only supposed to run software Meta has published in a public log, which Cloudflare runs. Meta's whitepaper says the list of pulled software is republished every 3 hours. We fetched every entry since June 2025: it's been every 6 hours since January, and the whitepaper's March update still says 3. The server software is described as updated weekly, but only 37 of 70 weeks have a new entry, including one six-week stretch with none.
+When WhatsApp or Meta's AI glasses hand a request to Meta's private AI servers, those servers may only run software listed in a public log that Cloudflare keeps. Meta's whitepaper says the list of pulled software is republished every 3 hours. We fetched all 2,690 entries since June 2025: it slowed to every 4 hours in October and every 6 since January, and the whitepaper's March update still says 3. The server software is described as weekly, but only 37 of 70 weeks have a new entry, including a six-week stretch with none.
 
-Paper: [https://markovianprotocol.com/measurements/sm-005.html](https://markovianprotocol.com/measurements/sm-005.html) · log leaf [9098](https://log.markovianprotocol.com/leaf/9098) · Sent to Meta 2026-10-01, response pending
+Paper: [https://markovianprotocol.com/measurements/sm-005.html](https://markovianprotocol.com/measurements/sm-005.html) · log leaf [9120](https://log.markovianprotocol.com/leaf/9120) · Sent to Meta 2026-10-01, response pending
 
 ## Run it
 

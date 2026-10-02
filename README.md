@@ -5,13 +5,13 @@ Public claims about logs and datasets, recomputed by a different path than the o
 | | Finding | Status | |
 |---|---|---|---|
 | [SM-001](sm-001/) | Google's Pixel ledger promised every release. January went missing, and stayed missing for eight months | Confirmed and fixed by Google | [paper](https://markovianprotocol.com/measurements/sm-001.html) |
-| [SM-002](sm-002/) | A research dataset finds only 1 in 11 of Claude Code's pull requests | Sent to the authors 2026-09-30, response pending | [paper](https://markovianprotocol.com/measurements/sm-002.html) |
-| [SM-003](sm-003/) | Half of a well-known collection of software ingredient lists came from one robot | Sent to the authors 2026-10-01, response pending | [paper](https://markovianprotocol.com/measurements/sm-003.html) |
-| [SM-004](sm-004/) | We checked whisper.online's public ledger with our own code, and it holds up | Reproduced and confirmed by the operator | [paper](https://markovianprotocol.com/measurements/sm-004.html) |
+| [SM-002](sm-002/) | The dataset behind 39 studies of Claude Code can see 1 in 11 of its pull requests | Sent to the authors 2026-09-30, response pending | [paper](https://markovianprotocol.com/measurements/sm-002.html) |
+| [SM-003](sm-003/) | Wild SBOMs was billed as the work of many developers. Nearly half came from one robot | Sent to the authors 2026-10-01, response pending | [paper](https://markovianprotocol.com/measurements/sm-003.html) |
+| [SM-004](sm-004/) | We tried to catch whisper.online's ledger out. It passed every test, and we found it sending us ten copies of everything | Reproduced and confirmed by the operator | [paper](https://markovianprotocol.com/measurements/sm-004.html) |
 | [SM-008](sm-008/) | A federal directive says CISA rates every CVE. Since March, it has rated almost no Linux kernel bugs | Published | [paper](https://markovianprotocol.com/measurements/sm-008.html) |
 | [SM-007](sm-007/) | Docker promised signed attestations for every Official Image. The attestations arrived; the signatures didn't | Sent to Docker 2026-10-02, response pending | [paper](https://markovianprotocol.com/measurements/sm-007.html) |
 | [SM-006](sm-006/) | x402 payments on Base fell by three-quarters in two months, and the same two operators still send most of them | Sent to the authors 2026-10-01, response pending | [paper](https://markovianprotocol.com/measurements/sm-006.html) |
-| [SM-005](sm-005/) | Meta's private-AI log updates half as often as its whitepaper says | Sent to Meta 2026-10-01, response pending | [paper](https://markovianprotocol.com/measurements/sm-005.html) |
+| [SM-005](sm-005/) | Meta's whitepaper says its private-AI log refreshes every 3 hours. Since January it's been every 6 | Sent to Meta 2026-10-01, response pending | [paper](https://markovianprotocol.com/measurements/sm-005.html) |
 
 [A review of the first month](https://markovianprotocol.com/measurements/review-2026-10.html) puts every check side by side; `review/aidev-map.json` lists the 47 papers built on AIDev that report agent-specific results, with quotes and sample sizes; `rechecks/` reruns SM-001, SM-005 and SM-006 on a schedule ([live page](https://markovianprotocol.com/measurements/rechecks.html)).
 

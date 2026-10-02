@@ -1,8 +1,8 @@
-# SM-002: A research dataset finds only 1 in 11 of Claude Code's pull requests
+# SM-002: The dataset behind 39 studies of Claude Code can see 1 in 11 of its pull requests
 
-AIDev is a collection of code changes made by AI coding tools, and 62 research papers this year studied it. To find Claude Code's changes, it searches for a line Claude Code writes somewhere else. Over the same dates, its search finds 16,065 changes; searching for the line Claude Code actually writes there finds 173,066. The ones it did find are bigger than usual, so research on that sample studied an unusual slice.
+AIDev is the field's go-to dataset for studying AI coding agents, and 39 published studies use it to say how Claude Code behaves. To find Claude Code's pull requests it searches for a line Claude Code writes in commits, and skips the line it writes by default in pull-request descriptions. Over the same dates that search finds 16,065; searching for both finds 173,066. The ones it does catch run bigger than typical: a median of 736 changed lines against 447.
 
-Paper: [https://markovianprotocol.com/measurements/sm-002.html](https://markovianprotocol.com/measurements/sm-002.html) · log leaf [9103](https://log.markovianprotocol.com/leaf/9103) · Sent to the authors 2026-09-30, response pending
+Paper: [https://markovianprotocol.com/measurements/sm-002.html](https://markovianprotocol.com/measurements/sm-002.html) · log leaf [9117](https://log.markovianprotocol.com/leaf/9117) · Sent to the authors 2026-09-30, response pending
 
 ## Run it
 
