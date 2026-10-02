@@ -28,6 +28,7 @@ Earlier measurements in their own repos: [x402-second-measurement](https://githu
 - `mcp_endpoint_redirects.py`: a 2026 census found 4.2% of multi-version MCP registry servers moved their endpoint to a different host. Recomputed: 4.02%. Of those tied to a verified domain, 116 of 135 stayed with that domain's owner; 283 of 418 are GitHub-account names with no domain to check.
 - `github_cve_credits.py`: a 2026 paper found GitHub leaves reporter credits out of the CVE records it assigns. Still so: 0 of the newest 150 CVE records and 0 of their OSV files carry credits, though every advisory names someone.
 - `homebrew_bottle_attestations.py`: Homebrew says it attests every bottle its CI builds. 599 of 600 sampled bottles are attested by its CI or its backfill signer; the exception is `ht` 2.1.0's two Monterey bottles, still served with no attestation, reported as [homebrew-core#314985](https://github.com/Homebrew/homebrew-core/issues/314985).
+- `nvd_kev_enrichment.py`: NIST's goal is to enrich known-exploited CVEs within one business day. All 163 added since 15 April 2026 made it; 95 needed work and took a median of 19.5 hours.
 
 ## How the papers are pinned
 
