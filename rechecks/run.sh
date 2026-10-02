@@ -6,6 +6,7 @@ case $1 in
   sm005) python3 sm005.py ;;
   sm006) ./sm006.sh ;;
   sm007) python3 sm007.py ;;
+  sm008) python3 sm008.py ;;
 esac
 python3 render.py ${RECHECKS_SITE:-$R/out}
 $R/stamp.sh

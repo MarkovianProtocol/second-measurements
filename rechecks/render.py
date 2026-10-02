@@ -24,7 +24,7 @@ body = f'''<main class="paper">
 <p class="id">SECOND MEASUREMENTS</p>
 <h1>Rechecks</h1>
 <p class="plain">Each paper's check runs again on a schedule, and every result stays here. A claim that is still wrong months later reads differently from one that was fixed the week after we wrote.</p>
-<p class="meta"><span>Updated {datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M")} UTC</span><span>SM-001 daily, SM-005 and SM-007 weekly, SM-006 monthly</span></p>
+<p class="meta"><span>Updated {datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M")} UTC</span><span>SM-001 daily, SM-005, SM-007 and SM-008 weekly, SM-006 monthly</span></p>
 
 <h2>SM-001 · Google's Pixel software ledger</h2>
 <p>Google says the log covers every factory image on its download page, from Pixel 6 on. <a href="sm-001.html">Paper</a>.</p>
@@ -52,6 +52,15 @@ body += f'''
 {table([("Date",0),("Linux images attested",1),("Repos checked for signatures",1),("Signed",1),("Days to 8 Dec shutdown",1)],
        [[H(r["date"]), f'{r["linux_attested"]:,} of {r["linux_images"]:,}', fmt(r["repos_checked_for_signatures"]), fmt(r["signed"]), fmt(r["days_to_notary_shutdown"])] for r in s7])}
 <p class="cap">Weekly: a random 300 image entries for coverage, 10 repositories for signatures (attestation envelope and referrers). The first row is the full census.</p>
+'''
+
+s8 = load("sm-008")
+body += f'''
+<h2>SM-008 · CISA&rsquo;s answers on Linux kernel CVEs</h2>
+<p>CISA&rsquo;s directive says it publishes three answers for every CVE. Kernel CVEs have had almost none since March. <a href="sm-008.html">Paper</a>.</p>
+{table([("Date",0),("CVEs published in window",0),("Kernel CVEs published",1),("Kernel with CISA&rsquo;s answers",1),("Others with answers",1)],
+       [[H(r["date"]), H(r["window"]), fmt(r["kernel_published"]), f'{r["kernel_with_answers"]} of {r["kernel_sampled"]}', f'{r["other_with_answers"]} of {r["other_sampled"]}'] for r in s8])}
+<p class="cap">Weekly: 30 random kernel CVEs and 30 others from the week ending two days before the check. The first row is the paper&rsquo;s sample.</p>
 '''
 
 body += '<p>Scripts: <a href="https://github.com/MarkovianProtocol/second-measurements/tree/main/rechecks">github.com/MarkovianProtocol/second-measurements/rechecks</a>.</p>\n'
