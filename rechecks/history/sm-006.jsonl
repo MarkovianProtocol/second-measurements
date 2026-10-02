@@ -1,0 +1,2 @@
+{"date": "2026-08-05", "blocks": "49556153-49599353", "settlements": 234490, "payers": 3704, "busiest_payer_share": 56.9, "value_usd": 558695.15, "median_usd": 0.015, "group_a": {"wallets": 15, "share": 61.15}, "group_b": {"wallets": 5, "share": 19.29}, "same_wallets_as_august": [15, 5]}
+{"date": "2026-10-01", "blocks": "52006727-52049927", "settlements": 63003, "payers": 8478, "busiest_payer_share": 10.3, "value_usd": 452910.48, "median_usd": 0.005, "group_a": {"wallets": 15, "share": 60.1}, "group_b": {"wallets": 5, "share": 19.95}, "same_wallets_as_august": [15, 5]}
