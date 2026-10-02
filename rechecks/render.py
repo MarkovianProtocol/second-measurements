@@ -46,5 +46,6 @@ body = f'''<main class="paper">
 <p class="cap">Group shares come from 400 random blocks per day. Counts include every EIP-3009 transfer, so they are upper bounds on x402.</p>
 <p>Scripts: <a href="https://github.com/MarkovianProtocol/second-measurements/tree/main/rechecks">github.com/MarkovianProtocol/second-measurements/rechecks</a>.</p>
 '''
-open(os.path.join(SITE, "rechecks.html"), "w").write(head + body + foot)
+sys.path.insert(0, R); import og_tags
+open(os.path.join(SITE, "rechecks.html"), "w").write(og_tags.apply(head + body + foot, "rechecks"))
 print("wrote", os.path.join(SITE, "rechecks.html"))

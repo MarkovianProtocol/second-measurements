@@ -2,7 +2,7 @@
 
 AIDev is a collection of code changes made by AI coding tools, and 62 research papers this year studied it. To find Claude Code's changes, it searches for a line Claude Code writes somewhere else. Over the same dates, its search finds 16,065 changes; searching for the line Claude Code actually writes there finds 173,066. The ones it did find are bigger than usual, so research on that sample studied an unusual slice.
 
-Paper: [https://markovianprotocol.com/measurements/sm-002.html](https://markovianprotocol.com/measurements/sm-002.html) · log leaf [9046](https://log.markovianprotocol.com/leaf/9046) · Sent to the authors 2026-09-30, response pending
+Paper: [https://markovianprotocol.com/measurements/sm-002.html](https://markovianprotocol.com/measurements/sm-002.html) · log leaf [9095](https://log.markovianprotocol.com/leaf/9095) · Sent to the authors 2026-09-30, response pending
 
 ## Run it
 

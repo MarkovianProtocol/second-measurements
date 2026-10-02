@@ -2,7 +2,7 @@
 
 x402 is a way for programs to pay each other small amounts in USDC over the web. A July 2026 study counted 136.7 million of these payments on Base and found most of them were manufactured rather than real trade. In August we counted one day ourselves and got 234,490. We ran the same count again for the day ending 1 October and got 63,003, about a quarter as many. Who sends them hasn't changed: two groups of wallets that move in step submitted about 80% of them on both days.
 
-Paper: [https://markovianprotocol.com/measurements/sm-006.html](https://markovianprotocol.com/measurements/sm-006.html) · log leaf [9055](https://log.markovianprotocol.com/leaf/9055) · Sent to the authors 2026-10-01, response pending
+Paper: [https://markovianprotocol.com/measurements/sm-006.html](https://markovianprotocol.com/measurements/sm-006.html) · log leaf [9099](https://log.markovianprotocol.com/leaf/9099) · Sent to the authors 2026-10-01, response pending
 
 ## Run it
 
