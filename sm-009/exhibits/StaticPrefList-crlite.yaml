@@ -1,0 +1,47 @@
+#    certificates that chain to the Mozilla root store unless
+#    security.OCSP.require is true. Firefox will, however, fetch OCSP for EV
+#    certificates that chain to the Mozilla root store (unless
+#    security.OCSP.enable is 0).
+- name: security.pki.crlite_mode
+  type: RelaxedAtomicUint32
+  value: 2
+  mirror: always
+
+# The CRLite filter channel to which the user is subscribed.
+# - "default" => clubcards that contain all revocations
+# - "compat" => clubcards that contain priority revocations
+- name: security.pki.crlite_channel
+  type: String
+#ifdef ANDROID
+  value: "compat"
+#else
+  value: "default"
+#endif
+  mirror: never
+
+# The number of SCTs that must be "covered" by a CRLite filter before
+# we will enforce a result from that filter.
+- name: security.pki.crlite_timestamps_for_coverage
+  type: RelaxedAtomicUint32
+  value: 1
+  mirror: always
+  rust: true
+
+- name: security.pki.use_modern_crypto_with_pkcs12
+  type: RelaxedAtomicBool
+
+# OCSP fetching behavior:
+# 0: do not fetch OCSP
+# 1: fetch OCSP for DV and EV certificates
+# 2: fetch OCSP only for EV certificates
+- name: security.OCSP.enabled
+  type: RelaxedAtomicUint32
+#ifdef ANDROID
+  value: 2
+#else
+  value: 1
+#endif
+  mirror: always
+
+
+# Whether or not OCSP is required.

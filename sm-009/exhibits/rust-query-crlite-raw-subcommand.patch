@@ -1,0 +1,89 @@
+diff --git a/rust-query-crlite/src/main.rs b/rust-query-crlite/src/main.rs
+index 4c884fd..0d81878 100644
+--- a/rust-query-crlite/src/main.rs
++++ b/rust-query-crlite/src/main.rs
+@@ -54,6 +54,7 @@ type IssuerDN = Vec<u8>;
+ type DERCert = Vec<u8>;
+ 
+ #[derive(Debug)]
++#[derive(PartialEq)]
+ enum Status {
+     Expired,
+     Good,
+@@ -632,6 +633,59 @@ fn query_certs(db: &CRLiteDB, files: &[PathBuf]) -> Result<CmdResult, CRLiteDBEr
+     }
+ }
+ 
++/// Added for the Second Measurements check (markovianprotocol.com/measurements): query by
++/// issuer SPKI hash + serial + SCT (log id, timestamp) pairs, without a certificate in hand.
++/// Same filter loop as `CRLiteDB::query`, minus the expiry check (done by the caller).
++fn query_raw(db: &CRLiteDB, file: &PathBuf) -> Result<CmdResult, CRLiteDBError> {
++    use base64::engine::general_purpose::STANDARD;
++    let text = std::fs::read_to_string(file)?;
++    let mut found_revoked = false;
++    for line in text.lines() {
++        let parts: Vec<&str> = line.split_whitespace().collect();
++        if parts.len() < 3 {
++            continue;
++        }
++        let label = parts[0];
++        let spki_hash: [u8; 32] = match URL_SAFE.decode(parts[1]).ok().and_then(|v| v.try_into().ok()) {
++            Some(h) => h,
++            None => { warn!("{} bad spki hash", label); continue; }
++        };
++        let serial = match hex::decode(parts[2]) {
++            Ok(s) => s,
++            Err(_) => { warn!("{} bad serial", label); continue; }
++        };
++        let mut timestamps: Vec<([u8; 32], u64)> = vec![];
++        if parts.len() > 3 {
++            for item in parts[3].split(';') {
++                if let Some((id_b64, ts)) = item.rsplit_once(':') {
++                    if let (Ok(id), Ok(ts)) = (STANDARD.decode(id_b64), ts.parse::<u64>()) {
++                        if let Ok(id) = id.try_into() { timestamps.push((id, ts)); }
++                    }
++                }
++            }
++        }
++        let mut maybe_good = false;
++        let mut covered = false;
++        let mut status = Status::NotCovered;
++        for filter in &db.filters {
++            let r = filter.has(&spki_hash, &serial, &timestamps);
++            trace!("{}: {:?}", filter.name(), r);
++            match r {
++                Status::Revoked => { status = Status::Revoked; break; }
++                Status::Good => maybe_good = true,
++                Status::NotEnrolled => covered = true,
++                _ => (),
++            }
++        }
++        if status != Status::Revoked {
++            status = if maybe_good { Status::Good } else if covered { Status::NotEnrolled } else { Status::NotCovered };
++        }
++        if status == Status::Revoked { found_revoked = true; }
++        info!("{} {:?}", label, status);
++    }
++    Ok(if found_revoked { CmdResult::SomeRevoked } else { CmdResult::NoneRevoked })
++}
++
+ fn query_crtsh_id(db: &CRLiteDB, id: &str) -> Result<CmdResult, CRLiteDBError> {
+     let cert_bytes = &reqwest::blocking::get(format!("https://crt.sh/?d={id}"))
+         .map_err(|_| CRLiteDBError::from("could not fetch crt.sh item"))?
+@@ -712,6 +766,8 @@ enum Subcommand {
+     X509 { files: Vec<PathBuf> },
+     /// Query a certificate by its crt.sh id
+     Crtsh { id: String },
++    /// Query raw keys from a file: one per line, "<label> <issuer_spki_sha256_b64url> <serial_hex> <logid_b64:timestamp_ms;...>"
++    Raw { file: PathBuf },
+ }
+ 
+ #[derive(PartialEq)]
+@@ -770,6 +826,7 @@ fn main() {
+         }
+         Subcommand::X509 { ref files } => query_certs(&db, files),
+         Subcommand::Crtsh { ref id } => query_crtsh_id(&db, id),
++        Subcommand::Raw { ref file } => query_raw(&db, file),
+     };
+ 
+     match result {

@@ -4,6 +4,7 @@ Public claims about logs and datasets, recomputed by a different path than the o
 
 | | Finding | Status | |
 |---|---|---|---|
+| [SM-009](sm-009/) | Firefox promised a list of every revoked certificate. A third of the ones revoked on day one aren't on it, and it no longer asks anyone else | Sent to Mozilla 2026-10-02, response pending | [paper](https://markovianprotocol.com/measurements/sm-009.html) |
 | [SM-001](sm-001/) | Google's Pixel ledger promised every release. January went missing, and stayed missing for eight months | Confirmed and fixed by Google | [paper](https://markovianprotocol.com/measurements/sm-001.html) |
 | [SM-002](sm-002/) | The dataset behind 39 studies of Claude Code can see 1 in 11 of its pull requests | Sent to the authors 2026-09-30, response pending | [paper](https://markovianprotocol.com/measurements/sm-002.html) |
 | [SM-003](sm-003/) | Wild SBOMs was billed as the work of many developers. Nearly half came from one robot | Sent to the authors 2026-10-01, response pending | [paper](https://markovianprotocol.com/measurements/sm-003.html) |

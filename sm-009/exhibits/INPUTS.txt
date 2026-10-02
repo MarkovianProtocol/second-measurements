@@ -1,0 +1,16 @@
+ccadb_mozilla_intermediates.csv   https://ccadb.my.salesforce-sites.com/mozilla/MozillaIntermediateCertsCSVReport   (fetched 2026-10-02 ~19:40Z; 1,771 intermediates; CRL URLs in "Full CRL Issued By This CA" and "JSON Array of Partitioned CRLs")
+ccadb_crls.json                   the 18,328 CRL URLs extracted from it, with issuer subject/SHA-256
+crl_scan.json.gz                  12 random CRLs per CA organisation, parsed; revocations dated 2–30 days before 2026-10-02
+crl_scan_big.json.gz              150 random CRL shards per organisation with more than 100 CRL URLs
+remote-settings-cert-revocations.json  https://firefox.settings.services.mozilla.com/v1/buckets/security-state/collections/cert-revocations/records (2026-10-02; 124 records: snapshot 20260902-0 + deltas, both channels)
+20260902-0-default.filter         the current full filter (snapshot), default channel, 6,324,250 bytes
+20261002-1-default.filter.delta   the newest delta at query time (effective 2026-10-02T13:01:41Z)
+coverage-*.txt                    coverage metadata of those two files, printed by clubcard-crlite's `inspect` example
+results.json                      every sampled revocation: CRL source, crt.sh id, SCT timestamps used, verdicts on both channels, x509 cross-check
+exhibit_mozilla_blog_crlite.html  https://blog.mozilla.org/en/firefox/crlite/ (2025-08-19)
+NSSCertDBTrustDomain.cpp          https://github.com/mozilla-firefox/firefox/blob/main/security/certverifier/NSSCertDBTrustDomain.cpp (fetched 2026-10-02)
+StaticPrefList-crlite.yaml        lines from modules/libpref/init/StaticPrefList.yaml (mozilla-central tip, 2026-10-02)
+crlite-issue-367*.json, crlite-issue-376*.json   github.com/mozilla/crlite issues 367 and 376 with comments
+google_all_logs_list.json, apple_log_list.json   CT log lists (log ids, operators, merge delays)
+example-revoked-still-good.der    a certificate issued 2026-09-22 16:38:14Z and revoked 16:40:41Z by its CA; example-crl.der and example-crl-entry.txt hold the CA's CRL and entry; example-query-*.log the filter-by-filter trace
+rust-query-crlite-raw-subcommand.patch   our 89-line addition to Mozilla's rust-query-crlite (query by issuer key hash, serial, SCT timestamps); crlite-upstream-commit.txt names the upstream commit

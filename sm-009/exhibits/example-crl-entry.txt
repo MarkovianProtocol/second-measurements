@@ -1,0 +1,5 @@
+CRL: http://crl.global.sheca.com/govtlscav2a1.crl
+issuer: CN=SHECA OV TLS RSA CA A1,O=UniTrust,C=CN
+thisUpdate: 2026-10-02T09:02:13+00:00
+entries: 160
+serial 11a620cae4d9e34c80122a2affe1bc04 revoked 2026-09-22T16:40:41+00:00
