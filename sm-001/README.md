@@ -1,8 +1,8 @@
-# SM-001: Google's Pixel software ledger was missing a whole month
+# SM-001: Google's Pixel ledger promised every release. January went missing, and stayed missing for eight months
 
 Google keeps a public list that is supposed to include every software release for Pixel phones, so anyone can check their phone got the same software as everyone else. In September the entire January 2026 release was missing from it: 29 files. We told Google, they found an update run had been skipped, and they added them. One smaller problem is still open: 103 Android 17 entries are filed under a label phones don't report, so a phone can't find its own entry.
 
-Paper: [https://markovianprotocol.com/measurements/sm-001.html](https://markovianprotocol.com/measurements/sm-001.html) · DOI [10.5281/zenodo.23070510](https://doi.org/10.5281/zenodo.23070510) · log leaf [9094](https://log.markovianprotocol.com/leaf/9094) · Confirmed and fixed by Google
+Paper: [https://markovianprotocol.com/measurements/sm-001.html](https://markovianprotocol.com/measurements/sm-001.html) · DOI [10.5281/zenodo.23070510](https://doi.org/10.5281/zenodo.23070510) · log leaf [9116](https://log.markovianprotocol.com/leaf/9116) · Confirmed and fixed by Google
 
 ## Run it
 

@@ -4,7 +4,7 @@ Public claims about logs and datasets, recomputed by a different path than the o
 
 | | Finding | Status | |
 |---|---|---|---|
-| [SM-001](sm-001/) | Google's Pixel software ledger was missing a whole month | Confirmed and fixed by Google | [paper](https://markovianprotocol.com/measurements/sm-001.html) |
+| [SM-001](sm-001/) | Google's Pixel ledger promised every release. January went missing, and stayed missing for eight months | Confirmed and fixed by Google | [paper](https://markovianprotocol.com/measurements/sm-001.html) |
 | [SM-002](sm-002/) | A research dataset finds only 1 in 11 of Claude Code's pull requests | Sent to the authors 2026-09-30, response pending | [paper](https://markovianprotocol.com/measurements/sm-002.html) |
 | [SM-003](sm-003/) | Half of a well-known collection of software ingredient lists came from one robot | Sent to the authors 2026-10-01, response pending | [paper](https://markovianprotocol.com/measurements/sm-003.html) |
 | [SM-004](sm-004/) | We checked whisper.online's public ledger with our own code, and it holds up | Reproduced and confirmed by the operator | [paper](https://markovianprotocol.com/measurements/sm-004.html) |
