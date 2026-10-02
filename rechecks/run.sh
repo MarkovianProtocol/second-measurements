@@ -7,3 +7,4 @@ case $1 in
   sm006) ./sm006.sh ;;
 esac
 python3 render.py ${RECHECKS_SITE:-$R/out}
+$R/stamp.sh

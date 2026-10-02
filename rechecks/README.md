@@ -9,4 +9,4 @@ Scheduled reruns of three papers' checks, each appending one line to `history/`.
 | `sm005.py` | SM-005, Meta Private Processing cadence on Cloudflare Plexi, plus a hash of the whitepaper | weekly |
 | `sm006.sh` | SM-006, one fresh 24-hour x402 count on Base (about 2 hours; needs the `sm-006/` scripts in `./x402`) | monthly |
 
-`run.sh sm001|sm005|sm006` runs one and rebuilds the page into `$RECHECKS_SITE`. Python 3 standard library only.
+`run.sh sm001|sm005|sm006` runs one and rebuilds the page into `$RECHECKS_SITE`, then `stamp.sh` puts the new version's sha256 in the Markovian log once the public URL serves it. Python 3 standard library only.
