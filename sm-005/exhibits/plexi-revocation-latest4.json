@@ -1,0 +1,46 @@
+[
+ {
+  "version": 1,
+  "ciphersuite": 1,
+  "namespace": "prod.pc.revocation_list",
+  "timestamp": 1790881278098,
+  "epoch": 2694,
+  "digest": "81d4232008d430b99906d7f4cbc7340404c0bba342478bdaec1d7c580335a11f",
+  "signature": "4ea5fbcb4b94e2e2887815bcb08a7c3d65740596a00cc472e2d5ecfcc31531b1ac918fc1b41e9190dbd4978a29c074f2cd8f630ec6f071c9d15de7b962d4e705",
+  "key_id": 212,
+  "serialized_message": "0801121770726f642e70632e7265766f636174696f6e5f6c6973741892d1dec68f3422030886152a2081d4232008d430b99906d7f4cbc7340404c0bba342478bdaec1d7c580335a11f"
+ },
+ {
+  "version": 1,
+  "ciphersuite": 1,
+  "namespace": "prod.pc.revocation_list",
+  "timestamp": 1790902842012,
+  "epoch": 2695,
+  "digest": "0859d5affb503e5a88e3cacfcfc6ade0cc66f9c018b4044c76bc7efc49e3d065",
+  "signature": "bb301b23fd6aa9badedf38b83675809a935f372aeeaefd9f4155c1999c979a65a226ab5fb0f71a5c5cd68d49acc748cbb7ff2ffe27a634effdce4fb54e908404",
+  "key_id": 212,
+  "serialized_message": "0801121770726f642e70632e7265766f636174696f6e5f6c697374189ce582d18f3422030887152a200859d5affb503e5a88e3cacfcfc6ade0cc66f9c018b4044c76bc7efc49e3d065"
+ },
+ {
+  "version": 1,
+  "ciphersuite": 1,
+  "namespace": "prod.pc.revocation_list",
+  "timestamp": 1790924438766,
+  "epoch": 2696,
+  "digest": "c5af89d770816d8ad9a36edb8c161b735ac80a31ba489cb11aa72afd45aee0f0",
+  "signature": "bc4656abf7772c232f532bb67dade78fa866f17bb7977c73da4b36bb55ebaf0b365e82f7f941734be6caf96ef210ad7d6968b42b65a11e96b53ca4fba295010d",
+  "key_id": 212,
+  "serialized_message": "0801121770726f642e70632e7265766f636174696f6e5f6c69737418eef9a8db8f3422030888152a20c5af89d770816d8ad9a36edb8c161b735ac80a31ba489cb11aa72afd45aee0f0"
+ },
+ {
+  "version": 1,
+  "ciphersuite": 1,
+  "namespace": "prod.pc.revocation_list",
+  "timestamp": 1790946041795,
+  "epoch": 2697,
+  "digest": "5b27cb3aae0d9cbfe3ad0f3b6b8d9e3d59d27ed79cbe625dcfc6ff48ab8f59d5",
+  "signature": "2c17052e0a1d4fe661f39d548de9ad14126726021eb734fb92e345b56ec6ba7e1753e4669eb79491d27dd7eb653a546a971c1da114e61fe0b5dd52b56162f902",
+  "key_id": 212,
+  "serialized_message": "0801121770726f642e70632e7265766f636174696f6e5f6c69737418c3bfcfe58f3422030889152a205b27cb3aae0d9cbfe3ad0f3b6b8d9e3d59d27ed79cbe625dcfc6ff48ab8f59d5"
+ }
+]

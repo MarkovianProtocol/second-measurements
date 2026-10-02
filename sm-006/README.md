@@ -4,6 +4,10 @@ x402 lets programs pay each other pennies over the web, and a July study found m
 
 Paper: [https://markovianprotocol.com/measurements/sm-006.html](https://markovianprotocol.com/measurements/sm-006.html) · log leaf [9121](https://log.markovianprotocol.com/leaf/9121) · Sent to the authors 2026-10-01, response pending
 
+## Evidence
+
+`exhibits/` holds saved copies of every source quoted on the paper page, with `SHA256SUMS` and the fetch time.
+
 ## Run it
 
 Python 3 standard library only, against Base's public endpoint (`BASE_RPC` to override).

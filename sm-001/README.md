@@ -4,6 +4,10 @@ Google keeps a public list that is supposed to include every software release fo
 
 Paper: [https://markovianprotocol.com/measurements/sm-001.html](https://markovianprotocol.com/measurements/sm-001.html) · DOI [10.5281/zenodo.23070510](https://doi.org/10.5281/zenodo.23070510) · log leaf [9116](https://log.markovianprotocol.com/leaf/9116) · Confirmed and fixed by Google
 
+## Evidence
+
+`exhibits/` holds saved copies of every source quoted on the paper page, with `SHA256SUMS` and the fetch time.
+
 ## Run it
 
 Python 3 standard library only.

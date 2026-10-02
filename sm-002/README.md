@@ -4,6 +4,10 @@ AIDev is the field's go-to dataset for studying AI coding agents, and 39 publish
 
 Paper: [https://markovianprotocol.com/measurements/sm-002.html](https://markovianprotocol.com/measurements/sm-002.html) · log leaf [9117](https://log.markovianprotocol.com/leaf/9117) · Sent to the authors 2026-09-30, response pending
 
+## Evidence
+
+`exhibits/` holds saved copies of every source quoted on the paper page, with `SHA256SUMS` and the fetch time.
+
 ## Run it
 
 Python 3, the GitHub CLI (`gh`) logged in, and `pyarrow` + `huggingface_hub` for the AIDev sample.

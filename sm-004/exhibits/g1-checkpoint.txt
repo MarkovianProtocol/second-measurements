@@ -1,0 +1,7 @@
+whisper.online/ledger
+18994
+a0vbxKwvjYBapH/OXPBUmSMB0dp+ILRey2+EFEsTAZo=
+
+— whisper.online/ledger ijpd8OChFG3Dm0wzIQIKRoQRGV6jL0AtlhDc+YJU2MJ9LaeuggFtjVldTDWamk7PIcmT0BmKYG7XTteCnUQLm6ExVgg=
+— markovianprotocol.com/witness QbiCfwAAAABqYgIshJzXii7k1rCc3IZlHZaVsPx3tXbQkG4zswxl81qoYBcIQNrAVpIucDMULeOqizWcK/wCzuaOiRU1vratvaVnCg==
+— markovianprotocol.com/witness QbiCfwAAAABqYgIxvni0Fhug+jiMLTy5ftAQvm3ryr6L+/sx6QEbwf8KD01uDjNFTwvzvesucSKO3iA54AISGs6FE3xc9GoJILnxCg==

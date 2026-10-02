@@ -4,6 +4,10 @@ An SBOM is an ingredients list for software, and Wild SBOMs is a research collec
 
 Paper: [https://markovianprotocol.com/measurements/sm-003.html](https://markovianprotocol.com/measurements/sm-003.html) · log leaf [9118](https://log.markovianprotocol.com/leaf/9118) · Sent to the authors 2026-10-01, response pending
 
+## Evidence
+
+`exhibits/` holds saved copies of every source quoted on the paper page, with `SHA256SUMS` and the fetch time.
+
 ## Run it
 
 Python 3, `zstd`, and the GitHub CLI for the live checks. The corpus is `sbom-files.tar.ztsd` from Zenodo record [14250103](https://zenodo.org/records/14250103), piped through `zstd -dc`; `analyze.py` also needs `sboms-01.csv` from the same record.

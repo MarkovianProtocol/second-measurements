@@ -1,0 +1,6 @@
+whisper.online/ledger/g2
+399981
+q3KjGf77Hm4bbGfaIPOSXyvsSshvOLD8EysCzJhxOkc=
+
+— whisper.online/ledger/g2 1A5XOspUjjeXmkC3Teyv1MwHQCXyKju/kiMYc+YzB+yyAMJ10OePyzCVknRlK9tCks0SHRIffGIrL8rPAtaRSictYQ0=
+— markovianprotocol.com/witness QbiCfwAAAABqv/OTAYozG033sIm1SZ40DzLZGS46dWSZfQj5b63xFpVZPoDUKCN0km2dzdAz2Cyb3qMS2BS/RuEJu8PEmfOilrCaAw==

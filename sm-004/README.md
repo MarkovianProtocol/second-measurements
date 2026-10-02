@@ -4,6 +4,10 @@ whisper.online runs a public ledger meant to prove nothing in it is ever quietly
 
 Paper: [https://markovianprotocol.com/measurements/sm-004.html](https://markovianprotocol.com/measurements/sm-004.html) · DOI [10.5281/zenodo.23071390](https://doi.org/10.5281/zenodo.23071390) · log leaf [9119](https://log.markovianprotocol.com/leaf/9119) · Reproduced and confirmed by the operator
 
+## Evidence
+
+`exhibits/` holds saved copies of every source quoted on the paper page, with `SHA256SUMS` and the fetch time.
+
 ## Run it
 
 ```

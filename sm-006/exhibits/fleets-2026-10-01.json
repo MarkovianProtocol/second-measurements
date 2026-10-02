@@ -1,0 +1,76 @@
+{
+ "measured": 60,
+ "fleets": [
+  {
+   "wallets": 15,
+   "min": 1572972,
+   "max": 1578867,
+   "spread_pct": 0.373,
+   "settlement_share": 60.1,
+   "addresses": [
+    "0x772003a2e9c2ccc8af956870a37a66f64f8cec38",
+    "0x93f6601151ccb08f333ab4b1cccfb1e188c0be44",
+    "0x8cda367232d78c067116e3260da881d2da8ffa39",
+    "0xb87e1a2cc2b4643f2892768e80e41167f17c5860",
+    "0x42dd53906b49c202e8e934b059dc019e04634b00",
+    "0x2a89407a98a0732b7fd578c4e156b7166540eb5a",
+    "0x59b7ebc67a3d627fabaf06768c818638452ae704",
+    "0x68efafe862d89ce66dd3d7b07d5a3747a0871164",
+    "0x14fda13953fc30428938e6bf950d036e77214e52",
+    "0x625d8a65134079f8faaac39a7947c73d93c6ac39",
+    "0xe74817f4cdc15844314812b2271276e64e890fae",
+    "0x64cc42b1ce598e3abcfbb64df4688521ddbf1f0a",
+    "0x4c934c63c786157fefd990945b25ea60a0fb0205",
+    "0xca5e87f82b3fa093800e6ad67d621a427d79c70d",
+    "0xe72f0af4cf41356d433723547f1412ca27fbb1b8"
+   ]
+  },
+  {
+   "wallets": 12,
+   "min": 10866,
+   "max": 10886,
+   "spread_pct": 0.184,
+   "settlement_share": 1.44,
+   "addresses": [
+    "0x705ff9178e23395f91923f5d7e951b74319b8eed",
+    "0x0dd93b39fb1c08a0ddc309a34db1e6a2645136a5",
+    "0x569e20c952eaeca9b5af8863db188cb9ed5e48f9",
+    "0x2fb204fceca94e7568eb865bc9192638f657aefd",
+    "0x52ba6bf36a0bbc9f284fdc2e77561bf8d9db5177",
+    "0x8e4de63926678e2bb4cd5b327663444e82f498c0",
+    "0x31fe6a3663114bad231a2f858e4f6d55c2b080c4",
+    "0x0245dda917806075ee805b1a26e263be8a62bb7b",
+    "0x617fd3a9b1b3ba4ad07c783209071ef43232c06d",
+    "0x5a57dd9db4490f8cf9a5d439d646c740e7b22a9e",
+    "0xb97ab5da6fefbf66f9bf8d121739caa0f439ba2d",
+    "0x63f45d6d752e7f7c4917310b833eb354a929be01"
+   ]
+  },
+  {
+   "wallets": 5,
+   "min": 3327701,
+   "max": 3340403,
+   "spread_pct": 0.38,
+   "settlement_share": 19.95,
+   "addresses": [
+    "0x67b9ce703d9ce658d7c4ac3c289cea112fe662af",
+    "0x97acce27d5069544480bde0f04d9f47d7422a016",
+    "0xa32ccda98ba7529705a059bd2d213da8de10d101",
+    "0x68a96f41ff1e9f2e7b591a931a4ad224e7c07863",
+    "0x8f5cb67b49555e614892b7233cfddebfb746e531"
+   ]
+  },
+  {
+   "wallets": 2,
+   "min": 56799,
+   "max": 57350,
+   "spread_pct": 0.961,
+   "settlement_share": 0.6,
+   "addresses": [
+    "0x25e9775b674bd128fbd78c6fd24c3199b1d376f0",
+    "0x66c40946b0dffd04be467e18309857307ecd37cb"
+   ]
+  }
+ ],
+ "unclustered": 26
+}

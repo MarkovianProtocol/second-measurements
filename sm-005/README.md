@@ -4,6 +4,10 @@ When WhatsApp or Meta's AI glasses hand a request to Meta's private AI servers, 
 
 Paper: [https://markovianprotocol.com/measurements/sm-005.html](https://markovianprotocol.com/measurements/sm-005.html) · log leaf [9120](https://log.markovianprotocol.com/leaf/9120) · Sent to Meta 2026-10-01, response pending
 
+## Evidence
+
+`exhibits/` holds saved copies of every source quoted on the paper page, with `SHA256SUMS` and the fetch time.
+
 ## Run it
 
 Python 3 standard library only. Keep concurrency low; Plexi rate-limits, and rate-limited fetches look like gaps.
