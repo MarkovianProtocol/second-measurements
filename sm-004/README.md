@@ -2,7 +2,7 @@
 
 whisper.online runs a public ledger meant to prove nothing in it is ever quietly changed. We checked it the hard way, with our own code instead of theirs: inclusion proofs fold to the signed root, history proofs hold, malformed requests get refused. Everything passed. Along the way we noticed their system was sending our witness about ten copies of every update, 16,180 a day. They fixed it: one copy each, 1,698 a day.
 
-Paper: [https://markovianprotocol.com/measurements/sm-004.html](https://markovianprotocol.com/measurements/sm-004.html) · DOI [10.5281/zenodo.23071390](https://doi.org/10.5281/zenodo.23071390) · log leaf [9119](https://log.markovianprotocol.com/leaf/9119) · Reproduced and confirmed by the operator
+Paper: [https://markovianprotocol.com/measurements/sm-004.html](https://markovianprotocol.com/measurements/sm-004.html) · DOI [10.5281/zenodo.23071390](https://doi.org/10.5281/zenodo.23071390) · log leaf [9139](https://log.markovianprotocol.com/leaf/9139) · Reproduced and confirmed by the operator
 
 ## Evidence
 
