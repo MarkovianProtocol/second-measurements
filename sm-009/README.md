@@ -2,7 +2,7 @@
 
 Since Firefox 142, revocation is decided from CRLite, a filter Mozilla ships twice a day, and the online OCSP check is skipped for ordinary certificates the filter doesn't cover. We pulled 1,718 revocations straight from 125 certificate authorities' own CRLs (2 to 30 days old) and queried the 2 October 2026 filters with Mozilla's own `rust-query-crlite`. Of the 465 with the final certificate public, 427 come back revoked and 38 good or not covered. Among certificates revoked within 24 hours of issuance: 37 of 108. All 38 carry timestamps only from 24-hour merge-delay CT logs, the gap Mozilla described in crlite issue 367; they stay invisible until the next full filter, and the current one is dated 2 September.
 
-Paper: [https://markovianprotocol.com/measurements/sm-009.html](https://markovianprotocol.com/measurements/sm-009.html) · log leaf [9144](https://log.markovianprotocol.com/leaf/9144)
+Paper: [https://markovianprotocol.com/measurements/sm-009.html](https://markovianprotocol.com/measurements/sm-009.html) · log leaf [9149](https://log.markovianprotocol.com/leaf/9149)
 
 ## Evidence
 

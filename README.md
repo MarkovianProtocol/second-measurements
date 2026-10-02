@@ -34,6 +34,7 @@ Earlier measurements in their own repos: [x402-second-measurement](https://githu
 - `kubernetes_signatures.py` / `kubernetes_signatures_verify.py`: Kubernetes says it signs all release binaries. 408 of 408 binaries across 12 releases carry a signature and certificate; 12 of 12 sampled signatures verify from the documented release identity.
 - `proton_kt_epochs.py`: Proton says a key-transparency epoch goes out every 4 hours, never more than 72. 515 epochs from Certificate Transparency since July: median 4.00 hours, longest 38.1.
 - `debian_reproducible_gate.py`: Debian said on 10 May 2026 that migration now blocks unreproducible new packages and regressions. 457 unreproducible binaries sit in testing today: 128 predate the gate, 231 replaced an already-unreproducible version (allowed), 76 are hinted, 10 got their verdict after crossing, and the 12 petsc binaries were flagged by britney and waved through on the record in #1135890. 0 unexplained.
+- `ct_merge_delays.py` / `ct_merge_delays_tiles.py`: every Certificate Transparency log promises a maximum merge delay (24 h classic, 60 s tiled). A fresh certificate submitted to all 64 logs that take a current one was served inside the promise by every one: tiled logs within seconds, DigiCert in 10 s, Google and Sectigo in 1–2 min, Cloudflare's Nimbus in 46 and 61 min. Results in `ct_merge_delays_results.json`.
 
 ## How the papers are pinned
 
