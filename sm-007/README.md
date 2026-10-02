@@ -2,7 +2,11 @@
 
 Docker Official Images are the most-pulled containers on the internet: nginx, python, postgres, alpine. In April 2024 Docker said it was committed to shipping signed SBOMs and build provenance for all of them. We checked every one. The attestations are there on 7,368 of 7,372 Linux images. Not one of the 50 we sampled is signed. Docker's older signing service shuts down on 8 December, and the replacement it announced in July 2025 hasn't appeared.
 
-Paper: [https://markovianprotocol.com/measurements/sm-007.html](https://markovianprotocol.com/measurements/sm-007.html) · log leaf [9106](https://log.markovianprotocol.com/leaf/9106)
+Paper: [https://markovianprotocol.com/measurements/sm-007.html](https://markovianprotocol.com/measurements/sm-007.html) · log leaf [9123](https://log.markovianprotocol.com/leaf/9123)
+
+## Evidence
+
+`exhibits/` holds saved copies of every source quoted in the paper and the raw registry / CVE records shown, with `SHA256SUMS` and the fetch time.
 
 ## Run it
 
