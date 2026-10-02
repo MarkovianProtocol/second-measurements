@@ -1,0 +1,5 @@
+hf_security_malware.html, hf_security-jfrog.html, hf_security-protectai.html, hf_security-pickle.html   huggingface.co/docs/hub/* saved 2026-10-02
+hf_scan_sample.json   450 repositories listed via GET /api/{kind}/{repo}/tree/main?expand=true on 2026-10-02 (fetched_at inside), every file's per-scanner status; non-safe files carry a second reading (av2/status2/pickle2) from POST paths-info
+hf_scan_final.json    the 3,038 readable files committed >=1 day before the run, with the final malware-scan verdict (avf)
+verify_paths_info.json   80-file cross-check between the two endpoints
+gpt2-paths-info.json, whisper-large-v3-paths-info.json, qwen3-8b-tree.json   raw API responses quoted in the exhibits
