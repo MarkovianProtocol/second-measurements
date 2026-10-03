@@ -1,6 +1,6 @@
 # SM-007: Docker promised signed attestations for every Official Image. The attestations arrived; the signatures didn't
 
-Docker Official Images are the most-pulled containers on the internet: nginx, python, postgres, alpine. In April 2024 Docker said it was committed to shipping signed SBOMs and build provenance for all of them. We checked every one. The attestations are there on 7,368 of 7,372 Linux images. Not one of the 50 we sampled is signed. Docker's older signing service shuts down on 8 December, and the replacement it announced in July 2025 hasn't appeared.
+Docker Official Images are the most-pulled containers on the internet: nginx, python, postgres, alpine. In April 2024 Docker said it was committed to shipping signed SBOMs and build provenance for all of them. We checked every one. The attestations are there on 7,368 of 7,372 Linux images. Not one of the 45 we sampled is signed. Docker's older signing service shuts down on 8 December, and the replacement it announced in July 2025 hasn't appeared.
 
 Paper: [https://markovianprotocol.com/measurements/sm-007.html](https://markovianprotocol.com/measurements/sm-007.html) · log leaf [9173](https://log.markovianprotocol.com/leaf/9173)
 
@@ -21,4 +21,4 @@ python3 probe.py nginx:latest python:3.13
 
 ## Limits
 
-Signing was checked on a random 50 of 137 repositories, one tag each; coverage on every entry. An unsigned attestation isn't a wrong one; the gap is that nobody outside Docker can prove it isn't.
+Signing was checked on a random 45 of 137 repositories, one tag each; coverage on every entry. An unsigned attestation isn't a wrong one; the gap is that nobody outside Docker can prove it isn't.

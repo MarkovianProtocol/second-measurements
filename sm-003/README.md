@@ -2,7 +2,7 @@
 
 An SBOM is an ingredients list for software, and Wild SBOMs is a research collection of 78,612 of them, described as written by practitioners in the wild. We traced where they came from: 37,306, almost half, were made by a single automated run in 2022. That robot then sent a 2026 study down the wrong path. The “GitHub tool” it blamed for missing dependency links was the robot's own tool, from another company; GitHub's real exporter records those links in 78 of 78 projects we checked.
 
-Paper: [https://markovianprotocol.com/measurements/sm-003.html](https://markovianprotocol.com/measurements/sm-003.html) · log leaf [9170](https://log.markovianprotocol.com/leaf/9170) · Sent to the authors 2026-10-01, response pending
+Paper: [https://markovianprotocol.com/measurements/sm-003.html](https://markovianprotocol.com/measurements/sm-003.html) · log leaf [9170](https://log.markovianprotocol.com/leaf/9170) · Sent to the authors 2026-09-30, response pending
 
 ## Evidence
 
