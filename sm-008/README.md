@@ -2,7 +2,7 @@
 
 In June, CISA told every federal agency to set its patching deadlines from three answers CISA says it publishes "for every CVE ID". Every one of the 1,731 actively exploited CVEs has them, and so does every other CVE in our sample. Linux kernel CVEs don't: 1 of the 158 we sampled since March carries them. That's about 5,000 kernel CVEs since the directive with nothing to set a deadline from.
 
-Paper: [https://markovianprotocol.com/measurements/sm-008.html](https://markovianprotocol.com/measurements/sm-008.html) · DOI [10.5281/zenodo.23122997](https://doi.org/10.5281/zenodo.23122997) · log leaf [9174](https://log.markovianprotocol.com/leaf/9174)
+Paper: [https://markovianprotocol.com/measurements/sm-008.html](https://markovianprotocol.com/measurements/sm-008.html) · DOI [10.5281/zenodo.23122997](https://doi.org/10.5281/zenodo.23122997) · log leaf [9228](https://log.markovianprotocol.com/leaf/9228)
 
 ## Evidence
 

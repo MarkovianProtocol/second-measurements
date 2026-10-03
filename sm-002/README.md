@@ -2,7 +2,7 @@
 
 AIDev is the field's go-to dataset for studying AI coding agents, and 39 published studies use it to say how Claude Code behaves. To find Claude Code's pull requests it searches for a line Claude Code writes in commits, and skips the line it writes by default in pull-request descriptions. Over the same dates that search finds 16,065; searching for both finds 173,066. The ones it does catch run bigger than typical: a median of 736 changed lines against 447.
 
-Paper: [https://markovianprotocol.com/measurements/sm-002.html](https://markovianprotocol.com/measurements/sm-002.html) · log leaf [9169](https://log.markovianprotocol.com/leaf/9169) · Sent to the authors 2026-09-30, response pending
+Paper: [https://markovianprotocol.com/measurements/sm-002.html](https://markovianprotocol.com/measurements/sm-002.html) · log leaf [9211](https://log.markovianprotocol.com/leaf/9211) · Sent to the authors 2026-09-30, response pending
 
 ## Evidence
 
