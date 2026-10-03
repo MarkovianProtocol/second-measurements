@@ -22,3 +22,5 @@ python3 topsites_crlite.py 1000
 ## Limits
 
 One day's filter and certificates; stapled OCSP or handshake SCTs could still give Firefox a verdict; the top 1,000 domains are not Firefox's traffic; the cause of the lag is Mozilla's to explain.
+
+By issuer: 57 of the 68 uncovered top-1,000 certificates (and 299 of 346 in the top 5,000) were issued by Google Trust Services, 37.7% of everything it issues to those sites; DigiCert 3 of 154, Let's Encrypt 7 of 773 in the top 5,000. Google's certificates carry timestamps from Google's own RFC 6962 logs, which the reader is furthest behind on.
