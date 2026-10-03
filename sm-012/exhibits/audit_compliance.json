@@ -1,0 +1,522 @@
+{
+ "Standard": {
+  "statements": 119,
+  "judgeable": 119,
+  "late_by_statement_date": 11,
+  "share_on_time": 0.908,
+  "median_lag_days": 77,
+  "p90_lag_days": 92,
+  "max_lag_days": 239,
+  "ca_owners": 79,
+  "overdue_today": {
+   "Carillon Information Security Inc.": 601,
+   "Consejo General de la Abogac\u00eda Espa\u00f1ola": 916,
+   "Consorci Administraci\u00f3 Oberta de Catalunya (Consorci AOC, CATCert)": 919,
+   "Department of Defence Australia": 582,
+   "Docaposte Certinomis SAS": 2486,
+   "EDICOM": 526,
+   "Entrust": 582,
+   "Government of India, Ministry of Communications & Information Technology, Controller of Certifying Authorities (CCA)": 927,
+   "Netrust Pte Ltd": 957,
+   "SI-TRUST": 657,
+   "SSL.com": 460,
+   "Zetes": 937
+  },
+  "late": [
+   {
+    "owner": "Thailand National Root Certificate Authority (Electronic Transactions Development Agency)",
+    "lag_days": 239,
+    "period_end": "2025-07-30",
+    "statement": "2026-03-26",
+    "firm": "BDO International Limited",
+    "type": "WebTrust",
+    "records": 1,
+    "programs": [
+     "Microsoft"
+    ]
+   },
+   {
+    "owner": "Thailand National Root Certificate Authority (Electronic Transactions Development Agency)",
+    "lag_days": 219,
+    "period_end": "2025-08-31",
+    "statement": "2026-04-07",
+    "firm": "BDO Consulting Sdn. Bhd.",
+    "type": "WebTrust",
+    "records": 2,
+    "programs": [
+     "Microsoft"
+    ]
+   },
+   {
+    "owner": "Government of Brazil, Instituto Nacional de Tecnologia da Informa\u00e7\u00e3o (ITI)",
+    "lag_days": 169,
+    "period_end": "2021-11-30",
+    "statement": "2022-05-18",
+    "firm": "Ernst & Young, LLP",
+    "type": "WebTrust",
+    "records": 1,
+    "programs": [
+     "Microsoft"
+    ]
+   },
+   {
+    "owner": "Thailand National Root Certificate Authority (Electronic Transactions Development Agency)",
+    "lag_days": 153,
+    "period_end": "2026-02-28",
+    "statement": "2026-07-31",
+    "firm": "BDO International Limited",
+    "type": "WebTrust",
+    "records": 1,
+    "programs": [
+     "Microsoft"
+    ]
+   },
+   {
+    "owner": "Government of Brazil, Instituto Nacional de Tecnologia da Informa\u00e7\u00e3o (ITI)",
+    "lag_days": 144,
+    "period_end": "2022-09-08",
+    "statement": "2023-01-30",
+    "firm": "Ernst & Young, LLP",
+    "type": "WebTrust",
+    "records": 1,
+    "programs": [
+     "Microsoft"
+    ]
+   },
+   {
+    "owner": "Consorci Administraci\u00f3 Oberta de Catalunya (Consorci AOC, CATCert)",
+    "lag_days": 123,
+    "period_end": "2024-03-28",
+    "statement": "2024-07-29",
+    "firm": "DEKRA Testing and Certification, S.A.U.",
+    "type": "ETSI EN 319 411",
+    "records": 1,
+    "programs": [
+     "Microsoft"
+    ]
+   },
+   {
+    "owner": "Entrust",
+    "lag_days": 119,
+    "period_end": "2025-02-28",
+    "statement": "2025-06-27",
+    "firm": "Deloitte",
+    "type": "WebTrust",
+    "records": 9,
+    "programs": [
+     "Apple",
+     "Microsoft"
+    ]
+   },
+   {
+    "owner": "Autoridad de Certificacion Firmaprofesional",
+    "lag_days": 110,
+    "period_end": "2026-03-27",
+    "statement": "2026-07-15",
+    "firm": "DEKRA Testing and Certification, S.A.U.",
+    "type": "ETSI EN 319 411",
+    "records": 2,
+    "programs": [
+     "Apple",
+     "Chrome",
+     "Microsoft",
+     "Mozilla"
+    ]
+   },
+   {
+    "owner": "MULTICERT",
+    "lag_days": 108,
+    "period_end": "2026-03-31",
+    "statement": "2026-07-17",
+    "firm": "BSI",
+    "type": "ETSI EN 319 411",
+    "records": 1,
+    "programs": [
+     "Microsoft"
+    ]
+   },
+   {
+    "owner": "Government of The Netherlands, PKIoverheid (Logius)",
+    "lag_days": 102,
+    "period_end": "2026-05-31",
+    "statement": "2026-09-10",
+    "firm": "T\u00dcV Austria",
+    "type": "ETSI EN 319 411",
+    "records": 2,
+    "programs": [
+     "Microsoft",
+     "Mozilla"
+    ]
+   },
+   {
+    "owner": "D-TRUST",
+    "lag_days": 100,
+    "period_end": "2025-10-07",
+    "statement": "2026-01-15",
+    "firm": "T\u00dcV NORD CERT GmbH",
+    "type": "ETSI EN 319 411",
+    "records": 9,
+    "programs": [
+     "Apple",
+     "Chrome",
+     "Microsoft",
+     "Mozilla"
+    ]
+   }
+  ]
+ },
+ "TLS BR": {
+  "statements": 98,
+  "judgeable": 98,
+  "late_by_statement_date": 6,
+  "share_on_time": 0.939,
+  "median_lag_days": 75,
+  "p90_lag_days": 90,
+  "max_lag_days": 219,
+  "ca_owners": 68,
+  "overdue_today": {
+   "AC Camerfirma, S.A.": 946,
+   "Consorci Administraci\u00f3 Oberta de Catalunya (Consorci AOC, CATCert)": 2015,
+   "Department of Defence Australia": 947,
+   "Docaposte Certinomis SAS": 2486,
+   "EDICOM": 526,
+   "Entrust": 582,
+   "Government of Brazil, Instituto Nacional de Tecnologia da Informa\u00e7\u00e3o (ITI)": 1486,
+   "Government of India, Ministry of Communications & Information Technology, Controller of Certifying Authorities (CCA)": 927,
+   "Government of Sweden (F\u00f6rs\u00e4kringskassan)": 916,
+   "MULTICERT": 1282,
+   "Netrust Pte Ltd": 957,
+   "SI-TRUST": 657,
+   "SSL.com": 460
+  },
+  "late": [
+   {
+    "owner": "Thailand National Root Certificate Authority (Electronic Transactions Development Agency)",
+    "lag_days": 219,
+    "period_end": "2025-08-31",
+    "statement": "2026-04-07",
+    "firm": "BDO Consulting Sdn. Bhd.",
+    "type": "WebTrust",
+    "records": 1,
+    "programs": [
+     "Microsoft"
+    ]
+   },
+   {
+    "owner": "Thailand National Root Certificate Authority (Electronic Transactions Development Agency)",
+    "lag_days": 153,
+    "period_end": "2026-02-28",
+    "statement": "2026-07-31",
+    "firm": "BDO International Limited",
+    "type": "WebTrust",
+    "records": 1,
+    "programs": [
+     "Microsoft"
+    ]
+   },
+   {
+    "owner": "Government of Brazil, Instituto Nacional de Tecnologia da Informa\u00e7\u00e3o (ITI)",
+    "lag_days": 144,
+    "period_end": "2022-09-08",
+    "statement": "2023-01-30",
+    "firm": "Ernst & Young, LLP",
+    "type": "WebTrust",
+    "records": 1,
+    "programs": [
+     "Microsoft"
+    ]
+   },
+   {
+    "owner": "Entrust",
+    "lag_days": 119,
+    "period_end": "2025-02-28",
+    "statement": "2025-06-27",
+    "firm": "Deloitte",
+    "type": "WebTrust",
+    "records": 9,
+    "programs": [
+     "Apple",
+     "Microsoft"
+    ]
+   },
+   {
+    "owner": "Autoridad de Certificacion Firmaprofesional",
+    "lag_days": 110,
+    "period_end": "2026-03-27",
+    "statement": "2026-07-15",
+    "firm": "DEKRA Testing and Certification, S.A.U.",
+    "type": "ETSI EN 319 411",
+    "records": 2,
+    "programs": [
+     "Apple",
+     "Chrome",
+     "Microsoft",
+     "Mozilla"
+    ]
+   },
+   {
+    "owner": "D-TRUST",
+    "lag_days": 100,
+    "period_end": "2025-10-07",
+    "statement": "2026-01-15",
+    "firm": "T\u00dcV NORD CERT GmbH",
+    "type": "ETSI EN 319 411",
+    "records": 6,
+    "programs": [
+     "Apple",
+     "Chrome",
+     "Microsoft",
+     "Mozilla"
+    ]
+   }
+  ]
+ },
+ "NetSec": {
+  "statements": 55,
+  "judgeable": 55,
+  "late_by_statement_date": 4,
+  "share_on_time": 0.927,
+  "median_lag_days": 77,
+  "p90_lag_days": 90,
+  "max_lag_days": 239,
+  "ca_owners": 41,
+  "overdue_today": {
+   "Entrust": 582,
+   "SSL.com": 460
+  },
+  "late": [
+   {
+    "owner": "Thailand National Root Certificate Authority (Electronic Transactions Development Agency)",
+    "lag_days": 239,
+    "period_end": "2025-07-30",
+    "statement": "2026-03-26",
+    "firm": "BDO International Limited",
+    "type": "WebTrust",
+    "records": 1,
+    "programs": [
+     "Microsoft"
+    ]
+   },
+   {
+    "owner": "Thailand National Root Certificate Authority (Electronic Transactions Development Agency)",
+    "lag_days": 219,
+    "period_end": "2025-08-31",
+    "statement": "2026-04-07",
+    "firm": "BDO Consulting Sdn. Bhd.",
+    "type": "WebTrust",
+    "records": 2,
+    "programs": [
+     "Microsoft"
+    ]
+   },
+   {
+    "owner": "Thailand National Root Certificate Authority (Electronic Transactions Development Agency)",
+    "lag_days": 153,
+    "period_end": "2026-02-28",
+    "statement": "2026-07-31",
+    "firm": "BDO International Limited",
+    "type": "WebTrust",
+    "records": 1,
+    "programs": [
+     "Microsoft"
+    ]
+   },
+   {
+    "owner": "Entrust",
+    "lag_days": 119,
+    "period_end": "2025-02-28",
+    "statement": "2025-06-27",
+    "firm": "Deloitte",
+    "type": "WebTrust",
+    "records": 9,
+    "programs": [
+     "Apple",
+     "Microsoft"
+    ]
+   }
+  ]
+ },
+ "TLS EVG": {
+  "statements": 51,
+  "judgeable": 51,
+  "late_by_statement_date": 4,
+  "share_on_time": 0.922,
+  "median_lag_days": 80,
+  "p90_lag_days": 90,
+  "max_lag_days": 144,
+  "ca_owners": 37,
+  "overdue_today": {
+   "Consorci Administraci\u00f3 Oberta de Catalunya (Consorci AOC, CATCert)": 2015,
+   "Entrust": 582,
+   "Government of Brazil, Instituto Nacional de Tecnologia da Informa\u00e7\u00e3o (ITI)": 1486,
+   "SSL.com": 460
+  },
+  "late": [
+   {
+    "owner": "Government of Brazil, Instituto Nacional de Tecnologia da Informa\u00e7\u00e3o (ITI)",
+    "lag_days": 144,
+    "period_end": "2022-09-08",
+    "statement": "2023-01-30",
+    "firm": "Ernst & Young, LLP",
+    "type": "WebTrust",
+    "records": 1,
+    "programs": [
+     "Microsoft"
+    ]
+   },
+   {
+    "owner": "Entrust",
+    "lag_days": 119,
+    "period_end": "2025-02-28",
+    "statement": "2025-06-27",
+    "firm": "Deloitte",
+    "type": "WebTrust",
+    "records": 7,
+    "programs": [
+     "Apple",
+     "Microsoft"
+    ]
+   },
+   {
+    "owner": "Autoridad de Certificacion Firmaprofesional",
+    "lag_days": 110,
+    "period_end": "2026-03-27",
+    "statement": "2026-07-15",
+    "firm": "DEKRA Testing and Certification, S.A.U.",
+    "type": "ETSI EN 319 411",
+    "records": 2,
+    "programs": [
+     "Apple",
+     "Chrome",
+     "Microsoft",
+     "Mozilla"
+    ]
+   },
+   {
+    "owner": "D-TRUST",
+    "lag_days": 100,
+    "period_end": "2025-10-07",
+    "statement": "2026-01-15",
+    "firm": "T\u00dcV NORD CERT GmbH",
+    "type": "ETSI EN 319 411",
+    "records": 6,
+    "programs": [
+     "Apple",
+     "Chrome",
+     "Microsoft",
+     "Mozilla"
+    ]
+   }
+  ]
+ },
+ "Code Signing": {
+  "statements": 31,
+  "judgeable": 31,
+  "late_by_statement_date": 1,
+  "share_on_time": 0.968,
+  "median_lag_days": 81,
+  "p90_lag_days": 90,
+  "max_lag_days": 113,
+  "ca_owners": 25,
+  "overdue_today": {
+   "AC Camerfirma, S.A.": 946,
+   "BEIJING CERTIFICATE AUTHORITY Co., Ltd.": 573,
+   "Cybertrust Japan / JCSI": 771,
+   "DigiCert": 2194,
+   "e-commerce monitoring GmbH": 916,
+   "EDICOM": 892,
+   "GoDaddy": 1191,
+   "Government of Brazil, Instituto Nacional de Tecnologia da Informa\u00e7\u00e3o (ITI)": 1570,
+   "Netlock": 1135
+  },
+  "late": [
+   {
+    "owner": "e-commerce monitoring GmbH",
+    "lag_days": 113,
+    "period_end": "2024-03-31",
+    "statement": "2024-07-22",
+    "firm": "Zentrum f\u00fcr sichere Informationstechnologie - Austria (A-SIT)",
+    "type": "ETSI EN 319 411",
+    "records": 3,
+    "programs": [
+     "Microsoft"
+    ]
+   }
+  ]
+ },
+ "S/MIME BR": {
+  "statements": 57,
+  "judgeable": 57,
+  "late_by_statement_date": 4,
+  "share_on_time": 0.93,
+  "median_lag_days": 75,
+  "p90_lag_days": 90,
+  "max_lag_days": 144,
+  "ca_owners": 38,
+  "overdue_today": {
+   "Chunghwa Telecom": 490,
+   "Department of Defence Australia": 582,
+   "Entrust": 582,
+   "Netrust Pte Ltd": 957,
+   "SI-TRUST": 657
+  },
+  "late": [
+   {
+    "owner": "Chunghwa Telecom",
+    "lag_days": 144,
+    "period_end": "2024-05-31",
+    "statement": "2024-10-22",
+    "firm": "SunRise CPAs / DFK International",
+    "type": "WebTrust",
+    "records": 1,
+    "programs": [
+     "Apple",
+     "Chrome",
+     "Microsoft",
+     "Mozilla"
+    ]
+   },
+   {
+    "owner": "Entrust",
+    "lag_days": 119,
+    "period_end": "2025-02-28",
+    "statement": "2025-06-27",
+    "firm": "Deloitte",
+    "type": "WebTrust",
+    "records": 4,
+    "programs": [
+     "Apple",
+     "Microsoft"
+    ]
+   },
+   {
+    "owner": "Government of The Netherlands, PKIoverheid (Logius)",
+    "lag_days": 102,
+    "period_end": "2026-05-31",
+    "statement": "2026-09-10",
+    "firm": "T\u00dcV Austria",
+    "type": "ETSI EN 319 411",
+    "records": 2,
+    "programs": [
+     "Microsoft",
+     "Mozilla"
+    ]
+   },
+   {
+    "owner": "D-TRUST",
+    "lag_days": 100,
+    "period_end": "2025-10-07",
+    "statement": "2026-01-15",
+    "firm": "T\u00dcV NORD CERT GmbH",
+    "type": "ETSI EN 319 411",
+    "records": 5,
+    "programs": [
+     "Apple",
+     "Chrome",
+     "Microsoft",
+     "Mozilla"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,24 @@
+23 bugs with [audit-delay] in whiteboard
+  1412950 2017-10-30 RESOLVED Firmaprofesional: Insufficient Audit Statements
+  1507862 2018-11-16 RESOLVED ACCV: Late Audit Statement
+  1539296 2019-03-26 RESOLVED DigiCert: KPN Outdated Audit
+  1625498 2020-03-27 RESOLVED Google Trust Services: Tracking bug for possible audit delays (audit due 2020-12)
+  1648593 2020-06-25 RESOLVED Sectigo: Potential audit report delay
+  1649507 2020-06-30 RESOLVED Network Solutions:  Audit report delay
+  1659426 2020-08-17 RESOLVED E-Tugra: audit delay because of an environmental disaster/pandemic
+  1669518 2020-10-06 RESOLVED PKIoverheid: Overdue audit statements for intermediate certificates
+  1704140 2021-04-09 RESOLVED Camerfirma: Govern d'Andorra Audit Delay
+  1721473 2021-07-20 RESOLVED Web.com: Overdue Audit Statements 2021
+  1724530 2021-08-06 RESOLVED Microsoft PKI Services: Overdue Audit Reports 2021
+  1728790 2021-09-02 RESOLVED eMudhra: Audit Delay
+  1741497 2021-11-16 RESOLVED CFCA: Overdue Audit Statements 2021
+  1757615 2022-03-01 RESOLVED Amazon Trust Services: Overdue audit statements for intermediate certificates
+  1843265 2023-07-13 RESOLVED PKIoverheid: Delayed audit statements for intermediate CAs
+  1911335 2024-08-02 RESOLVED PKIoverheid: Delayed S/MIME audit report for MoD PKIoverheid G3 CA
+  1917224 2024-09-06 RESOLVED Chunghwa Telecom: Delayed Annual Audit Report 2024
+  1945197 2025-01-31 RESOLVED Sectigo: Late receipt and disclosure to CCADB of ETSI audit letters
+  2008260 2025-12-31 RESOLVED Chunghwa Telecom: Delayed audit disclosure for GTLSCA
+  2011430 2026-01-20 ASSIGNED D-Trust: Delayed publication of audit attestation letters in the CCADB
+  2031562 2026-04-14 ASSIGNED Thailand NRCA - Explanation for delay in WebTrust Assurance report
+  2067968 2026-09-01 ASSIGNED Chunghwa Telcom: Delay of 2025 WebTrust for CA Audit Reports seals for ePKI & HiPKI
+  2074032 2026-09-21 ASSIGNED PKIoverheid: TSP KPN Delayed publication of audit attestation letters in the CCADB

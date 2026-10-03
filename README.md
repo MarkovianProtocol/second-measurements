@@ -4,6 +4,7 @@ Public claims about logs and datasets, recomputed by a different path than the o
 
 | | Finding | Status | |
 |---|---|---|---|
+| [SM-012](sm-012/) | Certificate authorities get 92 days to file their audits. Most file in the last week, one in eleven files late, and Windows still trusts a root whose last audit ended in 2019 | Sent to CCADB and Microsoft 2026-10-03, response pending | [paper](https://markovianprotocol.com/measurements/sm-012.html) |
 | [SM-011](sm-011/) | Firefox's revocation list is months behind the biggest certificate logs. One in eleven top sites, mozilla.org included, gets no revocation check at all | Sent to Mozilla 2026-10-02, response pending | [paper](https://markovianprotocol.com/measurements/sm-011.html) |
 | [SM-010](sm-010/) | Hugging Face says every file goes through its malware scanner. Nothing over 2 GB does, and the badge says safe anyway | Sent to Hugging Face 2026-10-02, response pending | [paper](https://markovianprotocol.com/measurements/sm-010.html) |
 | [SM-009](sm-009/) | Firefox promised a list of every revoked certificate. A third of the ones revoked on day one aren't on it, and it no longer asks anyone else | Sent to Mozilla 2026-10-02, response pending | [paper](https://markovianprotocol.com/measurements/sm-009.html) |
@@ -36,6 +37,7 @@ Earlier measurements in their own repos: [x402-second-measurement](https://githu
 - `proton_kt_epochs.py`: Proton says a key-transparency epoch goes out every 4 hours, never more than 72. 515 epochs from Certificate Transparency since July: median 4.00 hours, longest 38.1.
 - `debian_reproducible_gate.py`: Debian said on 10 May 2026 that migration now blocks unreproducible new packages and regressions. 457 unreproducible binaries sit in testing today: 128 predate the gate, 231 replaced an already-unreproducible version (allowed), 76 are hinted, 10 got their verdict after crossing, and the 12 petsc binaries were flagged by britney and waved through on the record in #1135890. 0 unexplained.
 - `ct_merge_delays.py` / `ct_merge_delays_tiles.py`: every Certificate Transparency log promises a maximum merge delay (24 h classic, 60 s tiled). A fresh certificate submitted to all 64 logs that take a current one was served inside the promise by every one: tiled logs within seconds, DigiCert in 10 s, Google and Sectigo in 1–2 min, Cloudflare's Nimbus in 46 and 61 min. Results in `ct_merge_delays_results.json`.
+- `github_attestations/`: GitHub says public repositories' attestations go to Sigstore's public log. 161 of 161 Actions-generated attestations in a 388-bundle sample are on Rekor. The other 227 are GitHub's own release attestations (immutable releases): GitHub's CA, a one-year certificate, GitHub's timestamp, no public log, and no claim of one.
 
 ## How the papers are pinned
 

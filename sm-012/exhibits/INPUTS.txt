@@ -1,0 +1,8 @@
+ccadb_AllCertificateRecordsCSVFormatV5.csv.gz   https://ccadb.my.salesforce-sites.com/ccadb/AllCertificateRecordsCSVFormatV5  fetched 2026-10-03 ~03:05Z (10,317 records, 89 columns)
+ccadb_policy.html            https://www.ccadb.org/policy (section 5.2, the 92-day rule)
+mozilla_root_policy.html     https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/policy/
+microsoft_root_program.html  https://learn.microsoft.com/en-us/security/trusted-root/program-requirements ("thereafter on an annual basis")
+bugzilla_ca_documents.json   Bugzilla REST: product "CA Program", component "CA Documents", created since 2025-01-01 (where explanatory letters for late audits must be filed)
+bugzilla_*_comments.json     the Entrust (1999214), SSL.com (2076925), Thailand NRCA (2031562) and Firmaprofesional (2055439) threads
+audit_compliance.json        output of audit_deadlines.py: per audit type, statements, lateness by statement date, overdue-today owners
+per_program_roots.json, lag_histogram.json   output of per_program.py

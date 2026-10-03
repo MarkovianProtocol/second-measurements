@@ -1,0 +1,374 @@
+{
+ "Mozilla": {
+  "included_roots": 172,
+  "with_audit_date": 172,
+  "median_age_days": 197,
+  "p90_age_days": 398,
+  "max_age_days": 437,
+  "roots_overdue": 0,
+  "owners_overdue": 0,
+  "overdue": []
+ },
+ "Chrome": {
+  "included_roots": 101,
+  "with_audit_date": 101,
+  "median_age_days": 217,
+  "p90_age_days": 398,
+  "max_age_days": 429,
+  "roots_overdue": 0,
+  "owners_overdue": 0,
+  "overdue": []
+ },
+ "Apple": {
+  "included_roots": 144,
+  "with_audit_date": 144,
+  "median_age_days": 188,
+  "p90_age_days": 398,
+  "max_age_days": 841,
+  "roots_overdue": 6,
+  "owners_overdue": 3,
+  "overdue": [
+   {
+    "owner": "SwissSign AG",
+    "root": "SwissSign Silver CA - G2",
+    "period_end": "2024-06-14",
+    "age_days": 841,
+    "elsewhere": {
+     "Mozilla": "Removed",
+     "Chrome": "Removed",
+     "Microsoft": "NotBefore"
+    }
+   },
+   {
+    "owner": "DigiCert",
+    "root": "DigiCert Verified Mark Root CA",
+    "period_end": "2024-08-31",
+    "age_days": 763,
+    "elsewhere": {
+     "Mozilla": "Not Included",
+     "Chrome": "Not Included",
+     "Microsoft": "Not Included"
+    }
+   },
+   {
+    "owner": "Entrust",
+    "root": "AffirmTrust Commercial",
+    "period_end": "2025-02-28",
+    "age_days": 582,
+    "elsewhere": {
+     "Mozilla": "Removed",
+     "Chrome": "Removed",
+     "Microsoft": "Included"
+    }
+   },
+   {
+    "owner": "Entrust",
+    "root": "AffirmTrust Networking",
+    "period_end": "2025-02-28",
+    "age_days": 582,
+    "elsewhere": {
+     "Mozilla": "Removed",
+     "Chrome": "Removed",
+     "Microsoft": "Included"
+    }
+   },
+   {
+    "owner": "Entrust",
+    "root": "AffirmTrust Premium",
+    "period_end": "2025-02-28",
+    "age_days": 582,
+    "elsewhere": {
+     "Mozilla": "Removed",
+     "Chrome": "Removed",
+     "Microsoft": "Included"
+    }
+   },
+   {
+    "owner": "Entrust",
+    "root": "AffirmTrust Premium ECC",
+    "period_end": "2025-02-28",
+    "age_days": 582,
+    "elsewhere": {
+     "Mozilla": "Removed",
+     "Chrome": "Removed",
+     "Microsoft": "Included"
+    }
+   }
+  ]
+ },
+ "Microsoft": {
+  "included_roots": 331,
+  "with_audit_date": 326,
+  "median_age_days": 217,
+  "p90_age_days": 406,
+  "max_age_days": 2486,
+  "roots_overdue": 24,
+  "owners_overdue": 15,
+  "overdue": [
+   {
+    "owner": "Docaposte Certinomis SAS",
+    "root": "Certinomis - Root CA",
+    "period_end": "2019-12-13",
+    "age_days": 2486,
+    "elsewhere": {
+     "Mozilla": "Removed",
+     "Chrome": "Not Included",
+     "Apple": "Removed"
+    }
+   },
+   {
+    "owner": "Government of Brazil, Instituto Nacional de Tecnologia da Informa\u00e7\u00e3o (ITI)",
+    "root": "Autoridade Certificadora Raiz Brasileira v10",
+    "period_end": "2022-09-08",
+    "age_days": 1486,
+    "elsewhere": {
+     "Mozilla": "Not Included",
+     "Chrome": "Not Included",
+     "Apple": "Not Included"
+    }
+   },
+   {
+    "owner": "Netrust Pte Ltd",
+    "root": "Netrust Root CA 2",
+    "period_end": "2024-02-19",
+    "age_days": 957,
+    "elsewhere": {
+     "Mozilla": "Not Included",
+     "Chrome": "Not Included",
+     "Apple": "Not Included"
+    }
+   },
+   {
+    "owner": "AC Camerfirma, S.A.",
+    "root": "Global Chambersign Root - 2008",
+    "period_end": "2024-03-01",
+    "age_days": 946,
+    "elsewhere": {
+     "Mozilla": "Removed",
+     "Chrome": "Not Included",
+     "Apple": "Blocked"
+    }
+   },
+   {
+    "owner": "Zetes",
+    "root": "ZETES TSP ROOT CA 001",
+    "period_end": "2024-03-10",
+    "age_days": 937,
+    "elsewhere": {
+     "Mozilla": "Not Included",
+     "Chrome": "Not Included",
+     "Apple": "Not Included"
+    }
+   },
+   {
+    "owner": "Government of India, Ministry of Communications & Information Technology, Controller of Certifying Authorities (CCA)",
+    "root": "CCA India 2022",
+    "period_end": "2024-03-20",
+    "age_days": 927,
+    "elsewhere": {
+     "Mozilla": "Not Included",
+     "Chrome": "Not Included",
+     "Apple": "Not Included"
+    }
+   },
+   {
+    "owner": "Government of India, Ministry of Communications & Information Technology, Controller of Certifying Authorities (CCA)",
+    "root": "CCA India 2022 SPL",
+    "period_end": "2024-03-20",
+    "age_days": 927,
+    "elsewhere": {
+     "Mozilla": "Not Included",
+     "Chrome": "Not Included",
+     "Apple": "Not Included"
+    }
+   },
+   {
+    "owner": "Consorci Administraci\u00f3 Oberta de Catalunya (Consorci AOC, CATCert)",
+    "root": "EC-ACC",
+    "period_end": "2024-03-28",
+    "age_days": 919,
+    "elsewhere": {
+     "Mozilla": "Removed",
+     "Chrome": "Not Included",
+     "Apple": "Not Included"
+    }
+   },
+   {
+    "owner": "Consejo General de la Abogac\u00eda Espa\u00f1ola",
+    "root": "ACA ROOT",
+    "period_end": "2024-03-31",
+    "age_days": 916,
+    "elsewhere": {
+     "Mozilla": "Not Included",
+     "Chrome": "Not Included",
+     "Apple": "Not Included"
+    }
+   },
+   {
+    "owner": "Prvn\u00ed certifika\u010dn\u00ed autorita, a.s.",
+    "root": "I.CA Root CA/ECC 12/2016",
+    "period_end": "2024-05-09",
+    "age_days": 877,
+    "elsewhere": {
+     "Mozilla": "Not Included",
+     "Chrome": "Not Included",
+     "Apple": "Not Included"
+    }
+   },
+   {
+    "owner": "SI-TRUST",
+    "root": "SI-TRUST Root",
+    "period_end": "2024-12-15",
+    "age_days": 657,
+    "elsewhere": {
+     "Mozilla": "Not Included",
+     "Chrome": "Not Included",
+     "Apple": "Not Included"
+    }
+   },
+   {
+    "owner": "Carillon Information Security Inc.",
+    "root": "Carillon PKI Services G2 Root CA 1",
+    "period_end": "2025-02-09",
+    "age_days": 601,
+    "elsewhere": {
+     "Mozilla": "Not Included",
+     "Chrome": "Not Included",
+     "Apple": "Not Included"
+    }
+   },
+   {
+    "owner": "Department of Defence Australia",
+    "root": "Australian Defence Public Root CA",
+    "period_end": "2025-02-28",
+    "age_days": 582,
+    "elsewhere": {
+     "Mozilla": "Not Included",
+     "Chrome": "Not Included",
+     "Apple": "Not Included"
+    }
+   },
+   {
+    "owner": "Entrust",
+    "root": "AffirmTrust 4K TLS Root CA - 2022",
+    "period_end": "2025-02-28",
+    "age_days": 582,
+    "elsewhere": {
+     "Mozilla": "Not Included",
+     "Chrome": "Not Included",
+     "Apple": "Not Included"
+    }
+   },
+   {
+    "owner": "Entrust",
+    "root": "AffirmTrust Commercial",
+    "period_end": "2025-02-28",
+    "age_days": 582,
+    "elsewhere": {
+     "Mozilla": "Removed",
+     "Chrome": "Removed",
+     "Apple": "Included"
+    }
+   },
+   {
+    "owner": "Entrust",
+    "root": "AffirmTrust Networking",
+    "period_end": "2025-02-28",
+    "age_days": 582,
+    "elsewhere": {
+     "Mozilla": "Removed",
+     "Chrome": "Removed",
+     "Apple": "Included"
+    }
+   },
+   {
+    "owner": "Entrust",
+    "root": "AffirmTrust Premium",
+    "period_end": "2025-02-28",
+    "age_days": 582,
+    "elsewhere": {
+     "Mozilla": "Removed",
+     "Chrome": "Removed",
+     "Apple": "Included"
+    }
+   },
+   {
+    "owner": "Entrust",
+    "root": "AffirmTrust Premium ECC",
+    "period_end": "2025-02-28",
+    "age_days": 582,
+    "elsewhere": {
+     "Mozilla": "Removed",
+     "Chrome": "Removed",
+     "Apple": "Included"
+    }
+   },
+   {
+    "owner": "Entrust",
+    "root": "Entrust 4K EV TLS Root CA - 2022",
+    "period_end": "2025-02-28",
+    "age_days": 582,
+    "elsewhere": {
+     "Mozilla": "Not Included",
+     "Chrome": "Not Included",
+     "Apple": "Not Included"
+    }
+   },
+   {
+    "owner": "Entrust",
+    "root": "Entrust 4K TLS Root CA - 2022",
+    "period_end": "2025-02-28",
+    "age_days": 582,
+    "elsewhere": {
+     "Mozilla": "Not Included",
+     "Chrome": "Not Included",
+     "Apple": "Not Included"
+    }
+   },
+   {
+    "owner": "Entrust",
+    "root": "Entrust P384 EV TLS Root CA - 2022",
+    "period_end": "2025-02-28",
+    "age_days": 582,
+    "elsewhere": {
+     "Mozilla": "Not Included",
+     "Chrome": "Not Included",
+     "Apple": "Not Included"
+    }
+   },
+   {
+    "owner": "Entrust",
+    "root": "Entrust P384 TLS Root CA - 2022",
+    "period_end": "2025-02-28",
+    "age_days": 582,
+    "elsewhere": {
+     "Mozilla": "Not Included",
+     "Chrome": "Not Included",
+     "Apple": "Not Included"
+    }
+   },
+   {
+    "owner": "Visa",
+    "root": "Visa Information Delivery Root CA",
+    "period_end": "2025-03-31",
+    "age_days": 551,
+    "elsewhere": {
+     "Mozilla": "Not Included",
+     "Chrome": "Not Included",
+     "Apple": "Removed"
+    }
+   },
+   {
+    "owner": "EDICOM",
+    "root": "CAEDICOM Root",
+    "period_end": "2025-04-25",
+    "age_days": 526,
+    "elsewhere": {
+     "Mozilla": "Not Included",
+     "Chrome": "Not Included",
+     "Apple": "Not Included"
+    }
+   }
+  ]
+ }
+}
