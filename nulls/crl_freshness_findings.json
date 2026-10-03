@@ -1,0 +1,143 @@
+{
+ "fetched": 16141,
+ "parsed": 16111,
+ "subscriber_issuing": 15982,
+ "ca_issuing": 129,
+ "owners": 62,
+ "subscriber_stale_7d": [
+  {
+   "owner": "e-commerce monitoring GmbH",
+   "ca": "GLOBALTRUST QUALIFIED 1",
+   "url": "http://service.globaltrust.eu/static/globaltrust-qualified-1.crl",
+   "this_update": "2025-11-24T10:20:00Z",
+   "next_update": "9999-12-31T23:59:59Z",
+   "entries": 51,
+   "trust_bits": "Client Authentication;Code Signing;Document Signing;IP Security IKE Intermediate;Secure Email;Server Authentication;Time Stamping"
+  },
+  {
+   "owner": "GlobalSign nv-sa",
+   "ca": "GlobalSign Timestamping CA - R3",
+   "url": "http://crl.globalsign.net/Timestamping-r3.crl",
+   "this_update": "2014-05-14T06:00:00Z",
+   "next_update": "2029-03-10T12:00:00Z",
+   "entries": 0,
+   "trust_bits": "Client Authentication;Code Signing;Encrypting File System;IP Security Tunnel Termination;IP Security User;Secure Email;Server Authentication;Time Stamping"
+  },
+  {
+   "owner": "GlobalSign nv-sa",
+   "ca": "GlobalSign Timestamping CA - SHA256 - G2",
+   "url": "http://crl.globalsign.com/gs/gstimestampingsha2g2.crl",
+   "this_update": "2020-03-17T08:41:19Z",
+   "next_update": "2029-03-29T08:41:19Z",
+   "entries": 14,
+   "trust_bits": "Client Authentication;Code Signing;Encrypting File System;IP Security Tunnel Termination;IP Security User;Secure Email;Server Authentication;Time Stamping"
+  },
+  {
+   "owner": "Government of Brazil, Instituto Nacional de Tecnologia da Informa\u00e7\u00e3o (ITI)",
+   "ca": "AC SOLUTI SSL EV",
+   "url": "http://ccd.acsoluti.com.br/lcr/ac-soluti-ssl-ev-v10.crl",
+   "this_update": "2023-03-23T18:35:07Z",
+   "next_update": "2023-03-24T00:35:07Z",
+   "entries": 54,
+   "trust_bits": "Client Authentication;Document Signing;Server Authentication"
+  },
+  {
+   "owner": "Netlock",
+   "ca": "NetLock K\u00f6zjegyz\u0151i Eat. (Class A Legal) Tan\u00fas\u00edtv\u00e1nykiad\u00f3",
+   "url": "http://crl1.netlock.hu/index.cgi?crl=calca&crltype=f",
+   "this_update": "2019-06-06T11:06:52Z",
+   "next_update": "2037-03-23T11:06:52Z",
+   "entries": 21,
+   "trust_bits": "Client Authentication;Encrypting File System;IP Security Tunnel Termination;IP Security User;Secure Email;Server Authentication;Time Stamping"
+  }
+ ],
+ "subscriber_stale_4d": 26,
+ "subscriber_interval_over_10d": [
+  {
+   "owner": "e-commerce monitoring GmbH",
+   "ca": "GLOBALTRUST QUALIFIED 1",
+   "url": "http://service.globaltrust.eu/static/globaltrust-qualified-1.crl",
+   "this_update": "2025-11-24T10:20:00Z",
+   "next_update": "9999-12-31T23:59:59Z"
+  },
+  {
+   "owner": "GlobalSign nv-sa",
+   "ca": "GlobalSign Timestamping CA - R3",
+   "url": "http://crl.globalsign.net/Timestamping-r3.crl",
+   "this_update": "2014-05-14T06:00:00Z",
+   "next_update": "2029-03-10T12:00:00Z"
+  },
+  {
+   "owner": "GlobalSign nv-sa",
+   "ca": "GlobalSign Timestamping CA - SHA256 - G2",
+   "url": "http://crl.globalsign.com/gs/gstimestampingsha2g2.crl",
+   "this_update": "2020-03-17T08:41:19Z",
+   "next_update": "2029-03-29T08:41:19Z"
+  },
+  {
+   "owner": "Netlock",
+   "ca": "NetLock K\u00f6zjegyz\u0151i Eat. (Class A Legal) Tan\u00fas\u00edtv\u00e1nykiad\u00f3",
+   "url": "http://crl1.netlock.hu/index.cgi?crl=calca&crltype=f",
+   "this_update": "2019-06-06T11:06:52Z",
+   "next_update": "2037-03-23T11:06:52Z"
+  }
+ ],
+ "ca_issuing_interval_over_12mo": [
+  {
+   "owner": "GlobalSign nv-sa",
+   "ca": "GlobalSign CA for AATL - SHA256 - G2",
+   "url": "http://crl.globalsign.com/gs/gsaatlsha2g2.crl"
+  }
+ ],
+ "expired": [
+  {
+   "owner": "Government of Brazil, Instituto Nacional de Tecnologia da Informa\u00e7\u00e3o (ITI)",
+   "ca": "AC SOLUTI SSL EV",
+   "url": "http://ccd.acsoluti.com.br/lcr/ac-soluti-ssl-ev-v10.crl",
+   "this_update": "2023-03-23T18:35:07Z",
+   "next_update": "2023-03-24T00:35:07Z",
+   "entries": 54,
+   "microsoft": "Trusted"
+  }
+ ],
+ "failures": [
+  [
+   "TimeoutError('timed out')",
+   21
+  ],
+  [
+   "ValueError('Unable to load PEM",
+   3
+  ],
+  [
+   "http 404",
+   2
+  ],
+  [
+   "ValueError(\"unknown url type: ",
+   1
+  ],
+  [
+   "URLError(gaierror(8, 'nodename",
+   1
+  ],
+  [
+   "URLError(SSLCertVerificationEr",
+   1
+  ],
+  [
+   "http 403",
+   1
+  ]
+ ],
+ "subscriber_age_days": {
+  "p50": 0.13,
+  "p90": 0.33,
+  "p99": 0.94
+ },
+ "subscriber_interval_days": {
+  "p50": 7.0,
+  "p90": 9.96,
+  "share_over_9d": 0.279
+ }
+}
