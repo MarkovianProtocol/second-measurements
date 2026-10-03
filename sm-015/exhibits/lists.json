@@ -1,0 +1,160 @@
+{
+ "chrome_version": "93.2",
+ "chrome_timestamp": "2026-10-02T13:40:14Z",
+ "apple_version": "511",
+ "chrome_usable_qualified": 64,
+ "windows_days": [
+  181,
+  181,
+  181,
+  181,
+  181,
+  181,
+  181,
+  181,
+  181,
+  181,
+  181,
+  181,
+  181,
+  181,
+  181,
+  181,
+  182,
+  182,
+  182,
+  182,
+  182,
+  182,
+  182,
+  182,
+  183,
+  183,
+  184,
+  184,
+  184,
+  184,
+  184,
+  184,
+  184,
+  184,
+  184,
+  184,
+  184,
+  184,
+  184,
+  184,
+  184,
+  184,
+  184,
+  184,
+  184,
+  184,
+  184,
+  184,
+  184,
+  184,
+  184,
+  184,
+  184,
+  184,
+  184,
+  184,
+  184,
+  184,
+  365,
+  365,
+  379,
+  380,
+  380,
+  380
+ ],
+ "over_366_days": [
+  [
+   "TrustAsia 'log2026a'",
+   380,
+   "2025-12-24",
+   "2027-01-08"
+  ],
+  [
+   "TrustAsia 'log2026b'",
+   380,
+   "2025-12-24",
+   "2027-01-08"
+  ],
+  [
+   "TrustAsia 'HETU2027'",
+   379,
+   "2026-12-25",
+   "2028-01-08"
+  ],
+  [
+   "TrustAsia Luoshu2027",
+   380,
+   "2026-12-24",
+   "2028-01-08"
+  ]
+ ],
+ "apple_usable_closed": [
+  [
+   "log.willow.ct.letsencrypt.org/2026h1",
+   108,
+   "not in Chrome list"
+  ],
+  [
+   "log.sycamore.ct.letsencrypt.org/2026h1",
+   107,
+   "not in Chrome list"
+  ],
+  [
+   "Cloudflare 'Raio2026h1a' log",
+   94,
+   "not in Chrome list"
+  ],
+  [
+   "Google 'Argon 2026H1' log",
+   94,
+   "not in Chrome list"
+  ],
+  [
+   "Google 'Xenon 2026H1' log",
+   94,
+   "not in Chrome list"
+  ],
+  [
+   "DigiCert 'Wyvern 2026h1' Log",
+   94,
+   "not in Chrome list"
+  ],
+  [
+   "DigiCert 'Sphinx 2026h1' Log",
+   94,
+   "not in Chrome list"
+  ],
+  [
+   "Elephant 2026h1",
+   94,
+   "not in Chrome list"
+  ],
+  [
+   "Tiger 2026h1",
+   94,
+   "not in Chrome list"
+  ],
+  [
+   "Tuscolo2026h1",
+   94,
+   "not in Chrome list"
+  ],
+  [
+   "Gouda 2026h1",
+   94,
+   "not in Chrome list"
+  ],
+  [
+   "IPng GmbH 'Halloumi2026h1'",
+   94,
+   "not in Chrome list"
+  ]
+ ]
+}

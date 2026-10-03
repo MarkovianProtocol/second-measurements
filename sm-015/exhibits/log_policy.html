@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Certificate Transparency Log Policy | CertificateTransparency</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Certificate Transparency Log Policy" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="https://googlechrome.github.io/CertificateTransparency/log_policy.html" />
+<meta property="og:url" content="https://googlechrome.github.io/CertificateTransparency/log_policy.html" />
+<meta property="og:site_name" content="CertificateTransparency" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Certificate Transparency Log Policy" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"Certificate Transparency Log Policy","url":"https://googlechrome.github.io/CertificateTransparency/log_policy.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/CertificateTransparency/assets/css/style.css?v=a244d8653a7ea1b21c5aec634c3273fb58a3a74d">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="https://googlechrome.github.io/CertificateTransparency/">Certificate Transparency<br>in Chrome</a></h1>
+
+<h2 class="menu">Policies</h2>
+
+  <p class="menu"><a href="/CertificateTransparency/ct_policy.html">Chrome CT Policy</a></p>
+  <p class="menu"><a href="/CertificateTransparency/log_policy.html">Chrome CT Log Policy</a></p>
+  <p class="menu"><a href="/CertificateTransparency/log_lists.html">Chrome CT Log List Usage Policy</a></p>
+
+<h2 class="menu">Reference Material</h2>
+
+  <p class="menu"><a href="/CertificateTransparency/log_states.html">Lifecycle of a CT Log</a></p>
+  <p class="menu"><a href="/CertificateTransparency/site_operators.html">Information for site operators</a></p>
+  <p class="menu"><a href="/CertificateTransparency/enterprises.html">Information for enterprises</a></p>
+  <p class="menu"><a href="/CertificateTransparency/3p_libraries.html">Information for 3p CT Libraries Users</a></p>
+
+      </header>
+      <section>
+
+      <h1 id="certificate-transparency-log-policy">Certificate Transparency Log Policy</h1>
+<p>Certificate Transparency includes a multi-party protocol for providing
+cryptographically-verifiable proofs to audit the issuance and security practices
+of Certification Authorities (CAs).</p>
+
+<p>To support such auditing, Chrome includes a <a href="log_lists.html">list of logs</a> that
+have passed an application process and are recognized to be operating in the
+public interest.  This Certificate Transparency Log Policy (“Policy”) sets forth
+how a Certificate Transparency log operator may have its log recognized within
+Chrome for the purposes of certificates satisfying Chrome’s <a href="ct_policy.html">CT
+policy</a>, as well as the ongoing expectations of these log
+operators. This policy may be updated from time to time.</p>
+
+<p>While CT logs are critical infrastructure for the web, many organizations with
+experience operating web services at scale have the prerequisites necessary to
+operate CT logs successfully. If you might be interested in operating logs,
+please reach out to the Chrome team at
+chrome-certificate-transparency@google.com. Chrome is keen to work with
+potential and current log operators to ensure those operators are successful.</p>
+
+<hr />
+
+<h2 id="application-process">Application Process</h2>
+<p>Before applying for their first CT logs to be added to Chrome, new CT log
+operators should first read and fully comprehend the ongoing requirements for CT
+logs specified in this policy. Once a log operator is confident they can meet
+these requirements and has deployed a set of temporally-sharded CT logs ready
+for application, they should follow the below process for adding these logs to
+Chrome.</p>
+
+<h3 id="new-ct-log-operators">New CT Log Operators</h3>
+<p>New CT log operators should begin their application process by first <a href="https://issues.chromium.org/issues/new?component=1861494&amp;template=2214603">filing a
+new CT log operator
+bug</a> on the
+Chromium Issue Tracker, and provide contact Information for the log operator,
+including:</p>
+<ul>
+  <li>An email address that is continuously monitored by the log operator,</li>
+  <li>a list of people authorized to represent the log operator when communicating
+with the Chrome team, and</li>
+  <li>a publicly accessible JSON object conforming to this
+<a href="/CertificateTransparency/operator_list_schema_v1.json">schema</a>, referred to below as the “operator
+JSON”.</li>
+</ul>
+
+<p>This bug will be used to track all CT logs operated by this log operator for as
+long as any logs operated by this organization are <code class="language-plaintext highlighter-rouge">Pending</code>, <code class="language-plaintext highlighter-rouge">Qualified</code>,
+<code class="language-plaintext highlighter-rouge">Usable</code>, <code class="language-plaintext highlighter-rouge">ReadOnly</code>, or <code class="language-plaintext highlighter-rouge">Retired</code>. By creating a new CT log operator bug,
+applicants are asserting they are organizationally independent from all existing
+CT log operators, which can be observed in the <a href="log_lists.html">log lists</a> hosted
+by Google. If an organizational change occurs that alters this independence, CT
+log operators are required to notify Chrome at
+chrome-certificate-transparency@google.com as soon as possible.</p>
+
+<h3 id="existing-ct-log-operators">Existing CT Log Operators</h3>
+
+<p>The CT log operator must next provide the following information about the new CT
+logs by adding to their operator JSON a new publicly accessible JSON object, one
+per log, conforming to this <a href="/CertificateTransparency/log_schema_v2.json">schema</a>, referred to as a “log
+JSON”.</p>
+
+<p>Note that certificate expiry ranges for a set of logs must be contiguous, with
+no gaps, and each log’s expiry range should be between 3 and 12 months.</p>
+
+<p>After acceptance, Google will monitor the logs, including via random compliance
+testing, prior to its inclusion within Chrome. Such compliance testing will
+include, but is not limited to, verifying the logs’ conformance to RFC 6962 or
+static-ct-api v1.1.0 (as appropriate), confirming the logs’ availability meets
+the requirements of this policy, and confirming the logs are append-only and
+consistent from every point of view.</p>
+
+<p>To enable compliance monitoring, log operators must include Google’s Merge Delay
+Monitor Root <a href="/CertificateTransparency/mmd_monitor_root.crt">certificate</a> in the set of accepted root
+certificates of their logs.  Log operators should expect ongoing querying of
+their logs from Google’s compliance monitoring infrastructure throughout the
+lifetime of the log.</p>
+
+<p>CT log operators may request that multiple operator JSON objects be processed by
+Chrome to handle multiple log families, however Chrome reserves the right to
+limit the number of operator JSON objects per operator. It is expected that
+the maxium number of operator JSON objects for an operator will be in the low
+single-digits.</p>
+
+<hr />
+
+<h2 id="log-api-specification-requirements">Log API Specification Requirements</h2>
+<p>All logs applying for inclusion in Chrome’s log list must conform with either
+RFC 6962 or to the static-ct-api v1.1.0 C2SP specification. Insofar as is
+possible, Chrome’s requirements are equivalent between static-ct-api and RFC
+6962 logs, however, static-ct-api logs must not specify a MMD greater than 1
+minute and RFC 6962 logs must not specify a MMD greater than 4 hour.</p>
+
+<hr />
+
+<h2 id="ongoing-requirements-of-included-logs">Ongoing Requirements of Included Logs</h2>
+<p>In order for their logs to remain included within Chrome after first becoming
+<code class="language-plaintext highlighter-rouge">Qualified</code>, log operators must continue to operate these logs in accordance
+with this policy. Log operators must:</p>
+<ul>
+  <li>Monitor the
+<a href="https://groups.google.com/a/chromium.org/forum/#!forum/ct-policy">ct-policy@chromium.org</a>
+group for relevant updates to policy or requirements for CT log operators.</li>
+  <li>Incorporate a certificate for which an SCT has been issued by the log within
+the MMD.
+    <ul>
+      <li>When logs receive a logging submission for an already-incorporated
+certificate, logs must either return an existing SCT or, if creating a new
+one, add another certificate entry within the MMD such that the new SCT
+can be verified using the log’s CT APIs</li>
+    </ul>
+  </li>
+  <li>Maintain log availability of 99% or above.
+    <ul>
+      <li>Log availability is measured on a per-endpoint basis over a 90-day rolling
+average from all requests made to the log by the Chrome team’s compliance
+monitoring infrastructure. The log’s overall availability is represented
+by the minimum of all per-endpoint availabilities.</li>
+      <li>Behavior that results in reduced availability includes, but is not limited
+to: network level outages, expiration of the log’s SSL certificate, a
+failure to accept new Certificates to be logged (with the exception of the
+conditions defined in the Logging Submission Policy section below),
+HTTP response status codes other than 200, or responses that include data
+that does not conform to the log’s corresponding API specification.</li>
+    </ul>
+  </li>
+  <li>Ensure their logs conform to the totality of the API specification indicated
+in the log’s application.</li>
+  <li>Maintain the append-only property of the log by providing consistent views of
+the Merkle Tree at all times and to all parties.</li>
+  <li>Not impose conditions on retrieving or sharing data from the logs.</li>
+  <li>Not present two or more conflicting views of the Merkle Tree at different
+times and/or to different parties.</li>
+  <li>Accept certificates issued by Google’s Merge Delay Monitor Root
+<a href="/CertificateTransparency/mmd_monitor_root.crt">certificate</a> to enable Google to monitor the log’s
+compliance to these policies.</li>
+  <li>Maintain a publicly accessible log JSON object that (a) reflects the current
+operational state of the log, and (b) is referenced in the operator’s publicly
+accessible operator JSON for all logs added after Nov 1, 2026.</li>
+  <li>Announce operator-initiated changes to log states to the
+<a href="https://groups.google.com/a/chromium.org/forum/#!forum/ct-policy">ct-policy@chromium.org</a> (“ct-policy@”) mailing list.</li>
+  <li>
+    <p>Notify the Chrome team of any and all changes to information gathered during
+the log inclusion process by detailing such changes in an update to the CT log
+operator bug on the <a href="https://issues.chromium.org/issues?q=status:open%20componentid:1456813">Chromium Issue
+Tracker</a>.</p>
+
+    <p>For logs that have corresponding log JSON objects, changes to the contents of
+the JSON objects do not require any such notifications.</p>
+  </li>
+</ul>
+
+<p>Google will notify log operators of changes to these requirements as well as
+effective dates for those changes via announcements to the
+<a href="https://groups.google.com/a/chromium.org/forum/#!forum/ct-policy">ct-policy@chromium.org</a> (“ct-policy@”) mailing list.</p>
+
+<hr />
+
+<h2 id="incident-detection-and-response">Incident Detection and Response</h2>
+<p>Log operators are strongly encouraged to implement proactive alerting to detect
+log conditions that could lead to a policy violation or incident before an
+incident occurs. Even when incidents can not be avoided, we believe that log
+operators detecting issues with their own logs yields the quickest resolution.
+In particular, good candidates for alerting may include the logs’ merge delay
+(if the log does not include entries synchronously), frequency of non-200 HTTP
+status codes, <a href="https://www.gstatic.com/ct/compliance/endpoint_uptime.csv">Chrome’s per-endpoint availability
+monitoring</a>, and resource usage
+metrics. When log operators do not detect incidents on their own, incidents may
+be reported by the Chrome team or other members of the CT community, via the log
+operator’s log inclusion bug, via email, or via
+<a href="https://groups.google.com/a/chromium.org/forum/#!forum/ct-policy">ct-policy@</a>.</p>
+
+<p>We expect all log incidents to be investigated and remediated by log operators
+promptly, regardless of how they were detected. Log operators should ensure
+adequate communication with the broader community and the Chrome team while logs
+are not meeting expectations by regularly emailing
+<a href="https://groups.google.com/a/chromium.org/forum/#!forum/ct-policy">ct-policy@</a>.
+This includes acknowledgement of the incident within one business day of
+becoming aware of the problem, regular updates on progress and remediation
+timeline while the incident is ongoing (typically no less than weekly), and a
+comprehensive postmortem once the incident is resolved.</p>
+
+<p>In some circumstances, log operators may be forced to make a decision that
+favors compliance with one requirement over another. To ensure that SCTs remain
+a strong indicator that a certificate was issued transparently, log operators
+are encouraged to implement mechanisms in their logs that prioritize the timely
+inclusion and availability of log entries over the continued availability of
+<code class="language-plaintext highlighter-rouge">add-chain</code> and <code class="language-plaintext highlighter-rouge">add-pre-chain</code> APIs.</p>
+
+<hr />
+
+<h2 id="chromes-response-to-incidents-and-policy-violations">Chrome’s Response to Incidents and Policy Violations</h2>
+<p>Log incidents may result in the removal of the logs from Chrome’s <a href="log_lists.html">log
+list</a>. The decision to remove logs is made at the Chrome team’s
+discretion based on all information available. This typically includes the root
+cause of the incidents, the log operator’s response, and the impact Chrome’s
+decision may have on the health of the broader CT ecosystem.</p>
+
+<p>The Chrome CT Program acknowledges that many log incidents are transient. In
+these cases, removal of the log from Chrome’s log list may not be the best
+outcome for Chrome, Chrome’s users, or the CT ecosystem. As a result, transient
+incidents where the log operator takes steps to ensure similar incidents do not
+recur typically do not result in log removal.</p>
+
+<p>Some common examples of incidents that typically do not result in removal
+include:</p>
+<ul>
+  <li>Log downtime caused by a maintenance window preannounced to
+<a href="https://groups.google.com/a/chromium.org/forum/#!forum/ct-policy">ct-policy@</a>.</li>
+  <li>A log violating the MMD due to an unpredictable spike in load, subsequently
+resolved by providing additional resources or adjusting rate limits.</li>
+  <li>A temporary log outage caused by an outage of a 3rd-party dependency (e.g. a
+cloud provider).</li>
+</ul>
+
+<p>In addition to incidents that prevent the log from being cryptographically
+verified (e.g. signing inconsistent STHs, bit flips included in the merkle tree
+structure), incidents such as the following will typically result in log
+removal:</p>
+<ul>
+  <li>Logs failing to include a certificate for which the log has issued an SCT,
+even after several days.</li>
+  <li>Logs experiencing extended availability issues, such as when the log’s
+availability over any 90 day window drops below 95%, or the log has an
+ongoing/intermittent availability issue lasting two or more weeks.</li>
+</ul>
+
+<p>Regardless of incident severity, log operators should take steps to prevent
+their logs from experiencing similar incidents in the future.</p>
+
+<p>When logs are removed from Chrome’s log list due to an incident, log operators
+are typically encouraged to submit a replacement log (covering the same
+certificate expiry window) for inclusion in Chrome’s log list as soon as they’re
+able. This helps to ensure adequate capacity in the CT ecosystem.</p>
+
+<p>Logs that are removed from Chrome’s log list are typically transitioned to the
+<code class="language-plaintext highlighter-rouge">Retired</code> <a href="log_states.html">state</a>. The Chrome team may also consider
+transitioning the log to <code class="language-plaintext highlighter-rouge">ReadOnly</code> if the log operator is interested and
+removing write traffic to the log is expected to return the log to a fully
+healthy state.</p>
+
+<hr />
+
+<h2 id="logging-submission-policy">Logging Submission Policy</h2>
+<h3 id="accepted-root-certificates">Accepted Root Certificates</h3>
+<p>In order to maintain broad utility to Chrome and its users, CT logs are expected
+to accept logging submissions from CAs that are trusted by default in Chrome
+across all its supported platforms, including ChromeOS, Android, Linux, Windows,
+macOS, iOS.</p>
+
+<p>The CCADB offers <a href="https://ccadb.my.salesforce-sites.com/ccadb/RootCACertificatesIncludedByRSReportCSV">a
+report</a>
+that lists all root certificates included in any of Apple’s, Chrome’s,
+Microsoft’s, or Mozilla’s root stores. Logs are strongly encouraged to accept
+submissions from any of these roots. Operators should also consider configuring
+logs to accept submissions from roots with CAs currently under consideration for
+inclusion in any of those root stores, available via a <a href="https://ccadb.my.salesforce-sites.com/ccadb/RootCACertificatesInclusionReportCSV">separate CCADB
+report</a>.</p>
+
+<p>Log operators should not automatically remove roots from logs as a result of
+their removal from CCADB reports so as to avoid availability, reliability, or
+accuracy issues in the CCADB report compromising the availability of dependent
+logs.</p>
+
+<h3 id="rejecting-logging-submissions">Rejecting Logging Submissions</h3>
+<p>CT logs are permitted to reject logging submissions for certificates that meet
+certain conditions, such as being expired or revoked at the time the submission
+was made. A logging rejection means that the CT log will not incorporate a given
+certificate entry into the Merkle Tree even if the certificate chains to an
+Accepted Root Certificate. Rejected logging submissions <strong>must not</strong> be issued
+an SCT by the CT log.</p>
+
+<p>A log may reject submission to log certificates that chain up to an Accepted
+Root Certificate based on one or more of the following conditions:</p>
+<ul>
+  <li><strong>Certificate Revoked:</strong> If the log determines that a certificate has been
+revoked by the issuing CA, it may reject the logging submission. If the log is
+unable to determine revocation status, it must accept the logging submission
+and incorporate the entry into the Merkle Tree within the log’s MMD.</li>
+  <li><strong>Certificate Expired:</strong> If a logging submission includes a certificate whose
+notAfter timestamp represents a point in time before the logging submission
+was made, the log may refuse to log the certificate entry. This criteria may
+be used even by legacy non-sharded CT logs that do not set certificate expiry
+ranges.</li>
+  <li><strong>TLS Server Auth EKU:</strong> The log may reject logging submissions for
+certificates that do not contain the <code class="language-plaintext highlighter-rouge">id-kp-serverAuth</code> Extended Key Usage
+(EKU).</li>
+</ul>
+
+<p>The primary purpose of allowing rejection of certain logging submissions is to
+provide log operators with greater control over the growth and operation of
+their logs while still performing their core function. Additionally, these
+criteria allow logs to be shielded from certain types of Denial of Service such
+as being spammed with the corpus of all expired certificates and being unable to
+respond to legitimate logging submissions.</p>
+
+<h3 id="temporal-sharding">Temporal Sharding</h3>
+<p>In order to provide ecosystem agility and to control the growth of CT log sizes,
+new CT logs must be <em>temporally sharded</em>, defining a <em>certificate expiry range</em>
+denoted in the form of two dates: [rangeBegin, rangeEnd). The certificate expiry
+range allows a log to reject otherwise valid logging submissions for
+certificates that expire before or after this defined range, thus partitioning
+the set of publicly-trusted certificates that each log will accept.</p>
+
+<p>In order to have their logs accepted for inclusion, log operators should deploy
+and operate their logs according to the following:</p>
+<ul>
+  <li>The certificate expiry ranges for CT logs must be no longer than one calendar
+year and should be no shorter than three months.</li>
+  <li>CT logs must reject logging submissions for certificates whose notAfter
+timestamp falls outside the certificate expiry range.</li>
+  <li>Log operators should deploy enough sharded CT logs so that their certificate
+expiry ranges cover a contiguous period of time, spanning from the current.
+time to 3-4 years in the future.
+    <ul>
+      <li>Many log operators find it convenient to define these ranges on the
+calendar year, so an application in 2020 would include e.g. Log2020,
+Log2021, Log2022, Log2023.</li>
+    </ul>
+  </li>
+  <li>CT logs will be removed from Chrome once their certificate expiry range has
+passed. When log operators in good standing have one of their logs removed in
+this manner, they should stand up a new CT log whose expiry range extends the
+set of contiguous expiry ranges.
+    <ul>
+      <li>Following the example from above, when Log2020 is removed in early 2021,
+the log operator should stand up Log2024 and apply for its inclusion,
+following the Application Process defined above.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="rate-limiting">Rate Limiting</h3>
+<p>Rate limiting is a form of reduced log availability, and log operators are
+expected to ensure that their logs operate without hitting rate limiting
+whenever possible. Operators whose logs require rate limiting during normal
+operation (i.e. not during a DoS attack or other acute issue) should investigate
+adding caching or other techniques to ensure adequate capacity such that the
+logs do not rely on rate limiting.</p>
+
+<p>If rate limiting is necessary, operators should prefer per-IP rate limiting (or
+other forms of per-client limiting) over shared global rate limits.</p>
+
+<p>Log data availability is of paramount importance. All rate limits must be set to
+ensure that all well-behaved clients can reliably retrieve log entries at a rate
+greater than the growth rate of the log. For instance, if the log’s typical
+growth rate is <code class="language-plaintext highlighter-rouge">X</code> entries/second, and <code class="language-plaintext highlighter-rouge">get-entries</code> are limited to <code class="language-plaintext highlighter-rouge">Y</code> entries
+per request, per-client limits should be no less than <code class="language-plaintext highlighter-rouge">ceil(X/Y)</code> requests/sec.
+Operators must also ensure that well-behaved clients retrieving entries have a
+sufficient opportunity to catch up with growth that occurred during periods of
+global rate limiting. Operators are encouraged to ensure sufficiently high
+limits such that clients can catch up in a reasonable period of time.</p>
+
+<p>If a log is unable to provide sufficient <code class="language-plaintext highlighter-rouge">get-entries</code> capacity to ensure these
+requirements, operators should apply rate limiting to <code class="language-plaintext highlighter-rouge">add-chain</code> and
+<code class="language-plaintext highlighter-rouge">add-pre-chain</code> log endpoints to reduce overall load on the log. Operators
+should work to ensure that the impact of reduced log availability is minimized
+on time-sensitive certificate issuance, such as by specifically prioritizing
+<code class="language-plaintext highlighter-rouge">add-pre-chain</code> over <code class="language-plaintext highlighter-rouge">add-chain</code> endpoints, or by more aggressively limiting
+submissions of certificates with <code class="language-plaintext highlighter-rouge">notBefore</code> dates significantly in the past.</p>
+
+<p>The CT log operator’s bug should be kept up to date with a description of all
+rate limiting policies applied to the log.</p>
+
+<p>Logs that are only able to operate with rate limits that prevent typical usage
+of the log by certificate submitters or monitors may be removed from Chrome’s
+log list for failure to provide an adequate level of service.</p>
+
+
+
+      </section>
+      <footer>
+        <p><a href="/CertificateTransparency/CONTRIBUTING.md">contributing</a></p>
+      </footer>
+    </div>
+    <script src="/CertificateTransparency/assets/js/scale.fix.js"></script>
+  </body>
+</html>

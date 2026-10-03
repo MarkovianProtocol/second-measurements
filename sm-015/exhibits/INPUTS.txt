@@ -1,0 +1,10 @@
+log_list.json            https://www.gstatic.com/ct/log_list/v3/log_list.json  v93.2, 2026-10-02T13:40:14Z
+apple_log_list.json      https://valid.apple.com/ct/log_list/current_log_list.json  v511, Last-Modified 2026-03-31 16:17:29 GMT (apple_headers.txt)
+log_policy.html          https://googlechrome.github.io/CertificateTransparency/log_policy.html  fetched 2026-10-03
+apple_ct_program.html    https://support.apple.com/en-us/103703  (Published Date September 03, 2026) fetched 2026-10-03
+static_ct_api.md         https://raw.githubusercontent.com/C2SP/C2SP/main/static-ct-api.md  fetched 2026-10-03
+ccadb_all_included.csv   https://ccadb.my.salesforce-sites.com/ccadb/AllIncludedRootCertsCSV  fetched 2026-10-03 (101 Google Chrome Status = Included)
+root_store.textproto     chromium/src net/data/ssl/chrome_root_store/root_store.textproto  version_major 41, 100 trust_anchors (CCADB's 101st = Certum Trusted Network CA 2)
+roots_by_log.json        get_roots.py output, 2026-10-03: /ct/v1/get-roots of all 64 usable+qualified logs vs the 101
+merge_delays_merged.json ct_mmd.py runs of 2026-10-02 (our own certificate chain submitted to every log, each polled until served); best measured delay per log
+lists.json               analyze_lists.py output
