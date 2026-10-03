@@ -1,0 +1,29 @@
+{
+ "Google 'Xenon2026h2' log": {
+  "log_id": "2AlVO5RPev/IFhlvlE+Fq7D4/F6HVSYPFdEucrtFSxQ=",
+  "tree_size": 2935551160,
+  "sth_timestamp": "2026-10-03T00:20:43.935000Z",
+  "coverage_cutoff": "2026-06-12T22:49:47.929000Z",
+  "first_index_after_cutoff": 1273229307,
+  "entries_after_cutoff": 1662321853,
+  "share_unread": 0.566
+ },
+ "DigiCert 'Wyvern2026h2'": {
+  "log_id": "wjF+V0UZo0XufzjespBB68fCIVoiv3/Vta12mtkOUs0=",
+  "tree_size": 2137486424,
+  "sth_timestamp": "2026-10-03T00:22:21.603000Z",
+  "coverage_cutoff": "2026-06-28T23:57:15.173000Z",
+  "first_index_after_cutoff": 1181382080,
+  "entries_after_cutoff": 956104344,
+  "share_unread": 0.447
+ },
+ "DigiCert 'Sphinx2026h2'": {
+  "log_id": "lE5Dh/rswe+B8xkkJqgYZQHH0184AgE/cmd9VTcuGdg=",
+  "tree_size": 2107751733,
+  "sth_timestamp": "2026-10-03T00:22:31.778000Z",
+  "coverage_cutoff": "2026-08-10T23:37:07.690000Z",
+  "first_index_after_cutoff": 1572886306,
+  "entries_after_cutoff": 534865427,
+  "share_unread": 0.254
+ }
+}

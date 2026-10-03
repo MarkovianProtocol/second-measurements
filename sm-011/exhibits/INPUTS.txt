@@ -1,0 +1,9 @@
+coverage_all/                 clubcard-crlite `inspect` output for all 62 default-channel filters Firefox downloaded on 2026-10-02 (snapshot 20260902-0 + 61 deltas): per-log coverage intervals
+coverage_series_classic.json  the max coverage timestamp per classic (24 h MMD) log across those 62 filters
+log_ids.json                  CT log ids -> operator, name, merge delay (Google all_logs_list.json + Apple current_log_list.json, 2026-10-02)
+unread_entries.json           per lagging log: tree head (get-sth, 2026-10-03 ~00:40Z), coverage cutoff, first index past it (binary search over get-entries), entries after it
+xenon2026h2-sth.json          https://ct.googleapis.com/logs/eu1/xenon2026h2/ct/v1/get-sth at 2026-10-03 00:14:50Z
+mozilla.org.der, mozilla.org-query.log   certificate served by mozilla.org on 2026-10-02 and rust-query-crlite's filter-by-filter trace on freshly downloaded filters
+tranco-top-5000.csv, topsites_results.json, topsites5k.log, topsites_certs.tar.gz   Tranco list (downloaded 2026-10-02), every live certificate fetched from the top 5,000 (3,792 reachable), both channels' verdicts, covered-log counts
+crlite-issue-366*.json        github.com/mozilla/crlite issue 366 and comments
+clubcards_for_the_webpki.pdf  Schanck et al., IEEE S&P 2025 (research.mozilla.org)

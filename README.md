@@ -4,6 +4,7 @@ Public claims about logs and datasets, recomputed by a different path than the o
 
 | | Finding | Status | |
 |---|---|---|---|
+| [SM-011](sm-011/) | Firefox's revocation list is months behind the biggest certificate logs. One in eleven top sites, mozilla.org included, gets no revocation check at all | Sent to Mozilla 2026-10-02, response pending | [paper](https://markovianprotocol.com/measurements/sm-011.html) |
 | [SM-010](sm-010/) | Hugging Face says every file goes through its malware scanner. Nothing over 2 GB does, and the badge says safe anyway | Sent to Hugging Face 2026-10-02, response pending | [paper](https://markovianprotocol.com/measurements/sm-010.html) |
 | [SM-009](sm-009/) | Firefox promised a list of every revoked certificate. A third of the ones revoked on day one aren't on it, and it no longer asks anyone else | Sent to Mozilla 2026-10-02, response pending | [paper](https://markovianprotocol.com/measurements/sm-009.html) |
 | [SM-001](sm-001/) | Google's Pixel ledger promised every release. January went missing, and stayed missing for eight months | Confirmed and fixed by Google | [paper](https://markovianprotocol.com/measurements/sm-001.html) |
