@@ -1,11 +1,11 @@
 {
-  "leaf_index": 9177,
-  "tree_size": 9178,
-  "leaf": "public-note:v1 sha256:a96f58479794fed4a9cafcd08a1d4166f3d0d8c43861567ca3c36e8cd788dff5 2026-10-03T01:32:10Z",
-  "inclusion_proof": "https://log.markovianprotocol.com/inclusion?leaf=9177&size=9178",
-  "leaf_bytes": "https://log.markovianprotocol.com/leaf/9177",
+  "leaf_index": 9187,
+  "tree_size": 9188,
+  "leaf": "public-note:v1 sha256:64781fcdc0c0aae59038965c9f1724b11bede7f2ee6ee079b11527a1f652fca7 2026-10-03T03:19:45Z",
+  "inclusion_proof": "https://log.markovianprotocol.com/inclusion?leaf=9187&size=9188",
+  "leaf_bytes": "https://log.markovianprotocol.com/leaf/9187",
   "witnessed_checkpoint": "https://log.markovianprotocol.com/checkpoint",
-  "receipt_page": "https://markovianprotocol.com/r/9177",
-  "scitt_receipt": "https://log.markovianprotocol.com/receipt/scitt/9177",
-  "note": "your leaf is in the tree now; it is covered by witness cosignatures and the Bitcoin anchor once /checkpoint reports a size greater than 9177 (next witness round, within the hour). The log stores only this hash -- keep your file to prove what it was."
+  "receipt_page": "https://markovianprotocol.com/r/9187",
+  "scitt_receipt": "https://log.markovianprotocol.com/receipt/scitt/9187",
+  "note": "your leaf is in the tree now; it is covered by witness cosignatures and the Bitcoin anchor once /checkpoint reports a size greater than 9187 (next witness round, within the hour). The log stores only this hash -- keep your file to prove what it was."
 }
