@@ -4,7 +4,7 @@ search over the log's own get-entries, the first index whose timestamp is past t
 there to the tree head is what Mozilla's reader has not ingested. Writes exhibits/unread_entries.json."""
 import json, urllib.request, re, base64, struct, time, datetime as dt, sys
 UA = {"User-Agent": "second-measurements (markovianprotocol.com)"}
-logs = json.load(open("log_ids.json"))
+logs = json.load(open("exhibits/log_ids.json"))
 cov = {}
 for line in open("exhibits/coverage_all/20261002-1-default.filter.delta.txt"):
     m = re.match(r"\s*(\S+)=,\s*(\d+),\s*(\d+)", line)

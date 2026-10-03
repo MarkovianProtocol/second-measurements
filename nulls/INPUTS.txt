@@ -1,4 +1,5 @@
 crl_freshness.py needs the CCADB export beside it first:
   curl -sL https://ccadb.my.salesforce-sites.com/ccadb/AllCertificateRecordsCSVFormatV5 -o ccadb_v5.csv
 ct_merge_delays.py / ct_merge_delays_tiles.py read google_all_logs_list.json and apple_log_list.json from this folder and submit chain.pem (your own publicly trusted chain, not shipped).
+kubernetes_signatures_verify.py needs k8s_sigs.json, written by kubernetes_signatures.py: run that first (about half a minute).
 ct_roots/get_roots.py reads ccadb_all_included.csv and log_list.json from its own folder.
