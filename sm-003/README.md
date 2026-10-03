@@ -17,7 +17,7 @@ Python 3, `zstd`, and the GitHub CLI for the live checks. The corpus is `sbom-fi
 python3 scan_github.py < corpus.tar       # tool labels
 python3 classify_all.py < corpus.tar      # the three groups
 python3 github_live.py && python3 github_live_depth.py   # GitHub's exporter, live
-python3 analyze.py                        # every table
+python3 analyze.py                        # every table; expects the study's sboms-01.csv saved as sboms01.csv beside it, plus classified_v2.jsonl, github_sboms.jsonl and repo_origins.csv from the steps above
 ```
 
 `SHA256SUMS` lists the scripts' hashes; they match the copies served next to the paper.

@@ -22,18 +22,20 @@ Public claims about logs and datasets, recomputed by a different path than the o
 
 Earlier measurements in their own repos: [x402-second-measurement](https://github.com/MarkovianProtocol/x402-second-measurement), [ocsf-second-measurement](https://github.com/MarkovianProtocol/ocsf-second-measurement). Every finding reported to someone else and what happened next: [findings-ledger](https://github.com/MarkovianProtocol/findings-ledger).
 
+Python packages any script here needs are in `requirements.txt` (`pip install -r requirements.txt`); everything else is the standard library plus the tools each folder names.
+
 ## Checked, nothing found
 
 `nulls/` holds the scripts for checks where the claim held:
 
 - `armored-witness-firmware.py`: 27 of 28 Armored Witness firmware log entries match the commit their tag points to on GitHub. The recovery image names tag `0.1.0`, which doesn't exist.
 - `plexi_coverage.py`: 150 of 150 sampled WhatsApp key-transparency epochs have a retrievable, consistent audit on Cloudflare Plexi. Signatures not checked.
-- `mcp_star_floor.py`: the MSR '26 dataset of MCP implementations keeps only repositories with 50 or more stars, which the paper doesn't state (4.3% of matching repositories). Its language findings hold below that cut, and no owner holds more than 1%.
+- `mcp_star_floor.py` (needs `true_mcp_repos.jsonl` from the paper's Zenodo replication package, record 17573071): the MSR '26 dataset of MCP implementations keeps only repositories with 50 or more stars, which the paper doesn't state (4.3% of matching repositories). Its language findings hold below that cut, and no owner holds more than 1%.
 - `pypi_attest.py`: PyPI said 17% of uploads in 2025 carried an attestation. In 1,000 uploads sampled from its changelog, 17.9% do (95%: 15.1–20.8%); 20.5% of those still on PyPI, a floor on Trusted Publishing's "more than 20%".
 - `mcp_endpoint_redirects.py`: a 2026 census found 4.2% of multi-version MCP registry servers moved their endpoint to a different host. Recomputed: 4.02%. Of those tied to a verified domain, 116 of 135 stayed with that domain's owner; 283 of 418 are GitHub-account names with no domain to check.
 - `github_cve_credits.py`: a 2026 paper found GitHub leaves reporter credits out of the CVE records it assigns. Still so: 0 of the newest 150 CVE records and 0 of their OSV files carry credits, though every advisory names someone.
 - `homebrew_bottle_attestations.py`: Homebrew says it attests every bottle its CI builds. 599 of 600 sampled bottles are attested by its CI or its backfill signer; the exception is `ht` 2.1.0's two Monterey bottles, still served with no attestation, reported as [homebrew-core#314985](https://github.com/Homebrew/homebrew-core/issues/314985).
-- `nvd_kev_enrichment.py`: NIST's goal is to enrich known-exploited CVEs within one business day. All 163 added since 15 April 2026 made it; 95 needed work and took a median of 19.5 hours.
+- `nvd_kev_enrichment.py` (first save CISA's catalogue: `curl -sLo kev.json https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json`; NVD without an API key takes over an hour): NIST's goal is to enrich known-exploited CVEs within one business day. All 163 added since 15 April 2026 made it; 95 needed work and took a median of 19.5 hours.
 - `kubernetes_signatures.py` / `kubernetes_signatures_verify.py`: Kubernetes says it signs all release binaries. 408 of 408 binaries across 12 releases carry a signature and certificate; 12 of 12 sampled signatures verify from the documented release identity.
 - `proton_kt_epochs.py`: Proton says a key-transparency epoch goes out every 4 hours, never more than 72. 515 epochs from Certificate Transparency since July: median 4.00 hours, longest 38.1.
 - `debian_reproducible_gate.py`: Debian said on 10 May 2026 that migration now blocks unreproducible new packages and regressions. 457 unreproducible binaries sit in testing today: 128 predate the gate, 231 replaced an already-unreproducible version (allowed), 76 are hinted, 10 got their verdict after crossing, and the 12 petsc binaries were flagged by britney and waved through on the record in #1135890. 0 unexplained.

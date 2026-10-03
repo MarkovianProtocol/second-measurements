@@ -14,8 +14,8 @@ Python 3 standard library. Docker Hub's registry allows 100 anonymous manifest r
 
 ```
 git clone --depth 1 https://github.com/docker-library/official-images oi
-python3 census2.py      # every image entry: platforms vs attestations (Hub tag API)
-python3 signing.py 50   # 50 random repos: attestation media type and referrers
+python3 census2.py      # every image entry: platforms vs attestations (Hub tag API); about 25 minutes, writes census2.json
+python3 signing.py 50   # random repos from census2.json: attestation media type and referrers (the paper reports the 45 that completed)
 python3 probe.py nginx:latest python:3.13
 ```
 

@@ -11,17 +11,18 @@ Paper: [https://markovianprotocol.com/measurements/sm-009.html](https://markovia
 ## Run it
 
 ```
+cp exhibits/*.json .                                       # the inputs the scripts read (CCADB CRL list, issuer SPKIs, log ids)
 python3 sample_crls.py && python3 sample_crls_big.py     # CRLs from CCADB, revocations 2-30 days old
 python3 fetch_and_query.py                                 # draws the sample
 python3 fetch_v3.py && python3 fetch_scts.py               # crt.sh lookups and SCT timestamps (UTC)
 git clone https://github.com/mozilla/crlite && git apply exhibits/rust-query-crlite-raw-subcommand.patch
 cargo build --release --manifest-path crlite/rust-query-crlite/Cargo.toml
-rust-query-crlite -d db_default --update prod --channel default https example.com
-rust-query-crlite -d db_compat  --update prod --channel compat  https example.com
+crlite/rust-query-crlite/target/release/rust-query-crlite -d db_default --update prod --channel default https example.com
+crlite/rust-query-crlite/target/release/rust-query-crlite -d db_compat  --update prod --channel compat  https example.com
 python3 analyze.py
 ```
 
-Needs Python 3 with `cryptography`, `psql` for crt.sh's public PostgreSQL mirror (slow, drops connections under load), and Rust.
+Needs Python 3 with `cryptography`, `psql` on PATH (`brew install libpq` on a Mac) for crt.sh's public PostgreSQL mirror (slow, drops connections under load), and Rust. The crt.sh lookups take about an hour for 1,691 certificates. `exhibits/SHA256SUMS` covers the files in this folder; `SHA256SUMS.site` also lists the three large filter and CRL files served only next to the paper.
 
 ## Limits
 

@@ -27,7 +27,7 @@ def http(url, data=None, timeout=60):
 # ---- logs ---------------------------------------------------------------------
 logs = {}
 for f in ("google_all_logs_list.json", "apple_log_list.json"):
-    d = json.load(open(os.path.join(HERE, "..", "crlite", "exhibits", f)))
+    d = json.load(open(os.path.join(HERE, "exhibits", f)))
     for op in d["operators"]:
         for kind in ("logs", "tiled_logs"):
             for l in op.get(kind, []):

@@ -13,11 +13,13 @@ Paper: [https://markovianprotocol.com/measurements/sm-011.html](https://markovia
 ```
 git clone https://github.com/mozilla/crlite && cargo build --release --manifest-path crlite/rust-query-crlite/Cargo.toml
 git clone https://github.com/mozilla/clubcard-crlite && cargo build --release --examples --manifest-path clubcard-crlite/Cargo.toml
-rust-query-crlite -d db --update prod https mozilla.org
-for f in db/*.filter db/*.delta; do inspect "$f" > "coverage/$(basename $f).txt"; done
-python3 unread_entries.py
-python3 topsites_crlite.py 1000
+crlite/rust-query-crlite/target/release/rust-query-crlite -d db --update prod https mozilla.org
+mkdir -p coverage && for f in db/*.filter db/*.delta; do clubcard-crlite/target/release/examples/inspect "$f" > "coverage/$(basename $f).txt"; done
+python3 unread_entries.py                 # reads exhibits/log_ids.json and exhibits/coverage_all/
+python3 topsites_crlite.py 1000           # needs the cryptography package; reads exhibits/tranco-top-5000.csv and the db_ folders above
 ```
+
+`exhibits/SHA256SUMS` covers the files in this folder; `SHA256SUMS.site` also lists the Clubcards paper PDF and the certificate tarball served only next to the paper.
 
 ## Limits
 

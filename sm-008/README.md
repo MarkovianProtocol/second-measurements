@@ -11,7 +11,7 @@ Paper: [https://markovianprotocol.com/measurements/sm-008.html](https://markovia
 ## Run it
 
 ```
-python3 cisa_ssvc.py kev      # every known-exploited CVE
+python3 cisa_ssvc.py kev      # every known-exploited CVE, one CVE Services call each with a pause: about 15 minutes, no progress line
 python3 cisa_ssvc.py recent   # random 400 since 2026-06-10, split by source
 python3 cisa_ssvc.py months   # 15 kernel CVEs per month (NVD API, ~10 min without a key)
 ```

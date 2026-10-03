@@ -15,7 +15,7 @@ Python 3, the GitHub CLI (`gh`) logged in, and `pyarrow` + `huggingface_hub` for
 ```
 python3 counts.py         # the counts
 python3 aidev_sample.py   # 120 AIDev v4 Claude Code PRs, seed 20260930
-python3 union_sample.py   # 150 union PRs by hour-window rejection sampling, seed 20260930
+python3 union_sample.py   # 150 union PRs by hour-window rejection sampling, seed 20260930 (about 50 minutes of gh search calls)
 python3 compare.py        # the comparison
 ```
 

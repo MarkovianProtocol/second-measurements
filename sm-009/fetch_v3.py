@@ -15,7 +15,7 @@ import json, re, os, sys, hashlib, base64, subprocess, collections, datetime as 
 
 BATCH = 200
 Q = "src-crlite/rust-query-crlite/target/release/rust-query-crlite"
-PSQL = ["/opt/homebrew/opt/libpq/bin/psql", "host=crt.sh port=5432 dbname=certwatch user=guest connect_timeout=60", "-At", "-F", "\t", "-c", "set statement_timeout='900s'"]
+PSQL = ["psql", "host=crt.sh port=5432 dbname=certwatch user=guest connect_timeout=60", "-At", "-F", "\t", "-c", "set statement_timeout='900s'"]
 os.makedirs("certs", exist_ok=True)
 sample = json.load(open("sample.json"))
 spki = json.load(open("issuer_spki.json"))

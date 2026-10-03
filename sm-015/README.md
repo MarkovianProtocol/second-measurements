@@ -6,9 +6,10 @@ Paper: https://markovianprotocol.com/measurements/sm-015.html
 
 ## Run it
 
-    python3 ct_mmd.py --chain chain.pem    # submit to every log, poll until served (needs the cryptography package)
-    python3 get_roots.py                   # accepted roots per log vs CCADB's Chrome-included set (ccadb_all_included.csv, log_list.json)
-    python3 analyze_lists.py               # shard windows and Apple's closed-but-usable shards (log_list.json, apple_log_list.json)
+    cp exhibits/*.json exhibits/*.csv .    # the two log lists and the CCADB root list the scripts read
+    python3 ct_mmd.py [max_wait_hours]     # submits chain.pem (a publicly trusted chain you hold, placed next to the script; not shipped) to every log and polls until served; needs the cryptography package; an hour for the slowest log
+    python3 get_roots.py                   # accepted roots per log vs CCADB's Chrome-included set
+    python3 analyze_lists.py               # shard windows and Apple's closed-but-usable shards
 
 ## Limits
 

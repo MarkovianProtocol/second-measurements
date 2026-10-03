@@ -10,7 +10,7 @@ from cryptography import x509
 random.seed(20261002)
 PER_ORG = 20
 UA = {"User-Agent": "second-measurements (markovianprotocol.com)"}
-Q = "src-crlite/rust-query-crlite/target/release/rust-query-crlite"
+Q = "crlite/rust-query-crlite/target/release/rust-query-crlite"
 SCT_OID = "1.3.6.1.4.1.11129.2.4.2"
 os.makedirs("certs", exist_ok=True)
 

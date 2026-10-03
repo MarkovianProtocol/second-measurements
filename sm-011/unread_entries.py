@@ -6,7 +6,7 @@ import json, urllib.request, re, base64, struct, time, datetime as dt, sys
 UA = {"User-Agent": "second-measurements (markovianprotocol.com)"}
 logs = json.load(open("log_ids.json"))
 cov = {}
-for line in open("exhibits/coverage-20261002-1-default.delta.txt"):
+for line in open("exhibits/coverage_all/20261002-1-default.filter.delta.txt"):
     m = re.match(r"\s*(\S+)=,\s*(\d+),\s*(\d+)", line)
     if m: cov[m.group(1) + "="] = int(m.group(3))
 targets = {"Google 'Xenon2026h2' log": "https://ct.googleapis.com/logs/eu1/xenon2026h2/",

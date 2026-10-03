@@ -18,7 +18,7 @@ for line in open(os.path.join(HERE, "..", "crlite", "exhibits", "coverage-202610
     m = re.match(r"\s*(\S+)=,\s*(\d+),\s*(\d+)", line)
     if m: cov[m.group(1) + "="] = int(m.group(3))
 os.makedirs(os.path.join(HERE, "certs"), exist_ok=True)
-hosts = [r[1] for r in csv.reader(open(os.path.join(HERE, "top-1m.csv")))][:N]
+hosts = [r[1] for r in csv.reader(open(os.path.join(HERE, "exhibits/tranco-top-5000.csv")))][:N]
 
 def grab(host):
     ctx = ssl.create_default_context(); ctx.check_hostname = False; ctx.verify_mode = ssl.CERT_NONE

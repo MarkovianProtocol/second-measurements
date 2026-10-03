@@ -3,7 +3,7 @@
 final certificate ids, and record which entries are the CA's own (embedded) where the final
 certificate is available. Writes verdicts.json -> sample_scts.json."""
 import json, hashlib, base64, subprocess, sys, time, collections
-PSQL = ["/opt/homebrew/opt/libpq/bin/psql", "host=crt.sh port=5432 dbname=certwatch user=guest connect_timeout=60", "-At", "-F", "\t",
+PSQL = ["psql", "host=crt.sh port=5432 dbname=certwatch user=guest connect_timeout=60", "-At", "-F", "\t",
         "-c", "set statement_timeout='900s'", "-c", "set timezone='UTC'"]
 def psql(sql, tries=40):
     for i in range(tries):
