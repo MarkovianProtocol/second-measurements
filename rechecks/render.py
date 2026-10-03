@@ -97,7 +97,7 @@ s13 = load("sm-013")
 if s13:
     body += f"""
 <h2>SM-013 · Federal .gov domains with DNSSEC</h2>
-<p>CISA&rsquo;s registry, every domain asked for its DS record and a validated answer. <a href="sm-013.html">Paper</a>.</p>
+<p>CISA&rsquo;s registry, every domain asked for its DS record and a validated answer. Paper in review before publication.</p>
 {table([("Date",0),("Domains",1),("Signed",1),("Executive unsigned",1),("Judicial signed",1),("Fail validation",1),("SHA-1 only",1)],
        [[H(r["date"]), fmt(r["domains"]), fmt(r["signed"]), fmt(r["exec_unsigned"]), fmt(r["judicial_signed"]), fmt(r["bogus"]), fmt(r["sha1_only"])] for r in s13[-14:]])}
 <p class="cap">Weekly. &ldquo;Fail validation&rdquo; counts domains a validating resolver refuses but answers with checking disabled.</p>
@@ -106,7 +106,7 @@ s14 = load("sm-014")
 if s14:
     body += f"""
 <h2>SM-014 · Expired RPKI manifests</h2>
-<p>Read straight from each repository&rsquo;s RRDP snapshot, no validator in between: manifests past nextUpdate, and how many lapsed in the last seven days. <a href="sm-014.html">Paper</a>.</p>
+<p>Read straight from each repository&rsquo;s RRDP snapshot, no validator in between: manifests past nextUpdate, and how many lapsed in the last seven days. Paper in review before publication.</p>
 {table([("Date",0),("registro.br manifests",1),("expired",1),("last 7 days",1),("RIPE hosted",1),("expired",1),("ARIN hosted",1),("expired",1)],
        [[H(r["date"]), fmt(r.get("registro_br_manifests")), fmt(r.get("registro_br_expired")), fmt(r.get("registro_br_expired_7d")), fmt(r.get("ripe_paas_manifests")), fmt(r.get("ripe_paas_expired")), fmt(r.get("arin_rps_manifests")), fmt(r.get("arin_rps_expired"))] for r in s14[-14:]])}
 <p class="cap">Daily. The &ldquo;last 7 days&rdquo; column is the live problem; the rest of registro.br&rsquo;s and RIPE&rsquo;s expired manifests are years old and outside any chain.</p>

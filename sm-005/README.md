@@ -2,7 +2,7 @@
 
 When WhatsApp or Meta's AI glasses hand a request to Meta's private AI servers, those servers may only run software listed in a public log that Cloudflare keeps. Meta's whitepaper says the list of pulled software is republished every 3 hours. We fetched all 2,690 entries since June 2025: it slowed to every 4 hours in October and every 6 since January, and the whitepaper's March update still says 3. The server software is described as weekly, but only 37 of 70 weeks have a new entry, including a six-week stretch with none.
 
-Paper: [https://markovianprotocol.com/measurements/sm-005.html](https://markovianprotocol.com/measurements/sm-005.html) · log leaf [9171](https://log.markovianprotocol.com/leaf/9171) · Sent to Meta 2026-10-01, response pending
+Paper: [https://markovianprotocol.com/measurements/sm-005.html](https://markovianprotocol.com/measurements/sm-005.html) · DOI [10.5281/zenodo.23122986](https://doi.org/10.5281/zenodo.23122986) · log leaf [9171](https://log.markovianprotocol.com/leaf/9171) · Sent to Meta 2026-10-01, response pending
 
 ## Evidence
 
