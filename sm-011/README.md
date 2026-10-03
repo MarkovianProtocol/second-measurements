@@ -2,7 +2,7 @@
 
 CRLite's filter carries, per Certificate Transparency log, the timestamp Mozilla's builder has read up to. On 2 October 2026 that was 12 June for Google Xenon2026h2, 28 June for DigiCert Wyvern2026h2, 10 August for Sphinx2026h2 and November 2025 for TrustAsia log2026a/b: 1.66 billion, 956 million and 535 million entries unread in the three largest. A certificate whose embedded SCTs all come from those logs is "not covered", and Firefox skips the OCSP check for it. Live certificates of the Tranco top 1,000: 68 of 726 not covered, including mozilla.org (18 days old), stripe.com, medium.com, digicert.com; 346 of 3,792 in the top 5,000. All logs served our own fresh entry within minutes (see `nulls/ct_merge_delays*`), so the lag is in the reader.
 
-Paper: [https://markovianprotocol.com/measurements/sm-011.html](https://markovianprotocol.com/measurements/sm-011.html) · DOI [10.5281/zenodo.23123261](https://doi.org/10.5281/zenodo.23123261) · log leaf [9222](https://log.markovianprotocol.com/leaf/9222)
+Paper: [https://markovianprotocol.com/measurements/sm-011.html](https://markovianprotocol.com/measurements/sm-011.html) · DOI [10.5281/zenodo.23123261](https://doi.org/10.5281/zenodo.23123261) · log leaf [9247](https://log.markovianprotocol.com/leaf/9247)
 
 ## Evidence
 

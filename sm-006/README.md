@@ -2,7 +2,7 @@
 
 x402 lets programs pay each other pennies over the web, and a July study found most of the 136.7 million payments on Base were manufactured. We counted one day in August: 234,490. We counted again on 1 October: 63,003, three-quarters gone. The payers changed completely; the one behind 56.9% of August's traffic made none. The senders didn't: the same 20 wallets in two groups sent about 80% of the payments both days.
 
-Paper: [https://markovianprotocol.com/measurements/sm-006.html](https://markovianprotocol.com/measurements/sm-006.html) · DOI [10.5281/zenodo.23122988](https://doi.org/10.5281/zenodo.23122988) · log leaf [9226](https://log.markovianprotocol.com/leaf/9226) · Sent to the authors 2026-10-01, response pending
+Paper: [https://markovianprotocol.com/measurements/sm-006.html](https://markovianprotocol.com/measurements/sm-006.html) · DOI [10.5281/zenodo.23122988](https://doi.org/10.5281/zenodo.23122988) · log leaf [9240](https://log.markovianprotocol.com/leaf/9240) · Sent to the authors 2026-10-01, response pending
 
 ## Evidence
 
