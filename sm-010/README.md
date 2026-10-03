@@ -2,7 +2,7 @@
 
 Hugging Face's docs say every file in every repository goes through a malware scanner at each commit, within minutes. Its API reports each file's result. On 3,038 files across 450 repositories (150 most-downloaded models, 150 most-downloaded datasets, 150 random recent models), read on 2 October 2026 through two endpoints: under 2 GiB, 2,539 of 2,551 files scanned; at 2 GiB and above, 0 of 487. That is 89% of the bytes in the sample and 92% in the top models, and 476 of the 494 skipped files show the "safe" badge. Most are safetensors or GGUF, which cannot run code; seven are PyTorch pickle files, which the separate pickle-import scanner did read.
 
-Paper: [https://markovianprotocol.com/measurements/sm-010.html](https://markovianprotocol.com/measurements/sm-010.html) · log leaf [9147](https://log.markovianprotocol.com/leaf/9147)
+Paper: [https://markovianprotocol.com/measurements/sm-010.html](https://markovianprotocol.com/measurements/sm-010.html) · log leaf [9178](https://log.markovianprotocol.com/leaf/9178)
 
 ## Evidence
 
