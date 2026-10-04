@@ -120,6 +120,15 @@ if s15:
        [[H(r["date"]), H(r["apple_version"]), H(r["apple_last_modified"]), fmt(r["apple_usable_closed"]), H(r["chrome_version"]), fmt(r["chrome_logs"]), fmt(r["chrome_over_366d"]), H(", ".join(str(x) for x in r["chrome_rfc6962_mmd"]))] for r in s15[-14:]])}
 <p class="cap">Daily. The day Apple&rsquo;s Last-Modified changes, or Chrome&rsquo;s list says 14400, the paper&rsquo;s finding is closed and this table shows when.</p>
 """
+s16 = load("sm-016")
+if s16:
+    body += f"""
+<h2>SM-016 &middot; Toxics Release Inventory, the 1 July deadline</h2>
+<p>Monthly: whether EPA has loaded any forms for the year whose deadline has passed, and for the newest loaded year, the forms and facilities postmarked after 1 July. <a href="sm-016.html">Paper</a>.</p>
+{table([("Date",0),("Year pending",0),("Its forms loaded",1),("Newest year",0),("Forms",1),("Late",1),("Share",0),("Facilities late",1)],
+       [[H(r["date"]), H(r["pending_year"]), fmt(r["pending_year_forms_loaded"]), H(r["newest_year"]), fmt(r.get("forms")), fmt(r.get("late_forms")), H(str(r.get("late_share_pct"))+"%"), fmt(r.get("facilities_late"))] for r in s16[-14:]])}
+<p class="cap">The day the pending year&rsquo;s count leaves zero, its late forms start their clock here; the enforcement join reruns after each ECHO refresh.</p>
+"""
 body += '<p>Scripts: <a href="https://github.com/MarkovianProtocol/second-measurements/tree/main/rechecks">github.com/MarkovianProtocol/second-measurements/rechecks</a>.</p>\n'
 sys.path.insert(0, R); import og_tags
 open(os.path.join(SITE, "rechecks.html"), "w").write(og_tags.apply(head + body + foot, "rechecks"))

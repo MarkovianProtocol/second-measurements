@@ -13,6 +13,8 @@ case $1 in
   sm013) ~/neo_env/bin/python3 sm013.py ;;
   sm014) ~/neo_env/bin/python3 sm014.py ;;
   sm015) ~/neo_env/bin/python3 sm015.py ;;
+  sm016) python3 sm016.py ;;
 esac
 python3 render.py ${RECHECKS_SITE:-$R/out}
+python3 edges.py ${RECHECKS_SITE:-$R/out}
 $R/stamp.sh
