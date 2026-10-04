@@ -8,8 +8,9 @@ d = json.load(open(os.path.join(R, "sm011", "sites_latest.json")))
 sites = d["sites"]; n = len(sites); nc = [s for s in sites if s["verdict"] == "NotCovered"]
 H = html.escape
 def issuer_short(s):
-    for part in s.split(","):
-        if part.startswith("O="): return part[2:]
+    for part in s.replace("\\,", "\x00").split(","):
+        part = part.replace("\x00", ",")
+        if part.startswith("O="): return part[2:].replace("\\", "")
     return s[:40]
 rows = []
 for s in sites:
