@@ -1,0 +1,367 @@
+{
+ "2019": {
+  "forms": 80831,
+  "pounds_all": 3438711387,
+  "pounds_late": 40513117,
+  "pounds_late_pct": 1.18,
+  "pounds_after_15_oct": 26471202,
+  "pounds_more_than_a_year_late": 19331913,
+  "pounds_year_late_pct": 0.562,
+  "top_year_late_by_pounds": [
+   {
+    "trifd": "2906WCNGLD6911S",
+    "facility": "OCEANAGOLD HAILE GOLD MINE (NA)",
+    "late_forms": 18,
+    "pounds": 5616886
+   },
+   {
+    "trifd": "7465WLNTDS15NMA",
+    "facility": "A-LINE TDS INC. (A-LINE TDS INC)",
+    "late_forms": 2,
+    "pounds": 2570982
+   },
+   {
+    "trifd": "65440BCKSMHIGHW",
+    "facility": "BUICK RESOURCE RECYCLING FACILITY LLC (THE RENCO GROUP INC)",
+    "late_forms": 7,
+    "pounds": 2091429
+   },
+   {
+    "trifd": "70669KRNSL3300B",
+    "facility": "LOUISIANA PIGMENT CO LP (KRONOS LOUISIANA INC)",
+    "late_forms": 6,
+    "pounds": 1661454
+   },
+   {
+    "trifd": "75686WLSHPFM173",
+    "facility": "AMERICAN ELECTRIC POWER WELSH PLANT (AMERICAN ELECTRIC POWER)",
+    "late_forms": 1,
+    "pounds": 940000
+   },
+   {
+    "trifd": "52404PMXND5300W",
+    "facility": "PMX INDUSTRIES INC (PMX INDUSTRIES INC)",
+    "late_forms": 1,
+    "pounds": 400558
+   },
+   {
+    "trifd": "7933WCNTNN1926F",
+    "facility": "CONTINENTAL DAIRY FACILITIES SOUTHWEST LLC (SELECT MILK PRODUCERS INC)",
+    "late_forms": 1,
+    "pounds": 231697
+   },
+   {
+    "trifd": "4490WCHRTR23IND",
+    "facility": "CHARTER NEXT GENERATION - LEXINGTON (CHARTER NEXT GENERATION INC)",
+    "late_forms": 1,
+    "pounds": 229372
+   },
+   {
+    "trifd": "5740WNWNGS13135",
+    "facility": "NEW ANGUS LLC (WHITE OAK GLOBAL ADVISORS LLC)",
+    "late_forms": 3,
+    "pounds": 209053
+   },
+   {
+    "trifd": "5488WCHRTR191WI",
+    "facility": "CHARTER NEXT GENERATION - SUPERIOR (CHARTER NEXT GENERATION INC)",
+    "late_forms": 1,
+    "pounds": 204353
+   }
+  ]
+ },
+ "2020": {
+  "forms": 78655,
+  "pounds_all": 3106817890,
+  "pounds_late": 40456125,
+  "pounds_late_pct": 1.3,
+  "pounds_after_15_oct": 27433484,
+  "pounds_more_than_a_year_late": 18701554,
+  "pounds_year_late_pct": 0.602,
+  "top_year_late_by_pounds": [
+   {
+    "trifd": "2906WCNGLD6911S",
+    "facility": "OCEANAGOLD HAILE GOLD MINE (NA)",
+    "late_forms": 18,
+    "pounds": 5733973
+   },
+   {
+    "trifd": "7730WNNPRC16185",
+    "facility": "UNION PROCESSING SYSTEMS LLC (MONTGOMERY COUNTY ENVIRONMENTAL SOLUTIONS LLC)",
+    "late_forms": 9,
+    "pounds": 2642071
+   },
+   {
+    "trifd": "7465WLNTDS15NMA",
+    "facility": "A-LINE TDS INC. (A-LINE TDS INC)",
+    "late_forms": 2,
+    "pounds": 1255158
+   },
+   {
+    "trifd": "75686WLSHPFM173",
+    "facility": "AMERICAN ELECTRIC POWER WELSH PLANT (AMERICAN ELECTRIC POWER)",
+    "late_forms": 1,
+    "pounds": 940000
+   },
+   {
+    "trifd": "84074MXMGNROWLE",
+    "facility": "US MAGNESIUM LLC (THE RENCO GROUP INC)",
+    "late_forms": 1,
+    "pounds": 859735
+   },
+   {
+    "trifd": "38054PLLTN5485T",
+    "facility": "TRADEBE TREATMENT & RECYCLING OF TN (TRADEBE ENVIRONMENTAL SERVICES LLC)",
+    "late_forms": 19,
+    "pounds": 825142
+   },
+   {
+    "trifd": "44011CHMTR35850",
+    "facility": "REWORLD TRON CORP (REWORLD WASTE LLC)",
+    "late_forms": 46,
+    "pounds": 622769
+   },
+   {
+    "trifd": "4490WCHRTR23IND",
+    "facility": "CHARTER NEXT GENERATION - LEXINGTON (CHARTER NEXT GENERATION INC)",
+    "late_forms": 1,
+    "pounds": 267741
+   },
+   {
+    "trifd": "99553TRDNTAKUTA",
+    "facility": "TRIDENT SEAFOODS CORP AKUTAN SHORE PLANT (TRIDENT SEAFOODS CORP)",
+    "late_forms": 2,
+    "pounds": 213132
+   },
+   {
+    "trifd": "5740WNWNGS13135",
+    "facility": "NEW ANGUS LLC (WHITE OAK GLOBAL ADVISORS LLC)",
+    "late_forms": 3,
+    "pounds": 204748
+   }
+  ]
+ },
+ "2021": {
+  "forms": 78241,
+  "pounds_all": 3278852654,
+  "pounds_late": 27449328,
+  "pounds_late_pct": 0.84,
+  "pounds_after_15_oct": 15557528,
+  "pounds_more_than_a_year_late": 7470217,
+  "pounds_year_late_pct": 0.228,
+  "top_year_late_by_pounds": [
+   {
+    "trifd": "84074MXMGNROWLE",
+    "facility": "US MAGNESIUM LLC (THE RENCO GROUP INC)",
+    "late_forms": 1,
+    "pounds": 1795078
+   },
+   {
+    "trifd": "75686WLSHPFM173",
+    "facility": "AMERICAN ELECTRIC POWER WELSH PLANT (AMERICAN ELECTRIC POWER)",
+    "late_forms": 1,
+    "pounds": 990000
+   },
+   {
+    "trifd": "7730WNNPRC16185",
+    "facility": "UNION PROCESSING SYSTEMS LLC (MONTGOMERY COUNTY ENVIRONMENTAL SOLUTIONS LLC)",
+    "late_forms": 1,
+    "pounds": 399128
+   },
+   {
+    "trifd": "4490WCHRTR23IND",
+    "facility": "CHARTER NEXT GENERATION - LEXINGTON (CHARTER NEXT GENERATION INC)",
+    "late_forms": 1,
+    "pounds": 267741
+   },
+   {
+    "trifd": "5488WCHRTR191WI",
+    "facility": "CHARTER NEXT GENERATION - SUPERIOR (CHARTER NEXT GENERATION INC)",
+    "late_forms": 1,
+    "pounds": 204353
+   },
+   {
+    "trifd": "21801PRDNCZIONC",
+    "facility": "PERDUE AGRIBUSINESS LLC - SALISBURY MD (PERDUE FARMS INC)",
+    "late_forms": 1,
+    "pounds": 189780
+   },
+   {
+    "trifd": "5356WCHRTR1264E",
+    "facility": "CHARTER NEXT GENERATION - MILTON (CHARTER NEXT GENERATION INC)",
+    "late_forms": 1,
+    "pounds": 168823
+   },
+   {
+    "trifd": "67460NTNLC2000M",
+    "facility": "CHS MCPHERSON REFINERY - SRU (CHS INC)",
+    "late_forms": 32,
+    "pounds": 154568
+   },
+   {
+    "trifd": "77640FNLNDHIGHW",
+    "facility": "TOTALENERGIES PETROCHEMICALS & REFINING USA INC-PORT ARTHUR (TOTALENERGIES HOLDINGS USA INC)",
+    "late_forms": 1,
+    "pounds": 144351
+   },
+   {
+    "trifd": "3504WGLDWL6FUND",
+    "facility": "GLIDEWELL SPECIALTIES FOUNDRY CO INC. (NA)",
+    "late_forms": 3,
+    "pounds": 135224
+   }
+  ]
+ },
+ "2022": {
+  "forms": 80040,
+  "pounds_all": 3362048320,
+  "pounds_late": 81830691,
+  "pounds_late_pct": 2.43,
+  "pounds_after_15_oct": 69782895,
+  "pounds_more_than_a_year_late": 64186954,
+  "pounds_year_late_pct": 1.909,
+  "top_year_late_by_pounds": [
+   {
+    "trifd": "8825WDRKHR465WN",
+    "facility": "DARK HORSE TREATING FACILITY (NA)",
+    "late_forms": 1,
+    "pounds": 57708638
+   },
+   {
+    "trifd": "97812CHMCL17629",
+    "facility": "CHEMICAL WASTE MANAGEMENT OF THE NORTHWEST INC. (WASTE MANAGEMENT INC)",
+    "late_forms": 1,
+    "pounds": 1921446
+   },
+   {
+    "trifd": "49634PCKGN2245U",
+    "facility": "PACKAGING CORP OF AMERICA (PACKAGING CORP OF AMERICA)",
+    "late_forms": 2,
+    "pounds": 341540
+   },
+   {
+    "trifd": "4490WCHRTR23IND",
+    "facility": "CHARTER NEXT GENERATION - LEXINGTON (CHARTER NEXT GENERATION INC)",
+    "late_forms": 1,
+    "pounds": 306109
+   },
+   {
+    "trifd": "92355BNNZL11711",
+    "facility": "SIERRA ALUMINUM CO PLANT II (SIERRA ALUMINUM CO)",
+    "late_forms": 9,
+    "pounds": 297133
+   },
+   {
+    "trifd": "5488WCHRTR191WI",
+    "facility": "CHARTER NEXT GENERATION - SUPERIOR (CHARTER NEXT GENERATION INC)",
+    "late_forms": 1,
+    "pounds": 204353
+   },
+   {
+    "trifd": "93610CRTNT17775",
+    "facility": "CERTAINTEED LLC (SAINT-GOBAIN CORP)",
+    "late_forms": 1,
+    "pounds": 186009
+   },
+   {
+    "trifd": "4817WRPBLC2847C",
+    "facility": "REPUBLIC INDUSTRIAL & ENERGY SOLUTIONS LLC (REPUBLIC SERVICES INC)",
+    "late_forms": 2,
+    "pounds": 176360
+   },
+   {
+    "trifd": "5356WCHRTR1264E",
+    "facility": "CHARTER NEXT GENERATION - MILTON (CHARTER NEXT GENERATION INC)",
+    "late_forms": 1,
+    "pounds": 168823
+   },
+   {
+    "trifd": "3504WGLDWL6FUND",
+    "facility": "GLIDEWELL SPECIALTIES FOUNDRY CO INC. (NA)",
+    "late_forms": 3,
+    "pounds": 165255
+   }
+  ]
+ },
+ "2023": {
+  "forms": 78647,
+  "pounds_all": 3401917853,
+  "pounds_late": 32133912,
+  "pounds_late_pct": 0.94,
+  "pounds_after_15_oct": 7702498,
+  "pounds_more_than_a_year_late": 3998318,
+  "pounds_year_late_pct": 0.118,
+  "top_year_late_by_pounds": [
+   {
+    "trifd": "7836WKNGRN14MIL",
+    "facility": "KING RANCH GAS PLANT (ENERGY TRANSFER LP)",
+    "late_forms": 1,
+    "pounds": 960036
+   },
+   {
+    "trifd": "38054PLLTN5485T",
+    "facility": "TRADEBE TREATMENT & RECYCLING OF TN (TRADEBE ENVIRONMENTAL SERVICES LLC)",
+    "late_forms": 24,
+    "pounds": 439726
+   },
+   {
+    "trifd": "4490WCHRTR23IND",
+    "facility": "CHARTER NEXT GENERATION - LEXINGTON (CHARTER NEXT GENERATION INC)",
+    "late_forms": 1,
+    "pounds": 329131
+   },
+   {
+    "trifd": "3052WSKBTT176ST",
+    "facility": "SK BATTERY AMERICA INC. (NA)",
+    "late_forms": 2,
+    "pounds": 278412
+   },
+   {
+    "trifd": "5488WCHRTR191WI",
+    "facility": "CHARTER NEXT GENERATION - SUPERIOR (CHARTER NEXT GENERATION INC)",
+    "late_forms": 1,
+    "pounds": 204353
+   },
+   {
+    "trifd": "46580THDLTCORNE",
+    "facility": "DALTON CORP WARSAW MANUFACTURING FACILITY (DALTON CORP)",
+    "late_forms": 8,
+    "pounds": 196479
+   },
+   {
+    "trifd": "5356WCHRTR1264E",
+    "facility": "CHARTER NEXT GENERATION - MILTON (CHARTER NEXT GENERATION INC)",
+    "late_forms": 1,
+    "pounds": 168823
+   },
+   {
+    "trifd": "8440WBRNSR125SU",
+    "facility": "BARNES AEROSPACE OGDEN DIV (BARNES GROUP INC)",
+    "late_forms": 2,
+    "pounds": 121312
+   },
+   {
+    "trifd": "5450WCHRTR366RE",
+    "facility": "CHARTER NEXT GENERATION - RHINELANDER (CHARTER NEXT GENERATION INC)",
+    "late_forms": 1,
+    "pounds": 113635
+   },
+   {
+    "trifd": "0137WCHRTR18IND",
+    "facility": "CHARTER NEXT GENERATION - TURNERS FALLS (CHARTER NEXT GENERATION INC)",
+    "late_forms": 1,
+    "pounds": 92108
+   }
+  ]
+ },
+ "2024": {
+  "forms": 77295,
+  "pounds_all": 3290529168,
+  "pounds_late": 19028496,
+  "pounds_late_pct": 0.58,
+  "pounds_after_15_oct": 80489,
+  "pounds_more_than_a_year_late": 0,
+  "pounds_year_late_pct": 0.0,
+  "top_year_late_by_pounds": []
+ }
+}

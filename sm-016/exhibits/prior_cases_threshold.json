@@ -1,0 +1,283 @@
+{
+ "2019": {
+  "late_facilities": 1788,
+  "with_2_or_more_prior_313_cases": 74,
+  "of_which_more_than_a_year_late": 37,
+  "names_year_late": [
+   [
+    "LANXESS - CENTRAL",
+    "LANXESS CORP",
+    32,
+    961
+   ],
+   [
+    "CLEVELAND-CLIFFS STEEL LLC",
+    "CLEVELAND-CLIFFS INC",
+    27,
+    1463
+   ],
+   [
+    "INEOS BATTLEGROUND MANUFACTURING COMPLEX",
+    "INEOS USA LLC",
+    24,
+    1125
+   ],
+   [
+    "VIANT COLLEGEVILLE LLC",
+    "VIANT MEDICAL LLC",
+    12,
+    679
+   ],
+   [
+    "SHELL NORCO CHEMICAL PLANT",
+    "SHELL PETROLEUM INC",
+    8,
+    817
+   ],
+   [
+    "WESTLAKE VINYLS INC",
+    "WESTLAKE CORP",
+    6,
+    729
+   ],
+   [
+    "DOW CHEMICAL CO FREEPORT FACILITY",
+    "DOW INC",
+    6,
+    775
+   ],
+   [
+    "SYNTECH CHEMICALS INC",
+    "NA",
+    4,
+    434
+   ]
+  ]
+ },
+ "2020": {
+  "late_facilities": 1670,
+  "with_2_or_more_prior_313_cases": 70,
+  "of_which_more_than_a_year_late": 34,
+  "names_year_late": [
+   [
+    "LANXESS - CENTRAL",
+    "LANXESS CORP",
+    32,
+    596
+   ],
+   [
+    "FORMOSA PLASTICS CORP TEXAS",
+    "FORMOSA PLASTICS CORP USA",
+    30,
+    1393
+   ],
+   [
+    "PHILLIPS 66 PONCA CITY SITE",
+    "PHILLIPS 66 CO",
+    30,
+    1132
+   ],
+   [
+    "CLEVELAND-CLIFFS STEEL LLC",
+    "CLEVELAND-CLIFFS INC",
+    27,
+    1098
+   ],
+   [
+    "INEOS BATTLEGROUND MANUFACTURING COMPLEX",
+    "INEOS USA LLC",
+    24,
+    760
+   ],
+   [
+    "DAIKIN AMERICA INC",
+    "DAIKIN AMERICA INC",
+    12,
+    427
+   ],
+   [
+    "EASTMAN PERFORMANCE FILMS LLC",
+    "EASTMAN CHEMICAL CO",
+    8,
+    375
+   ],
+   [
+    "SHELL NORCO CHEMICAL PLANT",
+    "SHELL PETROLEUM INC",
+    8,
+    452
+   ]
+  ]
+ },
+ "2021": {
+  "late_facilities": 1486,
+  "with_2_or_more_prior_313_cases": 62,
+  "of_which_more_than_a_year_late": 25,
+  "names_year_late": [
+   [
+    "PHILLIPS 66 PONCA CITY SITE",
+    "PHILLIPS 66 CO",
+    30,
+    767
+   ],
+   [
+    "CLEVELAND-CLIFFS STEEL LLC",
+    "CLEVELAND-CLIFFS INC",
+    27,
+    733
+   ],
+   [
+    "ADELL POLYMERS",
+    "ADELL PLASTICS",
+    8,
+    745
+   ],
+   [
+    "CRUZAN RUM LTD.",
+    "BEAM-SUNTORY",
+    6,
+    1209
+   ],
+   [
+    "TITAN COATINGS INC",
+    "NA",
+    4,
+    376
+   ],
+   [
+    "NATION FORD CHEMICAL CO",
+    "NA",
+    4,
+    654
+   ],
+   [
+    "CHS MCPHERSON REFINERY - SRU",
+    "CHS INC",
+    4,
+    728
+   ],
+   [
+    "TEXAS INSTRUMENTS INC",
+    "TEXAS INSTRUMENTS INC",
+    4,
+    1147
+   ]
+  ]
+ },
+ "2022": {
+  "late_facilities": 1180,
+  "with_2_or_more_prior_313_cases": 53,
+  "of_which_more_than_a_year_late": 21,
+  "names_year_late": [
+   [
+    "PHILLIPS 66 PONCA CITY SITE",
+    "PHILLIPS 66 CO",
+    30,
+    402
+   ],
+   [
+    "CLEVELAND-CLIFFS STEEL LLC",
+    "CLEVELAND-CLIFFS INC",
+    27,
+    368
+   ],
+   [
+    "KELVION PRODUCTS INC. - KNOXVILLE",
+    "KELVION HOLDING GMBH",
+    12,
+    445
+   ],
+   [
+    "ADELL POLYMERS",
+    "ADELL PLASTICS",
+    8,
+    380
+   ],
+   [
+    "SOLVAY SPECIALTY POLYMERS USA LLC",
+    "SYENSQO HOLDING INC",
+    6,
+    683
+   ],
+   [
+    "CRUZAN RUM LTD.",
+    "BEAM-SUNTORY",
+    6,
+    844
+   ],
+   [
+    "AJINOMOTO HEALTH & NUTRITION N.A. INC.",
+    "AJINOMOTO HEALTH & NUTRITION NORTH AMERICA INC",
+    4,
+    731
+   ],
+   [
+    "TEXAS INSTRUMENTS INC",
+    "TEXAS INSTRUMENTS INC",
+    4,
+    782
+   ]
+  ]
+ },
+ "2023": {
+  "late_facilities": 885,
+  "with_2_or_more_prior_313_cases": 51,
+  "of_which_more_than_a_year_late": 8,
+  "names_year_late": [
+   [
+    "CRUZAN RUM LTD.",
+    "BEAM-SUNTORY",
+    6,
+    478
+   ],
+   [
+    "TEXAS INSTRUMENTS INC",
+    "TEXAS INSTRUMENTS INC",
+    4,
+    416
+   ],
+   [
+    "NHS US LLC DBA SOLGAR",
+    "NESTLE HEALTH SCIENCE US",
+    4,
+    448
+   ],
+   [
+    "HYCAST LLC",
+    "",
+    4,
+    456
+   ],
+   [
+    "CHEMOURS BELLE PLANT",
+    "THE CHEMOURS CO",
+    2,
+    379
+   ],
+   [
+    "DAIKIN APPLIED OWATONNA MN",
+    "DAIKIN HOLDINGS AMERICA INC",
+    2,
+    408
+   ],
+   [
+    "US ECOLOGY IDAHO INC.",
+    "REPUBLIC SERVICES INC",
+    2,
+    427
+   ],
+   [
+    "RUST-OLEUM CORP IN MD",
+    "RPM INTERNATIONAL INC",
+    2,
+    465
+   ]
+  ]
+ },
+ "2024": {
+  "late_facilities": 354,
+  "with_2_or_more_prior_313_cases": 19,
+  "of_which_more_than_a_year_late": 0,
+  "names_year_late": []
+ }
+}
