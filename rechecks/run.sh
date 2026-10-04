@@ -17,4 +17,5 @@ case $1 in
 esac
 python3 render.py ${RECHECKS_SITE:-$R/out}
 python3 edges.py ${RECHECKS_SITE:-$R/out}
+[ -f sm011/sites_latest.json ] && python3 coverage.py ${RECHECKS_SITE:-$R/out}
 $R/stamp.sh

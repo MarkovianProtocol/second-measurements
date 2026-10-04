@@ -33,6 +33,28 @@ for b in range(0, len(files), 200):
     out = subprocess.run([Q, "-d", DB, "x509"] + files[b:b + 200], capture_output=True, text=True)
     for m in re.finditer(r"(\S+\.der) (\w+)$", out.stderr, re.M): v[m.group(1)] = m.group(2)
 cnt = {k: sum(1 for x in v.values() if x == k) for k in ("Good", "NotCovered", "NotEnrolled", "Expired")}
+# per-site dump for the coverage lookup page: verdict, issuer, the SCT logs on the certificate and the reader's lag on each
+def sct_logs(p):
+    try:
+        c = x509.load_der_x509_certificate(open(p, "rb").read())
+        iss = c.issuer.rfc4514_string(); exp = c.not_valid_after_utc.strftime("%Y-%m-%d") if hasattr(c, "not_valid_after_utc") else c.not_valid_after.strftime("%Y-%m-%d")
+        out = []
+        try:
+            ext = c.extensions.get_extension_for_class(x509.PrecertificateSignedCertificateTimestamps).value
+            for sct in ext:
+                lid = base64.b64encode(sct.log_id).decode(); info = logs.get(lid)
+                ts = cov.get(lid); nm = info["name"] if info else "unknown log"
+                lagd = round((now - datetime.datetime.fromtimestamp(ts / 1000, datetime.timezone.utc)).total_seconds() / 86400, 1) if ts else None
+                behind = (lagd is not None and sct.timestamp.replace(tzinfo=datetime.timezone.utc) > datetime.datetime.fromtimestamp(ts / 1000, datetime.timezone.utc)) if ts else None
+                out.append({"log": nm, "sct": sct.timestamp.strftime("%Y-%m-%d"), "reader_lag_days": lagd, "sct_after_reader": behind})
+        except Exception: pass
+        return iss, exp, out
+    except Exception: return "", "", []
+sites = []
+for p_, verdict in v.items():
+    iss, exp, scts = sct_logs(p_)
+    sites.append({"host": os.path.basename(p_)[:-4], "verdict": verdict, "issuer": iss, "expires": exp, "scts": scts})
+json.dump({"date": now.strftime("%Y-%m-%d"), "filter": newest, "sites": sorted(sites, key=lambda r: r["host"])}, open(os.path.join(D, "sites_latest.json"), "w"))
 moz = v.get(os.path.join(cdir, "mozilla.org.der"), "unreachable")
 row = {"date": now.strftime("%Y-%m-%d"), "newest_filter": newest.replace("-default.filter.delta", "").replace("-default.filter", ""), "filters": len(deltas),
        **{f"lag_days_{k}": lag.get(n) for k, n in watch.items()}, "reachable": len(files), **{k.lower(): c for k, c in cnt.items()}, "mozilla_org": moz,
