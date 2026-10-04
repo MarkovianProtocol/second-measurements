@@ -4,6 +4,7 @@ Public claims about logs and datasets, recomputed by a different path than the o
 
 | | Finding | Status | |
 |---|---|---|---|
+| [SM-016](sm-016/) | Toxic-release reports are due 1 July, with a statutory fine of up to $71,545 for each day late. A thousand plants filed more than a year late for 2019, and 61 of them appear in any EPCRA 313 case opened since | Published 2026-10-04; questions for EPA prepared, not yet sent | [paper](https://markovianprotocol.com/measurements/sm-016.html) |
 | [SM-015](sm-015/) | Certificate Transparency’s new tiled logs publish in seconds. The old ones take up to an hour, and the browsers’ own log lists are the slowest part | Sent to Apple and Chrome 2026-10-03, response pending | [paper](https://markovianprotocol.com/measurements/sm-015.html) |
 | [SM-012](sm-012/) | Certificate authorities get 92 days to file their audits. Most file in the last week, one in eleven files late, and Windows still trusts a root whose last audit ended in 2019 | Sent to CCADB and Microsoft 2026-10-03, response pending | [paper](https://markovianprotocol.com/measurements/sm-012.html) |
 | [SM-011](sm-011/) | Firefox's revocation list is months behind the biggest certificate logs. One in eleven top sites, mozilla.org included, gets no revocation check at all | Sent to Mozilla 2026-10-02, response pending | [paper](https://markovianprotocol.com/measurements/sm-011.html) |

@@ -1,0 +1,66 @@
+{
+ "2019": {
+  "late_facilities": 1788,
+  "late_with_case_after": 104,
+  "federal_late": 21,
+  "over_365": 1003,
+  "over_365_with_case_after": 61,
+  "over_30": 1495,
+  "over_30_with_case_after": 92,
+  "forms_late": 3793,
+  "forms_over_365": 1947
+ },
+ "2020": {
+  "late_facilities": 1670,
+  "late_with_case_after": 77,
+  "federal_late": 20,
+  "over_30": 1400,
+  "over_30_with_case_after": 70,
+  "over_365": 880,
+  "over_365_with_case_after": 42,
+  "forms_late": 3785,
+  "forms_over_365": 1791
+ },
+ "2021": {
+  "late_facilities": 1486,
+  "late_with_case_after": 56,
+  "federal_late": 27,
+  "over_30": 1162,
+  "over_30_with_case_after": 52,
+  "over_365": 657,
+  "over_365_with_case_after": 24,
+  "forms_late": 3301,
+  "forms_over_365": 1203
+ },
+ "2022": {
+  "late_facilities": 1180,
+  "late_with_case_after": 36,
+  "federal_late": 22,
+  "over_30": 808,
+  "over_30_with_case_after": 32,
+  "over_365": 387,
+  "over_365_with_case_after": 13,
+  "forms_late": 2748,
+  "forms_over_365": 712
+ },
+ "2023": {
+  "late_facilities": 885,
+  "late_with_case_after": 13,
+  "federal_late": 22,
+  "over_30": 531,
+  "over_30_with_case_after": 11,
+  "over_365": 131,
+  "over_365_with_case_after": 0,
+  "forms_late": 2010,
+  "forms_over_365": 311
+ },
+ "2024": {
+  "late_facilities": 354,
+  "late_with_case_after": 2,
+  "federal_late": 4,
+  "over_30": 102,
+  "over_30_with_case_after": 1,
+  "forms_late": 885,
+  "forms_over_365": 0
+ }
+}

@@ -1,0 +1,218 @@
+{
+ "2023": {
+  "late_facilities": 885,
+  "with_any_313_case_ever": 125,
+  "with_313_case_after_deadline_fy": 14,
+  "facilities_over_365d": 131,
+  "over_365_with_case_after": 0,
+  "top_parents_by_late_facilities": [
+   [
+    "NA",
+    261
+   ],
+   [
+    "CRH AMERICAS INC",
+    17
+   ],
+   [
+    "US DEPARTMENT OF DEFENSE",
+    12
+   ],
+   [
+    "US DEPARTMENT OF JUSTICE",
+    9
+   ],
+   [
+    "CHARTER NEXT GENERATION INC",
+    9
+   ],
+   [
+    "GLOBAL PARTNERS LP",
+    7
+   ],
+   [
+    "SAINT-GOBAIN CORP",
+    6
+   ],
+   [
+    "CUMMINS INC",
+    6
+   ],
+   [
+    "SUIT-KOTE CORP",
+    5
+   ],
+   [
+    "REPUBLIC SERVICES INC",
+    5
+   ],
+   [
+    "OLIN CORP",
+    5
+   ],
+   [
+    "A TEICHERT & SON INC",
+    4
+   ]
+  ],
+  "top_parents_by_late_forms": [
+   [
+    "NA",
+    528
+   ],
+   [
+    "US DEPARTMENT OF DEFENSE",
+    66
+   ],
+   [
+    "TEXAS MOLECULAR LP",
+    54
+   ],
+   [
+    "HF SINCLAIR CORP",
+    50
+   ],
+   [
+    "CRH AMERICAS INC",
+    38
+   ],
+   [
+    "OPTA (USA)",
+    26
+   ],
+   [
+    "TRADEBE ENVIRONMENTAL SERVICES LLC",
+    25
+   ],
+   [
+    "SAINT-GOBAIN CORP",
+    20
+   ],
+   [
+    "ALCOA CORP",
+    20
+   ],
+   [
+    "BOLD FORMULATORS LLC",
+    18
+   ],
+   [
+    "GERDAU USA INC",
+    16
+   ],
+   [
+    "RPM INTERNATIONAL INC",
+    16
+   ]
+  ],
+  "unmatched_facility_ids": 0
+ },
+ "2024": {
+  "late_facilities": 354,
+  "with_any_313_case_ever": 45,
+  "with_313_case_after_deadline_fy": 2,
+  "facilities_over_365d": 0,
+  "over_365_with_case_after": 0,
+  "top_parents_by_late_facilities": [
+   [
+    "NA",
+    123
+   ],
+   [
+    "VISHAY INTERTECHNOLOGY INC",
+    5
+   ],
+   [
+    "SAINT-GOBAIN CORP",
+    4
+   ],
+   [
+    "SUN CHEMICAL CORP",
+    3
+   ],
+   [
+    "CONSOLIDATED PIPE & SUPPLY CO",
+    3
+   ],
+   [
+    "ATI INC",
+    3
+   ],
+   [
+    "US DEPARTMENT OF HOMELAND SECURITY",
+    3
+   ],
+   [
+    "AMETEK INC",
+    3
+   ],
+   [
+    "RCM INDUSTRIES",
+    3
+   ],
+   [
+    "PHIBRO ANIMAL HEALTH CORP",
+    3
+   ],
+   [
+    "TENNECO INC",
+    2
+   ],
+   [
+    "NN INC",
+    2
+   ]
+  ],
+  "top_parents_by_late_forms": [
+   [
+    "NA",
+    287
+   ],
+   [
+    "DRUMMOND CO INC",
+    20
+   ],
+   [
+    "CHEMICAL SOLVENTS INC",
+    19
+   ],
+   [
+    "RCM INDUSTRIES",
+    15
+   ],
+   [
+    "CONSOLIDATED PIPE & SUPPLY CO",
+    14
+   ],
+   [
+    "PHIBRO ANIMAL HEALTH CORP",
+    13
+   ],
+   [
+    "ARCHROMA US INC",
+    12
+   ],
+   [
+    "SUPERIOR PLUS ENERGY SERVICES INC",
+    11
+   ],
+   [
+    "ENVIRI CORP",
+    11
+   ],
+   [
+    "SAINT-GOBAIN CORP",
+    10
+   ],
+   [
+    "ATI INC",
+    10
+   ],
+   [
+    "HALDOR TOPSOE/ AS",
+    9
+   ]
+  ],
+  "unmatched_facility_ids": 0
+ }
+}
