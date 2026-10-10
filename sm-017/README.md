@@ -1,0 +1,6 @@
+# SM-017 — Quarterly issues/programs lists in the FCC public file, 18,043 stations
+
+Paper: https://markovianprotocol.com/measurements/sm-017.html · DOI https://doi.org/10.5281/zenodo.23287991 · page sha256 in log leaf 9660
+
+Scripts: scan.py N SEED OUT (FCC_SERVICE=tv|fm|am; reads every file name and upload date in each station's Issues and Programs Lists folder on publicfiles.fcc.gov; N=0 means every station; FCC_ONLY_CLASSA=1 restricts TV to Class A), analyze.py RESULTS OUT (scores each station-quarter against the deadline; drops translators, LPTV and unbuilt permits; keeps Class A), station_info.py SUMMARY (community and licensee from each station's profile page), combine.py TV FM AM (one summary across services), drift_check.py (re-read of the 150-station sample, dates compared), ruledate_count.py DATE QUARTER (the rule-date sample).
+Exhibits: rule texts (47 CFR 73.3526, 73.3527, 1.80, 1.4), DA 25-943 (shutdown deadline), FCC 16-4, DA 23-156 (WTOY consent decree), Pillsbury and Wiley advisories and enforcement monitors, FCC facility lists and renewal tables, Smith & Clark 2007 abstract and Crossref record, the raw Class A read, the rule-date sample, the two station CSVs. SHA256SUMS in exhibits/. The full raw reads (results_tv/fm/am, ~60 MB) are published with the 14 October update.

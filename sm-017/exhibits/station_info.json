@@ -1,0 +1,862 @@
+{
+ "K11HO-D": {
+  "community": "Polson, MT",
+  "licensee": "BLACKTAIL TV TAX DISTRICT"
+ },
+ "K224EJ": {
+  "community": "Montpelier, ID",
+  "licensee": "OLD WEST MEDIA, INC."
+ },
+ "K229BN": {
+  "community": "La Grande, OR",
+  "licensee": "FIRST BAPTIST CHURCH OF RIVERVIEW"
+ },
+ "K231CY": {
+  "community": "Lebanon, OR",
+  "licensee": "EADS BROADCASTING"
+ },
+ "K236CG": {
+  "community": "Anchorage, AK",
+  "licensee": "Iglesia Pentecostal Vispera del Fin"
+ },
+ "K252EG": {
+  "community": "West Point, NE",
+  "licensee": "NEBRASKA RURAL RADIO ASSOCIATION"
+ },
+ "K252EQ": {
+  "community": "Depoe Bay, OR",
+  "licensee": "YAQUINA BAY COMMUNICATIONS, INC."
+ },
+ "K254DQ": {
+  "community": "Madill, OK",
+  "licensee": "NORTH TEXAS RADIO GROUP, LP"
+ },
+ "K261BT": {
+  "community": "Lexington, NE",
+  "licensee": "NEBRASKA RURAL RADIO ASSOCIATIONI"
+ },
+ "K273AL": {
+  "community": "Houston, TX",
+  "licensee": "CENTRO CRISTIANO DE VIDA ETERNA"
+ },
+ "K274DA": {
+  "community": "Thousand Palms, CA",
+  "licensee": "CRC MEDIA WEST, LLC, DEBTOR IN POSSESSION"
+ },
+ "K278CI": {
+  "community": "York, NE",
+  "licensee": "NEBRASKA RURAL RADIO ASSOCIATION"
+ },
+ "K285GE": {
+  "community": "Huntsville, TX",
+  "licensee": "HEH COMMUNICATIONS, LLC"
+ },
+ "K287AT": {
+  "community": "San Angelo, TX",
+  "licensee": "JIM MEASURES"
+ },
+ "K288FI": {
+  "community": "Texarkana, TX",
+  "licensee": "BTC USA Holdings Management Inc."
+ },
+ "K295BI": {
+  "community": "Kearney, NE",
+  "licensee": "NEBRASKA RURAL RADIO ASSOCIATION"
+ },
+ "K295CK": {
+  "community": "Luckenbach, TX",
+  "licensee": "SUN RADIO FOUNDATION"
+ },
+ "K300AO": {
+  "community": "",
+  "licensee": ""
+ },
+ "KBFD-DT": {
+  "community": "Honolulu, HI",
+  "licensee": "THE ALLEN BROADCASTING CORP."
+ },
+ "KEPS": {
+  "community": "Eagle Pass, TX",
+  "licensee": "SOUTH TEXAS RADIO, LLC"
+ },
+ "KFXL-TV": {
+  "community": "Lincoln, NE",
+  "licensee": "KHGI LICENSEE, LLC"
+ },
+ "KICA": {
+  "community": "Clovis, NM",
+  "licensee": "HPRN NETWORKS LLC"
+ },
+ "KLEI": {
+  "community": "Wailuku, HI",
+  "licensee": "Cielo TV, LLC"
+ },
+ "KMMI": {
+  "community": "Loleta, CA",
+  "licensee": ""
+ },
+ "KMYA-DT": {
+  "community": "Camden, AR",
+  "licensee": "LR Telecasting, LLC"
+ },
+ "KNAK": {
+  "community": "Delta, UT",
+  "licensee": "DOC Holding, LLC"
+ },
+ "KNBC": {
+  "community": "Los Angeles, CA",
+  "licensee": "NBC TELEMUNDO LICENSE LLC"
+ },
+ "KNIN-TV": {
+  "community": "Caldwell, ID",
+  "licensee": "Marquee Broadcasting West, Inc."
+ },
+ "KNMD-TV": {
+  "community": "Santa Fe, NM",
+  "licensee": "The Regents of the University of New Mexico"
+ },
+ "KNME-TV": {
+  "community": "Albuquerque, NM",
+  "licensee": "REGENTS/UNIVERSITY OF NEW MEXICO & BOARD OF EDUCATION/ALBQ.,"
+ },
+ "KNPB": {
+  "community": "Reno, NV",
+  "licensee": "Channel 5 Public Broadcasting, Inc."
+ },
+ "KPBT-TV": {
+  "community": "Odessa, TX",
+  "licensee": "Permian Basin Public Telecommunications, Inc."
+ },
+ "KPJK": {
+  "community": "San Mateo, CA",
+  "licensee": "Rural California Broadcsating Corporation"
+ },
+ "KRCB": {
+  "community": "Cotati, CA",
+  "licensee": "Rural California Broadcasting Corporation"
+ },
+ "KSNV": {
+  "community": "Las Vegas, NV",
+  "licensee": "KUPN LICENSEE, LLC"
+ },
+ "KTGM": {
+  "community": "Tamuning, GU",
+  "licensee": "Guam Broadcasting LLC"
+ },
+ "KTOO-TV": {
+  "community": "Juneau, AK",
+  "licensee": "KTOO Public Media"
+ },
+ "KTUZ-TV": {
+  "community": "Shawnee, OK",
+  "licensee": "TYLER MEDIA LLC"
+ },
+ "KUAC-TV": {
+  "community": "Fairbanks, AK",
+  "licensee": "UNIVERSITY OF ALASKA"
+ },
+ "KUAS-TV": {
+  "community": "Tucson, AZ",
+  "licensee": "ARIZONA BOARD OF REGENTS FOR BENEFIT OF UNIV OF ARIZ."
+ },
+ "KUAT-TV": {
+  "community": "Tucson, AZ",
+  "licensee": "ARIZONA BOARD OF REGENTS FOR BENEFIT OF UNIVERSITY OF ARIZ."
+ },
+ "KUAU": {
+  "community": "Haiku, HI",
+  "licensee": "FIRST ASSEMBLY KING'S CATHEDRAL AND CHAPELS"
+ },
+ "KUOK": {
+  "community": "Woodward, OK",
+  "licensee": "TYLER MEDIA LLC"
+ },
+ "KVAW": {
+  "community": "Eagle Pass, TX",
+  "licensee": "NRT COMMUNICATIONS GROUP, LLC"
+ },
+ "KVCR-DT": {
+  "community": "San Bernardino, CA",
+  "licensee": "SAN BERNARDINO COMMUNITY COLLEGE DISTRICT"
+ },
+ "KVCW": {
+  "community": "Las Vegas, NV",
+  "licensee": "KUPN Licensee, LLC"
+ },
+ "KWNB-TV": {
+  "community": "Hayes Center, NE",
+  "licensee": "KHGI LICENSEE, LLC"
+ },
+ "KXHI": {
+  "community": "Hilo, HI",
+  "licensee": "RED-TV, LLC"
+ },
+ "W09DB-D": {
+  "community": "Williamsport, PA",
+  "licensee": "Lighthouse Support"
+ },
+ "W223AJ": {
+  "community": "Belle Glade, FL",
+  "licensee": "GLADES MEDIA COMPANY, LLC"
+ },
+ "W224AI": {
+  "community": "Loyalsock, PA",
+  "licensee": "Salt and Light Media Ministries, Inc."
+ },
+ "W229CE": {
+  "community": "Ellijay, GA",
+  "licensee": "CARRIAGE RADIO, LLC"
+ },
+ "W231DB": {
+  "community": "Lagrange, KY",
+  "licensee": "NEW ALBANY BROADCASTING CO., INC."
+ },
+ "W233AK": {
+  "community": "Zanesville, OH",
+  "licensee": "PERRY COUNTY BROADCASTING COMPANY,INC."
+ },
+ "W252DH": {
+  "community": "Hinton, WV",
+  "licensee": "MOUNTAINPLEX MEDIA, LLC"
+ },
+ "W260DA": {
+  "community": "Bartow, FL",
+  "licensee": "Prime Broadcasting, Inc."
+ },
+ "W266BY": {
+  "community": "Greenville, MS",
+  "licensee": "DELTA RADIO NETWORK, LLC"
+ },
+ "W267CE": {
+  "community": "Cambridge, MA",
+  "licensee": "RCRQ, Inc."
+ },
+ "W276AS": {
+  "community": "Martinsburg, Etc., PA",
+  "licensee": "MARTINSBURG BROADCASTING, INC."
+ },
+ "W277AC": {
+  "community": "Waupun, WI",
+  "licensee": "RADIO PLUS, INC."
+ },
+ "W282AX": {
+  "community": "Gaffney, SC",
+  "licensee": "FOWLER BROADCAST COMMUNICATIONS INC."
+ },
+ "W283BO": {
+  "community": "Lancaster, OH",
+  "licensee": "WLOH RADIO COMPANY"
+ },
+ "W295CI": {
+  "community": "Urbana, OH",
+  "licensee": "V-TECK COMMUNICATIONS, INC."
+ },
+ "W36EY-D": {
+  "community": "Berwick, PA",
+  "licensee": "Lighthouse Support"
+ },
+ "WBKP": {
+  "community": "Calumet, MI",
+  "licensee": "Queen Bee's Knees LLC"
+ },
+ "WDBB": {
+  "community": "Bessemer, AL",
+  "licensee": "WTTO Licensee, LLC"
+ },
+ "WDPN-TV": {
+  "community": "Wilmington, DE",
+  "licensee": "MARANATHA BROADCASTING COMPANY, INC."
+ },
+ "WECN": {
+  "community": "Naranjito, PR",
+  "licensee": "Encuentro Christian Network Corporation"
+ },
+ "WEFS": {
+  "community": "Cocoa, FL",
+  "licensee": "EASTERN FLORIDA STATE COLLEGE"
+ },
+ "WFMZ-TV": {
+  "community": "Allentown, PA",
+  "licensee": "MARANATHA BROADCASTING COMPANY, INC."
+ },
+ "WFUP": {
+  "community": "Vanderbilt, MI",
+  "licensee": "CADILLAC TELECASTING CO."
+ },
+ "WGCU": {
+  "community": "Fort Myers, FL",
+  "licensee": "The Florida Gulf Coast University Board of Trustees"
+ },
+ "WGGN-TV": {
+  "community": "Sandusky, OH",
+  "licensee": "CHRISTIAN FAITH BROADCAST, INC."
+ },
+ "WILL-TV": {
+  "community": "Urbana, IL",
+  "licensee": "The Board of Trustees of The University of Illinois"
+ },
+ "WIRS": {
+  "community": "Yauco, PR",
+  "licensee": "AMERICA-CV STATION GROUP, INC."
+ },
+ "WJBF": {
+  "community": "Augusta, GA",
+  "licensee": "Nexstar Media Inc."
+ },
+ "WJPX": {
+  "community": "San Juan, PR",
+  "licensee": "AMERICA-CV STATION GROUP, INC., DEBTOR-IN-POSSESSION"
+ },
+ "WJWN-TV": {
+  "community": "San Sebastian, PR",
+  "licensee": "AMERICA-CV STATION GROUP, INC."
+ },
+ "WKPV": {
+  "community": "Ponce, PR",
+  "licensee": "AMERICA-CV STATION GROUP, INC."
+ },
+ "WLVT-TV": {
+  "community": "Allentown, PA",
+  "licensee": "LEHIGH VALLEY PUBLIC TELECOMMUNICATIONS CORP."
+ },
+ "WMEC": {
+  "community": "Macomb, IL",
+  "licensee": "BOARD OF TRUSTEES OF SOUTHERN ILLINOIS UNIVERSITY"
+ },
+ "WMHT": {
+  "community": "Schenectady, NY",
+  "licensee": "WMHT Educational Telecommunications"
+ },
+ "WNIN": {
+  "community": "Evansville, IN",
+  "licensee": "WNIN TRI-STATE PUBLIC MEDIA, INC."
+ },
+ "WOLO-TV": {
+  "community": "Columbia, SC",
+  "licensee": "South Carolina Broadcasting Partners"
+ },
+ "WORO-DT": {
+  "community": "Fajardo, PR",
+  "licensee": "TELE ORO CANAL 13- WORO-DT TRUST"
+ },
+ "WPHL-TV": {
+  "community": "Philadelphia, PA",
+  "licensee": "Tribune Media Company"
+ },
+ "WPPT": {
+  "community": "Philadelphia, PA",
+  "licensee": "LEHIGH VALLEY PUBLIC TELECOMMUNICATIONS CORP."
+ },
+ "WPVD-TV": {
+  "community": "Providence, RI",
+  "licensee": "Ocean State Media Group"
+ },
+ "WQEC": {
+  "community": "Quincy, IL",
+  "licensee": "BOARD OF TRUSTEES OF SOUTHERN ILLINOIS UNIVERSITY"
+ },
+ "WQLN": {
+  "community": "Erie, PA",
+  "licensee": "PUBLIC BROADCASTING OF NORTHWEST PENNSYLVANIA, INC."
+ },
+ "WRAZ": {
+  "community": "Raleigh, NC",
+  "licensee": "WRAZ-TV, Inc."
+ },
+ "WRUA": {
+  "community": "Fajardo, PR",
+  "licensee": "Eastern Television Corporation"
+ },
+ "WSBS-TV": {
+  "community": "Key West, FL",
+  "licensee": "WSBS Licensing, Inc."
+ },
+ "WSEC": {
+  "community": "Jacksonville, IL",
+  "licensee": "BOARD OF TRUSTEES OF SOUTHERN ILLINOIS UNIVERSITY"
+ },
+ "WSMH": {
+  "community": "Flint, MI",
+  "licensee": "WSMH Licensee, LLC"
+ },
+ "WTCI": {
+  "community": "Chattanooga, TN",
+  "licensee": "THE GREATER CHATTANOOGA PUBLIC TELEVISION CORP"
+ },
+ "WTIU": {
+  "community": "Bloomington, IN",
+  "licensee": "TRUSTEES OF INDIANA UNIVERSITY"
+ },
+ "WTOK-TV": {
+  "community": "Meridian, MS",
+  "licensee": "GRAY TELEVISION LICENSEE, LLC"
+ },
+ "WTOT": {
+  "community": "Marianna, FL",
+  "licensee": "MFR, INC."
+ },
+ "WTTW": {
+  "community": "Chicago, IL",
+  "licensee": "WINDOW TO THE WORLD COMMUNICATIONS, INC."
+ },
+ "WVCY-TV": {
+  "community": "Milwaukee, WI",
+  "licensee": "VCY AMERICA, INC."
+ },
+ "WWUP-TV": {
+  "community": "Sault Ste. Marie, MI",
+  "licensee": "Heritage Broadcasting Company of Michigan"
+ },
+ "WXTX": {
+  "community": "Columbus, GA",
+  "licensee": "Gray Television Licensee, LLC"
+ },
+ "KEDT": {
+  "community": "Corpus Christi, TX",
+  "licensee": "South Texas Public Broadcasting, Inc."
+ },
+ "WJCT": {
+  "community": "Jacksonville, FL",
+  "licensee": "WJCT, INC."
+ },
+ "fm:961115MD": {
+  "community": "Tioga, ND",
+  "licensee": ""
+ },
+ "fm:971104MG": {
+  "community": "New Berlin, IL",
+  "licensee": ""
+ },
+ "fm:971211MD": {
+  "community": "Tyner, KY",
+  "licensee": ""
+ },
+ "fm:980805MB": {
+  "community": "Plainfield, NJ",
+  "licensee": ""
+ },
+ "fm:980807MA": {
+  "community": "Barrow, AK",
+  "licensee": ""
+ },
+ "fm:KABF": {
+  "community": "Little Rock, AR",
+  "licensee": "ARKANSAS BROADCASTING FOUNDATION INC"
+ },
+ "fm:KACM": {
+  "community": "Loghill Village, CO",
+  "licensee": "Calvary Chapel of Montrose"
+ },
+ "fm:KACX": {
+  "community": "Ludlow, CA",
+  "licensee": "William Lynett"
+ },
+ "fm:KADC": {
+  "community": "Rossville, KS",
+  "licensee": "Radio Vida Kansas, Inc."
+ },
+ "fm:KADE": {
+  "community": "Lake George, CO",
+  "licensee": ""
+ },
+ "fm:KADY": {
+  "community": "Beryl Junction, UT",
+  "licensee": "Dale Wynn Davidson Ministries, Inc."
+ },
+ "fm:KAEB": {
+  "community": "Sand Point, AK",
+  "licensee": "ALEUTIAN PENINSULA BROADCASTING, INC."
+ },
+ "fm:KAGB": {
+  "community": "Waimea, HI",
+  "licensee": "PACIFIC RADIO GROUP, INC."
+ },
+ "fm:KAHA": {
+  "community": "Sinapalu, MP",
+  "licensee": "KKMP Charitable Foundation"
+ },
+ "fm:KAHD": {
+  "community": "Hale Center, TX",
+  "licensee": ""
+ },
+ "fm:KAHW-FM": {
+  "community": "Jarales, NM",
+  "licensee": ""
+ },
+ "fm:KAMF": {
+  "community": "Tulare, SD",
+  "licensee": ""
+ },
+ "fm:KAMN": {
+  "community": "Winslow, AZ",
+  "licensee": ""
+ },
+ "fm:KAMZ": {
+  "community": "Tahoka, TX",
+  "licensee": "Christina  Benavides"
+ },
+ "fm:KAPA": {
+  "community": "Hilo, HI",
+  "licensee": "PACIFIC RADIO GROUP, INC."
+ },
+ "fm:KAPK": {
+  "community": "Cora, WY",
+  "licensee": "WIND RIVER BROADCASTING, INC."
+ },
+ "fm:KAPO": {
+  "community": "Bodega Bay, CA",
+  "licensee": ""
+ },
+ "fm:KAUB": {
+  "community": "Ganado, AZ",
+  "licensee": ""
+ },
+ "fm:KAVM": {
+  "community": "Cold Bay, AK",
+  "licensee": "Alaska Village Missions, Inc."
+ },
+ "fm:KAWD": {
+  "community": "Detroit Lakes, MN",
+  "licensee": "Christian Media, Inc."
+ },
+ "fm:KAWT": {
+  "community": "Wilkeson, WA",
+  "licensee": ""
+ },
+ "fm:KAYE-FM": {
+  "community": "Tonkawa, OK",
+  "licensee": "NORTHERN OKLAHOMA COLLEGE"
+ },
+ "fm:KBDK": {
+  "community": "Leakey, TX",
+  "licensee": ""
+ },
+ "fm:KBDM": {
+  "community": "Boardman, OR",
+  "licensee": "Iglesia Casa de Milagros"
+ },
+ "fm:KBEZ": {
+  "community": "Ketchum, OK",
+  "licensee": "Citizenship Tulsa, Inc."
+ },
+ "fm:KBHC": {
+  "community": "Medicine Bow, WY",
+  "licensee": "Nanette  Valdez-Schwartz"
+ },
+ "fm:KBHG": {
+  "community": "Alexandria, MN",
+  "licensee": ""
+ },
+ "fm:KBHJ": {
+  "community": "Blythe, CA",
+  "licensee": "NORTHWAY BROADCASTING, LLC"
+ },
+ "fm:KBMA": {
+  "community": "Albany, MO",
+  "licensee": ""
+ },
+ "fm:KBOU": {
+  "community": "Tok, AK",
+  "licensee": "Our Fathers World Radio"
+ },
+ "fm:KBSR": {
+  "community": "Burns, OR",
+  "licensee": "Burns Paiute Tribe"
+ },
+ "fm:KBUQ": {
+  "community": "Buckland, AK",
+  "licensee": "KOTZEBUE BROADCASTING, INC."
+ },
+ "fm:KBVW-FM": {
+  "community": "Winnebago, NE",
+  "licensee": "Winnebago Tribe of Nebraska"
+ },
+ "fm:KBWG": {
+  "community": "Browning, MT",
+  "licensee": "BLACKFEET TRIBE"
+ },
+ "fm:KBXP": {
+  "community": "Blossom, TX",
+  "licensee": "Alpha Consulting Christian Education"
+ },
+ "fm:KCBG": {
+  "community": "Fulton, TX",
+  "licensee": "PODEROSA BROADCASTING CORPORATION"
+ },
+ "fm:KCBV": {
+  "community": "Riesel, TX",
+  "licensee": ""
+ },
+ "fm:KECO": {
+  "community": "Elk City, OK",
+  "licensee": "PARAGON COMMUNICATIONS, INC."
+ },
+ "fm:KENR": {
+  "community": "Superior, MT",
+  "licensee": "Anderson Radio Broadcasting, Inc."
+ },
+ "fm:KIBG": {
+  "community": "Bigfork, MT",
+  "licensee": "ANDERSON RADIO BROADCASTING, INC."
+ },
+ "fm:KKMT": {
+  "community": "Ronan, MT",
+  "licensee": "ANDERSON RADIO BROADCASTING, INC."
+ },
+ "fm:KQRK": {
+  "community": "Pablo, MT",
+  "licensee": "ANDERSON RADIO BROADCASTING, INC."
+ },
+ "fm:KQTM": {
+  "community": "Rio Rancho, NM",
+  "licensee": "TEAM BROADCASTING, INC."
+ },
+ "fm:KSBS-FM": {
+  "community": "Pago Pago, AS",
+  "licensee": "SAMOA TECHNOLOGIES, INC."
+ },
+ "fm:KXDR": {
+  "community": "Pinesdale, MT",
+  "licensee": "Anderson Radio Broadcasting, Inc."
+ },
+ "fm:WJJM-FM": {
+  "community": "Lewisburg, TN",
+  "licensee": "WJJM, INC."
+ },
+ "fm:WKNG-FM": {
+  "community": "Heflin, AL",
+  "licensee": "COVENANT COMMUNICATIONS, INC."
+ },
+ "fm:WLLT": {
+  "community": "Polo, IL",
+  "licensee": "White Rabbit Broadcasting, LLC"
+ },
+ "fm:WNZN": {
+  "community": "Lorain, OH",
+  "licensee": "PACE FOUNDATION"
+ },
+ "fm:WSBF-FM": {
+  "community": "Clemson, SC",
+  "licensee": "CLEMSON UNIVERSITY BOARD OF TRUSTEES"
+ },
+ "am:KASO": {
+  "community": "Minden, LA",
+  "licensee": "MINDEN BROADCASTING, LLC"
+ },
+ "am:KIMM": {
+  "community": "Rapid City, SD",
+  "licensee": "BLACK HILLS BROADCASTING, L.L.C."
+ },
+ "am:KIRT": {
+  "community": "Mission, TX",
+  "licensee": "BRAVO BROADCASTING COMPANY, INC."
+ },
+ "am:KJNT": {
+  "community": "Jackson, WY",
+  "licensee": "Ted Austin"
+ },
+ "am:KLLA": {
+  "community": "Leesville, LA",
+  "licensee": "PENE BROADCASTING COMPANY, INC."
+ },
+ "am:KLYQ": {
+  "community": "Hamilton, MT",
+  "licensee": "Anderson Radio Broadcasting, Inc."
+ },
+ "am:KOLW": {
+  "community": "Basin City, WA",
+  "licensee": "The Tri Cities Divestiture Trust"
+ },
+ "am:KOPY": {
+  "community": "Alice, TX",
+  "licensee": "CLARO COMMUNICATIONS, LTD"
+ },
+ "am:KQDE": {
+  "community": "Evergreen, MT",
+  "licensee": "ANDERSON RADIO BROADCASTING, INC."
+ },
+ "am:KRDM": {
+  "community": "Redmond, OR",
+  "licensee": "RED MOUNTAIN BROADCASTING, LLC"
+ },
+ "am:KRKE": {
+  "community": "Peralta, NM",
+  "licensee": "DON DAVIS"
+ },
+ "am:KROB": {
+  "community": "Robstown, TX",
+  "licensee": "B COMMUNICATIONS JOINT VENTURE"
+ },
+ "am:KSAG": {
+  "community": "Pearsall, TX",
+  "licensee": "WENDOLYNN  TELLEZ"
+ },
+ "am:KSYB": {
+  "community": "Shreveport, LA",
+  "licensee": "AMISTAD COMMUNICATIONS, INC."
+ },
+ "am:KTTP": {
+  "community": "Pineville, LA",
+  "licensee": "RADIO TWO"
+ },
+ "am:KTUI": {
+  "community": "Sullivan, MO",
+  "licensee": "MERAMEC AREA BROADCASTING LLC"
+ },
+ "am:KVIV": {
+  "community": "El Paso, TX",
+  "licensee": "EL PASO Y JUAREZ COMPANERISMO-CRISTIANO"
+ },
+ "am:KWMC": {
+  "community": "Del Rio, TX",
+  "licensee": "Guillermo  Garza"
+ },
+ "am:KYNR": {
+  "community": "Toppenish, WA",
+  "licensee": "CONFEDERATED TRIBES AND BANDS OF THE YAKAMA NATION"
+ },
+ "am:KZHN": {
+  "community": "Paris, TX",
+  "licensee": "LARRY RYAN D/B/A EIFEL TOWER BROADCASTING"
+ },
+ "am:WAIM": {
+  "community": "Anderson, SC",
+  "licensee": "PALMETTO BROADCASTING COMPANY, INC."
+ },
+ "am:WBGC": {
+  "community": "Chipley, FL",
+  "licensee": "Collier"
+ },
+ "am:WCBQ": {
+  "community": "Oxford, NC",
+  "licensee": "THE PARADISE NETWORK (TPN) OF NORTH CAROLINA, INC."
+ },
+ "am:WCLW": {
+  "community": "Eden, NC",
+  "licensee": "DR JERRY L CARTER D/BA/ REIDSVILE BAPTIST CHURCH"
+ },
+ "am:WDJZ": {
+  "community": "Bridgeport, CT",
+  "licensee": "PEOPLE'S BROADCAST NETWORK, LLC"
+ },
+ "am:WEZO": {
+  "community": "Augusta, GA",
+  "licensee": "WEZO 1230 AM The People Station, L.L.C."
+ },
+ "am:WFGN": {
+  "community": "Gaffney, SC",
+  "licensee": "HOPE BROADCASTING, INC."
+ },
+ "am:WFNS": {
+  "community": "Blackshear, GA",
+  "licensee": "Shanks Broadcasting, LLC"
+ },
+ "am:WFPA": {
+  "community": "Fort Payne, AL",
+  "licensee": "SOUTHERN TORCH, INC."
+ },
+ "am:WFTD": {
+  "community": "Marietta, GA",
+  "licensee": "PRIETO ENTERPRISES, INC."
+ },
+ "am:WGAI": {
+  "community": "Elizabeth City, NC",
+  "licensee": "GREGORY COMMUNICATIONS LICENSE, INC."
+ },
+ "am:WGYM": {
+  "community": "Hammonton, NJ",
+  "licensee": "Domestic Church Media Foundation"
+ },
+ "am:WHAT": {
+  "community": "Philadelphia, PA",
+  "licensee": "Philly Radio, Inc."
+ },
+ "am:WHBE": {
+  "community": "Newburg, KY",
+  "licensee": "UB LOUISVILLE, LLC"
+ },
+ "am:WHEW": {
+  "community": "Franklin, TN",
+  "licensee": "SG COMMUNICATIONS, INC."
+ },
+ "am:WHGH": {
+  "community": "Thomasville, GA",
+  "licensee": "HGH INVESTMENTS CORP."
+ },
+ "am:WHNC": {
+  "community": "Henderson, NC",
+  "licensee": "THE PARADISE NETWORK (TPN) OF NORTH CAROLINA, INC."
+ },
+ "am:WHSY": {
+  "community": "Hattiesburg, MS",
+  "licensee": "SUNBELT BROADCASTING CORPORATION"
+ },
+ "am:WIAC": {
+  "community": "San Juan, PR",
+  "licensee": "BESTOV BROADCASTING, INC."
+ },
+ "am:WINW": {
+  "community": "Canton, OH",
+  "licensee": "CAP III MEDIA, INC."
+ },
+ "am:WIRB": {
+  "community": "Level Plains, AL",
+  "licensee": "LEV"
+ },
+ "am:WIRJ": {
+  "community": "Humboldt, TN",
+  "licensee": "John Warmath"
+ },
+ "am:WJNZ": {
+  "community": "Robertsdale, AL",
+  "licensee": "TRI CITY RADIO, LLC"
+ },
+ "am:WKBL": {
+  "community": "Covington, TN",
+  "licensee": "GRACE BROADCASTING SERVICES, INC."
+ },
+ "am:WKRA": {
+  "community": "Holly Springs, MS",
+  "licensee": "BILLY R. AUTRY"
+ },
+ "am:WKVQ": {
+  "community": "Eatonton, GA",
+  "licensee": "Small"
+ },
+ "am:WNFO": {
+  "community": "Sun City-Hilton Head, SC",
+  "licensee": "Czura"
+ },
+ "am:WNPZ": {
+  "community": "Knoxville, TN",
+  "licensee": "METROPOLITAN MANAGEMENT CORPORATION OF TENNESSEE"
+ },
+ "am:WOCO": {
+  "community": "Oconto, WI",
+  "licensee": "LAMARDO INC."
+ },
+ "am:WPBS": {
+  "community": "Conyers, GA",
+  "licensee": "Vanessa Nguyen"
+ },
+ "am:WPOT": {
+  "community": "Trenton, TN",
+  "licensee": "GRACE BROADCASTING SERVICES, INC."
+ },
+ "am:WSEG": {
+  "community": "Savannah, GA",
+  "licensee": "Shanks Broadcasting, LLC"
+ },
+ "am:WSFN": {
+  "community": "Brunswick, GA",
+  "licensee": "Shanks Broadcasting, LLC"
+ },
+ "am:WTKZ": {
+  "community": "Allentown, PA",
+  "licensee": "VP Broadcasting LLC"
+ },
+ "am:WXKO": {
+  "community": "Fort Valley, GA",
+  "licensee": "SHANKS BROADCASTING, LLC"
+ }
+}
