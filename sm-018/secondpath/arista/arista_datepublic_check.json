@@ -1,0 +1,1186 @@
+{
+ "generated": "2026-10-11T13:24:17+00:00",
+ "input": "/Users/colinwinter/second-measurements/cve-72h/cve_lag3_2026_rows.json",
+ "n": 35,
+ "ua_note": "arista.com returns 406 to browser UAs from curl; fell back to curl/8.7.1 UA where logged",
+ "results": [
+  {
+   "id": "CVE-2026-2379",
+   "datePublic_input": "2026-02-17",
+   "datePublished_input": "2026-06-05",
+   "lag_d_input": 108.74978008101851,
+   "datePublic": "2026-02-17T00:00:00.000Z",
+   "datePublished": "2026-06-05T17:59:40.999Z",
+   "dateUpdated": "2026-06-09T14:36:39.468Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/23419-security-advisory-0134",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/23419-security-advisory-0134",
+   "advisory_title": "Security Advisory 0134 - Arista",
+   "advisory_initial_date": "2026-02-17",
+   "advisory_date_line": "2026-02-17",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-02-17",
+     "change": "Initial release"
+    },
+    {
+     "rev": "1.1",
+     "date": "2026-08-10",
+     "change": "Added CSAF JSON file for download"
+    }
+   ],
+   "csaf_url": "https://www.arista.com/assets/data/SecurityAdvisories/CSAF/arista_networks_security_advisory_134_CSAF.json",
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 108.75,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": [
+    "CSAF link returned non-JSON (JSONDecodeError)"
+   ]
+  },
+  {
+   "id": "CVE-2026-7473",
+   "datePublic_input": "2026-05-05",
+   "datePublished_input": "2026-06-05",
+   "lag_d_input": 31.682499872685185,
+   "datePublic": "2026-05-05T00:00:00.000Z",
+   "datePublished": "2026-06-05T16:22:47.989Z",
+   "dateUpdated": "2026-10-07T18:27:31.678Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/22872-security-advisory-0137",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/24005-security-advisory-0137",
+   "advisory_title": "Security Advisory 0137 - Arista",
+   "advisory_initial_date": "2026-05-05",
+   "advisory_date_line": "2026-05-05",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-05-05",
+     "change": "Initial release"
+    },
+    {
+     "rev": "1.1",
+     "date": "2026-05-07",
+     "change": "Clarified 7280R3, 7500R3 and 7800R3 exposure is limited"
+    },
+    {
+     "rev": "1.2",
+     "date": "2026-05-13",
+     "change": "Updated Mitigation section with a note of caution"
+    },
+    {
+     "rev": "1.3",
+     "date": "2026-05-20",
+     "change": "Updated Approach 2 - Applying ACL on Decapsulation Switches"
+    },
+    {
+     "rev": "1.4",
+     "date": "2026-08-10",
+     "change": "Added CSAF JSON file for download"
+    }
+   ],
+   "csaf_url": "https://www.arista.com/assets/data/SecurityAdvisories/CSAF/arista_networks_security_advisory_137_CSAF.json",
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 31.682,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": [
+    "CNA reference URL dead (HTTP 406/403); used alias https://www.arista.com/en/support/advisories-notices/security-advisory/24005-security-advisory-0137 (source: NVD CVE-2026-7473 reference list: CNA link 22872 tagged 'Broken Link'; 24005 added by CISA-ADP (nvd.nist.gov/vuln/detail/CVE-2026-7473, seen 2026-10-11))",
+    "CSAF link returned non-JSON (JSONDecodeError)"
+   ]
+  },
+  {
+   "id": "CVE-2026-25624",
+   "datePublic_input": "2026-02-03",
+   "datePublished_input": "2026-06-05",
+   "lag_d_input": 122.81571317129631,
+   "datePublic": "2026-02-03T00:00:00.000Z",
+   "datePublished": "2026-06-05T19:34:37.618Z",
+   "dateUpdated": "2026-06-05T20:28:03.806Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/23399-security-advisory-0133",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/23399-security-advisory-0133",
+   "advisory_title": "Security Advisory 0133 - Arista",
+   "advisory_initial_date": "2026-02-03",
+   "advisory_date_line": "2026-02-03",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-02-03",
+     "change": "Initial release"
+    }
+   ],
+   "csaf_url": null,
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 122.816,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": []
+  },
+  {
+   "id": "CVE-2026-25623",
+   "datePublic_input": "2026-02-03",
+   "datePublished_input": "2026-06-05",
+   "lag_d_input": 122.81377024305556,
+   "datePublic": "2026-02-03T00:00:00.000Z",
+   "datePublished": "2026-06-05T19:31:49.749Z",
+   "dateUpdated": "2026-06-05T20:27:23.391Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/23399-security-advisory-0133",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/23399-security-advisory-0133",
+   "advisory_title": "Security Advisory 0133 - Arista",
+   "advisory_initial_date": "2026-02-03",
+   "advisory_date_line": "2026-02-03",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-02-03",
+     "change": "Initial release"
+    }
+   ],
+   "csaf_url": null,
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 122.814,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": []
+  },
+  {
+   "id": "CVE-2026-25622",
+   "datePublic_input": "2026-02-03",
+   "datePublished_input": "2026-06-05",
+   "lag_d_input": 122.81246673611112,
+   "datePublic": "2026-02-03T00:00:00.000Z",
+   "datePublished": "2026-06-05T19:29:57.126Z",
+   "dateUpdated": "2026-06-05T20:26:59.005Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/23399-security-advisory-0133",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/23399-security-advisory-0133",
+   "advisory_title": "Security Advisory 0133 - Arista",
+   "advisory_initial_date": "2026-02-03",
+   "advisory_date_line": "2026-02-03",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-02-03",
+     "change": "Initial release"
+    }
+   ],
+   "csaf_url": null,
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 122.812,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": []
+  },
+  {
+   "id": "CVE-2026-25621",
+   "datePublic_input": "2026-02-03",
+   "datePublished_input": "2026-06-05",
+   "lag_d_input": 122.81127182870371,
+   "datePublic": "2026-02-03T00:00:00.000Z",
+   "datePublished": "2026-06-05T19:28:13.886Z",
+   "dateUpdated": "2026-06-05T20:26:36.066Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/23399-security-advisory-0133",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/23399-security-advisory-0133",
+   "advisory_title": "Security Advisory 0133 - Arista",
+   "advisory_initial_date": "2026-02-03",
+   "advisory_date_line": "2026-02-03",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-02-03",
+     "change": "Initial release"
+    }
+   ],
+   "csaf_url": null,
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 122.811,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": []
+  },
+  {
+   "id": "CVE-2026-25620",
+   "datePublic_input": "2026-02-03",
+   "datePublished_input": "2026-06-05",
+   "lag_d_input": 122.81014811342592,
+   "datePublic": "2026-02-03T00:00:00.000Z",
+   "datePublished": "2026-06-05T19:26:36.797Z",
+   "dateUpdated": "2026-06-05T20:23:31.151Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/22867-security-advisory-0133",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/23399-security-advisory-0133",
+   "advisory_title": "Security Advisory 0133 - Arista",
+   "advisory_initial_date": "2026-02-03",
+   "advisory_date_line": "2026-02-03",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-02-03",
+     "change": "Initial release"
+    }
+   ],
+   "csaf_url": null,
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 122.81,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": [
+    "CNA reference URL dead (HTTP 406/403); used same-numbered advisory already fetched at https://www.arista.com/en/support/advisories-notices/security-advisory/23399-security-advisory-0133"
+   ]
+  },
+  {
+   "id": "CVE-2026-86107",
+   "datePublic_input": "2026-09-09",
+   "datePublished_input": "2026-09-16",
+   "lag_d_input": 7.451059282407408,
+   "datePublic": "2026-09-09T00:00:00.000Z",
+   "datePublished": "2026-09-16T10:49:31.522Z",
+   "dateUpdated": "2026-09-16T17:45:20.522Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24736-security-advisory-0180",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/24736-security-advisory-0180",
+   "advisory_title": "Security Advisory 0180 - Arista",
+   "advisory_initial_date": "2026-09-09",
+   "advisory_date_line": "2026-09-09",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-09-09",
+     "change": "Initial release"
+    },
+    {
+     "rev": "1.1",
+     "date": "2026-09-22",
+     "change": "CSAF JSON file added"
+    }
+   ],
+   "csaf_url": "https://www.arista.com/assets/data/SecurityAdvisories/CSAF/arista_networks_security_advisory_180_CSAF.json",
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 7.451,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": [
+    "CSAF link returned non-JSON (JSONDecodeError)"
+   ]
+  },
+  {
+   "id": "CVE-2026-86106",
+   "datePublic_input": "2026-09-09",
+   "datePublished_input": "2026-09-16",
+   "lag_d_input": 7.425643368055556,
+   "datePublic": "2026-09-09T00:00:00.000Z",
+   "datePublished": "2026-09-16T10:12:55.587Z",
+   "dateUpdated": "2026-09-16T17:53:47.977Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24735-security-advisory-0179",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/24735-security-advisory-0179",
+   "advisory_title": "Security Advisory 0179 - Arista",
+   "advisory_initial_date": "2026-09-09",
+   "advisory_date_line": "2026-09-09",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-09-09",
+     "change": "Initial release"
+    },
+    {
+     "rev": "1.1",
+     "date": "2026-09-22",
+     "change": "CSAF JSON file added"
+    }
+   ],
+   "csaf_url": "https://www.arista.com/assets/data/SecurityAdvisories/CSAF/arista_networks_security_advisory_179_CSAF.json",
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 7.426,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": [
+    "CSAF link returned non-JSON (JSONDecodeError)"
+   ]
+  },
+  {
+   "id": "CVE-2026-75945",
+   "datePublic_input": "2026-09-09",
+   "datePublished_input": "2026-09-14",
+   "lag_d_input": 5.002111006944444,
+   "datePublic": "2026-09-09T22:20:00.000Z",
+   "datePublished": "2026-09-14T22:23:02.391Z",
+   "dateUpdated": "2026-09-14T23:05:54.600Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24706-security-advisory-0150",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/24706-security-advisory-0150",
+   "advisory_title": "Security Advisory 0150 - Arista",
+   "advisory_initial_date": "2026-09-09",
+   "advisory_date_line": "2026-09-09",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-09-09",
+     "change": "Initial release"
+    },
+    {
+     "rev": "1.1",
+     "date": "2026-09-22",
+     "change": "CSAF JSON file added"
+    }
+   ],
+   "csaf_url": "https://www.arista.com/assets/data/SecurityAdvisories/CSAF/arista_networks_security_advisory_150_CSAF.json",
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 5.933,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": [
+    "CSAF link returned non-JSON (JSONDecodeError)"
+   ]
+  },
+  {
+   "id": "CVE-2026-75944",
+   "datePublic_input": "2026-09-09",
+   "datePublished_input": "2026-09-14",
+   "lag_d_input": 5.0043977199074074,
+   "datePublic": "2026-09-09T22:13:00.000Z",
+   "datePublished": "2026-09-14T22:19:19.963Z",
+   "dateUpdated": "2026-09-14T23:06:13.719Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24706-security-advisory-0150",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/24706-security-advisory-0150",
+   "advisory_title": "Security Advisory 0150 - Arista",
+   "advisory_initial_date": "2026-09-09",
+   "advisory_date_line": "2026-09-09",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-09-09",
+     "change": "Initial release"
+    },
+    {
+     "rev": "1.1",
+     "date": "2026-09-22",
+     "change": "CSAF JSON file added"
+    }
+   ],
+   "csaf_url": "https://www.arista.com/assets/data/SecurityAdvisories/CSAF/arista_networks_security_advisory_150_CSAF.json",
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 5.93,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": [
+    "CSAF link returned non-JSON (JSONDecodeError)"
+   ]
+  },
+  {
+   "id": "CVE-2026-17191",
+   "datePublic_input": "2026-07-27",
+   "datePublished_input": "2026-07-27",
+   "lag_d_input": 0.002979583333333333,
+   "datePublic": "2026-07-27T16:37:00.000Z",
+   "datePublished": "2026-07-27T16:41:17.436Z",
+   "dateUpdated": "2026-07-27T17:29:45.538Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24365-security-advisory-0145",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/24365-security-advisory-0145",
+   "advisory_title": "Security Advisory 0145 - Arista",
+   "advisory_initial_date": "2026-07-27",
+   "advisory_date_line": "2026-07-27",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-07-27",
+     "change": "Initial release"
+    },
+    {
+     "rev": "1.1",
+     "date": "2026-08-10",
+     "change": "Added CSAF JSON file for download"
+    }
+   ],
+   "csaf_url": "https://www.arista.com/assets/data/SecurityAdvisories/CSAF/arista_networks_security_advisory_145_CSAF.json",
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 0.695,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": [
+    "CSAF link returned non-JSON (JSONDecodeError)"
+   ]
+  },
+  {
+   "id": "CVE-2026-17192",
+   "datePublic_input": "2026-07-27",
+   "datePublished_input": "2026-07-27",
+   "lag_d_input": 0.014963877314814814,
+   "datePublic": "2026-07-27T16:15:00.000Z",
+   "datePublished": "2026-07-27T16:36:32.879Z",
+   "dateUpdated": "2026-07-27T17:28:36.203Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24365-security-advisory-0145",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/24365-security-advisory-0145",
+   "advisory_title": "Security Advisory 0145 - Arista",
+   "advisory_initial_date": "2026-07-27",
+   "advisory_date_line": "2026-07-27",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-07-27",
+     "change": "Initial release"
+    },
+    {
+     "rev": "1.1",
+     "date": "2026-08-10",
+     "change": "Added CSAF JSON file for download"
+    }
+   ],
+   "csaf_url": "https://www.arista.com/assets/data/SecurityAdvisories/CSAF/arista_networks_security_advisory_145_CSAF.json",
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 0.692,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": [
+    "CSAF link returned non-JSON (JSONDecodeError)"
+   ]
+  },
+  {
+   "id": "CVE-2026-77191",
+   "datePublic_input": "2026-09-09",
+   "datePublished_input": "2026-09-14",
+   "lag_d_input": 5.0031036226851855,
+   "datePublic": "2026-09-09T22:02:00.000Z",
+   "datePublished": "2026-09-14T22:06:28.153Z",
+   "dateUpdated": "2026-09-15T13:41:05.782Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24706-security-advisory-0150",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/24706-security-advisory-0150",
+   "advisory_title": "Security Advisory 0150 - Arista",
+   "advisory_initial_date": "2026-09-09",
+   "advisory_date_line": "2026-09-09",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-09-09",
+     "change": "Initial release"
+    },
+    {
+     "rev": "1.1",
+     "date": "2026-09-22",
+     "change": "CSAF JSON file added"
+    }
+   ],
+   "csaf_url": "https://www.arista.com/assets/data/SecurityAdvisories/CSAF/arista_networks_security_advisory_150_CSAF.json",
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 5.921,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": [
+    "CSAF link returned non-JSON (JSONDecodeError)"
+   ]
+  },
+  {
+   "id": "CVE-2026-16812",
+   "datePublic_input": "2026-07-27",
+   "datePublished_input": "2026-07-27",
+   "lag_d_input": 0.0027889814814814813,
+   "datePublic": "2026-07-27T16:07:00.000Z",
+   "datePublished": "2026-07-27T16:11:00.968Z",
+   "dateUpdated": "2026-07-28T03:56:40.567Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24364-security-advisory-0144",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/24364-security-advisory-0144",
+   "advisory_title": "Security Advisory 0144 - Arista",
+   "advisory_initial_date": "2026-07-27",
+   "advisory_date_line": "2026-07-27",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-07-27",
+     "change": "Initial release"
+    },
+    {
+     "rev": "1.1",
+     "date": "2026-08-03",
+     "change": "Updated Affected Platforms to include: VeloCloud Orchestrator Hosted"
+    },
+    {
+     "rev": "1.2",
+     "date": "2026-08-10",
+     "change": "Added CSAF JSON file for download"
+    }
+   ],
+   "csaf_url": "https://www.arista.com/assets/data/SecurityAdvisories/CSAF/arista_networks_security_advisory_144_CSAF.json",
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 0.674,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": [
+    "CSAF link returned non-JSON (JSONDecodeError)"
+   ]
+  },
+  {
+   "id": "CVE-2026-73458",
+   "datePublic_input": "2026-09-09",
+   "datePublished_input": "2026-09-15",
+   "lag_d_input": 6.002268680555556,
+   "datePublic": "2026-09-09T19:27:00.000Z",
+   "datePublished": "2026-09-15T19:30:16.014Z",
+   "dateUpdated": "2026-09-15T19:38:38.389Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24710-security-advisory-0154",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/24710-security-advisory-0154",
+   "advisory_title": "Security Advisory 0154 - Arista",
+   "advisory_initial_date": "2026-09-09",
+   "advisory_date_line": "2026-09-09",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-09-09",
+     "change": "Initial release"
+    },
+    {
+     "rev": "1.1",
+     "date": "2026-09-22",
+     "change": "CSAF JSON file added"
+    }
+   ],
+   "csaf_url": "https://www.arista.com/assets/data/SecurityAdvisories/CSAF/arista_networks_security_advisory_154_CSAF.json",
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 6.813,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": [
+    "CSAF link returned non-JSON (JSONDecodeError)"
+   ]
+  },
+  {
+   "id": "CVE-2026-73454",
+   "datePublic_input": "2026-09-09",
+   "datePublished_input": "2026-09-16",
+   "lag_d_input": 7.343524131944444,
+   "datePublic": "2026-09-09T00:00:00.000Z",
+   "datePublished": "2026-09-16T08:14:40.485Z",
+   "dateUpdated": "2026-09-17T03:56:53.682Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24721-security-advisory-0165",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/24721-security-advisory-0165",
+   "advisory_title": "Security Advisory 0165 - Arista",
+   "advisory_initial_date": "2026-09-09",
+   "advisory_date_line": "2026-09-09",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-09-09",
+     "change": "Initial release"
+    },
+    {
+     "rev": "1.1",
+     "date": "2026-09-22",
+     "change": "CSAF JSON file added"
+    }
+   ],
+   "csaf_url": "https://www.arista.com/assets/data/SecurityAdvisories/CSAF/arista_networks_security_advisory_165_CSAF.json",
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 7.344,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": [
+    "CSAF link returned non-JSON (JSONDecodeError)"
+   ]
+  },
+  {
+   "id": "CVE-2026-73442",
+   "datePublic_input": "2026-09-09",
+   "datePublished_input": "2026-09-16",
+   "lag_d_input": 7.001463518518518,
+   "datePublic": "2026-09-09T18:48:00.000Z",
+   "datePublished": "2026-09-16T18:50:06.448Z",
+   "dateUpdated": "2026-09-17T18:32:55.263Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24713-security-advisory-0157",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/24713-security-advisory-0157",
+   "advisory_title": "Security Advisory 0157 - Arista",
+   "advisory_initial_date": "2026-09-09",
+   "advisory_date_line": "2026-09-09",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-09-09",
+     "change": "Initial release"
+    },
+    {
+     "rev": "1.1",
+     "date": "2026-09-22",
+     "change": "CSAF JSON file added"
+    }
+   ],
+   "csaf_url": "https://www.arista.com/assets/data/SecurityAdvisories/CSAF/arista_networks_security_advisory_157_CSAF.json",
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 7.785,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": [
+    "CSAF link returned non-JSON (JSONDecodeError)"
+   ]
+  },
+  {
+   "id": "CVE-2026-73439",
+   "datePublic_input": "2026-09-09",
+   "datePublished_input": "2026-09-16",
+   "lag_d_input": 7.339717048611111,
+   "datePublic": "2026-09-09T00:00:00.000Z",
+   "datePublished": "2026-09-16T08:09:11.553Z",
+   "dateUpdated": "2026-09-17T03:56:54.834Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24720-security-advisory-0164",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/24720-security-advisory-0164",
+   "advisory_title": "Security Advisory 0164 - Arista",
+   "advisory_initial_date": "2026-09-09",
+   "advisory_date_line": "2026-09-09",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-09-09",
+     "change": "Initial release"
+    },
+    {
+     "rev": "1.1",
+     "date": "2026-09-22",
+     "change": "CSAF JSON file added"
+    }
+   ],
+   "csaf_url": "https://www.arista.com/assets/data/SecurityAdvisories/CSAF/arista_networks_security_advisory_164_CSAF.json",
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 7.34,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": [
+    "CSAF link returned non-JSON (JSONDecodeError)"
+   ]
+  },
+  {
+   "id": "CVE-2026-73443",
+   "datePublic_input": "2026-09-09",
+   "datePublished_input": "2026-09-16",
+   "lag_d_input": 7.002439826388889,
+   "datePublic": "2026-09-09T18:44:00.000Z",
+   "datePublished": "2026-09-16T18:47:30.801Z",
+   "dateUpdated": "2026-09-17T18:33:52.236Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24713-security-advisory-0157",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/24713-security-advisory-0157",
+   "advisory_title": "Security Advisory 0157 - Arista",
+   "advisory_initial_date": "2026-09-09",
+   "advisory_date_line": "2026-09-09",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-09-09",
+     "change": "Initial release"
+    },
+    {
+     "rev": "1.1",
+     "date": "2026-09-22",
+     "change": "CSAF JSON file added"
+    }
+   ],
+   "csaf_url": "https://www.arista.com/assets/data/SecurityAdvisories/CSAF/arista_networks_security_advisory_157_CSAF.json",
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 7.783,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": [
+    "CSAF link returned non-JSON (JSONDecodeError)"
+   ]
+  },
+  {
+   "id": "CVE-2026-73455",
+   "datePublic_input": "2026-09-09",
+   "datePublished_input": "2026-09-16",
+   "lag_d_input": 7.4071283333333335,
+   "datePublic": "2026-09-09T00:00:00.000Z",
+   "datePublished": "2026-09-16T09:46:15.888Z",
+   "dateUpdated": "2026-09-16T17:56:12.396Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24729-security-advisory-0173",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/24729-security-advisory-0173",
+   "advisory_title": "Security Advisory 0173 - Arista",
+   "advisory_initial_date": "2026-09-09",
+   "advisory_date_line": "2026-09-09",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-09-09",
+     "change": "Initial release"
+    },
+    {
+     "rev": "1.1",
+     "date": "2026-09-22",
+     "change": "CSAF JSON file added"
+    }
+   ],
+   "csaf_url": "https://www.arista.com/assets/data/SecurityAdvisories/CSAF/arista_networks_security_advisory_173_CSAF.json",
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 7.407,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": [
+    "CSAF link returned non-JSON (JSONDecodeError)"
+   ]
+  },
+  {
+   "id": "CVE-2026-73444",
+   "datePublic_input": "2026-09-09",
+   "datePublished_input": "2026-09-15",
+   "lag_d_input": 6.001824363425926,
+   "datePublic": "2026-09-09T21:09:00.000Z",
+   "datePublished": "2026-09-15T21:11:37.625Z",
+   "dateUpdated": "2026-09-16T18:04:45.344Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24713-security-advisory-0157",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/24713-security-advisory-0157",
+   "advisory_title": "Security Advisory 0157 - Arista",
+   "advisory_initial_date": "2026-09-09",
+   "advisory_date_line": "2026-09-09",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-09-09",
+     "change": "Initial release"
+    },
+    {
+     "rev": "1.1",
+     "date": "2026-09-22",
+     "change": "CSAF JSON file added"
+    }
+   ],
+   "csaf_url": "https://www.arista.com/assets/data/SecurityAdvisories/CSAF/arista_networks_security_advisory_157_CSAF.json",
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 6.883,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": [
+    "CSAF link returned non-JSON (JSONDecodeError)"
+   ]
+  },
+  {
+   "id": "CVE-2026-73468",
+   "datePublic_input": "2026-09-09",
+   "datePublished_input": "2026-09-16",
+   "lag_d_input": 7.413392002314815,
+   "datePublic": "2026-09-09T00:00:00.000Z",
+   "datePublished": "2026-09-16T09:55:17.069Z",
+   "dateUpdated": "2026-09-16T13:37:56.689Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24731-security-advisory-0175",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/24731-security-advisory-0175",
+   "advisory_title": "Security Advisory 0175 - Arista",
+   "advisory_initial_date": "2026-09-09",
+   "advisory_date_line": "2026-09-09",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-09-09",
+     "change": "Initial release"
+    },
+    {
+     "rev": "1.1",
+     "date": "2026-09-22",
+     "change": "CSAF JSON file added"
+    }
+   ],
+   "csaf_url": "https://www.arista.com/assets/data/SecurityAdvisories/CSAF/arista_networks_security_advisory_175_CSAF.json",
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 7.413,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": [
+    "CSAF link returned non-JSON (JSONDecodeError)"
+   ]
+  },
+  {
+   "id": "CVE-2026-73464",
+   "datePublic_input": "2026-09-09",
+   "datePublished_input": "2026-09-16",
+   "lag_d_input": 7.356184074074074,
+   "datePublic": "2026-09-09T00:00:00.000Z",
+   "datePublished": "2026-09-16T08:32:54.304Z",
+   "dateUpdated": "2026-09-17T03:56:52.621Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24722-security-advisory-0166",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/24722-security-advisory-0166",
+   "advisory_title": "Security Advisory 0166 - Arista",
+   "advisory_initial_date": "2026-09-09",
+   "advisory_date_line": "2026-09-09",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-09-09",
+     "change": "Initial release"
+    },
+    {
+     "rev": "1.1",
+     "date": "2026-09-22",
+     "change": "CSAF JSON file added"
+    }
+   ],
+   "csaf_url": "https://www.arista.com/assets/data/SecurityAdvisories/CSAF/arista_networks_security_advisory_166_CSAF.json",
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 7.356,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": [
+    "CSAF link returned non-JSON (JSONDecodeError)"
+   ]
+  },
+  {
+   "id": "CVE-2026-73449",
+   "datePublic_input": "2026-09-09",
+   "datePublished_input": "2026-09-14",
+   "lag_d_input": 5.002537268518518,
+   "datePublic": "2026-09-09T21:54:00.000Z",
+   "datePublished": "2026-09-14T21:57:39.220Z",
+   "dateUpdated": "2026-09-15T19:11:51.208Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24705-security-advisory-0149",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/24705-security-advisory-0149",
+   "advisory_title": "Security Advisory 0149 - Arista",
+   "advisory_initial_date": "2026-09-09",
+   "advisory_date_line": "2026-09-09",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-09-09",
+     "change": "Initial release"
+    },
+    {
+     "rev": "1.1",
+     "date": "2026-09-22",
+     "change": "CSAF JSON file added"
+    }
+   ],
+   "csaf_url": "https://www.arista.com/assets/data/SecurityAdvisories/CSAF/arista_networks_security_advisory_149_CSAF.json",
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 5.915,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": [
+    "CSAF link returned non-JSON (JSONDecodeError)"
+   ]
+  },
+  {
+   "id": "CVE-2026-73466",
+   "datePublic_input": "2026-09-09",
+   "datePublished_input": "2026-09-15",
+   "lag_d_input": 6.0028267361111105,
+   "datePublic": "2026-09-09T18:37:00.000Z",
+   "datePublished": "2026-09-15T18:41:04.230Z",
+   "dateUpdated": "2026-09-17T11:57:34.875Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24709-security-advisory-0153",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/24709-security-advisory-0153",
+   "advisory_title": "Security Advisory 0153 - Arista",
+   "advisory_initial_date": "2026-09-09",
+   "advisory_date_line": "2026-09-09",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-09-09",
+     "change": "Initial release"
+    },
+    {
+     "rev": "1.1",
+     "date": "2026-09-22",
+     "change": "CSAF JSON file added"
+    }
+   ],
+   "csaf_url": "https://www.arista.com/assets/data/SecurityAdvisories/CSAF/arista_networks_security_advisory_153_CSAF.json",
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 6.779,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": [
+    "CSAF link returned non-JSON (JSONDecodeError)"
+   ]
+  },
+  {
+   "id": "CVE-2026-73467",
+   "datePublic_input": "2026-09-09",
+   "datePublished_input": "2026-09-15",
+   "lag_d_input": 6.005313055555556,
+   "datePublic": "2026-09-09T18:37:00.000Z",
+   "datePublished": "2026-09-15T18:44:39.048Z",
+   "dateUpdated": "2026-09-16T15:51:26.451Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24709-security-advisory-0153",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/24709-security-advisory-0153",
+   "advisory_title": "Security Advisory 0153 - Arista",
+   "advisory_initial_date": "2026-09-09",
+   "advisory_date_line": "2026-09-09",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-09-09",
+     "change": "Initial release"
+    },
+    {
+     "rev": "1.1",
+     "date": "2026-09-22",
+     "change": "CSAF JSON file added"
+    }
+   ],
+   "csaf_url": "https://www.arista.com/assets/data/SecurityAdvisories/CSAF/arista_networks_security_advisory_153_CSAF.json",
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 6.781,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": [
+    "CSAF link returned non-JSON (JSONDecodeError)"
+   ]
+  },
+  {
+   "id": "CVE-2026-73451",
+   "datePublic_input": "2026-09-09",
+   "datePublished_input": "2026-09-15",
+   "lag_d_input": 6.001908657407407,
+   "datePublic": "2026-09-09T18:10:00.000Z",
+   "datePublished": "2026-09-15T18:12:44.908Z",
+   "dateUpdated": "2026-09-15T19:24:42.924Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24707-security-advisory-0151",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/24707-security-advisory-0151",
+   "advisory_title": "Security Advisory 0151 - Arista",
+   "advisory_initial_date": "2026-09-09",
+   "advisory_date_line": "2026-09-09",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-09-09",
+     "change": "Initial release"
+    },
+    {
+     "rev": "1.1",
+     "date": "2026-09-22",
+     "change": "CSAF JSON file added"
+    }
+   ],
+   "csaf_url": "https://www.arista.com/assets/data/SecurityAdvisories/CSAF/arista_networks_security_advisory_151_CSAF.json",
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 6.759,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": [
+    "CSAF link returned non-JSON (JSONDecodeError)"
+   ]
+  },
+  {
+   "id": "CVE-2026-73447",
+   "datePublic_input": "2026-09-09",
+   "datePublished_input": "2026-09-16",
+   "lag_d_input": 7.253073761574074,
+   "datePublic": "2026-09-09T00:00:00.000Z",
+   "datePublished": "2026-09-16T06:04:25.573Z",
+   "dateUpdated": "2026-09-17T11:48:35.449Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24718-security-advisory-0162",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/24718-security-advisory-0162",
+   "advisory_title": "Security Advisory 0162 - Arista",
+   "advisory_initial_date": "2026-09-09",
+   "advisory_date_line": "2026-09-09",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-09-09",
+     "change": "Initial release"
+    },
+    {
+     "rev": "1.1",
+     "date": "2026-09-22",
+     "change": "CSAF JSON file added"
+    }
+   ],
+   "csaf_url": "https://www.arista.com/assets/data/SecurityAdvisories/CSAF/arista_networks_security_advisory_162_CSAF.json",
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 7.253,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": [
+    "CSAF link returned non-JSON (JSONDecodeError)"
+   ]
+  },
+  {
+   "id": "CVE-2026-73437",
+   "datePublic_input": "2026-09-09",
+   "datePublished_input": "2026-09-15",
+   "lag_d_input": 6.000570763888889,
+   "datePublic": "2026-09-09T21:02:00.000Z",
+   "datePublished": "2026-09-15T21:02:49.314Z",
+   "dateUpdated": "2026-09-17T03:57:04.541Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24712-security-advisory-0156",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/24712-security-advisory-0156",
+   "advisory_title": "Security Advisory 0156 - Arista",
+   "advisory_initial_date": "2026-09-09",
+   "advisory_date_line": "2026-09-09",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-09-09",
+     "change": "Initial release"
+    },
+    {
+     "rev": "1.1",
+     "date": "2026-09-22",
+     "change": "CSAF JSON file added"
+    }
+   ],
+   "csaf_url": "https://www.arista.com/assets/data/SecurityAdvisories/CSAF/arista_networks_security_advisory_156_CSAF.json",
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 6.877,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": [
+    "CSAF link returned non-JSON (JSONDecodeError)"
+   ]
+  },
+  {
+   "id": "CVE-2026-73456",
+   "datePublic_input": "2026-09-09",
+   "datePublished_input": "2026-09-16",
+   "lag_d_input": 7.002077847222222,
+   "datePublic": "2026-09-09T18:52:00.000Z",
+   "datePublished": "2026-09-16T18:54:59.526Z",
+   "dateUpdated": "2026-09-17T11:39:23.874Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24714-security-advisory-0158",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/24714-security-advisory-0158",
+   "advisory_title": "Security Advisory 0158 - Arista",
+   "advisory_initial_date": "2026-09-09",
+   "advisory_date_line": "2026-09-09",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-09-09",
+     "change": "Initial release"
+    },
+    {
+     "rev": "1.1",
+     "date": "2026-09-22",
+     "change": "CSAF JSON file added"
+    }
+   ],
+   "csaf_url": "https://www.arista.com/assets/data/SecurityAdvisories/CSAF/arista_networks_security_advisory_158_CSAF.json",
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 7.788,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": [
+    "CSAF link returned non-JSON (JSONDecodeError)"
+   ]
+  },
+  {
+   "id": "CVE-2026-73457",
+   "datePublic_input": "2026-09-09",
+   "datePublished_input": "2026-09-16",
+   "lag_d_input": 7.00197582175926,
+   "datePublic": "2026-09-09T18:55:00.000Z",
+   "datePublished": "2026-09-16T18:57:50.711Z",
+   "dateUpdated": "2026-09-17T18:32:20.363Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24714-security-advisory-0158",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/24714-security-advisory-0158",
+   "advisory_title": "Security Advisory 0158 - Arista",
+   "advisory_initial_date": "2026-09-09",
+   "advisory_date_line": "2026-09-09",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-09-09",
+     "change": "Initial release"
+    },
+    {
+     "rev": "1.1",
+     "date": "2026-09-22",
+     "change": "CSAF JSON file added"
+    }
+   ],
+   "csaf_url": "https://www.arista.com/assets/data/SecurityAdvisories/CSAF/arista_networks_security_advisory_158_CSAF.json",
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 7.79,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": [
+    "CSAF link returned non-JSON (JSONDecodeError)"
+   ]
+  },
+  {
+   "id": "CVE-2026-73461",
+   "datePublic_input": "2026-09-09",
+   "datePublished_input": "2026-09-16",
+   "lag_d_input": 7.3342698032407405,
+   "datePublic": "2026-09-09T00:00:00.000Z",
+   "datePublished": "2026-09-16T08:01:20.911Z",
+   "dateUpdated": "2026-09-17T03:56:55.952Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24719-security-advisory-0163",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/24719-security-advisory-0163",
+   "advisory_title": "Security Advisory 0163 - Arista",
+   "advisory_initial_date": "2026-09-09",
+   "advisory_date_line": "2026-09-09",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-09-09",
+     "change": "Initial release"
+    },
+    {
+     "rev": "1.1",
+     "date": "2026-09-22",
+     "change": "CSAF JSON file added"
+    }
+   ],
+   "csaf_url": "https://www.arista.com/assets/data/SecurityAdvisories/CSAF/arista_networks_security_advisory_163_CSAF.json",
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 7.334,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": [
+    "CSAF link returned non-JSON (JSONDecodeError)"
+   ]
+  },
+  {
+   "id": "CVE-2026-19655",
+   "datePublic_input": "2026-09-09",
+   "datePublished_input": "2026-09-15",
+   "lag_d_input": 6.000540254629629,
+   "datePublic": "2026-09-09T20:56:00.000Z",
+   "datePublished": "2026-09-15T20:56:46.678Z",
+   "dateUpdated": "2026-09-16T18:03:27.624Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24711-security-advisory-0155",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/24711-security-advisory-0155",
+   "advisory_title": "Security Advisory 0155 - Arista",
+   "advisory_initial_date": "2026-09-09",
+   "advisory_date_line": null,
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-09-09",
+     "change": "Initial release"
+    },
+    {
+     "rev": "1.1",
+     "date": "2026-09-22",
+     "change": "CSAF JSON file added"
+    }
+   ],
+   "csaf_url": "https://www.arista.com/assets/data/SecurityAdvisories/CSAF/arista_networks_security_advisory_155_CSAF.json",
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 6.873,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": [
+    "CSAF link returned non-JSON (JSONDecodeError)"
+   ]
+  },
+  {
+   "id": "CVE-2026-19641",
+   "datePublic_input": "2026-09-09",
+   "datePublished_input": "2026-09-15",
+   "lag_d_input": 6.002031805555555,
+   "datePublic": "2026-09-09T18:15:00.000Z",
+   "datePublished": "2026-09-15T18:17:55.548Z",
+   "dateUpdated": "2026-09-15T19:25:06.761Z",
+   "advisory_url": "https://www.arista.com/en/support/advisories-notices/security-advisory/24708-security-advisory-0152",
+   "advisory_url_fetched": "https://www.arista.com/en/support/advisories-notices/security-advisory/24708-security-advisory-0152",
+   "advisory_title": "Security Advisory 0152 - Arista",
+   "advisory_initial_date": "2026-09-09",
+   "advisory_date_line": "2026-09-09",
+   "advisory_revisions": [
+    {
+     "rev": "1.0",
+     "date": "2026-09-09",
+     "change": "Initial release"
+    },
+    {
+     "rev": "1.1",
+     "date": "2026-09-22",
+     "change": "CSAF JSON file added"
+    }
+   ],
+   "csaf_url": "https://www.arista.com/assets/data/SecurityAdvisories/CSAF/arista_networks_security_advisory_152_CSAF.json",
+   "csaf_initial_release_date": null,
+   "delta_days_advisory_to_published": 6.762,
+   "delta_days_advisory_to_datePublic": 0,
+   "match_datePublic_eq_advisory": true,
+   "notes": [
+    "CSAF link returned non-JSON (JSONDecodeError)"
+   ]
+  }
+ ]
+}

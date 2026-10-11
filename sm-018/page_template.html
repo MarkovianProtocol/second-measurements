@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="canonical" href="https://markovianprotocol.com/measurements/sm-018.html">
+<title>SM-018 A CVE numbering authority has 72 hours to publish the record once it has made the CVE ID public itself. ZDI, Dell, Drupal and Arista were past that on {{F4L}} of the {{F4S}} records we could score — Markovian Protocol</title>
+<meta name="description" content="Every CVE record names the organisation that assigned the ID, a CVE Numbering Authority, and most carry two dates: the day the CNA says the vulnerability became public and the day the record reached the CVE List. The CNA Operational Rules, in force since August 2024, say a CNA must publish the record within 72 hours of making a CVE ID public itself. We read both dates on every published record with a 2025 or 2026 ID in the CVE List&#x27;s own archive, {{PUB}} records, and scored the {{SCORED}} with a usable public date. Among the {{OWN}} whose CNA points at its own site, {{OWNLATE}} reached the list more than three days after the CNA&#x27;s own public date ({{OWNLATEPCT}}), {{OWN30}} more than a month after. Four CNAs checked against their own advisory pages carry {{F4L}} of those: ZDI, Dell, Drupal and Arista. Microsoft was past it on {{ML}} of {{MS}}. The rule&#x27;s remedy is that the CNA&#x27;s Root may have the CNA of Last Resort publish the record instead.">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Markovian Protocol">
+<meta property="og:title" content="A CVE numbering authority has 72 hours to publish the record once it has made the CVE ID public itself. ZDI, Dell, Drupal and Arista were past that on {{F4L}} of the {{F4S}} records we could score since January 2025, by a median of {{F4MED}} days">
+<meta property="og:description" content="Every CVE record names the organisation that assigned the ID, a CVE Numbering Authority, and most carry two dates: the day the CNA says the vulnerability became public and the day the record reached the CVE List. The CNA Operational Rules, in force since August 2024, say a CNA must publish the record within 72 hours of making a CVE ID public itself. We read both dates on every published record with a 2025 or 2026 ID in the CVE List&#x27;s own archive, {{PUB}} records, and scored the {{SCORED}} with a usable public date. Among the {{OWN}} whose CNA points at its own site, {{OWNLATE}} reached the list more than three days after the CNA&#x27;s own public date ({{OWNLATEPCT}}), {{OWN30}} more than a month after. Four CNAs checked against their own advisory pages carry {{F4L}} of those: ZDI, Dell, Drupal and Arista. Microsoft was past it on {{ML}} of {{MS}}. The rule&#x27;s remedy is that the CNA&#x27;s Root may have the CNA of Last Resort publish the record instead.">
+<meta property="og:url" content="https://markovianprotocol.com/measurements/sm-018.html">
+<meta property="og:image" content="https://markovianprotocol.com/measurements/cards/sm-018.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@MarkovProtocol">
+<meta name="twitter:title" content="A CVE numbering authority has 72 hours to publish the record once it has made the CVE ID public itself. ZDI, Dell, Drupal and Arista were past that on {{F4L}} of the {{F4S}} records we could score since January 2025, by a median of {{F4MED}} days">
+<meta name="twitter:description" content="Every CVE record names the organisation that assigned the ID, a CVE Numbering Authority, and most carry two dates: the day the CNA says the vulnerability became public and the day the record reached the CVE List. The CNA Operational Rules, in force since August 2024, say a CNA must publish the record within 72 hours of making a CVE ID public itself. We read both dates on every published record with a 2025 or 2026 ID in the CVE List&#x27;s own archive, {{PUB}} records, and scored the {{SCORED}} with a usable public date. Among the {{OWN}} whose CNA points at its own site, {{OWNLATE}} reached the list more than three days after the CNA&#x27;s own public date ({{OWNLATEPCT}}), {{OWN30}} more than a month after. Four CNAs checked against their own advisory pages carry {{F4L}} of those: ZDI, Dell, Drupal and Arista. Microsoft was past it on {{ML}} of {{MS}}. The rule&#x27;s remedy is that the CNA&#x27;s Root may have the CNA of Last Resort publish the record instead.">
+<meta name="twitter:image" content="https://markovianprotocol.com/measurements/cards/sm-018.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='.5' y='.5' width='63' height='63' rx='18' fill='%23fff' stroke='%23d2d2d7'/%3E%3Cpolyline points='14,46 14,19 32,39 50,19 50,46' fill='none' stroke='%231d1d1f' stroke-width='6.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cline x1='11' y1='54' x2='53' y2='54' stroke='%231d1d1f' stroke-width='3.4' stroke-linecap='round'/%3E%3C/svg%3E" type="image/svg+xml">
+<style>
+  :root{
+    --ink:#1d1d1f; --sub:#6e6e73; --faint:#86868b; --line:#d2d2d7;
+    --grey:#f5f5f7; --white:#ffffff; --blue:#0066cc;
+    --good:#1d8a4e; --pend:#b26a00; --bad:#c62828;
+    --sans:Charter,"Iowan Old Style",Georgia,"Times New Roman",serif;
+    --mono:"SF Mono","IBM Plex Mono",ui-monospace,Menlo,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--white);color:var(--ink);font-family:var(--sans);
+    -webkit-font-smoothing:antialiased;line-height:1.55;font-size:17px}
+  a{color:var(--blue);text-decoration:none}
+  a:hover{text-decoration:underline}
+  nav{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.72);
+    backdrop-filter:saturate(1.8) blur(20px);border-bottom:1px solid rgba(0,0,0,.06)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:46px;
+    max-width:1000px;margin:0 auto;padding:0 22px}
+  .nav .b{font-weight:600;font-size:15px;letter-spacing:-.01em;display:flex;align-items:center;gap:8px;color:var(--ink)}
+  .nav .b:hover{text-decoration:none}
+  .nav .m{display:flex;gap:30px;font-size:12.5px;opacity:.85}
+  .nav .m a{color:var(--ink)}
+  @media(max-width:640px){.nav .m{gap:16px;font-size:11.5px}}
+  .paper{max-width:720px;margin:0 auto;padding:0 22px;overflow-wrap:anywhere}
+  .id{font-family:var(--mono);font-size:12px;color:var(--faint);margin:56px 0 0;letter-spacing:.02em}
+  h1{font-size:clamp(28px,4.4vw,38px);font-weight:600;letter-spacing:-.02em;line-height:1.15;margin:10px 0 0}
+  .meta{font-size:14px;color:var(--sub);margin:14px 0 0;display:flex;flex-wrap:wrap;gap:4px 14px}
+  .meta>span{white-space:nowrap}
+  @media(max-width:640px){.meta>span{white-space:normal}}
+  .plain{font-size:19px;line-height:1.5;margin:24px 0 0}
+  .abstract p:last-child{margin-bottom:0}
+  ul.lim{margin:0 0 14px 22px}
+  ul.lim li{margin:0 0 8px;padding-left:4px}
+  .abstract{background:var(--grey);border-radius:12px;padding:18px 22px;margin:28px 0 0;font-size:16px}
+  .abstract b{display:block;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--sub);margin-bottom:6px}
+  h2{font-size:21px;font-weight:600;letter-spacing:-.012em;margin:44px 0 12px}
+  h3{font-size:17px;font-weight:600;margin:26px 0 8px}
+  p{margin:0 0 14px}
+  blockquote{border-left:3px solid var(--line);padding:2px 0 2px 16px;margin:0 0 14px;color:var(--sub)}
+  code,.o{font-family:var(--mono);font-size:13px}
+  .o{word-break:break-all;color:var(--sub)}
+  pre{font-family:var(--mono);font-size:12.5px;background:var(--grey);border-radius:10px;padding:14px 16px;overflow-x:auto;margin:0 0 14px;line-height:1.5}
+  .tw{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--line);border-radius:12px;margin:0 0 8px}
+.tw th:first-child,.tw td:first-child{white-space:nowrap}
+@media(max-width:640px){th,td{padding:6px 8px;font-size:15px}.tw th:first-child,.tw td:first-child{white-space:normal}}
+  table{border-collapse:collapse;width:100%;font-size:14.5px}
+  th{font-weight:600;text-align:left;background:var(--grey);color:var(--sub);font-size:12.5px}
+  th,td{padding:8px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+  tr:last-child td{border-bottom:0}
+  .n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+  .cap{font-size:13.5px;color:var(--sub);margin:0 0 18px}
+  .bad{color:var(--bad);font-weight:600}
+  .ok{color:var(--good)}
+  ol.refs{font-size:14.5px;margin:0 0 0 22px}
+  ol.refs li{margin:0 0 8px;padding-left:4px}
+  sup a{font-size:11px;padding:0 1px}
+  footer{padding:40px 22px;border-top:1px solid var(--line);color:var(--faint);font-size:12px;margin-top:56px}
+  footer .fw{max-width:1000px;margin:0 auto;display:flex;gap:20px;flex-wrap:wrap;align-items:center}
+  footer a{color:var(--sub)}
+  footer .cp{margin-left:auto}
+  .short{border:2px solid var(--ink);border-radius:12px;padding:16px 22px 6px;margin:26px 0 0}
+  .short b.k{display:block;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--sub);margin-bottom:8px}
+  .short ul{margin:0 0 10px 20px}.short li{margin:0 0 8px}
+  .exhibit{border-left:4px solid var(--ink);background:var(--grey);border-radius:0 10px 10px 0;padding:14px 18px;margin:0 0 16px}
+  .exhibit .x{font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;color:var(--sub);text-transform:uppercase;margin:0 0 6px}
+  .exhibit blockquote{border:0;padding:0;margin:0 0 8px;color:var(--ink);font-size:16.5px}
+  .exhibit mark{background:#ffe58a;padding:0 2px}
+  .exhibit pre{background:#fff;margin:6px 0 8px}
+  .exhibit .src{font-size:12.5px;color:var(--sub);word-break:break-all}
+  ol.qs{margin:0 0 14px 22px}ol.qs li{margin:0 0 8px;padding-left:4px}
+  .score{border:1px dashed var(--line);border-radius:12px;padding:12px 18px;margin:0 0 14px;color:var(--sub)}
+  .disc{font-size:13.5px;color:var(--sub);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:8px 0;margin:18px 0 0}
+  .tl td:first-child{white-space:nowrap;font-family:var(--mono);font-size:12.5px;color:var(--sub)}
+  .waiting{font-size:15px;margin:8px 0 14px}.waiting b{font-variant-numeric:tabular-nums}
+</style>
+</head>
+<body>
+<nav><div class="nav">
+  <a class="b" href="https://markovianprotocol.com"><svg width="19" height="19" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="2.1" fill="currentColor"/><ellipse cx="10" cy="10" rx="8.4" ry="3.15" stroke="currentColor" stroke-width="1.25"/><ellipse cx="10" cy="10" rx="8.4" ry="3.15" stroke="currentColor" stroke-width="1.25" transform="rotate(60 10 10)"/><ellipse cx="10" cy="10" rx="8.4" ry="3.15" stroke="currentColor" stroke-width="1.25" transform="rotate(120 10 10)"/></svg>Markovian</a>
+  <div class="m"><a href="https://markovianprotocol.com/measurements/">Measurements</a><a href="https://markovianprotocol.com/log.html">Log</a><a href="https://markovianprotocol.com/monitor.html">Monitor</a></div>
+</div></nav>
+
+<main class="paper">
+<p class="id">SECOND MEASUREMENT SM-018</p>
+<h1>A CVE numbering authority has 72 hours to publish the record once it has made the CVE ID public itself. ZDI, Dell, Drupal and Arista were past that on {{F4L}} of the {{F4S}} records we could score since January 2025, by a median of {{F4MED}} days</h1>
+<p class="meta"><span>Markovian Protocol</span><span>Measured 2026-10-11</span><span>Status: <span style="color:var(--pend)">published 2026-10-11; questions to the four CNAs and the Secretariat drafted, not yet sent</span></span><span>DOI: <a href="https://doi.org/{{DOI}}">{{DOI}}</a></span></p>
+<p class="plain">Every CVE record names the organisation that assigned the ID, a CVE Numbering Authority, and most carry two dates: the day the CNA says the vulnerability became public and the day the record reached the CVE List. The CNA Operational Rules, in force since August 2024, say a CNA must publish the record within 72 hours of making a CVE ID public itself. We read both dates on every published record with a 2025 or 2026 ID in the CVE List&rsquo;s own archive, {{PUB}} records, and scored the {{SCORED}} with a usable public date. Among the {{OWN}} whose CNA points at its own site, {{OWNLATE}} reached the list more than three days after the CNA&rsquo;s own public date ({{OWNLATEPCT}}), {{OWN30}} more than a month after. Four CNAs we checked against their own advisory pages carry {{F4L}} of those: ZDI {{ZL}} of {{ZS}}, Dell {{DL}} of {{DS}}, Drupal {{RL}} of {{RS}}, Arista {{AL}} of {{AS}}. Microsoft was past it on {{ML}} of {{MS}}. The rule&rsquo;s remedy is that the CNA&rsquo;s Root may have the CNA of Last Resort publish the record instead. In the Program&rsquo;s glossary a Root is &ldquo;an organization authorized within the CVE Program that is responsible, within a specific Scope, for the recruitment, training, and governance&rdquo; of CNAs; the Secretariat is the organisation that runs the Program&rsquo;s infrastructure and gives &ldquo;administrative and logistical support&rdquo; to its Board and working groups; a CNA of Last Resort, CNA-LR in the rules, is &ldquo;a CNA authorized by a Root to assign CVE IDs and to publish corresponding CVE Records within that Root&rsquo;s scope for vulnerabilities not covered by the Scope of another CNA&rdquo; (<a href="sm-018/exhibits/roster/glossaryEntries.json">glossaryEntries.json</a>, the Glossary page&rsquo;s data). For ZDI, Dell, Drupal and Arista the Root is MITRE, which is also their CNA of Last Resort and the Secretariat.</p>
+
+<div class="short"><b class="k">The short version</b><ul>
+<li>CNA Operational Rules 4.5.1.4: &ldquo;CNAs MUST publish a CVE Record to the CVE List <b>within 72 hours</b> of Publicly Disclosing a CVE ID assigned by the CNA.&rdquo; The same words have stood since version 4.0 took effect on 8 August 2024. 4.5.1.3 adds a SHOULD at 24 hours; 4.5.1.6 gives 72 hours as a SHOULD when someone other than the CNA disclosed the ID.<sup><a href="#r1">1</a></sup></li>
+<li>The CVE List publishes its whole record set as a zip each night. In the 11 October 2026 archive, {{PUB}} records with a 2025 or 2026 ID are published. {{WITHPUB}} carry the optional <code>datePublic</code> field, the CNA&rsquo;s own statement of when the vulnerability became public. We exclude {{DROPRES}} whose public date is more than a day before the day the ID was reserved, since the ID did not exist to be disclosed, and {{DROPAFTER}} whose public date is more than a day after the record went up, since the clock had not started; {{KEPTRES}} and {{KEPTAFTER}} inside those one-day tolerances are kept. That leaves <b>{{SCORED}} records from {{NCNA}} CNAs</b>, scored as the day the record was published minus the day the CNA says it disclosed.</li>
+<li>The MUST applies when the CNA made the ID public itself. We take a CNA citing its own site in the record as the sign of that, where its site means a domain the Program&rsquo;s partner roster lists for the CNA (advisory page, policy page or contact address) or one we mapped by hand; {{MAPPED}} of the {{NCNA}} scored CNAs have one. That gives <b>{{OWN}} records from {{NOWN}} CNAs</b>. {{OWNSD}} of them ({{OWNSDPCT}}) were on the list the same day as the public date and {{OWNW1}} ({{OWNW1PCT}}) by the next day. <b>{{OWNLATE}} ({{OWNLATEPCT}}) were more than three days late, {{OWN30}} more than 30 days, {{OWN90}} more than 90.</b> The median late record took {{OWNMED}} days. Published in 2025: {{O25L}} of {{O25S}} late ({{O25P}}). Published in 2026, to 10 October: {{O26L}} of {{O26S}} ({{O26P}}).</li>
+<li>Four CNAs were checked by a second path, their own advisory pages: 175 records against 150 advisory pages, since some Dell and Arista advisories carry several IDs. For 135 records with 2026 IDs the record&rsquo;s public date is the advisory&rsquo;s date for 34 of 35 at ZDI (one a day apart), 35 of 35 at Arista, 31 of 35 at Dell within a day, 30 of 30 at Drupal to the minute; for ten 2025 IDs at each CNA, 37 of 40 match within a day. The four published {{F4PUB}} records with 2025 and 2026 IDs; {{F4S}} carry a public date we could score. <b>{{F4L}} of those {{F4S}} were late ({{F4P}}), {{F430}} by more than 30 days, {{F490}} by more than 90; the longest, a Dell BIOS record, {{F4MAX}} days.</b></li>
+<li>The clean end of the table: Microsoft {{ML}} of {{MS}} late ({{MP}}), Adobe {{ADL}} of {{ADS}} ({{ADP}}), F5 3 of 167; {{ZEROLATE}} CNAs with thirty or more records have no late record at all.</li>
+<li>The numbers point at batching. ZDI&rsquo;s {{ZS}} records went to the list on {{ZD}} distinct days, {{ZTOP}} of them on 21 July 2025; Drupal&rsquo;s {{RS}} on {{RD}} days, {{RTOP}} on 10 July 2026.</li>
+</ul></div>
+<p class="disc"><b>Disclosure:</b> Markovian Protocol holds no financial position in any organisation named here, was paid by no one for this work, and showed it to no one before publication. <a href="index.html#how">How we work</a>.</p>
+<div class="abstract"><b>Details</b>
+<p>A CVE record is written by the CNA that assigned the ID and published to the CVE List through the Program&rsquo;s services; the list stamps it with <code>datePublished</code>. The record format also has an optional field the CNA fills in itself, <code>datePublic</code>, &ldquo;if known, the date/time the vulnerability was disclosed publicly&rdquo;.<sup><a href="#r3">3</a></sup> The rule&rsquo;s clock starts when the CNA publicly discloses the CVE ID; for a vendor or a bug-bounty program that means the day its own advisory, carrying the ID, went up. So the question has a second path that does not go through anyone&rsquo;s self-report: take the CNA&rsquo;s own public date from the record, confirm on a sample that it is the date on the CNA&rsquo;s advisory page, and subtract it from the list&rsquo;s publication stamp. We did that for every published record with a 2025 or 2026 ID in the CVE List&rsquo;s nightly archive.<sup><a href="#r2">2</a></sup> Four rules came out of the advisory check and are applied throughout; the own-site map is <a href="sm-018/exhibits/own_domains.json">own_domains.json</a>, built by <a href="sm-018/exhibits/build_own_domains.py">build_own_domains.py</a> from the roster. The comparison is at day resolution, because at some CNAs the time of day in <code>datePublic</code> is a form default (Dell&rsquo;s reads 06:30 UTC on 373 of its 723 published records and 17:00, 18:00 or 18:30 on most of the rest; Arista leaves the field out on 50 of its 103 and gives midnight on 17 of the 53 that have it), so a record is late here when the list date is more than three whole days after the public date, which is more lenient than 72 hours. Dell&rsquo;s timestamps are read in India time (UTC+5:30): its public dates fall at 06:30 UTC on 373 of its records and 18:30 on 102, noon and midnight in India, and on 4 of 35 sampled records the UTC date is the day before the advisory date. That is our inference from the timestamps, not something Dell&rsquo;s pages say; it moves {{DELLMOVED}} of Dell&rsquo;s {{DS}} public dates forward a day and turns {{DELLFLIP}} late records into on-time ones. A public date more than a day before the ID&rsquo;s reservation date is excluded, since the ID did not exist to be made public; this is not always a typo. It removes {{DRDRUPAL}} of Drupal&rsquo;s records and {{DRZDI}} of ZDI&rsquo;s where the advisory went up first and the ID was reserved 2 to 239 days later, 42 of the 46 published on the day of reservation, so the advisory did not carry the ID on its date, and it caught the one hard error in the samples, a Dell record dated 9 March for an advisory of 3 September. Every record this rule removes from the four would have counted late. And a public date more than a day after publication is excluded, since the rule&rsquo;s clock had not started. Whether a CNA made the ID public itself is read from the record&rsquo;s references: a CNA that cites a domain the Program&rsquo;s roster lists for it, or one we mapped by hand, is counted as its own discloser (<a href="sm-018/exhibits/own_domains.json">own_domains.json</a>). That proxy is right for the four CNAs we checked, and where Dell&rsquo;s public date is a later change to the advisory rather than its first release the error runs in Dell&rsquo;s favour: three sampled records score 1, 3 and 5 days late from the public date and would score 3, 13 and 22 from the initial release. For Red Hat the proxy is weak in a known direction, which the per-CNA section says, and VulnCheck is left out of the own-site set on purpose, for the reason given there.</p>
+</div>
+
+<h2>What the rule says, what we found</h2>
+<div class="tw"><table>
+<tr><th>The rule</th><th>We found</th></tr>
+<tr><td>CNA Operational Rules 4.5.1.4: &ldquo;CNAs MUST publish a CVE Record to the CVE List within 72 hours of Publicly Disclosing a CVE ID assigned by the CNA. If the CNA does not publish within 72 hours, then the CNA&rsquo;s Root MAY direct the appropriate CNA-LR to publish a CVE Record for the assigned CVE ID. Ownership of the CVE Record MAY be transferred.&rdquo;<sup><a href="#r1">1</a></sup> Unchanged in wording from version 4.0 (effective 8 August 2024) through 4.1.0 (14 May 2025) and 4.2.0 (25 August 2026).</td><td>{{OWN}} records where the CNA cites its own site, {{NOWN}} CNAs: {{OWNLATE}} published more than three days after the CNA&rsquo;s own public date ({{OWNLATEPCT}}); {{OWN30}} more than 30 days after.</td></tr>
+<tr><td>4.5.1.3: &ldquo;CNAs SHOULD publish a CVE Record to the CVE List within 24 hours of Publicly Disclosing a CVE ID assigned by the CNA.&rdquo;</td><td>{{OWNSD}} of {{OWN}} ({{OWNSDPCT}}) were on the list the same calendar day as the public date; {{OWNW1}} ({{OWNW1PCT}}) by the next day. The 24 hours lie between.</td></tr>
+<tr><td>4.5.1.6: &ldquo;CNAs SHOULD publish CVE Records within 72 hours of becoming aware that a CVE ID assigned by the CNA has been Publicly Disclosed by a party other than the CNA.&rdquo;</td><td>All {{SCORED}} scored records, own disclosure or not: {{ALLLATE}} late ({{ALLLATEPCT}}), {{ALL30}} more than 30 days.</td></tr>
+</table></div>
+
+<h2>Quarter by quarter</h2>
+<div class="tw"><table>
+<tr><th>Quarter published</th><th class="n">Records</th><th class="n">Within a day</th><th class="n">Late</th><th class="n">Share late</th><th class="n">Over 30 days</th></tr>
+{{TABLE_Q}}
+</table></div>
+<p class="cap">Records whose CNA cites its own site, by the quarter the record reached the CVE List, newest first. The newest row covers 1 to 10 October 2026, the last day in the archive. &ldquo;Late&rdquo; is more than three whole days between the CNA&rsquo;s public date and the list&rsquo;s publication date. The newest quarters read low: a record that has not yet been published is not in the archive at all, so a CNA that has not run its batch shows no late records rather than many. Every row: <a href="sm-018/exhibits/cve72_by_quarter.csv">cve72_by_quarter.csv</a>.</p>
+
+<h2>Four CNAs, checked against their own pages</h2>
+<p>A record&rsquo;s public date is the CNA&rsquo;s own entry, so before trusting it we read the advisory each record cites and compared dates: 35 records each at ZDI, Arista and Dell and 30 at Drupal, all 2026 IDs; then ten 2025 IDs at each of the four, spread across the year. Of the 40 from 2025, 37 match within a day; two Dell records carry the date of a later revision of an older advisory, one the revision that says new CVEs were added and the other the revision two days after the one that says so, and one Arista record is dated a month after its advisory while its two siblings on the same page carry the advisory&rsquo;s date. The scripts, every page read, the retrieval logs and the per-record results are in <a href="sm-018/secondpath/">sm-018/secondpath/</a> (the 2025 set under <a href="sm-018/secondpath/2025/results.csv">2025/</a>).</p>
+<div class="tw"><table>
+<tr><th>CNA</th><th class="n">Records read against their advisory (2026 + 2025 IDs)</th><th>Record date vs advisory date</th><th class="n">Published 2025&ndash;26 (with a public date)</th><th class="n">Scored</th><th class="n">Within a day</th><th class="n">Late</th><th class="n">Share late</th><th class="n">Over 30 days</th><th class="n">Median late, days</th><th class="n">Distinct publish days</th></tr>
+{{TABLE_FOUR}}
+</table></div>
+<p class="cap">Scored records are the CNA&rsquo;s published 2025 and 2026 records with a public date, less those excluded by the reservation rule (Drupal {{DRDRUPAL}}, ZDI {{DRZDI}}, Dell {{DRDELL}}, Arista {{DRARISTA}}) and, for Drupal one and for Arista three, with no reference to the CNA&rsquo;s own site. Each CNA&rsquo;s Top-Level Root is MITRE, and MITRE is also the CNA of Last Resort the rule names (<a href="sm-018/exhibits/roster/CNAsList.json">CNAsList.json</a>, the Program&rsquo;s partner roster, 11 October 2026).</p>
+<p><b>Zero Day Initiative.</b> Trend Micro&rsquo;s bug-bounty program publishes an advisory page per finding with the date and the CVE ID on it. ZDI-25-950, a 7-Zip code-execution bug, is dated 7 October 2025; its record, CVE-2025-11002, reached the list on 23 January 2026, 108 days later, in a batch of 47 ZDI records that day. {{ZL}} of ZDI&rsquo;s {{ZS}} records were late ({{ZP}}); they went up on {{ZD}} distinct days, {{ZTOP}} of them on 21 July 2025. In the 35 sampled, 34 public dates equal the advisory&rsquo;s date and one is a day later, ZDI-26-551, dated 11 August 2026 with a record public date of 12 August.</p>
+<p><b>Dell.</b> Dell&rsquo;s security advisories carry a revision table with an initial-release date. DSA-2025-153, a client-BIOS password-recovery weakness, shows &ldquo;1.0 &middot; 2025-07-21 &middot; Initial Release&rdquo;; its record, CVE-2025-36579, was published on 16 April 2026, 269 days later. Dell was late on {{DL}} of {{DS}} ({{DP}}), on {{DD}} distinct publish days, so its batches are smaller and more frequent than ZDI&rsquo;s. Of the 35 sampled, 24 public dates equal the initial-release date exactly, 4 equal it once read in India time, 3 are two days after it in India time (one in UTC), and 3 are 2, 10 and 17 days after it; in all three of those the advisory page was changed on the record&rsquo;s public date, two by a numbered revision and one by its last-modified date, and in one the ID was reserved after the initial release, so the ID may have been added at the change. The 35th, DSA-2026-360, carries a public date of 9 March 2026 for an advisory first released on 3 September; the ID was reserved in August, so the reservation rule drops it.</p>
+<p><b>Drupal.</b> Drupal&rsquo;s security team publishes advisories as drupal.org nodes whose creation time is the record&rsquo;s public date to the minute, for all 30 sampled. The Drupal security mailing list carries the same date for the three we matched there; the advisories&rsquo; RSS feed, which holds only recent items, agrees with node creation on eight recent advisories and on the two sampled ones it still listed; and of the 15 sampled advisories the Internet Archive has captured (11 of 30 queries failed and 4 found no capture), none was captured before its node was created. SA-CONTRIB-2026-031, an authentication bypass in a SAML module, went up on 1 April 2026 at 16:38 UTC; CVE-2026-5343 reached the list on 28 May, 57 days later. {{RL}} of {{RS}} were late ({{RP}}). Drupal&rsquo;s own issue tracker has an issue for this, opened on 13 May 2026 in the security team&rsquo;s issue queue and titled &ldquo;Plan for how to meet 72 hour publication obligation (CNAv4.1 section 4.5.1.4)&rdquo;; it lists thirteen records by advisory date, CVE-2026-5343 among them, with the days the published ones took.<sup><a href="#r7">7</a></sup></p>
+<p><b>Arista.</b> Arista&rsquo;s advisories carry a date and a revision table. Security Advisory 0126, three CloudVision Exchange issues, is dated 18 November 2025; two of its records, CVE-2025-5088 and CVE-2025-5090, were published on 5 June 2026, 199 days later. Arista is the smallest of the four, {{AL}} of {{AS}} late ({{AP}}), and 35 of 35 sampled public dates equal the advisory date. The CNA reference on two sampled records pointed at URLs that now return an error; one advisory was read at the address NVD lists for it, the other at the same advisory under another address.</p>
+
+<h2>Every mapped CNA with thirty or more records</h2>
+<div class="tw"><table>
+<tr><th>CNA</th><th class="n">Records</th><th class="n">Within a day</th><th class="n">Late</th><th class="n">Share late</th><th class="n">Over 30 days</th><th class="n">Median late, days</th><th class="n">Distinct publish days</th><th class="n">Records per day</th></tr>
+{{TABLE_CNA}}
+</table></div>
+<p class="cap">{{NCT}} CNAs with at least 30 scored records that cite the CNA&rsquo;s own site, most late first. One CNA with 30 or more scored records is outside the set: VulnCheck, left out on purpose (below). Every CNA, with and without own-site references: <a href="sm-018/exhibits/cve72_by_cna.csv">cve72_by_cna.csv</a>; every scored record: <a href="sm-018/exhibits/cve72_rows.json">cve72_rows.json</a>.</p>
+<p>Two CNAs need reading with care. VulnCheck is not in the table on purpose. It assigns IDs for vulnerabilities that other people disclosed, on GitHub and elsewhere; its public date is not the date of a VulnCheck advisory (the HestiaCP record CVE-2025-30008 gives 22 December 2025; the VulnCheck advisory it cites is dated 10 July 2026, the day the record was published; the fix pull request it cites was merged on 29 December 2025 and the fixed release came out on 28 May 2026; saved copies <a href="sm-018/exhibits/instances/vulncheck_advisory_hestiacp_xss_CVE-2025-30008.html">advisory</a>, <a href="sm-018/exhibits/instances/github_pull_hestiacp_5196.json">pull request</a>, <a href="sm-018/exhibits/instances/github_release_hestiacp_1.9.5.json">release</a>), so its {{VL}} late of {{VS}} scored belong under the SHOULD of 4.5.1.6, not the MUST, and they sit in the all-records line only. Red Hat&rsquo;s public date is the public date of its own security data (the podman record CVE-2025-11395 gives 7 November 2025 and Red Hat&rsquo;s API gives the same day, <a href="sm-018/exhibits/instances/redhat_securitydata_CVE-2025-11395.json">saved copy</a>), which for an upstream open-source project can be the upstream&rsquo;s disclosure rather than Red Hat&rsquo;s own, and every Red Hat record cites redhat.com, so the same may apply to part of its {{RHL}} of {{RHS}}. Microsoft, Adobe and F5 publish the record within a day of their own advisory on 96 to 99% of theirs.</p>
+
+<h2>The longest waits</h2>
+<div class="tw"><table>
+<tr><th>CNA</th><th>Record</th><th>Title</th><th>Public date</th><th>Published</th><th class="n">Days</th></tr>
+{{TABLE_WORST}}
+</table></div>
+<p class="cap">Fifteen longest gaps among records whose CNA cites its own site; the cut falls inside a tie of two Arista records at 199 days from one advisory, of which the first by ID is shown. Title as the CNA wrote it. The records as published, saved from the archive: <a href="sm-018/exhibits/records/">sm-018/exhibits/records/</a>.</p>
+
+<h2>How this ends</h2>
+<p>Two acts close it. The CNA publishes the record the day its advisory goes out, which for a batching CNA means running the batch on advisory day rather than on a calendar; the monthly reads see that as a late share near zero for each quarter once it is a month or more old, since the newest quarter cannot yet show the records that have not been published. Or the rule&rsquo;s own remedy runs: the CNA&rsquo;s Root, MITRE for all four named here, directs the CNA of Last Resort to publish the record, and the record&rsquo;s provider changes. We re-pull the nightly archive on the first of each month, re-score every record, and print the result here, per quarter and per CNA.</p>
+
+<h2>The evidence</h2>
+<p>Every quote below was checked against a saved copy. Copies and SHA-256 hashes: <a href="sm-018/exhibits/SHA256SUMS">SHA256SUMS</a>.</p>
+<div class="exhibit"><p class="x">Exhibit 1 &middot; The rule</p><blockquote>&ldquo;4.5.1.4 CNAs <mark>MUST publish a CVE Record to the CVE List within 72 hours of Publicly Disclosing a CVE ID assigned by the CNA.</mark> If the CNA does not publish within 72 hours, then the CNA&rsquo;s Root MAY direct the appropriate CNA-LR to publish a CVE Record for the assigned CVE ID. Ownership of the CVE Record MAY be transferred. See also 4.2.1.2.&rdquo;</blockquote><p class="src">CNA Operational Rules v4.2.0, effective 25 August 2026 &middot; saved copies <a href='sm-018/exhibits/CNA_Rules_v4.2.0.pdf'>CNA_Rules_v4.2.0.pdf</a>, <a href='sm-018/exhibits/CNA_Rules_v4.1.0.pdf'>v4.1.0</a> (effective 14 May 2025), <a href='sm-018/exhibits/CNA_Rules_v4.0.pdf'>v4.0</a> (effective 8 August 2024); the same section in all three</p></div>
+<div class="exhibit"><p class="x">Exhibit 2 &middot; The two neighbouring rules</p><blockquote>&ldquo;4.5.1.3 CNAs <mark>SHOULD publish a CVE Record to the CVE List within 24 hours</mark> of Publicly Disclosing a CVE ID assigned by the CNA. &hellip; 4.5.1.6 CNAs <mark>SHOULD publish CVE Records within 72 hours of becoming aware that a CVE ID assigned by the CNA has been Publicly Disclosed by a party other than the CNA.</mark>&rdquo;</blockquote><p class="src">Same document, same saved copy</p></div>
+<div class="exhibit"><p class="x">Exhibit 3 &middot; The two dates</p><blockquote>&ldquo;datePublished: <mark>The date/time the CVE Record was first published in the CVE List.</mark> &hellip; datePublic: <mark>If known, the date/time the vulnerability was disclosed publicly.</mark>&rdquo;</blockquote><p class="src">CVE Record Format, JSON schema 5.2.0, field descriptions &middot; saved copy <a href='sm-018/exhibits/CVE_Record_Format.json'>CVE_Record_Format.json</a></p></div>
+<div class="exhibit"><p class="x">Exhibit 4 &middot; One record, as the archive holds it</p><pre>"cveMetadata": { "cveId": "CVE-2025-11002", "assignerShortName": "zdi",
+                 "dateReserved": "2025-09-25T18:50:55.181Z",
+                 "datePublished": "<mark>2026-01-23T02:47:05.205Z</mark>", "state": "PUBLISHED" }
+"containers": { "cna": { "datePublic": "<mark>2025-10-07T21:26:07.793Z</mark>",
+                 "references": [ { "url": "https://www.zerodayinitiative.com/advisories/ZDI-25-950/" } ] } }</pre><p class="src">cvelistV5 archive cve_2026-10-11_2000Z, cves/2025/11xxx/CVE-2025-11002.json, fields abridged &middot; saved copy <a href='sm-018/exhibits/records/CVE-2025-11002.json'>CVE-2025-11002.json</a></p></div>
+<div class="exhibit"><p class="x">Exhibit 5 &middot; The same bug on the CNA&rsquo;s own page</p><blockquote>&ldquo;7-Zip ZIP File Parsing Directory Traversal Remote Code Execution Vulnerability &middot; <mark>October 7th, 2025</mark> &middot; ZDI-25-950 &middot; ZDI-CAN-26743 &middot; CVE ID <mark>CVE-2025-11002</mark>&rdquo;</blockquote><p class="src">zerodayinitiative.com/advisories/ZDI-25-950/, read 2026-10-11 &middot; saved copy <a href='sm-018/exhibits/advisories/ZDI-25-950.html'>ZDI-25-950.html</a></p></div>
+<div class="exhibit"><p class="x">Exhibit 6 &middot; Dell&rsquo;s revision table</p><blockquote>&ldquo;DSA-2025-153: Security Update for Dell Client Platform BIOS for a Weak Password Recovery Mechanism Vulnerability &hellip; Revision History &middot; 1.0 &middot; <mark>2025-07-21</mark> &middot; Initial Release&rdquo;</blockquote><p class="src">dell.com/support/kbdoc/en-us/000300450/dsa-2025-153, read 2026-10-11; the record CVE-2025-36579 carries datePublic 2025-07-21T17:00:00.000Z and datePublished 2026-04-16T16:05:32.561Z &middot; saved copies <a href='sm-018/exhibits/advisories/dell-dsa-2025-153.html'>dell-dsa-2025-153.html</a>, <a href='sm-018/exhibits/records/CVE-2025-36579.json'>CVE-2025-36579.json</a></p></div>
+<div class="exhibit"><p class="x">Exhibit 7 &middot; Drupal&rsquo;s own tracking issue</p><blockquote>&ldquo;<mark>Plan for how to meet 72 hour publication obligation (CNAv4.1 section 4.5.1.4)</mark> &hellip; Currently there are a number of SA&rsquo;s that have a CVE ID&rsquo;s allocated, publicly and publicly disclosed however not published to the CVE registry. &hellip; CVE-2026-4093 - March 18th &hellip; Published May 21st - ~62 days &hellip; <mark>CVE-2026-5343 - April 1st</mark>&rdquo;</blockquote><p class="src">drupal.org issue 3589998, project security.drupal.org, opened 2026-05-13, read 2026-10-11 through the site&rsquo;s API (the HTML page sits behind a JavaScript challenge) &middot; saved copy <a href='sm-018/exhibits/priorart/drupal_issue_3589998.json'>drupal_issue_3589998.json</a>; the advisory node <a href='sm-018/exhibits/advisories/drupal-sa-contrib-2026-031.node.json'>drupal-sa-contrib-2026-031.node.json</a>, created 2026-04-01T16:38:14Z</p></div>
+<div class="exhibit"><p class="x">Exhibit 8 &middot; Arista&rsquo;s advisory date</p><blockquote>&ldquo;Security Advisory 0126 &hellip; Date: <mark>November 18, 2025</mark> &middot; 1.0 &middot; November 18, 2025 &middot; Initial release&rdquo;</blockquote><p class="src">arista.com/en/support/advisories-notices/security-advisory/22868-security-advisory-0126, read 2026-10-11 (the site answers a browser user-agent with HTTP 406; read with curl&rsquo;s user-agent) &middot; saved copy <a href='sm-018/exhibits/advisories/arista-security-advisory-0126.html'>arista-security-advisory-0126.html</a>; records <a href='sm-018/exhibits/records/CVE-2025-5090.json'>CVE-2025-5090.json</a>, <a href='sm-018/exhibits/records/CVE-2025-5088.json'>CVE-2025-5088.json</a></p></div>
+
+<h2 id="questions">Our questions</h2>
+<p>For the four CNAs named above and for the CVE Program&rsquo;s Secretariat. Answers will be printed here as written.</p>
+<ol class="qs"><li>To ZDI, Dell, Drupal and Arista: is the date on your advisory the day the CVE ID became public, and is the record&rsquo;s <code>datePublic</code> meant to be that day? What sets the interval between an advisory and its record reaching the list?</li><li>To the Secretariat: since 4.5.1.4 took effect on 8 August 2024, has any Root directed a CNA of Last Resort to publish a record under it? Does the Program measure the interval, and if so from which field?</li><li>To the Secretariat: {{AFTERANY}} records carry a public date after their publication date, 7,981 of them from Patchstack. Is a record published before the date it gives for disclosure inside the format&rsquo;s intent?</li></ol>
+<h2>Their reply, scored</h2>
+<p class="cap">What we told whom, and when.</p>
+<div class="tw"><table class="tl">
+<tr><td>11 Oct 2026</td><td>Published and stamped in the log. Nobody saw the page before that.</td></tr>
+</table></div>
+<div class="score">Not yet sent to anyone. One note each to ZDI, Dell, Drupal and Arista at the contact the Program&rsquo;s roster lists, and one to the Secretariat, go next: the CNA&rsquo;s own numbers, its five longest records, the script, and the questions above.</div>
+
+<h2>What we can&rsquo;t be sure of</h2>
+<ul class="lim">
+<li><code>datePublic</code> is optional and {{WITHPUB}} of {{PUB}} records carry it. A CNA that leaves it blank is invisible here, late or not; the table ranks only CNAs that state a public date, and a CNA that stops stating one would drop out of it.</li>
+<li>The field is the CNA&rsquo;s own entry. Four CNAs were checked against their pages; the other 230 were not, and the comparison is only as good as the CNA&rsquo;s habit of filling the field with the advisory date. Patchstack&rsquo;s public date is later than its publication date on 7,981 records, so its records go up before the day it gives for disclosure, and they are dropped rather than counted as early. VulnCheck&rsquo;s public date precedes the ID&rsquo;s reservation on 3,983 records, which is what assigning IDs to old, already-public bugs looks like; those are dropped too.</li>
+<li>Own-site citation is a proxy for &ldquo;the CNA made the ID public itself&rdquo;, and the rule&rsquo;s MUST turns on that. The domains come from the Program&rsquo;s roster and a hand list, {{MAPPED}} of the {{NCNA}} scored CNAs; a CNA with no domain listed is never counted as its own discloser. For ZDI, Dell, Drupal and Arista the advisory carries the ID on its date today; on {{DRDRUPAL}} Drupal and {{DRZDI}} ZDI records the ID did not yet exist on the advisory date and those are excluded, and whether an advisory carried the ID on its first day we could not check. For part of Red Hat the proxy does not hold, as said above; VulnCheck is outside the set. The {{NONOWN}} scored records with no own-site reference ({{NONOWNLATE}} late) are shown only in the all-records line.</li>
+<li>The rule says 72 hours; we count whole days from the public date and call a record late at four or more, which forgives up to a day. The time of day in <code>datePublic</code> is a form default at some CNAs, so an hour-level comparison would be false precision.</li>
+<li>Dell is read in India time on the strength of its timestamps and four sampled records, as the Details say; the shift moves {{DELLMOVED}} of its public dates by a day and turns {{DELLFLIP}} late records on time. No other CNA is shifted. A CNA whose public dates sit in a time zone west of UTC could show one extra day of lag on records published around midnight.</li>
+<li>The archive is one night&rsquo;s snapshot, taken at midnight before 11 October 2026, and the newest record in it is dated 10 October; the quarter now in progress will grow. A record whose public date the CNA edited after publication is read as it stands now, not as it stood when published.</li>
+<li>Records are grouped by the year in the ID, 2025 or 2026, not the year they were published; a 2024 ID published in 2025 is outside the set. The quarter table groups by publication quarter, so a record not yet published is invisible and the newest quarters read low; the closing test is the share for quarters a month or more old, and an advisory that never gets a record never appears here.</li>
+<li>Earlier work we found measures neighbouring things. A 2026 arXiv paper on 245,456 records measures disclosure-to-remediation time for critical CVEs, not this rule.<sup><a href="#r9">9</a></sup> A GitHub community discussion of June 2026 is about CVE assignment taking longer than &ldquo;the typical 72-hour SLA&rdquo;, the assignment step, a different clock.<sup><a href="#r8">8</a></sup> Drupal&rsquo;s own tracking issue counts Drupal&rsquo;s records against the same rule we use, for Drupal only.<sup><a href="#r7">7</a></sup></li>
+</ul>
+
+<h2>Run it yourself</h2>
+<p>The script uses only Python&rsquo;s standard library and reads the archive without unpacking it. The archive is 624 MB and the scoring takes under a minute.</p>
+<pre>curl -L -o all_cves.zip.zip https://github.com/CVEProject/cvelistV5/releases/download/cve_2026-10-11_2000Z/2026-10-11_all_CVEs_at_midnight.zip.zip
+unzip all_cves.zip.zip                       # yields cves.zip
+curl -O https://markovianprotocol.com/measurements/sm-018/cve72.py
+curl -O https://markovianprotocol.com/measurements/sm-018/exhibits/own_domains.json
+python3 -I cve72.py cves.zip out/ own_domains.json   # prints the summary; writes out/cve72_summary.json and out/cve72_rows.json</pre>
+<p class="cap">The archive&rsquo;s SHA-256 as we read it: <span class="o">327d95ef0859b87a091a27484f288e6529988d297b89aa9cd6506ac71232cf44</span> (outer zip), <span class="o">50309e0ce3e7971fafc581b5cb52e379d5937dda2980485202da07035640220a</span> (cves.zip inside it). Any night&rsquo;s archive from the same release page will do for a rerun; the numbers move as records are published.</p>
+<p class="rerun cap">Ran it? Send the number you got and the date to <!--email_off--><a href="mailto:hello@markovianprotocol.com?subject=Rerun%20SM-018">hello@markovianprotocol.com</a><!--/email_off-->, subject &ldquo;Rerun SM-018&rdquo;. We print it on the <a href="track-record.html#reproduction">track record</a> with your name, or just the date if you prefer, and the first outside rerun of each paper gets the same seal a CNA gets for answering or fixing.</p>
+
+<h2>What you can do with this</h2>
+<ul class="lim"><li>If you run a CNA, your row is in <a href="sm-018/exhibits/cve72_by_cna.csv">cve72_by_cna.csv</a>, and <a href="sm-018/exhibits/cve72_rows.json">cve72_rows.json</a> lists each of your records with both dates.</li><li>If you wait on CVE records to drive patching, scanning or an SBOM check, the per-CNA table says whose advisories to read directly, because the record may follow by weeks.</li><li>If you write about CVE timeliness, every number above comes from one public archive and one script; rerun it on tonight&rsquo;s archive before quoting it.</li></ul>
+
+<h2>References</h2>
+<ol class="refs">
+<li id="r1">CVE Program. <i>CVE Numbering Authority (CNA) Operational Rules</i>, version 4.2.0, effective 25 August 2026, section 4.5.1. <a href="https://www.cve.org/ResourcesSupport/AllResources/CNARules">cve.org/ResourcesSupport/AllResources/CNARules</a>. Saved copies of v4.0 (effective 8 August 2024), v4.1.0 (14 May 2025) and v4.2.0 in the exhibits folder; accessed 2026-10-07.</li>
+<li id="r2">CVE Program. <i>cvelistV5</i>, release cve_2026-10-11_2000Z, asset 2026-10-11_all_CVEs_at_midnight.zip.zip, 624,481,513 bytes, published 2026-10-11T20:29:19Z. <a href="https://github.com/CVEProject/cvelistV5/releases/tag/cve_2026-10-11_2000Z">github.com/CVEProject/cvelistV5/releases/tag/cve_2026-10-11_2000Z</a>. Retrieved 2026-10-11; hashes in <a href="sm-018/exhibits/dataset_provenance_2026-10-11.txt">dataset_provenance_2026-10-11.txt</a>.</li>
+<li id="r3">CVE Program. <i>CVE Record Format</i>, JSON schema version 5.2.0, descriptions of <code>datePublished</code>, <code>datePublic</code> and <code>dateReserved</code>. <a href="https://github.com/CVEProject/cve-schema">github.com/CVEProject/cve-schema</a>. Saved copy <a href="sm-018/exhibits/CVE_Record_Format.json">CVE_Record_Format.json</a>.</li>
+<li id="r4">CVE Program. <i>List of Partners</i>, roster data file CNAsList.json, 555 entries. <a href="https://www.cve.org/PartnerInformation/ListofPartners">cve.org/PartnerInformation/ListofPartners</a>. Retrieved 2026-10-11 from the site&rsquo;s source repository; saved copy <a href="sm-018/exhibits/roster/CNAsList.json">CNAsList.json</a>.</li>
+<li id="r5">Zero Day Initiative. <i>ZDI-25-950</i>, 7 October 2025. <a href="https://www.zerodayinitiative.com/advisories/ZDI-25-950/">zerodayinitiative.com/advisories/ZDI-25-950</a>. Dell. <i>DSA-2025-153</i>, initial release 21 July 2025. <a href="https://www.dell.com/support/kbdoc/en-us/000300450/dsa-2025-153">dell.com/support/kbdoc/en-us/000300450</a>. Arista. <i>Security Advisory 0126</i>, 18 November 2025. <a href="https://www.arista.com/en/support/advisories-notices/security-advisory/22868-security-advisory-0126">arista.com</a>. Drupal. <i>SA-CONTRIB-2026-031</i>, 1 April 2026. <a href="https://www.drupal.org/sa-contrib-2026-031">drupal.org/sa-contrib-2026-031</a>. All read 2026-10-11; saved copies in <a href="sm-018/exhibits/advisories/">sm-018/exhibits/advisories/</a>.</li>
+<li id="r6">The second-path check, 175 records against 150 advisory pages: scripts, every page read, retrieval logs with hashes, and per-record results. <a href="sm-018/secondpath/">sm-018/secondpath/</a>: <code>zdi/zdi_sample.csv</code>, <code>arista/arista_datepublic_check.csv</code>, <code>dell/dell_datepublic_check.csv</code>, <code>drupal/results.csv</code>, <code>drupal/independent_clocks.json</code>, and for the 2025 IDs <code>2025/results.csv</code> with <code>2025/check2025.py</code>.</li>
+<li id="r7">Drupal.org, project security.drupal.org, issue 3589998, <i>Plan for how to meet 72 hour publication obligation (CNAv4.1 section 4.5.1.4)</i>, opened 2026-05-13. <a href="https://www.drupal.org/project/securitydrupalorg/issues/3589998">drupal.org/project/securitydrupalorg/issues/3589998</a>. Saved copy <a href="sm-018/exhibits/priorart/drupal_issue_3589998.json">drupal_issue_3589998.json</a>.</li>
+<li id="r8">GitHub Community, discussion 200225, <i>CVE assignment pending past 72-hour SLA for published advisory</i>, 26 June 2026. <a href="https://github.com/orgs/community/discussions/200225">github.com/orgs/community/discussions/200225</a>. Saved copy <a href="sm-018/exhibits/priorart/github_discussion_200225.html">github_discussion_200225.html</a>.</li>
+<li id="r9">Sinterhauf, L., A&szlig;muth, A. and Kaltefleiter, R. <i>CVEs With a CVSS Score Greater Than or Equal to 9</i>, arXiv:2604.20765, 2026. <a href="https://arxiv.org/abs/2604.20765">arxiv.org/abs/2604.20765</a>. Saved copy of the abstract page <a href="sm-018/exhibits/priorart/arxiv_2604.20765.html">arxiv_2604.20765.html</a>.</li>
+</ol>
+
+<h2>Cite as</h2>
+<pre>@misc{markovian-sm018,
+  author = {{Markovian Protocol}},
+  title  = {Time from a CNA's own disclosure date to CVE List publication, every published
+            2025 and 2026 record with a usable public date, against CNA Operational Rules 4.5.1.4},
+  number = {SM-018},
+  year   = {2026},
+  month  = oct,
+  url    = {https://markovianprotocol.com/measurements/sm-018.html},
+  doi    = {{{DOI}}}
+}</pre>
+</main>
+
+<footer><div class="fw">
+  <a href="https://markovianprotocol.com/">Home</a>
+  <a href="https://markovianprotocol.com/log.html">Log</a>
+  <a href="https://witness.markovianprotocol.com/about">Witness</a>
+  <a href="https://markovianprotocol.com/bt/index.html">Vendor logs</a>
+  <a href="https://markovianprotocol.com/measurements/">Measurements</a>
+  <a href="https://github.com/MarkovianProtocol">GitHub</a>
+  <!--email_off--><a href="mailto:hello@markovianprotocol.com">Contact</a><!--/email_off-->
+  <span class="cp">Markovian Protocol · SigmaSynth LLC © 2026</span>
+</div></footer>
+</body>
+</html>

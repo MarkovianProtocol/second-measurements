@@ -1,0 +1,5 @@
+2026-10-07T05:46:08Z
+2026-10-11T21:12:49Z  priorart/: drupal issue 3589998 as api-d7 JSON (drupal_issue_3589998.json; HTML is behind a client challenge), arxiv 2604.20765 abstract page, GitHub community discussion 200225 — browser UA
+2026-10-11T21:23:59Z  advisories/ZDI-25-950.html arista-security-advisory-0126.html (curl/8.7.1 UA; arista.com returns 406 to browser UAs) dell-dsa-2025-153.html (browser UA, see retrieval_log_2026-10-11.tsv) drupal-sa-contrib-2026-031.node.json (api-d7 node.json?field_sa_cve=CVE-2026-5343); roster/CNAsList.json from raw.githubusercontent.com/CVEProject/cve-website/dev/src/assets/data/CNAsList.json
+2026-10-11T21:43:25Z  instances/: github_pull_hestiacp_5196.json + github_release_hestiacp_1.9.5.json (gh api), redhat_securitydata_CVE-2025-11395.json (access.redhat.com/hydra/rest/securitydata), vulncheck_advisory_hestiacp_xss_CVE-2025-30008.html (browser UA; page shows date 7/10/2026)
+2026-10-11T22:20:50Z  roster/glossaryEntries.json from raw.githubusercontent.com/CVEProject/cve-website/dev/src/assets/data/glossaryEntries.json (the cve.org Glossary page's data)

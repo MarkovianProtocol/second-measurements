@@ -1,0 +1,800 @@
+{
+ "rss_calibration": [
+  {
+   "nid": "3627531",
+   "link": "https://www.drupal.org/sa-contrib-2026-217",
+   "rss_date_line": "2026-October-07",
+   "rss_pubDate": "Wed, 07 Oct 2026 16:58:12 +0000",
+   "node_http": 200,
+   "node_created_utc": "2026-10-07T16:58:12+00:00",
+   "node_url": "https://www.drupal.org/sa-contrib-2026-217",
+   "node_cve": [
+    "CVE-2026-107262"
+   ],
+   "date_line_iso": "2026-10-07",
+   "date_line_eq_created_date": true,
+   "pubDate_minus_created_s": 0
+  },
+  {
+   "nid": "3626046",
+   "link": "https://www.drupal.org/sa-contrib-2026-211",
+   "rss_date_line": "2026-October-07",
+   "rss_pubDate": "Wed, 07 Oct 2026 16:36:17 +0000",
+   "node_http": 200,
+   "node_created_utc": "2026-10-07T16:36:17+00:00",
+   "node_url": "https://www.drupal.org/sa-contrib-2026-211",
+   "node_cve": [
+    "CVE-2026-107308"
+   ],
+   "date_line_iso": "2026-10-07",
+   "date_line_eq_created_date": true,
+   "pubDate_minus_created_s": 0
+  },
+  {
+   "nid": "3624843",
+   "link": "https://www.drupal.org/sa-contrib-2026-205",
+   "rss_date_line": "2026-October-07",
+   "rss_pubDate": "Wed, 07 Oct 2026 16:29:40 +0000",
+   "node_http": 200,
+   "node_created_utc": "2026-10-07T16:29:40+00:00",
+   "node_url": "https://www.drupal.org/sa-contrib-2026-205",
+   "node_cve": [
+    "CVE-2026-107266"
+   ],
+   "date_line_iso": "2026-10-07",
+   "date_line_eq_created_date": true,
+   "pubDate_minus_created_s": 0
+  },
+  {
+   "nid": "3620258",
+   "link": "https://www.drupal.org/sa-contrib-2026-199",
+   "rss_date_line": "2026-October-07",
+   "rss_pubDate": "Wed, 07 Oct 2026 16:22:57 +0000",
+   "node_http": 200,
+   "node_created_utc": "2026-10-07T16:22:57+00:00",
+   "node_url": "https://www.drupal.org/sa-contrib-2026-199",
+   "node_cve": [
+    "CVE-2026-107258"
+   ],
+   "date_line_iso": "2026-10-07",
+   "date_line_eq_created_date": true,
+   "pubDate_minus_created_s": 0
+  },
+  {
+   "nid": "3629038",
+   "link": "https://www.drupal.org/sa-contrib-2026-192",
+   "rss_date_line": "2026-October-07",
+   "rss_pubDate": "Wed, 07 Oct 2026 16:14:51 +0000",
+   "node_http": 200,
+   "node_created_utc": "2026-10-07T16:14:51+00:00",
+   "node_url": "https://www.drupal.org/sa-contrib-2026-192",
+   "node_cve": [
+    "CVE-2026-107249"
+   ],
+   "date_line_iso": "2026-10-07",
+   "date_line_eq_created_date": true,
+   "pubDate_minus_created_s": 0
+  },
+  {
+   "nid": "3624724",
+   "link": "https://www.drupal.org/sa-contrib-2026-186",
+   "rss_date_line": "2026-September-23",
+   "rss_pubDate": "Wed, 23 Sep 2026 17:19:41 +0000",
+   "node_http": 200,
+   "node_created_utc": "2026-09-23T17:19:41+00:00",
+   "node_url": "https://www.drupal.org/sa-contrib-2026-186",
+   "node_cve": [
+    "CVE-2026-96391"
+   ],
+   "date_line_iso": "2026-09-23",
+   "date_line_eq_created_date": true,
+   "pubDate_minus_created_s": 0
+  },
+  {
+   "nid": "3620537",
+   "link": "https://www.drupal.org/sa-contrib-2026-180",
+   "rss_date_line": "2026-September-23",
+   "rss_pubDate": "Wed, 23 Sep 2026 17:07:17 +0000",
+   "node_http": 200,
+   "node_created_utc": "2026-09-23T17:07:17+00:00",
+   "node_url": "https://www.drupal.org/sa-contrib-2026-180",
+   "node_cve": [
+    "CVE-2026-96384"
+   ],
+   "date_line_iso": "2026-09-23",
+   "date_line_eq_created_date": true,
+   "pubDate_minus_created_s": 0
+  },
+  {
+   "nid": "3597025",
+   "link": "https://www.drupal.org/sa-contrib-2026-174",
+   "rss_date_line": "2026-September-23",
+   "rss_pubDate": "Wed, 23 Sep 2026 16:27:21 +0000",
+   "node_http": 200,
+   "node_created_utc": "2026-09-23T16:27:21+00:00",
+   "node_url": "https://www.drupal.org/sa-contrib-2026-174",
+   "node_cve": [
+    "CVE-2026-96356"
+   ],
+   "date_line_iso": "2026-09-23",
+   "date_line_eq_created_date": true,
+   "pubDate_minus_created_s": 0
+  }
+ ],
+ "wayback": [
+  {
+   "id": "CVE-2026-0944",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-001",
+   "node_created_utc": "2026-01-14T17:53:33+00:00",
+   "datePublic": "2026-01-14T17:53:00.000Z",
+   "cdx_http": 503,
+   "cdx_http_retry": 200,
+   "cdx_ok": true,
+   "n_caps_returned": 1,
+   "first_capture_utc": "2026-06-13T10:06:09+00:00",
+   "first_capture_minus_created_h": 3592.21,
+   "first_capture_before_created": false
+  },
+  {
+   "id": "CVE-2026-0948",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-005",
+   "node_created_utc": "2026-01-14T17:57:31+00:00",
+   "datePublic": "2026-01-14T17:57:00.000Z",
+   "cdx_http": 503,
+   "cdx_http_retry": 503,
+   "cdx_ok": false,
+   "n_caps_returned": null,
+   "error": "CDX unavailable after retry"
+  },
+  {
+   "id": "CVE-2026-2348",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-009",
+   "node_created_utc": "2026-02-11T16:53:32+00:00",
+   "datePublic": "2026-02-11T16:53:00.000Z",
+   "cdx_http": 200,
+   "n_caps_returned": 1,
+   "cdx_ok": true,
+   "first_capture_utc": "2026-06-13T10:24:32+00:00",
+   "first_capture_minus_created_h": 2921.52,
+   "first_capture_before_created": false
+  },
+  {
+   "id": "CVE-2026-3213",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-014",
+   "node_created_utc": "2026-02-25T18:46:10+00:00",
+   "datePublic": "2026-02-25T18:46:00.000Z",
+   "cdx_http": 200,
+   "n_caps_returned": 0,
+   "cdx_ok": true
+  },
+  {
+   "id": "CVE-2026-3217",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-018",
+   "node_created_utc": "2026-02-25T18:51:26+00:00",
+   "datePublic": "2026-02-25T18:51:00.000Z",
+   "cdx_http": 200,
+   "n_caps_returned": 0,
+   "cdx_ok": true
+  },
+  {
+   "id": "CVE-2026-3527",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-022",
+   "node_created_utc": "2026-03-04T17:57:58+00:00",
+   "datePublic": "2026-03-04T17:57:00.000Z",
+   "cdx_http": 504,
+   "cdx_http_retry": 503,
+   "cdx_ok": false,
+   "n_caps_returned": null,
+   "error": "CDX unavailable after retry"
+  },
+  {
+   "id": "CVE-2026-3532",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-027",
+   "node_created_utc": "2026-03-04T18:02:59+00:00",
+   "datePublic": "2026-03-04T18:02:00.000Z",
+   "cdx_http": 200,
+   "n_caps_returned": 0,
+   "cdx_ok": true
+  },
+  {
+   "id": "CVE-2026-6095",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-032",
+   "node_created_utc": "2026-04-08T16:09:54+00:00",
+   "datePublic": "2026-04-08T16:09:00.000Z",
+   "cdx_http": 200,
+   "n_caps_returned": 1,
+   "cdx_ok": true,
+   "first_capture_utc": "2026-04-10T07:56:55+00:00",
+   "first_capture_minus_created_h": 39.78,
+   "first_capture_before_created": false
+  },
+  {
+   "id": "CVE-2026-6871",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-033",
+   "node_created_utc": "2026-04-22T17:47:43+00:00",
+   "datePublic": "2026-04-22T17:47:00.000Z",
+   "cdx_http": 503,
+   "cdx_http_retry": 504,
+   "cdx_ok": false,
+   "n_caps_returned": null,
+   "error": "CDX unavailable after retry"
+  },
+  {
+   "id": "CVE-2026-9082",
+   "advisory_url": "https://www.drupal.org/sa-core-2026-004",
+   "node_created_utc": "2026-05-20T18:08:21+00:00",
+   "datePublic": "2026-05-20T18:08:00.000Z",
+   "cdx_http": 200,
+   "n_caps_returned": 3,
+   "cdx_ok": true,
+   "first_capture_utc": "2026-05-21T09:17:52+00:00",
+   "first_capture_minus_created_h": 15.16,
+   "first_capture_before_created": false
+  },
+  {
+   "id": "CVE-2026-10770",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-042",
+   "node_created_utc": "2026-06-03T16:14:56+00:00",
+   "datePublic": "2026-06-03T16:14:56.000Z",
+   "cdx_http": 504,
+   "cdx_http_retry": 503,
+   "cdx_ok": false,
+   "n_caps_returned": null,
+   "error": "CDX unavailable after retry"
+  },
+  {
+   "id": "CVE-2026-11914",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-046",
+   "node_created_utc": "2026-06-10T17:09:45+00:00",
+   "datePublic": "2026-06-10T17:09:45.000Z",
+   "cdx_http": 200,
+   "n_caps_returned": 1,
+   "cdx_ok": true,
+   "first_capture_utc": "2026-06-29T00:44:46+00:00",
+   "first_capture_minus_created_h": 439.58,
+   "first_capture_before_created": false
+  },
+  {
+   "id": "CVE-2026-13233",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-053",
+   "node_created_utc": "2026-06-24T18:36:06+00:00",
+   "datePublic": "2026-06-24T18:36:06.000Z",
+   "cdx_http": 200,
+   "n_caps_returned": 1,
+   "cdx_ok": true,
+   "first_capture_utc": "2026-07-11T10:09:16+00:00",
+   "first_capture_minus_created_h": 399.55,
+   "first_capture_before_created": false
+  },
+  {
+   "id": "CVE-2026-13237",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-057",
+   "node_created_utc": "2026-06-24T18:39:24+00:00",
+   "datePublic": "2026-06-24T18:39:24.000Z",
+   "cdx_http": 503,
+   "cdx_http_retry": 503,
+   "cdx_ok": false,
+   "n_caps_returned": null,
+   "error": "CDX unavailable after retry"
+  },
+  {
+   "id": "CVE-2026-13241",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-061",
+   "node_created_utc": "2026-06-24T18:43:16+00:00",
+   "datePublic": "2026-06-24T18:43:16.000Z",
+   "cdx_http": 200,
+   "n_caps_returned": 1,
+   "cdx_ok": true,
+   "first_capture_utc": "2026-07-11T10:14:45+00:00",
+   "first_capture_minus_created_h": 399.52,
+   "first_capture_before_created": false
+  },
+  {
+   "id": "CVE-2026-15080",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-071",
+   "node_created_utc": "2026-07-08T17:13:44+00:00",
+   "datePublic": "2026-07-08T17:13:44.000Z",
+   "cdx_http": 200,
+   "n_caps_returned": 1,
+   "cdx_ok": true,
+   "first_capture_utc": "2026-07-11T11:16:35+00:00",
+   "first_capture_minus_created_h": 66.05,
+   "first_capture_before_created": false
+  },
+  {
+   "id": "CVE-2026-15084",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-075",
+   "node_created_utc": "2026-07-08T17:17:41+00:00",
+   "datePublic": "2026-07-08T17:17:41.000Z",
+   "cdx_http": 503,
+   "cdx_http_retry": 200,
+   "cdx_ok": true,
+   "n_caps_returned": 1,
+   "first_capture_utc": "2026-07-11T11:18:55+00:00",
+   "first_capture_minus_created_h": 66.02,
+   "first_capture_before_created": false
+  },
+  {
+   "id": "CVE-2026-15089",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-079",
+   "node_created_utc": "2026-07-08T17:20:24+00:00",
+   "datePublic": "2026-07-08T17:20:24.000Z",
+   "cdx_http": 200,
+   "n_caps_returned": 1,
+   "cdx_ok": true,
+   "first_capture_utc": "2026-07-11T11:21:03+00:00",
+   "first_capture_minus_created_h": 66.01,
+   "first_capture_before_created": false
+  },
+  {
+   "id": "CVE-2026-55808",
+   "advisory_url": "https://www.drupal.org/sa-core-2026-009",
+   "node_created_utc": "2026-06-17T18:58:02+00:00",
+   "datePublic": "2026-06-17T18:58:02.000Z",
+   "cdx_http": 503,
+   "cdx_http_retry": 200,
+   "cdx_ok": true,
+   "n_caps_returned": 3,
+   "first_capture_utc": "2026-06-18T13:55:23+00:00",
+   "first_capture_minus_created_h": 18.96,
+   "first_capture_before_created": false
+  },
+  {
+   "id": "CVE-2026-58588",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-066",
+   "node_created_utc": "2026-07-01T17:21:09+00:00",
+   "datePublic": "2026-07-01T17:21:09.000Z",
+   "cdx_http": 503,
+   "cdx_http_retry": 503,
+   "cdx_ok": false,
+   "n_caps_returned": null,
+   "error": "CDX unavailable after retry"
+  },
+  {
+   "id": "CVE-2026-9726",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-038",
+   "node_created_utc": "2026-05-27T18:32:18+00:00",
+   "datePublic": "2026-05-27T18:32:18.000Z",
+   "cdx_http": 503,
+   "cdx_http_retry": 504,
+   "cdx_ok": false,
+   "n_caps_returned": null,
+   "error": "CDX unavailable after retry"
+  },
+  {
+   "id": "CVE-2026-16639",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-081",
+   "node_created_utc": "2026-07-22T17:53:35+00:00",
+   "datePublic": "2026-07-22T17:53:35.000Z",
+   "cdx_http": 504,
+   "cdx_http_retry": 503,
+   "cdx_ok": false,
+   "n_caps_returned": null,
+   "error": "CDX unavailable after retry"
+  },
+  {
+   "id": "CVE-2026-16643",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-086",
+   "node_created_utc": "2026-07-22T17:59:05+00:00",
+   "datePublic": "2026-07-22T17:59:05.000Z",
+   "cdx_http": 503,
+   "cdx_http_retry": 200,
+   "cdx_ok": true,
+   "n_caps_returned": 1,
+   "first_capture_utc": "2026-08-26T17:48:40+00:00",
+   "first_capture_minus_created_h": 839.83,
+   "first_capture_before_created": false
+  },
+  {
+   "id": "CVE-2026-18259",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-090",
+   "node_created_utc": "2026-07-29T17:08:33+00:00",
+   "datePublic": "2026-07-29T17:08:33.000Z",
+   "cdx_http": 503,
+   "cdx_http_retry": 503,
+   "cdx_ok": false,
+   "n_caps_returned": null,
+   "error": "CDX unavailable after retry"
+  },
+  {
+   "id": "CVE-2026-16647",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-111",
+   "node_created_utc": "2026-08-26T17:39:32+00:00",
+   "datePublic": "2026-08-26T17:39:32.000Z",
+   "cdx_http": 503,
+   "cdx_http_retry": 503,
+   "cdx_ok": false,
+   "n_caps_returned": null,
+   "error": "CDX unavailable after retry"
+  },
+  {
+   "id": "CVE-2026-73476",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-098",
+   "node_created_utc": "2026-08-12T17:56:03+00:00",
+   "datePublic": "2026-08-12T17:56:03.000Z",
+   "cdx_http": 503,
+   "cdx_http_retry": 503,
+   "cdx_ok": false,
+   "n_caps_returned": null,
+   "error": "CDX unavailable after retry"
+  },
+  {
+   "id": "CVE-2026-76756",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-100",
+   "node_created_utc": "2026-08-19T17:16:30+00:00",
+   "datePublic": "2026-08-19T17:16:00.000Z",
+   "cdx_http": 503,
+   "cdx_http_retry": 200,
+   "cdx_ok": true,
+   "n_caps_returned": 0
+  },
+  {
+   "id": "CVE-2026-81158",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-113",
+   "node_created_utc": "2026-08-26T17:41:31+00:00",
+   "datePublic": "2026-08-26T17:41:31.000Z",
+   "cdx_http": 503,
+   "cdx_http_retry": 200,
+   "cdx_ok": true,
+   "n_caps_returned": 1,
+   "first_capture_utc": "2026-09-24T08:05:20+00:00",
+   "first_capture_minus_created_h": 686.4,
+   "first_capture_before_created": false
+  },
+  {
+   "id": "CVE-2026-81162",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-112",
+   "node_created_utc": "2026-08-26T17:40:40+00:00",
+   "datePublic": "2026-08-26T17:40:40.000Z",
+   "cdx_http": 503,
+   "cdx_http_retry": 200,
+   "cdx_ok": true,
+   "n_caps_returned": 1,
+   "first_capture_utc": "2026-09-17T08:25:07+00:00",
+   "first_capture_minus_created_h": 518.74,
+   "first_capture_before_created": false
+  },
+  {
+   "id": "CVE-2026-81167",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-103",
+   "node_created_utc": "2026-08-26T17:32:54+00:00",
+   "datePublic": "2026-08-26T17:32:54.000Z",
+   "cdx_http": 200,
+   "n_caps_returned": 1,
+   "cdx_ok": true,
+   "first_capture_utc": "2026-09-17T08:25:09+00:00",
+   "first_capture_minus_created_h": 518.87,
+   "first_capture_before_created": false
+  }
+ ],
+ "mailing_list_archive_note": "lists.drupal.org/pipermail/security-news archive ends 2026-February and is incomplete (Jan: 7 msgs, Feb: 3 msgs); 10 messages parsed",
+ "mailing_list": [
+  {
+   "id": "CVE-2026-0944",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-001",
+   "node_created_utc": "2026-01-14T17:53:33+00:00",
+   "datePublic": "2026-01-14T17:53:00.000Z",
+   "in_archive": true,
+   "email_date": "2026-01-14T17:53:34+00:00",
+   "body_date_line": "2026-January-14",
+   "body_cve_line": "CVE-2026-0944",
+   "archive": "security-news_2026-January.txt",
+   "email_minus_created_s": 1,
+   "email_minus_datePublic_s": 34,
+   "body_cve_line_contains_id": true
+  },
+  {
+   "id": "CVE-2026-0948",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-005",
+   "node_created_utc": "2026-01-14T17:57:31+00:00",
+   "datePublic": "2026-01-14T17:57:00.000Z",
+   "in_archive": true,
+   "email_date": "2026-01-14T17:57:33+00:00",
+   "body_date_line": "2026-January-14",
+   "body_cve_line": "CVE-2026-0948",
+   "archive": "security-news_2026-January.txt",
+   "email_minus_created_s": 2,
+   "email_minus_datePublic_s": 33,
+   "body_cve_line_contains_id": true
+  },
+  {
+   "id": "CVE-2026-2348",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-009",
+   "node_created_utc": "2026-02-11T16:53:32+00:00",
+   "datePublic": "2026-02-11T16:53:00.000Z",
+   "in_archive": true,
+   "email_date": "2026-02-11T16:53:34+00:00",
+   "body_date_line": "2026-February-11",
+   "body_cve_line": "CVE-2026-2348",
+   "archive": "security-news_2026-February.txt",
+   "email_minus_created_s": 2,
+   "email_minus_datePublic_s": 34,
+   "body_cve_line_contains_id": true
+  },
+  {
+   "id": "CVE-2026-3213",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-014",
+   "node_created_utc": "2026-02-25T18:46:10+00:00",
+   "datePublic": "2026-02-25T18:46:00.000Z",
+   "in_archive": false
+  },
+  {
+   "id": "CVE-2026-3217",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-018",
+   "node_created_utc": "2026-02-25T18:51:26+00:00",
+   "datePublic": "2026-02-25T18:51:00.000Z",
+   "in_archive": false
+  },
+  {
+   "id": "CVE-2026-3527",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-022",
+   "node_created_utc": "2026-03-04T17:57:58+00:00",
+   "datePublic": "2026-03-04T17:57:00.000Z",
+   "in_archive": false
+  },
+  {
+   "id": "CVE-2026-3532",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-027",
+   "node_created_utc": "2026-03-04T18:02:59+00:00",
+   "datePublic": "2026-03-04T18:02:00.000Z",
+   "in_archive": false
+  },
+  {
+   "id": "CVE-2026-6095",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-032",
+   "node_created_utc": "2026-04-08T16:09:54+00:00",
+   "datePublic": "2026-04-08T16:09:00.000Z",
+   "in_archive": false
+  },
+  {
+   "id": "CVE-2026-6871",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-033",
+   "node_created_utc": "2026-04-22T17:47:43+00:00",
+   "datePublic": "2026-04-22T17:47:00.000Z",
+   "in_archive": false
+  },
+  {
+   "id": "CVE-2026-9082",
+   "advisory_url": "https://www.drupal.org/sa-core-2026-004",
+   "node_created_utc": "2026-05-20T18:08:21+00:00",
+   "datePublic": "2026-05-20T18:08:00.000Z",
+   "in_archive": false
+  },
+  {
+   "id": "CVE-2026-10770",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-042",
+   "node_created_utc": "2026-06-03T16:14:56+00:00",
+   "datePublic": "2026-06-03T16:14:56.000Z",
+   "in_archive": false
+  },
+  {
+   "id": "CVE-2026-11914",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-046",
+   "node_created_utc": "2026-06-10T17:09:45+00:00",
+   "datePublic": "2026-06-10T17:09:45.000Z",
+   "in_archive": false
+  },
+  {
+   "id": "CVE-2026-13233",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-053",
+   "node_created_utc": "2026-06-24T18:36:06+00:00",
+   "datePublic": "2026-06-24T18:36:06.000Z",
+   "in_archive": false
+  },
+  {
+   "id": "CVE-2026-13237",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-057",
+   "node_created_utc": "2026-06-24T18:39:24+00:00",
+   "datePublic": "2026-06-24T18:39:24.000Z",
+   "in_archive": false
+  },
+  {
+   "id": "CVE-2026-13241",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-061",
+   "node_created_utc": "2026-06-24T18:43:16+00:00",
+   "datePublic": "2026-06-24T18:43:16.000Z",
+   "in_archive": false
+  },
+  {
+   "id": "CVE-2026-15080",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-071",
+   "node_created_utc": "2026-07-08T17:13:44+00:00",
+   "datePublic": "2026-07-08T17:13:44.000Z",
+   "in_archive": false
+  },
+  {
+   "id": "CVE-2026-15084",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-075",
+   "node_created_utc": "2026-07-08T17:17:41+00:00",
+   "datePublic": "2026-07-08T17:17:41.000Z",
+   "in_archive": false
+  },
+  {
+   "id": "CVE-2026-15089",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-079",
+   "node_created_utc": "2026-07-08T17:20:24+00:00",
+   "datePublic": "2026-07-08T17:20:24.000Z",
+   "in_archive": false
+  },
+  {
+   "id": "CVE-2026-55808",
+   "advisory_url": "https://www.drupal.org/sa-core-2026-009",
+   "node_created_utc": "2026-06-17T18:58:02+00:00",
+   "datePublic": "2026-06-17T18:58:02.000Z",
+   "in_archive": false
+  },
+  {
+   "id": "CVE-2026-58588",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-066",
+   "node_created_utc": "2026-07-01T17:21:09+00:00",
+   "datePublic": "2026-07-01T17:21:09.000Z",
+   "in_archive": false
+  },
+  {
+   "id": "CVE-2026-9726",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-038",
+   "node_created_utc": "2026-05-27T18:32:18+00:00",
+   "datePublic": "2026-05-27T18:32:18.000Z",
+   "in_archive": false
+  },
+  {
+   "id": "CVE-2026-16639",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-081",
+   "node_created_utc": "2026-07-22T17:53:35+00:00",
+   "datePublic": "2026-07-22T17:53:35.000Z",
+   "in_archive": false
+  },
+  {
+   "id": "CVE-2026-16643",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-086",
+   "node_created_utc": "2026-07-22T17:59:05+00:00",
+   "datePublic": "2026-07-22T17:59:05.000Z",
+   "in_archive": false
+  },
+  {
+   "id": "CVE-2026-18259",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-090",
+   "node_created_utc": "2026-07-29T17:08:33+00:00",
+   "datePublic": "2026-07-29T17:08:33.000Z",
+   "in_archive": false
+  },
+  {
+   "id": "CVE-2026-16647",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-111",
+   "node_created_utc": "2026-08-26T17:39:32+00:00",
+   "datePublic": "2026-08-26T17:39:32.000Z",
+   "in_archive": false
+  },
+  {
+   "id": "CVE-2026-73476",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-098",
+   "node_created_utc": "2026-08-12T17:56:03+00:00",
+   "datePublic": "2026-08-12T17:56:03.000Z",
+   "in_archive": false
+  },
+  {
+   "id": "CVE-2026-76756",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-100",
+   "node_created_utc": "2026-08-19T17:16:30+00:00",
+   "datePublic": "2026-08-19T17:16:00.000Z",
+   "in_archive": false
+  },
+  {
+   "id": "CVE-2026-81158",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-113",
+   "node_created_utc": "2026-08-26T17:41:31+00:00",
+   "datePublic": "2026-08-26T17:41:31.000Z",
+   "in_archive": false
+  },
+  {
+   "id": "CVE-2026-81162",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-112",
+   "node_created_utc": "2026-08-26T17:40:40+00:00",
+   "datePublic": "2026-08-26T17:40:40.000Z",
+   "in_archive": false
+  },
+  {
+   "id": "CVE-2026-81167",
+   "advisory_url": "https://www.drupal.org/sa-contrib-2026-103",
+   "node_created_utc": "2026-08-26T17:32:54+00:00",
+   "datePublic": "2026-08-26T17:32:54.000Z",
+   "in_archive": false
+  }
+ ],
+ "summary": {
+  "n_sample": 30,
+  "match_datePublic_date_eq_advisory_date": 30,
+  "datePublic_minus_created_seconds": {
+   "CVE-2026-0944": -33,
+   "CVE-2026-0948": -31,
+   "CVE-2026-2348": -32,
+   "CVE-2026-3213": -10,
+   "CVE-2026-3217": -26,
+   "CVE-2026-3527": -58,
+   "CVE-2026-3532": -59,
+   "CVE-2026-6095": -54,
+   "CVE-2026-6871": -43,
+   "CVE-2026-9082": -21,
+   "CVE-2026-10770": 0,
+   "CVE-2026-11914": 0,
+   "CVE-2026-13233": 0,
+   "CVE-2026-13237": 0,
+   "CVE-2026-13241": 0,
+   "CVE-2026-15080": 0,
+   "CVE-2026-15084": 0,
+   "CVE-2026-15089": 0,
+   "CVE-2026-55808": 0,
+   "CVE-2026-58588": 0,
+   "CVE-2026-9726": 0,
+   "CVE-2026-16639": 0,
+   "CVE-2026-16643": 0,
+   "CVE-2026-18259": 0,
+   "CVE-2026-16647": 0,
+   "CVE-2026-73476": 0,
+   "CVE-2026-76756": -30,
+   "CVE-2026-81158": 0,
+   "CVE-2026-81162": 0,
+   "CVE-2026-81167": 0
+  },
+  "rss_calibration_date_line_eq_created": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "rss_calibration_pubDate_minus_created_s": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "wayback_cdx_ok": 19,
+  "wayback_with_capture": 15,
+  "wayback_first_capture_before_created": 0,
+  "wayback_first_capture_hours_after_created": [
+   15.16,
+   18.96,
+   39.78,
+   66.01,
+   66.02,
+   66.05,
+   399.52,
+   399.55,
+   439.58,
+   518.74,
+   518.87,
+   686.4,
+   839.83,
+   2921.52,
+   3592.21
+  ],
+  "mailing_list_matches": [
+   [
+    "CVE-2026-0944",
+    1,
+    34,
+    true
+   ],
+   [
+    "CVE-2026-0948",
+    2,
+    33,
+    true
+   ],
+   [
+    "CVE-2026-2348",
+    2,
+    34,
+    true
+   ]
+  ]
+ }
+}

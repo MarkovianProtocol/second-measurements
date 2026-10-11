@@ -1,0 +1,8 @@
+source: https://github.com/CVEProject/cvelistV5/releases/tag/cve_2026-10-11_2000Z
+asset: 2026-10-11_all_CVEs_at_midnight.zip.zip
+release published_at: 2026-10-11T20:29:19Z
+size_bytes: 624481513 (matches release asset size)
+sha256: 327d95ef0859b87a091a27484f288e6529988d297b89aa9cd6506ac71232cf44
+retrieved: 2026-10-11T21:16:23Z
+retriever: gh api repos/CVEProject/cvelistV5/releases/latest + curl -L
+inner: cves.zip (extracted from the asset) sha256: 50309e0ce3e7971fafc581b5cb52e379d5937dda2980485202da07035640220a size_bytes: 691005687

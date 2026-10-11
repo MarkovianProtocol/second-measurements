@@ -1,0 +1,460 @@
+From security-news at drupal.org  Wed Jan 14 17:53:34 2026
+From: security-news at drupal.org (security-news at drupal.org)
+Date: Wed, 14 Jan 2026 17:53:34 +0000 (UTC)
+Subject: [Security-news] Group invite - Moderately critical - Access bypass
+ - SA-CONTRIB-2026-001
+Message-ID: <mailman.2639.1768413328.1624352.security-news@drupal.org>
+
+View online: https://www.drupal.org/sa-contrib-2026-001
+
+Project:?Group invite [1]
+Date:?2026-January-14
+Security risk:?*Moderately critical* 14???25
+AC:None/A:None/CI:Some/II:None/E:Theoretical/TD:Default [2]
+Vulnerability:?Access bypass
+
+Affected versions:?<2.3.9 || >=3.0.0 <3.0.4 || >=4.0.0 <4.0.4
+CVE IDs:?CVE-2026-0944
+Description:?
+This module enables allows group managers to invite people into their group.
+
+The module doesn't sufficiently check access under certain circumstances,
+allowing unauthorized users to access the group's content.
+
+This vulnerability is mitigated by the fact that it only occurs when certain
+uncommon actions are taken by a user with the permission to create group
+invites.
+
+Solution:?
+Install the latest version:
+
+  * If you use the Group Invite module 2.3.x, upgrade to Group Invite  2.3.9
+    [3]
+  * If you use the Group Invite module 3.0.x, upgrade to Group Invite  3.0.4
+    [4]
+  * If you use the Group Invite module 4.0.x, upgrade to Group Invite  4.0.4
+    [5]
+
+Reported By:?
+  * Kevin Quillen (kevinquillen) [6]
+
+Fixed By:?
+  * eduardo morales alberti [7]
+  * Kevin Quillen (kevinquillen) [8]
+  * Nikolay Lobachev (lobsterr) [9]
+  * Ricardo Sanz Ante (tunic) [10]
+
+Coordinated By:?
+  * Greg Knaddison (greggles) [11] of the Drupal Security Team
+  * Juraj Nemec (poker10) [12] of the Drupal Security Team
+
+------------------------------------------------------------------------------
+Contribution record [13]
+
+[1] https://www.drupal.org/project/ginvite
+[2] https://www.drupal.org/security-team/risk-levels
+[3] https://www.drupal.org/project/ginvite/releases/2.3.9
+[4] https://www.drupal.org/project/ginvite/releases/3.0.4
+[5] https://www.drupal.org/project/ginvite/releases/4.0.4
+[6] https://www.drupal.org/u/kevinquillen
+[7] https://www.drupal.org/u/eduardo-morales-alberti
+[8] https://www.drupal.org/u/kevinquillen
+[9] https://www.drupal.org/u/lobsterr
+[10] https://www.drupal.org/u/tunic
+[11] https://www.drupal.org/u/greggles
+[12] https://www.drupal.org/u/poker10
+[13]  
+https://new.drupal.org/contribution-record?source_link=https%3A//www.drupal.org/node/3567529
+
+
+From security-news at drupal.org  Wed Jan 14 17:54:34 2026
+From: security-news at drupal.org (security-news at drupal.org)
+Date: Wed, 14 Jan 2026 17:54:34 +0000 (UTC)
+Subject: [Security-news] Role Delegation - Moderately critical - Access
+ bypass - SA-CONTRIB-2026-002
+Message-ID: <mailman.2640.1768413329.1624352.security-news@drupal.org>
+
+View online: https://www.drupal.org/sa-contrib-2026-002
+
+Project:?Role Delegation [1]
+Date:?2026-January-14
+Security risk:?*Moderately critical* 13???25
+AC:Basic/A:User/CI:Some/II:Some/E:Theoretical/TD:Default [2]
+Vulnerability:?Access bypass
+
+Affected versions:?>=1.3.0 <1.5.0
+CVE IDs:?CVE-2026-0945
+Description:?
+This module allows site administrators to grant specific roles the authority
+to assign selected roles to users, without them needing the "administer
+permissions" permission.
+
+The module contains an access bypass vulnerability when used in combination
+with the Views Bulk Operations module. A user with the ability to delegate a
+role is also able to assign the administrator role, including to their own
+user.
+
+This vulnerability is mitigated by the fact that an attacker must have access
+to a view of users with the Views Bulk Operations module enabled.
+
+Solution:?
+Install the latest version:
+
+  * If you use the Role Delegation module for Drupal ^10.3 || ^11, upgrade to
+    Role Delegation 8.x-1.5 [3]
+
+Reported By:?
+  * Drew Webber (mcdruid) [4] of the Drupal Security Team
+
+Fixed By:?
+  * Adam Bramley (acbramley) [5]
+  * Dieter Holvoet (dieterholvoet) [6]
+
+Coordinated By:?
+  * Greg Knaddison (greggles) [7] of the Drupal Security Team
+  * Drew Webber (mcdruid) [8] of the Drupal Security Team
+  * Juraj Nemec (poker10) [9] of the Drupal Security Team
+
+------------------------------------------------------------------------------
+Contribution record [10]
+
+[1] https://www.drupal.org/project/role_delegation
+[2] https://www.drupal.org/security-team/risk-levels
+[3] https://www.drupal.org/project/role_delegation/releases/8.x-1.5
+[4] https://www.drupal.org/u/mcdruid
+[5] https://www.drupal.org/u/acbramley
+[6] https://www.drupal.org/u/dieterholvoet
+[7] https://www.drupal.org/u/greggles
+[8] https://www.drupal.org/u/mcdruid
+[9] https://www.drupal.org/u/poker10
+[10]  
+https://new.drupal.org/contribution-record?source_link=https%3A//www.drupal.org/node/3567530
+
+
+From security-news at drupal.org  Wed Jan 14 17:55:42 2026
+From: security-news at drupal.org (security-news at drupal.org)
+Date: Wed, 14 Jan 2026 17:55:42 +0000 (UTC)
+Subject: [Security-news] AT Internet SmartTag - Moderately critical -
+ Cross-site Scripting - SA-CONTRIB-2026-003
+Message-ID: <mailman.2641.1768413540.1624352.security-news@drupal.org>
+
+View online: https://www.drupal.org/sa-contrib-2026-003
+
+Project:?AT Internet SmartTag [1]
+Date:?2026-January-14
+Security risk:?*Moderately critical* 13???25
+AC:Basic/A:Admin/CI:Some/II:Some/E:Theoretical/TD:All [2]
+Vulnerability:?Cross-site Scripting
+
+Affected versions:?<1.0.1
+CVE IDs:?CVE-2026-0946
+Description:?
+This module integrates the AT Internet SmartTag service.
+
+The module does not filter administrator-entered text leading to a persistent
+Cross-site Scripting (XSS) vulnerability.
+
+This vulnerability is mitigated by the fact that an attacker must have a role
+with the permission "administer atsmarttag".
+
+Solution:?
+Install the latest version and confirm the permissions associated with the
+module are assigned to appropriate roles.
+
+  * If you use the AT Internet SmartTag module for Drupal 9 and 10, upgrade to
+    AT Internet SmartTag 1.0.1 [3]
+
+Reported By:?
+  * Pierre Rudloff (prudloff) [4] provisional member of the Drupal Security
+    Team
+
+Fixed By:?
+  * Frank Mably (mably) [5]
+
+Coordinated By:?
+  * Greg Knaddison (greggles) [6] of the Drupal Security Team
+  * Juraj Nemec (poker10) [7] of the Drupal Security Team
+
+------------------------------------------------------------------------------
+Contribution record [8]
+
+[1] https://www.drupal.org/project/atsmarttag
+[2] https://www.drupal.org/security-team/risk-levels
+[3] https://www.drupal.org/project/atsmarttag/releases/1.0.1
+[4] https://www.drupal.org/u/prudloff
+[5] https://www.drupal.org/u/mably
+[6] https://www.drupal.org/u/greggles
+[7] https://www.drupal.org/u/poker10
+[8]  
+https://new.drupal.org/contribution-record?source_link=https%3A//www.drupal.org/node/3567533
+
+
+From security-news at drupal.org  Wed Jan 14 17:56:29 2026
+From: security-news at drupal.org (security-news at drupal.org)
+Date: Wed, 14 Jan 2026 17:56:29 +0000 (UTC)
+Subject: [Security-news] AT Internet Piano Analytics - Moderately critical -
+ Cross-site Scripting - SA-CONTRIB-2026-004
+Message-ID: <mailman.2642.1768413541.1624352.security-news@drupal.org>
+
+View online: https://www.drupal.org/sa-contrib-2026-004
+
+Project:?AT Internet Piano Analytics [1]
+Date:?2026-January-14
+Security risk:?*Moderately critical* 13???25
+AC:Basic/A:Admin/CI:Some/II:Some/E:Theoretical/TD:All [2]
+Vulnerability:?Cross-site Scripting
+
+Affected versions:?<1.0.1 || >=2.0.0 <2.3.1
+CVE IDs:?CVE-2026-0947
+Description:?
+This module integrates the AT Internet Piano Analytics service.
+
+The module does not filter administrator-entered text leading to a persistent
+Cross-site Scripting (XSS) vulnerability.
+
+This vulnerability is mitigated by the fact that an attacker must have a role
+with the permission "administer pianoanalytics".
+
+Solution:?
+Install the latest version and confirm the permissions associated with the
+module are assigned to appropriate roles.
+
+  * If you use the AT Internet Piano Analytics module for Drupal 10+, upgrade
+    to AT Internet Piano Analytics 2.3.1 [3]
+  * If you use the AT Internet Piano Analytics module for Drupal 9, upgrade to
+    AT Internet Piano Analytics 1.0.1 [4]
+
+Reported By:?
+  * Pierre Rudloff (prudloff) [5] provisional member of the Drupal Security
+    Team
+
+Fixed By:?
+  * Frank Mably (mably) [6]
+
+Coordinated By:?
+  * Greg Knaddison (greggles) [7] of the Drupal Security Team
+  * Juraj Nemec (poker10) [8] of the Drupal Security Team
+  * Pierre Rudloff (prudloff) [9] provisional member of the Drupal Security
+    Team
+
+------------------------------------------------------------------------------
+Contribution record [10]
+
+[1] https://www.drupal.org/project/pianoanalytics
+[2] https://www.drupal.org/security-team/risk-levels
+[3] https://www.drupal.org/project/pianoanalytics/releases/2.3.1
+[4] https://www.drupal.org/project/pianoanalytics/releases/1.0.1
+[5] https://www.drupal.org/u/prudloff
+[6] https://www.drupal.org/u/mably
+[7] https://www.drupal.org/u/greggles
+[8] https://www.drupal.org/u/poker10
+[9] https://www.drupal.org/u/prudloff
+[10]  
+https://new.drupal.org/contribution-record?source_link=https%3A//www.drupal.org/node/3567534
+
+
+From security-news at drupal.org  Wed Jan 14 17:57:33 2026
+From: security-news at drupal.org (security-news at drupal.org)
+Date: Wed, 14 Jan 2026 17:57:33 +0000 (UTC)
+Subject: [Security-news] Microsoft Entra ID SSO Login - Critical - Access
+ bypass - SA-CONTRIB-2026-005
+Message-ID: <mailman.2643.1768413541.1624352.security-news@drupal.org>
+
+View online: https://www.drupal.org/sa-contrib-2026-005
+
+Project:?Microsoft Entra ID SSO Login [1]
+Date:?2026-January-14
+Security risk:?*Critical* 16???25
+AC:Basic/A:None/CI:Some/II:Some/E:Theoretical/TD:All [2]
+Vulnerability:?Access bypass
+
+Affected versions:?<1.0.4
+CVE IDs:?CVE-2026-0948
+Description:?
+This module enables Drupal sites to authenticate users via Microsoft Entra ID
+(formerly Azure AD) using OAuth 2.0.
+
+The module doesn't sufficiently validate API responses from Microsoft
+allowing complete account takeover of any user, including site
+administrators, without requiring any credentials or access to the target's
+email account.
+
+Solution:?
+  1) If you use the Microsoft Entra ID SSO Login, update to the module's
+     latest version Microsoft Entra ID SSO Login 2.0.0 [3] (or Microsoft Entra
+     ID SSO Login 1.0.4 [4]).
+  2) Review the release node and module documentation for information on how
+     to update your configuration with the new module release.
+  3) Site administrators should also review their security settings after
+     upgrading and consider enabling the "Block User 1" and "Block
+     Administrator role" options for additional protection.
+
+Reported By:?
+  * Ashish Verma (ashish.verma85) [5]
+  * Dheeraj Jhamtani (dheeraj jhamtani) [6]
+  * Marcelo Vani (marcelovani) [7]
+
+Fixed By:?
+  * Jaseer Kinangattil (jaseerkinangattil) [8]
+
+Coordinated By:?
+  * Greg Knaddison (greggles) [9] of the Drupal Security Team
+  * Juraj Nemec (poker10) [10] of the Drupal Security Team
+
+------------------------------------------------------------------------------
+Contribution record [11]
+
+[1] https://www.drupal.org/project/social_auth_entra_id
+[2] https://www.drupal.org/security-team/risk-levels
+[3] https://www.drupal.org/project/social_auth_entra_id/releases/2.0.0
+[4] https://www.drupal.org/project/social_auth_entra_id/releases/1.0.4
+[5] https://www.drupal.org/u/ashishverma85
+[6] https://www.drupal.org/u/dheeraj-jhamtani
+[7] https://www.drupal.org/u/marcelovani
+[8] https://www.drupal.org/u/jaseerkinangattil
+[9] https://www.drupal.org/u/greggles
+[10] https://www.drupal.org/u/poker10
+[11]  
+https://new.drupal.org/contribution-record?source_link=https%3A//www.drupal.org/node/3567531
+
+
+From security-news at drupal.org  Wed Jan 28 17:28:32 2026
+From: security-news at drupal.org (security-news at drupal.org)
+Date: Wed, 28 Jan 2026 17:28:32 +0000 (UTC)
+Subject: [Security-news] Drupal Canvas - Moderately critical - Access bypass
+ - SA-CONTRIB-2026-006
+Message-ID: <mailman.2963.1769621447.1624352.security-news@drupal.org>
+
+View online: https://www.drupal.org/sa-contrib-2026-006
+
+Project:?Drupal Canvas [1]
+Date:?2026-January-28
+Security risk:?*Moderately critical* 10???25
+AC:Complex/A:None/CI:Some/II:None/E:Theoretical/TD:Uncommon [2]
+Vulnerability:?Access bypass
+
+Affected versions:?<1.0.4
+CVE IDs:?CVE-2026-1553
+Description:?
+This Drupal Canvas module is a new visual page builder for Drupal. You can
+create reusable components that match your design system, drag them onto a
+page, edit content in place, preview changes across multiple pages, and undo
+mistakes with ease.
+
+The module doesn't sufficiently validate access to Canvas Pages when they are
+unpublished.
+
+This vulnerability is mitigated by the fact that Canvas Pages don't have
+content moderation enabled by default, and they must be unpublished after
+being released, and archiving is not a feature provided by the module yet.
+
+Solution:?
+Install the latest version:
+
+If you use the Drupal Canvas module, upgrade to Canvas 1.0.4 [3].
+
+Reported By:?
+  * jschref [4]
+
+Fixed By:?
+  * B?lint Kl?ri (balintbrews) [5]
+  * Matt Glaman (mglaman) [6]
+  * Christian L?pez Esp?nola (penyaskito) [7]
+  * Tim Plunkett (tim.plunkett) [8]
+
+Coordinated By:?
+  * Alex Bronstein (effulgentsia) [9] of the Drupal Security Team
+  * Greg Knaddison (greggles) [10] of the Drupal Security Team
+
+Security
+issue:?https://git.drupalcode.org/security/31-canvas-security/-/issues/1
+[11]
+------------------------------------------------------------------------------
+Contribution record [12]
+
+[1] https://www.drupal.org/project/canvas
+[2] https://www.drupal.org/security-team/risk-levels
+[3] https://www.drupal.org/project/canvas/releases/1.0.4
+[4] https://www.drupal.org/u/jschref
+[5] https://www.drupal.org/u/balintbrews
+[6] https://www.drupal.org/u/mglaman
+[7] https://www.drupal.org/u/penyaskito
+[8] https://www.drupal.org/u/timplunkett
+[9] https://www.drupal.org/u/effulgentsia
+[10] https://www.drupal.org/u/greggles
+[11] https://git.drupalcode.org/security/31-canvas-security/-/issues/1
+[12]  
+https://new.drupal.org/contribution-record?source_link=https%3A//www.drupal.org/node/3567229
+
+
+From security-news at drupal.org  Wed Jan 28 17:29:34 2026
+From: security-news at drupal.org (security-news at drupal.org)
+Date: Wed, 28 Jan 2026 17:29:34 +0000 (UTC)
+Subject: [Security-news] Central Authentication System (CAS) Server - Less
+ critical - XML Element Injection - SA-CONTRIB-2026-007
+Message-ID: <mailman.2964.1769621447.1624352.security-news@drupal.org>
+
+View online: https://www.drupal.org/sa-contrib-2026-007
+
+Project:?Central Authentication System (CAS) Server [1]
+Date:?2026-January-28
+Security risk:?*Less critical* 6???25
+AC:Complex/A:User/CI:None/II:None/E:Theoretical/TD:Default [2]
+Vulnerability:?XML Element Injection
+
+Affected versions:?<2.0.3 || >=2.1.0 <2.1.2
+CVE IDs:?CVE-2026-1554
+Description:?
+This module enables you to turn a Drupal install into the Central
+Authentication System (CAS). It makes your database the primary location for
+other systems to use for authentication in a SSO environment.
+
+The module doesn't sufficiently sanitize user-supplied field values
+configured to be included as attributes in a CAS server response.
+
+This vulnerability is mitigated by the fact that an attacker must be
+authenticated, have the ability to enter XML into a user entity field, and
+that field be configured as a CAS Attribute source leading to an XML Element
+Injection vulnerability.
+
+Solution:?
+Install the latest version:
+
+  * If you use the CAS Server module for Drupal >=9.1.x or 10.x, upgrade to
+    CAS Server 2.0.3 [3]
+  * If you use the CAS Server module for Drupal >=10.3.x or 11.x, upgrade to
+    CAS Server 2.1.2 [4]
+
+Reported By:?
+  * Ga?l Gosset (ga?lg) [5]
+
+Fixed By:?
+  * Ted Cooper (elc) [6]
+  * Ga?l Gosset (ga?lg) [7]
+  * Jaap Jansma (jaapjansma) [8]
+
+Coordinated By:?
+  * Greg Knaddison (greggles) [9] of the Drupal Security Team
+  * Juraj Nemec (poker10) [10] of the Drupal Security Team
+
+Security
+issue:?https://git.drupalcode.org/security/30-cas_server-security/-/issues/1
+[11]
+------------------------------------------------------------------------------
+Contribution record [12]
+
+[1] https://www.drupal.org/project/cas_server
+[2] https://www.drupal.org/security-team/risk-levels
+[3] https://www.drupal.org/project/cas_server/releases/2.0.3
+[4] https://www.drupal.org/project/cas_server/releases/2.1.2
+[5] https://www.drupal.org/u/ga%C3%ABlg
+[6] https://www.drupal.org/u/elc
+[7] https://www.drupal.org/u/ga%C3%ABlg
+[8] https://www.drupal.org/u/jaapjansma
+[9] https://www.drupal.org/u/greggles
+[10] https://www.drupal.org/u/poker10
+[11] https://git.drupalcode.org/security/30-cas_server-security/-/issues/1
+[12]  
+https://new.drupal.org/contribution-record?source_link=https%3A//www.drupal.org/node/3567524
+
+

@@ -1,0 +1,1793 @@
+{
+ "note": "CNA shortName -> domains counted as the CNA's own site; built by build_own_domains.py from roster/CNAsList.json merged with the first draft's hand map. VulnCheck omitted on purpose (4.5.1.6). cve72.py matches keys to assignerShortName ignoring case, spaces, underscores and dots.",
+ "generic_excluded": [
+  "about.google",
+  "bitbucket.org",
+  "bugcrowd.com",
+  "cve.org",
+  "gitee.com",
+  "github.com",
+  "github.io",
+  "gitlab.com",
+  "gmail.com",
+  "google.com",
+  "googleapis.com",
+  "googlegroups.com",
+  "groups.io",
+  "hackerone.com",
+  "huntr.com",
+  "huntr.dev",
+  "linkedin.com",
+  "me.com",
+  "mitre.org",
+  "nvd.nist.gov",
+  "openwall.com",
+  "sharepoint.com",
+  "site.com",
+  "sourceforge.net",
+  "twitter.com",
+  "wordpress.org",
+  "x.com",
+  "youtube.com"
+ ],
+ "domains": {
+  "adobe": [
+   "adobe.com"
+  ],
+  "AMD": [
+   "amd.com"
+  ],
+  "airbus": [
+   "airbus.com"
+  ],
+  "Alias": [
+   "aliasrobotics.com"
+  ],
+  "alibaba": [
+   "alibaba-inc.com",
+   "alibaba.com"
+  ],
+  "Ampere": [
+   "amperecomputing.com"
+  ],
+  "google_android": [
+   "android.com"
+  ],
+  "apache": [
+   "apache.org"
+  ],
+  "apple": [
+   "apple.com"
+  ],
+  "Arista": [
+   "arista.com"
+  ],
+  "ABB": [
+   "abb.com",
+   "global.abb"
+  ],
+  "atlassian": [
+   "atlassian.com"
+  ],
+  "autodesk": [
+   "autodesk.com"
+  ],
+  "avaya": [
+   "avaya.com"
+  ],
+  "Axis": [
+   "axis.com"
+  ],
+  "BD": [
+   "bd.com"
+  ],
+  "Bitdefender": [
+   "bitdefender.com"
+  ],
+  "blackberry": [
+   "blackberry.com"
+  ],
+  "brocade": [
+   "broadcom.com"
+  ],
+  "canonical": [
+   "ubuntu.com"
+  ],
+  "ca": [
+   "broadcom.com"
+  ],
+  "certcc": [
+   "cert.org"
+  ],
+  "CERTVDE": [
+   "vde.com"
+  ],
+  "checkpoint": [
+   "checkpoint.com"
+  ],
+  "Chrome": [
+   "chromium.org",
+   "googleblog.com"
+  ],
+  "cisco": [
+   "cisco.com",
+   "duo.com"
+  ],
+  "cloudflare": [
+   "cloudflare.com"
+  ],
+  "Crafter_CMS": [
+   "craftercms.org",
+   "craftersoftware.com"
+  ],
+  "icscert": [
+   "cisa.gov"
+  ],
+  "CSW": [
+   "cybersecurityworks.com"
+  ],
+  "dahua": [
+   "dahuasecurity.com",
+   "dahuatech.com"
+  ],
+  "debian": [
+   "debian.org"
+  ],
+  "dell": [
+   "dell.com"
+  ],
+  "DEVOLUTIONS": [
+   "devolutions.net"
+  ],
+  "Document_Fdn.": [
+   "documentfoundation.org",
+   "libreoffice.org"
+  ],
+  "drupal": [
+   "drupal.org"
+  ],
+  "Eaton": [
+   "eaton.com"
+  ],
+  "eclipse": [
+   "eclipse.org"
+  ],
+  "elastic": [
+   "elastic.co"
+  ],
+  "EA": [
+   "ea.com"
+  ],
+  "Esri": [
+   "arcgis.com",
+   "esri.com"
+  ],
+  "ESET": [
+   "eset.com",
+   "welivesecurity.com"
+  ],
+  "F5": [
+   "f5.com"
+  ],
+  "Meta": [
+   "facebook.com"
+  ],
+  "fedora": [
+   "fedoraproject.org"
+  ],
+  "Fidelis": [
+   "fidelissecurity.com"
+  ],
+  "flexera": [
+   "flexera.com"
+  ],
+  "floragunn": [
+   "search-guard.com"
+  ],
+  "Fluid_Attacks": [
+   "fluidattacks.com"
+  ],
+  "forcepoint": [
+   "forcepoint.com"
+  ],
+  "fortinet": [
+   "fortiguard.com",
+   "fortinet.com"
+  ],
+  "FSOFT": [
+   "fpt.com",
+   "fptsoftware.com"
+  ],
+  "freebsd": [
+   "freebsd.org"
+  ],
+  "Gallagher": [
+   "gallagher.com"
+  ],
+  "GitHub_M": [
+   "github.com"
+  ],
+  "GitHub_P": [
+   "github.com"
+  ],
+  "GitLab": [
+   "gitlab.com"
+  ],
+  "Google": [
+   "android.com",
+   "chromium.org",
+   "google.ch",
+   "google.com"
+  ],
+  "hikvision": [
+   "hikvision.com"
+  ],
+  "HCL": [
+   "hcl-software.com",
+   "hcltechsw.com"
+  ],
+  "hpe": [
+   "hpe.com"
+  ],
+  "Hitachi_Energy": [
+   "hitachienergy.com"
+  ],
+  "hp": [
+   "hp.com"
+  ],
+  "huawei": [
+   "huawei.com"
+  ],
+  "ibm": [
+   "ibm.com"
+  ],
+  "intel": [
+   "intel.com"
+  ],
+  "isc": [
+   "isc.org"
+  ],
+  "INCD": [
+   "cyber.gov.il",
+   "gov.il"
+  ],
+  "jenkins": [
+   "jenkins.io"
+  ],
+  "jci": [
+   "jci.com",
+   "johnsoncontrols.com"
+  ],
+  "Joomla": [
+   "joomla.org"
+  ],
+  "jpcert": [
+   "jpcert.or.jp",
+   "jvn.jp"
+  ],
+  "juniper": [
+   "juniper.net"
+  ],
+  "Kaspersky": [
+   "kaspersky.com"
+  ],
+  "krcert": [
+   "krcert.or.kr"
+  ],
+  "kubernetes": [
+   "kubernetes.io"
+  ],
+  "larry_cashdollar": [
+   "vapidlabs.com"
+  ],
+  "lenovo": [
+   "lenovo.com"
+  ],
+  "LY-Corporation": [
+   "lycorp.co.jp"
+  ],
+  "Logitech": [
+   "logitech.com"
+  ],
+  "Mattermost": [
+   "mattermost.com"
+  ],
+  "Mautic": [
+   "mautic.org"
+  ],
+  "Trellix": [
+   "trellix.com"
+  ],
+  "OpenText": [
+   "opentext.com"
+  ],
+  "microsoft": [
+   "microsoft.com"
+  ],
+  "mitre": [
+   "cve.org",
+   "mitre.org"
+  ],
+  "Mitsubishi": [
+   "mitsubishielectric.co.jp",
+   "mitsubishielectric.com"
+  ],
+  "mongodb": [
+   "mongodb.com"
+  ],
+  "mozilla": [
+   "mozilla.org"
+  ],
+  "naver": [
+   "naver.com",
+   "navercorp.com"
+  ],
+  "NEC": [
+   "nec.com"
+  ],
+  "netapp": [
+   "netapp.com"
+  ],
+  "netflix": [
+   "netflix.com"
+  ],
+  "Absolute": [
+   "absolute.com"
+  ],
+  "NLnet_Labs": [
+   "nlnetlabs.nl"
+  ],
+  "nodejs": [
+   "iojs.org",
+   "nodejs.org"
+  ],
+  "GEN": [
+   "gendigital.com"
+  ],
+  "Nozomi": [
+   "nozominetworks.com"
+  ],
+  "nvidia": [
+   "nvidia.com"
+  ],
+  "obdev": [
+   "obdev.at"
+  ],
+  "Octopus": [
+   "octopus.com"
+  ],
+  "odoo": [
+   "odoo.com"
+  ],
+  "openEuler": [
+   "openeuler.org"
+  ],
+  "openssl": [
+   "openssl.org"
+  ],
+  "OpenVPN": [
+   "openvpn.net"
+  ],
+  "Opera": [
+   "opera.com"
+  ],
+  "OPPO": [
+   "oppo.com"
+  ],
+  "oracle": [
+   "oracle.com"
+  ],
+  "OTRS": [
+   "otrs.com"
+  ],
+  "palo_alto": [
+   "paloaltonetworks.com"
+  ],
+  "Patchstack": [
+   "patchstack.com"
+  ],
+  "Pega": [
+   "pega.com"
+  ],
+  "php": [
+   "php.net"
+  ],
+  "Perforce": [
+   "perforce.com"
+  ],
+  "qnap": [
+   "qnap.com"
+  ],
+  "qualcomm": [
+   "qualcomm.com"
+  ],
+  "rapid7": [
+   "rapid7.com"
+  ],
+  "redhat": [
+   "redhat.com"
+  ],
+  "Replicated": [
+   "replicated.com"
+  ],
+  "bosch": [
+   "bosch.com"
+  ],
+  "Salesforce": [
+   "salesforce.com"
+  ],
+  "Samsung_Mobile": [
+   "samsung.com",
+   "samsungmobile.com"
+  ],
+  "sap": [
+   "sap.com",
+   "url.sap"
+  ],
+  "Secomea": [
+   "secomea.com"
+  ],
+  "schneider": [
+   "lk-ea.com",
+   "se.com"
+  ],
+  "SICK_AG": [
+   "sick.com",
+   "sick.de"
+  ],
+  "siemens": [
+   "siemens.com"
+  ],
+  "Semtech": [
+   "semtech.com"
+  ],
+  "Silver_Peak": [
+   "silver-peak.com"
+  ],
+  "Simplinx": [
+   "simplinx.com"
+  ],
+  "snyk": [
+   "snyk.io"
+  ],
+  "SolarWinds": [
+   "solarwinds.com"
+  ],
+  "sonicwall": [
+   "sonicwall.com"
+  ],
+  "Sophos": [
+   "sophos.com"
+  ],
+  "INCIBE": [
+   "incibe.es"
+  ],
+  "suse": [
+   "suse.com",
+   "suse.de"
+  ],
+  "Swift": [
+   "swift.org"
+  ],
+  "symantec": [
+   "broadcom.com"
+  ],
+  "Synaptics": [
+   "synaptics.com"
+  ],
+  "synology": [
+   "synology.com"
+  ],
+  "BlackDuck": [
+   "blackduck.com"
+  ],
+  "talos": [
+   "cisco.com",
+   "talosintelligence.com"
+  ],
+  "Tcpdump": [
+   "tcpdump.org"
+  ],
+  "tenable": [
+   "tenable.com"
+  ],
+  "tibco": [
+   "tibco.com"
+  ],
+  "Tigera": [
+   "projectcalico.org",
+   "tigera.io"
+  ],
+  "Toshiba": [
+   "global.toshiba",
+   "toshiba.co.jp"
+  ],
+  "TR-CERT": [
+   "siberguvenlik.gov.tr"
+  ],
+  "trendmicro": [
+   "trendmicro.com"
+  ],
+  "twcert": [
+   "cert.org.tw",
+   "twcert.org.tw"
+  ],
+  "Vaadin": [
+   "vaadin.com"
+  ],
+  "Vivo": [
+   "vivo.com"
+  ],
+  "vmware": [
+   "broadcom.com",
+   "vmware.com"
+  ],
+  "Wordfence": [
+   "wordfence.com"
+  ],
+  "WPScan": [
+   "wpscan.com"
+  ],
+  "XEN": [
+   "xen.org",
+   "xenproject.org"
+  ],
+  "Xiaomi": [
+   "mi.com",
+   "xiaomi.com"
+  ],
+  "Xylem": [
+   "xylem.com",
+   "xyleminc.com"
+  ],
+  "yandex": [
+   "yandex-team.ru",
+   "yandex.com"
+  ],
+  "Zabbix": [
+   "zabbix.com"
+  ],
+  "zephyr": [
+   "zephyrproject.org"
+  ],
+  "zdi": [
+   "trendmicro.com",
+   "zerodayinitiative.com"
+  ],
+  "Zoom": [
+   "zoom.com",
+   "zoom.us"
+  ],
+  "Zscaler": [
+   "zscaler.com"
+  ],
+  "ZTE": [
+   "zte.com.cn"
+  ],
+  "Zyxel": [
+   "zyxel.com",
+   "zyxel.com.tw"
+  ],
+  "Snow": [
+   "snowsoftware.com"
+  ],
+  "LGE": [
+   "lge.com"
+  ],
+  "Censys": [
+   "censys.io"
+  ],
+  "PingIdentity": [
+   "pingidentity.com"
+  ],
+  "Palantir": [
+   "palantir.com"
+  ],
+  "M-Files": [
+   "m-files.com"
+  ],
+  "JFrog": [
+   "jfrog.com"
+  ],
+  "NCSC.ch": [
+   "admin.ch",
+   "ncsc.ch"
+  ],
+  "MediaTek": [
+   "mediatek.com"
+  ],
+  "THA-PSIRT": [
+   "thalesgroup.com"
+  ],
+  "Yugabyte": [
+   "yugabyte.com"
+  ],
+  "ASUSTOR": [
+   "asustor.com"
+  ],
+  "Okta": [
+   "okta.com"
+  ],
+  "CERT-In": [
+   "cert-in.org.in"
+  ],
+  "WDC_PSIRT": [
+   "wdc.com",
+   "westerndigital.com"
+  ],
+  "AppCheck": [
+   "appcheck-ng.com"
+  ],
+  "Acronis": [
+   "acronis.com"
+  ],
+  "Carrier": [
+   "carrier.com"
+  ],
+  "PandoraFMS": [
+   "pandorafms.com"
+  ],
+  "Silabs": [
+   "silabs.com"
+  ],
+  "Panasonic_Holdings_Corporation": [
+   "panasonic.com"
+  ],
+  "ZGR": [
+   "zigor.com"
+  ],
+  "Profelis": [
+   "profelis.com.tr"
+  ],
+  "TeamViewer": [
+   "teamviewer.com"
+  ],
+  "Mirantis": [
+   "mirantis.com"
+  ],
+  "VulDB": [
+   "vuldb.com"
+  ],
+  "OpenBMC": [
+   "ozlabs.org"
+  ],
+  "DIVD": [
+   "divd.nl"
+  ],
+  "Baxter": [
+   "baxter.com"
+  ],
+  "Citrix": [
+   "citrix.com"
+  ],
+  "JetBrains": [
+   "jetbrains.com"
+  ],
+  "Medtronic": [
+   "medtronic.com"
+  ],
+  "ASRG": [
+   "asrg.io"
+  ],
+  "Netskope": [
+   "netskope.com"
+  ],
+  "Go": [
+   "go.dev",
+   "golang.org"
+  ],
+  "GE_Vernova": [
+   "gevernova.com"
+  ],
+  "ZUSO_ART": [
+   "zuso.ai"
+  ],
+  "Anolis": [
+   "openanolis.cn",
+   "openanolis.org"
+  ],
+  "Philips": [
+   "philips.com"
+  ],
+  "HYPR": [
+   "hypr.com"
+  ],
+  "Hitachi": [
+   "hitachi.co.jp",
+   "hitachi.com"
+  ],
+  "Hallo_Welt": [
+   "bluespice.com"
+  ],
+  "SailPoint": [
+   "sailpoint.com"
+  ],
+  "Hitachi_Vantara": [
+   "hitachivantara.com",
+   "pentaho.com"
+  ],
+  "GE_Healthcare": [
+   "gehealthcare.com"
+  ],
+  "openGauss": [
+   "opengauss.org"
+  ],
+  "FULL": [
+   "full.services",
+   "wpfull.com.br"
+  ],
+  "The_Missing_Link": [
+   "themissinglink.com.au"
+  ],
+  "NCSC-NL": [
+   "ncsc.nl"
+  ],
+  "Dassault_Systemes": [
+   "3ds.com"
+  ],
+  "KNIME": [
+   "knime.com"
+  ],
+  "Unisoc": [
+   "unisoc.com"
+  ],
+  "OpenHarmony": [
+   "openharmony.io"
+  ],
+  "Crestron": [
+   "crestron.com"
+  ],
+  "Rockwell": [
+   "rockwellautomation.com"
+  ],
+  "OpenNMS": [
+   "opennms.com"
+  ],
+  "Dragos": [
+   "dragos.com"
+  ],
+  "CyberArk": [
+   "cyberark.com",
+   "paloaltonetworks.com"
+  ],
+  "DualVS": [
+   "dualvs.com"
+  ],
+  "SK-CERT": [
+   "nbu.gov.sk",
+   "sk-cert.sk"
+  ],
+  "NetRise": [
+   "netrise.io"
+  ],
+  "HashiCorp": [
+   "hashicorp.com"
+  ],
+  "GreenRocketSecurity": [
+   "greenrocketsecurity.com"
+  ],
+  "Seagate": [
+   "seagate.com"
+  ],
+  "senhasegura": [
+   "senhasegura.com",
+   "senhasegura.io"
+  ],
+  "KrakenD": [
+   "krakend.io"
+  ],
+  "ONEKEY": [
+   "onekey.com"
+  ],
+  "Zowe": [
+   "openmainframeproject.org",
+   "zowe.org"
+  ],
+  "Honor": [
+   "hihonor.com"
+  ],
+  "Honeywell": [
+   "honeywell.com"
+  ],
+  "Qualys": [
+   "qualys.com"
+  ],
+  "GRAFANA": [
+   "grafana.com"
+  ],
+  "wolfSSL": [
+   "wolfssl.com"
+  ],
+  "Docker": [
+   "docker.com"
+  ],
+  "Proofpoint": [
+   "proofpoint.com"
+  ],
+  "Baidu": [
+   "baidu.com"
+  ],
+  "Canon": [
+   "psirt.canon"
+  ],
+  "Checkmk": [
+   "checkmk.com"
+  ],
+  "dotCMS": [
+   "dotcms.com"
+  ],
+  "DHIS2": [
+   "dhis2.org"
+  ],
+  "NI": [
+   "ni.com"
+  ],
+  "Genetec": [
+   "genetec.com"
+  ],
+  "AHA": [
+   "takeonme.org"
+  ],
+  "XI": [
+   "exodusintel.com"
+  ],
+  "B.Braun": [
+   "bbraun.com"
+  ],
+  "OX": [
+   "open-xchange.com"
+  ],
+  "Hillstone": [
+   "hillstonenet.com",
+   "hillstonenet.com.cn"
+  ],
+  "STAR_Labs": [
+   "starlabs.sg"
+  ],
+  "ShopBeat": [
+   "shopbeat.co.za"
+  ],
+  "SN": [
+   "servicenow.com"
+  ],
+  "WatchGuard": [
+   "watchguard.com"
+  ],
+  "IDEMIA": [
+   "idemia.com"
+  ],
+  "GandC": [
+   "xpdfreader.com"
+  ],
+  "Liferay": [
+   "liferay.com",
+   "liferay.dev"
+  ],
+  "Securifera": [
+   "securifera.com"
+  ],
+  "CyberDanube": [
+   "cyberdanube.com"
+  ],
+  "StrongDM": [
+   "strongdm.com"
+  ],
+  "SEL": [
+   "selinc.com"
+  ],
+  "Halborn": [
+   "halborn.com"
+  ],
+  "Ribose": [
+   "ribose.com"
+  ],
+  "42Gears": [
+   "42gears.com"
+  ],
+  "Solidigm": [
+   "solidigm.com"
+  ],
+  "Illumio": [
+   "illumio.com"
+  ],
+  "BLSOPS": [
+   "blacklanternsecurity.com"
+  ],
+  "IoT83": [
+   "iot83.com"
+  ],
+  "Moxa": [
+   "moxa.com"
+  ],
+  "Temporal": [
+   "temporal.io"
+  ],
+  "AMI": [
+   "ami.com"
+  ],
+  "Payara": [
+   "payara.fish"
+  ],
+  "NCSC-FI": [
+   "kyberturvallisuuskeskus.fi",
+   "ncsc.fi"
+  ],
+  "samsung.tv_appliance": [
+   "samsung.com",
+   "samsungda.com",
+   "samsungtv.com"
+  ],
+  "SRA": [
+   "sra.io"
+  ],
+  "Arm": [
+   "arm.com"
+  ],
+  "ODA": [
+   "opendesign.com"
+  ],
+  "BHV": [
+   "villageb.io"
+  ],
+  "Gitea": [
+   "gitea.com"
+  ],
+  "Google_Devices": [
+   "android.com"
+  ],
+  "MIM": [
+   "mimsoftware.com"
+  ],
+  "IDBS": [
+   "idbs.com"
+  ],
+  "Hanwha_Vision": [
+   "hanwha.com",
+   "hanwhavision.com"
+  ],
+  "CrowdStrike": [
+   "crowdstrike.com"
+  ],
+  "ProgressSoftware": [
+   "progress.com"
+  ],
+  "CERT-PL": [
+   "cert.pl"
+  ],
+  "CISA": [
+   "cisa.gov"
+  ],
+  "cisa-cg": [
+   "cisa.gov"
+  ],
+  "Phoenix": [
+   "phoenixtech.com"
+  ],
+  "VULSec": [
+   "vulsec.org"
+  ],
+  "Everpure": [
+   "purestorage.com"
+  ],
+  "PSF": [
+   "python.org"
+  ],
+  "securin": [
+   "securin.io"
+  ],
+  "Nokia": [
+   "nokia.com"
+  ],
+  "ICT": [
+   "ict.co"
+  ],
+  "Xerox": [
+   "xerox.com"
+  ],
+  "SoftIron": [
+   "softiron.cloud",
+   "softiron.com"
+  ],
+  "ADI": [
+   "analog.com"
+  ],
+  "AlgoSec": [
+   "algosec.com"
+  ],
+  "Canon_EMEA": [
+   "canon-europe.com"
+  ],
+  "Lexmark": [
+   "lexmark.com"
+  ],
+  "KeeperSecurity": [
+   "keeper.io",
+   "keepersecurity.com"
+  ],
+  "Caliptra": [
+   "chipsalliance.org"
+  ],
+  "PaperCut": [
+   "papercut.com"
+  ],
+  "WrenSecurity": [
+   "wrensecurity.org"
+  ],
+  "KCFTech": [
+   "kcftech.com"
+  ],
+  "YokogawaGroup": [
+   "yokogawa.com"
+  ],
+  "libreswan": [
+   "libreswan.org"
+  ],
+  "NX": [
+   "networkoptix.com"
+  ],
+  "Dfinity": [
+   "dfinity.org",
+   "internetcomputer.org"
+  ],
+  "SEC-VLab": [
+   "sec-consult.com"
+  ],
+  "Armis": [
+   "armis.com"
+  ],
+  "SmileDigitalHealth": [
+   "smiledigitalhealth.com"
+  ],
+  "WSO2": [
+   "wso2.com"
+  ],
+  "ARCON": [
+   "arconnet.com"
+  ],
+  "Checkmarx": [
+   "checkmarx.com",
+   "checkmarx.net"
+  ],
+  "ASR": [
+   "asrmicro.com"
+  ],
+  "Ciena": [
+   "ciena.com"
+  ],
+  "Zohocorp": [
+   "manageengine.com",
+   "zohocorp.com"
+  ],
+  "Fortra": [
+   "fortra.com"
+  ],
+  "EDB": [
+   "enterprisedb.com"
+  ],
+  "HiddenLayer": [
+   "hiddenlayer.com"
+  ],
+  "arcinfo": [
+   "arcinfo.com",
+   "pcvue.com"
+  ],
+  "ConcreteCMS": [
+   "concretecms.org"
+  ],
+  "Pentraze": [
+   "pentraze.com"
+  ],
+  "ELAN": [
+   "emc.com.tw"
+  ],
+  "ChromeOS": [
+   "chromium.org",
+   "googleblog.com"
+  ],
+  "PostgreSQL": [
+   "postgresql.org"
+  ],
+  "curl": [
+   "curl.se"
+  ],
+  "milestonesys": [
+   "milestonesys.com"
+  ],
+  "ENISA": [
+   "csirtsnetwork.eu",
+   "europa.eu"
+  ],
+  "Sonatype": [
+   "sonatype.com"
+  ],
+  "ERIC": [
+   "ericsson.com"
+  ],
+  "tlt_net": [
+   "teltonika-networks.com"
+  ],
+  "FSI": [
+   "fsec.or.kr"
+  ],
+  "glibc": [
+   "sourceware.org"
+  ],
+  "BT": [
+   "beyondtrust.com"
+  ],
+  "Linux": [
+   "kernel.org"
+  ],
+  "DevCycle": [
+   "devcycle.com"
+  ],
+  "directcyber": [
+   "directcyber.com.au"
+  ],
+  "sec1": [
+   "sec1.io"
+  ],
+  "TECNOMobile": [
+   "tecno-mobile.com",
+   "tecno.com"
+  ],
+  "CoolKit": [
+   "ewelink.cc"
+  ],
+  "openam-jp": [
+   "openam.jp"
+  ],
+  "rami.io": [
+   "rami.io"
+  ],
+  "Dremio": [
+   "dremio.com"
+  ],
+  "JAMF": [
+   "jamf.com"
+  ],
+  "Edgewatch": [
+   "edgewatch.com"
+  ],
+  "cirosec": [
+   "cirosec.de"
+  ],
+  "Microchip": [
+   "microchip.com"
+  ],
+  "Tego_Cyber": [
+   "tegocyber.com"
+  ],
+  "N-able": [
+   "n-able.com"
+  ],
+  "OS-S": [
+   "os-s.de",
+   "os-s.net"
+  ],
+  "TXOne": [
+   "txone.com"
+  ],
+  "SCIEX": [
+   "sciex.com"
+  ],
+  "LMS": [
+   "leica-microsystems.com"
+  ],
+  "vx": [
+   "voting.works"
+  ],
+  "ConnectWise": [
+   "connectwise.com"
+  ],
+  "ClickHouse": [
+   "clickhouse.com"
+  ],
+  "sba-research": [
+   "sba-research.org"
+  ],
+  "WindRiver": [
+   "windriver.com"
+  ],
+  "KoreLogic": [
+   "korelogic.com"
+  ],
+  "HeroDevs": [
+   "herodevs.com"
+  ],
+  "Kong": [
+   "konghq.com"
+  ],
+  "upKeeper": [
+   "upkeeper.se"
+  ],
+  "Cato": [
+   "catonetworks.com"
+  ],
+  "AMZN": [
+   "amazon.com"
+  ],
+  "RealPage": [
+   "realpage.com"
+  ],
+  "Huntress": [
+   "huntress.io",
+   "huntresslabs.com"
+  ],
+  "Forescout": [
+   "forescout.com"
+  ],
+  "9front": [
+   "9front.org"
+  ],
+  "ivanti": [
+   "ivanti.com"
+  ],
+  "imaginationtech": [
+   "imaginationtech.com",
+   "imgtec.com"
+  ],
+  "Intigriti": [
+   "intigriti.com"
+  ],
+  "Stryker": [
+   "stryker.com"
+  ],
+  "watchdog": [
+   "watchdog.com"
+  ],
+  "Proton": [
+   "proton.me"
+  ],
+  "Wiz": [
+   "wiz.io"
+  ],
+  "Supermicro": [
+   "supermicro.com"
+  ],
+  "MON-CSIRT": [
+   "monash.edu"
+  ],
+  "seal": [
+   "sealsecurity.io"
+  ],
+  "Cytiva": [
+   "cytiva.com",
+   "cytivalifesciences.com"
+  ],
+  "Arxscan": [
+   "arxscan.com"
+  ],
+  "PlexTrac": [
+   "plextrac.com"
+  ],
+  "ASUS": [
+   "asus.com"
+  ],
+  "Pall": [
+   "pall.com"
+  ],
+  "MyMMT": [
+   "mammotome.com"
+  ],
+  "wikimedia-foundation": [
+   "mediawiki.org",
+   "wikimedia.org"
+  ],
+  "RTI": [
+   "rti.com"
+  ],
+  "PingCAP": [
+   "pingcap.com"
+  ],
+  "OMRON": [
+   "omron.com"
+  ],
+  "CSA": [
+   "csa.gov.sg"
+  ],
+  "LeicaBiosystems": [
+   "leicabiosystems.com"
+  ],
+  "Neo4j": [
+   "neo4j.com"
+  ],
+  "OnLogic": [
+   "onlogic.com"
+  ],
+  "OB": [
+   "oceanbase.com"
+  ],
+  "Gridware": [
+   "gridware.com.au"
+  ],
+  "BECDX": [
+   "beckman.com",
+   "beckmancoulter.com"
+  ],
+  "Omnissa": [
+   "omnissa.com"
+  ],
+  "graphql-java": [
+   "graphql-java.com"
+  ],
+  "BECLS": [
+   "beckman.com"
+  ],
+  "Radiometer": [
+   "radiometer.com",
+   "radiometer.dk"
+  ],
+  "Deltaww": [
+   "deltaww.com"
+  ],
+  "bizerba": [
+   "bizerba.com"
+  ],
+  "iManage": [
+   "imanage.com"
+  ],
+  "Automox": [
+   "automox.com"
+  ],
+  "Delinea": [
+   "delinea.com"
+  ],
+  "CEP": [
+   "cepheid.com"
+  ],
+  "S21sec": [
+   "s21sec.com",
+   "thalesgroup.com"
+  ],
+  "Roche": [
+   "roche.com"
+  ],
+  "MolDev": [
+   "moleculardevices.com"
+  ],
+  "SOCRadar": [
+   "socradar.io"
+  ],
+  "PTC": [
+   "ptc.com"
+  ],
+  "HemoCue": [
+   "hemocue.com",
+   "hemocue.se"
+  ],
+  "securepoint": [
+   "securepoint.de"
+  ],
+  "Centreon": [
+   "centreon.com"
+  ],
+  "ATIS": [
+   "atisoluciones.com"
+  ],
+  "PangeaCyber": [
+   "pangea.cloud"
+  ],
+  "Softing": [
+   "softing.com"
+  ],
+  "Danfoss": [
+   "danfoss.com"
+  ],
+  "Saviynt": [
+   "saviynt.com"
+  ],
+  "CPANSec": [
+   "metacpan.org"
+  ],
+  "IDT-DNA": [
+   "idtdna.com"
+  ],
+  "TMUS": [
+   "t-mobile.com"
+  ],
+  "Digi": [
+   "digi.com"
+  ],
+  "Qt": [
+   "qt.io"
+  ],
+  "TPLink": [
+   "tp-link.com"
+  ],
+  "SDC": [
+   "sandisk.com"
+  ],
+  "CTOne": [
+   "ctone.com"
+  ],
+  "Jaspersoft": [
+   "cloud.com",
+   "jaspersoft.com"
+  ],
+  "Spotfire": [
+   "cloud.com",
+   "spotfire.com"
+  ],
+  "Insyde": [
+   "insyde.com"
+  ],
+  "EEF": [
+   "erlef.org"
+  ],
+  "SCHUTZWERK": [
+   "schutzwerk.com"
+  ],
+  "Stackable": [
+   "stackable.tech"
+  ],
+  "ExtremeNetworks": [
+   "extremenetworks.com"
+  ],
+  "harborist": [
+   "harbor.ist"
+  ],
+  "TRO": [
+   "mobile-industrial-robots.com",
+   "teradyne-robotics.com",
+   "universal-robots.com"
+  ],
+  "Profisee": [
+   "profisee.com"
+  ],
+  "openjs": [
+   "openjsf.org"
+  ],
+  "Toreon": [
+   "toreon.com"
+  ],
+  "MHV": [
+   "maritimehackingvillage.com"
+  ],
+  "Altium": [
+   "altium.com",
+   "altium365.com"
+  ],
+  "TYPO3": [
+   "typo3.org"
+  ],
+  "TCS-CERT": [
+   "tcs-cert.com",
+   "thalesgroup.com"
+  ],
+  "rust": [
+   "rust-lang.org"
+  ],
+  "Arteche": [
+   "arteche.com"
+  ],
+  "bcorg": [
+   "bouncycastle.org"
+  ],
+  "NETGEAR": [
+   "netgear.com"
+  ],
+  "spartans-security": [
+   "spartanssec.com"
+  ],
+  "Antenna": [
+   "antenna.dev"
+  ],
+  "GV": [
+   "geovision.com.tw"
+  ],
+  "Commvault": [
+   "commvault.com"
+  ],
+  "AxxonSoft": [
+   "axxonsoft.com"
+  ],
+  "HackRTU": [
+   "hackrtu.com"
+  ],
+  "Echo": [
+   "echohq.com"
+  ],
+  "Uniview": [
+   "uniview.com"
+  ],
+  "YesWeHack": [
+   "yeswehack.com"
+  ],
+  "Leonardo": [
+   "leonardo.com"
+  ],
+  "azure-access": [
+   "azure-access.com"
+  ],
+  "Almaviva": [
+   "almaviva.it",
+   "cyberiskvision.com"
+  ],
+  "XONA": [
+   "xonasystems.com"
+  ],
+  "BCNY": [
+   "arc.net",
+   "diabrowser.com",
+   "thebrowser.company"
+  ],
+  "Foxit": [
+   "foxit.com"
+  ],
+  "Nutanix": [
+   "nutanix.com"
+  ],
+  "DSF": [
+   "djangoproject.com"
+  ],
+  "Altera": [
+   "altera.com"
+  ],
+  "Tanium": [
+   "tanium.com",
+   "tanium.org"
+  ],
+  "2N": [
+   "2n.com"
+  ],
+  "NetScaler": [
+   "citrix.com",
+   "cloud.com"
+  ],
+  "runZero": [
+   "runzero.com"
+  ],
+  "FERMAX": [
+   "fermax.com"
+  ],
+  "Hackrate": [
+   "hckrt.com"
+  ],
+  "NIBEGroup": [
+   "nibegroup.com"
+  ],
+  "Vantive": [
+   "vantive.com"
+  ],
+  "ByteDance": [
+   "bytedance.com",
+   "larkoffice.com"
+  ],
+  "Nintendo": [
+   "nintendo.com"
+  ],
+  "TCL_Smart_Terminal": [
+   "tcl.com"
+  ],
+  "CODRA": [
+   "codra.net"
+  ],
+  "PRJBLK": [
+   "projectblack.io"
+  ],
+  "DTEX": [
+   "dtexsystems.com"
+  ],
+  "Vestel": [
+   "vestel.com.tr",
+   "vestelinternational.com"
+  ],
+  "JupiterOne": [
+   "jupiterone.com",
+   "jupiterone.io"
+  ],
+  "cygence": [
+   "cygence.com.au"
+  ],
+  "TuranSec": [
+   "turansec.uz"
+  ],
+  "BombadilSystems": [
+   "bombadil.systems"
+  ],
+  "Cribl": [
+   "cribl.io"
+  ],
+  "HDFG": [
+   "hdfgroup.org"
+  ],
+  "FB": [
+   "fujifilm.com"
+  ],
+  "Acer": [
+   "acer.com"
+  ],
+  "Canva": [
+   "canva.com"
+  ],
+  "QCI": [
+   "quantatw.com"
+  ],
+  "SNOW": [
+   "snowflake.com"
+  ],
+  "FTI": [
+   "fsastech.com",
+   "fujitsu.com"
+  ],
+  "Synopsys": [
+   "synopsys.com"
+  ],
+  "Entrust": [
+   "entrust.com"
+  ],
+  "CSAI": [
+   "cloudsecurityalliance.org"
+  ],
+  "OAI": [
+   "openai.com"
+  ],
+  "CIRCL": [
+   "circl.lu"
+  ],
+  "Ygreky": [
+   "ygreky.com"
+  ],
+  "OCD": [
+   "orangecyberdefense.com"
+  ],
+  "gvision-it": [
+   "gvision.it"
+  ],
+  "BAE": [
+   "baesystems.com",
+   "baesystems.us",
+   "geospatialexploitationproducts.com"
+  ],
+  "Hologic": [
+   "hologic.com"
+  ],
+  "Airlock": [
+   "airlock.com"
+  ],
+  "ThinkstAppliedResearch": [
+   "canary.tools",
+   "thinkst.com"
+  ],
+  "eclypsium": [
+   "eclypsium.com"
+  ],
+  "Cynet": [
+   "cynet.com"
+  ],
+  "linqi": [
+   "linqi.de",
+   "linqi.help"
+  ],
+  "OMICRON": [
+   "omicronenergy.com"
+  ],
+  "IQSIGHT": [
+   "iqsight.com"
+  ],
+  "systemd": [
+   "redhat.com"
+  ],
+  "Secur0": [
+   "secur0.com"
+  ],
+  "sirius": [
+   "sirius.computer"
+  ],
+  "Verizon": [
+   "verizon.com"
+  ],
+  "VulNow": [
+   "vul.now"
+  ],
+  "Bull": [
+   "bull.com"
+  ],
+  "illumos": [
+   "illumos.org"
+  ],
+  "tuxcare": [
+   "tuxcare.com"
+  ],
+  "HDS": [
+   "hds.sk"
+  ],
+  "AISLE": [
+   "aisle.com"
+  ],
+  "Scality": [
+   "scality.com"
+  ],
+  "Tacit": [
+   "tacit.now"
+  ],
+  "Anthropic": [
+   "anthropic.com"
+  ],
+  "hsi": [
+   "havsys.com",
+   "ptzoptics.com"
+  ],
+  "NCSC": [
+   "nato.int"
+  ],
+  "postiz": [
+   "gadvisory.org"
+  ],
+  "Syncro": [
+   "oxygenxml.com"
+  ],
+  "Ubiquiti": [
+   "ui.com"
+  ],
+  "wibu": [
+   "wibu.com"
+  ],
+  "Grayback": [
+   "grayback.es"
+  ],
+  "Circutor": [
+   "circutor.com"
+  ],
+  "Velneo": [
+   "velneo.com",
+   "velneo.es"
+  ],
+  "S4M": [
+   "security4media.org"
+  ],
+  "Airoha": [
+   "airoha.com"
+  ],
+  "Zenitel": [
+   "zenitel.com"
+  ],
+  "esaqa": [
+   "esaqa.com"
+  ],
+  "HONA": [
+   "honeywellaerospace.com"
+  ],
+  "RES": [
+   "redeyesecurity.com"
+  ],
+  "chainguard": [
+   "chainguard.dev"
+  ],
+  "Westell": [
+   "westell.com"
+  ],
+  "Infoblox": [
+   "infoblox.com"
+  ],
+  "SafeSource": [
+   "safesourcelab.com"
+  ],
+  "Pointsharp": [
+   "pointsharp.com"
+  ],
+  "flock": [
+   "flocksafety.com"
+  ],
+  "f5": [
+   "f5.com"
+  ],
+  "Samsung": [
+   "samsung.com"
+  ],
+  "mattermost": [
+   "mattermost.com"
+  ],
+  "jetbrains": [
+   "jetbrains.com"
+  ],
+  "cert@vde.com": [
+   "vde.com",
+   "cert.vde.com"
+  ],
+  "wordfence": [
+   "wordfence.com"
+  ]
+ }
+}
