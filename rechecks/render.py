@@ -129,14 +129,14 @@ if s16:
        [[H(r["date"]), H(r["pending_year"]), fmt(r["pending_year_forms_loaded"]), H(r["newest_year"]), fmt(r.get("forms")), fmt(r.get("late_forms")), H(str(r.get("late_share_pct"))+"%"), fmt(r.get("facilities_late"))] for r in s16[-14:]])}
 <p class="cap">The day the pending year&rsquo;s count leaves zero, its late forms start their clock here; the enforcement join reruns after each ECHO refresh.</p>
 """
-s17 = load("sm-017")
-if s17:
+s18 = load("sm-018")
+if s18:
     body += f"""
-<h2>SM-017 &middot; Issues/programs lists in the FCC public file</h2>
-<p>Every quarter, the morning after the deadline (14 January, April, July and October): every TV, FM and AM station&rsquo;s folder re-read, the newest quarter scored. <a href="sm-017.html">Paper</a>.</p>
-{table([("Read",0),("Quarter",0),("Deadline",0),("Stations",1),("Lists found",1),("On time",1),("Late",1),("Share",0),("Late by the tenth",1),("Over 30 d",1),("No list found",1),("TV / FM / AM late",0)],
-       [[H(r["date"]), H(r["quarter"]), H(r["deadline"]), fmt(r["stations"]), fmt(r["have"]), fmt(r["on_time"]), fmt(r["late"]), H(str(r["late_pct"])+"%"), fmt(r["late_vs_rule_date"]) if r.get("rule_date") != r.get("deadline") else "—", fmt(r["late_over_30"]), fmt(r["none_found"]), H(f'{r.get("tv_late","—")} / {r.get("fm_late","—")} / {r.get("am_late","—")}')] for r in s17[-12:]])}
-<p class="cap">&ldquo;Late by the tenth&rdquo; shows where the rule&rsquo;s tenth fell on a weekend and the stricter count differs. A station that uploads a missing list after the read shows up as a smaller &ldquo;no list found&rdquo; the next quarter.</p>
+<h2>SM-018 &middot; CVE records against the CNA 72-hour rule</h2>
+<p>Monthly, on the first: the newest cvelistV5 midnight archive re-scored with the paper&rsquo;s script. Records whose CNA cites its own site: late share overall and for the newest complete quarter, and the four named CNAs. <a href="sm-018.html">Paper</a>.</p>
+{table([("Date",0),("Archive",0),("Own-site scored",1),("Late",1),("Share",0),("Over 30 d",1),("Newest quarter",0),("Its late share",0),("ZDI",0),("Dell",0),("Drupal",0),("Arista",0),("Microsoft",0)],
+       [[H(r["date"]), H(r["release"]), fmt(r["own_scored"]), fmt(r["own_late"]), H(str(r["own_late_pct"])+"%"), fmt(r["own_over_30"]), H(r["newest_quarter"]), H(str(r["newest_quarter_late_pct"])+"%")] + [H(f"{r[c]['late']}/{r[c]['scored']}" if r.get(c) else "&ndash;") for c in ("zdi","dell","drupal","Arista","microsoft")] for r in s18[-14:]])}
+<p class="cap">A quarter counts as closed when, a month or more after it ended, its late share for a named CNA sits near zero; an advisory that never gets a record never appears here.</p>
 """
 body += '<p>Scripts: <a href="https://github.com/MarkovianProtocol/second-measurements/tree/main/rechecks">github.com/MarkovianProtocol/second-measurements/rechecks</a>.</p>\n'
 sys.path.insert(0, R); import og_tags
