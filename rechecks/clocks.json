@@ -1,0 +1,21 @@
+{
+ "note": "One row per party we asked, with the date the note went and the day its 30-day clock ends. Rendered into index.html by rechecks/clocks.py on Neo after every recheck; the Mac copy is rendered before each deploy. Dates are UTC. 'reply' is the date the party answered; 'closed' is the paper's ending if it has one.",
+ "clock_days": 30,
+ "rows": [
+  {"paper": "SM-001", "page": "sm-001.html", "asked": "Google, Pixel Binary Transparency", "sent": "2026-09-15", "reply": "2026-09-22", "closed": "fixed in 7 days; daily recheck at 0 missing"},
+  {"paper": "SM-002", "page": "sm-002.html", "asked": "the AIDev authors", "sent": "2026-09-30", "reply": null, "closed": null},
+  {"paper": "SM-003", "page": "sm-003.html", "asked": "the authors", "sent": "2026-09-30", "reply": null, "closed": null},
+  {"paper": "SM-004", "page": "sm-004.html", "asked": "whisper.online", "sent": "2026-09-18", "reply": "2026-09-18", "closed": "fixed in 4 hours"},
+  {"paper": "SM-005", "page": "sm-005.html", "asked": "Meta", "sent": "2026-10-01", "reply": null, "closed": null},
+  {"paper": "SM-006", "page": "sm-006.html", "asked": "the authors", "sent": "2026-10-01", "reply": null, "closed": null},
+  {"paper": "SM-007", "page": "sm-007.html", "asked": "Docker", "sent": "2026-10-02", "reply": null, "closed": null},
+  {"paper": "SM-008", "page": "sm-008.html", "asked": "CISA and the kernel CVE team", "sent": "2026-10-02", "reply": null, "closed": null},
+  {"paper": "SM-009", "page": "sm-009.html", "asked": "Mozilla, CRLite", "sent": "2026-10-02", "reply": "2026-10-05", "closed": "answered in 3 days; next full filter 17 October"},
+  {"paper": "SM-010", "page": "sm-010.html", "asked": "Hugging Face", "sent": "2026-10-02", "reply": null, "closed": null},
+  {"paper": "SM-011", "page": "sm-011.html", "asked": "Mozilla, CRLite", "sent": "2026-10-02", "reply": "2026-10-05", "closed": "answered in 3 days"},
+  {"paper": "SM-012", "page": "sm-012.html", "asked": "the CCADB steering committee and Microsoft's root program", "sent": "2026-10-03", "reply": null, "closed": null},
+  {"paper": "SM-015", "page": "sm-015.html", "asked": "Apple's and Chrome's CT programs", "sent": "2026-10-03", "reply": null, "closed": null},
+  {"paper": "SM-016", "page": "sm-016.html", "asked": "EPA's TRI Program", "sent": "2026-10-04", "reply": null, "closed": null},
+  {"paper": "SM-017", "page": "sm-017.html", "asked": "the FCC Media Bureau", "sent": null, "reply": null, "closed": null, "pending": "questions go with the 14 October read"}
+ ]
+}
