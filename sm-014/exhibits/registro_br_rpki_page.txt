@@ -1,0 +1,84 @@
+registro.br — Tecnologia › Numeração › RPKI
+URL: https://registro.br/tecnologia/numeracao/rpki/
+Page title: "RPKI - Numeração - Registro.br"
+Read 2026-10-03T14:58:55Z in a headless browser (the page is script-rendered; a plain HTTP fetch returns an empty shell). Text below is document.body.innerText, verbatim, from the "Hierarquia" section onward; navigation chrome omitted.
+
+Hierarquia
+
+Em uma infraestrutura certificação digital de chaves públicas há uma hierarquia que é "percorrida" em processos de validação.
+
+O topo da hierarquia é chamado de "Raiz de Confiança", ou Trust Anchor em inglês. E nada mais é que um certificado digital "auto-assinado".
+E esse certificado é instalado em sistemas que fazem as validações.
+Um exemplo mais usual são os navegadores web que vem com uma série de certificados "Raiz" pré instalados.
+
+No caso do RPKI há 5 certificados "Raiz", uma para cada Registro Internet (RIR).
+
+As chaves privadas, associadas as esses certificados Raiz, são utilizadas para assinar digitalmente outros certificados.
+
+De uma forma simplificada, um RIR ao fazer uma alocação gera um certificado digital para a organização que a recebe e assina esse certificado com a chave privada que é par da chave pública contida no certificado Raiz desse RIR.
+
+A organização, titular de uma alocação, pode utilizar a chave privada associada ao certificado que recebeu para assinar outros certificados e outros objetos.
+
+E com isso cria-se uma hierarquia que será seguida sempre que algum objeto assinado criptograficamente tiver que ser validado.
+
+O agente emissor de um certificado é denominado C.A, do inglês "Certificate Authority". E existem alguns critérios a serem seguidos, como por exemplo, o cuidado para proteger e controlar o acesso às chaves privadas utilizadas para assinar certificados ou outros objetos.
+
+No sistema RPKI alguns RIRs oferecem às organizações, que recebem alocação, um serviço de C.A. "hospedado" onde as chaves privadas são geradas e mantidas pelo RIR internamente em sua infraestrutura.
+
+Em um outro modelo, que é o adotado pelo Registro.br, a C.A. fica sob resposabilidade da organização que recebe a alocação. Esse modelo é denominado "delegado".
+
+Nesse modelo a organização deve instalar um sistema de certificação e seguir alguns procedimentos descritos a seguir para fazer a inicialização da cadeia de certificação e assim criar a hierarquia mencionada acima.
+
+Repositórios
+
+Na infraestrutura RPKI faz-se necessário a validação de uma série de certificados digitais e outros objetos, como por exemplo ROAs.
+
+Esse processo de validação faz uso de diversos certificados digitais e outros objetos que são publicados em repositórios na Internet.
+
+No modelo de C.A. "delegado" há a opção de usar um sistema de repositório do próprio Registro.br ou então um outro mantido pela organização que venha a operar a C.A.
+
+No procedimento de inicialização da C.A e da configuração da interface com o sistema do Registro.br será necessário indicar qual sistema de repositório se deseja utilizar.
+
+Não há nenhuma obrigatoriedade em utilizar o sistema de repositório oferecido pelo Registro.br às organizações que tenham alocação de recursos Internet e que habilitem RPKI.
+
+No entanto, é importante destacar que o acesso aos repositórios deve estar sempre disponível e de forma ilimitada. E isso deve ser levando em consideração caso a escolha da organização seja manter um repositório na sua própria infraestrutura.
+
+Inicialização
+
+Antes de habilitar RPKI para as alocações feitas pelo Registro.br, a organização deve instalar o sistema de C.A. em sua infraestrutura.
+
+O Registro.br está configurado para utilizar a C.A. desenvolvida pelo NLNETLABS chamada de Krill.
+
+No site do desenvolvedor há informações sobre processo de instalação e configuração. Além disso, há um tutorial apresentado pelo NIC.br disponível aqui.
+
+Importante ter ciência que o sistema C.A. (Krill), instalado na infraestrutura da organização que habilite RPKI, deve permanecer ativo e disponível para que a publicação de certificados e outros documentos criptográficos não seja impactada.
+
+[… initialisation steps, "Publicação de ROAs" and "Validação" sections omitted here; they describe the krillc commands, the ROA file syntax ("A: 192.168.0.0/22-24 => 1234") and running Routinator …]
+
+Suporte
+
+Como indicado, é importante que os passos sejam seguidos para correta habilitação do sistema de RPKI e também que o sistema C.A. (Krill) da organização seja mantido ativo para publicação periódica dos documentos e certificados.
+
+Além disso, caso a opção seja por uso de um repositório local na infraestrutura da organização, esse deve ser publicamente acessível e disponível o tempo todo.
+
+A não observância desses pontos pode ocasionar problemas como, por exemplo, os softwares validadores RPKI passarem a alertar sobre erros relacionados aos recursos de numeração associados, ou mesmo a indisponibilidade dos arquivos de ROAs.
+
+Para reduzir estes problemas, o Registro.br conta um monitoramento contínuo de seu repositório e, em caso de necessidade de intervenção, alerta os responsáveis das organizações.
+
+Atualmente a monitoração contempla:
+
+- Validação da configuração inicial RPKI, tais como nome do servidor de repositório remoto (quando aplicável), e se houve pelo menos uma publicação de objeto RPKI.
+
+- Verifica se o arquivo de manifesto dessa entidade está próximo a ficar obsoleto analisando o campo "NextUpdate". Um aviso "Publicação prestes a ficar obsoleta" é emitido 7 (sete) horas antes do momento esperado para a publicação do próximo manifesto. Após essa data limite, e não sendo publicado um novo arquivo manifesto, um novo aviso é enviado com "Publicação RPKI em atraso".
+
+- Verifica se o certificado que assina os objetos RPKI não está expirado. Apesar do Registro.br emitir este certificado, é necessário que o sistema C.A. (Krill) da organização esteja ativo e publicando seus objetos.
+
+Ocorrendo qualquer um dos eventos acima, o administrador da organização é notificado por e-mail, com detalhes dos problemas encontrados.
+
+A partir deste e-mail, é necessário sanar os problemas em até 5 (cinco) dias corridos. Um novo e-mail será enviado quando os problemas forem sanados.
+
+Caso o problema não seja resolvido nesse prazo, a configuração RPKI é removida e o administrador da organização é notificado por email. O RPKI poderá ser habilitado novamente seguindo o procedimento indicado acima.
+
+Por quê a configuração RPKI é removida? Porque em caso de problemas, os softwares de validação RPKI (que rodam no mundo inteiro) começarão a alertar que os objetos RPKI da organização estão vencidos (ou com certificado expirado), e passarão a considerar como erro, desprezando as ROAs associadas. E com isso deixarão de validar as rotas para os blocos IP alocados para essa organização.
+
+Na grande maioria dos casos, basta que a organização mantenha seu sistema C.A (Krill) ativo e operacional (isto é, sem problemas de configuração ou comunicação/rede). Certifique-se que o sistema C.A. (Krill) da organização consegue acesso https (porta tcp/443) aos servidores "rpki-ca.registro.br" e "rpki-pub.registro.br"

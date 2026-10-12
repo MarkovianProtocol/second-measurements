@@ -1,0 +1,32 @@
+2026-09-26T11:39:21Z  manifest=absent   roas={}
+2026-09-28T11:43:31Z  manifest=Failed   roas={}
+2026-09-28T13:45:04Z  manifest=Failed   roas={}
+2026-09-28T16:33:25Z  manifest=Failed   roas={}
+2026-09-28T19:17:41Z  manifest=Failed   roas={}
+2026-09-28T19:23:01Z  manifest=Failed   roas={}
+2026-09-28T19:32:31Z  manifest=Failed   roas={}
+2026-09-28T22:54:56Z  manifest=Failed   roas={}
+2026-09-29T00:55:27Z  manifest=Failed   roas={}
+2026-09-29T05:24:56Z  manifest=Failed   roas={}
+2026-09-29T07:15:24Z  manifest=Failed   roas={}
+2026-09-29T13:51:57Z  manifest=Failed   roas={}
+2026-09-30T05:50:40Z  manifest=Failed   roas={}
+2026-09-30T07:55:46Z  manifest=Failed   roas={}
+2026-09-30T18:59:41Z  manifest=Failed   roas={}
+2026-10-01T04:54:16Z  manifest=Failed   roas={}
+2026-10-01T05:26:33Z  manifest=Failed   roas={}
+2026-10-01T06:00:58Z  manifest=Failed   roas={}
+2026-10-01T06:32:17Z  manifest=Failed   roas={}
+2026-10-01T06:35:47Z  manifest=Failed   roas={}
+2026-10-01T07:05:50Z  manifest=Failed   roas={}
+2026-10-01T08:49:34Z  manifest=Failed   roas={}
+2026-10-01T09:05:14Z  manifest=Failed   roas={}
+2026-10-01T09:11:56Z  manifest=Failed   roas={}
+2026-10-01T09:34:07Z  manifest=Failed   roas={}
+2026-10-01T23:01:39Z  manifest=Failed   roas={}
+2026-10-02T04:06:29Z  manifest=Failed   roas={}
+2026-10-02T08:07:47Z  manifest=Failed   roas={}
+2026-10-02T23:21:45Z  manifest=OK       roas={'OK': 2}
+2026-10-03T03:30:00Z  manifest=OK       roas={'OK': 2}
+manifests: {'absent': 1, 'Failed': 27, 'OK': 2}
+roa objects under them: {'OK': 4}  vrps: {'OK': 4}

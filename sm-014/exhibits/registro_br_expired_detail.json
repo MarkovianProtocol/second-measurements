@@ -1,0 +1,559 @@
+{
+ "fetched": "2026-10-03T04:49:39Z",
+ "expired_within_7d": [
+  {
+   "uri": "rsync://rpki-repo.registro.br/repo/D9wAW9gmXSmo2se5bPkDTiL5VE3z7oXUAehaCK2gzWeZ/0/9D31B039CC6FF1EADDCFF72BD0423CCEB6650695.mft",
+   "this_update": "2026-09-25T07:37:21Z",
+   "next_update": "2026-09-26T11:39:21Z",
+   "hours_expired": 161.2,
+   "files": 3,
+   "console_validation": "not in console",
+   "roas": []
+  },
+  {
+   "uri": "rsync://rpki-repo.registro.br/repo/BvGzH6Pqd79p339G3eD22s9RTKUygLoNXNEhvNZqzv93/0/3FF96820195E6A66E38F9102B4B56F0E4EB31831.mft",
+   "this_update": "2026-09-27T08:23:31Z",
+   "next_update": "2026-09-28T11:43:31Z",
+   "hours_expired": 113.1,
+   "files": 13,
+   "console_validation": "Failed",
+   "roas": [
+    "187.110.144.0/21-24 => 269073",
+    "45.237.124.0/22-24 => 269073",
+    "201.150.144.0/22-24 => 269073",
+    "2804:5f0c::/32-48 => 269073",
+    "138.97.120.0/22-24 => 269073",
+    "187.86.194.0/24-24 => 269073",
+    "168.121.132.0/22-24 => 269073",
+    "207.248.28.0/22-24 => 269073",
+    "138.94.124.0/22-24 => 269073",
+    "187.86.192.0/23-24 => 269073",
+    "45.179.36.0/22-24 => 269073",
+    "187.17.32.0/20-24 => 269073"
+   ]
+  },
+  {
+   "uri": "rsync://rpki-repo.registro.br/repo/BznALgRqg4juQdGxXZ8EEgJSmaHdqsKYgcdAtzezSpFx/1/EE5C96CB0ABBBD6C866C20583C9CBBE2F21F4CA1.mft",
+   "this_update": "2026-09-27T10:50:04Z",
+   "next_update": "2026-09-28T13:45:04Z",
+   "hours_expired": 111.1,
+   "files": 2,
+   "console_validation": "Failed",
+   "roas": [
+    "2804:8478::/32-32 => 272262"
+   ]
+  },
+  {
+   "uri": "rsync://rpki-repo.registro.br/repo/5M8ukuVpcnk9LWJQr7Y9ZiiFChbYK7h3pcqjYJ29gZvg/2/328938F6B87D58141D853FA04B61F2EC68371E43.mft",
+   "this_update": "2026-09-27T12:35:25Z",
+   "next_update": "2026-09-28T16:33:25Z",
+   "hours_expired": 108.3,
+   "files": 2,
+   "console_validation": "Failed",
+   "roas": [
+    "2804:833c::/32-32 => 272185"
+   ]
+  },
+  {
+   "uri": "rsync://rpki-repo.registro.br/repo/6bQjfCPwLofcPu5Vbx7KEdEsp1t5QJEurPcyPaiXgcuN/0/B8C422F4E7DEB22BF8449A4896DA5B6058DF65AD.mft",
+   "this_update": "2026-09-27T15:54:41Z",
+   "next_update": "2026-09-28T19:17:41Z",
+   "hours_expired": 105.5,
+   "files": 4,
+   "console_validation": "Failed",
+   "roas": [
+    "177.39.12.0/22-22 => 52790",
+    "200.196.140.0/22-22 => 52790",
+    "2804:18dc::/32-32 => 52790"
+   ]
+  },
+  {
+   "uri": "rsync://rpki-repo.registro.br/repo/BFYHy3pBkYRQtrB8M6jwJMajyW4dfzkEmRYTsFtwusgr/1/3ABF96D18E7E05A24EDAA117D2B9E76A07FEC5CE.mft",
+   "this_update": "2026-09-27T15:36:01Z",
+   "next_update": "2026-09-28T19:23:01Z",
+   "hours_expired": 105.4,
+   "files": 4,
+   "console_validation": "Failed",
+   "roas": [
+    "2804:7a60::/32-32 => 271367",
+    "200.36.216.0/22-24 => 271367",
+    "2804:7a60:1000::/40-40 => 271367"
+   ]
+  },
+  {
+   "uri": "rsync://rpki-repo.registro.br/repo/6WLdZ5sBw63HDEvgQ7ACJtdYSQYFD41bdc1UfNiLfWW6/0/3345439099C79C13F583D2238E3BB7D0D60D6877.mft",
+   "this_update": "2026-09-27T18:33:31Z",
+   "next_update": "2026-09-28T19:32:31Z",
+   "hours_expired": 105.3,
+   "files": 8,
+   "console_validation": "Failed",
+   "roas": [
+    "2804:64::/32-48 => 27693",
+    "186.236.64.0/20-24 => 27693",
+    "189.127.0.0/20-24 => 27693",
+    "200.220.128.0/20-24 => 27693",
+    "131.255.24.0/22-24 => 27693",
+    "179.109.16.0/20-24 => 27693",
+    "186.236.80.0/20-24 => 27693"
+   ]
+  },
+  {
+   "uri": "rsync://rpki-repo.registro.br/repo/kA6biJdoJyqBwQNrubXgV4gZ22fFBxkGUtbL9xNxh4U/0/62E3DAF2BA0AF88F13E6D8B8A6B46A318226656A.mft",
+   "this_update": "2026-09-27T21:29:56Z",
+   "next_update": "2026-09-28T22:54:56Z",
+   "hours_expired": 101.9,
+   "files": 4,
+   "console_validation": "Failed",
+   "roas": [
+    "2804:2c98::/32-34 => 265229",
+    "170.247.208.0/22-24 => 265229",
+    "168.0.52.0/22-24 => 265229"
+   ]
+  },
+  {
+   "uri": "rsync://rpki-repo.registro.br/repo/GALQ2GjDQSsYQm7CSXtHewQHfQF8QqtBHvs4MgHm1qxx/0/C4A0C992AC81775846EF3EACD736353F739F7D8D.mft",
+   "this_update": "2026-09-28T00:33:27Z",
+   "next_update": "2026-09-29T00:55:27Z",
+   "hours_expired": 99.9,
+   "files": 10,
+   "console_validation": "Failed",
+   "roas": [
+    "179.107.80.0/22-24 => 52545",
+    "170.82.168.0/22-24 => 52545",
+    "2804:e1c::/48-48 => 52545",
+    "131.72.48.0/22-24 => 52545",
+    "2804:e1c:fb00::/40-40 => 52545",
+    "2804:e1c::/32-34 => 52545",
+    "2804:e1c:1::/48-48 => 52545",
+    "168.121.168.0/22-24 => 52545"
+   ]
+  },
+  {
+   "uri": "rsync://rpki-repo.registro.br/repo/9YNy9pUfScMNGH1SmZLmyaTMPUuW7opCRBJghzE2LfFj/0/C58A469341D2EFFDB450D434A30F25C9B1AD2A2C.mft",
+   "this_update": "2026-09-28T04:34:56Z",
+   "next_update": "2026-09-29T05:24:56Z",
+   "hours_expired": 95.4,
+   "files": 3,
+   "console_validation": "Failed",
+   "roas": [
+    "45.189.136.0/22-24 => 269590",
+    "2804:66e8::/32-34 => 269590"
+   ]
+  },
+  {
+   "uri": "rsync://rpki-repo.registro.br/repo/GsoHV4fRLtB4iaHER59fKtij3VBCS6sqLkVxNXZRXeD2/0/C383962F0CB0251601C519176CC875B435E4DD12.mft",
+   "this_update": "2026-09-28T06:12:24Z",
+   "next_update": "2026-09-29T07:15:24Z",
+   "hours_expired": 93.6,
+   "files": 3,
+   "console_validation": "Failed",
+   "roas": [
+    "2804:23b4::/32-48 => 264178",
+    "138.99.72.0/22-24 => 264178"
+   ]
+  },
+  {
+   "uri": "rsync://rpki-repo.registro.br/repo/4wYFcmBUnH4bQ5E8jUFGA9BHSnw2CxwHevfM3aqHFFfd/0/F3EED8A6EE01716F638718C9B96D754CF5CB3706.mft",
+   "this_update": "2026-09-28T12:14:57Z",
+   "next_update": "2026-09-29T13:51:57Z",
+   "hours_expired": 87.0,
+   "files": 3,
+   "console_validation": "Failed",
+   "roas": [
+    "2804:3584::/32-34 => 266291",
+    "170.79.120.0/22-24 => 266291"
+   ]
+  },
+  {
+   "uri": "rsync://rpki-repo.registro.br/repo/GjyYAU52QoYGT2Po3nTaSeTUWhKxvkF8DetMZ9gxiV4J/0/2F3D9C77D7D15210EA3C6A62953B5FB52FEA876C.mft",
+   "this_update": "2026-09-29T01:51:40Z",
+   "next_update": "2026-09-30T05:50:40Z",
+   "hours_expired": 71.0,
+   "files": 7,
+   "console_validation": "Failed",
+   "roas": [
+    "190.89.4.0/24-24 => 270399",
+    "190.89.6.0/24-24 => 270399",
+    "2804:6b6c::/32-32 => 270399",
+    "190.89.7.0/24-24 => 270399",
+    "190.89.5.0/24-24 => 270399",
+    "190.89.4.0/22-22 => 270399"
+   ]
+  },
+  {
+   "uri": "rsync://rpki-repo.registro.br/repo/7gSyaDJnPxXSJ3fPAZ96uYHcFtaKAHmSYzNTtSWCi1NS/0/FF4FCD2B37C147862114DBABCCA00F95D6BCCDFC.mft",
+   "this_update": "2026-09-29T05:49:46Z",
+   "next_update": "2026-09-30T07:55:46Z",
+   "hours_expired": 68.9,
+   "files": 38,
+   "console_validation": "Failed",
+   "roas": [
+    "2804:13b0:6c50::/44-44 => 263546",
+    "191.6.21.0/24-24 => 263546",
+    "2804:13b0:cc02::/48-48 => 263546",
+    "191.6.25.0/24-24 => 263546",
+    "2804:13b0::/48-48 => 263546",
+    "2804:13b0:cc20::/43-43 => 263546",
+    "191.6.24.0/24-24 => 263546",
+    "191.6.27.0/24-24 => 263546",
+    "2804:13b0:1c90::/44-44 => 263546",
+    "2804:13b0:1c30::/44-44 => 263546",
+    "191.6.16.0/20-20 => 263546",
+    "2804:13b0:1ca0::/44-44 => 263546",
+    "2804:13b0:fc00::/38-38 => 263546",
+    "191.6.31.0/24-24 => 263546",
+    "2804:13b0:cc00::/48-48 => 263546",
+    "2804:13b0:6c00::/44-44 => 263546",
+    "2804:13b0:cc06::/48-48 => 263546",
+    "2804:13b0:8c00::/44-44 => 263546",
+    "2804:13b0:20::/43-43 => 263546",
+    "2804:13b0:ac20::/48-48 => 263546",
+    "2804:13b0:4c00::/44-44 => 263546",
+    "191.6.26.0/24-24 => 263546",
+    "2804:13b0:7f80::/41-41 => 263546",
+    "191.6.16.0/24-24 => 263546",
+    "2804:13b0:ac26::/48-48 => 263546",
+    "2804:13b0:6c60::/44-44 => 263546",
+    "2804:13b0:ec00::/48-48 => 263546",
+    "191.6.17.0/24-24 => 263546",
+    "2804:13b0:1c00::/44-44 => 263546",
+    "2804:13b0:ac00::/44-44 => 263546",
+    "2804:13b0:6c10::/44-44 => 263546",
+    "2804:13b0:4c40::/44-44 => 263546",
+    "2804:13b0::/44-44 => 263546",
+    "2804:13b0:5c00::/44-44 => 263546",
+    "2804:13b0:8c10::/44-44 => 263546",
+    "2804:13b0:5c30::/44-44 => 263546",
+    "191.6.20.0/24-24 => 263546"
+   ]
+  },
+  {
+   "uri": "rsync://rpki-repo.registro.br/repo/CvkcAZgdsAcXScvuijHgn4yZdUJ4FuTCee9WF4aRg2Cj/0/75A4972B7CD4E111D558A51F98974C6685D9043C.mft",
+   "this_update": "2026-09-29T18:07:41Z",
+   "next_update": "2026-09-30T18:59:41Z",
+   "hours_expired": 57.8,
+   "files": 3,
+   "console_validation": "Failed",
+   "roas": [
+    "186.249.240.0/21-24 => 263027",
+    "2804:8838::/32-48 => 263027"
+   ]
+  },
+  {
+   "uri": "rsync://rpki-repo.registro.br/repo/5AXaB9KbadHCSj2LMtpBRQoHUEJdnr29wgdvtZ2MfvEJ/0/A948AB96F6BB7DAC2C1676EFBEE8D61099C61E0A.mft",
+   "this_update": "2026-09-30T01:59:16Z",
+   "next_update": "2026-10-01T04:54:16Z",
+   "hours_expired": 47.9,
+   "files": 4,
+   "console_validation": "Failed",
+   "roas": [
+    "138.117.88.0/22-24 => 264236",
+    "2804:24a8::/32-48 => 264236",
+    "168.90.36.0/22-24 => 264236"
+   ]
+  },
+  {
+   "uri": "rsync://rpki-repo.registro.br/repo/AegpkUdHVMg4mmdfRgS3QzPRFee9WpUhFS1hL1su3TqW/0/A4C0BA3A9FF05A01E2EA16AB061AD99AD6AA0D15.mft",
+   "this_update": "2026-09-30T03:19:33Z",
+   "next_update": "2026-10-01T05:26:33Z",
+   "hours_expired": 47.4,
+   "files": 6,
+   "console_validation": "Failed",
+   "roas": [
+    "186.235.16.0/20-23 => 262434",
+    "177.44.160.0/20-24 => 262434",
+    "186.235.31.0/24-24 => 262434",
+    "2804:17b8::/32-48 => 262434",
+    "200.0.48.0/21-24 => 262434"
+   ]
+  },
+  {
+   "uri": "rsync://rpki-repo.registro.br/repo/Hayp8sXb8M1MNHFeFKWxQMhZ9HJTbXX9tKVpgZhyezRA/0/C6410E6C8EF5E49EE894AEBA9AC162D0C2BBAAA7.mft",
+   "this_update": "2026-09-30T05:19:58Z",
+   "next_update": "2026-10-01T06:00:58Z",
+   "hours_expired": 46.8,
+   "files": 3,
+   "console_validation": "Failed",
+   "roas": [
+    "45.71.100.0/22-24 => 267607",
+    "2804:442c::/32-48 => 267607"
+   ]
+  },
+  {
+   "uri": "rsync://rpki-repo.registro.br/repo/ZWnRU5BoJNPNkyyj9SNy1hCnxdFX4HXfkoqShsy1D2e/0/92C8B08770CF9E6EE7AE9F2772CA5CA89924517F.mft",
+   "this_update": "2026-09-30T06:23:17Z",
+   "next_update": "2026-10-01T06:32:17Z",
+   "hours_expired": 46.3,
+   "files": 2,
+   "console_validation": "Failed",
+   "roas": [
+    "2804:8d84::/32-40 => 273362"
+   ]
+  },
+  {
+   "uri": "rsync://rpki-repo.registro.br/repo/A7casLdjwTNxuigwnzPrY9Umzm7LzmHmWYoY3nSVUihT/0/E65374697D9FB212A56972F6CABF2FED977758ED.mft",
+   "this_update": "2026-09-30T04:24:47Z",
+   "next_update": "2026-10-01T06:35:47Z",
+   "hours_expired": 46.2,
+   "files": 6,
+   "console_validation": "Failed",
+   "roas": [
+    "167.250.60.0/22-24 => 264943",
+    "170.244.248.0/22-24 => 264943",
+    "2804:3050::/32-48 => 264943",
+    "170.231.200.0/22-24 => 264943",
+    "168.232.136.0/22-24 => 264943"
+   ]
+  },
+  {
+   "uri": "rsync://rpki-repo.registro.br/repo/5tpmkVizxqXDbkDRwN1voPdXTEFY5f4GaDmmoKZwuqzn/0/16FFCD7CF1374D256D7E1226D51D91AF9153AAA2.mft",
+   "this_update": "2026-09-30T04:39:50Z",
+   "next_update": "2026-10-01T07:05:50Z",
+   "hours_expired": 45.7,
+   "files": 3,
+   "console_validation": "Failed",
+   "roas": [
+    "2804:6d4c::/32-48 => 270523",
+    "187.103.196.0/22-24 => 270523"
+   ]
+  },
+  {
+   "uri": "rsync://rpki-repo.registro.br/repo/9Dbz34SJ5YwsD7PCyzUfd1ifoZjSsqWWh46XZUXvpYFS/0/91D0AECE4CA4B520D30283A943EC3430DE576329.mft",
+   "this_update": "2026-09-30T08:20:34Z",
+   "next_update": "2026-10-01T08:49:34Z",
+   "hours_expired": 44.0,
+   "files": 4,
+   "console_validation": "Failed",
+   "roas": [
+    "138.255.4.0/22-24 => 263949",
+    "170.247.240.0/22-24 => 263949",
+    "2804:283c::/32-48 => 263949"
+   ]
+  },
+  {
+   "uri": "rsync://rpki-repo.registro.br/repo/C3C4t7mJXW3YFYpZHCNbeF9wR9zunEfzm5t23BALXovb/1/D970F17C86D4D5A9C6395E9E2D1601BBD9FA8BDB.mft",
+   "this_update": "2026-09-30T06:40:14Z",
+   "next_update": "2026-10-01T09:05:14Z",
+   "hours_expired": 43.7,
+   "files": 3,
+   "console_validation": "Failed",
+   "roas": [
+    "45.71.220.0/22-24 => 267643",
+    "2804:44a0::/32-48 => 267643"
+   ]
+  },
+  {
+   "uri": "rsync://rpki-repo.registro.br/repo/7NtsbuNVLC34VsJihSmvZ6QSpYJ2xF1RiCzAdzWQtvr6/0/18304E37E7B30DCE85765ECFC90E798EBF358498.mft",
+   "this_update": "2026-09-30T05:09:56Z",
+   "next_update": "2026-10-01T09:11:56Z",
+   "hours_expired": 43.6,
+   "files": 5,
+   "console_validation": "Failed",
+   "roas": [
+    "2804:1c30::/32-48 => 28285",
+    "201.33.224.0/20-22 => 28285",
+    "187.84.160.0/20-22 => 28285",
+    "187.17.16.0/20-22 => 28285"
+   ]
+  },
+  {
+   "uri": "rsync://rpki-repo.registro.br/repo/XzaGJC4m4BYx2omZnK3tZ8pUzGCYGSUnQdvm1QFLyVs/0/4EF07D514BA1D6B2FBDA6C4DC360BEB750D3C9C4.mft",
+   "this_update": "2026-09-30T06:05:07Z",
+   "next_update": "2026-10-01T09:34:07Z",
+   "hours_expired": 43.3,
+   "files": 2,
+   "console_validation": "Failed",
+   "roas": [
+    "168.196.216.0/22-24 => 265473"
+   ]
+  },
+  {
+   "uri": "rsync://rpki-repo.registro.br/repo/9Jntmgh3CAPNBCL9EALqgi6ffxESBTypqRrVfqixHCsj/0/6A5B16AEC8348B57904C412B6C3890934D8DB104.mft",
+   "this_update": "2026-09-30T22:02:39Z",
+   "next_update": "2026-10-01T23:01:39Z",
+   "hours_expired": 29.8,
+   "files": 3,
+   "console_validation": "Failed",
+   "roas": [
+    "45.234.208.0/22-32 => 267385",
+    "2804:4cb0::/32-128 => 267385"
+   ]
+  },
+  {
+   "uri": "rsync://rpki-repo.registro.br/repo/3yfUN7SvXt8NRfJVJgq597tu4A7bhQeQm7dSk3q2Sb4y/0/7DB259F8914E477AB02343D86C1BA4D33A52A17B.mft",
+   "this_update": "2026-10-01T00:17:29Z",
+   "next_update": "2026-10-02T04:06:29Z",
+   "hours_expired": 24.7,
+   "files": 3,
+   "console_validation": "Failed",
+   "roas": [
+    "177.53.198.0/23-32 => 274729",
+    "2804:92bc::/32-128 => 274729"
+   ]
+  },
+  {
+   "uri": "rsync://rpki-repo.registro.br/repo/GaUS6jW9JnQCTS7jE2i3LKUthfnoxKWvkuhvjgVBZMKb/0/46347A4C2AE403C996A9371EF62F1CE19E33F606.mft",
+   "this_update": "2026-10-01T06:28:47Z",
+   "next_update": "2026-10-02T08:07:47Z",
+   "hours_expired": 20.7,
+   "files": 11,
+   "console_validation": "Failed",
+   "roas": [
+    "2804:814::/32-48 => 262777",
+    "138.219.208.0/22-24 => 262777",
+    "170.80.180.0/22-24 => 262777",
+    "45.175.116.0/22-24 => 262777",
+    "45.235.192.0/22-24 => 262777",
+    "177.128.248.0/21-24 => 262777",
+    "186.233.16.0/21-24 => 262777",
+    "168.121.188.0/22-24 => 262777",
+    "131.255.48.0/22-24 => 262777",
+    "177.93.176.0/21-24 => 262777"
+   ]
+  },
+  {
+   "uri": "rsync://rpki-repo.registro.br/repo/G9UayEKVazc5wGF5SR4vkms8VH6osS8Jiq22p7UNGi1F/0/E9C1CDFE922950B0B75B4BEA6EAD6969F1C94834.mft",
+   "this_update": "2026-10-01T22:59:45Z",
+   "next_update": "2026-10-02T23:21:45Z",
+   "hours_expired": 5.5,
+   "files": 3,
+   "console_validation": "OK",
+   "roas": [
+    "2804:61f4::/32-128 => 269267",
+    "45.182.56.0/22-32 => 269267"
+   ]
+  },
+  {
+   "uri": "rsync://rpki-repo.registro.br/repo/AomhoQZuneBCqJtVMNwV6mCXBbcz5d7YdA5PbnbovJFC/0/0AA75444C92119507239668F559768FBF95AE208.mft",
+   "this_update": "2026-10-02T01:20:00Z",
+   "next_update": "2026-10-03T03:30:00Z",
+   "hours_expired": 1.3,
+   "files": 3,
+   "console_validation": "OK",
+   "roas": [
+    "160.238.192.0/22-24 => 266549",
+    "2804:3db8::/32-40 => 266549"
+   ]
+  }
+ ],
+ "distinct_prefixes": 135,
+ "distinct_asns": 29,
+ "asns": [
+  [
+   263546,
+   37
+  ],
+  [
+   269073,
+   12
+  ],
+  [
+   262777,
+   10
+  ],
+  [
+   52545,
+   8
+  ],
+  [
+   27693,
+   7
+  ],
+  [
+   270399,
+   6
+  ],
+  [
+   262434,
+   5
+  ],
+  [
+   264943,
+   5
+  ],
+  [
+   28285,
+   4
+  ],
+  [
+   52790,
+   3
+  ],
+  [
+   263949,
+   3
+  ],
+  [
+   264236,
+   3
+  ],
+  [
+   271367,
+   3
+  ],
+  [
+   265229,
+   3
+  ],
+  [
+   274729,
+   2
+  ],
+  [
+   266549,
+   2
+  ],
+  [
+   267643,
+   2
+  ],
+  [
+   270523,
+   2
+  ],
+  [
+   263027,
+   2
+  ],
+  [
+   269267,
+   2
+  ],
+  [
+   266291,
+   2
+  ],
+  [
+   267607,
+   2
+  ],
+  [
+   269590,
+   2
+  ],
+  [
+   264178,
+   2
+  ],
+  [
+   267385,
+   2
+  ],
+  [
+   272262,
+   1
+  ],
+  [
+   265473,
+   1
+  ],
+  [
+   272185,
+   1
+  ],
+  [
+   273362,
+   1
+  ]
+ ]
+}

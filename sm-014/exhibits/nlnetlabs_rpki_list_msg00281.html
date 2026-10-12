@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Re: [RPKI] cannot download the .roa files, with the list of signed bgp prefixes</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="contents" href="index.html#00281" id="c">
+<link rel="index" href="maillist.html#00281" id="i">
+<link rel="prev" href="msg00280.html" id="p">
+<link rel="next" href="msg00261.html" id="n">
+<link rel="canonical" href="https://www.mail-archive.com/rpki@lists.nlnetlabs.nl/msg00281.html">
+<link rel="stylesheet" href="/normalize.css" media="screen">
+<link rel="stylesheet" href="/master.css" media="screen">
+
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="/ie.css" media="screen">
+<![endif]-->
+</head>
+<body>
+<script language="javascript" type="text/javascript">
+document.onkeydown = NavigateThrough;
+function NavigateThrough (event)
+{
+  if (!document.getElementById) return;
+  if (window.event) event = window.event;
+  if (event.target.tagName == 'INPUT') return;
+  if (event.ctrlKey || event.metaKey) return;
+  var link = null;
+  switch (event.keyCode ? event.keyCode : event.which ? event.which : null) {
+    case 74:
+    case 80:
+      link = document.getElementById ('p');
+      break;
+    case 75:
+    case 78:
+      link = document.getElementById ('n');
+      break;
+    case 69:
+      link = document.getElementById ('e');
+      break;
+    }
+  if (link && link.href) document.location = link.href;
+}
+</script>
+<div itemscope itemtype="http://schema.org/Article" class="container">
+<div class="skipLink">
+<a href="#nav">Skip to site navigation (Press enter)</a>
+</div>
+<div class="content" role="main">
+<div class="msgHead">
+<h1>
+<span class="subject"><a href="/search?l=rpki@lists.nlnetlabs.nl&amp;q=subject:%22Re%5C%3A+%5C%5BRPKI%5C%5D+cannot+download+the+.roa+files%2C+with+the+list+of+signed+bgp+prefixes%22&amp;o=newest" rel="nofollow"><span itemprop="name">Re: [RPKI] cannot download the .roa files, with the list of signed bgp prefixes</span></a></span>
+</h1>
+<p class="darkgray font13">
+<span class="sender pipe"><a href="/search?l=rpki@lists.nlnetlabs.nl&amp;q=from:%22Alex+Band+via+RPKI%22" rel="nofollow"><span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Alex Band via RPKI</span></span></a></span>
+<span class="date"><a href="/search?l=rpki@lists.nlnetlabs.nl&amp;q=date:20220626" rel="nofollow">Sun, 26 Jun 2022 08:17:20 -0700</a></span>
+</p>
+</div>
+<div itemprop="articleBody" class="msgBody">
+<!--X-Body-of-Message-->
+<pre>Hi Håvard,
+
+Routinator will only start serving verified data to the various endpoints once 
+it has validated the entire published RPKI data set. </pre><pre>
+
+Here’s what’s happening on the repository side:
+
+The ARIN region
+---------------
+In the Hosted RPKI services of most RIRs you specify which routes are 
+authorised and ROAs are created and renewed accordingly. This means objects are 
+created as efficiently as possible and there are no duplicates at any time.
+
+This is different in the ARIN region, where you have direct control over the 
+cryptographic objects that are created, including the start and end validity 
+date. It will also happily let you create overlapping ROA objects that result 
+in the same Validated ROA Payload (VRP). 
+
+I believe Amazon in particular creates short lived ROAs through the ARIN API. 
+They create an overlapping set in bulk some time before the current set 
+expires. This results in as much as 4000 duplicate VRPs in the ARIN repository 
+at any point in time. 
+
+Routinator filters out duplicates, so while the VRP set that is served to your 
+routers remains pretty stable, there’s indeed a lot happening on the crypto 
+side compared to the other RIRs. 
+
+The Brazilian region
+--------------------
+NIC.br, the Brazilian NIR, does not offer Hosted RPKI to their members. 
+Everyone runs a Delegated CA on their own systems. However, they publish the 
+objects they generate in a repository hosted by their parent NIR. 
+
+So while Brazilian ISPs don’t have to worry about the publication of their RPKI 
+objects to the world, they do have to make sure that their CA software resigns 
+them every 24 hours. Out of the ~1450 CAs, it is more or less expected that a 
+handful are broken at any moment in time for reasons you can imagine. This 
+results in the stale or expired objects you’re seeing. NIC.br is pretty good at 
+monitoring and chasing this though.
+
+Hope this clarifies things!
+
+Cheers,
+
+Alex
+
+
+&gt; On 25 Jun 2022, at 23:27, Havard Eidnes via RPKI &lt;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="7406041f1d34181d0700075a1a181a1100181516075a1a18">[email&#160;protected]</a>&gt; 
+&gt; wrote:
+&gt; 
+&gt;&gt; There is a lot to learn about these systems and what is typical behavior
+&gt;&gt; and what is not normal.
+&gt; 
+&gt; Indeed.
+&gt; 
+&gt; In my newly started routinator instance I see a lot of log
+&gt; messages saying &quot;No valid manifest found.&quot;  Following your hint
+&gt; for looking at the status of the running server, I find for the
+&gt; &quot;tals&quot;:
+&gt; 
+&gt; curl &quot;<a  rel="nofollow" href="http://127.0.0.1:9556/api/v1/status&quot">http://127.0.0.1:9556/api/v1/status&quot</a>; | egrep '(Manifest|^      &quot;)' | 
+&gt; grep -v 0, | less
+&gt;      &quot;afrinic&quot;: {
+&gt;         &quot;validManifests&quot;: 546,
+&gt;         &quot;missingManifests&quot;: 1,
+&gt;      &quot;apnic&quot;: {
+&gt;         &quot;validManifests&quot;: 6789,
+&gt;      &quot;arin&quot;: {
+&gt;         &quot;validManifests&quot;: 227,
+&gt;         &quot;missingManifests&quot;: 408,
+&gt;      &quot;lacnic&quot;: {
+&gt;         &quot;validManifests&quot;: 3192,
+&gt;      &quot;ripe&quot;: {
+&gt;         &quot;validManifests&quot;: 1,
+&gt;         &quot;missingManifests&quot;: 1,
+&gt; ...
+&gt; 
+&gt; What's the issue with the lots of missing manifests from the arin
+&gt; region?  More than the number of valid manifests?  That cannot be
+&gt; good?  Is that a sign of garbage not being collected at the
+&gt; remote site?
+&gt; 
+&gt; And these are not the only ones (these are &quot;repositories&quot;):
+&gt; 
+&gt;      &quot;<a  rel="nofollow" href="https://rpki-repo.registro.br/rrdp/notification.xml&quot;:">https://rpki-repo.registro.br/rrdp/notification.xml&quot;:</a> {
+&gt;         &quot;validManifests&quot;: 1422,
+&gt;         &quot;missingManifests&quot;: 28,
+&gt; 
+&gt; Is this a sign that my routinator hasn't yet synced itself, or is
+&gt; it an indication of something amiss at the repository side?
+&gt; 
+&gt; Regards,
+&gt; 
+&gt; - Håvard
+&gt; -- 
+&gt; RPKI mailing list
+&gt; <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="e8bab8a3a1a884819b9c9bc68684868d9c84898a9bc68684">[email&#160;protected]</a>
+&gt; <a  rel="nofollow" href="https://lists.nlnetlabs.nl/mailman/listinfo/rpki">https://lists.nlnetlabs.nl/mailman/listinfo/rpki</a>
+
+-- 
+RPKI mailing list
+<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="336163787a735f5a4047401d5d5f5d56475f5251401d5d5f">[email&#160;protected]</a>
+<a  rel="nofollow" href="https://lists.nlnetlabs.nl/mailman/listinfo/rpki">https://lists.nlnetlabs.nl/mailman/listinfo/rpki</a>
+</pre>
+
+</div>
+<div class="msgButtons margintopdouble">
+<ul class="overflow">
+<li class="msgButtonItems"><a class="button buttonleft " accesskey="p" href="msg00280.html">Previous message</a></li>
+<li class="msgButtonItems textaligncenter"><a class="button" accesskey="c" href="index.html#00281">View by thread</a></li>
+<li class="msgButtonItems textaligncenter"><a class="button" accesskey="i" href="maillist.html#00281">View by date</a></li>
+<li class="msgButtonItems textalignright"><a class="button buttonright " accesskey="n" href="msg00261.html">Next message</a></li>
+</ul>
+</div>
+<a name="tslice"></a>
+<div class="tSliceList margintopdouble">
+<ul class="icons monospace">
+<li class="icons-email"><span class="subject"><a href="msg00257.html">[RPKI] cannot download the .roa files, with the lis...</a></span> <span class="sender italic">gustvieira99 via RPKI</span></li>
+<li><ul>
+<li class="icons-email"><span class="subject"><a href="msg00258.html">Re: [RPKI] cannot download the .roa files, wit...</a></span> <span class="sender italic">Alex Band via RPKI</span></li>
+<li><ul>
+<li class="icons-email"><span class="subject"><a href="msg00259.html">Re: [RPKI] cannot download the .roa files,...</a></span> <span class="sender italic">gustvieira99 via RPKI</span></li>
+<li><ul>
+<li class="icons-email"><span class="subject"><a href="msg00260.html">Re: [RPKI] cannot download the .roa fi...</a></span> <span class="sender italic">Tony Tauber via RPKI</span></li>
+<li><ul>
+<li class="icons-email"><span class="subject"><a href="msg00280.html">Re: [RPKI] cannot download the .ro...</a></span> <span class="sender italic">Havard Eidnes via RPKI</span></li>
+<li><ul>
+<li class="icons-email tSliceCur"><span class="subject">Re: [RPKI] cannot download th...</span> <span class="sender italic">Alex Band via RPKI</span></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li class="icons-email"><span class="subject"><a href="msg00261.html">Re: [RPKI] cannot download the .roa files, wit...</a></span> <span class="sender italic">gustvieira99 via RPKI</span></li>
+<li><ul>
+<li class="icons-email"><span class="subject"><a href="msg00262.html">Re: [RPKI] cannot download the .roa files,...</a></span> <span class="sender italic">Alex Band via RPKI</span></li>
+</ul>
+</ul>
+</ul>
+</div>
+<div class="overflow msgActions margintopdouble">
+<div class="msgReply" >
+<h2>
+					Reply via email to
+</h2>
+<form method="POST" action="/mailto.php">
+<input type="hidden" name="subject" value="Re: [RPKI] cannot download the .roa files, with the list of signed bgp prefixes">
+<input type="hidden" name="msgid" value="2D8B0964-C71E-4A2D-AD44-C6F4D4E1A8D2@nlnetlabs.nl">
+<input type="hidden" name="relpath" value="rpki@lists.nlnetlabs.nl/msg00281.html">
+<input type="submit" value=" Alex Band via RPKI ">
+</form>
+</div>
+</div>
+</div>
+<div class="aside" role="complementary">
+<div class="logo">
+<a href="/"><img src="/logo.png" width=247 height=88 alt="The Mail Archive"></a>
+</div>
+<form class="overflow" action="/search" method="get">
+<input type="hidden" name="l" value="rpki@lists.nlnetlabs.nl">
+<label class="hidden" for="q">Search the site</label>
+<input class="submittext" type="text" id="q" name="q" placeholder="Search rpki">
+<input class="submitbutton" name="submit" type="image" src="/submit.png" alt="Submit">
+</form>
+<div class="nav margintop" id="nav" role="navigation">
+<ul class="icons font16">
+<li class="icons-home"><a href="/">The Mail Archive home</a></li>
+<li class="icons-list"><a href="/rpki@lists.nlnetlabs.nl/">rpki - all messages</a></li>
+<li class="icons-about"><a href="/rpki@lists.nlnetlabs.nl/info.html">rpki - about the list</a></li>
+<li class="icons-expand"><a href="/search?l=rpki@lists.nlnetlabs.nl&amp;q=subject:%22Re%5C%3A+%5C%5BRPKI%5C%5D+cannot+download+the+.roa+files%2C+with+the+list+of+signed+bgp+prefixes%22&amp;o=newest&amp;f=1" title="e" id="e">Expand</a></li>
+<li class="icons-prev"><a href="msg00280.html" title="p">Previous message</a></li>
+<li class="icons-next"><a href="msg00261.html" title="n">Next message</a></li>
+</ul>
+</div>
+<div class="listlogo margintopdouble">
+
+</div>
+<div class="margintopdouble">
+
+</div>
+</div>
+</div>
+<div class="footer" role="contentinfo">
+<ul>
+<li><a href="/">The Mail Archive home</a></li>
+<li><a href="/faq.html#newlist">Add your mailing list</a></li>
+<li><a href="/faq.html">FAQ</a></li>
+<li><a href="/faq.html#support">Support</a></li>
+<li><a href="/faq.html#privacy">Privacy</a></li>
+<li class="darkgray"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="5466106c16646d6260791763651179601566107915106060791762126010601165156c1066143a383a3120383536277a3a38">[email&#160;protected]</a></li>
+</ul>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a481d3c07eb5cef3',t:'MTc5MTU5NTQ4NA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

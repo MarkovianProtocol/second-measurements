@@ -1,0 +1,1817 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manual Page &mdash; Routinator 0.15.2 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="_static/css/dark.css?v=34a0413f" />
+      <link rel="stylesheet" type="text/css" href="_static/css/light.css?v=ff7c92bd" />
+
+  
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+    <link rel="canonical" href="https://routinator.docs.nlnetlabs.nl/en/stable/manual-page.html" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=7c174e4c"></script>
+        <script src="_static/doctools.js?v=888ff710"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+        <script src="_static/copybutton.js?v=f281be69"></script>
+        <script src="_static/js/versionwarning.js?v=d4224a34"></script>
+        <script src="_static/tabs.js?v=3030b3cb"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Threat Model" href="threat-model.html" />
+    <link rel="prev" title="Dumping Stored Data" href="dump.html" /> 
+<script async type="text/javascript" src="/_/static/javascript/readthedocs-addons.js"></script><meta name="readthedocs-project-slug" content="routinator" /><meta name="readthedocs-version-slug" content="stable" /><meta name="readthedocs-resolver-filename" content="/manual-page.html" /><meta name="readthedocs-http-status" content="200" /></head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html">
+            
+              <img src="_static/Routinator_Wordmark.svg" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                0.15.2
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="building.html">Building From Source</a></li>
+<li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuration</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Core</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="data-processing.html">Data Processing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="output-formats.html">VRP Output Formats</a></li>
+<li class="toctree-l1"><a class="reference internal" href="local-exceptions.html">Local Exceptions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logging.html">Logging</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Service</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="daemon.html">Running as a Daemon</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rtr-service.html">RTR Service</a></li>
+<li class="toctree-l1"><a class="reference internal" href="http-service.html">HTTP Service</a></li>
+<li class="toctree-l1"><a class="reference internal" href="user-interface.html">User Interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api-endpoints.html">API Endpoints</a></li>
+<li class="toctree-l1"><a class="reference internal" href="monitoring.html">Monitoring</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Interactive</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="interactive.html">Running Interactively</a></li>
+<li class="toctree-l1"><a class="reference internal" href="validity-checker.html">Validity Checker</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dump.html">Dumping Stored Data</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Reference</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Manual Page</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#synopsis">Synopsis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#description">Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#options">Options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#commands">Commands</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#configuration-file">Configuration File</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#http-service">HTTP Service</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#logging">Logging</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#validation">Validation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#relaxed-decoding">Relaxed Decoding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#signals">Signals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#exit-status">Exit Status</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="threat-model.html">Threat Model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="json-metrics.html">JSON Metrics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="prometheus-metrics.html">Prometheus Metrics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="unsafe-vrps.html">Unsafe VRPs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="advanced-features.html">Advanced Features</a></li>
+<li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossary</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Routinator</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Manual Page</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/NLnetLabs/routinator/blob/v0.15.2/doc/manual/source/manual-page.rst" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="manual-page">
+<h1>Manual Page<a class="headerlink" href="#manual-page" title="Link to this heading"></a></h1>
+<section id="synopsis">
+<h2>Synopsis<a class="headerlink" href="#synopsis" title="Link to this heading"></a></h2>
+<p><strong class="program">routinator</strong> [<code class="docutils literal notranslate"><span class="pre">options</span></code>] <a class="reference internal" href="#subcmd-vrps"><code class="xref std std-subcmd docutils literal notranslate"><span class="pre">vrps</span></code></a> [<code class="docutils literal notranslate"><span class="pre">vrps-options</span></code>] [<code class="samp docutils literal notranslate"><span class="pre">-o</span> <em><span class="pre">output-file</span></em></code>] [<code class="samp docutils literal notranslate"><span class="pre">-f</span> <em><span class="pre">format</span></em></code>]</p>
+<p><strong class="program">routinator</strong> [<code class="docutils literal notranslate"><span class="pre">options</span></code>] <a class="reference internal" href="#subcmd-validate"><code class="xref std std-subcmd docutils literal notranslate"><span class="pre">validate</span></code></a> [<code class="docutils literal notranslate"><span class="pre">validate-options</span></code>] [<code class="samp docutils literal notranslate"><span class="pre">-a</span> <em><span class="pre">asn</span></em></code>] [<code class="samp docutils literal notranslate"><span class="pre">-p</span> <em><span class="pre">prefix</span></em></code>]</p>
+<p><strong class="program">routinator</strong> [<code class="docutils literal notranslate"><span class="pre">options</span></code>] <a class="reference internal" href="#subcmd-server"><code class="xref std std-subcmd docutils literal notranslate"><span class="pre">server</span></code></a> [<code class="docutils literal notranslate"><span class="pre">server-options</span></code>]</p>
+<p><strong class="program">routinator</strong> [<code class="docutils literal notranslate"><span class="pre">options</span></code>] <a class="reference internal" href="#subcmd-update"><code class="xref std std-subcmd docutils literal notranslate"><span class="pre">update</span></code></a> [<code class="docutils literal notranslate"><span class="pre">update-options</span></code>]</p>
+<p><strong class="program">routinator</strong> [<code class="docutils literal notranslate"><span class="pre">archive-stats</span></code>] <a class="reference internal" href="#subcmd-archive-stats"><code class="xref std std-subcmd docutils literal notranslate"><span class="pre">archive-stats</span></code></a> <code class="samp docutils literal notranslate"><em><span class="pre">path</span></em></code></p>
+<p><strong class="program">routinator</strong> <a class="reference internal" href="#subcmd-man"><code class="xref std std-subcmd docutils literal notranslate"><span class="pre">man</span></code></a> [<code class="samp docutils literal notranslate"><span class="pre">-o</span> <em><span class="pre">file</span></em></code>]</p>
+<p><strong class="program">routinator</strong> <code class="docutils literal notranslate"><span class="pre">-h</span></code></p>
+<p><strong class="program">routinator</strong> <code class="docutils literal notranslate"><span class="pre">-V</span></code></p>
+</section>
+<section id="description">
+<h2>Description<a class="headerlink" href="#description" title="Link to this heading"></a></h2>
+<p>Routinator collects and processes Resource Public Key Infrastructure (RPKI)
+data. It validates the Route Origin Attestations contained in the data and
+makes them available to your BGP routing workflow.</p>
+<p>It can run in one-shot mode outputting a list of validated ROA payloads in
+various formats, as a server for the RPKI-to-Router (RTR) protocol that many
+routers implement to access the data, or via HTTP.</p>
+<p>These modes and additional operations can be chosen via commands. For the
+available commands, see <a class="reference internal" href="#commands">COMMANDS</a> below.</p>
+</section>
+<section id="options">
+<h2>Options<a class="headerlink" href="#options" title="Link to this heading"></a></h2>
+<p>The available options are:</p>
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-c">
+<span id="cmdoption-config"></span><span class="sig-name descname"><span class="pre">-c</span></span><span class="sig-prename descclassname"> <span class="pre">path</span></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--config</span></span><span class="sig-prename descclassname"><span class="pre">=path</span></span><a class="headerlink" href="#cmdoption-c" title="Link to this definition"></a></dt>
+<dd><p>Provides the path to a file containing basic configuration. If this
+option is not given, Routinator will try to use
+<code class="file docutils literal notranslate"><span class="pre">$HOME/.routinator.conf</span></code> if that exists. If that doesn’t exist,
+either, default values for the options as described here are used.</p>
+<p>See <a class="reference internal" href="#configuration-file">CONFIGURATION FILE</a> below for more information on the format and
+contents of the configuration file.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-r">
+<span id="cmdoption-repository-dir"></span><span class="sig-name descname"><span class="pre">-r</span></span><span class="sig-prename descclassname"> <span class="pre">dir</span></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--repository-dir</span></span><span class="sig-prename descclassname"><span class="pre">=dir</span></span><a class="headerlink" href="#cmdoption-r" title="Link to this definition"></a></dt>
+<dd><p>Specifies the directory to keep the local repository in. This is
+the place where Routinator stores the RPKI data it has collected
+and thus is a copy of all the data referenced via the trust
+anchors.</p>
+<p>If omitted, defaults to <code class="file docutils literal notranslate"><span class="pre">$HOME/.rpki-cache/repository</span></code>.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-no-rir-tals">
+<span class="sig-name descname"><span class="pre">--no-rir-tals</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-no-rir-tals" title="Link to this definition"></a></dt>
+<dd><p>If present, Routinator will not use the bundled trust anchor locators
+(TALs) of the five Regional Internet Registries (RIRs).</p>
+<p>Trust anchor locators are the starting points for collecting and
+validating RPKI data. Each of the five RIRs provides a TAL that adds
+resources from their area. For normal production installations, these
+are the only TALs that should be used.</p>
+<p>Using this option as well as the <a class="reference internal" href="#cmdoption-tal"><code class="xref std std-option docutils literal notranslate"><span class="pre">--tal</span></code></a> and
+<a class="reference internal" href="#cmdoption-extra-tals-dir"><code class="xref std std-option docutils literal notranslate"><span class="pre">--extra-tals-dir</span></code></a> options you can change which TALs
+Routinator should use.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-tal">
+<span class="sig-name descname"><span class="pre">--tal</span></span><span class="sig-prename descclassname"><span class="pre">=name</span></span><a class="headerlink" href="#cmdoption-tal" title="Link to this definition"></a></dt>
+<dd><p>Use the bundled TAL with the given name in addition to any other TAL.</p>
+<p>Each RIR TAL is available through this option as well as TALs for a
+few select test environments. If you use this option with the name
+<em>list</em>, Routinator will print a list of all available bundled TALS and
+exit.</p>
+<p>The option can be given more than once.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-extra-tals-dir">
+<span class="sig-name descname"><span class="pre">--extra-tals-dir</span></span><span class="sig-prename descclassname"><span class="pre">=dir</span></span><a class="headerlink" href="#cmdoption-extra-tals-dir" title="Link to this definition"></a></dt>
+<dd><p>Specifies a directory containing additional trust anchor locators
+(TALs) to use. Routinator will use all files in this directory with
+an extension of <em>.tal</em> as TALs. These files need to be in the format
+described by <span class="target" id="index-0"></span><a class="rfc reference external" href="https://datatracker.ietf.org/doc/html/rfc8630.html"><strong>RFC 8630</strong></a>.</p>
+<p>Note that Routinator will use all TALs provided. That means that if a
+TAL in this directory is one of the bundled TALs, then these resources
+will be validated twice.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-x">
+<span id="cmdoption-exceptions"></span><span class="sig-name descname"><span class="pre">-x</span></span><span class="sig-prename descclassname"> <span class="pre">file</span></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--exceptions</span></span><span class="sig-prename descclassname"><span class="pre">=file</span></span><a class="headerlink" href="#cmdoption-x" title="Link to this definition"></a></dt>
+<dd><p>Provides the path to a local exceptions file. The option can be used
+multiple times to specify more than one file to use. Each file is a
+JSON file as described in <span class="target" id="index-1"></span><a class="rfc reference external" href="https://datatracker.ietf.org/doc/html/rfc8416.html"><strong>RFC 8416</strong></a>. It lists both route origins that
+should be filtered out of the output as well as origins that should be
+added.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-strict">
+<span class="sig-name descname"><span class="pre">--strict</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-strict" title="Link to this definition"></a></dt>
+<dd><p>If this option is present, the repository will be validated in strict
+mode following the requirements laid out by the standard documents very
+closely. With the current RPKI repository, using this option will lead
+to a rather large amount of invalid route origins and should therefore
+not be used in practice.</p>
+<p>See <a class="reference internal" href="#relaxed-decoding">RELAXED DECODING</a> below for more information.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-stale">
+<span class="sig-name descname"><span class="pre">--stale</span></span><span class="sig-prename descclassname"><span class="pre">=policy</span></span><a class="headerlink" href="#cmdoption-stale" title="Link to this definition"></a></dt>
+<dd><p>This option defines how deal with stale objects. In RPKI, manifests and
+CRLs can be stale if the time given in their <em>next-update</em> field is in
+the past, indicating that an update to the object was scheduled but
+didn’t happen. This can be because of an operational issue at the
+issuer or an attacker trying to replay old objects.</p>
+<p>There are three possible policies that define how Routinator should
+treat stale objects.</p>
+<p>A policy of <em>reject</em> instructs Routinator to consider all stale objects
+invalid. This will result in all material published by the CA issuing
+this manifest and CRL to be invalid including all material of any child
+CA.</p>
+<p>The <em>warn</em> policy will allow Routinator to consider any stale object to
+be valid. It will, however, print a warning in the log allowing an
+operator to follow up on the issue.</p>
+<p>Finally, the <em>accept</em> policy will cause Routinator to quietly accept
+any stale object as valid.</p>
+<p>In Routinator 0.8.0 and newer, <em>reject</em> is the default policy if the
+option is not provided. In version 0.7.0 the default for this option
+was <em>warn</em>. In all previous versions <em>warn</em> was hard-wired.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-unsafe-vrps">
+<span class="sig-name descname"><span class="pre">--unsafe-vrps</span></span><span class="sig-prename descclassname"><span class="pre">=policy</span></span><a class="headerlink" href="#cmdoption-unsafe-vrps" title="Link to this definition"></a></dt>
+<dd><p>This option defines how to deal with “unsafe VRPs.” If the address
+prefix of a VRP overlaps with any resources assigned to a CA that has
+been rejected because if failed to validate completely, the VRP is said
+to be unsafe since using it may lead to legitimate routes being flagged
+as RPKI invalid.</p>
+<p>There are three options how to deal with unsafe VRPs:</p>
+<p>A policy of <em>reject</em> will filter out these VRPs. Warnings will be
+logged to indicate which VRPs have been filtered</p>
+<p>The <em>warn</em> policy will log warnings for unsafe VRPs but will add them
+to the valid VRPs.</p>
+<p>Finally, the <em>accept</em> policy will quietly add unsafe VRPs to the valid
+VRPs. This is the default policy.</p>
+<p>For more information on the process of validation implemented in
+Routinator, see the section <a class="reference internal" href="#validation">VALIDATION</a> below.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-unknown-objects">
+<span class="sig-name descname"><span class="pre">--unknown-objects</span></span><span class="sig-prename descclassname"><span class="pre">=policy</span></span><a class="headerlink" href="#cmdoption-unknown-objects" title="Link to this definition"></a></dt>
+<dd><p>Defines how to deal with unknown types  of  RPKI  objects.  Currently,
+only certificates (.cer), CRLs (.crl), manifests (.mft), ROAs (.roa),
+and Ghostbuster Records (.gbr) are allowed to appear in the RPKI
+repository.</p>
+<p>There are, once more, three policies for dealing with an object of any
+other type:</p>
+<p>The <em>reject</em> policy will reject the object as well as the entire CA.
+Consequently, an unknown object appearing in a CA will mark all other
+objects issued by the CA as invalid as well.</p>
+<p>The policy of <em>warn</em> will log a warning, ignore the object, and accept
+all known objects issued by the CA.</p>
+<p>The similar policy of <em>accept</em> will quietly ignore the object and
+accept all known objects issued by the CA.</p>
+<p>The default policy if the option is missing is <em>warn</em>.</p>
+<p>Note that even if unknown objects are accepted, they must appear in
+the manifest and the hash over their content must match the one given
+in the manifest. If the hash does not match, the CA and all its objects
+are still rejected.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-limit-v4-len">
+<span id="cmdoption-limit-v6-len"></span><span class="sig-name descname"><span class="pre">--limit-v4-len</span></span><span class="sig-prename descclassname"><span class="pre">=length</span></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--limit-v6-len</span></span><span class="sig-prename descclassname"><span class="pre">=length</span></span><a class="headerlink" href="#cmdoption-limit-v4-len" title="Link to this definition"></a></dt>
+<dd><p>If present, defines the maximum length of IPv4 prefixes or IPv6
+prefixes, respectively, that will be included in the VRP data set. All
+VRPs for prefixes with a longer prefix length will be ignored. Note that
+only the prefix length itself, not the max length is considered.</p>
+<p>If either option is missing, VRPs for all prefixes of that particular
+address family are included.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-allow-dubious-hosts">
+<span class="sig-name descname"><span class="pre">--allow-dubious-hosts</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-allow-dubious-hosts" title="Link to this definition"></a></dt>
+<dd><p>As a precaution, Routinator will reject rsync and HTTPS URIs from RPKI
+data with dubious host names. In particular, it will reject the name
+<em>localhost</em>, host names that consist of IP addresses, and a host name
+that contains an explicit port.</p>
+<p>This option allows to disable this filtering.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-fresh">
+<span class="sig-name descname"><span class="pre">--fresh</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-fresh" title="Link to this definition"></a></dt>
+<dd><p>Delete and re-initialize the local data storage before starting. This
+option should be used when Routinator fails after reporting corrupt
+data storage.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-disable-rsync">
+<span class="sig-name descname"><span class="pre">--disable-rsync</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-disable-rsync" title="Link to this definition"></a></dt>
+<dd><p>If this option is present, rsync is disabled and only RRDP will be
+used.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-rsync-command">
+<span class="sig-name descname"><span class="pre">--rsync-command</span></span><span class="sig-prename descclassname"><span class="pre">=command</span></span><a class="headerlink" href="#cmdoption-rsync-command" title="Link to this definition"></a></dt>
+<dd><p>Provides the command to run for rsync. This is only the command itself.
+If you need to provide options to rsync, use the <code class="docutils literal notranslate"><span class="pre">rsync-args</span></code>
+configuration file setting instead.</p>
+<p>If this option is not given, Routinator will simply run rsync and hope
+that it is in the path.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-rsync-timeout">
+<span class="sig-name descname"><span class="pre">--rsync-timeout</span></span><span class="sig-prename descclassname"><span class="pre">=seconds</span></span><a class="headerlink" href="#cmdoption-rsync-timeout" title="Link to this definition"></a></dt>
+<dd><p>Sets the number of seconds an rsync command is allowed to run before it
+is terminated early. This protects against hanging rsync commands that
+prevent Routinator from continuing. The default is 300 seconds which
+should be long enough except for very slow networks. Set the option to
+0 to disable the timeout.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-disable-rrdp">
+<span class="sig-name descname"><span class="pre">--disable-rrdp</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-disable-rrdp" title="Link to this definition"></a></dt>
+<dd><p>If this option is present, RRDP is disabled and only rsync will be
+used.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-rrdp-fallback">
+<span class="sig-name descname"><span class="pre">--rrdp-fallback</span></span><span class="sig-prename descclassname"><span class="pre">=policy</span></span><a class="headerlink" href="#cmdoption-rrdp-fallback" title="Link to this definition"></a></dt>
+<dd><p>Defines the circumstance when access via rsync should be tried for a
+CA that announces it can be updated via RRDP. In general, access via
+RRDP is less resource intensive and more secure than rsync and will
+therefore be preferred. This option specifies what to do when access
+to an RRDP repository fails.</p>
+<p>The policy <code class="docutils literal notranslate"><span class="pre">never</span></code> means that rsync is never tried for a CA that
+announces RRDP.</p>
+<p>The policy <code class="docutils literal notranslate"><span class="pre">stale</span></code> means that rsync is tried if an update via RRDP
+fails and there is no current local copy of the RRDP repository. A
+local copy is considered current if it was last updated within a
+time span chosen on a per-repository basis between the
+<a class="reference internal" href="#cmdoption-refresh"><code class="xref std std-option docutils literal notranslate"><span class="pre">--refresh</span></code></a> time and <a class="reference internal" href="#cmdoption-rrdp-fallback-time"><code class="xref std std-option docutils literal notranslate"><span class="pre">--rrdp-fallback-time</span></code></a>.</p>
+<p>The policy <code class="docutils literal notranslate"><span class="pre">new</span></code> means that rsync is tried if an update via RRDP
+fails and there is no local copy of the RRDP repository at all. In
+other words, an update via RRDP has never succeeded for the repository.
+Choosing this policy allows a repository operator some leeway when
+first enabling RRDP support.</p>
+<p>The default policy if this option is not given is <code class="docutils literal notranslate"><span class="pre">stale</span></code>.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-rrdp-fallback-time">
+<span class="sig-name descname"><span class="pre">--rrdp-fallback-time</span></span><span class="sig-prename descclassname"><span class="pre">=seconds</span></span><a class="headerlink" href="#cmdoption-rrdp-fallback-time" title="Link to this definition"></a></dt>
+<dd><p>Sets the maximum time in seconds since a last successful update of an
+RRDP repository before Routinator falls back to using rsync. The
+default is 3600 seconds. If the given value is smaller than twice the
+refresh time, it is silently increased to that value.</p>
+<p>The actual time is chosen at random between the refresh time and this
+value in order to spread out load on the rsync server.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-rrdp-max-delta-count">
+<span class="sig-name descname"><span class="pre">--rrdp-max-delta-count</span></span><span class="sig-prename descclassname"><span class="pre">=count</span></span><a class="headerlink" href="#cmdoption-rrdp-max-delta-count" title="Link to this definition"></a></dt>
+<dd><p>If the number of deltas necessary to update an RRDP repository is
+larger than the value provided by this option, the snapshot is used
+instead. If the option is missing, the default of 100 is used.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-rrdp-max-delta-list-len">
+<span class="sig-name descname"><span class="pre">--rrdp-max-delta-list-len</span></span><span class="sig-prename descclassname"><span class="pre">=len</span></span><a class="headerlink" href="#cmdoption-rrdp-max-delta-list-len" title="Link to this definition"></a></dt>
+<dd><p>If the number of deltas included in the notification file of an RRDP
+repository is larger than the value provided, the delta list is
+considered empty and the snapshot is used instead. If the option is
+missing, the default of 500 is used.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-rrdp-timeout">
+<span class="sig-name descname"><span class="pre">--rrdp-timeout</span></span><span class="sig-prename descclassname"><span class="pre">=seconds</span></span><a class="headerlink" href="#cmdoption-rrdp-timeout" title="Link to this definition"></a></dt>
+<dd><p>Sets the timeout in seconds for retrieving a resource from an RRDP
+server. If this option is omitted, a default timeout of 600 seconds is
+used. Set the option to 0 to disable the timeout.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-rrdp-read-timeout">
+<span class="sig-name descname"><span class="pre">--rrdp-read-timeout</span></span><span class="sig-prename descclassname"><span class="pre">=seconds</span></span><a class="headerlink" href="#cmdoption-rrdp-read-timeout" title="Link to this definition"></a></dt>
+<dd><p>Sets the timeout in seconds for RRDP-related network operation,
+primarily waiting to be able to read more data from the server.
+If this option is omitted, a default timeout of 10 seconds is used.
+Set the option to 0 to disable the timeout.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-rrdp-connect-timeout">
+<span class="sig-name descname"><span class="pre">--rrdp-connect-timeout</span></span><span class="sig-prename descclassname"><span class="pre">=seconds</span></span><a class="headerlink" href="#cmdoption-rrdp-connect-timeout" title="Link to this definition"></a></dt>
+<dd><p>Sets the timeout in seconds for RRDP connect requests. If omitted, the
+read timeout will be used.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-rrdp-tcp-keepalive">
+<span class="sig-name descname"><span class="pre">--rrdp-tcp-keepalive</span></span><span class="sig-prename descclassname"><span class="pre">=seconds</span></span><a class="headerlink" href="#cmdoption-rrdp-tcp-keepalive" title="Link to this definition"></a></dt>
+<dd><p>Sets the value of the TCP keepalive duration in seconds for RRDP
+connections. The default if this option is omitted is 60 seconds. Set
+the option to 0 to disable the use of TCP keepalives.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-rrdp-local-addr">
+<span class="sig-name descname"><span class="pre">--rrdp-local-addr</span></span><span class="sig-prename descclassname"><span class="pre">=addr</span></span><a class="headerlink" href="#cmdoption-rrdp-local-addr" title="Link to this definition"></a></dt>
+<dd><p>If present, sets the local address that the RRDP client should bind to
+when doing outgoing requests.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-rrdp-root-cert">
+<span class="sig-name descname"><span class="pre">--rrdp-root-cert</span></span><span class="sig-prename descclassname"><span class="pre">=path</span></span><a class="headerlink" href="#cmdoption-rrdp-root-cert" title="Link to this definition"></a></dt>
+<dd><p>This option provides a path to a file that contains a certificate in
+PEM encoding that should be used as a trusted certificate for HTTPS
+server authentication. The option can be given more than once.</p>
+<p>Providing this option does <em>not</em> disable the set of regular HTTPS
+authentication trust certificates.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-rrdp-proxy">
+<span class="sig-name descname"><span class="pre">--rrdp-proxy</span></span><span class="sig-prename descclassname"><span class="pre">=uri</span></span><a class="headerlink" href="#cmdoption-rrdp-proxy" title="Link to this definition"></a></dt>
+<dd><p>This option provides the URI of a proxy to use for all HTTP connections
+made by the RRDP client. It can be either an HTTP or a SOCKS URI. The
+option can be given multiple times in which case proxies are tried in
+the given order.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-max-object-size">
+<span class="sig-name descname"><span class="pre">--max-object-size</span></span><span class="sig-prename descclassname"><span class="pre">=BYTES</span></span><a class="headerlink" href="#cmdoption-max-object-size" title="Link to this definition"></a></dt>
+<dd><p>Limits the size of individual objects received via either rsync or RRDP
+to the given number of bytes. The default value if this option is not
+present is 20,000,000 (i.e., 20 MBytes). Use a value of 0 to disable
+the limit.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-max-ca-depth">
+<span class="sig-name descname"><span class="pre">--max-ca-depth</span></span><span class="sig-prename descclassname"><span class="pre">=count</span></span><a class="headerlink" href="#cmdoption-max-ca-depth" title="Link to this definition"></a></dt>
+<dd><p>The maximum number of CAs a given CA may be away from a trust anchor
+certificate before it is rejected. The default value is 32.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-enable-bgpsec">
+<span class="sig-name descname"><span class="pre">--enable-bgpsec</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-enable-bgpsec" title="Link to this definition"></a></dt>
+<dd><p>If this option is present, BGPsec router keys will be processed
+during validation and included in the produced data set.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-enable-aspa">
+<span class="sig-name descname"><span class="pre">--enable-aspa</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-enable-aspa" title="Link to this definition"></a></dt>
+<dd><p>If this option is present, ASPA assertions will be processed
+during validation and included in the produced data set.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-dirty">
+<span class="sig-name descname"><span class="pre">--dirty</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-dirty" title="Link to this definition"></a></dt>
+<dd><p>If this option is present, unused files and directories will not be
+deleted from the repository directory after each validation run.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-validation-threads">
+<span class="sig-name descname"><span class="pre">--validation-threads</span></span><span class="sig-prename descclassname"><span class="pre">=count</span></span><a class="headerlink" href="#cmdoption-validation-threads" title="Link to this definition"></a></dt>
+<dd><p>Sets the number of threads to distribute work to for validation. Note
+that the current processing model validates trust anchors all in one
+go, so you are likely to see less than that number of threads used
+throughout the validation run.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-v">
+<span id="cmdoption-verbose"></span><span class="sig-name descname"><span class="pre">-v</span></span><span class="sig-prename descclassname"></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--verbose</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-v" title="Link to this definition"></a></dt>
+<dd><p>Print more information. If given twice, even more information is
+printed.</p>
+<p>More specifically, a single <a class="reference internal" href="#cmdoption-v"><code class="xref std std-option docutils literal notranslate"><span class="pre">-v</span></code></a> increases the log level from
+the default of <em>warn</em> to <em>info</em>, specifying it more than once increases
+it to <em>debug</em>.</p>
+<p>See <a class="reference internal" href="#logging">LOGGING</a> below for more information on what information is logged
+at the different levels.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-q">
+<span id="cmdoption-quiet"></span><span class="sig-name descname"><span class="pre">-q</span></span><span class="sig-prename descclassname"></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--quiet</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-q" title="Link to this definition"></a></dt>
+<dd><p>Print less information. Given twice, print nothing at all.</p>
+<p>A single <a class="reference internal" href="#cmdoption-q"><code class="xref std std-option docutils literal notranslate"><span class="pre">-q</span></code></a> will drop the log level to <em>error</em>. Repeating
+<a class="reference internal" href="#cmdoption-q"><code class="xref std std-option docutils literal notranslate"><span class="pre">-q</span></code></a> more than once turns logging off completely.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-syslog">
+<span class="sig-name descname"><span class="pre">--syslog</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-syslog" title="Link to this definition"></a></dt>
+<dd><p>Redirect logging output to syslog.</p>
+<p>This option is implied if a command is used that causes Routinator to
+run in daemon mode.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-syslog-facility">
+<span class="sig-name descname"><span class="pre">--syslog-facility</span></span><span class="sig-prename descclassname"><span class="pre">=facility</span></span><a class="headerlink" href="#cmdoption-syslog-facility" title="Link to this definition"></a></dt>
+<dd><p>If logging to syslog is used, this option can be used to specify the
+syslog facility to use. The default is <em>daemon</em>.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-logfile">
+<span class="sig-name descname"><span class="pre">--logfile</span></span><span class="sig-prename descclassname"><span class="pre">=path</span></span><a class="headerlink" href="#cmdoption-logfile" title="Link to this definition"></a></dt>
+<dd><p>Redirect logging output to the given file.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-log-repository-issues">
+<span class="sig-name descname"><span class="pre">--log-repository-issues</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-log-repository-issues" title="Link to this definition"></a></dt>
+<dd><p>Log information about problems encountered while fetching and validating
+data. Normally, this information is only made available via the status
+HTTP endpoints.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-h">
+<span id="cmdoption-help"></span><span class="sig-name descname"><span class="pre">-h</span></span><span class="sig-prename descclassname"></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--help</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-h" title="Link to this definition"></a></dt>
+<dd><p>Print some help information.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-V">
+<span id="cmdoption-version"></span><span class="sig-name descname"><span class="pre">-V</span></span><span class="sig-prename descclassname"></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--version</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-V" title="Link to this definition"></a></dt>
+<dd><p>Print version information.</p>
+</dd></dl>
+
+</section>
+<section id="commands">
+<h2>Commands<a class="headerlink" href="#commands" title="Link to this heading"></a></h2>
+<p>Routinator provides a number of operations around the local RPKI repository.
+These can be requested by providing different commands on the command line.</p>
+<dl class="std subcmd">
+<dt class="sig sig-object std" id="subcmd-vrps">
+<span class="sig-name descname"><span class="pre">vrps</span></span><a class="headerlink" href="#subcmd-vrps" title="Link to this definition"></a></dt>
+<dd><p>This command requests that Routinator update the local repository and
+then validate the Route Origin Attestations in the repository and output
+the valid route origins, which are also known as Validated ROA Payloads
+or VRPs, as a list.</p>
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-o">
+<span id="cmdoption-output"></span><span class="sig-name descname"><span class="pre">-o</span></span><span class="sig-prename descclassname"> <span class="pre">file</span></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--output</span></span><span class="sig-prename descclassname"><span class="pre">=file</span></span><a class="headerlink" href="#cmdoption-o" title="Link to this definition"></a></dt>
+<dd><p>Specifies the output file to write the list to. If this option is
+missing or file is <code class="docutils literal notranslate"><span class="pre">-</span></code> the list is printed to standard output.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-f">
+<span id="cmdoption-format"></span><span class="sig-name descname"><span class="pre">-f</span></span><span class="sig-prename descclassname"> <span class="pre">format</span></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--format</span></span><span class="sig-prename descclassname"><span class="pre">=format</span></span><a class="headerlink" href="#cmdoption-f" title="Link to this definition"></a></dt>
+<dd><p>The output format to use. Routinator currently supports the
+following formats:</p>
+<dl>
+<dt>csv</dt><dd><p>The list is formatted as lines of comma-separated values of
+the autonomous system number, the prefix in slash notation,
+the maximum prefix length, and an abbreviation for the
+trust anchor the entry is derived from. The latter is the
+name of the TAL file without the extension <em>.tal</em>. This can
+be overwritten with the <em>tal-labels</em> config file option.</p>
+<p>This is the default format used if the <a class="reference internal" href="#cmdoption-f"><code class="xref std std-option docutils literal notranslate"><span class="pre">-f</span></code></a> option
+is missing.</p>
+</dd>
+<dt>csvcompat</dt><dd><p>The same as <em>csv</em> except that all fields are embedded in
+double quotes and the autonomous system number is given
+without the prefix <code class="docutils literal notranslate"><span class="pre">AS</span></code>. This format is pretty much
+identical to the CSV produced by the RIPE NCC Validator.</p>
+</dd>
+<dt>csvext</dt><dd><p>An extended version of csv each line contains these
+comma-separated values: the rsync URI of the ROA the line
+is taken from (or “N/A” if it isn’t from a ROA), the
+autonomous system number, the prefix in slash notation, the
+maximum prefix length, the not-before date and not-after
+date of the validity of the ROA.</p>
+<p>This format was used in the RIPE NCC RPKI Validator version
+1. That version produces one file per trust anchor. This is
+not currently supported by Routinator – all entries will
+be in one single output file.</p>
+</dd>
+<dt>json</dt><dd><p>The list is placed into a JSON object with up to four
+members: <em>roas</em> contains the validated route origin
+authorizations, <em>routerKeys</em> contains the validated
+BGPsec router keys, <em>aspas</em> contains the validated
+ASPA payload, and <em>metadata</em> contains some information
+about the validation run itself. Of the first three, only
+those members are present that have not been disabled or
+excluded.</p>
+<p>The <em>roas</em> member contains an array of objects with four
+elements each: The autonomous system number of the network
+authorized to originate a prefix in <em>asn</em>, the prefix in
+slash notation in <em>prefix</em>, the maximum prefix length of
+the announced route in <em>maxLength</em>, and the trust anchor
+from which the authorization was derived in <em>ta</em>.</p>
+<p>The <em>routerKeys</em> member contains an array of objects with
+four elements each: The autonomous system using the router
+key is given in <em>asn</em>, the key identifier as a string of
+hexadecimal digits in <em>SKI</em>, the actual public key as a
+Base 64 encoded string in <em>routerPublicKey</em>, and the trust
+anchor from which the authorization was derived in <em>ta</em>.</p>
+<p>The <em>aspa</em> member contains an array of objects with four
+members each: The <em>customer</em> member contains the customer
+ASN, <em>afi</em> the address family as either “ipv4” or “ipv6”,
+<em>providers</em> contains the provider ASN set as an array, and
+the trust anchor from which the authorization was derived
+in <em>ta</em>.</p>
+<p>The output object also includes a member named <em>metadata</em>
+which provides additional information. Currently, this is a
+member <em>generated</em> which provides the time the list was
+generated as a Unix timestamp, and a member <em>generatedTime</em>
+which provides the same time but in the standard ISO date
+format.</p>
+<p>If only route origins are included, this format is identical
+to that produced by the RIPE NCC
+RPKI Validator except for different naming of the trust
+anchor.
+Routinator uses the name of the TAL file without the
+extension <em>.tal</em> whereas the RIPE NCC Validator has a
+dedicated name for each.</p>
+</dd>
+<dt>jsonext</dt><dd><p>The list is placed into a JSON object with up to four
+members: <em>roas</em> contains the validated route origin
+authorizations, <em>routerKeys</em> contains the validated
+BGPsec router keys, <em>aspas</em> contains the validated
+ASPA payload, and <em>metadata</em> contains some information
+about the validation run itself. Of the first three, only
+those members are present that have not been disabled or
+excluded.</p>
+<p>The <em>roas</em> member contains an array of objects with four
+elements each: The autonomous system number of the network
+authorized to originate a prefix in <em>asn</em>, the prefix in
+slash notation in <em>prefix</em>, the maximum prefix length of
+the announced route in <em>maxLength</em>, and extended
+information about the source of the authorization in
+<em>source</em>.</p>
+<p>The <em>routerKeys</em> member contains an array of objects with
+four elements each: The autonomous system using the router
+key is given in <em>asn</em>, the key identifier as a string of
+hexadecimal digits in <em>SKI</em>, the actual public key as a
+Base 64 encoded string in <em>routerPublicKey</em>, and extended
+information about the source of the key is contained in
+<em>source</em>.</p>
+<p>The <em>aspa</em> member contains an array of objects with four
+members each: The <em>customer</em> member contains the customer
+ASN, <em>afi</em> the address family as either “ipv4” or “ipv6”,
+<em>providers</em> contains the provider ASN set as an array, and
+information about the source of the data can be found in
+<em>source</em>.</p>
+<p>This source information the same for route origins and
+router keys. It consists of an array. Each item in that
+array is an object providing details of a source.
+The object will have a <em>type</em> of <em>roa</em> if it was derived
+from a valid ROA object, <em>cer</em> if it was derived from
+a published router certificate, or <em>exception</em> if it was an
+assertion in a local exception file.</p>
+<p>For RPKI objects, <em>tal</em> provides the name of the trust
+anchor locator the object was published under, <em>uri</em>
+provides the rsync URI of the ROA or router certificate,
+<em>validity</em> provides the validity of the ROA itself,
+<em>chainValidity</em> the validity considering the validity of
+the certificates along the validation chain, and
+<em>stale</em> the time when any of the publication points along
+the validation chain becomes stale.</p>
+<p>For  assertions from local exceptions, <em>path</em> will provide
+the path of the local exceptions file and, optionally,
+<em>comment</em> will provide the comment if given for the
+assertion.</p>
+<p>The output object also includes a member named <em>metadata</em>
+which provides additional information. Currently, this is a
+member <em>generated</em> which provides the time the list was
+generated as a Unix timestamp, and a member <em>generatedTime</em>
+which provides the same time but in the standard ISO date
+format.</p>
+<p>Please note that because of this additional information,
+output in <code class="docutils literal notranslate"><span class="pre">jsonext</span></code> format will be quite large.</p>
+</dd>
+<dt>slurm</dt><dd><p>The list is formatted as locally added assertions of a
+local exceptions file defined by RFC 8416 (also known as
+SLURM version 1). The produced file will have empty
+validation output filters. This version does not support
+ASPA.</p>
+</dd>
+<dt>slurm2</dt><dd><p>The list is formatted as locally added assertions of a
+local exceptions file defined by
+draft-ietf-sidrops-aspa-slurm-02 (also known as SLURM
+version 2). The produced file will have empty validation
+output filters.</p>
+</dd>
+<dt>openbgpd</dt><dd><p>Choosing this format causes Routinator to produce a
+<em>roa-set</em> configuration item for the OpenBGPD
+configuration.</p>
+</dd>
+<dt>bird1</dt><dd><p>Choosing this format causes Routinator to produce a <em>roa
+table</em> configuration item for the BIRD1 configuration.</p>
+</dd>
+<dt>bird2</dt><dd><p>Choosing this format causes Routinator to produce a <em>roa
+table</em> configuration item for the BIRD2 configuration.</p>
+</dd>
+<dt>rpsl</dt><dd><p>This format produces a list of RPSL objects with the
+authorization in the fields <em>route</em>, <em>origin</em>, and
+<em>source</em>. In addition, the fields <em>descr</em>, <em>mnt-by</em>,
+<em>created</em>, and <em>last-modified</em>, are present with more or
+less meaningful values.</p>
+</dd>
+<dt>summary</dt><dd><p>This format produces a summary of the content of the RPKI
+repository. For each trust anchor, it will print the number
+of verified ROAs and VRPs. Note that this format does not
+take filters into account. It will always provide numbers
+for the complete repository.</p>
+</dd>
+<dt>none</dt><dd><p>This format produces no output whatsoever.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-n">
+<span id="cmdoption-noupdate"></span><span class="sig-name descname"><span class="pre">-n</span></span><span class="sig-prename descclassname"></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--noupdate</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-n" title="Link to this definition"></a></dt>
+<dd><p>The repository will not be updated before producing the list.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-u">
+<span id="cmdoption-update-after"></span><span class="sig-name descname"><span class="pre">--u</span></span><span class="sig-prename descclassname"></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--update-after</span></span><span class="sig-prename descclassname"><span class="pre">=minutes</span></span><a class="headerlink" href="#cmdoption-u" title="Link to this definition"></a></dt>
+<dd><p>The repostory will only be updated if the last update was more
+than the given number of minutes ago.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-complete">
+<span class="sig-name descname"><span class="pre">--complete</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-complete" title="Link to this definition"></a></dt>
+<dd><p>If any of the rsync commands needed to update the repository
+failed, complete the operation but provide exit status 2. If this
+option is not given, the operation will complete with exit status
+0 in this case.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-a">
+<span id="cmdoption-select-asn"></span><span class="sig-name descname"><span class="pre">-a</span></span><span class="sig-prename descclassname"> <span class="pre">asn</span></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--select-asn</span></span><span class="sig-prename descclassname"><span class="pre">=asn</span></span><a class="headerlink" href="#cmdoption-a" title="Link to this definition"></a></dt>
+<dd><p>Only output VRPs for the given ASN. The option can be given
+multiple times, in which case VRPs for all provided ASNs are
+provided. ASNs can be given with or without the prefix <em>AS</em>.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-p">
+<span id="cmdoption-select-prefix"></span><span class="sig-name descname"><span class="pre">-p</span></span><span class="sig-prename descclassname"> <span class="pre">prefix</span></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--select-prefix</span></span><span class="sig-prename descclassname"><span class="pre">=prefix</span></span><a class="headerlink" href="#cmdoption-p" title="Link to this definition"></a></dt>
+<dd><p>Only output VRPs with an address prefix that covers the given
+prefix, i.e., whose prefix is equal to or less specific than the
+given prefix. This will include VRPs regardless of their ASN and
+max length. In other words, the output will include all VRPs that
+need to be considered when deciding whether an announcement for
+the prefix is RPKI valid or invalid.</p>
+<p>The option can be given multiple times, in which case VRPs for all
+prefixes are provided. It can also be combined with one or more
+ASN selections. Then all matching VRPs are included. That is,
+selectors combine as “or” not “and”.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-m">
+<span id="cmdoption-more-specifics"></span><span class="sig-name descname"><span class="pre">-m</span></span><span class="sig-prename descclassname"></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--more-specifics</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-m" title="Link to this definition"></a></dt>
+<dd><p>Include VRPs with prefixes that are more specifics of those given
+by the <a class="reference internal" href="#cmdoption-p"><code class="xref std std-option docutils literal notranslate"><span class="pre">-p</span></code></a> option. Without this option, only VRPs with
+prefixes equal or less specific are included.</p>
+<p>Note that VRPs with more specific prefixes have no influence on
+whether a route is RPKI valid or invalid and therefore these VRPs
+are of an informational nature only.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-no-route-origins">
+<span id="cmdoption-no-router-keys"></span><span id="cmdoption-no-aspas"></span><span class="sig-name descname"><span class="pre">--no-route-origins</span></span><span class="sig-prename descclassname"></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--no-router-keys</span></span><span class="sig-prename descclassname"></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--no-aspas</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-no-route-origins" title="Link to this definition"></a></dt>
+<dd><p>These three options can be used to exclude the various payload
+types from being included in the output.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="std subcmd">
+<dt class="sig sig-object std" id="subcmd-validate">
+<span class="sig-name descname"><span class="pre">validate</span></span><a class="headerlink" href="#subcmd-validate" title="Link to this definition"></a></dt>
+<dd><p>This command can be used to perform RPKI route origin validation for
+one or more route announcements. Routinator will determine whether the
+provided announcements are RPKI valid, invalid, or not found.</p>
+<p>A single route announcement can be given directly on the command line:</p>
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-0">
+<span id="cmdoption-asn"></span><span class="sig-name descname"><span class="pre">-a</span></span><span class="sig-prename descclassname"> <span class="pre">asn</span></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--asn</span></span><span class="sig-prename descclassname"><span class="pre">=asn</span></span><a class="headerlink" href="#cmdoption-0" title="Link to this definition"></a></dt>
+<dd><p>The AS Number of the autonomous system that originated the
+route announcement. ASNs can be given with or without the
+prefix <em>AS</em>.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-1">
+<span id="cmdoption-prefix"></span><span class="sig-name descname"><span class="pre">-p</span></span><span class="sig-prename descclassname"> <span class="pre">prefix</span></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--prefix</span></span><span class="sig-prename descclassname"><span class="pre">=prefix</span></span><a class="headerlink" href="#cmdoption-1" title="Link to this definition"></a></dt>
+<dd><p>The address prefix the route announcement is for.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-j">
+<span id="cmdoption-json"></span><span class="sig-name descname"><span class="pre">-j</span></span><span class="sig-prename descclassname"></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--json</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-j" title="Link to this definition"></a></dt>
+<dd><p>A detailed analysis on the reasoning behind the validation is
+printed in JSON format including lists of the VRPs that caused
+the particular result. If this option is omitted, Routinator
+will only print the determined state.</p>
+</dd></dl>
+
+<p>Alternatively, a list of route announcements can be read from a file
+or standard input.</p>
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-i">
+<span id="cmdoption-input"></span><span class="sig-name descname"><span class="pre">-i</span></span><span class="sig-prename descclassname"> <span class="pre">file</span></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--input</span></span><span class="sig-prename descclassname"><span class="pre">=file</span></span><a class="headerlink" href="#cmdoption-i" title="Link to this definition"></a></dt>
+<dd><p>If present, input is read from the given file. If the file is
+given is a single dash, input is read from standard output.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-2">
+<span id="cmdoption-3"></span><span class="sig-name descname"><span class="pre">-j</span></span><span class="sig-prename descclassname"></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--json</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-2" title="Link to this definition"></a></dt>
+<dd><p>If this option is provided, the input is assumed to be JSON
+format. It should consist of a single object with one  member
+<em>routes</em>  which contains an array of objects. Each object
+describes one route announcement through its <em>prefix</em> and <em>asn</em>
+members which contain a prefix and originating AS Number as
+strings, respectively.</p>
+<p>If the option is not provided, the input is assumed to consist
+of simple plain text with one route announcement per line,
+provided as a prefix followed by an ASCII-art arrow =&gt;
+surrounded by white space and followed by the AS Number of
+originating autonomous system.</p>
+</dd></dl>
+
+<p>The following additional options are available independently of the
+input method.</p>
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-4">
+<span id="cmdoption-5"></span><span class="sig-name descname"><span class="pre">-o</span></span><span class="sig-prename descclassname"> <span class="pre">file</span></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--output</span></span><span class="sig-prename descclassname"><span class="pre">=file</span></span><a class="headerlink" href="#cmdoption-4" title="Link to this definition"></a></dt>
+<dd><p>Output is written to the provided file. If the option is
+omitted or <em>file</em> is given as a single dash, output is written
+to standard output.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-6">
+<span id="cmdoption-7"></span><span class="sig-name descname"><span class="pre">-n</span></span><span class="sig-prename descclassname"></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--noupdate</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-6" title="Link to this definition"></a></dt>
+<dd><p>The repository will not be updated before performing
+validation.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-8">
+<span class="sig-name descname"><span class="pre">--complete</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-8" title="Link to this definition"></a></dt>
+<dd><p>If any of the rsync commands needed to update the repository
+failed, complete the operation but provide exit status 2. If
+this option is not given, the operation will complete with exit
+status 0 in this case.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="std subcmd">
+<dt class="sig sig-object std" id="subcmd-server">
+<span class="sig-name descname"><span class="pre">server</span></span><a class="headerlink" href="#subcmd-server" title="Link to this definition"></a></dt>
+<dd><p>This command causes Routinator to act as a server for the
+RPKI-to-Router (RTR) and HTTP protocols. In this mode, Routinator will
+read all the Trust Anchor Locators and will stay attached to the
+terminal unless the <a class="reference internal" href="#cmdoption-d"><code class="xref std std-option docutils literal notranslate"><span class="pre">-d</span></code></a> option is given.</p>
+<p>The server will periodically update the local repository, every ten
+minutes by default, notify any clients of changes, and let them fetch
+validated data. It will not, however, reread the trust anchor
+locators. Thus, if you update them, you will have to restart
+Routinator.</p>
+<p>You can provide a number of addresses and ports to listen on for RTR
+and HTTP through command line options or their configuration file
+equivalent. Currently, Routinator will only start listening on these
+ports after an initial validation run has finished.</p>
+<p>It will not listen on any sockets unless explicitly specified. It will
+still run and periodically update the repository. This might be useful
+for use with <a class="reference internal" href="#subcmd-vrps"><code class="xref std std-subcmd docutils literal notranslate"><span class="pre">vrps</span></code></a> mode with the <a class="reference internal" href="#cmdoption-n"><code class="xref std std-option docutils literal notranslate"><span class="pre">-n</span></code></a> option.</p>
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-d">
+<span id="cmdoption-detach"></span><span class="sig-name descname"><span class="pre">-d</span></span><span class="sig-prename descclassname"></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--detach</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-d" title="Link to this definition"></a></dt>
+<dd><p>If present, Routinator will detach from the terminal after a
+successful start.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-rtr">
+<span class="sig-name descname"><span class="pre">--rtr</span></span><span class="sig-prename descclassname"><span class="pre">=addr:port</span></span><a class="headerlink" href="#cmdoption-rtr" title="Link to this definition"></a></dt>
+<dd><p>Specifies a local address and port to listen on for incoming
+RTR connections.</p>
+<p>Routinator supports both protocol version 0 defined in
+<span class="target" id="index-2"></span><a class="rfc reference external" href="https://datatracker.ietf.org/doc/html/rfc6810.html"><strong>RFC 6810</strong></a> and version 1 defined in <span class="target" id="index-3"></span><a class="rfc reference external" href="https://datatracker.ietf.org/doc/html/rfc8210.html"><strong>RFC 8210</strong></a>. However, it
+does not support router keys introduced in version 1.  IPv6
+addresses must be enclosed in square brackets. You can provide
+the option multiple times to let Routinator listen on multiple
+address-port pairs.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-rtr-tls">
+<span class="sig-name descname"><span class="pre">--rtr-tls</span></span><span class="sig-prename descclassname"><span class="pre">=addr:port</span></span><a class="headerlink" href="#cmdoption-rtr-tls" title="Link to this definition"></a></dt>
+<dd><p>Specifies a local address and port to listen for incoming
+TLS-encrypted RTR connections.</p>
+<p>The private key and server certificate given via the
+<a class="reference internal" href="#cmdoption-rtr-tls-key"><code class="xref std std-option docutils literal notranslate"><span class="pre">--rtr-tls-key</span></code></a> and <a class="reference internal" href="#cmdoption-rtr-tls-cert"><code class="xref std std-option docutils literal notranslate"><span class="pre">--rtr-tls-cert</span></code></a> or their
+equivalent config file options will be used for connections.</p>
+<p>The option can be given multiple times, but the same key and
+certificate will be used for all connections.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-http">
+<span class="sig-name descname"><span class="pre">--http</span></span><span class="sig-prename descclassname"><span class="pre">=addr:port</span></span><a class="headerlink" href="#cmdoption-http" title="Link to this definition"></a></dt>
+<dd><p>Specifies the address and port to listen on for incoming HTTP
+connections.  See <a class="reference internal" href="#http-service">HTTP SERVICE</a> below for more information on
+the HTTP service provided by Routinator.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-http-tls">
+<span class="sig-name descname"><span class="pre">--http-tls</span></span><span class="sig-prename descclassname"><span class="pre">=addr:port</span></span><a class="headerlink" href="#cmdoption-http-tls" title="Link to this definition"></a></dt>
+<dd><p>Specifies a local address and port to listen of for incoming
+TLS-encrypted HTTP connections.</p>
+<p>The private key and server certificate given via the
+<a class="reference internal" href="#cmdoption-http-tls-key"><code class="xref std std-option docutils literal notranslate"><span class="pre">--http-tls-key</span></code></a> and <a class="reference internal" href="#cmdoption-http-tls-cert"><code class="xref std std-option docutils literal notranslate"><span class="pre">--http-tls-cert</span></code></a> or their
+equivalent config file options will be used for connections.</p>
+<p>The option can be given multiple times, but the same key and
+certificate will be used for all connections.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-listen-systemd">
+<span class="sig-name descname"><span class="pre">--listen-systemd</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-listen-systemd" title="Link to this definition"></a></dt>
+<dd><p>The RTR listening socket will be acquired from systemd via
+socket activation. Use this option together with systemd’s
+socket units to allow a Routinator running as a regular user to
+bind to the default RTR port 323.</p>
+<p>Currently, all TCP listener sockets handed over by systemd will
+be used for the RTR protocol.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-rtr-tcp-keepalive">
+<span class="sig-name descname"><span class="pre">--rtr-tcp-keepalive</span></span><span class="sig-prename descclassname"><span class="pre">=seconds</span></span><a class="headerlink" href="#cmdoption-rtr-tcp-keepalive" title="Link to this definition"></a></dt>
+<dd><p>The number of seconds to wait before sending a TCP keepalive on
+an established RTR  connection. By  default, TCP keepalive is
+enabled on all RTR connections with an idle time of 60 seconds.
+Set this option to 0 to disable keepalives.</p>
+<p>On some systems, notably OpenBSD, this option only enables TCP
+keepalives if set to any value other than 0. You will have to
+use the system’s own mechanisms to change the idle times.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-rtr-client-metrics">
+<span class="sig-name descname"><span class="pre">--rtr-client-metrics</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-rtr-client-metrics" title="Link to this definition"></a></dt>
+<dd><p>If provided, the server metrics will include separate metrics
+for every RTR client. Clients are identified by their RTR
+source IP address. This is disabled by default to avoid
+accidentally leaking information about the local network
+topology.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-rtr-tls-key">
+<span class="sig-name descname"><span class="pre">--rtr-tls-key</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-rtr-tls-key" title="Link to this definition"></a></dt>
+<dd><p>Specifies the path to a file containing the private key to be
+used for RTR-over-TLS connections. The file has to contain
+exactly one private key encoded in PEM format.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-rtr-tls-cert">
+<span class="sig-name descname"><span class="pre">--rtr-tls-cert</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-rtr-tls-cert" title="Link to this definition"></a></dt>
+<dd><p>Specifies the path to a file containing the server certificates
+to be used for RTR-over-TLS connections. The file has to
+contain one or more certificates encoded in PEM format.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-http-tls-key">
+<span class="sig-name descname"><span class="pre">--http-tls-key</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-http-tls-key" title="Link to this definition"></a></dt>
+<dd><p>Specifies the path to a file containing the private key to be
+used for HTTP-over-TLS connections. The file has to contain
+exactly one private key encoded in PEM format.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-http-tls-cert">
+<span class="sig-name descname"><span class="pre">--http-tls-cert</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-http-tls-cert" title="Link to this definition"></a></dt>
+<dd><p>Specifies the path to a file containing the server certificates
+to be used for HTTP-over-TLS connections. The file has to
+contain one or more certificates encoded in PEM format.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-refresh">
+<span class="sig-name descname"><span class="pre">--refresh</span></span><span class="sig-prename descclassname"><span class="pre">=seconds</span></span><a class="headerlink" href="#cmdoption-refresh" title="Link to this definition"></a></dt>
+<dd><p>The amount of seconds the server should wait after having
+finished updating and validating the local repository before
+starting to update again. The next update will be earlier if
+objects in the repository expire earlier and min-refresh is set.
+The default value is 600 seconds.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-min-refresh">
+<span class="sig-name descname"><span class="pre">--min-refresh</span></span><span class="sig-prename descclassname"><span class="pre">=seconds</span></span><a class="headerlink" href="#cmdoption-min-refresh" title="Link to this definition"></a></dt>
+<dd><p>The amount of seconds the server should at least wait after
+having finished updating and validating the local repository
+before starting to update again. If not set this will default to
+refresh.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-9">
+<span class="sig-name descname"><span class="pre">--refresh</span></span><span class="sig-prename descclassname"><span class="pre">=seconds</span></span><a class="headerlink" href="#cmdoption-9" title="Link to this definition"></a></dt>
+<dd><p>The amount of seconds the server should wait after having
+finished updating and validating the local repository before
+starting to update again. The next update will be earlier if
+objects in the repository expire earlier. The default value is
+600 seconds.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-retry">
+<span class="sig-name descname"><span class="pre">--retry</span></span><span class="sig-prename descclassname"><span class="pre">=seconds</span></span><a class="headerlink" href="#cmdoption-retry" title="Link to this definition"></a></dt>
+<dd><p>The amount of seconds to suggest to an RTR client to wait
+before trying to request data again if that failed. The default
+value is 600 seconds, as recommended in <span class="target" id="index-4"></span><a class="rfc reference external" href="https://datatracker.ietf.org/doc/html/rfc8210.html"><strong>RFC 8210</strong></a>.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-expire">
+<span class="sig-name descname"><span class="pre">--expire</span></span><span class="sig-prename descclassname"><span class="pre">=seconds</span></span><a class="headerlink" href="#cmdoption-expire" title="Link to this definition"></a></dt>
+<dd><p>The amount of seconds to an RTR client can keep using data if
+it cannot refresh it. After that time, the client should
+discard the data. Note that this value was introduced in
+version 1 of the RTR protocol and is thus not relevant for
+clients that only implement version 0. The default value, as
+recommended in <span class="target" id="index-5"></span><a class="rfc reference external" href="https://datatracker.ietf.org/doc/html/rfc8210.html"><strong>RFC 8210</strong></a>, is 7200 seconds.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-history">
+<span class="sig-name descname"><span class="pre">--history</span></span><span class="sig-prename descclassname"><span class="pre">=count</span></span><a class="headerlink" href="#cmdoption-history" title="Link to this definition"></a></dt>
+<dd><p>In RTR, a client can request to only receive the changes that
+happened since the last version of the data it had seen. This
+option sets how many change sets the server will at most keep.
+If a client requests changes from an older version, it will get
+the current full set.</p>
+<p>Note that routers typically stay connected with their RTR
+server and therefore really only ever need one single change
+set. Additionally, if RTR server or router are restarted, they
+will have a new session with new change sets and need to
+exchange a full data set, too. Thus, increasing the value
+probably only ever increases memory consumption.</p>
+<p>The default value is 10.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-pid-file">
+<span class="sig-name descname"><span class="pre">--pid-file</span></span><span class="sig-prename descclassname"><span class="pre">=path</span></span><a class="headerlink" href="#cmdoption-pid-file" title="Link to this definition"></a></dt>
+<dd><p>States a file which will be used in daemon mode to store the
+processes PID. While the process is running, it will keep the
+file locked.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-working-dir">
+<span class="sig-name descname"><span class="pre">--working-dir</span></span><span class="sig-prename descclassname"><span class="pre">=path</span></span><a class="headerlink" href="#cmdoption-working-dir" title="Link to this definition"></a></dt>
+<dd><p>The working directory for the daemon process. In daemon mode,
+Routinator will change to this directory while detaching from
+the terminal.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-chroot">
+<span class="sig-name descname"><span class="pre">--chroot</span></span><span class="sig-prename descclassname"><span class="pre">=path</span></span><a class="headerlink" href="#cmdoption-chroot" title="Link to this definition"></a></dt>
+<dd><p>The root directory for the daemon process. If this option is
+provided, the daemon process will change its root directory to
+the given directory. This will only work if all other paths
+provided via the configuration or command line options are
+under this directory.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-user">
+<span class="sig-name descname"><span class="pre">--user</span></span><span class="sig-prename descclassname"><span class="pre">=user-name</span></span><a class="headerlink" href="#cmdoption-user" title="Link to this definition"></a></dt>
+<dd><p>The name of the user to change to for server mode. It this
+option is provided, Routinator will run as that user after the
+listening sockets for HTTP and RTR have been created. This may
+cause problems, if the user is not allowed to write to the
+directory given as repository directory or local exception
+files.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-group">
+<span class="sig-name descname"><span class="pre">--group</span></span><span class="sig-prename descclassname"><span class="pre">=group-name</span></span><a class="headerlink" href="#cmdoption-group" title="Link to this definition"></a></dt>
+<dd><p>The name of the group to change to for server mode. It this
+option is provided, Routinator will run as that group after the
+listening sockets for HTTP and RTR have been created.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="std subcmd">
+<dt class="sig sig-object std" id="subcmd-update">
+<span class="sig-name descname"><span class="pre">update</span></span><a class="headerlink" href="#subcmd-update" title="Link to this definition"></a></dt>
+<dd><p>Updates the local repository by resyncing all known publication
+points. The command will also validate the updated repository to
+discover any new publication points that appear in the repository and
+fetch their data.</p>
+<p>As such, the command really is a shortcut for running
+<strong class="program">routinator</strong> <a class="reference internal" href="#subcmd-vrps"><code class="xref std std-subcmd docutils literal notranslate"><span class="pre">vrps</span></code></a> <a class="reference internal" href="#cmdoption-f"><code class="xref std std-option docutils literal notranslate"><span class="pre">-f</span></code></a> <code class="docutils literal notranslate"><span class="pre">none</span></code>.</p>
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-10">
+<span class="sig-name descname"><span class="pre">--complete</span></span><span class="sig-prename descclassname"></span><a class="headerlink" href="#cmdoption-10" title="Link to this definition"></a></dt>
+<dd><p>If any of the rsync commands needed to update the repository
+failed, Routinator completes the operation and exits with
+status code 2. If this option is not given, the operation will
+complete with exit status 0 in this case.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="std subcmd">
+<dt class="sig sig-object std" id="subcmd-dump">
+<span class="sig-name descname"><span class="pre">dump</span></span><a class="headerlink" href="#subcmd-dump" title="Link to this definition"></a></dt>
+<dd><p>Writes the content of all stored data to the file system. This is
+primarily intended for debugging but can be used to get access to the
+view of the RPKI data that Routinator currently sees.</p>
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-11">
+<span id="cmdoption-12"></span><span class="sig-name descname"><span class="pre">-o</span></span><span class="sig-prename descclassname"> <span class="pre">dir</span></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--output</span></span><span class="sig-prename descclassname"><span class="pre">=dir</span></span><a class="headerlink" href="#cmdoption-11" title="Link to this definition"></a></dt>
+<dd><p>Write the output to the given directory. If the option is omitted,
+the current directory is used.</p>
+</dd></dl>
+
+<p>Three directories will be created in the output directory:</p>
+<p>The <em>rrdp</em> directory will contain all the files collected via RRDP
+from the various repositories. Each repository is stored in its own
+directory. The mapping between rpkiNotify URI and path is provided in
+the <em>repositories.json</em> file. For each repository, the files are
+stored in a directory structure based on the components of the file as
+rsync URI.</p>
+<p>The <em>rsync</em> directory contains all the files collected via rsync. The
+files are stored in a directory structure based on the components of
+the file’s rsync URI.</p>
+<p>The <em>store</em> directory contains all the files used for validation.
+Files collected via RRDP  or rsync are copied to the store if they are
+correctly referenced by a valid manifest. This part contains one
+directory for each RRDP repository similarly structured to the <em>rrdp</em>
+directory and one additional directory <em>rsync</em> that contains files
+collected via rsync.</p>
+</dd></dl>
+
+<dl class="std subcmd">
+<dt class="sig sig-object std" id="subcmd-archive-stats">
+<span class="sig-name descname"><span class="pre">archive-stats</span></span><a class="headerlink" href="#subcmd-archive-stats" title="Link to this definition"></a></dt>
+<dd><p>Prints some statistics about the content of an RRDP archive file to
+standard out. This is likely only useful for development.</p>
+</dd></dl>
+
+<dl class="std subcmd">
+<dt class="sig sig-object std" id="subcmd-man">
+<span class="sig-name descname"><span class="pre">man</span></span><a class="headerlink" href="#subcmd-man" title="Link to this definition"></a></dt>
+<dd><p>Displays the manual page, i.e., this page.</p>
+<dl class="std option">
+<dt class="sig sig-object std" id="cmdoption-13">
+<span id="cmdoption-14"></span><span class="sig-name descname"><span class="pre">-o</span></span><span class="sig-prename descclassname"> <span class="pre">file</span></span><span class="sig-prename descclassname"><span class="pre">,</span> </span><span class="sig-name descname"><span class="pre">--output</span></span><span class="sig-prename descclassname"><span class="pre">=file</span></span><a class="headerlink" href="#cmdoption-13" title="Link to this definition"></a></dt>
+<dd><p>If this option is provided, the manual page will be written to
+the given file instead of displaying it. Use - to output the
+manual page to standard output.</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="configuration-file">
+<h2>Configuration File<a class="headerlink" href="#configuration-file" title="Link to this heading"></a></h2>
+<p>Instead of providing all options on the command line, they can also be
+provided through a configuration file. Such a file can be selected through
+the <a class="reference internal" href="#cmdoption-c"><code class="xref std std-option docutils literal notranslate"><span class="pre">-c</span></code></a> option. If no configuration file is specified this way but a
+file named <code class="file docutils literal notranslate"><span class="pre">$HOME/.routinator.conf</span></code> is present, this file is used.</p>
+<p>The configuration file is a file in TOML format. In short, it consists of a
+sequence of key-value pairs, each on its own line. Strings are to be enclosed
+in double quotes. Lists can be given by enclosing a comma-separated list of
+values in square brackets.</p>
+<p>The configuration file can contain the following entries. All path values are
+interpreted relative to the directory the configuration file is located in.
+All values can be overridden via the command line options.</p>
+<dl class="glossary">
+<dt id="term-repository-dir">repository-dir<a class="headerlink" href="#term-repository-dir" title="Link to this term"></a></dt><dd><p>A string containing the path to the directory to store the local
+repository in. This entry is mandatory.</p>
+</dd>
+<dt id="term-no-rir-tals">no-rir-tals<a class="headerlink" href="#term-no-rir-tals" title="Link to this term"></a></dt><dd><p>A boolean specifying whether the five RIR Trust Anchor Locators
+(TALs) should not be added to the set of evaluated TALs. If
+missing, the RIR TALs will be used.</p>
+</dd>
+<dt id="term-tals">tals<a class="headerlink" href="#term-tals" title="Link to this term"></a></dt><dd><p>A list of strings, each containing the name of a bundled TAL to
+be added to the set of TALs to be evaluated.</p>
+</dd>
+<dt id="term-extra-tals-dir">extra-tals-dir<a class="headerlink" href="#term-extra-tals-dir" title="Link to this term"></a></dt><dd><p>A string containing the path to a directory that contains
+additional TALs.</p>
+</dd>
+<dt id="term-exceptions">exceptions<a class="headerlink" href="#term-exceptions" title="Link to this term"></a></dt><dd><p>A list of strings, each containing the path to a file with local
+exceptions. If missing, no local exception files are used.</p>
+</dd>
+<dt id="term-strict">strict<a class="headerlink" href="#term-strict" title="Link to this term"></a></dt><dd><p>A boolean specifying whether strict validation should be
+employed. If missing, strict validation will not be used.</p>
+</dd>
+<dt id="term-stale">stale<a class="headerlink" href="#term-stale" title="Link to this term"></a></dt><dd><p>A string specifying the policy for dealing with stale objects.</p>
+<dl class="simple">
+<dt>reject</dt><dd><p>Consider all stale objects invalid rendering all material
+published by the CA issuing the stale object to be invalid
+including all material of any child CA. This is the default
+policy if the value is missing.</p>
+</dd>
+<dt>warn</dt><dd><p>Consider stale objects to be valid but print a warning to
+the log.</p>
+</dd>
+<dt>accept</dt><dd><p>Quietly consider stale objects valid.</p>
+</dd>
+</dl>
+</dd>
+<dt id="term-unsafe-vrps">unsafe-vrps<a class="headerlink" href="#term-unsafe-vrps" title="Link to this term"></a></dt><dd><p>A string specifying the policy for dealing with unsafe VRPs.</p>
+<dl class="simple">
+<dt>reject</dt><dd><p>Filter unsafe VRPs and add warning messages to the log.</p>
+</dd>
+<dt>warn</dt><dd><p>Warn about unsafe VRPs in the log but add them to the final
+set of VRPs.</p>
+</dd>
+<dt>accept</dt><dd><p>Quietly add unsafe VRPs to the final set of VRPs.  This is
+the default policy if the value is missing.</p>
+</dd>
+</dl>
+</dd>
+<dt id="term-unknown-objects">unknown-objects<a class="headerlink" href="#term-unknown-objects" title="Link to this term"></a></dt><dd><p>A string specifying the policy for dealing with unknown RPKI
+object types.</p>
+<dl class="simple">
+<dt>reject</dt><dd><p>Reject the object and its issuing CA.</p>
+</dd>
+<dt>warn</dt><dd><p>Warn about the object but ignore it and accept the issuing
+CA. This is the default policy if the value is missing.</p>
+</dd>
+<dt>accept</dt><dd><p>Quietly ignore the object and accept the issuing CA.</p>
+</dd>
+</dl>
+</dd>
+<dt id="term-limit-v4-len">limit-v4-len<a class="headerlink" href="#term-limit-v4-len" title="Link to this term"></a></dt><dd><p>An integer value which, if present, limits the length of IPv4
+prefixes for which VPRs are included in the data set to the given
+value.</p>
+</dd>
+<dt id="term-limit-v6-len">limit-v6-len<a class="headerlink" href="#term-limit-v6-len" title="Link to this term"></a></dt><dd><p>An integer value which, if present, limits the length of IPv6
+prefixes for which VPRs are included in the data set to the given
+value.</p>
+</dd>
+<dt id="term-allow-dubious-hosts">allow-dubious-hosts<a class="headerlink" href="#term-allow-dubious-hosts" title="Link to this term"></a></dt><dd><p>A boolean value that, if present and true, disables Routinator’s
+filtering of dubious host names in rsync and HTTPS URIs from RPKI
+data.</p>
+</dd>
+<dt id="term-disable-rsync">disable-rsync<a class="headerlink" href="#term-disable-rsync" title="Link to this term"></a></dt><dd><p>A boolean value that, if present and true, turns off the use of
+rsync.</p>
+</dd>
+<dt id="term-rsync-command">rsync-command<a class="headerlink" href="#term-rsync-command" title="Link to this term"></a></dt><dd><p>A string specifying the command to use for running rsync. The
+default is simply <em>rsync</em>.</p>
+</dd>
+<dt id="term-rsync-args">rsync-args<a class="headerlink" href="#term-rsync-args" title="Link to this term"></a></dt><dd><p>A list of strings containing additional arguments to be passed
+to the rsync command. Each string is an argument of its own.</p>
+<p>The options <code class="docutils literal notranslate"><span class="pre">-rtO</span> <span class="pre">--delete</span></code> are always passed to the command.
+The options listed in the option are added to it.</p>
+<p>The options <code class="docutils literal notranslate"><span class="pre">-e</span></code> and <code class="docutils literal notranslate"><span class="pre">--rsh</span></code>  are not allowed in the list
+of arguments and will be rejected.</p>
+<p>If the option is not provided, Routinator will add <code class="docutils literal notranslate"><span class="pre">-z</span></code> and
+<code class="docutils literal notranslate"><span class="pre">--no-motd</span></code>, as well as <code class="docutils literal notranslate"><span class="pre">--contimeout=10</span></code> if it is supported
+by the rsync command, and <code class="docutils literal notranslate"><span class="pre">--max-size</span></code> if the
+<code class="docutils literal notranslate"><span class="pre">max-object-size</span></code> option has not been set to 0.</p>
+</dd>
+<dt id="term-rsync-timeout">rsync-timeout<a class="headerlink" href="#term-rsync-timeout" title="Link to this term"></a></dt><dd><p>An integer value specifying the number seconds an rsync command
+is allowed to run before it is being terminated. The default if
+the value is missing is 300 seconds. Set the value to 0 to turn
+the timeout off.</p>
+</dd>
+<dt id="term-disable-rrdp">disable-rrdp<a class="headerlink" href="#term-disable-rrdp" title="Link to this term"></a></dt><dd><p>A boolean value that, if present and true, turns off the use of
+RRDP.</p>
+</dd>
+<dt id="term-rrdp-fallback">rrdp-fallback<a class="headerlink" href="#term-rrdp-fallback" title="Link to this term"></a></dt><dd><p>A string value specifying the circumstances under which an update
+via rsync is tried if an update via RRDP fails. See
+<a class="reference internal" href="#cmdoption-rrdp-fallback"><code class="xref std std-option docutils literal notranslate"><span class="pre">--rrdp-fallback</span></code></a> for details on the available policies.</p>
+</dd>
+<dt id="term-rrdp-fallback-time">rrdp-fallback-time<a class="headerlink" href="#term-rrdp-fallback-time" title="Link to this term"></a></dt><dd><p>An integer value specifying the maximum number of seconds since a
+last successful update of an RRDP repository before Routinator
+falls back to using rsync. The default in case the value is
+missing is 3600 seconds. If the value provided is smaller than
+twice the refresh time, it is silently increased to that value.</p>
+</dd>
+<dt id="term-rrdp-max-delta-count">rrdp-max-delta-count<a class="headerlink" href="#term-rrdp-max-delta-count" title="Link to this term"></a></dt><dd><p>An integer value that specifies the maximum number of deltas
+necessary to update an RRDP repository before using the snapshot
+instead. If the value is missing, the default of 100 is used.</p>
+</dd>
+<dt id="term-rrdp-max-delta-list-len">rrdp-max-delta-list-len<a class="headerlink" href="#term-rrdp-max-delta-list-len" title="Link to this term"></a></dt><dd><p>An integer value that specifies the maximum number of deltas
+listed the notification file of an RRDP repository before the
+list is considered empty and the snapshot is used instead.
+If the value is missing, the default of 500 is used.</p>
+</dd>
+<dt id="term-rrdp-timeout">rrdp-timeout<a class="headerlink" href="#term-rrdp-timeout" title="Link to this term"></a></dt><dd><p>An integer value that provides a timeout in seconds for retrieving
+a resource from an RRDP server. If the value is missing, a default
+timeout of 600 seconds will be used. Set the value to 0 to turn
+off the timeout.</p>
+</dd>
+<dt id="term-rrdp-read-timeout">rrdp-read-timeout<a class="headerlink" href="#term-rrdp-read-timeout" title="Link to this term"></a></dt><dd><p>An integer value that provides a timeout in seconds for
+RRDP-related network operations, primarily waiting to be
+able to read more data from the server. If the value is missing,
+a default timeout of 10 seconds will be used. Set the value to 0
+to turn off the timeout.</p>
+</dd>
+<dt id="term-rrdp-connect-timeout">rrdp-connect-timeout<a class="headerlink" href="#term-rrdp-connect-timeout" title="Link to this term"></a></dt><dd><p>An integer value that, if present, sets a separate timeout in
+seconds for connecting to an RRDP. If this value is absent, the
+RRDP read timeout is used.</p>
+</dd>
+<dt id="term-rrdp-tcp-keepalive">rrdp-tcp-keepalive<a class="headerlink" href="#term-rrdp-tcp-keepalive" title="Link to this term"></a></dt><dd><p>An integer value that provides the duration in seconds for the
+TCP keepalive option on RRDP connections. If the value is missing,
+a duration of 60 seconds is used. Set the value to 0 to disable
+the use of TCP keepalive for RRDP connections.</p>
+</dd>
+<dt id="term-rrdp-local-addr">rrdp-local-addr<a class="headerlink" href="#term-rrdp-local-addr" title="Link to this term"></a></dt><dd><p>A string value that provides the local address to be used by RRDP
+connections.</p>
+</dd>
+<dt id="term-rrdp-root-certs">rrdp-root-certs<a class="headerlink" href="#term-rrdp-root-certs" title="Link to this term"></a></dt><dd><p>A list of strings each providing a path to a file containing a
+trust anchor certificate for HTTPS authentication of RRDP
+connections. In addition to the certificates provided via this
+option, the system’s own trust store is used.</p>
+</dd>
+<dt id="term-rrdp-proxies">rrdp-proxies<a class="headerlink" href="#term-rrdp-proxies" title="Link to this term"></a></dt><dd><p>A list of string each providing the URI for a proxy for outgoing
+RRDP connections. The proxies are tried in order for each
+request. HTTP and SOCKS5 proxies are supported.</p>
+</dd>
+<dt id="term-max-object-size">max-object-size<a class="headerlink" href="#term-max-object-size" title="Link to this term"></a></dt><dd><p>An integer value that provides a limit for the size of individual
+objects received via either rsync or RRDP to the given number of
+bytes. The default value if this option is not present is
+20,000,000 (i.e., 20 MBytes). A value of 0 disables the limit.</p>
+</dd>
+<dt id="term-max-ca-depth">max-ca-depth<a class="headerlink" href="#term-max-ca-depth" title="Link to this term"></a></dt><dd><p>An integer value that specifies the maximum number of CAs a given
+CA may be away from a trust anchor certificate before it is
+rejected. If the option is missing, a default of 32 will be used.</p>
+</dd>
+<dt id="term-enable-bgpsec">enable-bgpsec<a class="headerlink" href="#term-enable-bgpsec" title="Link to this term"></a></dt><dd><p>A boolean value specifying whether BGPsec router keys should be
+included in the published dataset. If false or missing, no router
+keys will be included.</p>
+</dd>
+<dt id="term-enable-aspa">enable-aspa<a class="headerlink" href="#term-enable-aspa" title="Link to this term"></a></dt><dd><p>A boolean value specifying whether ASPA assertions should be
+included in the published dataset. If false or missing, no ASPA
+assertions will be included.</p>
+</dd>
+<dt id="term-dirty">dirty<a class="headerlink" href="#term-dirty" title="Link to this term"></a></dt><dd><p>A boolean value which, if true, specifies that unused files and
+directories should not be deleted from the repository directory
+after each validation run. If left out, its value will be false
+and unused files will be deleted.</p>
+</dd>
+<dt id="term-validation-threads">validation-threads<a class="headerlink" href="#term-validation-threads" title="Link to this term"></a></dt><dd><p>An integer value specifying the number of threads to be used
+during validation of the repository. If this value is missing,
+the number of CPUs in the system is used.</p>
+</dd>
+<dt id="term-log-level">log-level<a class="headerlink" href="#term-log-level" title="Link to this term"></a></dt><dd><p>A string value specifying the maximum log level for which log
+messages should be emitted. The default is <em>warn</em>.</p>
+<p>See <a class="reference internal" href="#logging">LOGGING</a> below for more information on what information is
+logged at the different levels.</p>
+</dd>
+<dt id="term-log">log<a class="headerlink" href="#term-log" title="Link to this term"></a></dt><dd><p>A string specifying where to send log messages to. This can be
+one of the following values:</p>
+<dl class="simple">
+<dt>default</dt><dd><p>Log messages will be sent to standard error if Routinator
+stays attached to the terminal or to syslog if it runs in
+daemon mode.</p>
+</dd>
+<dt>stderr</dt><dd><p>Log messages will be sent to standard error.</p>
+</dd>
+<dt>syslog</dt><dd><p>Log messages will be sent to syslog.</p>
+</dd>
+<dt>file</dt><dd><p>Log messages will be sent to the file specified through
+the log-file configuration file entry.</p>
+</dd>
+</dl>
+<p>The default if this value is missing is, unsurprisingly,
+<em>default</em>.</p>
+</dd>
+<dt id="term-log-file">log-file<a class="headerlink" href="#term-log-file" title="Link to this term"></a></dt><dd><p>A string value containing the path to a file to which log
+messages will be appended if the log configuration value is set
+to file. In this case, the value is mandatory.</p>
+</dd>
+<dt id="term-syslog-facility">syslog-facility<a class="headerlink" href="#term-syslog-facility" title="Link to this term"></a></dt><dd><p>A string value specifying the syslog facility to use for logging
+to syslog. The default value if this entry is missing is
+<em>daemon</em>.</p>
+</dd>
+<dt id="term-log-repository-issues">log-repository-issues<a class="headerlink" href="#term-log-repository-issues" title="Link to this term"></a></dt><dd><p>A boolean that indicates when present and set to true that
+information about problems encountered while fetching and
+validating data should be logged. Normally, this information is
+only made available via the status HTTP endpoints.</p>
+</dd>
+<dt id="term-rtr-listen">rtr-listen<a class="headerlink" href="#term-rtr-listen" title="Link to this term"></a></dt><dd><p>An array of string values each providing an address and port on
+which the RTR server should listen in TCP mode. Address and port
+should be separated by a colon. IPv6 address should be enclosed
+in square brackets.</p>
+</dd>
+<dt id="term-rtr-tls-listen">rtr-tls-listen<a class="headerlink" href="#term-rtr-tls-listen" title="Link to this term"></a></dt><dd><p>An array of string values each providing an address and port
+on which the RTR server should listen in TLS mode. Address and
+port should be separated by a colon. IPv6 address should be
+enclosed in square brackets.</p>
+</dd>
+<dt id="term-http-listen">http-listen<a class="headerlink" href="#term-http-listen" title="Link to this term"></a></dt><dd><p>An array of string values each providing an address and port
+on which the HTTP server should listen. Address and
+port should be separated by a colon. IPv6 address should be
+enclosed in square brackets.</p>
+</dd>
+<dt id="term-http-tls-listen">http-tls-listen<a class="headerlink" href="#term-http-tls-listen" title="Link to this term"></a></dt><dd><p>An array of string values each providing an address and port
+on which the HTTP server should listen in TLS mode. Address and
+port should be separated by a colon. IPv6 address should be
+enclosed in square brackets.</p>
+</dd>
+<dt id="term-listen-systemd">listen-systemd<a class="headerlink" href="#term-listen-systemd" title="Link to this term"></a></dt><dd><p>The RTR TCP listening socket will be acquired from systemd via
+socket activation. Use this option together with systemd’s socket
+units to allow Routinator running as a regular user to bind to
+the default RTR port 323.</p>
+</dd>
+<dt id="term-rtr-tcp-keepalive">rtr-tcp-keepalive<a class="headerlink" href="#term-rtr-tcp-keepalive" title="Link to this term"></a></dt><dd><p>An integer value specifying the number of seconds to wait before
+sending a TCP keepalive on an established RTR connection. If this
+option is missing, TCP keepalive will be enabled on all RTR
+connections with an idle time of 60 seconds. If this option is
+present and set to zero, TCP keepalives are disabled.</p>
+<p>On some systems, notably OpenBSD, this option only enables TCP
+keepalives if set to any value other than 0. You will have to
+use the system’s own mechanisms to change the idle times.</p>
+</dd>
+<dt id="term-rtr-client-metrics">rtr-client-metrics<a class="headerlink" href="#term-rtr-client-metrics" title="Link to this term"></a></dt><dd><p>A boolean value specifying whether server metrics should include
+separate metrics for every RTR client. If the value is missing,
+no RTR client metrics will be provided.</p>
+</dd>
+<dt id="term-rtr-tls-key">rtr-tls-key<a class="headerlink" href="#term-rtr-tls-key" title="Link to this term"></a></dt><dd><p>A string value providing the path to a file containing the
+private key to be used by the RTR server in TLS mode. The file
+must contain one private key in PEM format.</p>
+</dd>
+<dt id="term-rtr-tls-cert">rtr-tls-cert<a class="headerlink" href="#term-rtr-tls-cert" title="Link to this term"></a></dt><dd><p>A string value providing the path to a file containing the server
+certificates to be used by the RTR server in TLS mode. The file
+must contain one or more certificates in PEM format.</p>
+</dd>
+<dt id="term-http-tls-key">http-tls-key<a class="headerlink" href="#term-http-tls-key" title="Link to this term"></a></dt><dd><p>A string value providing the path to a file containing the
+private key to be used by the HTTP server in TLS mode. The file
+must contain one private key in PEM format.</p>
+</dd>
+<dt id="term-http-tls-cert">http-tls-cert<a class="headerlink" href="#term-http-tls-cert" title="Link to this term"></a></dt><dd><p>A string value providing the path to a file containing the server
+certificates to be used by the HTTP server in TLS mode. The file
+must contain one or more certificates in PEM format.</p>
+</dd>
+<dt id="term-refresh">refresh<a class="headerlink" href="#term-refresh" title="Link to this term"></a></dt><dd><p>An integer value specifying the number of seconds Routinator
+should wait between consecutive validation runs in server mode.
+The next validation run will happen earlier if objects expire
+earlier and min-refresh is set. The default is 600 seconds.</p>
+</dd>
+<dt id="term-min-refresh">min-refresh<a class="headerlink" href="#term-min-refresh" title="Link to this term"></a></dt><dd><p>An integer value specifying the number of seconds Routinator
+should at least wait between consecutive validation runs in server
+mode. If not set this will default to refresh.</p>
+</dd>
+<dt id="term-retry">retry<a class="headerlink" href="#term-retry" title="Link to this term"></a></dt><dd><p>An integer value specifying the number of seconds an RTR client
+is requested to wait after it failed to receive a data set. The
+default is 600 seconds.</p>
+</dd>
+<dt id="term-expire">expire<a class="headerlink" href="#term-expire" title="Link to this term"></a></dt><dd><p>An integer value specifying the number of seconds an RTR client
+is requested to use a data set if it cannot get an update before
+throwing it away and continuing with no data at all. The default
+is 7200 seconds if it cannot get an update before throwing it
+away and continuing with no data at all. The default is 7200
+seconds.</p>
+</dd>
+<dt id="term-history-size">history-size<a class="headerlink" href="#term-history-size" title="Link to this term"></a></dt><dd><p>An integer value specifying how many change sets Routinator
+should keep in RTR server mode. The default is 10.</p>
+</dd>
+<dt id="term-pid-file">pid-file<a class="headerlink" href="#term-pid-file" title="Link to this term"></a></dt><dd><p>A string value containing a path pointing to the PID file to be
+used in daemon mode.</p>
+</dd>
+<dt id="term-working-dir">working-dir<a class="headerlink" href="#term-working-dir" title="Link to this term"></a></dt><dd><p>A string value containing a path to the working directory for the
+daemon process.</p>
+</dd>
+<dt id="term-chroot">chroot<a class="headerlink" href="#term-chroot" title="Link to this term"></a></dt><dd><p>A string value containing the path any daemon process should use
+as its root directory.</p>
+</dd>
+<dt id="term-user">user<a class="headerlink" href="#term-user" title="Link to this term"></a></dt><dd><p>A string value containing the user name a daemon process should
+run as.</p>
+</dd>
+<dt id="term-group">group<a class="headerlink" href="#term-group" title="Link to this term"></a></dt><dd><p>A string value containing the group name a daemon process should
+run as.</p>
+</dd>
+<dt id="term-tal-labels">tal-labels<a class="headerlink" href="#term-tal-labels" title="Link to this term"></a></dt><dd><p>An array containing arrays of two string values mapping the name
+of a TAL file (without the path but including the extension) as
+given by the first string to the name of the TAL to be included
+where the TAL is referenced in output as given by the second
+string.</p>
+<p>If the options missing or if a TAL isn’t mentioned in the option,
+Routinator will construct a name for the TAL by using its file
+name (without the path) and dropping the extension.</p>
+</dd>
+</dl>
+</section>
+<section id="http-service">
+<h2>HTTP Service<a class="headerlink" href="#http-service" title="Link to this heading"></a></h2>
+<p>Routinator can provide an HTTP service allowing to fetch the Validated ROA
+Payload in various formats. The service does not support HTTPS and should
+only be used within the local network.</p>
+<p>The service only supports GET requests with the following paths:</p>
+<dl class="option-list">
+<dt><kbd><span class="option">/metrics</span></kbd></dt>
+<dd><p>Returns a set of monitoring metrics in the format used by Prometheus.</p>
+</dd>
+<dt><kbd><span class="option">/status</span></kbd></dt>
+<dd><p>Returns the current status of the Routinator instance. This is similar
+to the output of the <strong>/metrics</strong> endpoint but in a more human friendly
+format.</p>
+<p>This endpoint also includes a list of issues encountered while fetching
+data sorted by repository and validating data sorted by publication
+point.</p>
+</dd>
+</dl>
+<dl class="simple">
+<dt>/api/v1/status</dt><dd><p>Returns the current status in JSON format.</p>
+</dd>
+</dl>
+<dl class="option-list">
+<dt><kbd><span class="option">/log</span></kbd></dt>
+<dd><p>Returns the logging output of the last validation run. The log level
+matches that set upon start.</p>
+<p>Note that the output is collected after each validation run and is
+therefore only available after the initial run has concluded.</p>
+</dd>
+<dt><kbd><span class="option">/version</span></kbd></dt>
+<dd><p>Returns the version of the Routinator instance.</p>
+</dd>
+</dl>
+<dl>
+<dt>/api/v1/validity/as-number/prefix</dt><dd><p>Returns a JSON object describing whether the route announcement given
+by its origin AS Number and address prefix is RPKI valid, invalid, or
+not found.  The returned object is compatible with that provided by the
+RIPE NCC RPKI Validator. For more information, see
+<a class="reference external" href="https://ripe.net/support/documentation/developer-documentation/rpki-validator-api">https://ripe.net/support/documentation/developer-documentation/rpki-validator-api</a></p>
+</dd>
+<dt>/validity?asn=as-number&amp;prefix=prefix</dt><dd><p>Same as above but with a more form-friendly calling convention.</p>
+</dd>
+<dt>/json-delta, /json-delta?session=session&amp;serial=serial</dt><dd><p>Returns a JSON object with the changes since the dataset version
+identified by the <em>session</em> and <em>serial</em> query parameters. If a delta
+cannot be produced from that version, the full data set is returned and
+the member <em>reset</em> in the object will be set to <em>true</em>. In either case,
+the members <em>session</em> and <em>serial</em> identify the version of the data set
+returned and their values should be passed as the query parameters in a
+future request.</p>
+<p>The members <em>announced</em> and <em>withdrawn</em> contain arrays with route
+origins that have been announced and withdrawn, respectively, since the
+provided session and serial. If <em>reset</em> is <em>true</em>, the <em>withdrawn</em>
+member is not present.</p>
+</dd>
+<dt>/json-delta/notify, /json-delta/notify?session=session&amp;serial=serial</dt><dd><p>Returns a JSON object with two members <em>session</em> and <em>serial</em> which
+contain the session ID and serial number of the current data set.</p>
+<p>If the <em>session</em> and <em>serial</em> query parameters are provided, and the
+session ID and serial number of the current data set are identical
+to the provided values, the request will not return until a new data
+set is available. This can be used as a means to get notified when
+the data set has been updated.</p>
+</dd>
+</dl>
+<p>In addition, the current set of VRPs is available for each output format at a
+path with the same name as the output format. E.g., the CSV output is
+available at <code class="docutils literal notranslate"><span class="pre">/csv</span></code>.</p>
+<p>These paths accept selector expressions to limit the VRPs returned in the
+form of a query string. The field <code class="docutils literal notranslate"><span class="pre">select-asn</span></code> can be used to filter for
+ASNs and the field <code class="docutils literal notranslate"><span class="pre">select-prefix</span></code> can be used to filter for prefixes. The
+fields can be repeated multiple times.</p>
+<p>In addition, the query parameter <code class="docutils literal notranslate"><span class="pre">include=more-specifics</span></code> will cause the
+inclusion of VRPs for more specific prefixes of prefixes given via
+<code class="docutils literal notranslate"><span class="pre">select-prefix</span></code>.</p>
+<p>Finally, the query parameter <code class="docutils literal notranslate"><span class="pre">exclude</span></code> can be used to exclude certain
+payload types from the response. The values <code class="docutils literal notranslate"><span class="pre">routeOrigins</span></code>, <code class="docutils literal notranslate"><span class="pre">routerKeys</span></code>,
+and <code class="docutils literal notranslate"><span class="pre">aspas</span></code> disable inclusion of route origins, router keys, and ASPAs,
+respectively. The values can either be given in separate <code class="docutils literal notranslate"><span class="pre">exclude</span></code>
+parameters or included in one separated by commas.</p>
+<p>These parameters work in the same way as the options of the same name to the
+<a class="reference internal" href="#subcmd-vrps"><code class="xref std std-subcmd docutils literal notranslate"><span class="pre">vrps</span></code></a> command.</p>
+</section>
+<section id="logging">
+<h2>Logging<a class="headerlink" href="#logging" title="Link to this heading"></a></h2>
+<p>In order to allow diagnosis of the VRP data set as well as its overall
+health, Routinator logs an extensive amount of information. The log levels
+used by syslog are utilized to allow filtering this information for
+particular use cases.</p>
+<p>The log levels represent the following information:</p>
+<dl class="simple">
+<dt>error</dt><dd><p>Information related to events that prevent Routinator from continuing
+to operate at all as well as all issues related to local configuration
+even if Routinator will continue to run.</p>
+</dd>
+<dt>warn</dt><dd><p>Information about events and data that influences the set of VRPs
+produced by Routinator. This includes failures to communicate with
+repository servers, or encountering invalid objects.</p>
+</dd>
+<dt>info</dt><dd><p>Information about events and data that could be considered abnormal but
+do not influence the set of VRPs produced. For example, when filtering
+of unsafe VRPs is disabled, the unsafe VRPs are logged with this level.</p>
+</dd>
+<dt>debug</dt><dd><p>Information about the internal state of Routinator that may be useful
+for, well, debugging.</p>
+</dd>
+</dl>
+</section>
+<section id="validation">
+<h2>Validation<a class="headerlink" href="#validation" title="Link to this heading"></a></h2>
+<p>In <a class="reference internal" href="#subcmd-vrps"><code class="xref std std-subcmd docutils literal notranslate"><span class="pre">vrps</span></code></a> and <a class="reference internal" href="#subcmd-server"><code class="xref std std-subcmd docutils literal notranslate"><span class="pre">server</span></code></a> mode, Routinator will produce a set of
+VRPs from the data published in the RPKI repository. It will walk over all
+certification authorities (CAs) starting with those referred to in the
+configured TALs.</p>
+<p>Each CA is checked whether all its published objects are present, correctly
+encoded, and have been signed by the CA. If any of the objects fail this
+check, the entire CA will be rejected. If an object of an unknown  type  is
+encountered, the behaviour depends on the <code class="docutils literal notranslate"><span class="pre">unknown-objects</span></code> policy. If this
+policy has a value of <em>reject</em> the entire CA will be rejected. In this case,
+only certificates (.cer), CRLs (.crl), manifests (.mft), ROAs (.roa),
+ASPAs (.asa), and Ghostbuster records (.gbr) will be accepted.</p>
+<p>If a CA is rejected, none of its ROAs, ASPAs, or router keys will be added
+to the VRP set but also none of its child CAs will be considered at all;
+their published data will not be fetched or validated.</p>
+<p>If a prefix has its ROAs published by different CAs, this will lead to some
+of its VRPs being dropped while others are still added. If the VRP for the
+legitimately announced route is among those having been dropped, the route
+becomes RPKI invalid. This can happen both by operator error or through an
+active attack.</p>
+<p>In addition, if a VRP for a less specific prefix exists that covers the
+prefix of the dropped VRP, the route will be invalidated by the less specific
+VRP.</p>
+<p>Because of this risk of accidentally or maliciously invalidating routes, VRPs
+that have address prefixes overlapping with resources of rejected CAs are
+called <em>unsafe VRPs</em>.</p>
+<p>In order to avoid these situations and instead fall back to an RPKI unknown
+state for such routes, Routinator allows to filter out these unsafe VRPs.
+This can be enabled via the <code class="docutils literal notranslate"><span class="pre">--unsafe-vrps=reject</span></code> command line option or
+setting <code class="docutils literal notranslate"><span class="pre">unsafe-vrps=reject</span></code> in the config file.</p>
+<p>By default, this filter is currently disabled but warnings are logged about
+unsafe VRPs. This allows to assess the operation impact of such a filter.
+Depending on this assessment, the default may change in future versions.</p>
+<p>One exception from this rule are CAs that have the full address space
+assigned, i.e., 0.0.0.0/0 and ::/0. Adding these to the filter would wipe out
+all VRPs. These prefixes are used by the RIR trust anchors to avoid having to
+update these often. However, each RIR has its own address space so losing all
+VRPs should something happen to a trust anchor is unnecessary.</p>
+</section>
+<section id="relaxed-decoding">
+<h2>Relaxed Decoding<a class="headerlink" href="#relaxed-decoding" title="Link to this heading"></a></h2>
+<p>The documents defining RPKI include a number of very strict rules regarding
+the formatting of the objects published in the RPKI repository. However,
+because RPKI reuses existing technology, real-world applications produce
+objects that do not follow these strict requirements.</p>
+<p>As a consequence, a significant portion of the RPKI repository is actually
+invalid if the rules are followed. We therefore introduce two decoding modes:
+strict and relaxed. Strict mode rejects any object that does not pass all
+checks laid out by the relevant RFCs. Relaxed mode ignores a number of these
+checks.</p>
+<p>This memo documents the violations we encountered and are dealing with in
+relaxed decoding mode.</p>
+<blockquote>
+<div><dl>
+<dt>Resource Certificates (<span class="target" id="index-6"></span><a class="rfc reference external" href="https://datatracker.ietf.org/doc/html/rfc6487.html"><strong>RFC 6487</strong></a>)</dt><dd><p>Resource certificates are defined as a profile on the more general
+Internet PKI certificates defined in <span class="target" id="index-7"></span><a class="rfc reference external" href="https://datatracker.ietf.org/doc/html/rfc5280.html"><strong>RFC 5280</strong></a>.</p>
+<dl>
+<dt>Subject and Issuer</dt><dd><p>The RFC restricts the type used for CommonName attributes to
+PrintableString, allowing only a subset of ASCII characters,
+while <span class="target" id="index-8"></span><a class="rfc reference external" href="https://datatracker.ietf.org/doc/html/rfc5280.html"><strong>RFC 5280</strong></a> allows a number of additional string types.
+At least one CA produces resource certificates with
+Utf8Strings.</p>
+<p>In relaxed mode, we will only check that the general structure
+of the issuer and subject fields are correct and allow any
+number and types of attributes. This seems justified since RPKI
+explicitly does not use these fields.</p>
+</dd>
+</dl>
+</dd>
+<dt>Signed Objects (<span class="target" id="index-9"></span><a class="rfc reference external" href="https://datatracker.ietf.org/doc/html/rfc6488.html"><strong>RFC 6488</strong></a>)</dt><dd><p>Signed objects are defined as a profile on CMS messages defined in
+<span class="target" id="index-10"></span><a class="rfc reference external" href="https://datatracker.ietf.org/doc/html/rfc5652.html"><strong>RFC 5652</strong></a>.</p>
+<dl>
+<dt>DER Encoding</dt><dd><p><span class="target" id="index-11"></span><a class="rfc reference external" href="https://datatracker.ietf.org/doc/html/rfc6488.html"><strong>RFC 6488</strong></a> demands all signed objects to be DER encoded while
+the more general CMS format allows any BER encoding – DER is a
+stricter subset of the more general BER. At least one CA does
+indeed produce BER encoded signed objects.</p>
+<p>In relaxed mode, we will allow BER encoding.</p>
+<p>Note that this isn’t just nit-picking. In BER encoding, octet
+strings can be broken up into a sequence of sub-strings. Since
+those strings are in some places used to carry encoded content
+themselves, such an encoding does make parsing significantly
+more difficult. At least one CA does produce such broken-up
+strings.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</div></blockquote>
+</section>
+<section id="signals">
+<h2>Signals<a class="headerlink" href="#signals" title="Link to this heading"></a></h2>
+<dl class="simple">
+<dt>SIGUSR1: Reload TALs and restart validation</dt><dd><p>When receiving SIGUSR1, Routinator will attempt to reload the TALs and, if
+that succeeds, restart validation. If loading the TALs fails, Routinator
+will exit.</p>
+</dd>
+<dt>SIGUSR2: Re-open log file</dt><dd><p>When receiving SIGUSR2 and logging to a file is enabled, Routinator will
+re-open the log file. If this fails, Routinator will exit.</p>
+</dd>
+</dl>
+</section>
+<section id="exit-status">
+<h2>Exit Status<a class="headerlink" href="#exit-status" title="Link to this heading"></a></h2>
+<p>Upon success, the exit status 0 is returned. If any fatal error happens, the
+exit status will be 1. Some commands provide a <a class="reference internal" href="#cmdoption-complete"><code class="xref std std-option docutils literal notranslate"><span class="pre">--complete</span></code></a> option
+which will cause the exit status to be 2 if any of the rsync commands to
+update the repository fail.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="dump.html" class="btn btn-neutral float-left" title="Dumping Stored Data" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="threat-model.html" class="btn btn-neutral float-right" title="Threat Model" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2018–2026, NLnet Labs.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+
+  
+<script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

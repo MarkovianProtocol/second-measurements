@@ -1,0 +1,12 @@
+[WARN] Using config file /Users/colinwinter/.routinator.conf.
+[INFO] Using the following TALs:
+[INFO]   * afrinic
+[INFO]   * apnic
+[INFO]   * arin
+[INFO]   * lacnic
+[INFO]   * ripe
+[DEBUG] Found valid trust anchor https://rrdp.arin.net/arin-rpki-ta.cer. Processing.
+[DEBUG] Found valid trust anchor https://rpki.ripe.net/ta/ripe-ncc-ta.cer. Processing.
+[DEBUG] Found valid trust anchor https://rpki.apnic.net/repository/apnic-rpki-root-iana-origin.cer. Processing.
+[DEBUG] Found valid trust anchor https://rrdp.lacnic.net/ta/rta-lacnic-rpki.cer. Processing.
+[DEBUG] Found valid trust anchor https://rpki.afrinic.net/repository/AfriNIC.cer. Processing.

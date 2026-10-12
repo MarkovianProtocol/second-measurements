@@ -1,0 +1,132 @@
+{
+ "afrinic": {
+  "fetched": "2026-10-03T04:31:02Z",
+  "serial": "99136",
+  "manifests": 1534,
+  "window_h_median": 48.0,
+  "expired": 11,
+  "expired_within_7d": 0,
+  "expired_in_validated_chain": 0,
+  "min_hours_left": 23.89,
+  "expired_by_year": {
+   "2016": 3,
+   "2017": 6,
+   "2019": 2
+  }
+ },
+ "apnic": {
+  "fetched": "2026-10-03T04:30:19Z",
+  "serial": "99105",
+  "manifests": 10712,
+  "window_h_median": 168.0,
+  "expired": 0,
+  "expired_within_7d": 0,
+  "expired_in_validated_chain": 0,
+  "min_hours_left": 116.42,
+  "expired_by_year": {}
+ },
+ "arin": {
+  "fetched": "2026-10-03T04:30:08Z",
+  "serial": "197875",
+  "manifests": 9706,
+  "window_h_median": 71.5,
+  "expired": 0,
+  "expired_within_7d": 0,
+  "expired_in_validated_chain": 0,
+  "min_hours_left": 24.5,
+  "expired_by_year": {}
+ },
+ "arin_rps": {
+  "fetched": "2026-10-03T04:23:28Z",
+  "serial": "140205",
+  "manifests": 139,
+  "window_h_median": 25.9,
+  "expired": 12,
+  "expired_within_7d": 1,
+  "expired_in_validated_chain": 1,
+  "min_hours_left": 8.1,
+  "expired_by_year": {
+   "2023": 2,
+   "2024": 2,
+   "2025": 3,
+   "2026": 5
+  }
+ },
+ "idnic": {
+  "fetched": "2026-10-03T04:21:58Z",
+  "serial": "341055",
+  "manifests": 2316,
+  "window_h_median": 26.2,
+  "expired": 0,
+  "expired_within_7d": 0,
+  "expired_in_validated_chain": 0,
+  "min_hours_left": 7.92,
+  "expired_by_year": {}
+ },
+ "lacnic": {
+  "fetched": "2026-10-03T04:30:58Z",
+  "serial": "488199",
+  "manifests": 3446,
+  "window_h_median": 126.3,
+  "expired": 0,
+  "expired_within_7d": 0,
+  "expired_in_validated_chain": 0,
+  "min_hours_left": 71.78,
+  "expired_by_year": {}
+ },
+ "registro_br": {
+  "fetched": "2026-10-03T04:49:39Z",
+  "serial": "277812",
+  "manifests": 3797,
+  "window_h_median": 26.1,
+  "expired": 178,
+  "expired_within_7d": 30,
+  "expired_in_validated_chain": 29,
+  "min_hours_left": 3.84,
+  "expired_by_year": {
+   "2020": 1,
+   "2021": 29,
+   "2022": 113,
+   "2023": 5,
+   "2026": 30
+  }
+ },
+ "ripe": {
+  "fetched": "2026-10-03T04:27:38Z",
+  "serial": "232974",
+  "manifests": 22816,
+  "window_h_median": 24.0,
+  "expired": 0,
+  "expired_within_7d": 0,
+  "expired_in_validated_chain": 0,
+  "min_hours_left": 15.55,
+  "expired_by_year": {}
+ },
+ "ripe_paas": {
+  "fetched": "2026-10-03T04:23:24Z",
+  "serial": "401984",
+  "manifests": 563,
+  "window_h_median": 26.2,
+  "expired": 214,
+  "expired_within_7d": 0,
+  "expired_in_validated_chain": 0,
+  "min_hours_left": 7.99,
+  "expired_by_year": {
+   "2023": 13,
+   "2024": 38,
+   "2025": 93,
+   "2026": 70
+  }
+ },
+ "twnic": {
+  "fetched": "2026-10-03T04:22:01Z",
+  "serial": "60382",
+  "manifests": 397,
+  "window_h_median": 26.1,
+  "expired": 0,
+  "expired_within_7d": 0,
+  "expired_in_validated_chain": 0,
+  "min_hours_left": 8.01,
+  "expired_by_year": {}
+ }
+}

@@ -1,0 +1,48 @@
+[
+ {
+  "file": "rpki-repo.registro.br/repo/AomhoQZuneBCqJtVMNwV6mCXBbcz5d7YdA5PbnbovJFC/0/3136302e3233382e3139322e302f32322d3234203d3e20323636353439.roa",
+  "hash_id": "aStRY72YhDwxpWcM3Y70FSS4L9NNhnx2xbpwyjzHwco=",
+  "type": "roa",
+  "ski": "CE37296F1A919BBC37951D263C67834C3E5E4157",
+  "cert_issuer": "/CN=0AA75444C92119507239668F559768FBF95AE208",
+  "cert_serial": "437856D655D8C6B5D3AFED464A2514D910A38907",
+  "aki": "0AA75444C92119507239668F559768FBF95AE208",
+  "aia": "rsync://rpki-repo.registro.br/repo/nicbr_repo/1/0AA75444C92119507239668F559768FBF95AE208.cer",
+  "sia": "rsync://rpki-repo.registro.br/repo/AomhoQZuneBCqJtVMNwV6mCXBbcz5d7YdA5PbnbovJFC/0/3136302e3233382e3139322e302f32322d3234203d3e20323636353439.roa",
+  "signing_time": 1766492595,
+  "valid_since": 1766492295,
+  "valid_until": 1797942195,
+  "expires": 1790998200,
+  "vrps": [
+   {
+    "prefix": "160.238.192.0/22",
+    "asid": 266549,
+    "maxlen": 24
+   }
+  ],
+  "validation": "OK"
+ },
+ {
+  "file": "rpki-repo.registro.br/repo/AomhoQZuneBCqJtVMNwV6mCXBbcz5d7YdA5PbnbovJFC/0/323830343a336462383a3a2f33322d3430203d3e20323636353439.roa",
+  "hash_id": "GG2ekqsPEzHUv1xeSak7VDUr/9ftvbnKdFDUaWHbG9w=",
+  "type": "roa",
+  "ski": "185E0AC0C9A70EFD58BAA3A5185659EE41023F7E",
+  "cert_issuer": "/CN=0AA75444C92119507239668F559768FBF95AE208",
+  "cert_serial": "6186BE0DE16EED96A6A41A31AD8EDD7161BF2154",
+  "aki": "0AA75444C92119507239668F559768FBF95AE208",
+  "aia": "rsync://rpki-repo.registro.br/repo/nicbr_repo/1/0AA75444C92119507239668F559768FBF95AE208.cer",
+  "sia": "rsync://rpki-repo.registro.br/repo/AomhoQZuneBCqJtVMNwV6mCXBbcz5d7YdA5PbnbovJFC/0/323830343a336462383a3a2f33322d3430203d3e20323636353439.roa",
+  "signing_time": 1766492591,
+  "valid_since": 1766492291,
+  "valid_until": 1797942191,
+  "expires": 1790998200,
+  "vrps": [
+   {
+    "prefix": "2804:3db8::/32",
+    "asid": 266549,
+    "maxlen": 40
+   }
+  ],
+  "validation": "OK"
+ }
+]
