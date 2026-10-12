@@ -2,6 +2,7 @@
 74090c1af7c3b4973ad4cad535b49a2725cb1b1bb75833d6c0ca50326cc94065  ./exhibits/advisories/arista-security-advisory-0126.html
 e581d385e9c1f2be59807435f53d686fd03c63c7f63a68e7b3fb9a82db928e36  ./exhibits/advisories/dell-dsa-2025-153.html
 222ec11267fe58dee672281efc12038e330b0271fc31b352ac49fb3662cf263a  ./exhibits/advisories/drupal-sa-contrib-2026-031.node.json
+a0aadc7ed4eb3e3604595aa2cf99f90cb9452951804eaea9204f42e33c823013  ./exhibits/advisories/index.html
 dcd2563eb2ef7711fa3a827915d85f903b4b515b8365a7368d84529824f3cfdd  ./exhibits/advisories/retrieval_log_2026-10-11.tsv
 e71fc19ff7ae9e6ec4549f6104f0b2581f2c73b4c4b8cfc53c8a0d26e38da4f8  ./exhibits/advisories/ZDI-25-950.html
 7aaa84dfd544f855c00dcbc3de08db59cee973647383ca96db730b934eb8cdfa  ./exhibits/build_own_domains.py
@@ -15,8 +16,10 @@ a2ce9821bf5369ebdd6c325717f7e0f3113976e932d21da6a6b87a0d0955b962  ./exhibits/cve
 dfbb403d8022a0819e15df39b57f5e517827b98dfb28135d2fe4d069fe5fcda5  ./exhibits/cve72_rows.json
 34654c37d0655c4e7b941d0173e38775ddf5e577eff3cc67f8bef237b90f41c6  ./exhibits/cve72_summary.json
 759b450ae9d39f6476ec144b915350c67f8d5ec6f10276a27d03935d623df7ec  ./exhibits/dataset_provenance_2026-10-11.txt
+ec4cd9974f4ba05533d501a2c14468eeeac0bc440cbf366f06441f4c5a76f257  ./exhibits/index.html
 0ed8363e51df3778adc52e50e4342c847e8129e40630745b3db35dc5a53ba117  ./exhibits/instances/github_pull_hestiacp_5196.json
 eadc7c8d53da28c365a6dacf6bd3329d9573087f955917a01083f83cdf4c2c45  ./exhibits/instances/github_release_hestiacp_1.9.5.json
+ecbe1564cb9c38e52930d78c9a00dd3abde5ef805d146a701f1b4bdd23622fcd  ./exhibits/instances/index.html
 ac1285161e9b4817ff05ae4560b2565b1819efdb589b71ba9cdb4f3f1b26027f  ./exhibits/instances/redhat_securitydata_CVE-2025-11395.json
 687f4aa435f33cbb13b04e05deaf192fec32e1139a6f822bc3ef86c156278c57  ./exhibits/instances/vulncheck_advisory_hestiacp_xss_CVE-2025-30008.html
 43416e1343e5f25f941fa63ef8aad27aecaf5ad4a1ca34d8b5056f620be5b449  ./exhibits/latest_release.txt
@@ -24,6 +27,7 @@ ac1285161e9b4817ff05ae4560b2565b1819efdb589b71ba9cdb4f3f1b26027f  ./exhibits/ins
 396386eda8b01096897a51fb671a8501e6cdc95acca65c0ba48f5c2084b136d3  ./exhibits/priorart/arxiv_2604.20765.html
 83a7128c07d327b873bf9c90d105052408407033b4c4150c35511af668fdc7c1  ./exhibits/priorart/drupal_issue_3589998.json
 e8f57cdae730699c3687137e48c30995e66f75a1d9ce6876e69e29db0d13df76  ./exhibits/priorart/github_discussion_200225.html
+3917108467f63450bfe32771b3d8966127986b531ee8daaca827d47921c15131  ./exhibits/priorart/index.html
 4a94024b07e9cf6e17db1640a4a68826416218dfc48c274ea18e0aef60dadec7  ./exhibits/records/CVE-2025-11002.json
 c927008464a9220d476f3dda24e3c729363d23c43861ec0e629eea26a33f1a41  ./exhibits/records/CVE-2025-11395.json
 fbf4fea61cea8412c4b655c25bc4112ba1bf1ea3e1521aebab6e5192c84e6e01  ./exhibits/records/CVE-2025-21589.json
@@ -53,11 +57,14 @@ b720c37c39caad987c011ade6bf653285d8e6f447c4b56559ec7da386563edc7  ./exhibits/rec
 2d34318865d39248e68065e612e850b8d7bc260f98ddd137d5cdf35afdca92ba  ./exhibits/records/CVE-2025-8352.json
 74e3fde6832b3b5435c883496183008ece52b0ac61f3f02b9bcdd275985a0510  ./exhibits/records/CVE-2025-9032.json
 1f404c0f2da6631d83662835ab8b17a65245e762b924d0fcbdc02e7ccdf4baa2  ./exhibits/records/CVE-2025-9033.json
+bc76633b39f1a79d673c8f879e16d4cec3918f29180aae0fa9b847c01d675bdc  ./exhibits/records/index.html
 beacc421f8a01141c1165f5f3f921ad03975b4cc9fc96049596c59167a5425f5  ./exhibits/retrieved_at.txt
 3067f2627ee3b9bb167dce1a2d301eed44958b0b7075e3bc3e5ed7df129f77db  ./exhibits/roster/CNAsList.json
 51a630e71e60780c28e571decd0867fced65946692e1440b7a4d2d9893528866  ./exhibits/roster/glossaryEntries.json
+00bc71a88f18a689ebac2325ccc45a401b8e908a1b1c48cd3947e2acc7c82a37  ./exhibits/roster/index.html
+b0b6576bbca50a71d8c5724db969839597b2e3c92562183996f90f2a482ff1ec  ./index.html
 e7db3d428bcd77ec9f921f62524c166c5cf634daff409f621e10e7d7e35db328  ./make_page.py
-d338c9d73e060e4c1bff69c226225f359510ee3afee03ed90c24a84e9a41a4ae  ./page_template.html
+ec6652b0c1dd81e873293b0320325177392e3aa2bd7a0ad8ad81723cdd9efe06  ./page_template.html
 6e4225dc62f540af16160551270f45cb45879f06aa024cacc41b172bdee59255  ./secondpath/2025/check2025.py
 41999b79fce6eb20dae3ea569cfa61a0c40e66f802e9c116e6f490e7ed896863  ./secondpath/2025/CVE-2025-0411.html
 d451015163c7634a55cbd1dad068fca6099afdf520cb8dceedbabbb01510f918  ./secondpath/2025/CVE-2025-1048.html
@@ -99,6 +106,7 @@ d212c97b8a945e2e58fba1a84fa88650712ab131bf3fc38d500f5cb0b4af2dc1  ./secondpath/2
 833af544732dd41ce73393dc007a1ea54942e51550a00d4bddd2d86ca1964bd9  ./secondpath/2025/CVE-2025-8645.html
 6172416e7d8ebc799da5f9e6f417d3810c3cb5364024254e7b8235578d34a79e  ./secondpath/2025/CVE-2025-8872.html
 d98fe7009bf3a89ac825be7653c46b1e5653a68a35b03ffa43bfb602bf079f86  ./secondpath/2025/CVE-2025-9550.node.json
+ab51d77d5439444ecfba2dd560e3b09c18ff9ff1d112ba49b25dc9f1354bff6b  ./secondpath/2025/index.html
 646336648f5a36a2bd47733024927f6ba479fba0b6173ded52602aa7224bf9fa  ./secondpath/2025/results.csv
 afbe610fd686c2ff031db96a780e12541d584e370560e59e1df82e862639073c  ./secondpath/2025/retrieval_log.tsv
 5ef07e380d42dc7cdc9e723f259a08ea8b25674394190197fa43e56f852df805  ./secondpath/2025/SHA256SUMS
@@ -107,6 +115,7 @@ dcf3f6e6eb0ffe341ef954ddea9cd54b73d76ac72ab78f4e6b6492a05dfa35f2  ./secondpath/a
 3e0097a89f6fc0b1d67ab2f1787994a08fa262aca7ec9018f530e34326bd6531  ./secondpath/arista/arista_datepublic_check.csv
 8e8df6751cc12c20a5761f88b21b5ee327cec335c0464d75b35adb9374091b4a  ./secondpath/arista/arista_datepublic_check.json
 9b817f9d6ad2bb4e29802098d05f43a20e900cffa127e2fd4ea245e35fbe3ded  ./secondpath/arista/fetch_arista.py
+70ba7d56ff4bccb3a25216c8c621cf3154d7fd68209016fd09ef48c661b7502f  ./secondpath/arista/index.html
 c8dcd3a6896a0688baa583620e8c82d1768a222659f438b4736c948a7d0b1404  ./secondpath/arista/raw/advisory_22867-security-advisory-0133.html
 c8dcd3a6896a0688baa583620e8c82d1768a222659f438b4736c948a7d0b1404  ./secondpath/arista/raw/advisory_22872-security-advisory-0137.html
 2592f347b7a03fa718e20e635e06b25ab506e3621b83aa495898a6b124128c30  ./secondpath/arista/raw/advisory_23399-security-advisory-0133.html
@@ -192,12 +201,14 @@ d5b280d4c2e18bb62aa1722985f891442bc8bdea3432661b3d736eb7047dd9ad  ./secondpath/a
 22538387d3d3e7de7ce4de93112b5bdce87038e286b502f93eebd0859d9e98b1  ./secondpath/arista/raw/CVE-2026-86106.json
 a5a3d5b74d1d5aa06107a911801f42fcfc052a04d53346c9fbea520a5873aeef  ./secondpath/arista/raw/CVE-2026-86107.json
 32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea  ./secondpath/arista/raw/index_security_advisory.html
+55749f6612e831aa1c47039957d5518cdfbd84d93e2580d305836e8da3f222af  ./secondpath/arista/raw/index.html
 dbb017eb8c0e1b861e95700b71da53e5a1cf169cb62e127d587e189c510bc0f8  ./secondpath/arista/retrieval_log.jsonl
 bc4146cff7cd03c8944f712df2321125db0a30af3a6315de0447c451dfc0fe5f  ./secondpath/arista/SHA256SUMS
 99f9af0a95b26a34c5ebe494b35ed709ca051ea9f9b422d77c14a75c3ac79071  ./secondpath/dell/dell_datepublic_check.csv
 61926811f451c973fc8e0b38c5607c1a555b0e2ff4678fee6e81116622027ae1  ./secondpath/dell/dell_datepublic_check.json
 41baeb43bcb5dab392eca44af40c17e66a4bb44cb9b1533591d1d2f3eb8c4c7c  ./secondpath/dell/extract_dell.py
 c8c52499a20ac4766dd00e145f748265ae8cb730f3a2997d10b0ab5ef51a306f  ./secondpath/dell/fetch_dell.py
+f6513b99f22946f12338fac8b184902937c86399e5b0ad6be0ae3770f4c1335b  ./secondpath/dell/index.html
 639ecba59f4c8a9b7a4302681e6c5fd5989ac90e591a48f633a485eae22a3b27  ./secondpath/dell/raw/CVE-2026-21419__000384542.html
 719ecac9225dd4e1327b4c8e509efa29b5afe7187d1d2092cf21c9b588b88867  ./secondpath/dell/raw/CVE-2026-21419.json
 4681108c722bd0c980d29936bc47b24b528db1ff6ffc4745d6aff063645a049e  ./secondpath/dell/raw/CVE-2026-21423__000432452.html
@@ -268,6 +279,7 @@ eae5dbf4323d8e8f55aa6c5226c65a2bb08378bfe567a8eea060d13d4e6f3ce7  ./secondpath/d
 33abd2a36f2c3405abddd2f27ef7345e3a6403992edabc5290c3fbded8a04cd6  ./secondpath/dell/raw/CVE-2026-81443.json
 b3367c0178f1317f9991409f5d009fe7f7d6d8a71884d08120130e756f5b8ad0  ./secondpath/dell/raw/CVE-2026-86358__000509455.html
 7460db0bfcc88534c208a5e99fa5ebf6577763f4cf6e88e7b3749ceeafb7c5c3  ./secondpath/dell/raw/CVE-2026-86358.json
+90af970441cf47b89a986f64899ddebfff155b23346892a935fad480a700ef00  ./secondpath/dell/raw/index.html
 99a2b61cb3bc11fb97acbe8ab1ceefce108b03bcc3706c79aa67c9a2c5556e30  ./secondpath/dell/retrieval_log.tsv
 fd1e73e1015cf29b163dd610bc7ed52ab92d20a819c94e04a9ce93d96e419c4b  ./secondpath/dell/sample.json
 e5201dc0c9d4d8b4d8d8a6ce418cd9ba7c78e21a4fea05cc7634bf37d3b3dae9  ./secondpath/dell/SHA256SUMS
@@ -275,6 +287,7 @@ e4065d1950fd104934c988010a884463bea22742e765cdb3d4dd04ca5d248d9f  ./secondpath/d
 2526ae85e509010dea89a526efc04102ef411897d81324098cc1eca047b5ee69  ./secondpath/drupal/calibrate_wayback.py
 389c06e7d07e24500a11229757e106e65e068313c50a13a10869ab8ac4d38305  ./secondpath/drupal/collect_drupal.py
 f30e3fbd650bed7b0f10f77d15eafe2cc1eb3747c0ac05ee2e91c3cda15ec991  ./secondpath/drupal/independent_clocks.json
+b02c57765f5f74fe7f445afe3e10133c2d35c2fa213197eee77b1290a31e0d85  ./secondpath/drupal/index.html
 3b8ee1d7644397e7be00eb3e08f7548386e1828869cc7014580d8c07385e57ea  ./secondpath/drupal/merge_clocks.py
 9af8228891eb22c4f1a0d62545b1defba7f18d69cfe27a99256d1d8d668f728d  ./secondpath/drupal/raw/CVE-2026-0944.cdx.json
 d00557b48ff101db7e672b2ac8c03b8418d919f684db83e88f8c67d6f2ba24ef  ./secondpath/drupal/raw/CVE-2026-0944.cve.json
@@ -366,6 +379,7 @@ d6a8eaf5052cd78d5fdf03521304175a5a9f6e50e88433f776102d8c41fb544c  ./secondpath/d
 c9c89d274726b86306e1c97d80360f820bce86042c34c9bb2487aac4ada6d606  ./secondpath/drupal/raw/CVE-2026-9726.cdx.json
 17c8eefce4d25ae1928b7ac53b3dab72ea5aaffe1b95b26a80d04b0a17c0f7d6  ./secondpath/drupal/raw/CVE-2026-9726.cve.json
 5d3de88514d455a7018ccef538c2d1fad08ba02522eacbb6862a2b4c2cf95556  ./secondpath/drupal/raw/CVE-2026-9726.node.json
+77325623299a62f36392479b5279c95b40ef4f377bc2637cbd2b89b36084afd2  ./secondpath/drupal/raw/index.html
 0ecc6093bc7d385a891d09c8164c0bc639c6024f9eddcb9017dfe587e0e152b0  ./secondpath/drupal/raw/probe_https___www.drupal.org_api_d7_node.json_field_sa_cve_CVE_2026_0946_
 fa2ae510a6b2a735d7f747bc920731017b5427db5c9c57d4d260020c5cf6158e  ./secondpath/drupal/raw/probe_https___www.drupal.org_api_d7_node.json_type_sa_advisory_limit_5_
 e918f300f2f1933a46ad7fe16771126c0051875e8d34d7cd649b22ca7814b92f  ./secondpath/drupal/raw/probe_https___www.drupal.org_api_d7_node.json_type_sa_limit_5_
@@ -396,6 +410,7 @@ ea3d567489b59574b106a64bcbfbaba0025b34600135d9c641fc015f0542de28  ./secondpath/d
 64804c1a734f4bb1b0e067e3b8a0e96dbdc4bffc47c8528de82e008f569a34f2  ./secondpath/drupal/results.json
 f9f85e4ce5aaf7a7b7b2db47c0a1e8a0c42accd3e7999837f708b403ebebe342  ./secondpath/drupal/retrieval_log.jsonl
 5a85915ec0d2d7a38ac4e258f4eb590bae3a73b734017d45c470ed2a2df3386c  ./secondpath/drupal/SHA256SUMS
+f040ccc44b225f6d3e38157162afe3396257082da1f5e764e538fe8874aacbcc  ./secondpath/index.html
 594ab3ff42ae609cd4052fd18513833e0f57a32e81ad7076e5c757baa70e0093  ./secondpath/zdi/exhibits/CVE-2026-0755.json
 b1f5d063bdc9ccf17dbacee39bf3d215a7d656b40a6988aea21f0b95cfb4ae85  ./secondpath/zdi/exhibits/CVE-2026-0761.json
 cf6d4e5138013f6210b1413caa6fdeb223ed388fd4934ead6445a459c3a8ba8f  ./secondpath/zdi/exhibits/CVE-2026-0770.json
@@ -431,6 +446,7 @@ e0a4bd2072fe977fdea716d2751dd1911bc0bbbcf1310dca328575faac797e8b  ./secondpath/z
 f1b0d7f7027e1420955b8ed2cdd151356f6e773c93dd08d288a030b26dd36096  ./secondpath/zdi/exhibits/CVE-2026-7570.json
 9ae30f71ac859418520001c029f1adf0cc2c3bf2bb0d54a31b48c5ccdd298f6d  ./secondpath/zdi/exhibits/CVE-2026-9777.json
 13f516e602f6e0bfd88e99994fbe14e4911b24805ec221329cdd00f1a85df8cb  ./secondpath/zdi/exhibits/CVE-2026-9783.json
+ae78c5586eb2c6480a5212f806b4233344684d7987b7a5a83a95f782169b289d  ./secondpath/zdi/exhibits/index.html
 b99990a8f09abe941bc16cf5d963f84995ee306a4408cbe47cdaf98883bd8575  ./secondpath/zdi/exhibits/ZDI-26-005.html
 e619ab3e29a72c12546f5c943b580f1073c42716f4b251da3ee80999759ecff3  ./secondpath/zdi/exhibits/ZDI-26-011.html
 8759599b45219d2b0b21928beb5ab4ce0b9b9c0ec84619190145e6a2fb928cf7  ./secondpath/zdi/exhibits/ZDI-26-017.html
@@ -466,6 +482,7 @@ aba92750e297eba5b3decf8458edb60e6897469de2c9e9b129e4cdef0b4ec49b  ./secondpath/z
 d1b4b0fa16e3d1db4c88aa14757e2f9a76d4c5f2070169110ed032f5d664f11c  ./secondpath/zdi/exhibits/ZDI-26-551.html
 76b264e16089239688af68977ef497d3e6aa05d1334c6039e7ec6b4c1ba4ee02  ./secondpath/zdi/exhibits/ZDI-26-586.html
 28f83c0f7830b743984f075de373658e7c0ba8423f87b8532b67482021ab445f  ./secondpath/zdi/exhibits/ZDI-26-588.html
+a00c719d749997661284fdc248d67d7c1dee99495eb3a8cb2a4124f38278d14c  ./secondpath/zdi/index.html
 98243b9cb79ff00ddef6aaefdb4ece92835a00054364aaf6e25fae0b368d6b86  ./secondpath/zdi/retrieval_log.jsonl
 c78378200adaca3161cdc8d889d8fcbe9207781abd887224c1a1e592f9856635  ./secondpath/zdi/SHA256SUMS
 171f9ed8e068921f6ed6408705869148c0e1d1faceedf5598fb31ddb3b4ce880  ./secondpath/zdi/zdi_check.py
