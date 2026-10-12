@@ -15,6 +15,7 @@ case $1 in
   sm015) ~/neo_env/bin/python3 sm015.py ;;
   sm016) python3 sm016.py ;;
   sm018) python3 sm018.py ;;
+  ctroots) python3 ctroots.py ;;
 esac
 python3 render.py ${RECHECKS_SITE:-$R/out}
 python3 edges.py ${RECHECKS_SITE:-$R/out}
