@@ -30,7 +30,11 @@ if not rows: print(f"no tagged hits in {a.days} days"); raise SystemExit
 for tag, hs in sorted(by.items(), key=lambda kv: kv[1][0][0]):
     ips = collections.OrderedDict()
     for ts, p, ref, ip, ua, dc in hs: ips.setdefault(ip, []).append((ts, p, ua, dc))
-    scan = sum(1 for hh in ips.values() if hh[0][3]); print(f"\n== {tag}: {len(hs)} hits, {len(ips)} IPs ({scan} from datacenters, which within minutes of delivery means the recipient's mail security scanning the links, not a person), first {hs[0][0]:%Y-%m-%d %H:%M}Z, last {hs[-1][0]:%Y-%m-%d %H:%M}Z")
+    HOST = re.compile(r"amazon|microsoft|google|cloudflare|akamai|proofpoint|mimecast|barracuda|zscaler|fortinet|trend micro|digitalocean|hetzner|ovh|linode|vultr|oracle|fastly|m247|datacamp", re.I)
+    t0 = hs[0][0]
+    def is_scan(ip, hh): return hh[0][3] or bool(HOST.search(who(ip).get("org") or "")) or ((hh[0][0] - t0).total_seconds() < 600 and len(ips) >= 3)
+    for ip, hh in ips.items(): hh[0] = (hh[0][0], hh[0][1], hh[0][2], is_scan(ip, hh))
+    scan = sum(1 for hh in ips.values() if hh[0][3]); print(f"\n== {tag}: {len(hs)} hits, {len(ips)} IPs ({scan} from datacenters, hosting networks or a burst within ten minutes of delivery: the recipient's mail security scanning the links, not a person), first {hs[0][0]:%Y-%m-%d %H:%M}Z, last {hs[-1][0]:%Y-%m-%d %H:%M}Z")
     for ip, hh in ips.items():
         w = who(ip); pages = collections.Counter(p for _, p, _, _ in hh)
         print(f"  {'SCANNER ' if hh[0][3] else 'person? '}{ip}  {w.get('org','?')}  {w.get('country','?')} {w.get('city','') or ''}  {device(hh[0][2])}  first {hh[0][0]:%m-%d %H:%M}Z  " + ", ".join(f"{p.rsplit('/',1)[-1] or 'index'}×{n}" if n > 1 else (p.rsplit('/',1)[-1] or 'index') for p, n in pages.items()))
