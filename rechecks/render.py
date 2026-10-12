@@ -58,7 +58,7 @@ s8 = load("sm-008")
 body += f'''
 <h2>SM-008 · CISA&rsquo;s answers on Linux kernel CVEs</h2>
 <p>CISA&rsquo;s directive says it publishes three answers for every CVE. Kernel CVEs have had almost none since March. <a href="sm-008.html">Paper</a>.</p>
-{table([("Date",0),("CVEs published in window",0),("Kernel CVEs published",1),("Kernel with CISA&rsquo;s answers",1),("Others with answers",1)],
+{table([("Date",0),("CVEs published in window",0),("Kernel CVEs published",1),("Kernel with CISA's answers",1),("Others with answers",1)],
        [[H(r["date"]), H(r["window"]), fmt(r["kernel_published"]), f'{r["kernel_with_answers"]} of {r["kernel_sampled"]}', f'{r["other_with_answers"]} of {r["other_sampled"]}'] for r in s8])}
 <p class="cap">Weekly: 30 random kernel CVEs and 30 others from the week ending two days before the check. The first row is the paper&rsquo;s sample.</p>
 '''
