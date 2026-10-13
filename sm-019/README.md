@@ -1,6 +1,6 @@
 # SM-019 — Federal grant sub-awards reported after the 2 CFR 170 end-of-next-month deadline, FY2018–FY2026, recomputing GAO-24-106237
 
-Paper: https://markovianprotocol.com/measurements/sm-019.html · DOI 10.5281/zenodo.23330729 (version 1: 10.5281/zenodo.23328860) · log leaf 10032 (version 1: 9981); receipt in `sm-019.receipt.json`
+Paper: https://markovianprotocol.com/measurements/sm-019.html · DOI 10.5281/zenodo.23330729 (version 1: 10.5281/zenodo.23328860) · log leaf 10060 (version 1: 9981); receipt in `sm-019.receipt.json`
 
 Corrected 13 October 2026: version 1 scored sub-awards below the reporting threshold, which carry no deadline. They are now set aside; the correction and both sets of figures are on the page.
 
