@@ -1,0 +1,5 @@
+2026-10-12T15:13:15Z cfr-2-170-appendix-A.html from law.cornell.edu (ecfr.gov redirects to an unblock page); usaspending_data_dictionary.json from api.usaspending.gov/api/v2/references/data_dictionary/
+2026-10-12T15:13:55Z gao-24-106237.pdf (GAO, Federal Spending Transparency, Nov 2023) fetched from gao.gov/assets/gao-24-106237.pdf
+2026-10-12T18:03:17Z executivegov_gsa_subaward_reporting_samgov.html (ExecutiveGov, 13 Mar 2025: GSA completed the move of subaward reporting to SAM.gov) and forvismazars_ffata_fsrs_to_samgov.html (Forvis Mazars, 7 Mar 2025: FSRS.gov retired 6 March 2025)
+2026-10-12T20:32:30Z usc-31-6101-notes.html from law.cornell.edu (2 CFR 170.110 itself could not be fetched: eCFR, govinfo and LII all refused or 404)
+2026-10-13T00:00:19Z usaspending_about-the-data-download.pdf from usaspending.gov/data/about-the-data-download.pdf (DEFC pandemic code list, 'Start Date for Disaster Emergency Fund Code (DEFC) Tracking'); fedreg-2020-17468.html from federalregister.gov (85 FR 49506, the $25,000->$30,000 subaward reporting threshold change, effective 12 November 2020)

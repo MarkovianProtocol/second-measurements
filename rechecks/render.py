@@ -138,6 +138,15 @@ if s18:
        [[H(r["date"]), H(r["release"]), fmt(r["own_scored"]), fmt(r["own_late"]), H(str(r["own_late_pct"])+"%"), fmt(r["own_over_30"]), H(r["newest_quarter"]), H(str(r["newest_quarter_late_pct"])+"%")] + [H(f"{r[c]['late']}/{r[c]['scored']}" if r.get(c) else "&ndash;") for c in ("zdi","dell","drupal","Arista","microsoft")] for r in s18[-14:]])}
 <p class="cap">A quarter counts as closed when, a month or more after it ended, its late share for a named CNA sits near zero; an advisory that never gets a record never appears here.</p>
 """
+s19 = load("sm-019")
+if s19:
+    body += f"""
+<h2>SM-019 &middot; Federal grant sub-awards reported late</h2>
+<p>Monthly, on the first: USAspending&rsquo;s grant sub-award file for the newest two fiscal years, re-scored with the paper&rsquo;s script; the late share for each year and for the recipients the paper names. <a href="sm-019.html">Paper</a>.</p>
+{table([("Date",0),("Fiscal year",0),("Sub-awards",1),("Late",1),("Share",0),("CA Education",0),("TX Education",0),("MI Education",0),("PA Education",0)],
+       [[H(r["date"]), H(fy), fmt(v["records"]), fmt(v["late"]), H(str(v["late_pct"])+"%")] + [H(f"{p['late']}/{p['records']}" if (p := v["primes"].get(u)) else "&ndash;") for u in ("HWECY7CDW9Y7","L1KZHL6HXYS5","CJ9JXQL11MM4","HBNJBZWWLE29")] for r in s19[-6:] for fy, v in sorted((k, v) for k, v in r.items() if k.startswith("FY"))])}
+<p class="cap">The newest year reads low until its reports are filed; a recipient&rsquo;s row closes when its late share for new sub-awards sits near zero.</p>
+"""
 body += '<p>Scripts: <a href="https://github.com/MarkovianProtocol/second-measurements/tree/main/rechecks">github.com/MarkovianProtocol/second-measurements/rechecks</a>.</p>\n'
 sys.path.insert(0, R); import og_tags
 open(os.path.join(SITE, "rechecks.html"), "w").write(og_tags.apply(head + body + foot, "rechecks"))

@@ -16,6 +16,7 @@ case $1 in
   sm016) python3 sm016.py ;;
   sm018) python3 sm018.py ;;
   ctroots) python3 ctroots.py ;;
+  sm019) python3 sm019.py ;;
 esac
 python3 render.py ${RECHECKS_SITE:-$R/out}
 python3 edges.py ${RECHECKS_SITE:-$R/out}

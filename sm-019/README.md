@@ -1,0 +1,11 @@
+# SM-019 — Federal grant sub-awards reported after the 2 CFR 170 end-of-next-month deadline, FY2018–FY2026, recomputing GAO-24-106237
+
+Paper: https://markovianprotocol.com/measurements/sm-019.html · DOI 10.5281/zenodo.23330729 (version 1: 10.5281/zenodo.23328860) · log leaf 10032 (version 1: 9981); receipt in `sm-019.receipt.json`
+
+Corrected 13 October 2026: version 1 scored sub-awards below the reporting threshold, which carry no deadline. They are now set aside; the correction and both sets of figures are on the page.
+
+Script: `python3 -I subaward_lag.py out/ All_Subawards_*.zip` reads USAspending's bulk sub-award zips (grant sub-awards by action date, one request per fiscal year) without unpacking. One sub-award = prime award key + sub-award number + action date, earliest report kept, every field from it. Sub-awards whose earliest reported amount is under the threshold ($30,000; $25,000 for action dates before 12 November 2020) are counted and set aside. Late = report month after the month following the action month (2 CFR 170 App. A I(a)(2)(ii)). Reports whose month is earlier than the sub-award's month are dropped. Pandemic split: USAspending's DEFC codes L, M, N, O, P, U, V on the prime award, sub-awards made from April 2020. Writes `subaward_lag_summary.json` (overall, by fiscal year, by awarding agency with 1,000+, by prime recipient UEI with 200+, by prime business type, GAO-window figures, right-censoring check, clock check) and `subaward_lag_rows.csv` (every scored sub-award). `make_page.py` builds the page from the summary and `page_template.html`.
+
+Exhibits: 2 CFR 170 Appendix A as saved; GAO-24-106237 (PDF); USAspending's data dictionary and its DEFC code list; 85 FR 49506 (the threshold change); the FFATA notes to 31 U.S.C. 6101; two write-ups of the March 2025 FSRS-to-SAM.gov move; dataset provenance with every zip's size and SHA-256; the summary JSON. SHA256SUMS in `exhibits/`.
+
+The rows file, `subaward_lag_rows.csv.gz` (129 MB), is over GitHub's file limit and is not in this repository. Get it from https://markovianprotocol.com/measurements/sm-019/exhibits/subaward_lag_rows.csv.gz; its hash is in `exhibits/SHA256SUMS`. It is not on Zenodo either (the upload failed there).
