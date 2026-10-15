@@ -1,0 +1,13 @@
+1. first read (6-10 Oct) -> 2026-10-14 read, earliest date seen
+       late -> on time      1   WOTF-TV 2025Q1
+       none -> late       276
+       none -> on time     52
+2. 2026-10-14 read as the site shows it -> earliest date seen (merge_reads.py)
+       late -> on time     10   KKJB 2026Q1, KKJB 2026Q2, KWWL 2026Q1, KWWL 2026Q2, WQLN 2026Q2, KESC 2026Q1, KHII 2026Q1, WGTE-FM 2026Q1, WGTE-FM 2026Q2, KOTV 2026Q2
+       none -> late         1   WHFB 2026Q1
+3. version-1 classifier (scan_v1.py) -> 14 Oct fix (scan.py), on the merged 2026-10-14 read
+       late -> none         1   WUCC 2025Q1
+       none -> late         1   KBGN 2025Q3
+       none -> on time      8   KAID 2025Q4, KCDT 2025Q4, KIPT 2025Q4, KISU-TV 2025Q4, KUID-TV 2025Q4, WSKA 2025Q4, WSKG-TV 2025Q4, KBGN 2025Q4
+    on time -> late         1   KBGN 2026Q2
+lists that appeared in part 1, by upload date on or after 6 Oct 2026: {'2026-10-07': 27, '2026-10-08': 31, '2026-10-09': 19, '2026-10-10': 51, '2026-10-11': 9, '2026-10-12': 116, '2026-10-13': 2, '2026-10-14': 4}

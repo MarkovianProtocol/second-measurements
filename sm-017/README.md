@@ -1,6 +1,10 @@
-# SM-017 — Quarterly issues/programs lists in the FCC public file, 18,043 stations
+# SM-017 — Quarterly issues/programs lists in the FCC public file, 18,041 stations
 
-Paper: https://markovianprotocol.com/measurements/sm-017.html · DOI https://doi.org/10.5281/zenodo.23287991 · page sha256 in log leaf 9660
+Paper: https://markovianprotocol.com/measurements/sm-017.html · DOI https://doi.org/10.5281/zenodo.23374752 (version 1: 10.5281/zenodo.23287991) · log leaf 10453 (version 1: 9660); receipt in `sm-017.receipt.json`
 
 Scripts: scan.py N SEED OUT (FCC_SERVICE=tv|fm|am; reads every file name and upload date in each station's Issues and Programs Lists folder on publicfiles.fcc.gov; N=0 means every station; FCC_ONLY_CLASSA=1 restricts TV to Class A), analyze.py RESULTS OUT (scores each station-quarter against the deadline; drops translators, LPTV and unbuilt permits; keeps Class A), station_info.py SUMMARY (community and licensee from each station's profile page), combine.py TV FM AM (one summary across services), drift_check.py (re-read of the 150-station sample, dates compared), ruledate_count.py DATE QUARTER (the rule-date sample).
-Exhibits: rule texts (47 CFR 73.3526, 73.3527, 1.80, 1.4), DA 25-943 (shutdown deadline), FCC 16-4, DA 23-156 (WTOY consent decree), Pillsbury and Wiley advisories and enforcement monitors, FCC facility lists and renewal tables, Smith & Clark 2007 abstract and Crossref record, the raw Class A read, the rule-date sample, the two station CSVs. SHA256SUMS in exhibits/. The full raw reads (results_tv/fm/am, ~60 MB) are published with the 14 October update.
+Exhibits: rule texts (47 CFR 73.3526, 73.3527, 1.80, 1.4), DA 25-943 (shutdown deadline), FCC 16-4, DA 23-156 (WTOY consent decree), Pillsbury and Wiley advisories and enforcement monitors, FCC facility lists and renewal tables, Smith & Clark 2007 abstract and Crossref record, the rule-date sample, the station CSVs, the by-owner tables, both raw reads (6-10 Oct and 14 Oct 2026) and their summaries, and `drift_2026-10-10_to_2026-10-14.txt`. SHA256SUMS in exhibits/.
+
+Version 2 (14 Oct 2026) scores every list by the earliest date seen across both reads: `merge_reads.py` adds back files the first read saw that the second no longer shows; `drift_reads.py` counts what changed between the reads; `scan_v1.py` is the version-1 classifier. Station lookup: `lookup.html` over `lookup.json` (`make_lookup.py`).
+
+Four exhibits are over 5 MB and are not in this repository; get them from https://markovianprotocol.com/measurements/sm-017/exhibits/ or the Zenodo record; hashes in `exhibits/SHA256SUMS`: `results_fm_2026-10-10.json.gz`, `results_fm_2026-10-14.json.gz`, `lms_facility_2026-10-11.zip`, `lms_facility_applicant_2026-10-11.zip`.

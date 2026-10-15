@@ -129,6 +129,15 @@ if s16:
        [[H(r["date"]), H(r["pending_year"]), fmt(r["pending_year_forms_loaded"]), H(r["newest_year"]), fmt(r.get("forms")), fmt(r.get("late_forms")), H(str(r.get("late_share_pct"))+"%"), fmt(r.get("facilities_late"))] for r in s16[-14:]])}
 <p class="cap">The day the pending year&rsquo;s count leaves zero, its late forms start their clock here; the enforcement join reruns after each ECHO refresh.</p>
 """
+s17 = load("sm-017")
+if s17:
+    body += f"""
+<h2>SM-017 &middot; Broadcast stations&rsquo; issues/programs lists</h2>
+<p>Quarterly, on the 14th of January, April, July and October: the FCC public file of every full-power and Class A TV station and every full-power FM and AM station, read the day after the list deadline. For the newest quarter: lists found, late, and stations with none yet. <a href="sm-017.html">Paper</a>.</p>
+{table([("Date",0),("Quarter",0),("Deadline",0),("Stations",1),("List found",1),("Late",1),("Share",0),("Late by the tenth",1),("None found",1),("TV / FM / AM late",0)],
+       [[H(r["date"]), H(r["quarter"]), H(r["deadline"]), fmt(r["stations"]), fmt(r["have"]), fmt(r["late"]), H(str(r["late_pct"])+"%"), fmt(r["late_vs_rule_date"]), fmt(r["none_found"]), H(f"{r.get('tv_late','-')} / {r.get('fm_late','-')} / {r.get('am_late','-')}")] for r in s17[-8:]])}
+<p class="cap">Read the day after the deadline, &ldquo;none found&rdquo; still holds the late lists to come; the next quarter&rsquo;s read fills them in. &ldquo;Late by the tenth&rdquo; counts against the rule&rsquo;s plain date, before the weekend and holiday rollover.</p>
+"""
 s18 = load("sm-018")
 if s18:
     body += f"""

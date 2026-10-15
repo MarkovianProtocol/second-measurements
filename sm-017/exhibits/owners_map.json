@@ -1,0 +1,900 @@
+{
+ "_comment": "Licensee -> parent group. 'patterns' are regexes tested (re.search) against the licensee legal_name after cleaning: uppercased, periods/commas/quotes removed, whitespace collapsed. First group whose pattern matches wins, in file order. 'f323' are regex tokens matched against the Form 323 (ownership report) respondent names on the station's latest report; used only to CHECK the map (owners.py writes f323_check.json), never to assign a parent.",
+ "groups": [
+  {
+   "parent": "Audacy",
+   "patterns": [
+    "^AUDACY",
+    "^ENTERCOM",
+    "^CBS RADIO"
+   ],
+   "f323": [
+    "^AUDACY",
+    "FUND FOR POLICY REFORM"
+   ]
+  },
+  {
+   "parent": "iHeartMedia",
+   "patterns": [
+    "^IHM LICENSES",
+    "^IHEART",
+    "^AMFM RADIO LICENSES",
+    "^AMFM TEXAS",
+    "^CAPSTAR TX",
+    "^CITICASTERS",
+    "^CLEAR CHANNEL BROADCASTING",
+    "^CC LICENSES"
+   ],
+   "f323": [
+    "^IHEARTMEDIA INC"
+   ]
+  },
+  {
+   "parent": "Cumulus Media",
+   "patterns": [
+    "^CUMULUS",
+    "^RADIO LICENSE HOLDING CBC",
+    "^RADIO LICENSE HOLDING SRC",
+    "^RADIO LICENSE HOLDINGS LLC",
+    "^CMP HOUSTON-KC",
+    "^KPLX LICO",
+    "^KLIF LICO"
+   ],
+   "f323": [
+    "^CUMULUS MEDIA INC"
+   ],
+   "licensees": []
+  },
+  {
+   "parent": "Townsquare Media",
+   "patterns": [
+    "^TOWNSQUARE"
+   ],
+   "f323": [
+    "^TOWNSQUARE MEDIA INC"
+   ]
+  },
+  {
+   "parent": "Saga Communications",
+   "patterns": [
+    "^SAGA COMMUNICATIONS",
+    "^SAGA SOUTH",
+    "^SAGA BROADCASTING",
+    "^TIDEWATER COMMUNICATIONS",
+    "^FRANKLIN COMMUNICATIONS INC",
+    "^LAKEFRONT COMMUNICATIONS"
+   ],
+   "f323": [
+    "^SAGA COMMUNICATIONS INC"
+   ]
+  },
+  {
+   "parent": "Salem Media Group",
+   "patterns": [
+    "^SALEM MEDIA",
+    "^SALEM COMMUNICATIONS",
+    "^NEW INSPIRATION BROADCASTING",
+    "^INSPIRATION MEDIA",
+    "^BISON MEDIA",
+    "^PENNSYLVANIA MEDIA ASSOCIATES",
+    "^SOUTH TEXAS BROADCASTING",
+    "^COMMON GROUND BROADCASTING",
+    "^SCA LICENSE",
+    "^ATLANTA RADIO LLC",
+    "^REACH SATELLITE",
+    "^CARON BROADCASTING",
+    "^SALEM RADIO",
+    "^HISPANOS COMMUNICATIONS",
+    "^SCA-PALO ALTO"
+   ],
+   "f323": [
+    "^SALEM MEDIA GROUP"
+   ],
+   "licensees": []
+  },
+  {
+   "parent": "Beasley Media Group",
+   "patterns": [
+    "^BEASLEY"
+   ],
+   "f323": [
+    "^BEASLEY BROADCAST GROUP"
+   ]
+  },
+  {
+   "parent": "Urban One",
+   "patterns": [
+    "^RADIO ONE",
+    "^URBAN ONE",
+    "^BLUE CHIP BROADCASTING",
+    "^BELL BROADCASTING"
+   ],
+   "f323": [
+    "^URBAN ONE"
+   ],
+   "licensees": [
+    "NEW MABLETON BROADCASTING CORPORATION",
+    "GAFFNEY BROADCASTING, LLC"
+   ]
+  },
+  {
+   "parent": "Hubbard Broadcasting",
+   "patterns": [
+    "^HUBBARD RADIO",
+    "^HUBBARD BROADCASTING",
+    "^HBI RADIO",
+    "^KSTP",
+    "^WTOP",
+    "^(WPB|WASHINGTON DC|ST LOUIS|SEATTLE|PHOENIX|CINCINNATI|CHICAGO) FCC LICENSE SUB"
+   ],
+   "f323": [
+    "^HUBBARD BROADCASTING"
+   ],
+   "licensees": [
+    "KOB-TV, LLC",
+    "KSAX-TV, LLC",
+    "WNYT-TV, LLC",
+    "WDIO-TV, LLC",
+    "KSTC-TV, LLC",
+    "WHEC-TV, LLC",
+    "KAAL-TV, LLC",
+    "KTMY-FM, LLC"
+   ]
+  },
+  {
+   "parent": "Alpha Media",
+   "patterns": [],
+   "f323": [],
+   "note": "Folded into Connoisseur Media (2025 transfer of control); kept as an empty entry so the history is visible."
+  },
+  {
+   "parent": "Sinclair",
+   "patterns": [
+    "^SINCLAIR",
+    "^CHESAPEAKE TELEVISION"
+   ],
+   "f323": [
+    "^SINCLAIR INC",
+    "^SINCLAIR BROADCAST GROUP"
+   ],
+   "licensees": [
+    "ACC LICENSEE, LLC",
+    "ACC Licensee, LLC",
+    "Birmingham (WABM-TV) Licensee, Inc.",
+    "CHESAPEAKE TELEVISION LICENSEE, LLC",
+    "Chesapeake Television Licensee, LLC",
+    "Harrisburg Licensee, LLC",
+    "KABB Licensee, LLC",
+    "KATV Licensee, LLC",
+    "KBTV Licensee, LLC",
+    "KDBC Licensee, LLC",
+    "KDNL Licensee, LLC",
+    "KDSM Licensee, LLC",
+    "KEYE Licensee, LLC",
+    "KFDM Licensee, LLC",
+    "KFOX Licensee, LLC",
+    "KFRE Licensee, LLC",
+    "KFXA Licensee, LLC",
+    "KGAN Licensee, LLC",
+    "KHGI LICENSEE, LLC",
+    "KHGI Licensee, LLC",
+    "KJZZ Licensee, LLC",
+    "KLGT Licensee, LLC",
+    "KMPH Licensee, LLC",
+    "KMYT Licensee, LLC",
+    "KNSN Licensee, LLC",
+    "KOCB Licensee, LLC",
+    "KOKH Licensee, LLC",
+    "KPTH Licensee, LLC",
+    "KPTM Licensee, LLC",
+    "KRCG Licensee, LLC",
+    "KRXI Licensee, LLC",
+    "KSAS Licensee, LLC",
+    "KTUL Licensee, LLC",
+    "KTVL Licensee, LLC",
+    "KUPN LICENSEE, LLC",
+    "KUPN Licensee, LLC",
+    "KUQI Licensee, LLC",
+    "KUTV LICENSEE, LLC",
+    "KUTV Licensee, LLC",
+    "KVII Licensee, LLC",
+    "New York Television, Inc.",
+    "Raleigh (WRDC-TV) Licensee, Inc.",
+    "SINCLAIR BAKERSFIELD LICENSEE, LLC",
+    "SINCLAIR EUGENE LICENSEE, LLC",
+    "SINCLAIR KENNEWICK LICENSEE, LLC",
+    "SINCLAIR LAGRANDE LICENSEE, LLC",
+    "SINCLAIR MEDIA LICENSEE, LLC",
+    "SINCLAIR YAKIMA LICENSEE, LLC",
+    "Sinclair Bakersfield Licensee, LLC",
+    "Sinclair Boise Licensee, LLC",
+    "Sinclair Eugene Licensee, LLC",
+    "Sinclair Lewiston Licensee, LLC",
+    "Sinclair Media Licensee, LLC",
+    "Sinclair Portland Licensee, LLC",
+    "Sinclair Seattle Licensee, LLC",
+    "Sinclair Yakima Licensee, LLC",
+    "WACH Licensee, LLC",
+    "WCHS Licensee, LLC",
+    "WCTI Licensee, LLC",
+    "WCWB Licensee, LLC",
+    "WCWF Licensee, LLC",
+    "WCWN Licensee, LLC",
+    "WEAR Licensee, LLC",
+    "WEYI Licensee, LLC",
+    "WFGX Licensee, LLC",
+    "WFXL Licensee, LLC",
+    "WGFL Licensee, LLC",
+    "WGME Licensee, LLC",
+    "WGTU Licensee, LLC",
+    "WGXA Licensee, LLC",
+    "WHAM Licensee, LLC",
+    "WJAC Licensee, LLC",
+    "WJAR LICENSEE, LLC",
+    "WKEF Licensee L.P.",
+    "WKRC LICENSEE, LLC",
+    "WLFL Licensee, LLC",
+    "WLOS Licensee, LLC",
+    "WLUK Licensee, LLC",
+    "WMMP Licensee L.P.",
+    "WMSN LICENSEE, LLC",
+    "WNWO Licensee, LLC",
+    "WOAI Licensee, LLC",
+    "WOLF Licensee, LLC",
+    "WPBN LICENSEE, LLC",
+    "WPDE Licensee, LLC",
+    "WPEC Licensee, LLC",
+    "WPGH Licensee, LLC",
+    "WQMY Licensee, LLC",
+    "WRGB Licensee, LLC",
+    "WRLH Licensee, LLC",
+    "WSBT LICENSEE, LLC",
+    "WSBT Licensee, LLC",
+    "WSET Licensee, LLC",
+    "WSMH Licensee, LLC",
+    "WSTQ Licensee, LLC",
+    "WSTR Acquisition, LLC",
+    "WSYX LICENSEE, INC.",
+    "WTGS Licensee, LLC",
+    "WTOV LICENSEE, LLC",
+    "WTTO Licensee, LLC",
+    "WTVC LICENSEE, LLC",
+    "WTVC Licensee, LLC",
+    "WTVX LICENSEE, LLC",
+    "WTVX Licensee, LLC",
+    "WTVZ LICENSEE, LLC",
+    "WTWC Licensee, LLC",
+    "WUHF Licensee, LLC",
+    "WUPN Licensee, LLC",
+    "WUTV Licensee, LLC",
+    "WUXP Licensee, LLC",
+    "WWHO Licensee, LLC",
+    "WWMB Licensee, LLC",
+    "WWMT Licensee, LLC",
+    "WXBU Licensee, LLC",
+    "WXLV Licensee, LLC",
+    "WZTV LICENSEE, LLC"
+   ],
+   "note": "116 exact licensee names taken from the stations whose latest Form 323 report (2026-06-01 transfer of control, Sinclair, Inc. respondent) still names the current licensee. Sinclair and its sidecars (Cunningham, Howard Stirk, Deerfield) all use \"<CALL> Licensee, LLC\" names, so no generic pattern is used."
+  },
+  {
+   "parent": "Nexstar Media Group",
+   "patterns": [
+    "^NEXSTAR",
+    "^TRIBUNE",
+    "^KTLA",
+    "^WGN "
+   ],
+   "f323": [
+    "^NEXSTAR MEDIA GROUP"
+   ],
+   "licensees": [
+    "KPLR, INC."
+   ]
+  },
+  {
+   "parent": "Gray Media",
+   "patterns": [
+    "^GRAY TELEVISION",
+    "^GRAY MEDIA"
+   ],
+   "f323": [
+    "^GRAY MEDIA INC",
+    "^GRAY TELEVISION INC",
+    "^GRAY LOCAL MEDIA"
+   ]
+  },
+  {
+   "parent": "TEGNA",
+   "patterns": [
+    "^TEGNA",
+    "^MULTIMEDIA HOLDINGS CORPORATION",
+    "^PACIFIC AND SOUTHERN",
+    "^KING BROADCASTING",
+    "^SANDER OPERATING",
+    "^WBNS",
+    "^COMBINED COMMUNICATIONS"
+   ],
+   "f323": [
+    "^TEGNA INC"
+   ],
+   "licensees": [
+    "LSB BROADCASTING, INC.",
+    "CAPE PUBLICATIONS, INC.",
+    "KHOU-TV, INC.",
+    "BELO TV, INC.",
+    "WFAA-TV, INC.",
+    "RADIOHIO, INCORPORATED",
+    "KTTU-TV, INC.",
+    "WFMY TELEVISION, LLC",
+    "WWL-TV, INC.",
+    "KSKN TELEVISION, INC.",
+    "MULTIMEDIA ENTERTAINMENT, LLC",
+    "KWES TELEVISION, LLC",
+    "KFMB-TV, LLC",
+    "KXTV, LLC",
+    "WUSA-TV, INC.",
+    "VIDEOINDIANA, INC.",
+    "WVEC TELEVISION, LLC",
+    "WBIR-TV, LLC",
+    "KONG-TV, INC.",
+    "KENS-TV, INC.",
+    "WKYC-TV, LLC",
+    "KVUE TELEVISION, INC.",
+    "MULTIMEDIA KSDK, LLC",
+    "WCNC-TV, INC.",
+    "WTOL TELEVISION, LLC",
+    "VIDEOHIO, INC."
+   ],
+   "note": "Exact names from the 2023-10-01 biennial Form 323 chain (TEGNA Inc. respondent). WATN-TV (TEGNA Memphis Broadcasting, Inc.) carries a 2025-02-01 transfer report naming Nexstar Media Group; it is left under TEGNA by licensee name and flagged in README."
+  },
+  {
+   "parent": "E.W. Scripps",
+   "patterns": [
+    "^SCRIPPS",
+    "^ION TELEVISION",
+    "^ION MEDIA"
+   ],
+   "f323": [
+    "^EW SCRIPPS COMPANY",
+    "^SCRIPPS"
+   ]
+  },
+  {
+   "parent": "Paramount Skydance (CBS)",
+   "patterns": [
+    "^CBS "
+   ],
+   "f323": [
+    "^PARAMOUNT",
+    "^SKYDANCE",
+    "^CBS ",
+    "REDBIRD",
+    "^NATIONAL AMUSEMENTS"
+   ],
+   "licensees": [
+    "LOS ANGELES TELEVISION STATION KCAL LLC",
+    "SACRAMENTO TELEVISION STATIONS INC.",
+    "SAN FRANCISCO TELEVISION STATION KBCW INC",
+    "THE CW TELEVISION STATIONS INC.",
+    "TELEVISION STATION KTXA INC.",
+    "MIAMI TELEVISION STATION WBFS INC.",
+    "DETROIT TELEVISION STATION WKBD INC.",
+    "PITTSBURGH TELEVISION STATION WPCW INC.",
+    "PHILADELPHIA TELEVISION STATION WPSG INC.",
+    "ATLANTA TELEVISION STATION WUPA INC."
+   ],
+   "note": "Exact names from the 2025-09-08 transfer-of-control reports (RedBird / Skydance respondents)."
+  },
+  {
+   "parent": "Comcast (NBCUniversal)",
+   "patterns": [
+    "^NBC",
+    "^TELEMUNDO",
+    "^STATION VENTURE OPERATIONS",
+    "^KNTV",
+    "^WCAU"
+   ],
+   "f323": [
+    "^COMCAST CORPORATION",
+    "^NBCUNIVERSAL"
+   ]
+  },
+  {
+   "parent": "Fox Corporation",
+   "patterns": [
+    "^FOX TELEVISION STATIONS",
+    "^NW COMMUNICATIONS OF",
+    "^NEW WORLD COMMUNICATIONS OF"
+   ],
+   "f323": [
+    "^FOX CORPORATION"
+   ],
+   "licensees": []
+  },
+  {
+   "parent": "Disney (ABC)",
+   "patterns": [
+    "^ABC INC",
+    "^WABC TELEVISION",
+    "^KABC TELEVISION",
+    "^KGO TELEVISION",
+    "^KTRK TELEVISION",
+    "^KFSN TELEVISION",
+    "^WTVD TELEVISION",
+    "^WLS TELEVISION",
+    "^WPVI TELEVISION",
+    "^AMERICAN BROADCASTING COMPANIES"
+   ],
+   "f323": [
+    "^DISNEY ENTERPRISES",
+    "^ABC INC"
+   ]
+  },
+  {
+   "parent": "TelevisaUnivision",
+   "patterns": [
+    "^UNIVISION",
+    "^KMEX LICENSE",
+    "^WXTV LICENSE",
+    "^TELEFUTURA",
+    "^UNIMAS",
+    "^UNVISION",
+    "^[KW][A-Z]{2,3} LICENSE PARTNERSHIP",
+    "^TICHENOR LICENSE",
+    "^SPANISH TELEVISION OF DENVER"
+   ],
+   "f323": [
+    "^TELEVISAUNIVISION",
+    "^UNIVISION HOLDINGS"
+   ],
+   "licensees": [
+    "WSTE, LLC"
+   ],
+   "note": "Latino Media Network (15 stations bought from TelevisaUnivision in 2022) is kept separate even though ForgeLight/Univision entities still appear in its 2023 chain."
+  },
+  {
+   "parent": "Entravision",
+   "patterns": [
+    "^ENTRAVISION"
+   ],
+   "f323": [
+    "SEROS ULLOA"
+   ]
+  },
+  {
+   "parent": "Educational Media Foundation (K-LOVE)",
+   "patterns": [
+    "^K-LOVE",
+    "^EDUCATIONAL MEDIA FOUNDATION"
+   ],
+   "f323": [
+    "^K-LOVE",
+    "^EDUCATIONAL MEDIA FOUNDATION"
+   ],
+   "licensees": [
+    "THE ASSOCIATION FOR COMMUNITY EDUCATION, INC."
+   ],
+   "note": "Association for Community Education (4 stations): 2025-09-04 transfer report with K-LOVE, Inc. as respondent."
+  },
+  {
+   "parent": "American Family Association (American Family Radio)",
+   "patterns": [
+    "^AMERICAN FAMILY ASSOCIATION"
+   ],
+   "f323": [
+    "^AMERICAN FAMILY ASSOCIATION"
+   ]
+  },
+  {
+   "parent": "Hearst",
+   "patterns": [
+    "^HEARST",
+    "HEARST TELEVISION",
+    "HTV LLC$"
+   ],
+   "f323": [
+    "^HEARST"
+   ],
+   "licensees": []
+  },
+  {
+   "parent": "Cox Media Group",
+   "patterns": [
+    "^COX RADIO",
+    "^COX MEDIA GROUP",
+    "^CMG "
+   ],
+   "f323": [
+    "^COX ENTERPRISES",
+    "^CMG MEDIA CORPORATION"
+   ],
+   "licensees": [
+    "WSOC TELEVISION, LLC",
+    "COX TELEVISION JACKSONVILLE, LLC",
+    "WFTV, LLC",
+    "OREGON BROADCASTING LICENSES, LLC",
+    "MIAMI VALLEY BROADCASTING CORPORATION",
+    "GEORGIA TELEVISION, LLC",
+    "WFXT (BOSTON), LLC",
+    "WPXI, LLC",
+    "KIRO-TV, INC."
+   ],
+   "note": "Exact names from 2025 transfer-of-control Form 323 reports (CMG Media Corporation / Apollo respondents)."
+  },
+  {
+   "parent": "Bonneville International",
+   "patterns": [
+    "^BONNEVILLE"
+   ],
+   "f323": [
+    "^BONNEVILLE",
+    "^DESERET"
+   ]
+  },
+  {
+   "parent": "Midwest Communications",
+   "patterns": [
+    "^MIDWEST COMMUNICATIONS"
+   ],
+   "f323": [
+    "MIDWEST COMMUNICATIONS"
+   ]
+  },
+  {
+   "parent": "Connoisseur Media (incl. Alpha Media)",
+   "patterns": [
+    "^CONNOISSEUR",
+    "^ALPHA MEDIA",
+    "^ALPHA 3E"
+   ],
+   "f323": [
+    "^CONNOISSEUR"
+   ],
+   "licensees": [],
+   "note": "Alpha Media Licensee LLC and Alpha 3E Licensee LLC (153 stations) sit under Connoisseur since the 2025-09-04 transfer-of-control report (Connoisseur Media Parent, LLC respondent); the licensee entities did not change."
+  },
+  {
+   "parent": "Bicoastal Media",
+   "patterns": [
+    "^BICOASTAL"
+   ],
+   "f323": [
+    "^BICOASTAL"
+   ]
+  },
+  {
+   "parent": "Stephens Media Group",
+   "patterns": [
+    "^SMG-",
+    "^SMG ",
+    "^STEPHENS MEDIA GROUP"
+   ],
+   "f323": [
+    "STEPHENS"
+   ],
+   "licensees": [
+    "KXOJ, INC.",
+    "KMMY INC."
+   ]
+  },
+  {
+   "parent": "Lotus Communications",
+   "patterns": [
+    "^LOTUS ",
+    "^ARIZONA LOTUS"
+   ],
+   "f323": []
+  },
+  {
+   "parent": "Leighton Broadcasting",
+   "patterns": [
+    "^LEIGHTON"
+   ],
+   "f323": [
+    "^LEIGHTON"
+   ]
+  },
+  {
+   "parent": "Forever Media",
+   "patterns": [
+    "^FOREVER SOUTH",
+    "^FOREVER MEDIA",
+    "^FOREVER COMMUNICATIONS"
+   ],
+   "f323": []
+  },
+  {
+   "parent": "Innovate Corp (HC2)",
+   "patterns": [
+    "^HC2 "
+   ],
+   "f323": [
+    "^INNOVATE CORP",
+    "^HC2 BROADCASTING"
+   ]
+  },
+  {
+   "parent": "Allen Media Group",
+   "patterns": [
+    "^ALLEN MEDIA",
+    "^(OREGON|LA CROSSE|WAUSAU|TUCSON|CEDAR-RAPIDS|MADISON|ROCHESTER|FLINT|CALIFORNIA) TV LICENSE COMPANY"
+   ],
+   "f323": [
+    "^ALLEN MEDIA"
+   ],
+   "licensees": [
+    "KITV, INC.",
+    "KIKU, LLC"
+   ]
+  },
+  {
+   "parent": "Estrella Media",
+   "patterns": [
+    "^ESTRELLA"
+   ],
+   "f323": [
+    "^ESTRELLA MEDIA"
+   ]
+  },
+  {
+   "parent": "Marquee Broadcasting",
+   "patterns": [
+    "^MARQUEE BROADCASTING"
+   ],
+   "f323": []
+  },
+  {
+   "parent": "Withers Broadcasting",
+   "patterns": [
+    "^WITHERS BROADCASTING"
+   ],
+   "f323": [
+    "^WITHERS"
+   ]
+  },
+  {
+   "parent": "Lilly Broadcasting",
+   "patterns": [
+    "^LILLY BROADCASTING"
+   ],
+   "f323": [
+    "^LILLY"
+   ]
+  },
+  {
+   "parent": "News-Press & Gazette",
+   "patterns": [
+    "^NPG OF",
+    "^NEWS-PRESS",
+    "^GULF-CALIFORNIA BROADCAST",
+    "^PIKES PEAK (TELEVISION|RADIO)"
+   ],
+   "f323": [
+    "^NEWS-PRESS"
+   ],
+   "licensees": []
+  },
+  {
+   "parent": "Weigel Broadcasting",
+   "patterns": [
+    "^WEIGEL"
+   ],
+   "f323": [
+    "^WEIGEL"
+   ],
+   "licensees": [
+    "TV-49, INC.",
+    "WJFB-TV LLC",
+    "KCSG-TV LLC",
+    "KNLC-TV LLC",
+    "WDJT-TV LIMITED PARTNERSHIP",
+    "KFFV-TV LLC",
+    "WCIU-TV LIMITED PARTNERSHIP",
+    "KMOH-TV LLC",
+    "KVOS-TV LLC",
+    "KYAZ-TV LLC",
+    "KREG-TV LLC",
+    "KAZD-TV LLC",
+    "CHANNEL 23 LIMITED PARTNERSHIP",
+    "CHANNEL 41 AND 63 LIMITED PARTNERSHIP",
+    "KAXT-TV LLC"
+   ]
+  },
+  {
+   "parent": "Southern Belle",
+   "patterns": [
+    "^SOUTHERN BELLE"
+   ],
+   "f323": [
+    "CANTRELL"
+   ]
+  },
+  {
+   "parent": "Zimmer Radio",
+   "patterns": [
+    "^ZIMMER RADIO"
+   ],
+   "f323": []
+  },
+  {
+   "parent": "Galaxy Media",
+   "patterns": [
+    "^GALAXY (SYRACUSE|UTICA) LICENSEE"
+   ],
+   "f323": [
+    "^GALAXY"
+   ]
+  },
+  {
+   "parent": "Results Radio",
+   "patterns": [
+    "^RESULTS RADIO"
+   ],
+   "f323": [
+    "^RESULTS RADIO"
+   ]
+  },
+  {
+   "parent": "Deerfield Media",
+   "patterns": [
+    "^DEERFIELD MEDIA"
+   ],
+   "f323": [
+    "^DEERFIELD"
+   ]
+  },
+  {
+   "parent": "Mission Broadcasting",
+   "patterns": [
+    "^MISSION BROADCASTING"
+   ],
+   "f323": [
+    "^MISSION BROADCASTING"
+   ]
+  },
+  {
+   "parent": "Black Diamond Broadcast",
+   "patterns": [
+    "^BLACK DIAMOND BROADCAST"
+   ],
+   "f323": []
+  },
+  {
+   "parent": "RNN (Regional News Network)",
+   "patterns": [
+    "^RNN ",
+    "^WRNN LICENSE"
+   ],
+   "f323": []
+  },
+  {
+   "parent": "JVC Media",
+   "patterns": [
+    "^JVC MEDIA"
+   ],
+   "f323": [
+    "^JVC"
+   ]
+  },
+  {
+   "parent": "University of Northwestern - St. Paul",
+   "patterns": [
+    "^UNIVERSITY OF NORTHWESTERN"
+   ],
+   "f323": [
+    "NORTHWESTERN"
+   ]
+  },
+  {
+   "parent": "CSN International",
+   "patterns": [
+    "^CSN INTERNATIONAL"
+   ],
+   "f323": [
+    "^CSN"
+   ]
+  },
+  {
+   "parent": "Bott Radio Network",
+   "patterns": [
+    "^BOTT COMMUNICATIONS",
+    "^BOTT BROADCASTING"
+   ],
+   "f323": [
+    "^BOTT"
+   ]
+  },
+  {
+   "parent": "Queenb Radio",
+   "patterns": [
+    "^QUEENB"
+   ],
+   "f323": []
+  },
+  {
+   "parent": "Trinity Broadcasting Network",
+   "patterns": [
+    "^TRINITY BROADCASTING OF",
+    "^TRINITY CHRISTIAN CENTER OF SANTA ANA",
+    "^TRILOGY GENESIS"
+   ],
+   "f323": [
+    "^TRINITY BROADCASTING",
+    "^TRINITY CHRISTIAN CENTER"
+   ]
+  },
+  {
+   "parent": "American Public Media Group",
+   "patterns": [
+    "^MINNESOTA PUBLIC RADIO",
+    "^SOUTHERN CALIFORNIA PUBLIC RADIO"
+   ],
+   "f323": [
+    "^AMERICAN PUBLIC MEDIA GROUP"
+   ]
+  },
+  {
+   "parent": "South Dakota Public Broadcasting",
+   "patterns": [
+    "^SOUTH DAKOTA BOARD OF DIRECTORS FOR ED"
+   ],
+   "f323": []
+  },
+  {
+   "parent": "Four Rivers Community Broadcasting",
+   "patterns": [
+    "^FOUR RIVERS COMMUNITY BROADCASTING"
+   ],
+   "f323": []
+  },
+  {
+   "parent": "Community Broadcasters LLC",
+   "patterns": [
+    "^COMMUNITY BROADCASTERS LLC"
+   ],
+   "f323": []
+  },
+  {
+   "parent": "Cunningham Broadcasting",
+   "patterns": [
+    "^CUNNINGHAM BROADCASTING"
+   ],
+   "f323": []
+  },
+  {
+   "parent": "Howard Stirk Holdings",
+   "patterns": [
+    "^HOWARD STIRK"
+   ],
+   "f323": []
+  },
+  {
+   "parent": "Heartland Media",
+   "patterns": [
+    "^HEARTLAND MEDIA"
+   ],
+   "f323": []
+  },
+  {
+   "parent": "Standard Media Group",
+   "patterns": [
+    "^STANDARD MEDIA"
+   ],
+   "f323": []
+  }
+ ],
+ "station_overrides": {
+  "tv:KENV-DT": "Cunningham Broadcasting",
+  "tv:KRNV-DT": "Cunningham Broadcasting",
+  "tv:WBSF": "Cunningham Broadcasting",
+  "tv:WDBB": "Cunningham Broadcasting",
+  "tv:WRGT-TV": "Cunningham Broadcasting",
+  "tv:WTAT-TV": "Cunningham Broadcasting",
+  "tv:WVAH-TV": "Cunningham Broadcasting",
+  "tv:WGWG": "Howard Stirk Holdings",
+  "tv:WKTV": "Heartland Media",
+  "tv:WLNE-TV": "Standard Media Group"
+ },
+ "_station_overrides_comment": "service:callSign -> parent. Stations whose current licensee name is a Sinclair-style '<CALL> Licensee' entity but whose latest Form 323 report names a different controlling company (Cunningham Broadcasting 2023-10-01 B; Howard Stirk Holdings 2023-10-01 V; Heartland Media 2023-10-01 B; Standard Media Group 2026-03-27 T). Applied before the pattern map."
+}

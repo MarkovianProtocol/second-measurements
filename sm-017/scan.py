@@ -100,7 +100,7 @@ def quarter_of(name, path):
             if m: q = (MONTHS[m.group(1)[:3]] - 1) // 3 + 1; break
     if q is None:
         for i, x in enumerate(toks):   # "QP 25-01" -> year 25, quarter 01
-            if re.fullmatch(r"(1\d|2[0-6])", x) and i + 1 < len(toks) and re.fullmatch(r"0[1-4]", toks[i + 1]):
+            if re.fullmatch(r"(1\d|2[0-6])", x) and i + 1 < len(toks) and re.fullmatch(r"0[1-4]", toks[i + 1]) and not (i and re.fullmatch(r"20[12]\d", toks[i - 1])):   # not the 'mm dd' of '2026 10 01'
                 q = int(toks[i + 1]); year = year or "20" + x; break
     if q is None:
         for i, x in enumerate(toks):
@@ -113,7 +113,10 @@ def quarter_of(name, path):
     if q is None:
         for i, x in enumerate(toks):   # 2025 06 30  or  010125 / 033125
             if re.fullmatch(r"20[12]\d", x) and i + 2 < len(toks) and re.fullmatch(r"0?[1-9]|1[0-2]", toks[i + 1]) and re.fullmatch(r"\d\d?", toks[i + 2]):
-                q = (int(toks[i + 1]) - 1) // 3 + 1; break
+                q = (int(toks[i + 1]) - 1) // 3 + 1
+                if toks[i + 1] in ("01", "04", "07", "10") and toks[i + 2] == "01" and not any(re.search(r"\d", y) for y in toks[i + 3:]):
+                    q = q - 1 or 4; year = str(int(x) - 1) if q == 4 else x   # a lone '2026 07 01' is the filing date of the quarter just ended (Idaho PBS)
+                break
             m = re.fullmatch(r"(0[1-9]|1[0-2])([0-3]\d)(2[0-6])", x)
             if m: q = (int(m.group(1)) - 1) // 3 + 1; year = year or "20" + m.group(3); break
             # 12 31 2025 (mm dd yyyy) or 2025 03 (year month)

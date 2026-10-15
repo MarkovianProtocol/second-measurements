@@ -8,3 +8,8 @@
 2026-10-10T13:16-13:27Z  results_{tv,fm,am}_150_2026-10-10.json.gz (scan.py 150 20261005 per service, run locally on the rule date), ruledate_sample_2026-10-10.json (ruledate_count.py)
 2026-10-06  wiley-2025-11-18.html (r5), pillsbury-q3-2025-advisory.html and pillsbury-q3-2026-advisory.pdf (browser UA), DA-25-943A1.pdf; no_2025_list_stations.csv and no_upload_2025_stations.csv are written by make_page.py from summary_combined.json
 2026-10-10  results_tv_classa.json.gz: the 245 Class A television stations (-CD call signs), scanned 10 Oct after the review gate found them dropped; merged into the TV census (results_all.json fetched_at advanced to the Class A read)
+2026-10-11T07:16Z  lms_facility_2026-10-11.zip, lms_facility_applicant_2026-10-11.zip: FCC LMS public database tables (enterpriseefiling.fcc.gov/dataentry/api/download/dbfile/10-11-2026/<table>.zip), the licensee source for owners_2025.*; ownership_reports_{application,stations}.zip (36 MB, used only to check the parent map) kept in fcc-opif/lms/, sha256 in owners_README.md
+2026-10-11  owners_2025.csv/json, owners_map.json, owners_stations.csv, owners_README.md: owners.py over the 6-10 Oct reads + LMS tables (parent groups, 2025 scoring per owner)
+2026-10-15T00:14:48Z  results_{tv,fm,am}_2026-10-14.json.gz (Neo run_quarter.sh), facility lists
+2026-10-15T00:36:25Z  results_{tv,fm,am}_2026-10-14.json.gz (Neo run_quarter.sh), over the 6-7 Oct facility lists; results_{tv,fm,am}_2026-10-10.json.gz = the 6-10 Oct read
+2026-10-15T00:37:03Z  owners_2025.csv/json, owners_stations.csv, owners_README.md: owners.py re-run over the 14 Oct reads (merged with the 6-10 Oct read: earliest date seen)

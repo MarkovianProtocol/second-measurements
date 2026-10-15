@@ -1,0 +1,1232 @@
+{
+ "source": "results_tv_2026-10-14.merged.json",
+ "fetched_at": "2026-10-14T15:33:35.145527+00:00",
+ "fetched_first": "2026-10-14T15:33:35.145527+00:00",
+ "stations": 1995,
+ "errors": 0,
+ "exempt_excluded": 69,
+ "files": 150434,
+ "files_unclassified": 15043,
+ "files_pre_quarter": 96,
+ "quarters": {
+  "2025Q1": {
+   "deadline": "2025-04-10",
+   "rule_date": "2025-04-10",
+   "late_vs_rule_date": 61,
+   "have": 1941,
+   "none_found": 54,
+   "on_time": 1880,
+   "late": 61,
+   "late_pct": 3.1,
+   "late_1_7": 29,
+   "late_8_30": 5,
+   "late_over_30": 27,
+   "median_late_days": 18,
+   "worst": [
+    [
+     "WQEC",
+     490
+    ],
+    [
+     "WSEC",
+     490
+    ],
+    [
+     "WMEC",
+     490
+    ],
+    [
+     "KMYA-DT",
+     438
+    ],
+    [
+     "KBFD-DT",
+     270
+    ],
+    [
+     "WJCT",
+     227
+    ],
+    [
+     "KUAS-TV",
+     223
+    ],
+    [
+     "KUAT-TV",
+     223
+    ],
+    [
+     "WEWS-TV",
+     173
+    ],
+    [
+     "WCLO-TV",
+     128
+    ]
+   ]
+  },
+  "2025Q2": {
+   "deadline": "2025-07-10",
+   "rule_date": "2025-07-10",
+   "late_vs_rule_date": 52,
+   "have": 1939,
+   "none_found": 56,
+   "on_time": 1887,
+   "late": 52,
+   "late_pct": 2.7,
+   "late_1_7": 31,
+   "late_8_30": 3,
+   "late_over_30": 18,
+   "median_late_days": 5,
+   "worst": [
+    [
+     "WQEC",
+     399
+    ],
+    [
+     "WSEC",
+     399
+    ],
+    [
+     "WMEC",
+     399
+    ],
+    [
+     "KMYA-DT",
+     347
+    ],
+    [
+     "WMNT-CD",
+     209
+    ],
+    [
+     "WNEU",
+     183
+    ],
+    [
+     "KVAI-CD",
+     145
+    ],
+    [
+     "WZVI",
+     145
+    ],
+    [
+     "WSVI",
+     145
+    ],
+    [
+     "WSJN-CD",
+     139
+    ]
+   ]
+  },
+  "2025Q3": {
+   "deadline": "2025-12-01",
+   "rule_date": "2025-12-01",
+   "late_vs_rule_date": 57,
+   "have": 1942,
+   "none_found": 53,
+   "on_time": 1885,
+   "late": 57,
+   "late_pct": 2.9,
+   "late_1_7": 22,
+   "late_8_30": 11,
+   "late_over_30": 24,
+   "median_late_days": 14,
+   "worst": [
+    [
+     "WQEC",
+     255
+    ],
+    [
+     "WSEC",
+     255
+    ],
+    [
+     "WMEC",
+     255
+    ],
+    [
+     "KMYA-DT",
+     203
+    ],
+    [
+     "WBNA",
+     139
+    ],
+    [
+     "WJDE-CD",
+     139
+    ],
+    [
+     "KSHV-TV",
+     78
+    ],
+    [
+     "KTAL-TV",
+     78
+    ],
+    [
+     "KCBA",
+     60
+    ],
+    [
+     "KVER-CD",
+     60
+    ]
+   ],
+   "late_vs_oct10": 1818,
+   "uploaded_in_shutdown_gap": 1761,
+   "uploaded_1118": 1349,
+   "uploaded_2oct_17nov": 0
+  },
+  "2025Q4": {
+   "deadline": "2026-01-12",
+   "rule_date": "2026-01-10",
+   "late_vs_rule_date": 164,
+   "have": 1945,
+   "none_found": 50,
+   "on_time": 1902,
+   "late": 43,
+   "late_pct": 2.2,
+   "late_1_7": 17,
+   "late_8_30": 14,
+   "late_over_30": 12,
+   "median_late_days": 18,
+   "worst": [
+    [
+     "WQEC",
+     213
+    ],
+    [
+     "WSEC",
+     213
+    ],
+    [
+     "WMEC",
+     213
+    ],
+    [
+     "WBNA",
+     97
+    ],
+    [
+     "WJDE-CD",
+     97
+    ],
+    [
+     "KMIR-TV",
+     95
+    ],
+    [
+     "WKOP-TV",
+     93
+    ],
+    [
+     "KTCA-TV",
+     87
+    ],
+    [
+     "WATC-DT",
+     86
+    ],
+    [
+     "WTVK",
+     81
+    ]
+   ]
+  },
+  "2026Q1": {
+   "deadline": "2026-04-10",
+   "rule_date": "2026-04-10",
+   "late_vs_rule_date": 59,
+   "have": 1960,
+   "none_found": 35,
+   "on_time": 1901,
+   "late": 59,
+   "late_pct": 3.0,
+   "late_1_7": 20,
+   "late_8_30": 6,
+   "late_over_30": 33,
+   "median_late_days": 34,
+   "worst": [
+    [
+     "WCLO-TV",
+     149
+    ],
+    [
+     "WQEC",
+     125
+    ],
+    [
+     "WSEC",
+     125
+    ],
+    [
+     "WMEC",
+     125
+    ],
+    [
+     "KVAI-CD",
+     110
+    ],
+    [
+     "WTVL-CD",
+     103
+    ],
+    [
+     "WWPB",
+     91
+    ],
+    [
+     "KTAS",
+     91
+    ],
+    [
+     "WEDQ",
+     91
+    ],
+    [
+     "KRDK-TV",
+     91
+    ]
+   ]
+  },
+  "2026Q2": {
+   "deadline": "2026-07-10",
+   "rule_date": "2026-07-10",
+   "late_vs_rule_date": 37,
+   "have": 1943,
+   "none_found": 52,
+   "on_time": 1906,
+   "late": 37,
+   "late_pct": 1.9,
+   "late_1_7": 14,
+   "late_8_30": 4,
+   "late_over_30": 19,
+   "median_late_days": 31,
+   "worst": [
+    [
+     "WIWN",
+     91
+    ],
+    [
+     "WYBE-CD",
+     88
+    ],
+    [
+     "WBXJ-CD",
+     83
+    ],
+    [
+     "WBXF-CD",
+     83
+    ],
+    [
+     "WZXZ-CD",
+     83
+    ],
+    [
+     "WUBX-CD",
+     83
+    ],
+    [
+     "WCLO-TV",
+     58
+    ],
+    [
+     "WQEC",
+     34
+    ],
+    [
+     "WSEC",
+     34
+    ],
+    [
+     "WMEC",
+     34
+    ]
+   ]
+  },
+  "2026Q3": {
+   "deadline": "2026-10-13",
+   "rule_date": "2026-10-10",
+   "late_vs_rule_date": 166,
+   "have": 1943,
+   "none_found": 52,
+   "on_time": 1941,
+   "late": 2,
+   "late_pct": 0.1,
+   "late_1_7": 2,
+   "late_8_30": 0,
+   "late_over_30": 0,
+   "median_late_days": 1,
+   "worst": [
+    [
+     "WHDO-CD",
+     1
+    ],
+    [
+     "KBNT-CD",
+     1
+    ]
+   ]
+  }
+ },
+ "all": {
+  "station_quarters": 13613,
+  "late": 311,
+  "late_pct": 2.3,
+  "over_30": 133,
+  "stations_with_any_late": 193,
+  "stations_all_four_on_time": 1705,
+  "stations_with_all_four": 1868,
+  "stations_with_all_2025": 1893,
+  "stations_all_2025_on_time": 1756
+ },
+ "late_days_by_year": {
+  "2025": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   3,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   6,
+   7,
+   7,
+   10,
+   10,
+   10,
+   11,
+   11,
+   11,
+   14,
+   14,
+   14,
+   14,
+   14,
+   14,
+   15,
+   15,
+   18,
+   18,
+   18,
+   18,
+   18,
+   18,
+   18,
+   18,
+   20,
+   21,
+   21,
+   21,
+   21,
+   23,
+   25,
+   26,
+   28,
+   29,
+   29,
+   32,
+   37,
+   37,
+   38,
+   38,
+   38,
+   38,
+   39,
+   39,
+   40,
+   41,
+   42,
+   43,
+   46,
+   52,
+   52,
+   60,
+   60,
+   60,
+   60,
+   65,
+   77,
+   78,
+   78,
+   80,
+   81,
+   86,
+   87,
+   89,
+   91,
+   91,
+   91,
+   92,
+   92,
+   92,
+   92,
+   92,
+   92,
+   92,
+   92,
+   92,
+   93,
+   95,
+   97,
+   97,
+   128,
+   131,
+   131,
+   131,
+   132,
+   132,
+   134,
+   136,
+   139,
+   139,
+   139,
+   145,
+   145,
+   145,
+   173,
+   183,
+   203,
+   209,
+   213,
+   213,
+   213,
+   223,
+   223,
+   227,
+   255,
+   255,
+   255,
+   270,
+   347,
+   399,
+   399,
+   399,
+   438,
+   490,
+   490,
+   490
+  ],
+  "2026": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   2,
+   2,
+   2,
+   2,
+   2,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   4,
+   4,
+   5,
+   5,
+   6,
+   6,
+   6,
+   6,
+   7,
+   7,
+   7,
+   9,
+   9,
+   10,
+   12,
+   14,
+   19,
+   24,
+   24,
+   24,
+   27,
+   31,
+   31,
+   31,
+   31,
+   31,
+   31,
+   31,
+   31,
+   31,
+   33,
+   33,
+   33,
+   34,
+   34,
+   34,
+   34,
+   34,
+   38,
+   58,
+   68,
+   73,
+   76,
+   81,
+   81,
+   81,
+   81,
+   83,
+   83,
+   83,
+   83,
+   88,
+   88,
+   88,
+   89,
+   89,
+   89,
+   89,
+   89,
+   89,
+   90,
+   90,
+   91,
+   91,
+   91,
+   91,
+   91,
+   103,
+   110,
+   125,
+   125,
+   125,
+   149
+  ]
+ },
+ "empty_folder": [
+  "KEPS",
+  "KICA",
+  "KMMI",
+  "KNAK",
+  "KUAU",
+  "WTOT"
+ ],
+ "no_2025_files": [
+  "KBBV-CD",
+  "KCVB-CD",
+  "KEPS",
+  "KICA",
+  "KMMI",
+  "KNAK",
+  "KOMI-CD",
+  "KTGM",
+  "KUAU",
+  "KVAW",
+  "WBII-CD",
+  "WBKP",
+  "WDBB",
+  "WDVZ-CD",
+  "WEFS",
+  "WFUP",
+  "WIRS",
+  "WJAN-CD",
+  "WJPX",
+  "WJWN-TV",
+  "WKPV",
+  "WSMH",
+  "WTOT",
+  "WUWT-CD",
+  "WWUP-TV"
+ ],
+ "no_2025_detail": {
+  "WDBB": {
+   "files": 131,
+   "last_upload": "2026-10-09",
+   "last_name": "CunninghamQuarterlyIssuesandProgramsListFormQ3 2026"
+  },
+  "KTGM": {
+   "files": 66,
+   "last_upload": "2026-10-06",
+   "last_name": "2026 Q3 KTGM FCC ISSUES REPORT"
+  },
+  "WBKP": {
+   "files": 68,
+   "last_upload": "2026-07-08",
+   "last_name": "Marquette - Second Quarter Foreign-Government Programming Disclosures"
+  },
+  "KMMI": {
+   "files": 0,
+   "last_upload": null,
+   "last_name": ""
+  },
+  "KEPS": {
+   "files": 0,
+   "last_upload": null,
+   "last_name": ""
+  },
+  "WJWN-TV": {
+   "files": 65,
+   "last_upload": "2019-10-10",
+   "last_name": "3rd Quarterly program report 2019 ACVPR"
+  },
+  "WJPX": {
+   "files": 71,
+   "last_upload": "2020-09-28",
+   "last_name": "1st Quarterly program report 2019 ACVPR"
+  },
+  "KICA": {
+   "files": 0,
+   "last_upload": null,
+   "last_name": ""
+  },
+  "WSMH": {
+   "files": 7,
+   "last_upload": "2026-10-08",
+   "last_name": "WSMH-ESMH Q3 2026 Program and Issues Report"
+  },
+  "KUAU": {
+   "files": 0,
+   "last_upload": null,
+   "last_name": ""
+  },
+  "KOMI-CD": {
+   "files": 51,
+   "last_upload": "2021-10-13",
+   "last_name": "2021 Quarter 3"
+  },
+  "KBBV-CD": {
+   "files": 36,
+   "last_upload": "2024-10-15",
+   "last_name": "Q1 2024 ISSUES PAGE 1"
+  },
+  "KVAW": {
+   "files": 41,
+   "last_upload": "2025-01-14",
+   "last_name": "Issues and Program List Q1 2024 Jan - Mar 24"
+  },
+  "WFUP": {
+   "files": 68,
+   "last_upload": "2023-01-20",
+   "last_name": "WFQX 4TH QUARTER FCC LOGS"
+  },
+  "WBII-CD": {
+   "files": 78,
+   "last_upload": "2023-04-10",
+   "last_name": "1st Quarter 2023 Commercial Limit Certification"
+  },
+  "WUWT-CD": {
+   "files": 43,
+   "last_upload": "2015-10-17",
+   "last_name": "Q22015IssuesandPrograms"
+  },
+  "WJAN-CD": {
+   "files": 61,
+   "last_upload": "2020-09-25",
+   "last_name": "1st Quarter program report 2017"
+  },
+  "WIRS": {
+   "files": 71,
+   "last_upload": "2020-09-28",
+   "last_name": "1st Quarterly program report 2019 ACVPR"
+  },
+  "KNAK": {
+   "files": 0,
+   "last_upload": null,
+   "last_name": ""
+  },
+  "WWUP-TV": {
+   "files": 99,
+   "last_upload": "2023-01-03",
+   "last_name": "WWTV 4TH QUARTER FCC LOGS"
+  },
+  "KCVB-CD": {
+   "files": 68,
+   "last_upload": "2023-01-08",
+   "last_name": "Programs log 2022 4th qtr"
+  },
+  "WKPV": {
+   "files": 65,
+   "last_upload": "2019-10-10",
+   "last_name": "3rd Quarterly program report 2019 ACVPR"
+  },
+  "WEFS": {
+   "files": 53,
+   "last_upload": "2026-04-06",
+   "last_name": "WEFS_Quarterly_Issues_Program_List_Q1_2026"
+  },
+  "WDVZ-CD": {
+   "files": 52,
+   "last_upload": "2026-10-06",
+   "last_name": "2026 3q WDVZ-CD_IssuesPrograms"
+  },
+  "WTOT": {
+   "files": 0,
+   "last_upload": null,
+   "last_name": ""
+  }
+ },
+ "no_upload_2025": [
+  "KBBV-CD",
+  "KCVB-CD",
+  "KEPS",
+  "KICA",
+  "KMMI",
+  "KMYA-DT",
+  "KNAK",
+  "KOMI-CD",
+  "KUAU",
+  "KXGN-TV",
+  "KYUS-TV",
+  "WBII-CD",
+  "WBKP",
+  "WDVZ-CD",
+  "WEFS",
+  "WFUP",
+  "WIRS",
+  "WJAN-CD",
+  "WJPX",
+  "WJWN-TV",
+  "WKPV",
+  "WTOT",
+  "WUWT-CD",
+  "WWUP-TV"
+ ],
+ "no_upload_since_2025": [
+  "KBBV-CD",
+  "KCVB-CD",
+  "KEPS",
+  "KICA",
+  "KMMI",
+  "KNAK",
+  "KOMI-CD",
+  "KUAU",
+  "WBII-CD",
+  "WFUP",
+  "WIRS",
+  "WJAN-CD",
+  "WJPX",
+  "WJWN-TV",
+  "WKPV",
+  "WTOT",
+  "WUWT-CD",
+  "WWUP-TV"
+ ],
+ "noup_only_late": [
+  "KMYA-DT"
+ ],
+ "noup_only_on_time": [
+  "KXGN-TV",
+  "KYUS-TV"
+ ],
+ "no25_only_unreadable": [
+  "KTGM",
+  "WDBB",
+  "WSMH"
+ ],
+ "no25_only_prior_quarter": [
+  "KVAW"
+ ],
+ "no_folder": [],
+ "unreadable": {},
+ "worst_overall": [
+  [
+   490,
+   "WSEC",
+   "2025Q1"
+  ],
+  [
+   490,
+   "WQEC",
+   "2025Q1"
+  ],
+  [
+   490,
+   "WMEC",
+   "2025Q1"
+  ],
+  [
+   438,
+   "KMYA-DT",
+   "2025Q1"
+  ],
+  [
+   399,
+   "WSEC",
+   "2025Q2"
+  ],
+  [
+   399,
+   "WQEC",
+   "2025Q2"
+  ],
+  [
+   399,
+   "WMEC",
+   "2025Q2"
+  ],
+  [
+   347,
+   "KMYA-DT",
+   "2025Q2"
+  ],
+  [
+   270,
+   "KBFD-DT",
+   "2025Q1"
+  ],
+  [
+   255,
+   "WSEC",
+   "2025Q3"
+  ],
+  [
+   255,
+   "WQEC",
+   "2025Q3"
+  ],
+  [
+   255,
+   "WMEC",
+   "2025Q3"
+  ],
+  [
+   227,
+   "WJCT",
+   "2025Q1"
+  ],
+  [
+   223,
+   "KUAT-TV",
+   "2025Q1"
+  ],
+  [
+   223,
+   "KUAS-TV",
+   "2025Q1"
+  ],
+  [
+   213,
+   "WSEC",
+   "2025Q4"
+  ],
+  [
+   213,
+   "WQEC",
+   "2025Q4"
+  ],
+  [
+   213,
+   "WMEC",
+   "2025Q4"
+  ],
+  [
+   209,
+   "WMNT-CD",
+   "2025Q2"
+  ],
+  [
+   203,
+   "KMYA-DT",
+   "2025Q3"
+  ],
+  [
+   183,
+   "WNEU",
+   "2025Q2"
+  ],
+  [
+   173,
+   "WEWS-TV",
+   "2025Q1"
+  ],
+  [
+   149,
+   "WCLO-TV",
+   "2026Q1"
+  ],
+  [
+   145,
+   "WZVI",
+   "2025Q2"
+  ],
+  [
+   145,
+   "WSVI",
+   "2025Q2"
+  ],
+  [
+   145,
+   "KVAI-CD",
+   "2025Q2"
+  ],
+  [
+   139,
+   "WSJN-CD",
+   "2025Q2"
+  ],
+  [
+   139,
+   "WJDE-CD",
+   "2025Q3"
+  ],
+  [
+   139,
+   "WBNA",
+   "2025Q3"
+  ],
+  [
+   136,
+   "WJCT",
+   "2025Q2"
+  ],
+  [
+   134,
+   "WHUT-TV",
+   "2025Q2"
+  ],
+  [
+   132,
+   "KUAT-TV",
+   "2025Q2"
+  ],
+  [
+   132,
+   "KUAS-TV",
+   "2025Q2"
+  ],
+  [
+   131,
+   "WWTI",
+   "2025Q2"
+  ],
+  [
+   131,
+   "WKTD-CD",
+   "2025Q2"
+  ],
+  [
+   131,
+   "WEAC-CD",
+   "2025Q2"
+  ],
+  [
+   128,
+   "WCLO-TV",
+   "2025Q1"
+  ],
+  [
+   125,
+   "WSEC",
+   "2026Q1"
+  ],
+  [
+   125,
+   "WQEC",
+   "2026Q1"
+  ],
+  [
+   125,
+   "WMEC",
+   "2026Q1"
+  ],
+  [
+   110,
+   "KVAI-CD",
+   "2026Q1"
+  ],
+  [
+   103,
+   "WTVL-CD",
+   "2026Q1"
+  ],
+  [
+   97,
+   "WJDE-CD",
+   "2025Q4"
+  ],
+  [
+   97,
+   "WBNA",
+   "2025Q4"
+  ],
+  [
+   95,
+   "KMIR-TV",
+   "2025Q4"
+  ],
+  [
+   93,
+   "WKOP-TV",
+   "2025Q4"
+  ],
+  [
+   92,
+   "WIIQ",
+   "2025Q1"
+  ],
+  [
+   92,
+   "WHIQ",
+   "2025Q1"
+  ],
+  [
+   92,
+   "WGIQ",
+   "2025Q1"
+  ],
+  [
+   92,
+   "WFIQ",
+   "2025Q1"
+  ],
+  [
+   92,
+   "WEIQ",
+   "2025Q1"
+  ],
+  [
+   92,
+   "WDIQ",
+   "2025Q1"
+  ],
+  [
+   92,
+   "WCIQ",
+   "2025Q1"
+  ],
+  [
+   92,
+   "WBIQ",
+   "2025Q1"
+  ],
+  [
+   92,
+   "WAIQ",
+   "2025Q1"
+  ],
+  [
+   91,
+   "WWPB",
+   "2026Q1"
+  ],
+  [
+   91,
+   "WIWN",
+   "2026Q2"
+  ],
+  [
+   91,
+   "WHYY-TV",
+   "2025Q1"
+  ],
+  [
+   91,
+   "WEDQ",
+   "2026Q1"
+  ],
+  [
+   91,
+   "WDPB",
+   "2025Q1"
+  ]
+ ]
+}

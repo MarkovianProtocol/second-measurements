@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Station lookup, SM-017 — Markovian Protocol</title>
+<meta name="description" content="Type a US broadcast call sign and see the upload date of each quarterly issues/programs list in its FCC public file, against the deadline, with its licensee and owner.">
+<style>
+:root{--ink:#1d1d1f;--sub:#6e6e73;--faint:#86868b;--line:#d2d2d7;--grey:#f5f5f7;--white:#fff;--good:#1d8a4e;--pend:#b26a00;--bad:#c62828;--blue:#0066cc;--sans:Charter,"Iowan Old Style",Georgia,"Times New Roman",serif;--mono:"SF Mono","IBM Plex Mono",ui-monospace,Menlo,monospace}
+body{margin:0;background:var(--white);color:var(--ink);font:17px/1.55 var(--sans)}
+main{max-width:760px;margin:0 auto;padding:28px 16px 60px}
+.id{font:12px/1 var(--mono);letter-spacing:.08em;color:var(--sub);margin:0 0 10px}
+h1{font-size:26px;line-height:1.25;margin:0 0 10px;font-weight:600}
+p{margin:0 0 12px}.cap{font-size:14px;color:var(--sub)}
+form{display:flex;gap:8px;margin:16px 0}
+input{flex:1;font:18px var(--mono);padding:10px 12px;border:1px solid var(--line);border-radius:8px;text-transform:uppercase}
+button{font:16px var(--sans);padding:10px 16px;border:1px solid var(--ink);background:var(--ink);color:#fff;border-radius:8px;cursor:pointer}
+.card{border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin:14px 0;background:var(--grey)}
+.card h2{font-size:22px;margin:0 0 4px}.meta{color:var(--sub);font-size:15px;margin:0 0 10px}
+table{border-collapse:collapse;width:100%;font-size:15px}th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}th{font-weight:600;color:var(--sub);font-size:13px}
+.n{text-align:right;font-family:var(--mono);font-size:14px}
+.ok{color:var(--good)}.late{color:var(--pend)}.bad{color:var(--bad)}.none{color:var(--faint)}
+.sug a{display:inline-block;margin:4px 8px 0 0;font-family:var(--mono);font-size:14px;color:var(--blue)}
+a{color:var(--blue)}.foot{font-size:14px;color:var(--sub);margin-top:28px;border-top:1px solid var(--line);padding-top:12px}
+</style></head><body><main>
+<p class="id">SECOND MEASUREMENT SM-017 · STATION LOOKUP</p>
+<h1>Did your station post its quarterly list on time?</h1>
+<p class="cap">Type a US broadcast call sign (KAAA, WNBC, KRHD-CD). The card shows the earliest upload date we found for each quarter's issues/programs list in the station's FCC public file, against the deadline, plus the licensee and owner from the FCC's licensing database. Read 14 October 2026, with files our 6–10 October read saw that have since been removed added back, so each list shows the earliest date we saw; the paper and method are at <a href="../sm-017.html">sm-017.html</a>.</p>
+<form id="f"><input id="q" placeholder="call sign" autocomplete="off" autofocus><button>Look up</button></form>
+<div id="out"></div>
+<p class="foot">"Late" is an upload date after the deadline (the tenth of the month after the quarter; the next business day when the tenth is a weekend or holiday; 1 December 2025 for the shutdown quarter). "No list found" means no file in the Issues and Programs Lists folder that we could read as that quarter's list; the station may have named it in a way the script did not recognise, put it in another folder, or not have one. Translators, low-power TV and unbuilt permits keep no list and are not here. Data: <a href="lookup.json">lookup.json</a>, built by <a href="make_lookup.py">make_lookup.py</a> from the raw reads in the exhibits.</p>
+</main>
+<script>
+const QN={1:"Jan–Mar",2:"Apr–Jun",3:"Jul–Sep",4:"Oct–Dec"};let D=null;
+async function load(){if(!D){const r=await fetch("lookup.json",{cache:"force-cache"});D=await r.json();}return D;}
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+function find(d,raw){const q=raw.trim().toUpperCase().replace(/\s+/g,"");if(!q)return[];const keys=Object.keys(d.stations);
+ let hits=keys.filter(k=>k.split(":")[1]===q);if(hits.length)return hits;
+ hits=keys.filter(k=>{const c=k.split(":")[1];return c.replace(/-(TV|FM|AM|CD|CA|DT)$/,"")===q.replace(/-(TV|FM|AM|CD|CA|DT)$/,"");});if(hits.length)return hits;
+ return keys.filter(k=>k.split(":")[1].startsWith(q)).slice(0,20);}
+function card(d,k){const s=d.stations[k],cs=k.split(":")[1],svc=s.svc.toUpperCase();
+ const url=`https://publicfiles.fcc.gov/${s.svc}-profile/${cs.toLowerCase()}/issues-and-programs-lists`;
+ let rows="";const qs=Object.keys(d.quarters).sort();let late=0,none=0;
+ for(const q of qs){const dl=d.quarters[q],v=s.q[q];const lab=`${QN[q[5]]} ${q.slice(0,4)}`;
+  if(!v){none++;rows+=`<tr><td>${lab}</td><td class="n">${dl.deadline}</td><td class="n">—</td><td class="none">no list found</td></tr>`;continue;}
+  const [up,days]=v;let st;if(days<=0)st=`<span class="ok">on time${days<0?`, ${-days} d early`:""}</span>`;else{late++;st=`<span class="${days>30?"bad":"late"}">late by ${days} d</span>`;}
+  const rd=dl.rule_date!==dl.deadline?` <span class="cap">(tenth: ${dl.rule_date})</span>`:"";
+  rows+=`<tr><td>${lab}</td><td class="n">${dl.deadline}${rd}</td><td class="n">${up}</td><td>${st}</td></tr>`;}
+ return `<div class="card"><h2>${esc(cs)} <span class="cap">${svc}${s.st?" · "+esc(s.st):""}</span></h2>
+ <p class="meta">Licensee: ${esc(s.lic||"not in the FCC table")}${s.grp?` · Owner group: <b>${esc(s.grp)}</b>`:""} · <a href="${url}">public file folder</a> (${s.n} files when read)</p>
+ <table><tr><th>Quarter</th><th class="n">Deadline</th><th class="n">First upload</th><th>Result</th></tr>${rows}</table>
+ <p class="cap" style="margin:10px 0 0">${qs.length} quarters scored: ${qs.length-late-none} on time, ${late} late, ${none} with no list found.</p></div>`;}
+async function go(raw){const out=document.getElementById("out");out.innerHTML='<p class="cap">loading…</p>';const d=await load();const hits=find(d,raw);
+ if(!hits.length){out.innerHTML=`<p class="cap">No station called <b>${esc(raw.toUpperCase())}</b> in the 18,041 we read. Translators, low-power TV and permits are not included.</p>`;return;}
+ if(hits.length>3){out.innerHTML=`<p class="cap">Did you mean:</p><p class="sug">${hits.map(k=>`<a href="?s=${encodeURIComponent(k.split(":")[1])}">${esc(k.split(":")[1])} <span class="cap">${k.split(":")[0].toUpperCase()}</span></a>`).join("")}</p>`;return;}
+ out.innerHTML=hits.map(k=>card(d,k)).join("");history.replaceState(null,"",`?s=${encodeURIComponent(raw.trim().toUpperCase())}`);}
+document.getElementById("f").addEventListener("submit",e=>{e.preventDefault();go(document.getElementById("q").value);});
+document.querySelector(".sug")?.addEventListener("click",()=>{});
+document.addEventListener("click",e=>{const a=e.target.closest(".sug a");if(a){e.preventDefault();const s=new URL(a.href).searchParams.get("s");document.getElementById("q").value=s;go(s);}});
+const p=new URLSearchParams(location.search).get("s");if(p){document.getElementById("q").value=p;go(p);}
+</script></body></html>
