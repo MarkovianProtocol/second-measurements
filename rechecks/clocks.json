@@ -3,6 +3,15 @@
  "clock_days": 30,
  "rows": [
   {
+   "paper": "SM-019",
+   "page": "sm-019.html",
+   "asked": "California, Texas and Michigan education agencies, Dept. of Education, GSA, GAO",
+   "sent": "2026-10-13",
+   "reply": null,
+   "closed": null,
+   "pending": null
+  },
+  {
    "paper": "SM-001",
    "page": "sm-001.html",
    "asked": "Google, Pixel Binary Transparency",
@@ -107,12 +116,31 @@
    "closed": null
   },
   {
+   "paper": "SM-014",
+   "page": "sm-014.html",
+   "asked": "NIC.br (registro.br) and the RIPE NCC RPKI team",
+   "sent": "2026-10-12",
+   "reply": null,
+   "closed": null,
+   "pending": null,
+   "partial_reply": "2026-10-14 RIPE NCC"
+  },
+  {
    "paper": "SM-016",
    "page": "sm-016.html",
    "asked": "EPA's TRI Program",
    "sent": "2026-10-04",
    "reply": null,
    "closed": null
+  },
+  {
+   "paper": "SM-018",
+   "page": "sm-018.html",
+   "asked": "ZDI, Dell, Drupal, Arista and the CVE Program Secretariat",
+   "sent": "2026-10-12",
+   "reply": null,
+   "closed": null,
+   "pending": null
   },
   {
    "paper": "SM-017",
