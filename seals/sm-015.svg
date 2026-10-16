@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="220" viewBox="0 0 220 220" role="img" aria-label="Second Measurement seal: SM-015 fixed by Apple in 12 days">
+<title>Second Measurement · SM-015 · fixed by Apple in 12 days</title>
+<a xlink:href="https://markovianprotocol.com/measurements/sm-015.html" href="https://markovianprotocol.com/measurements/sm-015.html">
+<defs><path id="ring" d="M110,110 m-86,0 a86,86 0 1,1 172,0 a86,86 0 1,1 -172,0"/></defs>
+<circle cx="110" cy="110" r="106" fill="#fff" stroke="#1d1d1f" stroke-width="3"/>
+<circle cx="110" cy="110" r="98" fill="none" stroke="#1d1d1f" stroke-width="1"/>
+<circle cx="110" cy="110" r="70" fill="none" stroke="#d2d2d7" stroke-width="1"/>
+<text font-family="Menlo,Consolas,ui-monospace,monospace" font-size="11.5" letter-spacing="2.2" fill="#1d1d1f"><textPath xlink:href="#ring" href="#ring" startOffset="2%">SECOND MEASUREMENT · MARKOVIAN PROTOCOL · ROUND TRIP ·</textPath></text>
+<circle cx="110" cy="92" r="26" fill="#1d8a4e"/>
+<polyline points="97,92 106,101 124,82" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="110" y="137" text-anchor="middle" font-family="Charter,Georgia,serif" font-size="15" font-weight="600" fill="#1d1d1f">Fixed in 12 days</text>
+<text x="110" y="155" text-anchor="middle" font-family="Menlo,Consolas,ui-monospace,monospace" font-size="10" fill="#6e6e73">SM-015 · 2026-10-15</text>
+</a>
+<a xlink:href="https://log.markovianprotocol.com/leaf/10786" href="https://log.markovianprotocol.com/leaf/10786">
+<text text-decoration="underline" x="110" y="169" text-anchor="middle" font-family="Menlo,Consolas,ui-monospace,monospace" font-size="9" fill="#6e6e73">log leaf 10786</text>
+</a>
+</svg>

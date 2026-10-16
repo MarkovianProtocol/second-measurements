@@ -89,7 +89,8 @@
    "asked": "Hugging Face",
    "sent": "2026-10-02",
    "reply": null,
-   "closed": null
+   "closed": null,
+   "partial_reply": "2026-10-06 docs fixed by Hugging Face"
   },
   {
    "paper": "SM-011",
@@ -113,7 +114,8 @@
    "asked": "Apple's and Chrome's CT programs",
    "sent": "2026-10-03",
    "reply": null,
-   "closed": null
+   "closed": null,
+   "partial_reply": "2026-10-15 Apple fixed its list"
   },
   {
    "paper": "SM-014",

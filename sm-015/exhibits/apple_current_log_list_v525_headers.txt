@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Fri, 16 Oct 2026 14:01:01 GMT
+Last-Modified: Thu, 15 Oct 2026 20:03:09 GMT
+ETag: "d0be714e85aae9c199b7e5346b97d7b1"
+Accept-Ranges: bytes
+Content-Type: application/json
+Content-Length: 154163
+Server: AmazonS3
+Cache-Control: max-age=600, public
+Via: https/1.1 usden5-edge-lx-001.ts.apple.com (acdn/25.17695), https/1.1 usden5-edge-bx-025.ts.apple.com (acdn/23.17695)
+X-Cache: hit-stale, hit-stale
+CDNUUID: 91d96df6-b3ef-4867-8356-3b7c98855b03-138833759
+Access-Control-Allow-Origin: *
+Age: 0
+Connection: keep-alive
+
