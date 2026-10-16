@@ -1,0 +1,3 @@
+clubcards_for_the_webpki.pdf  sha256 04008f4aaa3da3f8a38d7f075e0020883c81403dce173175c78b35907ea53b73
+Not redistributed here (no license to copy it). The same bytes are served by Mozilla at
+https://research.mozilla.org/files/2025/04/clubcards_for_the_webpki.pdf (checked 2026-10-16).

@@ -27,6 +27,8 @@ Public claims about logs and datasets, recomputed by a different path than the o
 
 Earlier measurements in their own repos: [x402-second-measurement](https://github.com/MarkovianProtocol/x402-second-measurement), [ocsf-second-measurement](https://github.com/MarkovianProtocol/ocsf-second-measurement). Every finding reported to someone else and what happened next: [findings-ledger](https://github.com/MarkovianProtocol/findings-ledger).
 
+Four large raw-data files are not in this repo: SM-017's two LMS facility zips and two FM results files, and SM-019's `subaward_lag_rows.csv.gz` (106 MB, over GitHub's file limit). Their checksums are in each folder's `SHA256SUMS`; the files are on each paper's exhibits page and in the [Hugging Face copy](https://huggingface.co/datasets/MarkovianProtocol/second-measurements/tree/main/files).
+
 Python packages any script here needs are in `requirements.txt` (`pip install -r requirements.txt`); everything else is the standard library plus the tools each folder names.
 
 ## Checked, nothing found
