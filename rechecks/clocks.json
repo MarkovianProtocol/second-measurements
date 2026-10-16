@@ -136,8 +136,17 @@
   {
    "paper": "SM-018",
    "page": "sm-018.html",
-   "asked": "ZDI, Dell, Drupal, Arista and the CVE Program Secretariat",
+   "asked": "ZDI, Dell, Drupal and Arista",
    "sent": "2026-10-12",
+   "reply": null,
+   "closed": null,
+   "pending": null
+  },
+  {
+   "paper": "SM-018",
+   "page": "sm-018.html",
+   "asked": "the CVE Program Secretariat (support form, CAN-2026-2039953)",
+   "sent": "2026-10-15",
    "reply": null,
    "closed": null,
    "pending": null

@@ -14,6 +14,9 @@ REPOS = {"registro_br": "https://rpki-repo.registro.br/rrdp/notification.xml", "
 NS = {"r": "http://www.ripe.net/rpki/rrdp"}
 def get(u): return urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=600).read()
 row = {"date": datetime.datetime.utcnow().strftime("%Y-%m-%d")}
+# Where this read came from: the set of expired or non-functional CAs a reader sees depends on its location and sync
+# protocol (J. Snijders, 15 Oct 2026). Our reads below are RRDP snapshots fetched from Neo; record that with each row.
+row["vantage"] = {"host": "neo", "location": "Colorado, US, residential satellite link", "protocol": "RRDP snapshot"}   # no IP: history is public
 for name, notify in REPOS.items():
     try:
         n = ET.fromstring(get(notify)); snap = n.find("r:snapshot", NS).get("uri")
@@ -31,4 +34,17 @@ for name, notify in REPOS.items():
         row[f"{name}_manifests"] = tot; row[f"{name}_expired"] = exp; row[f"{name}_expired_7d"] = rec
     except Exception as e:
         row[f"{name}_error"] = repr(e)[:80]
+# Second path: rpki-client console's list of non-functional CAs (console.rpki-client.org/rpki.json, nonfunc_cas), with the
+# console's own build machine and time, since its vantage point differs from ours.
+try:
+    import gzip
+    raw = urllib.request.urlopen(urllib.request.Request("https://console.rpki-client.org/rpki.json", headers={**UA, "Accept-Encoding": "gzip"}), timeout=600).read()
+    c = json.loads(gzip.decompress(raw) if raw[:2] == b"\x1f\x8b" else raw); nf = c.get("nonfunc_cas") or []
+    by_ta = {}
+    for x in nf: by_ta[x.get("ta")] = by_ta.get(x.get("ta"), 0) + 1
+    md = c.get("metadata", {})
+    row["console_nonfunc"] = {"total": len(nf), "by_ta": by_ta, "registro_br": sum("registro.br" in (x.get("caRepository") or "") for x in nf),
+                              "buildmachine": md.get("buildmachine"), "buildtime": md.get("buildtime")}
+except Exception as e:
+    row["console_nonfunc_error"] = repr(e)[:80]
 print(json.dumps(row)); open(sys.argv[1] if len(sys.argv) > 1 else os.path.join(R, "history", "sm-014.jsonl"), "a").write(json.dumps(row) + "\n")
