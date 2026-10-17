@@ -1,0 +1,74 @@
+{
+ "dataset": "hao-li/AIDev-7.6M",
+ "read_at": "2026-10-17T02:59:44Z",
+ "agents": {
+  "OpenAI_Codex": {
+   "v5_prs": 3844602,
+   "first": "2025-05-16",
+   "last": "2026-03-31",
+   "github": {
+    "is:pr head:codex/": [
+     3453694,
+     false
+    ]
+   }
+  },
+  "Copilot": {
+   "v5_prs": 1581924,
+   "first": "2025-03-13",
+   "last": "2026-03-31",
+   "github": {}
+  },
+  "Claude_Code": {
+   "v5_prs": 1567100,
+   "first": "2025-02-24",
+   "last": "2026-03-31",
+   "github": {
+    "is:pr \"Co-Authored-By: Claude\" in:body": [
+     63549,
+     false
+    ],
+    "is:pr \"Generated with Claude Code\" in:body": [
+     1436769,
+     false
+    ],
+    "is:pr \"Generated with Claude Code\" OR \"Co-Authored-By: Claude\" in:body": [
+     1462636,
+     false
+    ],
+    "is:pr author:app/claude": [
+     8033,
+     false
+    ]
+   }
+  },
+  "Cursor": {
+   "v5_prs": 317453,
+   "first": "2025-01-06",
+   "last": "2026-03-31",
+   "github": {
+    "is:pr head:cursor/": [
+     291010,
+     false
+    ]
+   }
+  },
+  "Google_Jules": {
+   "v5_prs": 296411,
+   "first": "2025-03-29",
+   "last": "2026-03-31",
+   "github": {}
+  },
+  "Devin": {
+   "v5_prs": 77791,
+   "first": "2024-12-24",
+   "last": "2026-03-31",
+   "github": {
+    "is:pr author:devin-ai-integration[bot]": [
+     72053,
+     false
+    ]
+   }
+  }
+ }
+}
