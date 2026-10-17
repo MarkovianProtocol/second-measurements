@@ -1,0 +1,21 @@
+{
+ "_note": "The one place a paper's status is edited. status_sync.py writes it into index.html (short + color), track-record.html (long; the registry reads it), repo/README.md and hf/measurements.jsonl (long). Run by deploy_measurements.sh.",
+ "SM-001": {"short": "Google confirmed and fixed it", "long": "Sent 15 Sep; Google confirmed and fixed it within a week; device-fingerprint backfill done 15 Oct", "color": "good"},
+ "SM-002": {"short": "Hao Li answered 16 Oct: v5 uses the wider query", "long": "Sent 30 Sep; Hao Li answered 16 Oct: AIDev v5 uses the wider query; two other teams have since reached the same result", "color": "good"},
+ "SM-003": {"short": "One author replied; no correction yet", "long": "Sent to the authors 30 Sep; one author replied; no correction yet", "color": "pend"},
+ "SM-004": {"short": "Operator confirmed and fixed it", "long": "Sent 18 Sep; whisper.online reproduced, confirmed and fixed it the same night", "color": "good"},
+ "SM-005": {"short": "Sent 1 Oct, awaiting reply", "long": "Sent to Meta 1 Oct; no reply yet", "color": "pend"},
+ "SM-006": {"short": "Sent 1 Oct, awaiting reply", "long": "Sent to the authors 1 Oct; no reply yet", "color": "pend"},
+ "SM-007": {"short": "No reply; data posted on Docker’s roadmap issue 16 Oct", "long": "Sent to Docker 2 Oct; no reply; data posted on Docker’s roadmap issue 16 Oct", "color": "pend"},
+ "SM-008": {"short": "Sent 2 Oct, six questions open", "long": "Sent to CISA and the kernel CVE team 2 Oct; six questions open", "color": "pend"},
+ "SM-009": {"short": "Replied 5 Oct, 6 of 6", "long": "Sent 2 Oct; Mozilla replied 5 Oct, 6 of 6 answered", "color": "good"},
+ "SM-010": {"short": "Hugging Face fixed the docs 6 Oct; badge question open", "long": "Sent 2 Oct; Hugging Face fixed the docs 6 Oct; the badge question is open", "color": "good"},
+ "SM-011": {"short": "Replied 5 Oct, 4 of 4", "long": "Sent 2 Oct; Mozilla replied 5 Oct, 4 of 4 answered", "color": "good"},
+ "SM-012": {"short": "No reply; filed in Bugzilla 16 Oct", "long": "Sent to CCADB and Microsoft 3 Oct; no reply; filed in Bugzilla 16 Oct", "color": "pend"},
+ "SM-014": {"short": "RIPE NCC replied 14 Oct; NIC.br awaited", "long": "Published 12 Oct; RIPE NCC answered 14 Oct; NIC.br awaited", "color": "good"},
+ "SM-015": {"short": "Apple fixed its list 15 Oct; Chrome awaited", "long": "Sent 3 Oct; Apple fixed its list 15 Oct; Chrome asked again on ct-policy 16 Oct", "color": "good"},
+ "SM-016": {"short": "Sent 4 Oct, awaiting reply", "long": "Sent to EPA’s TRI Program 4 Oct; no reply yet", "color": "pend"},
+ "SM-017": {"short": "Sent 14 Oct, awaiting reply", "long": "Published 10 Oct, updated 14 Oct; questions sent to the FCC 14 Oct; no reply yet", "color": "pend"},
+ "SM-018": {"short": "Sent to four CNAs 12 Oct and the CVE Secretariat 15 Oct, awaiting reply", "long": "Sent to four CNAs 12 Oct and the CVE Program Secretariat 15 Oct; no reply yet", "color": "pend"},
+ "SM-019": {"short": "Sent 13 Oct to six agencies, awaiting reply", "long": "Published and corrected 13 Oct; questions sent to six agencies 13 Oct; no reply yet", "color": "pend"}
+}
