@@ -45,6 +45,16 @@ try:
     md = c.get("metadata", {})
     row["console_nonfunc"] = {"total": len(nf), "by_ta": by_ta, "registro_br": sum("registro.br" in (x.get("caRepository") or "") for x in nf),
                               "buildmachine": md.get("buildmachine"), "buildtime": md.get("buildtime")}
+    # Revocation scope, per J. Snijders (16 Oct 2026): a CA whose location starts with rpki.ripe.net is RIPE NCC's to revoke
+    # (ripe-847: after 90 days non-functional), rpki-repo.registro.br is NIC.br's (five days). "since" is the console's first
+    # sighting from its vantage point, so ages are a lower bound on how long each CA has been broken there.
+    bt = datetime.datetime.fromisoformat(md["buildtime"].replace("Z", "+00:00")).timestamp() if md.get("buildtime") else None
+    for nm, pfx, limit in (("ripe", "rpki.ripe.net", 90), ("nicbr", "rpki-repo.registro.br", 5)):
+        sc = [x for x in nf if (x.get("location") or "").startswith(pfx)]
+        ages = sorted(((bt - x["since"]) / 86400 for x in sc if bt and x.get("since")), reverse=True)
+        row.setdefault("revocation_scope", {})[nm] = {"cas": len(sc), "limit_days": limit, "over_limit": sum(a > limit for a in ages),
+                                                      "oldest_days": round(ages[0], 1) if ages else None,
+                                                      "over_limit_locations": [x["location"] for x in sc if bt and (bt - x["since"]) / 86400 > limit][:20]}
 except Exception as e:
     row["console_nonfunc_error"] = repr(e)[:80]
 print(json.dumps(row)); open(sys.argv[1] if len(sys.argv) > 1 else os.path.join(R, "history", "sm-014.jsonl"), "a").write(json.dumps(row) + "\n")
