@@ -116,5 +116,7 @@ python3 ghsa_census.py census_new.jsonl 2026-01-01 2026-10-16   # a fresh census
 <li id="r5">C. Segal, P. Segal, C. E. Banjar et al., <i>Characterizing and Modeling the GitHub Security Advisories Review Pipeline</i>, MSR 2026. <a href="https://arxiv.org/abs/2602.06009">arXiv:2602.06009</a>.</li>
 <li id="r6">NVD CVE API 2.0, <code>sourceIdentifier=security-advisories@github.com</code>; GitHub REST API, repository security advisories and global advisories; <a href="https://github.com/github/advisory-database">github/advisory-database</a> commit history.</li></ol>
 """
+if os.path.exists(OUT) and 'id="reply"' in open(OUT, encoding="utf-8").read() and "--force" not in sys.argv:
+    sys.exit(f"{OUT} is the published page with GitHub's reply and publish-day edits made by hand; this render would drop them. Edit the page, or pass --force to a different OUT.")
 open(OUT, "w").write(head + top + body + foot)
 print("wrote", OUT, len(head + top + body + foot))
