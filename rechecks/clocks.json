@@ -168,8 +168,9 @@
    "page": "sm-021.html",
    "asked": "GitHub Advisory Database",
    "sent": "2026-10-19",
-   "reply": null,
-   "closed": null
+   "reply": "2026-10-19",
+   "closed": null,
+   "partial_reply": "2026-10-19 GitHub: 72-hour wording being removed"
   }
  ]
 }

@@ -17,7 +17,7 @@ def row(r):
     sent = dt.date.fromisoformat(r["sent"]); ends = sent + dt.timedelta(days=N); left = (ends - today).days
     if r.get("reply"):
         days = (dt.date.fromisoformat(r["reply"]) - sent).days
-        return f'<tr><td class="o">{link}</td><td>{H(r["asked"])}</td><td>{sent}</td><td style="color:var(--good)">replied in {days} days</td><td>reply on the page</td></tr>'
+        return f'<tr><td class="o">{link}</td><td>{H(r["asked"])}</td><td>{sent}</td><td style="color:var(--good)">{"replied the same day" if days == 0 else f"replied in {days} day" + ("s" if days != 1 else "")}</td><td>reply on the page</td></tr>'
     if left >= 0:
         return f'<tr><td class="o">{link}</td><td>{H(r["asked"])}</td><td>{sent}</td><td style="color:var(--pend)">{left} day{"s" if left != 1 else ""} left</td><td>clock ends {ends}</td></tr>'
     return f'<tr><td class="o">{link}</td><td>{H(r["asked"])}</td><td>{sent}</td><td style="color:var(--bad)">no reply, day {-left + N}</td><td>clock ran out {ends}; next: the party who can act</td></tr>'
