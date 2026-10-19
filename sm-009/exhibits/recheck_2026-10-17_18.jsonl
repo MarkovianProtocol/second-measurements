@@ -1,0 +1,2 @@
+{"date": "2026-10-17", "snapshot": "20260902-0-default.filter", "newest_delta": "20261017-0-default.filter.delta", "filters": 91, "unexpired": 402, "revoked": 364, "good": 37, "not_covered": 1, "within24h": 99, "within24h_slip": 37, "compat_revoked": 35, "compat_good": 366}
+{"date": "2026-10-18", "snapshot": "20261017-1-default.filter", "newest_delta": "20261018-0-default.filter.delta", "filters": 2, "unexpired": 401, "revoked": 400, "good": 0, "not_covered": 1, "within24h": 99, "within24h_slip": 1, "compat_revoked": 34, "compat_good": 366}
