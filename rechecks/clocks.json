@@ -162,6 +162,14 @@
    "reply": null,
    "closed": null,
    "pending": null
+  },
+  {
+   "paper": "SM-021",
+   "page": "sm-021.html",
+   "asked": "GitHub Advisory Database",
+   "sent": "2026-10-19",
+   "reply": null,
+   "closed": null
   }
  ]
 }

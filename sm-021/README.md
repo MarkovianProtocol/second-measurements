@@ -1,6 +1,6 @@
 # SM-021 — GitHub Advisory Database review time for repository security advisories, 2026, against the documented "up to 72 hours"
 
-Paper: https://markovianprotocol.com/measurements/sm-021.html · DOI 10.5281/zenodo.23467282 (version 1, PDF only: 10.5281/zenodo.23439042) · log leaf 11364; receipt in `sm-021.receipt.json`
+Paper: https://markovianprotocol.com/measurements/sm-021.html · DOI 10.5281/zenodo.23467282 (version 1, PDF only: 10.5281/zenodo.23439042) · log leaf 11365; receipt in `sm-021.receipt.json`
 
 Scripts: `ghsa_census.py` reads every CVE GitHub issued (NVD source identifier security-advisories@github.com) that NVD published in a date range, then each advisory's repository `published_at` and the database's `github_reviewed_at`; resumable, about 24,000 GitHub API calls. `analyze.py` builds the counts, monthly table, ecosystem table, lower-bound medians and robustness check into the summary JSON. `git_check.py` samples reviewed advisories and finds when each first appears under `github-reviewed/` in github/advisory-database's git history. `make_page.py` renders the page from the summary with `page_parts/`.
 
