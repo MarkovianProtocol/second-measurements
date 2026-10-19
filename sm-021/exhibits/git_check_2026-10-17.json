@@ -1,0 +1,366 @@
+{
+ "seed": 20261017,
+ "n": 40,
+ "sample": [
+  {
+   "cve": "CVE-2026-41197",
+   "ghsa": "GHSA-jj7c-x25r-r8r3",
+   "repo_published_at": "2026-04-14T19:20:37Z",
+   "db_reviewed_at": "2026-04-21T20:16:09Z",
+   "first_reviewed_commit": "2026-04-21T20:18:36Z",
+   "commit_minus_api_min": 2.5,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-23888",
+   "ghsa": "GHSA-6pfh-p556-v868",
+   "repo_published_at": "2026-01-26T15:42:53Z",
+   "db_reviewed_at": "2026-01-26T21:02:49Z",
+   "first_reviewed_commit": "2026-01-26T21:05:21Z",
+   "commit_minus_api_min": 2.5,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-50184",
+   "ghsa": "GHSA-95qp-cmmw-mgqv",
+   "repo_published_at": "2026-05-28T17:58:40Z",
+   "db_reviewed_at": "2026-06-15T17:13:05Z",
+   "first_reviewed_commit": "2026-06-15T17:15:18Z",
+   "commit_minus_api_min": 2.2,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-33535",
+   "ghsa": "GHSA-mw3m-pqr2-qv7c",
+   "repo_published_at": "2026-03-24T20:32:26Z",
+   "db_reviewed_at": "2026-03-26T17:17:56Z",
+   "first_reviewed_commit": "2026-03-26T17:19:35Z",
+   "commit_minus_api_min": 1.6,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-54245",
+   "ghsa": "GHSA-7q96-f8xw-jv5j",
+   "repo_published_at": "2026-08-11T20:40:57Z",
+   "db_reviewed_at": "2026-08-20T18:39:42Z",
+   "first_reviewed_commit": "2026-08-20T18:43:01Z",
+   "commit_minus_api_min": 3.3,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-26311",
+   "ghsa": "GHSA-84xm-r438-86px",
+   "repo_published_at": "2026-03-10T16:05:37Z",
+   "db_reviewed_at": "2026-03-10T18:31:23Z",
+   "first_reviewed_commit": "2026-03-10T18:32:09Z",
+   "commit_minus_api_min": 0.8,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-55791",
+   "ghsa": "GHSA-c55v-343g-5xff",
+   "repo_published_at": "2026-06-16T04:53:20Z",
+   "db_reviewed_at": "2026-06-19T21:15:19Z",
+   "first_reviewed_commit": "2026-06-19T21:16:20Z",
+   "commit_minus_api_min": 1.0,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-106451",
+   "ghsa": "GHSA-mcr4-qmvw-px4g",
+   "repo_published_at": "2026-09-25T18:11:24Z",
+   "db_reviewed_at": "2026-10-07T20:35:51Z",
+   "first_reviewed_commit": "2026-10-07T20:39:59Z",
+   "commit_minus_api_min": 4.1,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-48069",
+   "ghsa": "GHSA-99f4-grh7-6pcq",
+   "repo_published_at": "2026-05-20T18:29:56Z",
+   "db_reviewed_at": "2026-06-11T13:27:44Z",
+   "first_reviewed_commit": "2026-06-11T13:28:26Z",
+   "commit_minus_api_min": 0.7,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-47703",
+   "ghsa": "GHSA-xgx4-4h9w-53pv",
+   "repo_published_at": "2026-05-19T16:26:24Z",
+   "db_reviewed_at": "2026-06-04T19:50:23Z",
+   "first_reviewed_commit": "2026-06-04T19:52:33Z",
+   "commit_minus_api_min": 2.2,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-45304",
+   "ghsa": "GHSA-4qpc-3hr4-r2p4",
+   "repo_published_at": "2026-05-20T10:21:38Z",
+   "db_reviewed_at": "2026-05-27T21:33:50Z",
+   "first_reviewed_commit": "2026-05-27T21:37:10Z",
+   "commit_minus_api_min": 3.3,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-65829",
+   "ghsa": "GHSA-7952-gx68-cjqr",
+   "repo_published_at": "2026-07-03T17:19:31Z",
+   "db_reviewed_at": "2026-09-22T20:34:27Z",
+   "first_reviewed_commit": "2026-09-22T20:50:46Z",
+   "commit_minus_api_min": 16.3,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-47128",
+   "ghsa": "GHSA-27vp-2mmc-vmh3",
+   "repo_published_at": "2026-05-17T15:34:14Z",
+   "db_reviewed_at": "2026-05-28T19:55:40Z",
+   "first_reviewed_commit": "2026-05-28T19:58:00Z",
+   "commit_minus_api_min": 2.3,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-40187",
+   "ghsa": "GHSA-8737-2x9g-xjj7",
+   "repo_published_at": "2026-07-06T05:48:03Z",
+   "db_reviewed_at": "2026-07-07T13:01:31Z",
+   "first_reviewed_commit": "2026-07-07T13:03:30Z",
+   "commit_minus_api_min": 2.0,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-45091",
+   "ghsa": "GHSA-x3r2-fj3r-g5mv",
+   "repo_published_at": "2026-05-07T13:42:32Z",
+   "db_reviewed_at": "2026-05-12T15:09:08Z",
+   "first_reviewed_commit": "2026-05-12T15:12:28Z",
+   "commit_minus_api_min": 3.3,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-69240",
+   "ghsa": "GHSA-v8fg-2rw7-q452",
+   "repo_published_at": "2026-07-29T10:14:00Z",
+   "db_reviewed_at": "2026-08-03T20:29:50Z",
+   "first_reviewed_commit": "2026-08-03T20:31:42Z",
+   "commit_minus_api_min": 1.9,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-33215",
+   "ghsa": "GHSA-fcjp-h8cc-6879",
+   "repo_published_at": "2026-03-24T20:41:16Z",
+   "db_reviewed_at": "2026-03-24T21:39:52Z",
+   "first_reviewed_commit": "2026-03-24T21:41:36Z",
+   "commit_minus_api_min": 1.7,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-57585",
+   "ghsa": "GHSA-6v7p-g79w-8964",
+   "repo_published_at": "2026-06-19T02:50:04Z",
+   "db_reviewed_at": "2026-06-19T21:42:55Z",
+   "first_reviewed_commit": "2026-06-19T21:43:51Z",
+   "commit_minus_api_min": 0.9,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-56666",
+   "ghsa": "GHSA-992q-9gwp-7r79",
+   "repo_published_at": "2026-06-22T13:22:16Z",
+   "db_reviewed_at": "2026-09-11T22:13:21Z",
+   "first_reviewed_commit": "2026-09-11T22:17:01Z",
+   "commit_minus_api_min": 3.7,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-45684",
+   "ghsa": "GHSA-vvmg-8mjr-g6q3",
+   "repo_published_at": "2026-05-12T14:13:40Z",
+   "db_reviewed_at": "2026-05-18T20:17:57Z",
+   "first_reviewed_commit": "2026-05-18T20:20:15Z",
+   "commit_minus_api_min": 2.3,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-54466",
+   "ghsa": "GHSA-xv26-6w52-cph6",
+   "repo_published_at": "2026-06-04T17:35:48Z",
+   "db_reviewed_at": "2026-07-15T22:07:24Z",
+   "first_reviewed_commit": "2026-07-15T22:09:39Z",
+   "commit_minus_api_min": 2.2,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-48037",
+   "ghsa": "GHSA-cj8g-prcm-mfg5",
+   "repo_published_at": "2026-05-20T13:20:20Z",
+   "db_reviewed_at": "2026-06-10T13:38:59Z",
+   "first_reviewed_commit": "2026-06-10T13:42:22Z",
+   "commit_minus_api_min": 3.4,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-27738",
+   "ghsa": "GHSA-xh43-g2fq-wjrj",
+   "repo_published_at": "2026-02-23T18:10:11Z",
+   "db_reviewed_at": "2026-02-25T22:41:57Z",
+   "first_reviewed_commit": "2026-02-25T22:43:51Z",
+   "commit_minus_api_min": 1.9,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-33217",
+   "ghsa": "GHSA-jxxm-27vp-c3m5",
+   "repo_published_at": "2026-03-24T20:39:35Z",
+   "db_reviewed_at": "2026-03-24T21:44:17Z",
+   "first_reviewed_commit": "2026-03-24T21:46:44Z",
+   "commit_minus_api_min": 2.5,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-46498",
+   "ghsa": "GHSA-cj8f-2fhf-826r",
+   "repo_published_at": "2026-06-25T11:47:38Z",
+   "db_reviewed_at": "2026-06-25T17:07:58Z",
+   "first_reviewed_commit": "2026-06-25T17:09:53Z",
+   "commit_minus_api_min": 1.9,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-33686",
+   "ghsa": "GHSA-9ffq-6457-8958",
+   "repo_published_at": "2026-03-23T13:17:03Z",
+   "db_reviewed_at": "2026-03-25T20:01:04Z",
+   "first_reviewed_commit": "2026-03-25T20:02:07Z",
+   "commit_minus_api_min": 1.1,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-33502",
+   "ghsa": "GHSA-3fpm-8rjr-v5mc",
+   "repo_published_at": "2026-03-20T18:13:19Z",
+   "db_reviewed_at": "2026-03-20T20:57:56Z",
+   "first_reviewed_commit": "2026-03-20T20:58:49Z",
+   "commit_minus_api_min": 0.9,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-32271",
+   "ghsa": "GHSA-875v-7m49-8x88",
+   "repo_published_at": "2026-04-13T19:40:53Z",
+   "db_reviewed_at": "2026-04-14T00:07:34Z",
+   "first_reviewed_commit": "2026-04-14T00:10:45Z",
+   "commit_minus_api_min": 3.2,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-41070",
+   "ghsa": "GHSA-246w-jgmq-88fg",
+   "repo_published_at": "2026-04-17T23:11:15Z",
+   "db_reviewed_at": "2026-04-22T14:28:11Z",
+   "first_reviewed_commit": "2026-04-22T14:30:09Z",
+   "commit_minus_api_min": 2.0,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-44791",
+   "ghsa": "GHSA-wrwr-h859-xh2r",
+   "repo_published_at": "2026-05-13T08:37:41Z",
+   "db_reviewed_at": "2026-05-14T16:17:49Z",
+   "first_reviewed_commit": "2026-05-14T16:18:29Z",
+   "commit_minus_api_min": 0.7,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-53493",
+   "ghsa": "GHSA-pg57-6jwg-q645",
+   "repo_published_at": "2026-09-24T23:44:51Z",
+   "db_reviewed_at": "2026-09-25T19:27:59Z",
+   "first_reviewed_commit": "2026-09-25T19:32:50Z",
+   "commit_minus_api_min": 4.8,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-64644",
+   "ghsa": "GHSA-q8wf-6r8g-63ch",
+   "repo_published_at": "2026-07-21T16:02:56Z",
+   "db_reviewed_at": "2026-07-22T23:02:05Z",
+   "first_reviewed_commit": "2026-07-22T23:03:46Z",
+   "commit_minus_api_min": 1.7,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-30943",
+   "ghsa": "GHSA-j6jp-78w8-34x6",
+   "repo_published_at": "2026-03-13T15:57:28Z",
+   "db_reviewed_at": "2026-03-13T18:56:32Z",
+   "first_reviewed_commit": "2026-03-13T18:57:44Z",
+   "commit_minus_api_min": 1.2,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-46619",
+   "ghsa": "GHSA-xq73-fvmr-jvmm",
+   "repo_published_at": "2026-06-26T06:48:58Z",
+   "db_reviewed_at": "2026-06-26T17:32:18Z",
+   "first_reviewed_commit": "2026-06-26T17:34:20Z",
+   "commit_minus_api_min": 2.0,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2025-69197",
+   "ghsa": "GHSA-rgmp-4873-r683",
+   "repo_published_at": "2026-01-06T00:06:22Z",
+   "db_reviewed_at": "2026-01-06T17:20:57Z",
+   "first_reviewed_commit": "2026-01-06T17:24:56Z",
+   "commit_minus_api_min": 4.0,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-42875",
+   "ghsa": "GHSA-wv26-88m5-6h59",
+   "repo_published_at": "2026-04-24T19:26:55Z",
+   "db_reviewed_at": "2026-05-05T18:37:12Z",
+   "first_reviewed_commit": "2026-05-05T18:38:41Z",
+   "commit_minus_api_min": 1.5,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-29785",
+   "ghsa": "GHSA-52jh-2xxh-pwh6",
+   "repo_published_at": "2026-03-24T20:48:45Z",
+   "db_reviewed_at": "2026-03-24T21:29:06Z",
+   "first_reviewed_commit": "2026-03-24T21:30:56Z",
+   "commit_minus_api_min": 1.8,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-106557",
+   "ghsa": "GHSA-f7v3-xhm6-w245",
+   "repo_published_at": "2026-08-28T14:39:29Z",
+   "db_reviewed_at": "2026-10-07T16:22:58Z",
+   "first_reviewed_commit": "2026-10-07T16:26:43Z",
+   "commit_minus_api_min": 3.8,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-22701",
+   "ghsa": "GHSA-qmgc-5h2g-mvrw",
+   "repo_published_at": "2026-01-09T21:31:00Z",
+   "db_reviewed_at": "2026-01-13T18:44:55Z",
+   "first_reviewed_commit": "2026-01-13T18:46:12Z",
+   "commit_minus_api_min": 1.3,
+   "unreviewed_commits_before": 0
+  },
+  {
+   "cve": "CVE-2026-27621",
+   "ghsa": "GHSA-xfvg-8v67-j7wp",
+   "repo_published_at": "2026-02-21T22:21:45Z",
+   "db_reviewed_at": "2026-02-25T16:06:59Z",
+   "first_reviewed_commit": "2026-02-25T16:09:48Z",
+   "commit_minus_api_min": 2.8,
+   "unreviewed_commits_before": 0
+  }
+ ]
+}

@@ -1,0 +1,600 @@
+{
+ "source": "census_2026-10-17.jsonl",
+ "read_start": "2026-10-17T11:55:00Z",
+ "census_rows": 11848,
+ "rows_counted": 7076,
+ "excluded": {
+  "no supported ecosystem in the project's labels": 4587,
+  "advisory published before 2026": 14,
+  "no GHSA reference in NVD": 143,
+  "no repository published_at": 27
+ },
+ "negative_wait_excluded": [
+  {
+   "cve": "CVE-2026-28292",
+   "ghsa": "GHSA-r275-fr43-pm7q",
+   "repo": "steveukx/git-js",
+   "published": "2026-04-12T15:13:55+00:00",
+   "reviewed": "2026-03-10T18:38:56+00:00"
+  }
+ ],
+ "year": {
+  "advisories": 7076,
+  "reviewed": 5986,
+  "reviewed_within_72h": 2691,
+  "reviewed_over_72h": 3295,
+  "reviewed_over_72h_pct": 55.0,
+  "median_wait_h": 97.3,
+  "p90_wait_h": 1233.3,
+  "max_wait_h": 4267.5,
+  "not_in_database": 1090,
+  "not_in_database_min_age_d": 3.9,
+  "median_wait_lower_bound_h": 162.35,
+  "median_repo_to_nvd_d": 11.4,
+  "reviewed_before_nvd": 4100
+ },
+ "jan_mar": {
+  "advisories": 1758,
+  "reviewed": 1514,
+  "reviewed_within_72h": 1445,
+  "reviewed_over_72h": 69,
+  "reviewed_over_72h_pct": 4.6,
+  "median_wait_h": 19.9,
+  "p90_wait_h": 59.4,
+  "max_wait_h": 4267.5,
+  "not_in_database": 244,
+  "not_in_database_min_age_d": 199.7,
+  "median_wait_lower_bound_h": 23.76,
+  "median_repo_to_nvd_d": 1.1,
+  "reviewed_before_nvd": 1054
+ },
+ "apr_on": {
+  "advisories": 5318,
+  "reviewed": 4472,
+  "reviewed_within_72h": 1246,
+  "reviewed_over_72h": 3226,
+  "reviewed_over_72h_pct": 72.1,
+  "median_wait_h": 196.58,
+  "p90_wait_h": 1469.7,
+  "max_wait_h": 2851.2,
+  "not_in_database": 846,
+  "not_in_database_min_age_d": 3.9,
+  "median_wait_lower_bound_h": 336.4,
+  "median_repo_to_nvd_d": 18.7,
+  "reviewed_before_nvd": 3046
+ },
+ "months": {
+  "2026-01": {
+   "advisories": 311,
+   "reviewed": 274,
+   "reviewed_within_72h": 262,
+   "reviewed_over_72h": 12,
+   "reviewed_over_72h_pct": 4.4,
+   "median_wait_h": 11.14,
+   "p90_wait_h": 49.5,
+   "max_wait_h": 1995.5,
+   "not_in_database": 37,
+   "not_in_database_min_age_d": 259.0,
+   "median_wait_lower_bound_h": 13.77,
+   "median_repo_to_nvd_d": 0.5,
+   "reviewed_before_nvd": 164
+  },
+  "2026-02": {
+   "advisories": 438,
+   "reviewed": 381,
+   "reviewed_within_72h": 363,
+   "reviewed_over_72h": 18,
+   "reviewed_over_72h_pct": 4.7,
+   "median_wait_h": 15.03,
+   "p90_wait_h": 60.8,
+   "max_wait_h": 3438.0,
+   "not_in_database": 57,
+   "not_in_database_min_age_d": 231.2,
+   "median_wait_lower_bound_h": 19.47,
+   "median_repo_to_nvd_d": 1.0,
+   "reviewed_before_nvd": 254
+  },
+  "2026-03": {
+   "advisories": 1009,
+   "reviewed": 859,
+   "reviewed_within_72h": 820,
+   "reviewed_over_72h": 39,
+   "reviewed_over_72h_pct": 4.5,
+   "median_wait_h": 23.85,
+   "p90_wait_h": 61.2,
+   "max_wait_h": 4267.5,
+   "not_in_database": 150,
+   "not_in_database_min_age_d": 199.7,
+   "median_wait_lower_bound_h": 29.51,
+   "median_repo_to_nvd_d": 1.8,
+   "reviewed_before_nvd": 636
+  },
+  "2026-04": {
+   "advisories": 1022,
+   "reviewed": 856,
+   "reviewed_within_72h": 547,
+   "reviewed_over_72h": 309,
+   "reviewed_over_72h_pct": 36.1,
+   "median_wait_h": 34.24,
+   "p90_wait_h": 206.0,
+   "max_wait_h": 2228.4,
+   "not_in_database": 166,
+   "not_in_database_min_age_d": 170.0,
+   "median_wait_lower_bound_h": 52.55,
+   "median_repo_to_nvd_d": 4.6,
+   "reviewed_before_nvd": 655
+  },
+  "2026-05": {
+   "advisories": 1202,
+   "reviewed": 1051,
+   "reviewed_within_72h": 246,
+   "reviewed_over_72h": 805,
+   "reviewed_over_72h_pct": 76.6,
+   "median_wait_h": 141.33,
+   "p90_wait_h": 810.7,
+   "max_wait_h": 2851.2,
+   "not_in_database": 151,
+   "not_in_database_min_age_d": 138.7,
+   "median_wait_lower_bound_h": 158.56,
+   "median_repo_to_nvd_d": 24.4,
+   "reviewed_before_nvd": 918
+  },
+  "2026-06": {
+   "advisories": 1357,
+   "reviewed": 1155,
+   "reviewed_within_72h": 274,
+   "reviewed_over_72h": 881,
+   "reviewed_over_72h_pct": 76.3,
+   "median_wait_h": 560.23,
+   "p90_wait_h": 1753.8,
+   "max_wait_h": 2736.3,
+   "not_in_database": 202,
+   "not_in_database_min_age_d": 108.7,
+   "median_wait_lower_bound_h": 867.54,
+   "median_repo_to_nvd_d": 34.0,
+   "reviewed_before_nvd": 899
+  },
+  "2026-07": {
+   "advisories": 912,
+   "reviewed": 704,
+   "reviewed_within_72h": 111,
+   "reviewed_over_72h": 593,
+   "reviewed_over_72h_pct": 84.2,
+   "median_wait_h": 734.98,
+   "p90_wait_h": 1782.8,
+   "max_wait_h": 2370.8,
+   "not_in_database": 208,
+   "not_in_database_min_age_d": 78.1,
+   "median_wait_lower_bound_h": 1212.71,
+   "median_repo_to_nvd_d": 27.5,
+   "reviewed_before_nvd": 382
+  },
+  "2026-08": {
+   "advisories": 435,
+   "reviewed": 351,
+   "reviewed_within_72h": 42,
+   "reviewed_over_72h": 309,
+   "reviewed_over_72h_pct": 88.0,
+   "median_wait_h": 659.59,
+   "p90_wait_h": 1334.3,
+   "max_wait_h": 1784.9,
+   "not_in_database": 84,
+   "not_in_database_min_age_d": 47.4,
+   "median_wait_lower_bound_h": 912.43,
+   "median_repo_to_nvd_d": 20.2,
+   "reviewed_before_nvd": 110
+  },
+  "2026-09": {
+   "advisories": 351,
+   "reviewed": 318,
+   "reviewed_within_72h": 15,
+   "reviewed_over_72h": 303,
+   "reviewed_over_72h_pct": 95.3,
+   "median_wait_h": 342.51,
+   "p90_wait_h": 651.5,
+   "max_wait_h": 1055.5,
+   "not_in_database": 33,
+   "not_in_database_min_age_d": 16.6,
+   "median_wait_lower_bound_h": 363.08,
+   "median_repo_to_nvd_d": 13.8,
+   "reviewed_before_nvd": 64
+  },
+  "2026-10": {
+   "advisories": 39,
+   "reviewed": 37,
+   "reviewed_within_72h": 11,
+   "reviewed_over_72h": 26,
+   "reviewed_over_72h_pct": 70.3,
+   "median_wait_h": 137.49,
+   "p90_wait_h": 152.8,
+   "max_wait_h": 196.3,
+   "not_in_database": 2,
+   "not_in_database_min_age_d": 3.9,
+   "median_wait_lower_bound_h": 137.49,
+   "median_repo_to_nvd_d": 4.3,
+   "reviewed_before_nvd": 18
+  }
+ },
+ "ecosystems": {
+  "actions": {
+   "advisories": 71,
+   "reviewed": 14,
+   "reviewed_within_72h": 9,
+   "reviewed_over_72h": 5,
+   "reviewed_over_72h_pct": 35.7,
+   "median_wait_h": 43.01,
+   "p90_wait_h": 505.6,
+   "max_wait_h": 1627.2,
+   "not_in_database": 57,
+   "not_in_database_min_age_d": 64.4,
+   "median_wait_lower_bound_h": 3115.37,
+   "median_repo_to_nvd_d": 23.0,
+   "reviewed_before_nvd": 12
+  },
+  "composer": {
+   "advisories": 1127,
+   "reviewed": 807,
+   "reviewed_within_72h": 405,
+   "reviewed_over_72h": 402,
+   "reviewed_over_72h_pct": 49.8,
+   "median_wait_h": 71.21,
+   "p90_wait_h": 1060.2,
+   "max_wait_h": 2405.3,
+   "not_in_database": 320,
+   "not_in_database_min_age_d": 18.9,
+   "median_wait_lower_bound_h": 321.09,
+   "median_repo_to_nvd_d": 8.0,
+   "reviewed_before_nvd": 599
+  },
+  "erlang": {
+   "advisories": 13,
+   "reviewed": 9,
+   "reviewed_within_72h": 5,
+   "reviewed_over_72h": 4,
+   "reviewed_over_72h_pct": 44.4,
+   "median_wait_h": 52.48,
+   "p90_wait_h": 989.4,
+   "max_wait_h": 989.4,
+   "not_in_database": 4,
+   "not_in_database_min_age_d": 85.5,
+   "median_wait_lower_bound_h": 783.44,
+   "median_repo_to_nvd_d": 24.7,
+   "reviewed_before_nvd": 8
+  },
+  "go": {
+   "advisories": 1311,
+   "reviewed": 1222,
+   "reviewed_within_72h": 559,
+   "reviewed_over_72h": 663,
+   "reviewed_over_72h_pct": 54.3,
+   "median_wait_h": 91.25,
+   "p90_wait_h": 1406.4,
+   "max_wait_h": 4267.5,
+   "not_in_database": 89,
+   "not_in_database_min_age_d": 24.7,
+   "median_wait_lower_bound_h": 110.52,
+   "median_repo_to_nvd_d": 9.9,
+   "reviewed_before_nvd": 863
+  },
+  "maven": {
+   "advisories": 463,
+   "reviewed": 348,
+   "reviewed_within_72h": 122,
+   "reviewed_over_72h": 226,
+   "reviewed_over_72h_pct": 64.9,
+   "median_wait_h": 174.82,
+   "p90_wait_h": 1495.8,
+   "max_wait_h": 2214.3,
+   "not_in_database": 115,
+   "not_in_database_min_age_d": 15.2,
+   "median_wait_lower_bound_h": 525.73,
+   "median_repo_to_nvd_d": 19.6,
+   "reviewed_before_nvd": 253
+  },
+  "npm": {
+   "advisories": 2060,
+   "reviewed": 1826,
+   "reviewed_within_72h": 837,
+   "reviewed_over_72h": 989,
+   "reviewed_over_72h_pct": 54.2,
+   "median_wait_h": 98.87,
+   "p90_wait_h": 1007.2,
+   "max_wait_h": 3358.9,
+   "not_in_database": 234,
+   "not_in_database_min_age_d": 16.8,
+   "median_wait_lower_bound_h": 138.94,
+   "median_repo_to_nvd_d": 10.1,
+   "reviewed_before_nvd": 1184
+  },
+  "nuget": {
+   "advisories": 131,
+   "reviewed": 123,
+   "reviewed_within_72h": 36,
+   "reviewed_over_72h": 87,
+   "reviewed_over_72h_pct": 70.7,
+   "median_wait_h": 196.29,
+   "p90_wait_h": 934.0,
+   "max_wait_h": 1947.3,
+   "not_in_database": 8,
+   "not_in_database_min_age_d": 135.1,
+   "median_wait_lower_bound_h": 378.66,
+   "median_repo_to_nvd_d": 15.7,
+   "reviewed_before_nvd": 53
+  },
+  "pip": {
+   "advisories": 1523,
+   "reviewed": 1332,
+   "reviewed_within_72h": 539,
+   "reviewed_over_72h": 793,
+   "reviewed_over_72h_pct": 59.5,
+   "median_wait_h": 138.09,
+   "p90_wait_h": 1522.6,
+   "max_wait_h": 3438.0,
+   "not_in_database": 191,
+   "not_in_database_min_age_d": 3.9,
+   "median_wait_lower_bound_h": 193.23,
+   "median_repo_to_nvd_d": 12.5,
+   "reviewed_before_nvd": 893
+  },
+  "pub": {
+   "advisories": 2,
+   "reviewed": 2,
+   "reviewed_within_72h": 1,
+   "reviewed_over_72h": 1,
+   "reviewed_over_72h_pct": 50.0,
+   "median_wait_h": 739.7,
+   "p90_wait_h": 1469.7,
+   "max_wait_h": 1469.7,
+   "not_in_database": 0,
+   "not_in_database_min_age_d": null,
+   "median_wait_lower_bound_h": 739.7,
+   "median_repo_to_nvd_d": 29.6,
+   "reviewed_before_nvd": 0
+  },
+  "rubygems": {
+   "advisories": 172,
+   "reviewed": 159,
+   "reviewed_within_72h": 90,
+   "reviewed_over_72h": 69,
+   "reviewed_over_72h_pct": 43.4,
+   "median_wait_h": 39.45,
+   "p90_wait_h": 988.9,
+   "max_wait_h": 1947.3,
+   "not_in_database": 13,
+   "not_in_database_min_age_d": 55.4,
+   "median_wait_lower_bound_h": 68.36,
+   "median_repo_to_nvd_d": 14.4,
+   "reviewed_before_nvd": 125
+  },
+  "rust": {
+   "advisories": 252,
+   "reviewed": 197,
+   "reviewed_within_72h": 95,
+   "reviewed_over_72h": 102,
+   "reviewed_over_72h_pct": 51.8,
+   "median_wait_h": 73.23,
+   "p90_wait_h": 998.6,
+   "max_wait_h": 2736.3,
+   "not_in_database": 55,
+   "not_in_database_min_age_d": 41.8,
+   "median_wait_lower_bound_h": 156.65,
+   "median_repo_to_nvd_d": 14.0,
+   "reviewed_before_nvd": 139
+  },
+  "swift": {
+   "advisories": 13,
+   "reviewed": 9,
+   "reviewed_within_72h": 4,
+   "reviewed_over_72h": 5,
+   "reviewed_over_72h_pct": 55.6,
+   "median_wait_h": 255.96,
+   "p90_wait_h": 1732.6,
+   "max_wait_h": 1732.6,
+   "not_in_database": 4,
+   "not_in_database_min_age_d": 179.9,
+   "median_wait_lower_bound_h": 839.93,
+   "median_repo_to_nvd_d": 4.1,
+   "reviewed_before_nvd": 5
+  }
+ },
+ "robustness_with_db_labels": {
+  "jan_mar": {
+   "advisories": 2034,
+   "reviewed": 1790,
+   "reviewed_within_72h": 1699,
+   "reviewed_over_72h": 91,
+   "reviewed_over_72h_pct": 5.1,
+   "median_wait_h": 19.79,
+   "p90_wait_h": 61.3,
+   "max_wait_h": 4267.5,
+   "not_in_database": 244,
+   "not_in_database_min_age_d": 199.7,
+   "median_wait_lower_bound_h": 23.32,
+   "median_repo_to_nvd_d": 1.1,
+   "reviewed_before_nvd": 1195
+  },
+  "apr_on": {
+   "advisories": 5808,
+   "reviewed": 4962,
+   "reviewed_within_72h": 1399,
+   "reviewed_over_72h": 3563,
+   "reviewed_over_72h_pct": 71.8,
+   "median_wait_h": 197.25,
+   "p90_wait_h": 1502.8,
+   "max_wait_h": 3048.9,
+   "not_in_database": 846,
+   "not_in_database_min_age_d": 3.9,
+   "median_wait_lower_bound_h": 326.21,
+   "median_repo_to_nvd_d": 18.7,
+   "reviewed_before_nvd": 3370
+  },
+  "added_rows": 766
+ },
+ "longest_reviewed": [
+  {
+   "cve": "CVE-2026-61630",
+   "ghsa": "GHSA-hf33-q6cf-c66f",
+   "repo": "lucasdillmann/nginx-ignition",
+   "eco": [
+    "go"
+   ],
+   "published": "2026-03-28T02:15:02+00:00",
+   "reviewed": "2026-09-21T21:47:40+00:00",
+   "wait_d": 177.81
+  },
+  {
+   "cve": "CVE-2026-28231",
+   "ghsa": "GHSA-5gjj-6r7v-ph3x",
+   "repo": "bigcat88/pillow_heif",
+   "eco": [
+    "pip"
+   ],
+   "published": "2026-02-27T13:07:20+00:00",
+   "reviewed": "2026-07-20T19:08:04+00:00",
+   "wait_d": 143.25
+  },
+  {
+   "cve": "CVE-2026-26193",
+   "ghsa": "GHSA-vjm7-m4xh-7wrc",
+   "repo": "open-webui/open-webui",
+   "eco": [
+    "npm"
+   ],
+   "published": "2026-02-17T17:56:06+00:00",
+   "reviewed": "2026-07-07T16:51:22+00:00",
+   "wait_d": 139.96
+  },
+  {
+   "cve": "CVE-2026-26192",
+   "ghsa": "GHSA-xc8p-9rr6-97r2",
+   "repo": "open-webui/open-webui",
+   "eco": [
+    "npm"
+   ],
+   "published": "2026-02-17T17:56:17+00:00",
+   "reviewed": "2026-07-07T16:51:13+00:00",
+   "wait_d": 139.95
+  },
+  {
+   "cve": "CVE-2026-61629",
+   "ghsa": "GHSA-jr34-h97m-9hpx",
+   "repo": "lucasdillmann/nginx-ignition",
+   "eco": [
+    "go"
+   ],
+   "published": "2026-05-26T02:35:53+00:00",
+   "reviewed": "2026-09-21T21:49:03+00:00",
+   "wait_d": 118.8
+  },
+  {
+   "cve": "CVE-2026-58494",
+   "ghsa": "GHSA-4ch3-9j33-3pmj",
+   "repo": "bytecodealliance/wasmtime",
+   "eco": [
+    "rust"
+   ],
+   "published": "2026-06-24T19:40:02+00:00",
+   "reviewed": "2026-10-16T19:57:26+00:00",
+   "wait_d": 114.01
+  },
+  {
+   "cve": "CVE-2026-34760",
+   "ghsa": "GHSA-6c4r-fmh3-7rh8",
+   "repo": "vllm-project/vllm",
+   "eco": [
+    "pip"
+   ],
+   "published": "2026-03-30T20:26:30+00:00",
+   "reviewed": "2026-07-17T16:52:53+00:00",
+   "wait_d": 108.85
+  },
+  {
+   "cve": "CVE-2026-62322",
+   "ghsa": "GHSA-526j-582w-7fm9",
+   "repo": "python-social-auth/social-core",
+   "eco": [
+    "pip"
+   ],
+   "published": "2026-06-30T07:25:24+00:00",
+   "reviewed": "2026-10-15T20:09:11+00:00",
+   "wait_d": 107.53
+  },
+  {
+   "cve": "CVE-2026-59180",
+   "ghsa": "GHSA-856c-92hv-3vxx",
+   "repo": "caronc/apprise",
+   "eco": [
+    "pip"
+   ],
+   "published": "2026-06-29T20:38:39+00:00",
+   "reviewed": "2026-10-14T18:38:05+00:00",
+   "wait_d": 106.92
+  },
+  {
+   "cve": "CVE-2026-61801",
+   "ghsa": "GHSA-mjcv-p78q-w5fw",
+   "repo": "moby/sys",
+   "eco": [
+    "go"
+   ],
+   "published": "2026-06-25T19:12:48+00:00",
+   "reviewed": "2026-10-08T16:08:33+00:00",
+   "wait_d": 104.87
+  },
+  {
+   "cve": "CVE-2026-62176",
+   "ghsa": "GHSA-g6j7-pffp-8whg",
+   "repo": "MervinPraison/PraisonAI",
+   "eco": [
+    "pip"
+   ],
+   "published": "2026-06-25T08:59:55+00:00",
+   "reviewed": "2026-10-07T16:05:53+00:00",
+   "wait_d": 104.3
+  },
+  {
+   "cve": "CVE-2026-62251",
+   "ghsa": "GHSA-f46q-3v67-fmm4",
+   "repo": "sipcapture/homer",
+   "eco": [
+    "go"
+   ],
+   "published": "2026-06-25T09:48:08+00:00",
+   "reviewed": "2026-10-07T16:13:08+00:00",
+   "wait_d": 104.27
+  },
+  {
+   "cve": "CVE-2026-62252",
+   "ghsa": "GHSA-6xp5-7rcx-xfgx",
+   "repo": "sipcapture/homer",
+   "eco": [
+    "go"
+   ],
+   "published": "2026-06-25T09:49:21+00:00",
+   "reviewed": "2026-10-07T16:12:02+00:00",
+   "wait_d": 104.27
+  },
+  {
+   "cve": "CVE-2026-62253",
+   "ghsa": "GHSA-rqcc-94gv-wjm9",
+   "repo": "sipcapture/homer",
+   "eco": [
+    "go"
+   ],
+   "published": "2026-06-25T09:49:32+00:00",
+   "reviewed": "2026-10-07T16:11:58+00:00",
+   "wait_d": 104.27
+  },
+  {
+   "cve": "CVE-2026-62179",
+   "ghsa": "GHSA-mxmx-rh57-jx58",
+   "repo": "MervinPraison/PraisonAI",
+   "eco": [
+    "pip"
+   ],
+   "published": "2026-06-25T09:00:20+00:00",
+   "reviewed": "2026-10-07T14:28:56+00:00",
+   "wait_d": 104.23
+  }
+ ]
+}
