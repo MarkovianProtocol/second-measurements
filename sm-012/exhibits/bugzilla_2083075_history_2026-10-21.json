@@ -1,0 +1,1 @@
+{"bugs":[{"id":2083075,"history":[{"when":"2026-10-21T16:40:54Z","who":"incident-reporting@ccadb.org","changes":[{"field_name":"cc","added":"incident-reporting@ccadb.org","removed":""},{"added":"needinfo?(incident-reporting@ccadb.org)","removed":"","field_name":"flagtypes.name"}]}],"alias":null}]}
