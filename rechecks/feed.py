@@ -21,6 +21,9 @@ first_run = not state["items"]
 for sid, v in sorted(S.items()):
     sha = hashlib.sha256(v["long"].encode()).hexdigest()[:16]
     if (sid, sha) in seen: continue
+    last = [i for i in state["items"] if i["paper"] == sid]
+    if last and last[-1]["title"] == f"{sid}: {v['short']}":   # only the long text changed: refresh that item, no new one
+        last[-1].update(status_sha=sha, status=v["long"]); continue
     when = now
     if first_run and sid in pub: when = dt.datetime.fromisoformat(pub[sid] + "T12:00:00+00:00")
     r = reg.get(sid, {})
