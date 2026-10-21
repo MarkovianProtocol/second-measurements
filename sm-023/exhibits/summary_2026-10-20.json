@@ -1,0 +1,388 @@
+{
+ "read_at": "2026-10-20T19:07:10.176199+00:00",
+ "total_critical": 70,
+ "standard_releases": [
+  "jammy",
+  "noble",
+  "resolute",
+  "stonking"
+ ],
+ "pro_releases": [
+  "bionic",
+  "focal",
+  "jammy",
+  "noble",
+  "resolute",
+  "stonking"
+ ],
+ "legacy_releases": [
+  "trusty",
+  "xenial"
+ ],
+ "known_minus_published": {
+  "median_d": 0.92,
+  "over_7d": 2,
+  "before_publish": 4
+ },
+ "all": {
+  "n": 70,
+  "fixed": 58,
+  "fixed_before_start": 31,
+  "measured": 27,
+  "within_1d": 2,
+  "within_7d": 3,
+  "median_d": 15.4,
+  "mean_d": 17.4,
+  "max_d": 37.3
+ },
+ "kernel": {
+  "n": 61,
+  "fixed": 51,
+  "fixed_before_start": 25,
+  "measured": 26,
+  "within_1d": 1,
+  "within_7d": 2,
+  "median_d": 15.9,
+  "mean_d": 18.1,
+  "max_d": 37.3
+ },
+ "cvss_rated": {
+  "n": 57,
+  "fixed": 47,
+  "fixed_before_start": 23,
+  "measured": 24,
+  "within_1d": 0,
+  "within_7d": 0,
+  "median_d": 16.5,
+  "mean_d": 19.5,
+  "max_d": 37.3
+ },
+ "hand_rated": {
+  "n": 13,
+  "fixed": 11,
+  "fixed_before_start": 8,
+  "measured": 3,
+  "within_1d": 2,
+  "within_7d": 3,
+  "median_d": 0.1,
+  "mean_d": 0.6,
+  "max_d": 1.9
+ },
+ "y2026": {
+  "n": 42,
+  "fixed": 32,
+  "fixed_before_start": 8,
+  "measured": 24,
+  "within_1d": 0,
+  "within_7d": 0,
+  "median_d": 16.5,
+  "mean_d": 19.5,
+  "max_d": 37.3
+ },
+ "cvss_rated_from_publication": {
+  "n": 57,
+  "fixed": 47,
+  "fixed_before_start": 7,
+  "measured": 40,
+  "within_1d": 0,
+  "within_7d": 0,
+  "median_d": 47.3,
+  "mean_d": 56.9,
+  "max_d": 311.6
+ },
+ "cvss_rated_from_known": {
+  "n": 57,
+  "fixed": 47,
+  "fixed_before_start": 8,
+  "measured": 39,
+  "within_1d": 0,
+  "within_7d": 0,
+  "median_d": 45.2,
+  "mean_d": 48.9,
+  "max_d": 114.1
+ },
+ "cvss_rated_author_date": {
+  "timed": 24,
+  "within_1d": 0,
+  "within_7d": 0,
+  "median_d": 19.1
+ },
+ "cvss_never_affected": [
+  "CVE-2026-43208"
+ ],
+ "cvss_rated_alt_release_ships": {
+  "timed": 24,
+  "within_1d": 0,
+  "within_7d": 0,
+  "median_d": 16.5
+ },
+ "cvss_first_priority": {
+  "medium": 57
+ },
+ "cvss_raised_by_month": {
+  "2026-06": 17,
+  "2026-07": 12,
+  "2026-08": 9,
+  "2026-09": 3,
+  "2026-10": 16
+ },
+ "cvss_first_raise": "2026-06-09",
+ "hand_first_priority": {
+  "critical": 11,
+  "high": 1,
+  "medium": 1
+ },
+ "cvss_rated_kernel": 57,
+ "cvss_first_published": "2019-11-14",
+ "cvss_since_2025": 52,
+ "fixed_kernel": 51,
+ "fixed_kernel_still_open_pro": {
+  "n": 14,
+  "by_release": {
+   "bionic": 6,
+   "focal": 7,
+   "jammy": 7,
+   "noble": 3,
+   "resolute": 0,
+   "stonking": 0
+  }
+ },
+ "fixed_kernel_still_open_legacy": {
+  "n": 6,
+  "by_release": {
+   "trusty": 6,
+   "xenial": 6
+  }
+ },
+ "no_fix": 12,
+ "no_fix_released_undated": [],
+ "no_fix_open_pro": 9,
+ "no_fix_open_pro_list": [
+  {
+   "cve": "CVE-2023-53867",
+   "lts_not_affected_with_version": [
+    "noble",
+    "resolute"
+   ],
+   "critical_at": "2026-10-16T10:02:52Z"
+  },
+  {
+   "cve": "CVE-2026-89530",
+   "lts_not_affected_with_version": [
+    "bionic"
+   ],
+   "critical_at": "2026-10-18T17:02:28Z"
+  },
+  {
+   "cve": "CVE-2026-89652",
+   "lts_not_affected_with_version": [],
+   "critical_at": "2026-10-18T17:02:40Z"
+  },
+  {
+   "cve": "CVE-2026-89659",
+   "lts_not_affected_with_version": [],
+   "critical_at": "2026-10-18T17:02:42Z"
+  },
+  {
+   "cve": "CVE-2026-89708",
+   "lts_not_affected_with_version": [],
+   "critical_at": "2026-10-18T17:02:42Z"
+  },
+  {
+   "cve": "CVE-2026-90037",
+   "lts_not_affected_with_version": [],
+   "critical_at": "2026-10-18T17:03:04Z"
+  },
+  {
+   "cve": "CVE-2026-90162",
+   "lts_not_affected_with_version": [
+    "bionic",
+    "focal"
+   ],
+   "critical_at": "2026-10-18T17:03:09Z"
+  },
+  {
+   "cve": "CVE-2026-93221",
+   "lts_not_affected_with_version": [
+    "bionic"
+   ],
+   "critical_at": "2026-10-18T17:03:44Z"
+  },
+  {
+   "cve": "CVE-2026-98365",
+   "lts_not_affected_with_version": [],
+   "critical_at": "2026-10-18T17:04:45Z"
+  }
+ ],
+ "no_fix_open_pro_days_since_raise": [
+  2.1,
+  2.1,
+  2.1,
+  2.1,
+  2.1,
+  2.1,
+  2.1,
+  2.1,
+  4.4
+ ],
+ "no_fix_other": [
+  "CVE-2024-3094",
+  "CVE-2026-43208",
+  "CVE-2026-4370"
+ ],
+ "no_fix_open_pro_ages_d": [
+  14.4,
+  26.8,
+  33.1,
+  34.3,
+  39.0,
+  39.0,
+  39.0,
+  39.0,
+  300.3
+ ],
+ "lsn_cves": 21,
+ "lsn_before_first_fix": 0,
+ "hand_rated_list": [
+  {
+   "cve": "CVE-2008-0166",
+   "published": "2008-05-13",
+   "package": "openssl",
+   "n_packages": 7,
+   "reason": "",
+   "known_to_fix_d": -17.24,
+   "first_usn": "USN-612-1"
+  },
+  {
+   "cve": "CVE-2012-0954",
+   "published": "2012-06-15",
+   "package": "apt",
+   "n_packages": 1,
+   "reason": "",
+   "known_to_fix_d": 0.0,
+   "first_usn": "USN-1477-1"
+  },
+  {
+   "cve": "CVE-2012-3587",
+   "published": "2012-06-19",
+   "package": "apt",
+   "n_packages": 1,
+   "reason": "",
+   "known_to_fix_d": -5.64,
+   "first_usn": null
+  },
+  {
+   "cve": "CVE-2014-0038",
+   "published": "2014-01-30",
+   "package": "linux",
+   "n_packages": 18,
+   "reason": "",
+   "known_to_fix_d": 0.05,
+   "first_usn": "USN-2094-1"
+  },
+  {
+   "cve": "CVE-2014-0196",
+   "published": "2014-05-05",
+   "package": "linux",
+   "n_packages": 30,
+   "reason": "",
+   "known_to_fix_d": -0.17,
+   "first_usn": "USN-2196-1"
+  },
+  {
+   "cve": "CVE-2015-8768",
+   "published": "2017-02-13",
+   "package": "click",
+   "n_packages": 1,
+   "reason": "",
+   "known_to_fix_d": -89.03,
+   "first_usn": "USN-2771-1"
+  },
+  {
+   "cve": "CVE-2017-11281",
+   "published": "2017-12-01",
+   "package": "flashplugin-nonfree",
+   "n_packages": 1,
+   "reason": "",
+   "known_to_fix_d": -0.95,
+   "first_usn": null
+  },
+  {
+   "cve": "CVE-2017-11282",
+   "published": "2017-12-01",
+   "package": "flashplugin-nonfree",
+   "n_packages": 1,
+   "reason": "",
+   "known_to_fix_d": -0.95,
+   "first_usn": null
+  },
+  {
+   "cve": "CVE-2017-5754",
+   "published": "2018-01-03",
+   "package": "linux",
+   "n_packages": 81,
+   "reason": "",
+   "known_to_fix_d": 1.87,
+   "first_usn": "USN-3516-1"
+  },
+  {
+   "cve": "CVE-2011-3374",
+   "published": "2019-11-26",
+   "package": "apt",
+   "n_packages": 1,
+   "reason": "",
+   "known_to_fix_d": -10.81,
+   "first_usn": null
+  },
+  {
+   "cve": "CVE-2024-3094",
+   "published": "2024-03-29",
+   "package": "xz-utils",
+   "n_packages": 1,
+   "reason": "Results in a backdoor in sshd",
+   "known_to_fix_d": null,
+   "first_usn": null
+  },
+  {
+   "cve": "CVE-2024-35863",
+   "published": "2024-05-19",
+   "package": "linux",
+   "n_packages": 173,
+   "reason": "Remote SMB server can trigger kernel UAF",
+   "known_to_fix_d": -496.78,
+   "first_usn": "USN-6893-1"
+  },
+  {
+   "cve": "CVE-2026-4370",
+   "published": "2026-04-01",
+   "package": "juju",
+   "n_packages": 1,
+   "reason": "remote data compromise",
+   "known_to_fix_d": null,
+   "first_usn": null
+  }
+ ],
+ "since_2026_09_23": [
+  {
+   "cve": "CVE-2026-93221",
+   "published": "2026-09-24",
+   "first_usn": null,
+   "mitigation": "",
+   "pending_on": [
+    "resolute"
+   ],
+   "critical_at": "2026-10-18T17:03:44Z"
+  },
+  {
+   "cve": "CVE-2026-98365",
+   "published": "2026-10-06",
+   "first_usn": null,
+   "mitigation": "",
+   "pending_on": [
+    "noble",
+    "resolute"
+   ],
+   "critical_at": "2026-10-18T17:04:45Z"
+  }
+ ]
+}

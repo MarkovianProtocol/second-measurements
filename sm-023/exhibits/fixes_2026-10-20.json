@@ -1,0 +1,562 @@
+[
+ {
+  "cve": "CVE-2026-98365",
+  "first_usn": null,
+  "first_usn_at": null,
+  "first_lsn_at": null,
+  "first_archive_fix_at": null,
+  "first_archive_fix": null
+ },
+ {
+  "cve": "CVE-2026-93221",
+  "first_usn": null,
+  "first_usn_at": null,
+  "first_lsn_at": null,
+  "first_archive_fix_at": null,
+  "first_archive_fix": null
+ },
+ {
+  "cve": "CVE-2026-90162",
+  "first_usn": null,
+  "first_usn_at": null,
+  "first_lsn_at": null,
+  "first_archive_fix_at": null,
+  "first_archive_fix": null
+ },
+ {
+  "cve": "CVE-2026-90037",
+  "first_usn": null,
+  "first_usn_at": null,
+  "first_lsn_at": null,
+  "first_archive_fix_at": null,
+  "first_archive_fix": null
+ },
+ {
+  "cve": "CVE-2026-89708",
+  "first_usn": null,
+  "first_usn_at": null,
+  "first_lsn_at": null,
+  "first_archive_fix_at": null,
+  "first_archive_fix": null
+ },
+ {
+  "cve": "CVE-2026-89659",
+  "first_usn": null,
+  "first_usn_at": null,
+  "first_lsn_at": null,
+  "first_archive_fix_at": null,
+  "first_archive_fix": null
+ },
+ {
+  "cve": "CVE-2026-89652",
+  "first_usn": null,
+  "first_usn_at": null,
+  "first_lsn_at": null,
+  "first_archive_fix_at": null,
+  "first_archive_fix": null
+ },
+ {
+  "cve": "CVE-2026-89530",
+  "first_usn": null,
+  "first_usn_at": null,
+  "first_lsn_at": null,
+  "first_archive_fix_at": null,
+  "first_archive_fix": null
+ },
+ {
+  "cve": "CVE-2026-74394",
+  "first_usn": "USN-8781-1",
+  "first_usn_at": "2026-09-18T08:50:47.034402",
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2026-09-22T17:43:27.304253+00:00",
+  "first_archive_fix": "resolute 7.0.0-34.34"
+ },
+ {
+  "cve": "CVE-2026-74345",
+  "first_usn": "USN-8781-1",
+  "first_usn_at": "2026-09-18T08:50:47.034402",
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2026-09-22T17:43:27.304253+00:00",
+  "first_archive_fix": "resolute 7.0.0-34.34"
+ },
+ {
+  "cve": "CVE-2026-72399",
+  "first_usn": "USN-8781-1",
+  "first_usn_at": "2026-09-18T08:50:47.034402",
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2026-09-22T17:43:27.304253+00:00",
+  "first_archive_fix": "resolute 7.0.0-34.34"
+ },
+ {
+  "cve": "CVE-2026-72287",
+  "first_usn": "USN-8816-1",
+  "first_usn_at": "2026-09-24T15:00:17.971576",
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2026-09-22T17:43:27.304253+00:00",
+  "first_archive_fix": "resolute 7.0.0-34.34"
+ },
+ {
+  "cve": "CVE-2026-68426",
+  "first_usn": "USN-8781-1",
+  "first_usn_at": "2026-09-18T08:50:47.034402",
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2026-10-01T09:20:30.001644+00:00",
+  "first_archive_fix": "resolute 7.0.0-38.38"
+ },
+ {
+  "cve": "CVE-2026-64564",
+  "first_usn": "USN-8781-1",
+  "first_usn_at": "2026-09-18T08:50:47.034402",
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2026-10-01T09:20:30.001644+00:00",
+  "first_archive_fix": "resolute 7.0.0-38.38"
+ },
+ {
+  "cve": "CVE-2026-64535",
+  "first_usn": "USN-8781-1",
+  "first_usn_at": "2026-09-18T08:50:47.034402",
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2026-09-22T17:43:27.304253+00:00",
+  "first_archive_fix": "resolute 7.0.0-34.34"
+ },
+ {
+  "cve": "CVE-2026-64523",
+  "first_usn": "USN-8618-1",
+  "first_usn_at": "2026-07-28T07:16:49.282869",
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2026-07-16T17:50:12.859234+00:00",
+  "first_archive_fix": "resolute 7.0.0-28.28"
+ },
+ {
+  "cve": "CVE-2026-63940",
+  "first_usn": "USN-8593-1",
+  "first_usn_at": "2026-07-23T07:35:09.301838",
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2026-07-16T17:50:12.859234+00:00",
+  "first_archive_fix": "resolute 7.0.0-28.28"
+ },
+ {
+  "cve": "CVE-2026-63825",
+  "first_usn": "USN-8726-1",
+  "first_usn_at": "2026-09-07T08:57:53.841088",
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2026-09-03T18:08:33.737127+00:00",
+  "first_archive_fix": "resolute 7.0.0-31.31"
+ },
+ {
+  "cve": "CVE-2026-53398",
+  "first_usn": "USN-8726-1",
+  "first_usn_at": "2026-09-07T08:57:53.841088",
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2026-09-03T18:08:33.737127+00:00",
+  "first_archive_fix": "resolute 7.0.0-31.31"
+ },
+ {
+  "cve": "CVE-2026-53260",
+  "first_usn": "USN-8629-1",
+  "first_usn_at": "2026-08-12T19:36:25.342992",
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2026-08-04T08:36:59.356068+00:00",
+  "first_archive_fix": "resolute 7.0.0-29.29"
+ },
+ {
+  "cve": "CVE-2026-53215",
+  "first_usn": "USN-8629-1",
+  "first_usn_at": "2026-08-12T19:36:25.342992",
+  "first_lsn_at": "2026-10-07T09:53:00",
+  "first_archive_fix_at": "2026-08-04T08:36:59.356068+00:00",
+  "first_archive_fix": "noble 6.8.0-137.137"
+ },
+ {
+  "cve": "CVE-2026-53002",
+  "first_usn": "USN-8566-1",
+  "first_usn_at": "2026-07-20T15:24:18.747835",
+  "first_lsn_at": "2026-10-07T09:53:00",
+  "first_archive_fix_at": "2026-07-16T17:50:12.859234+00:00",
+  "first_archive_fix": "jammy 5.15.0-186.196"
+ },
+ {
+  "cve": "CVE-2026-52993",
+  "first_usn": "USN-8566-1",
+  "first_usn_at": "2026-07-20T15:24:18.747835",
+  "first_lsn_at": "2026-10-07T09:53:00",
+  "first_archive_fix_at": "2026-07-16T17:50:12.859234+00:00",
+  "first_archive_fix": "jammy 5.15.0-186.196"
+ },
+ {
+  "cve": "CVE-2026-52989",
+  "first_usn": "USN-8566-1",
+  "first_usn_at": "2026-07-20T15:24:18.747835",
+  "first_lsn_at": "2026-10-07T09:53:00",
+  "first_archive_fix_at": "2026-07-16T17:50:12.859234+00:00",
+  "first_archive_fix": "noble 6.8.0-136.136"
+ },
+ {
+  "cve": "CVE-2026-52955",
+  "first_usn": "USN-8566-1",
+  "first_usn_at": "2026-07-20T15:24:18.747835",
+  "first_lsn_at": "2026-10-07T09:53:00",
+  "first_archive_fix_at": "2026-07-16T17:50:12.859234+00:00",
+  "first_archive_fix": "jammy 5.15.0-186.196"
+ },
+ {
+  "cve": "CVE-2026-46135",
+  "first_usn": "USN-8489-1",
+  "first_usn_at": "2026-07-01T14:46:32.119610",
+  "first_lsn_at": "2026-08-27T10:07:58",
+  "first_archive_fix_at": "2026-06-25T22:24:35.967743+00:00",
+  "first_archive_fix": "jammy 5.15.0-185.195"
+ },
+ {
+  "cve": "CVE-2026-46043",
+  "first_usn": "USN-8489-1",
+  "first_usn_at": "2026-07-01T14:46:32.119610",
+  "first_lsn_at": "2026-08-27T10:07:58",
+  "first_archive_fix_at": "2026-06-25T22:24:35.967743+00:00",
+  "first_archive_fix": "jammy 5.15.0-185.195"
+ },
+ {
+  "cve": "CVE-2026-45988",
+  "first_usn": "USN-8489-1",
+  "first_usn_at": "2026-07-01T14:46:32.119610",
+  "first_lsn_at": "2026-08-27T10:07:58",
+  "first_archive_fix_at": "2026-06-25T22:24:35.967743+00:00",
+  "first_archive_fix": "jammy 5.15.0-185.195"
+ },
+ {
+  "cve": "CVE-2026-43501",
+  "first_usn": "USN-8489-1",
+  "first_usn_at": "2026-07-01T14:46:32.119610",
+  "first_lsn_at": "2026-08-27T10:07:58",
+  "first_archive_fix_at": "2026-06-25T22:24:35.967743+00:00",
+  "first_archive_fix": "jammy 5.15.0-185.195"
+ },
+ {
+  "cve": "CVE-2026-43304",
+  "first_usn": "USN-8491-1",
+  "first_usn_at": "2026-07-01T15:28:09.964572",
+  "first_lsn_at": "2026-08-27T10:07:58",
+  "first_archive_fix_at": "2026-06-25T22:24:35.967743+00:00",
+  "first_archive_fix": "jammy 5.15.0-185.195"
+ },
+ {
+  "cve": "CVE-2026-43208",
+  "first_usn": null,
+  "first_usn_at": null,
+  "first_lsn_at": null,
+  "first_archive_fix_at": null,
+  "first_archive_fix": null
+ },
+ {
+  "cve": "CVE-2026-43185",
+  "first_usn": "USN-8545-1",
+  "first_usn_at": "2026-07-15T07:57:03.861057",
+  "first_lsn_at": "2026-08-27T10:07:58",
+  "first_archive_fix_at": "2026-06-25T22:24:35.967743+00:00",
+  "first_archive_fix": "jammy 5.15.0-185.195"
+ },
+ {
+  "cve": "CVE-2026-43125",
+  "first_usn": "USN-8491-1",
+  "first_usn_at": "2026-07-01T15:28:09.964572",
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2026-06-26T00:01:49.488085+00:00",
+  "first_archive_fix": "questing 6.17.0-40.40"
+ },
+ {
+  "cve": "CVE-2026-43038",
+  "first_usn": "USN-8491-1",
+  "first_usn_at": "2026-07-01T15:28:09.964572",
+  "first_lsn_at": "2026-08-27T10:07:58",
+  "first_archive_fix_at": "2026-06-25T22:24:35.967743+00:00",
+  "first_archive_fix": "jammy 5.15.0-185.195"
+ },
+ {
+  "cve": "CVE-2026-43037",
+  "first_usn": "USN-8491-1",
+  "first_usn_at": "2026-07-01T15:28:09.964572",
+  "first_lsn_at": "2026-08-27T10:07:58",
+  "first_archive_fix_at": "2026-06-25T22:24:35.967743+00:00",
+  "first_archive_fix": "jammy 5.15.0-185.195"
+ },
+ {
+  "cve": "CVE-2026-43011",
+  "first_usn": "USN-8491-1",
+  "first_usn_at": "2026-07-01T15:28:09.964572",
+  "first_lsn_at": "2026-08-27T10:07:58",
+  "first_archive_fix_at": "2026-06-25T22:24:35.967743+00:00",
+  "first_archive_fix": "jammy 5.15.0-185.195"
+ },
+ {
+  "cve": "CVE-2026-31637",
+  "first_usn": "USN-8491-1",
+  "first_usn_at": "2026-07-01T15:28:09.964572",
+  "first_lsn_at": "2026-08-27T10:07:58",
+  "first_archive_fix_at": "2026-06-25T22:24:35.967743+00:00",
+  "first_archive_fix": "jammy 5.15.0-185.195"
+ },
+ {
+  "cve": "CVE-2026-31608",
+  "first_usn": "USN-8488-1",
+  "first_usn_at": "2026-07-01T16:43:16.688626",
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2026-06-25T22:24:35.967743+00:00",
+  "first_archive_fix": "resolute 7.0.0-27.27"
+ },
+ {
+  "cve": "CVE-2026-31402",
+  "first_usn": "USN-8491-1",
+  "first_usn_at": "2026-07-01T15:28:09.964572",
+  "first_lsn_at": "2026-08-27T10:07:58",
+  "first_archive_fix_at": "2026-06-25T22:24:35.967743+00:00",
+  "first_archive_fix": "jammy 5.15.0-185.195"
+ },
+ {
+  "cve": "CVE-2026-4370",
+  "first_usn": null,
+  "first_usn_at": null,
+  "first_lsn_at": null,
+  "first_archive_fix_at": null,
+  "first_archive_fix": null
+ },
+ {
+  "cve": "CVE-2026-23216",
+  "first_usn": "USN-8278-1",
+  "first_usn_at": "2026-05-19T22:33:02.758729",
+  "first_lsn_at": "2026-10-07T09:53:00",
+  "first_archive_fix_at": "2026-05-14T17:39:02.543571+00:00",
+  "first_archive_fix": "noble 6.8.0-117.117"
+ },
+ {
+  "cve": "CVE-2025-71068",
+  "first_usn": "USN-8096-1",
+  "first_usn_at": "2026-03-16T14:37:39.872746",
+  "first_lsn_at": "2026-10-07T09:53:00",
+  "first_archive_fix_at": "2026-03-13T16:39:49.050160+00:00",
+  "first_archive_fix": "jammy 5.15.0-173.183"
+ },
+ {
+  "cve": "CVE-2023-53867",
+  "first_usn": null,
+  "first_usn_at": null,
+  "first_lsn_at": null,
+  "first_archive_fix_at": null,
+  "first_archive_fix": null
+ },
+ {
+  "cve": "CVE-2025-68284",
+  "first_usn": "USN-8094-1",
+  "first_usn_at": "2026-03-16T13:42:27.245496",
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2026-03-13T16:39:49.050160+00:00",
+  "first_archive_fix": "jammy 5.15.0-173.183"
+ },
+ {
+  "cve": "CVE-2025-68263",
+  "first_usn": "USN-8094-1",
+  "first_usn_at": "2026-03-16T13:42:27.245496",
+  "first_lsn_at": "2026-08-27T10:07:58",
+  "first_archive_fix_at": "2026-03-13T16:39:49.050160+00:00",
+  "first_archive_fix": "questing 6.17.0-19.19"
+ },
+ {
+  "cve": "CVE-2022-50410",
+  "first_usn": null,
+  "first_usn_at": null,
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2022-12-01T00:21:05.144864+00:00",
+  "first_archive_fix": "jammy 5.15.0-56.62"
+ },
+ {
+  "cve": "CVE-2022-50401",
+  "first_usn": "USN-8725-1",
+  "first_usn_at": "2026-09-04T17:51:55.833524",
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2023-03-02T11:26:59.235856+00:00",
+  "first_archive_fix": "focal 5.4.0-144.161"
+ },
+ {
+  "cve": "CVE-2025-38724",
+  "first_usn": "USN-7909-1",
+  "first_usn_at": "2025-12-04T09:26:45.586444",
+  "first_lsn_at": "2026-10-07T09:53:00",
+  "first_archive_fix_at": "2025-12-02T23:50:33.813142+00:00",
+  "first_archive_fix": "jammy 5.15.0-163.173"
+ },
+ {
+  "cve": "CVE-2025-38490",
+  "first_usn": "USN-7879-1",
+  "first_usn_at": "2025-11-21T15:26:39.197001",
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2025-11-20T11:42:05.286199+00:00",
+  "first_archive_fix": "plucky 6.14.0-36.36"
+ },
+ {
+  "cve": "CVE-2022-49770",
+  "first_usn": null,
+  "first_usn_at": null,
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2023-03-01T21:38:57.721265+00:00",
+  "first_archive_fix": "jammy 5.15.0-67.74"
+ },
+ {
+  "cve": "CVE-2025-37777",
+  "first_usn": "USN-7594-1",
+  "first_usn_at": "2025-06-24T13:16:31.825410",
+  "first_lsn_at": "2026-10-07T09:53:00",
+  "first_archive_fix_at": "2025-06-19T13:38:19.917981+00:00",
+  "first_archive_fix": "plucky 6.14.0-22.22"
+ },
+ {
+  "cve": "CVE-2022-49279",
+  "first_usn": null,
+  "first_usn_at": null,
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2022-06-07T19:29:13.207798+00:00",
+  "first_archive_fix": "focal 5.4.0-117.132"
+ },
+ {
+  "cve": "CVE-2022-49149",
+  "first_usn": "USN-8919-1",
+  "first_usn_at": "2026-10-13T15:09:05.604614",
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2022-06-07T19:29:13.207798+00:00",
+  "first_archive_fix": "jammy 5.15.0-37.39"
+ },
+ {
+  "cve": "CVE-2024-50286",
+  "first_usn": "USN-7276-1",
+  "first_usn_at": "2025-02-19T15:58:57.779509",
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2025-02-17T19:23:50.915139+00:00",
+  "first_archive_fix": "oracular 6.11.0-18.18"
+ },
+ {
+  "cve": "CVE-2024-46717",
+  "first_usn": "USN-7154-1",
+  "first_usn_at": "2024-12-12T17:09:44.107256",
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2024-12-10T19:13:02.761675+00:00",
+  "first_archive_fix": "noble 6.8.0-50.51"
+ },
+ {
+  "cve": "CVE-2024-35863",
+  "first_usn": "USN-6893-1",
+  "first_usn_at": "2024-07-11T19:01:12.639714",
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2024-07-10T10:18:19.592684+00:00",
+  "first_archive_fix": "noble 6.8.0-38.38"
+ },
+ {
+  "cve": "CVE-2024-3094",
+  "first_usn": null,
+  "first_usn_at": null,
+  "first_lsn_at": null,
+  "first_archive_fix_at": null,
+  "first_archive_fix": null
+ },
+ {
+  "cve": "CVE-2022-0435",
+  "first_usn": "USN-5302-1",
+  "first_usn_at": "2022-02-22T22:45:56.572723",
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2022-03-21T15:47:15.498989+00:00",
+  "first_archive_fix": "impish 5.13.0-37.42"
+ },
+ {
+  "cve": "CVE-2021-20322",
+  "first_usn": "USN-5268-1",
+  "first_usn_at": "2022-02-03T05:48:15",
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2021-11-08T14:32:01.911868+00:00",
+  "first_archive_fix": "impish 5.13.0-21.21"
+ },
+ {
+  "cve": "CVE-2011-3374",
+  "first_usn": null,
+  "first_usn_at": null,
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2011-09-22T18:08:47.965214+00:00",
+  "first_archive_fix": "hardy 0.7.9ubuntu17.3"
+ },
+ {
+  "cve": "CVE-2019-0147",
+  "first_usn": null,
+  "first_usn_at": null,
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2020-09-21T10:33:50.996563+00:00",
+  "first_archive_fix": "bionic 4.15.0-118.119"
+ },
+ {
+  "cve": "CVE-2017-5754",
+  "first_usn": "USN-3516-1",
+  "first_usn_at": "2018-01-05T21:18:31.759862",
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2018-01-09T19:18:13.978678+00:00",
+  "first_archive_fix": "artful 4.13.0-25.29"
+ },
+ {
+  "cve": "CVE-2017-11282",
+  "first_usn": null,
+  "first_usn_at": null,
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2017-09-12T18:18:17.862297+00:00",
+  "first_archive_fix": "trusty 27.0.0.130ubuntu0.14.04.1"
+ },
+ {
+  "cve": "CVE-2017-11281",
+  "first_usn": null,
+  "first_usn_at": null,
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2017-09-12T18:18:17.862297+00:00",
+  "first_archive_fix": "trusty 27.0.0.130ubuntu0.14.04.1"
+ },
+ {
+  "cve": "CVE-2015-8768",
+  "first_usn": "USN-2771-1",
+  "first_usn_at": "2015-10-15T20:08:03.243326",
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2015-10-15T19:23:33.519158+00:00",
+  "first_archive_fix": "trusty 0.4.21.1ubuntu0.2"
+ },
+ {
+  "cve": "CVE-2014-0196",
+  "first_usn": "USN-2196-1",
+  "first_usn_at": "2014-05-06T02:14:37.336543",
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2014-05-05T22:04:01.655967+00:00",
+  "first_archive_fix": "lucid 2.6.32-58.121"
+ },
+ {
+  "cve": "CVE-2014-0038",
+  "first_usn": "USN-2094-1",
+  "first_usn_at": "2014-01-31T05:19:35.752540",
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2014-01-31T04:18:34.487662+00:00",
+  "first_archive_fix": "saucy 3.11.0-15.25"
+ },
+ {
+  "cve": "CVE-2012-3587",
+  "first_usn": null,
+  "first_usn_at": null,
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2012-06-15T21:09:33.089072+00:00",
+  "first_archive_fix": "hardy 0.7.9ubuntu17.6"
+ },
+ {
+  "cve": "CVE-2012-0954",
+  "first_usn": "USN-1477-1",
+  "first_usn_at": "2012-06-15T20:51:19.510776",
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2012-06-15T21:09:33.089072+00:00",
+  "first_archive_fix": "hardy 0.7.9ubuntu17.6"
+ },
+ {
+  "cve": "CVE-2008-0166",
+  "first_usn": "USN-612-1",
+  "first_usn_at": "2008-05-13T13:19:44.897683",
+  "first_lsn_at": null,
+  "first_archive_fix_at": "2008-05-13T13:10:01.452001+00:00",
+  "first_archive_fix": "feisty 0.9.8c-4ubuntu0.3"
+ }
+]

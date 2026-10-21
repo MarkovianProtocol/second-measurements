@@ -1,0 +1,41 @@
+{
+ "searched_at": "2026-10-20",
+ "results": {
+  "CVE-2026-93221": {
+   "discourse": {
+    "url": "https://discourse.ubuntu.com/search.json?q=CVE-2026-93221",
+    "topics": [],
+    "posts": 0,
+    "total_results": null
+   },
+   "usn": {
+    "url": "https://ubuntu.com/security/notices.json?details=CVE-2026-93221&limit=5",
+    "topics": null,
+    "posts": null,
+    "total_results": 0
+   },
+   "canonical_blog": {
+    "url": "https://canonical.com/blog/search?q=CVE-2026-93221",
+    "note": "no result entries on the results page"
+   }
+  },
+  "CVE-2026-98365": {
+   "discourse": {
+    "url": "https://discourse.ubuntu.com/search.json?q=CVE-2026-98365",
+    "topics": [],
+    "posts": 0,
+    "total_results": null
+   },
+   "usn": {
+    "url": "https://ubuntu.com/security/notices.json?details=CVE-2026-98365&limit=5",
+    "topics": null,
+    "posts": null,
+    "total_results": 0
+   },
+   "canonical_blog": {
+    "url": "https://canonical.com/blog/search?q=CVE-2026-98365",
+    "note": "no result entries on the results page"
+   }
+  }
+ }
+}

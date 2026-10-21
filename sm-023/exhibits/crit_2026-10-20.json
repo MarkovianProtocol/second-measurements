@@ -1,0 +1,1336 @@
+[
+ {
+  "cve": "CVE-2008-0166",
+  "first_priority": "critical",
+  "critical_at": "2008-05-30T11:54:53-07:00",
+  "critical_commit": "3a8590c5ec1",
+  "history": [
+   {
+    "at": "2008-05-30T11:54:53-07:00",
+    "commit": "3a8590c5ec1",
+    "priority": "critical",
+    "msg": "CVE review"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2011-3374",
+  "first_priority": "critical",
+  "critical_at": "2011-10-03T09:33:37-04:00",
+  "critical_commit": "30d93253292",
+  "history": [
+   {
+    "at": "2011-10-03T09:33:37-04:00",
+    "commit": "30d93253292",
+    "priority": "critical",
+    "msg": "added CVEs from oss-security"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2012-0954",
+  "first_priority": "critical",
+  "critical_at": "2012-06-15T15:45:17-05:00",
+  "critical_commit": "1fa2dc80f56",
+  "history": [
+   {
+    "at": "2012-06-15T15:45:17-05:00",
+    "commit": "1fa2dc80f56",
+    "priority": "critical",
+    "msg": "add apt CVE"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2012-3587",
+  "first_priority": "critical",
+  "critical_at": "2012-06-21T07:24:40-05:00",
+  "critical_commit": "12feeab0175",
+  "history": [
+   {
+    "at": "2012-06-21T07:24:40-05:00",
+    "commit": "12feeab0175",
+    "priority": "critical",
+    "msg": "update db2 bouilerplate check-cves run for Tue-Thu check-cves run on oss-sec"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2014-0038",
+  "first_priority": "critical",
+  "critical_at": "2014-01-30T19:03:19-08:00",
+  "critical_commit": "037eb59da02",
+  "history": [
+   {
+    "at": "2014-01-30T19:03:19-08:00",
+    "commit": "037eb59da02",
+    "priority": "critical",
+    "msg": "add CVE-2014-0038"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2014-0196",
+  "first_priority": "high",
+  "critical_at": "2014-05-05T19:09:29-07:00",
+  "critical_commit": "dc78825a104",
+  "history": [
+   {
+    "at": "2014-05-05T12:48:05-07:00",
+    "commit": "f18abbcfc36",
+    "priority": "high",
+    "msg": "Create kernel bug and add CVE-2014-0196"
+   },
+   {
+    "at": "2014-05-05T19:09:29-07:00",
+    "commit": "dc78825a104",
+    "priority": "critical",
+    "msg": "Update infor for CVE-2014-0196"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2015-8768",
+  "first_priority": "critical",
+  "critical_at": "2016-01-12T14:10:19-06:00",
+  "critical_commit": "64c59bf89c3",
+  "history": [
+   {
+    "at": "2016-01-12T14:10:19-06:00",
+    "commit": "64c59bf89c3",
+    "priority": "critical",
+    "msg": "click was assigned CVE-2015-8768"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2017-11281",
+  "first_priority": "critical",
+  "critical_at": "2017-09-13T14:06:56-03:00",
+  "critical_commit": "2667523f8ff",
+  "history": [
+   {
+    "at": "2017-09-13T14:06:56-03:00",
+    "commit": "2667523f8ff",
+    "priority": "critical",
+    "msg": "$(cves-commit-message)"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2017-11282",
+  "first_priority": "critical",
+  "critical_at": "2017-09-13T14:06:56-03:00",
+  "critical_commit": "2667523f8ff",
+  "history": [
+   {
+    "at": "2017-09-13T14:06:56-03:00",
+    "commit": "2667523f8ff",
+    "priority": "critical",
+    "msg": "$(cves-commit-message)"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2017-5754",
+  "first_priority": "critical",
+  "critical_at": "2018-01-04T00:28:54Z",
+  "critical_commit": "9d4850b0c54",
+  "history": [
+   {
+    "at": "2018-01-04T00:28:54Z",
+    "commit": "9d4850b0c54",
+    "priority": "critical",
+    "msg": "CPU speculative execution flaws"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2019-0147",
+  "first_priority": "medium",
+  "critical_at": "2026-09-08T23:01:12Z",
+  "critical_commit": "d453a174f52",
+  "history": [
+   {
+    "at": "2020-10-06T00:39:42Z",
+    "commit": "e146f2de2a8",
+    "priority": "medium",
+    "msg": "process_cves mon"
+   },
+   {
+    "at": "2026-09-08T23:01:12Z",
+    "commit": "d453a174f52",
+    "priority": "critical",
+    "msg": "kernel/CVE-2019-0147: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2021-20322",
+  "first_priority": "medium",
+  "critical_at": "2026-09-08T23:01:28Z",
+  "critical_commit": "d4acc55781b",
+  "history": [
+   {
+    "at": "2021-10-20T22:50:13Z",
+    "commit": "1bbbce2fb1a",
+    "priority": "medium",
+    "msg": "Process cves run: triaged 89 CVEs, 152 Ignored, 22 Packages"
+   },
+   {
+    "at": "2026-09-08T23:01:28Z",
+    "commit": "d4acc55781b",
+    "priority": "critical",
+    "msg": "kernel/CVE-2021-20322: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2022-0435",
+  "first_priority": "medium",
+  "critical_at": "2026-09-10T04:01:09Z",
+  "critical_commit": "3a60421d07b",
+  "history": [
+   {
+    "at": "2022-02-10T21:31:59Z",
+    "commit": "acb3d89ab51",
+    "priority": "medium",
+    "msg": "add tipc issue"
+   },
+   {
+    "at": "2026-09-10T04:01:09Z",
+    "commit": "3a60421d07b",
+    "priority": "critical",
+    "msg": "kernel/CVE-2022-0435: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2022-49149",
+  "first_priority": "medium",
+  "critical_at": "2026-08-21T06:16:21Z",
+  "critical_commit": "3307e33fe59",
+  "history": [
+   {
+    "at": "2025-02-27T17:53:06+05:30",
+    "commit": "c604e0909dc",
+    "priority": "medium",
+    "msg": "daily cve triage - thu"
+   },
+   {
+    "at": "2026-08-21T06:16:21Z",
+    "commit": "3307e33fe59",
+    "priority": "critical",
+    "msg": "kernel/CVE-2022-49149: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2022-49279",
+  "first_priority": "medium",
+  "critical_at": "2026-08-24T13:10:54Z",
+  "critical_commit": "6c18591ecf7",
+  "history": [
+   {
+    "at": "2025-02-27T17:53:06+05:30",
+    "commit": "c604e0909dc",
+    "priority": "medium",
+    "msg": "daily cve triage - thu"
+   },
+   {
+    "at": "2026-08-24T13:10:54Z",
+    "commit": "6c18591ecf7",
+    "priority": "critical",
+    "msg": "kernel/CVE-2022-49279: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2022-49770",
+  "first_priority": "medium",
+  "critical_at": "2026-07-06T18:01:08Z",
+  "critical_commit": "4ac727a9ea0",
+  "history": [
+   {
+    "at": "2025-05-02T08:43:38-04:00",
+    "commit": "ff0b8d81882",
+    "priority": "medium",
+    "msg": "process_cves run"
+   },
+   {
+    "at": "2026-07-06T18:01:08Z",
+    "commit": "4ac727a9ea0",
+    "priority": "critical",
+    "msg": "kernel/CVE-2022-49770: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2022-50401",
+  "first_priority": "medium",
+  "critical_at": "2026-07-06T18:01:30Z",
+  "critical_commit": "8c77c3dc689",
+  "history": [
+   {
+    "at": "2025-09-19T18:51:01+01:00",
+    "commit": "87555878d3a",
+    "priority": "medium",
+    "msg": "process_cves run"
+   },
+   {
+    "at": "2026-07-06T18:01:30Z",
+    "commit": "8c77c3dc689",
+    "priority": "critical",
+    "msg": "kernel/CVE-2022-50401: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2022-50410",
+  "first_priority": "medium",
+  "critical_at": "2026-07-06T18:01:31Z",
+  "critical_commit": "e0e7bf7720e",
+  "history": [
+   {
+    "at": "2025-09-19T18:51:01+01:00",
+    "commit": "87555878d3a",
+    "priority": "medium",
+    "msg": "process_cves run"
+   },
+   {
+    "at": "2026-07-06T18:01:31Z",
+    "commit": "e0e7bf7720e",
+    "priority": "critical",
+    "msg": "kernel/CVE-2022-50410: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2023-53867",
+  "first_priority": "medium",
+  "critical_at": "2026-10-16T10:02:52Z",
+  "critical_commit": "242e624944a",
+  "history": [
+   {
+    "at": "2025-12-25T11:38:14Z",
+    "commit": "9c13edcd089",
+    "priority": "medium",
+    "msg": "Process cves run: triaged 337 CVEs, 183 Ignored, 6 Packages"
+   },
+   {
+    "at": "2026-10-16T10:02:52Z",
+    "commit": "242e624944a",
+    "priority": "critical",
+    "msg": "kernel/CVE-2023-53867: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2024-3094",
+  "first_priority": "critical",
+  "critical_at": "2024-03-30T08:33:37-04:00",
+  "critical_commit": "01d7f047078",
+  "history": [
+   {
+    "at": "2024-03-30T08:33:37-04:00",
+    "commit": "01d7f047078",
+    "priority": "critical",
+    "msg": "added CVE-2024-3094"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2024-35863",
+  "first_priority": "medium",
+  "critical_at": "2025-11-19T05:00:11Z",
+  "critical_commit": "ac3653f3115",
+  "history": [
+   {
+    "at": "2024-05-20T12:29:33+09:30",
+    "commit": "2f627370dec",
+    "priority": "medium",
+    "msg": "process_cves Mon"
+   },
+   {
+    "at": "2025-11-19T05:00:11Z",
+    "commit": "ac3653f3115",
+    "priority": "critical",
+    "msg": "kernel/CVE-2024-35863: triage"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2024-46717",
+  "first_priority": "medium",
+  "critical_at": "2026-10-04T07:15:25Z",
+  "critical_commit": "43400ac9321",
+  "history": [
+   {
+    "at": "2024-09-18T08:40:32-04:00",
+    "commit": "24cbad9235f",
+    "priority": "medium",
+    "msg": "process cves run"
+   },
+   {
+    "at": "2026-10-04T07:15:25Z",
+    "commit": "43400ac9321",
+    "priority": "critical",
+    "msg": "kernel/CVE-2024-46717: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2024-50286",
+  "first_priority": "medium",
+  "critical_at": "2026-10-07T01:01:41Z",
+  "critical_commit": "2bb53d1d080",
+  "history": [
+   {
+    "at": "2024-11-20T10:15:37+05:30",
+    "commit": "a6c32c4713c",
+    "priority": "medium",
+    "msg": "daily cve triage - wed"
+   },
+   {
+    "at": "2026-10-07T01:01:41Z",
+    "commit": "2bb53d1d080",
+    "priority": "critical",
+    "msg": "kernel/CVE-2024-50286: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2025-37777",
+  "first_priority": "medium",
+  "critical_at": "2026-07-04T21:36:32Z",
+  "critical_commit": "ea90d1341fe",
+  "history": [
+   {
+    "at": "2025-05-02T08:43:38-04:00",
+    "commit": "ff0b8d81882",
+    "priority": "medium",
+    "msg": "process_cves run"
+   },
+   {
+    "at": "2026-07-04T21:36:32Z",
+    "commit": "ea90d1341fe",
+    "priority": "critical",
+    "msg": "kernel/CVE-2025-37777: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2025-38490",
+  "first_priority": "medium",
+  "critical_at": "2026-07-05T08:13:27Z",
+  "critical_commit": "247face2cbf",
+  "history": [
+   {
+    "at": "2025-07-29T11:27:38+02:00",
+    "commit": "a74248d787b",
+    "priority": "medium",
+    "msg": "process_cves run"
+   },
+   {
+    "at": "2026-07-05T08:13:27Z",
+    "commit": "247face2cbf",
+    "priority": "critical",
+    "msg": "kernel/CVE-2025-38490: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2025-38724",
+  "first_priority": "medium",
+  "critical_at": "2026-07-06T18:00:28Z",
+  "critical_commit": "25f8c9e0958",
+  "history": [
+   {
+    "at": "2025-09-05T13:04:54+05:30",
+    "commit": "fe6e639f1f3",
+    "priority": "medium",
+    "msg": "daily process_cve - fri"
+   },
+   {
+    "at": "2026-07-06T18:00:28Z",
+    "commit": "25f8c9e0958",
+    "priority": "critical",
+    "msg": "kernel/CVE-2025-38724: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2025-68263",
+  "first_priority": "medium",
+  "critical_at": "2026-06-09T11:00:15Z",
+  "critical_commit": "6d3dc105671",
+  "history": [
+   {
+    "at": "2025-12-17T12:27:48+05:30",
+    "commit": "8813e74f869",
+    "priority": "medium",
+    "msg": "daily process cve - Wed"
+   },
+   {
+    "at": "2026-06-09T11:00:15Z",
+    "commit": "6d3dc105671",
+    "priority": "critical",
+    "msg": "kernel/CVE-2025-68263: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2025-68284",
+  "first_priority": "medium",
+  "critical_at": "2026-08-20T17:01:35Z",
+  "critical_commit": "690dc64b233",
+  "history": [
+   {
+    "at": "2025-12-17T12:27:48+05:30",
+    "commit": "8813e74f869",
+    "priority": "medium",
+    "msg": "daily process cve - Wed"
+   },
+   {
+    "at": "2026-08-20T17:01:35Z",
+    "commit": "690dc64b233",
+    "priority": "critical",
+    "msg": "kernel/CVE-2025-68284: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2025-71068",
+  "first_priority": "medium",
+  "critical_at": "2026-07-04T13:01:53Z",
+  "critical_commit": "5d36cd6f6b0",
+  "history": [
+   {
+    "at": "2026-01-14T16:06:14-03:00",
+    "commit": "87f876e5ea5",
+    "priority": "medium",
+    "msg": "Process cves run: triaged 176 CVEs, 385 Ignored, 16 Packages"
+   },
+   {
+    "at": "2026-07-04T13:01:53Z",
+    "commit": "5d36cd6f6b0",
+    "priority": "critical",
+    "msg": "kernel/CVE-2025-71068: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-23216",
+  "first_priority": "medium",
+  "critical_at": "2026-07-04T05:33:54Z",
+  "critical_commit": "d3d33bb2b40",
+  "history": [
+   {
+    "at": "2026-02-19T09:26:58+05:30",
+    "commit": "0649a979983",
+    "priority": "medium",
+    "msg": "daily process cve - Thu"
+   },
+   {
+    "at": "2026-07-04T05:33:54Z",
+    "commit": "d3d33bb2b40",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-23216: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-31402",
+  "first_priority": "medium",
+  "critical_at": "2026-06-12T08:00:15Z",
+  "critical_commit": "19845285abe",
+  "history": [
+   {
+    "at": "2026-04-06T18:24:28-03:00",
+    "commit": "0174c7d12b7",
+    "priority": "medium",
+    "msg": "Process cves run: triaged 125 CVEs, 356 Ignored, 25 Packages"
+   },
+   {
+    "at": "2026-06-12T08:00:15Z",
+    "commit": "19845285abe",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-31402: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-31608",
+  "first_priority": "medium",
+  "critical_at": "2026-06-09T11:00:23Z",
+  "critical_commit": "ea81832d35c",
+  "history": [
+   {
+    "at": "2026-04-28T18:06:01-03:00",
+    "commit": "586b74d2909",
+    "priority": "medium",
+    "msg": "daily cve triage"
+   },
+   {
+    "at": "2026-06-09T11:00:23Z",
+    "commit": "ea81832d35c",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-31608: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-31637",
+  "first_priority": "medium",
+  "critical_at": "2026-06-09T11:00:24Z",
+  "critical_commit": "bed10bb00c5",
+  "history": [
+   {
+    "at": "2026-04-28T18:06:01-03:00",
+    "commit": "586b74d2909",
+    "priority": "medium",
+    "msg": "daily cve triage"
+   },
+   {
+    "at": "2026-06-09T11:00:24Z",
+    "commit": "bed10bb00c5",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-31637: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-43011",
+  "first_priority": "medium",
+  "critical_at": "2026-06-09T11:00:21Z",
+  "critical_commit": "ad7b917b80e",
+  "history": [
+   {
+    "at": "2026-05-05T14:21:24+10:00",
+    "commit": "f959178eb00",
+    "priority": "medium",
+    "msg": "CVE Triage Tuesday"
+   },
+   {
+    "at": "2026-06-09T11:00:21Z",
+    "commit": "ad7b917b80e",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-43011: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-43037",
+  "first_priority": "medium",
+  "critical_at": "2026-06-09T11:00:20Z",
+  "critical_commit": "ae0d1bd213c",
+  "history": [
+   {
+    "at": "2026-05-05T14:21:24+10:00",
+    "commit": "f959178eb00",
+    "priority": "medium",
+    "msg": "CVE Triage Tuesday"
+   },
+   {
+    "at": "2026-06-09T11:00:20Z",
+    "commit": "ae0d1bd213c",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-43037: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-43038",
+  "first_priority": "medium",
+  "critical_at": "2026-06-09T11:00:19Z",
+  "critical_commit": "629289f1f27",
+  "history": [
+   {
+    "at": "2026-05-05T14:21:24+10:00",
+    "commit": "f959178eb00",
+    "priority": "medium",
+    "msg": "CVE Triage Tuesday"
+   },
+   {
+    "at": "2026-06-09T11:00:19Z",
+    "commit": "629289f1f27",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-43038: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-43125",
+  "first_priority": "medium",
+  "critical_at": "2026-06-10T20:01:05Z",
+  "critical_commit": "d144ace3315",
+  "history": [
+   {
+    "at": "2026-05-07T11:34:44+10:00",
+    "commit": "d6c31ea6e75",
+    "priority": "medium",
+    "msg": "CVE Triage Thursday"
+   },
+   {
+    "at": "2026-06-10T20:01:05Z",
+    "commit": "d144ace3315",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-43125: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-43185",
+  "first_priority": "medium",
+  "critical_at": "2026-06-10T20:01:06Z",
+  "critical_commit": "cdbd1a898df",
+  "history": [
+   {
+    "at": "2026-05-07T11:34:44+10:00",
+    "commit": "d6c31ea6e75",
+    "priority": "medium",
+    "msg": "CVE Triage Thursday"
+   },
+   {
+    "at": "2026-06-10T20:01:06Z",
+    "commit": "cdbd1a898df",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-43185: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-43208",
+  "first_priority": "medium",
+  "critical_at": "2026-06-12T08:00:10Z",
+  "critical_commit": "e16398d0182",
+  "history": [
+   {
+    "at": "2026-05-07T11:34:44+10:00",
+    "commit": "d6c31ea6e75",
+    "priority": "medium",
+    "msg": "CVE Triage Thursday"
+   },
+   {
+    "at": "2026-06-12T08:00:10Z",
+    "commit": "e16398d0182",
+    "priority": "critical",
+    "msg": "kernel cves: reconcile agent triage onto security master"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-43304",
+  "first_priority": "medium",
+  "critical_at": "2026-06-09T11:00:16Z",
+  "critical_commit": "a470c93692c",
+  "history": [
+   {
+    "at": "2026-05-11T17:01:42+05:30",
+    "commit": "f5d92fbfda8",
+    "priority": "medium",
+    "msg": "daily process cve - Mon"
+   },
+   {
+    "at": "2026-06-09T11:00:16Z",
+    "commit": "a470c93692c",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-43304: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-43501",
+  "first_priority": "medium",
+  "critical_at": "2026-06-10T20:01:08Z",
+  "critical_commit": "164de4c2775",
+  "history": [
+   {
+    "at": "2026-05-22T15:28:38-03:00",
+    "commit": "b45b7b4c9ba",
+    "priority": "medium",
+    "msg": "Process cves run: triaged 26 CVEs, 143 Ignored, 10 Packages"
+   },
+   {
+    "at": "2026-06-10T20:01:08Z",
+    "commit": "164de4c2775",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-43501: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-4370",
+  "first_priority": "critical",
+  "critical_at": "2026-04-02T10:47:19+05:30",
+  "critical_commit": "281dfa2e1de",
+  "history": [
+   {
+    "at": "2026-04-02T10:47:19+05:30",
+    "commit": "281dfa2e1de",
+    "priority": "critical",
+    "msg": "daily process cve - Thu"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-45988",
+  "first_priority": "medium",
+  "critical_at": "2026-06-12T08:00:10Z",
+  "critical_commit": "5b171b7b3f3",
+  "history": [
+   {
+    "at": "2026-05-27T14:36:35-04:00",
+    "commit": "d97888d3a57",
+    "priority": "medium",
+    "msg": "process_cves run"
+   },
+   {
+    "at": "2026-06-12T08:00:10Z",
+    "commit": "5b171b7b3f3",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-45988: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-46043",
+  "first_priority": "medium",
+  "critical_at": "2026-06-12T08:00:11Z",
+  "critical_commit": "1d8491e0d0a",
+  "history": [
+   {
+    "at": "2026-05-27T14:36:35-04:00",
+    "commit": "d97888d3a57",
+    "priority": "medium",
+    "msg": "process_cves run"
+   },
+   {
+    "at": "2026-06-12T08:00:11Z",
+    "commit": "1d8491e0d0a",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-46043: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-46135",
+  "first_priority": "medium",
+  "critical_at": "2026-06-12T08:00:10Z",
+  "critical_commit": "e16398d0182",
+  "history": [
+   {
+    "at": "2026-05-29T11:01:50-04:00",
+    "commit": "ebd8ac7cd72",
+    "priority": "medium",
+    "msg": "process_cves run"
+   },
+   {
+    "at": "2026-06-12T08:00:10Z",
+    "commit": "e16398d0182",
+    "priority": "critical",
+    "msg": "kernel cves: reconcile agent triage onto security master"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-52955",
+  "first_priority": "medium",
+  "critical_at": "2026-07-01T08:55:37Z",
+  "critical_commit": "5e3abf6ba09",
+  "history": [
+   {
+    "at": "2026-06-25T10:04:20+05:30",
+    "commit": "55518e88742",
+    "priority": "medium",
+    "msg": "daily process cve - Thu"
+   },
+   {
+    "at": "2026-07-01T08:55:37Z",
+    "commit": "5e3abf6ba09",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-52955: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-52989",
+  "first_priority": "medium",
+  "critical_at": "2026-07-02T09:00:10Z",
+  "critical_commit": "72e311d0995",
+  "history": [
+   {
+    "at": "2026-06-25T10:04:20+05:30",
+    "commit": "55518e88742",
+    "priority": "medium",
+    "msg": "daily process cve - Thu"
+   },
+   {
+    "at": "2026-07-02T09:00:10Z",
+    "commit": "72e311d0995",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-52989: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-52993",
+  "first_priority": "medium",
+  "critical_at": "2026-07-02T09:00:11Z",
+  "critical_commit": "5250bc6df79",
+  "history": [
+   {
+    "at": "2026-06-25T10:04:20+05:30",
+    "commit": "55518e88742",
+    "priority": "medium",
+    "msg": "daily process cve - Thu"
+   },
+   {
+    "at": "2026-07-02T09:00:11Z",
+    "commit": "5250bc6df79",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-52993: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-53002",
+  "first_priority": "medium",
+  "critical_at": "2026-07-02T09:00:11Z",
+  "critical_commit": "16785b25e30",
+  "history": [
+   {
+    "at": "2026-06-25T10:04:20+05:30",
+    "commit": "55518e88742",
+    "priority": "medium",
+    "msg": "daily process cve - Thu"
+   },
+   {
+    "at": "2026-07-02T09:00:11Z",
+    "commit": "16785b25e30",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-53002: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-53215",
+  "first_priority": "medium",
+  "critical_at": "2026-06-28T01:00:45Z",
+  "critical_commit": "c5b3624afdd",
+  "history": [
+   {
+    "at": "2026-06-26T10:55:45+05:30",
+    "commit": "28eedf2917b",
+    "priority": "medium",
+    "msg": "daily process cve - Fri"
+   },
+   {
+    "at": "2026-06-28T01:00:45Z",
+    "commit": "c5b3624afdd",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-53215: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-53260",
+  "first_priority": "medium",
+  "critical_at": "2026-06-28T01:00:31Z",
+  "critical_commit": "07b844c8389",
+  "history": [
+   {
+    "at": "2026-06-26T10:55:45+05:30",
+    "commit": "28eedf2917b",
+    "priority": "medium",
+    "msg": "daily process cve - Fri"
+   },
+   {
+    "at": "2026-06-28T01:00:31Z",
+    "commit": "07b844c8389",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-53260: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-53398",
+  "first_priority": "medium",
+  "critical_at": "2026-08-18T04:02:14Z",
+  "critical_commit": "07f13df58d4",
+  "history": [
+   {
+    "at": "2026-07-20T22:59:50+10:00",
+    "commit": "a36a4e75c4d",
+    "priority": "medium",
+    "msg": "CVE Triage Monday"
+   },
+   {
+    "at": "2026-08-18T04:02:14Z",
+    "commit": "07f13df58d4",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-53398: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-63825",
+  "first_priority": "medium",
+  "critical_at": "2026-10-16T10:04:22Z",
+  "critical_commit": "756bb671e27",
+  "history": [
+   {
+    "at": "2026-07-20T22:59:50+10:00",
+    "commit": "a36a4e75c4d",
+    "priority": "medium",
+    "msg": "CVE Triage Monday"
+   },
+   {
+    "at": "2026-10-16T10:04:22Z",
+    "commit": "756bb671e27",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-63825: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-63940",
+  "first_priority": "medium",
+  "critical_at": "2026-08-21T06:16:33Z",
+  "critical_commit": "a021260b49d",
+  "history": [
+   {
+    "at": "2026-07-20T22:59:50+10:00",
+    "commit": "a36a4e75c4d",
+    "priority": "medium",
+    "msg": "CVE Triage Monday"
+   },
+   {
+    "at": "2026-08-21T06:16:33Z",
+    "commit": "a021260b49d",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-63940: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-64523",
+  "first_priority": "medium",
+  "critical_at": "2026-10-16T10:04:38Z",
+  "critical_commit": "914a7ad3a20",
+  "history": [
+   {
+    "at": "2026-07-27T10:01:57+02:00",
+    "commit": "f61e3003574",
+    "priority": "medium",
+    "msg": "process_cves run"
+   },
+   {
+    "at": "2026-10-16T10:04:38Z",
+    "commit": "914a7ad3a20",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-64523: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-64535",
+  "first_priority": "medium",
+  "critical_at": "2026-08-18T04:02:07Z",
+  "critical_commit": "2e4d80804c3",
+  "history": [
+   {
+    "at": "2026-07-28T07:36:55+02:00",
+    "commit": "43ec3516c34",
+    "priority": "medium",
+    "msg": "process_cves run"
+   },
+   {
+    "at": "2026-08-18T04:02:07Z",
+    "commit": "2e4d80804c3",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-64535: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-64564",
+  "first_priority": "medium",
+  "critical_at": "2026-08-18T04:02:06Z",
+  "critical_commit": "24790896a78",
+  "history": [
+   {
+    "at": "2026-08-04T19:33:23+01:00",
+    "commit": "d980a1e8329",
+    "priority": "medium",
+    "msg": "process_cves run"
+   },
+   {
+    "at": "2026-08-18T04:02:06Z",
+    "commit": "24790896a78",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-64564: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-68426",
+  "first_priority": "medium",
+  "critical_at": "2026-10-16T10:04:53Z",
+  "critical_commit": "7fe45ef01d3",
+  "history": [
+   {
+    "at": "2026-08-11T18:43:27-03:00",
+    "commit": "428a5dc6ed1",
+    "priority": "medium",
+    "msg": "Process Kernel cves run: added 347 CVEs"
+   },
+   {
+    "at": "2026-10-16T10:04:53Z",
+    "commit": "7fe45ef01d3",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-68426: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-72287",
+  "first_priority": "medium",
+  "critical_at": "2026-08-24T13:11:34Z",
+  "critical_commit": "f345fe7708d",
+  "history": [
+   {
+    "at": "2026-08-17T13:52:55+05:30",
+    "commit": "11768051081",
+    "priority": "medium",
+    "msg": "daily process cve - Mon"
+   },
+   {
+    "at": "2026-08-24T13:11:34Z",
+    "commit": "f345fe7708d",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-72287: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-72399",
+  "first_priority": "medium",
+  "critical_at": "2026-10-16T10:05:10Z",
+  "critical_commit": "23e6ad482be",
+  "history": [
+   {
+    "at": "2026-08-17T13:52:55+05:30",
+    "commit": "11768051081",
+    "priority": "medium",
+    "msg": "daily process cve - Mon"
+   },
+   {
+    "at": "2026-10-16T10:05:10Z",
+    "commit": "23e6ad482be",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-72399: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-74345",
+  "first_priority": "medium",
+  "critical_at": "2026-10-18T17:01:54Z",
+  "critical_commit": "08b3bbfb39d",
+  "history": [
+   {
+    "at": "2026-08-17T13:52:55+05:30",
+    "commit": "11768051081",
+    "priority": "medium",
+    "msg": "daily process cve - Mon"
+   },
+   {
+    "at": "2026-10-18T17:01:54Z",
+    "commit": "08b3bbfb39d",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-74345: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-74394",
+  "first_priority": "medium",
+  "critical_at": "2026-08-20T17:01:27Z",
+  "critical_commit": "7f7a76b66da",
+  "history": [
+   {
+    "at": "2026-08-17T13:52:55+05:30",
+    "commit": "11768051081",
+    "priority": "medium",
+    "msg": "daily process cve - Mon"
+   },
+   {
+    "at": "2026-08-20T17:01:27Z",
+    "commit": "7f7a76b66da",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-74394: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-89530",
+  "first_priority": "medium",
+  "critical_at": "2026-10-18T17:02:28Z",
+  "critical_commit": "9970e7f1b4e",
+  "history": [
+   {
+    "at": "2026-09-14T12:18:53+05:30",
+    "commit": "9e3370c240d",
+    "priority": "medium",
+    "msg": "daily process cve - Mon"
+   },
+   {
+    "at": "2026-10-18T17:02:28Z",
+    "commit": "9970e7f1b4e",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-89530: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-89652",
+  "first_priority": "medium",
+  "critical_at": "2026-10-18T17:02:40Z",
+  "critical_commit": "d57bbc8dbc0",
+  "history": [
+   {
+    "at": "2026-09-14T12:18:53+05:30",
+    "commit": "9e3370c240d",
+    "priority": "medium",
+    "msg": "daily process cve - Mon"
+   },
+   {
+    "at": "2026-10-18T17:02:40Z",
+    "commit": "d57bbc8dbc0",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-89652: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-89659",
+  "first_priority": "medium",
+  "critical_at": "2026-10-18T17:02:42Z",
+  "critical_commit": "05f32fdffbd",
+  "history": [
+   {
+    "at": "2026-09-14T12:18:53+05:30",
+    "commit": "9e3370c240d",
+    "priority": "medium",
+    "msg": "daily process cve - Mon"
+   },
+   {
+    "at": "2026-10-18T17:02:42Z",
+    "commit": "05f32fdffbd",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-89659: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-89708",
+  "first_priority": "medium",
+  "critical_at": "2026-10-18T17:02:42Z",
+  "critical_commit": "bdfd5b48cfb",
+  "history": [
+   {
+    "at": "2026-09-14T12:18:53+05:30",
+    "commit": "9e3370c240d",
+    "priority": "medium",
+    "msg": "daily process cve - Mon"
+   },
+   {
+    "at": "2026-10-18T17:02:42Z",
+    "commit": "bdfd5b48cfb",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-89708: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-90037",
+  "first_priority": "medium",
+  "critical_at": "2026-10-18T17:03:04Z",
+  "critical_commit": "2a6d9409814",
+  "history": [
+   {
+    "at": "2026-09-17T12:47:38+05:30",
+    "commit": "97bfc1f9958",
+    "priority": "medium",
+    "msg": "daily process cve - Thu"
+   },
+   {
+    "at": "2026-10-18T17:03:04Z",
+    "commit": "2a6d9409814",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-90037: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-90162",
+  "first_priority": "medium",
+  "critical_at": "2026-10-18T17:03:09Z",
+  "critical_commit": "7ca44839364",
+  "history": [
+   {
+    "at": "2026-09-18T10:48:22+05:30",
+    "commit": "feb5bc5fc2d",
+    "priority": "medium",
+    "msg": "daily process cve - Fri"
+   },
+   {
+    "at": "2026-10-18T17:03:09Z",
+    "commit": "7ca44839364",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-90162: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-93221",
+  "first_priority": "medium",
+  "critical_at": "2026-10-18T17:03:44Z",
+  "critical_commit": "4bd00612ad4",
+  "history": [
+   {
+    "at": "2026-09-24T20:19:15-03:00",
+    "commit": "1ba20379b35",
+    "priority": "medium",
+    "msg": "Process cves run: triaged 372 CVEs, 516 Ignored, 83 Packages"
+   },
+   {
+    "at": "2026-10-18T17:03:44Z",
+    "commit": "4bd00612ad4",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-93221: assess severity"
+   }
+  ]
+ },
+ {
+  "cve": "CVE-2026-98365",
+  "first_priority": "medium",
+  "critical_at": "2026-10-18T17:04:45Z",
+  "critical_commit": "055379bad7b",
+  "history": [
+   {
+    "at": "2026-10-07T13:06:47+02:00",
+    "commit": "5c96d05ad12",
+    "priority": "medium",
+    "msg": "process_cves run"
+   },
+   {
+    "at": "2026-10-18T17:04:45Z",
+    "commit": "055379bad7b",
+    "priority": "critical",
+    "msg": "kernel/CVE-2026-98365: assess severity"
+   }
+  ]
+ }
+]

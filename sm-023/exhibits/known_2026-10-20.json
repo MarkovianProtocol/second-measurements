@@ -1,0 +1,702 @@
+[
+ {
+  "cve": "CVE-2026-98365",
+  "published": "2026-10-06T09:18:00",
+  "first_usn": null,
+  "first_usn_at": null,
+  "tracker_first_commit": "5c96d05ad12f952622ab105afac8ce54d4d68bf2",
+  "known_at": "2026-10-07T11:06:47+00:00",
+  "known_minus_published_days": 1.08,
+  "days_known_to_usn": null
+ },
+ {
+  "cve": "CVE-2026-93221",
+  "published": "2026-09-24T00:00:00",
+  "first_usn": null,
+  "first_usn_at": null,
+  "tracker_first_commit": "1ba20379b35f4e1e6d2a719d1e4479b7513b5eef",
+  "known_at": "2026-09-24T23:19:15+00:00",
+  "known_minus_published_days": 0.97,
+  "days_known_to_usn": null
+ },
+ {
+  "cve": "CVE-2026-90162",
+  "published": "2026-09-17T17:17:00",
+  "first_usn": null,
+  "first_usn_at": null,
+  "tracker_first_commit": "feb5bc5fc2ddd1ea3eccf29b1006ea652bafea39",
+  "known_at": "2026-09-18T05:18:22+00:00",
+  "known_minus_published_days": 0.5,
+  "days_known_to_usn": null
+ },
+ {
+  "cve": "CVE-2026-90037",
+  "published": "2026-09-16T11:17:00",
+  "first_usn": null,
+  "first_usn_at": null,
+  "tracker_first_commit": "97bfc1f9958ca433d0da6dd352538573372a24f3",
+  "known_at": "2026-09-17T07:17:38+00:00",
+  "known_minus_published_days": 0.83,
+  "days_known_to_usn": null
+ },
+ {
+  "cve": "CVE-2026-89708",
+  "published": "2026-09-11T20:19:00",
+  "first_usn": null,
+  "first_usn_at": null,
+  "tracker_first_commit": "9e3370c240d90d9ad3591e51594b29360733717b",
+  "known_at": "2026-09-14T06:48:53+00:00",
+  "known_minus_published_days": 2.44,
+  "days_known_to_usn": null
+ },
+ {
+  "cve": "CVE-2026-89659",
+  "published": "2026-09-11T20:19:00",
+  "first_usn": null,
+  "first_usn_at": null,
+  "tracker_first_commit": "9e3370c240d90d9ad3591e51594b29360733717b",
+  "known_at": "2026-09-14T06:48:53+00:00",
+  "known_minus_published_days": 2.44,
+  "days_known_to_usn": null
+ },
+ {
+  "cve": "CVE-2026-89652",
+  "published": "2026-09-11T20:19:00",
+  "first_usn": null,
+  "first_usn_at": null,
+  "tracker_first_commit": "9e3370c240d90d9ad3591e51594b29360733717b",
+  "known_at": "2026-09-14T06:48:53+00:00",
+  "known_minus_published_days": 2.44,
+  "days_known_to_usn": null
+ },
+ {
+  "cve": "CVE-2026-89530",
+  "published": "2026-09-11T20:19:00",
+  "first_usn": null,
+  "first_usn_at": null,
+  "tracker_first_commit": "9e3370c240d90d9ad3591e51594b29360733717b",
+  "known_at": "2026-09-14T06:48:53+00:00",
+  "known_minus_published_days": 2.44,
+  "days_known_to_usn": null
+ },
+ {
+  "cve": "CVE-2026-74394",
+  "published": "2026-08-15T06:22:00",
+  "first_usn": "USN-8781-1",
+  "first_usn_at": "2026-09-18T08:50:47.034402+00:00",
+  "tracker_first_commit": "117680510818456c42bf5e77bc331843e8803f73",
+  "known_at": "2026-08-17T08:22:55+00:00",
+  "known_minus_published_days": 2.08,
+  "days_known_to_usn": 32.02
+ },
+ {
+  "cve": "CVE-2026-74345",
+  "published": "2026-08-15T06:22:00",
+  "first_usn": "USN-8781-1",
+  "first_usn_at": "2026-09-18T08:50:47.034402+00:00",
+  "tracker_first_commit": "117680510818456c42bf5e77bc331843e8803f73",
+  "known_at": "2026-08-17T08:22:55+00:00",
+  "known_minus_published_days": 2.08,
+  "days_known_to_usn": 32.02
+ },
+ {
+  "cve": "CVE-2026-72399",
+  "published": "2026-08-15T06:22:00",
+  "first_usn": "USN-8781-1",
+  "first_usn_at": "2026-09-18T08:50:47.034402+00:00",
+  "tracker_first_commit": "117680510818456c42bf5e77bc331843e8803f73",
+  "known_at": "2026-08-17T08:22:55+00:00",
+  "known_minus_published_days": 2.08,
+  "days_known_to_usn": 32.02
+ },
+ {
+  "cve": "CVE-2026-72287",
+  "published": "2026-08-15T06:22:00",
+  "first_usn": "USN-8816-1",
+  "first_usn_at": "2026-09-24T15:00:17.971576+00:00",
+  "tracker_first_commit": "117680510818456c42bf5e77bc331843e8803f73",
+  "known_at": "2026-08-17T08:22:55+00:00",
+  "known_minus_published_days": 2.08,
+  "days_known_to_usn": 38.28
+ },
+ {
+  "cve": "CVE-2026-68426",
+  "published": "2026-08-10T13:20:00",
+  "first_usn": "USN-8781-1",
+  "first_usn_at": "2026-09-18T08:50:47.034402+00:00",
+  "tracker_first_commit": "428a5dc6ed1727c7e30a931def0c4e75a4f00843",
+  "known_at": "2026-08-11T21:43:27+00:00",
+  "known_minus_published_days": 1.35,
+  "days_known_to_usn": 37.46
+ },
+ {
+  "cve": "CVE-2026-64564",
+  "published": "2026-08-04T07:16:00",
+  "first_usn": "USN-8781-1",
+  "first_usn_at": "2026-09-18T08:50:47.034402+00:00",
+  "tracker_first_commit": "d980a1e83295f31fe7c0a156b0e427321e2e721f",
+  "known_at": "2026-08-04T18:33:23+00:00",
+  "known_minus_published_days": 0.47,
+  "days_known_to_usn": 44.6
+ },
+ {
+  "cve": "CVE-2026-64535",
+  "published": "2026-07-27T08:16:00",
+  "first_usn": "USN-8781-1",
+  "first_usn_at": "2026-09-18T08:50:47.034402+00:00",
+  "tracker_first_commit": "43ec3516c349a8baea365d4e18c4d243b1207df5",
+  "known_at": "2026-07-28T05:36:55+00:00",
+  "known_minus_published_days": 0.89,
+  "days_known_to_usn": 52.13
+ },
+ {
+  "cve": "CVE-2026-64523",
+  "published": "2026-07-27T00:00:00",
+  "first_usn": "USN-8618-1",
+  "first_usn_at": "2026-07-28T07:16:49.282869+00:00",
+  "tracker_first_commit": "f61e3003574a3e43047d1180f35f00e43ec489e0",
+  "known_at": "2026-07-27T08:01:57+00:00",
+  "known_minus_published_days": 0.33,
+  "days_known_to_usn": 0.97
+ },
+ {
+  "cve": "CVE-2026-63940",
+  "published": "2026-07-20T00:00:00",
+  "first_usn": "USN-8593-1",
+  "first_usn_at": "2026-07-23T07:35:09.301838+00:00",
+  "tracker_first_commit": "a36a4e75c4dd2bbf72d94b82a695aa13274f6559",
+  "known_at": "2026-07-20T12:59:50+00:00",
+  "known_minus_published_days": 0.54,
+  "days_known_to_usn": 2.77
+ },
+ {
+  "cve": "CVE-2026-63825",
+  "published": "2026-07-19T12:16:00",
+  "first_usn": "USN-8726-1",
+  "first_usn_at": "2026-09-07T08:57:53.841088+00:00",
+  "tracker_first_commit": "a36a4e75c4dd2bbf72d94b82a695aa13274f6559",
+  "known_at": "2026-07-20T12:59:50+00:00",
+  "known_minus_published_days": 1.03,
+  "days_known_to_usn": 48.83
+ },
+ {
+  "cve": "CVE-2026-53398",
+  "published": "2026-07-19T12:16:00",
+  "first_usn": "USN-8726-1",
+  "first_usn_at": "2026-09-07T08:57:53.841088+00:00",
+  "tracker_first_commit": "a36a4e75c4dd2bbf72d94b82a695aa13274f6559",
+  "known_at": "2026-07-20T12:59:50+00:00",
+  "known_minus_published_days": 1.03,
+  "days_known_to_usn": 48.83
+ },
+ {
+  "cve": "CVE-2026-53260",
+  "published": "2026-06-25T09:16:00",
+  "first_usn": "USN-8629-1",
+  "first_usn_at": "2026-08-12T19:36:25.342992+00:00",
+  "tracker_first_commit": "28eedf2917b5577efeee810e44f67a5096c8c3a0",
+  "known_at": "2026-06-26T05:25:45+00:00",
+  "known_minus_published_days": 0.84,
+  "days_known_to_usn": 47.59
+ },
+ {
+  "cve": "CVE-2026-53215",
+  "published": "2026-06-25T09:16:00",
+  "first_usn": "USN-8629-1",
+  "first_usn_at": "2026-08-12T19:36:25.342992+00:00",
+  "tracker_first_commit": "28eedf2917b5577efeee810e44f67a5096c8c3a0",
+  "known_at": "2026-06-26T05:25:45+00:00",
+  "known_minus_published_days": 0.84,
+  "days_known_to_usn": 47.59
+ },
+ {
+  "cve": "CVE-2026-53002",
+  "published": "2026-06-24T17:17:00",
+  "first_usn": "USN-8566-1",
+  "first_usn_at": "2026-07-20T15:24:18.747835+00:00",
+  "tracker_first_commit": "55518e887425a8317d7d559ea90bbab68cbd7137",
+  "known_at": "2026-06-25T04:34:20+00:00",
+  "known_minus_published_days": 0.47,
+  "days_known_to_usn": 25.45
+ },
+ {
+  "cve": "CVE-2026-52993",
+  "published": "2026-06-24T17:17:00",
+  "first_usn": "USN-8566-1",
+  "first_usn_at": "2026-07-20T15:24:18.747835+00:00",
+  "tracker_first_commit": "55518e887425a8317d7d559ea90bbab68cbd7137",
+  "known_at": "2026-06-25T04:34:20+00:00",
+  "known_minus_published_days": 0.47,
+  "days_known_to_usn": 25.45
+ },
+ {
+  "cve": "CVE-2026-52989",
+  "published": "2026-06-24T17:17:00",
+  "first_usn": "USN-8566-1",
+  "first_usn_at": "2026-07-20T15:24:18.747835+00:00",
+  "tracker_first_commit": "55518e887425a8317d7d559ea90bbab68cbd7137",
+  "known_at": "2026-06-25T04:34:20+00:00",
+  "known_minus_published_days": 0.47,
+  "days_known_to_usn": 25.45
+ },
+ {
+  "cve": "CVE-2026-52955",
+  "published": "2026-06-24T17:17:00",
+  "first_usn": "USN-8566-1",
+  "first_usn_at": "2026-07-20T15:24:18.747835+00:00",
+  "tracker_first_commit": "55518e887425a8317d7d559ea90bbab68cbd7137",
+  "known_at": "2026-06-25T04:34:20+00:00",
+  "known_minus_published_days": 0.47,
+  "days_known_to_usn": 25.45
+ },
+ {
+  "cve": "CVE-2026-46135",
+  "published": "2026-05-28T10:16:00",
+  "first_usn": "USN-8489-1",
+  "first_usn_at": "2026-07-01T14:46:32.119610+00:00",
+  "tracker_first_commit": "ebd8ac7cd7234e3b6bd0e876d3ed069c7019699e",
+  "known_at": "2026-05-29T15:01:50+00:00",
+  "known_minus_published_days": 1.2,
+  "days_known_to_usn": 32.99
+ },
+ {
+  "cve": "CVE-2026-46043",
+  "published": "2026-05-27T00:00:00",
+  "first_usn": "USN-8489-1",
+  "first_usn_at": "2026-07-01T14:46:32.119610+00:00",
+  "tracker_first_commit": "d97888d3a573b7547c9fd8b5a366e7af5cec07ee",
+  "known_at": "2026-05-27T18:36:35+00:00",
+  "known_minus_published_days": 0.78,
+  "days_known_to_usn": 34.84
+ },
+ {
+  "cve": "CVE-2026-45988",
+  "published": "2026-05-27T00:00:00",
+  "first_usn": "USN-8489-1",
+  "first_usn_at": "2026-07-01T14:46:32.119610+00:00",
+  "tracker_first_commit": "d97888d3a573b7547c9fd8b5a366e7af5cec07ee",
+  "known_at": "2026-05-27T18:36:35+00:00",
+  "known_minus_published_days": 0.78,
+  "days_known_to_usn": 34.84
+ },
+ {
+  "cve": "CVE-2026-43501",
+  "published": "2026-05-21T13:16:00",
+  "first_usn": "USN-8489-1",
+  "first_usn_at": "2026-07-01T14:46:32.119610+00:00",
+  "tracker_first_commit": "b45b7b4c9ba978b8af38c7c4903348f4caab7b14",
+  "known_at": "2026-05-22T18:28:38+00:00",
+  "known_minus_published_days": 1.22,
+  "days_known_to_usn": 39.85
+ },
+ {
+  "cve": "CVE-2026-43304",
+  "published": "2026-05-08T14:16:00",
+  "first_usn": "USN-8491-1",
+  "first_usn_at": "2026-07-01T15:28:09.964572+00:00",
+  "tracker_first_commit": "f5d92fbfda893818f39f2b772bf1754247110c51",
+  "known_at": "2026-05-11T11:31:42+00:00",
+  "known_minus_published_days": 2.89,
+  "days_known_to_usn": 51.16
+ },
+ {
+  "cve": "CVE-2026-43208",
+  "published": "2026-05-06T12:16:00",
+  "first_usn": null,
+  "first_usn_at": null,
+  "tracker_first_commit": "d6c31ea6e75f0def4cb046f6a2fd0eaf409bbbb6",
+  "known_at": "2026-05-07T01:34:44+00:00",
+  "known_minus_published_days": 0.55,
+  "days_known_to_usn": null
+ },
+ {
+  "cve": "CVE-2026-43185",
+  "published": "2026-05-06T12:16:00",
+  "first_usn": "USN-8545-1",
+  "first_usn_at": "2026-07-15T07:57:03.861057+00:00",
+  "tracker_first_commit": "d6c31ea6e75f0def4cb046f6a2fd0eaf409bbbb6",
+  "known_at": "2026-05-07T01:34:44+00:00",
+  "known_minus_published_days": 0.55,
+  "days_known_to_usn": 69.27
+ },
+ {
+  "cve": "CVE-2026-43125",
+  "published": "2026-05-06T12:16:00",
+  "first_usn": "USN-8491-1",
+  "first_usn_at": "2026-07-01T15:28:09.964572+00:00",
+  "tracker_first_commit": "d6c31ea6e75f0def4cb046f6a2fd0eaf409bbbb6",
+  "known_at": "2026-05-07T01:34:44+00:00",
+  "known_minus_published_days": 0.55,
+  "days_known_to_usn": 55.58
+ },
+ {
+  "cve": "CVE-2026-43038",
+  "published": "2026-05-01T15:16:00",
+  "first_usn": "USN-8491-1",
+  "first_usn_at": "2026-07-01T15:28:09.964572+00:00",
+  "tracker_first_commit": "f959178eb000f097976cb9bc39c5619b5993aef6",
+  "known_at": "2026-05-05T04:21:24+00:00",
+  "known_minus_published_days": 3.55,
+  "days_known_to_usn": 57.46
+ },
+ {
+  "cve": "CVE-2026-43037",
+  "published": "2026-05-01T15:16:00",
+  "first_usn": "USN-8491-1",
+  "first_usn_at": "2026-07-01T15:28:09.964572+00:00",
+  "tracker_first_commit": "f959178eb000f097976cb9bc39c5619b5993aef6",
+  "known_at": "2026-05-05T04:21:24+00:00",
+  "known_minus_published_days": 3.55,
+  "days_known_to_usn": 57.46
+ },
+ {
+  "cve": "CVE-2026-43011",
+  "published": "2026-05-01T15:16:00",
+  "first_usn": "USN-8491-1",
+  "first_usn_at": "2026-07-01T15:28:09.964572+00:00",
+  "tracker_first_commit": "f959178eb000f097976cb9bc39c5619b5993aef6",
+  "known_at": "2026-05-05T04:21:24+00:00",
+  "known_minus_published_days": 3.55,
+  "days_known_to_usn": 57.46
+ },
+ {
+  "cve": "CVE-2026-31637",
+  "published": "2026-04-24T15:16:00",
+  "first_usn": "USN-8491-1",
+  "first_usn_at": "2026-07-01T15:28:09.964572+00:00",
+  "tracker_first_commit": "586b74d2909c9e4d90ad96d32c19830bed8165fe",
+  "known_at": "2026-04-28T21:06:01+00:00",
+  "known_minus_published_days": 4.24,
+  "days_known_to_usn": 63.77
+ },
+ {
+  "cve": "CVE-2026-31608",
+  "published": "2026-04-24T15:16:00",
+  "first_usn": "USN-8488-1",
+  "first_usn_at": "2026-07-01T16:43:16.688626+00:00",
+  "tracker_first_commit": "586b74d2909c9e4d90ad96d32c19830bed8165fe",
+  "known_at": "2026-04-28T21:06:01+00:00",
+  "known_minus_published_days": 4.24,
+  "days_known_to_usn": 63.82
+ },
+ {
+  "cve": "CVE-2026-31402",
+  "published": "2026-04-03T16:16:00",
+  "first_usn": "USN-8491-1",
+  "first_usn_at": "2026-07-01T15:28:09.964572+00:00",
+  "tracker_first_commit": "0174c7d12b71f18cf35adde2b219a86baf490f95",
+  "known_at": "2026-04-06T21:24:28+00:00",
+  "known_minus_published_days": 3.21,
+  "days_known_to_usn": 85.75
+ },
+ {
+  "cve": "CVE-2026-4370",
+  "published": "2026-04-01T09:16:00",
+  "first_usn": null,
+  "first_usn_at": null,
+  "tracker_first_commit": "281dfa2e1de9a771ec4814d7de20d07a2ec1b62f",
+  "known_at": "2026-04-02T05:17:19+00:00",
+  "known_minus_published_days": 0.83,
+  "days_known_to_usn": null
+ },
+ {
+  "cve": "CVE-2026-23216",
+  "published": "2026-02-18T15:18:00",
+  "first_usn": "USN-8278-1",
+  "first_usn_at": "2026-05-19T22:33:02.758729+00:00",
+  "tracker_first_commit": "0649a979983b8e600e377a1b3cafee928b64b14d",
+  "known_at": "2026-02-19T03:56:58+00:00",
+  "known_minus_published_days": 0.53,
+  "days_known_to_usn": 89.78
+ },
+ {
+  "cve": "CVE-2025-71068",
+  "published": "2026-01-13T16:16:00",
+  "first_usn": "USN-8096-1",
+  "first_usn_at": "2026-03-16T14:37:39.872746+00:00",
+  "tracker_first_commit": "87f876e5ea5d18a954b7cb9b7ee1f75cfc4394d4",
+  "known_at": "2026-01-14T19:06:14+00:00",
+  "known_minus_published_days": 1.12,
+  "days_known_to_usn": 60.81
+ },
+ {
+  "cve": "CVE-2023-53867",
+  "published": "2025-12-24T11:15:00",
+  "first_usn": null,
+  "first_usn_at": null,
+  "tracker_first_commit": "9c13edcd089636f2e7d272bbc8f7f18b51307e0c",
+  "known_at": "2025-12-25T11:38:14+00:00",
+  "known_minus_published_days": 1.02,
+  "days_known_to_usn": null
+ },
+ {
+  "cve": "CVE-2025-68284",
+  "published": "2025-12-16T16:16:00",
+  "first_usn": "USN-8094-1",
+  "first_usn_at": "2026-03-16T13:42:27.245496+00:00",
+  "tracker_first_commit": "8813e74f8692cd8bd968d3f8233ff983d4434e3d",
+  "known_at": "2025-12-17T06:57:48+00:00",
+  "known_minus_published_days": 0.61,
+  "days_known_to_usn": 89.28
+ },
+ {
+  "cve": "CVE-2025-68263",
+  "published": "2025-12-16T15:15:00",
+  "first_usn": "USN-8094-1",
+  "first_usn_at": "2026-03-16T13:42:27.245496+00:00",
+  "tracker_first_commit": "8813e74f8692cd8bd968d3f8233ff983d4434e3d",
+  "known_at": "2025-12-17T06:57:48+00:00",
+  "known_minus_published_days": 0.65,
+  "days_known_to_usn": 89.28
+ },
+ {
+  "cve": "CVE-2022-50410",
+  "published": "2025-09-18T16:15:00",
+  "first_usn": null,
+  "first_usn_at": null,
+  "tracker_first_commit": "87555878d3a4cdf3c451a53cf6a2ae896fc20062",
+  "known_at": "2025-09-19T17:51:01+00:00",
+  "known_minus_published_days": 1.07,
+  "days_known_to_usn": null
+ },
+ {
+  "cve": "CVE-2022-50401",
+  "published": "2025-09-18T16:15:00",
+  "first_usn": "USN-8725-1",
+  "first_usn_at": "2026-09-04T17:51:55.833524+00:00",
+  "tracker_first_commit": "87555878d3a4cdf3c451a53cf6a2ae896fc20062",
+  "known_at": "2025-09-19T17:51:01+00:00",
+  "known_minus_published_days": 1.07,
+  "days_known_to_usn": 350.0
+ },
+ {
+  "cve": "CVE-2025-38724",
+  "published": "2025-09-04T16:15:00",
+  "first_usn": "USN-7909-1",
+  "first_usn_at": "2025-12-04T09:26:45.586444+00:00",
+  "tracker_first_commit": "fe6e639f1f38b53dc57aa382164cc812d45ecaaf",
+  "known_at": "2025-09-05T07:34:54+00:00",
+  "known_minus_published_days": 0.64,
+  "days_known_to_usn": 90.08
+ },
+ {
+  "cve": "CVE-2025-38490",
+  "published": "2025-07-28T12:15:00",
+  "first_usn": "USN-7879-1",
+  "first_usn_at": "2025-11-21T15:26:39.197001+00:00",
+  "tracker_first_commit": "a74248d787ba83c69595467f413742b5c3e896a8",
+  "known_at": "2025-07-29T09:27:38+00:00",
+  "known_minus_published_days": 0.88,
+  "days_known_to_usn": 115.25
+ },
+ {
+  "cve": "CVE-2022-49770",
+  "published": "2025-05-01T15:15:00",
+  "first_usn": null,
+  "first_usn_at": null,
+  "tracker_first_commit": "ff0b8d81882ab6b284114cd27d2341f92470c63c",
+  "known_at": "2025-05-02T12:43:38+00:00",
+  "known_minus_published_days": 0.89,
+  "days_known_to_usn": null
+ },
+ {
+  "cve": "CVE-2025-37777",
+  "published": "2025-05-01T14:15:00",
+  "first_usn": "USN-7594-1",
+  "first_usn_at": "2025-06-24T13:16:31.825410+00:00",
+  "tracker_first_commit": "ff0b8d81882ab6b284114cd27d2341f92470c63c",
+  "known_at": "2025-05-02T12:43:38+00:00",
+  "known_minus_published_days": 0.94,
+  "days_known_to_usn": 53.02
+ },
+ {
+  "cve": "CVE-2022-49279",
+  "published": "2025-02-26T07:01:00",
+  "first_usn": null,
+  "first_usn_at": null,
+  "tracker_first_commit": "c604e0909dc34cc77cfed9f02b04d0d66de2ef43",
+  "known_at": "2025-02-27T12:23:06+00:00",
+  "known_minus_published_days": 1.22,
+  "days_known_to_usn": null
+ },
+ {
+  "cve": "CVE-2022-49149",
+  "published": "2025-02-26T07:00:00",
+  "first_usn": "USN-8919-1",
+  "first_usn_at": "2026-10-13T15:09:05.604614+00:00",
+  "tracker_first_commit": "c604e0909dc34cc77cfed9f02b04d0d66de2ef43",
+  "known_at": "2025-02-27T12:23:06+00:00",
+  "known_minus_published_days": 1.22,
+  "days_known_to_usn": 593.12
+ },
+ {
+  "cve": "CVE-2024-50286",
+  "published": "2024-11-19T02:16:00",
+  "first_usn": "USN-7276-1",
+  "first_usn_at": "2025-02-19T15:58:57.779509+00:00",
+  "tracker_first_commit": "a6c32c4713c3d763659d8e2ab506435beb8309b1",
+  "known_at": "2024-11-20T04:45:37+00:00",
+  "known_minus_published_days": 1.1,
+  "days_known_to_usn": 91.47
+ },
+ {
+  "cve": "CVE-2024-46717",
+  "published": "2024-09-18T07:15:00",
+  "first_usn": "USN-7154-1",
+  "first_usn_at": "2024-12-12T17:09:44.107256+00:00",
+  "tracker_first_commit": "24cbad9235fb31003d0930e64fcce2affe29c5e4",
+  "known_at": "2024-09-18T12:40:32+00:00",
+  "known_minus_published_days": 0.23,
+  "days_known_to_usn": 85.19
+ },
+ {
+  "cve": "CVE-2024-35863",
+  "published": "2024-05-19T09:15:00",
+  "first_usn": "USN-6893-1",
+  "first_usn_at": "2024-07-11T19:01:12.639714+00:00",
+  "tracker_first_commit": "2f627370dec92f6a697e8ce0e2e1762eee33f850",
+  "known_at": "2024-05-20T02:59:33+00:00",
+  "known_minus_published_days": 0.74,
+  "days_known_to_usn": 52.67
+ },
+ {
+  "cve": "CVE-2024-3094",
+  "published": "2024-03-29T17:15:00",
+  "first_usn": null,
+  "first_usn_at": null,
+  "tracker_first_commit": "01d7f04707892608366bccbf1bd7c83ccda2ae75",
+  "known_at": "2024-03-30T12:33:37+00:00",
+  "known_minus_published_days": 0.8,
+  "days_known_to_usn": null
+ },
+ {
+  "cve": "CVE-2022-0435",
+  "published": "2022-02-10T00:00:00",
+  "first_usn": "USN-5302-1",
+  "first_usn_at": "2022-02-22T22:45:56.572723+00:00",
+  "tracker_first_commit": "acb3d89ab51f1d5e5543fa993969c0eb13c71f04",
+  "known_at": "2022-02-10T21:31:59+00:00",
+  "known_minus_published_days": 0.9,
+  "days_known_to_usn": 12.05
+ },
+ {
+  "cve": "CVE-2021-20322",
+  "published": "2021-10-19T00:00:00",
+  "first_usn": "USN-5268-1",
+  "first_usn_at": "2022-02-03T05:48:15+00:00",
+  "tracker_first_commit": "1bbbce2fb1a3c15b20fcf10f0073e1fb6ad43ae6",
+  "known_at": "2021-10-20T22:50:13+00:00",
+  "known_minus_published_days": 1.95,
+  "days_known_to_usn": 105.29
+ },
+ {
+  "cve": "CVE-2011-3374",
+  "published": "2019-11-26T00:15:00",
+  "first_usn": null,
+  "first_usn_at": null,
+  "tracker_first_commit": "30d93253292f2d2b9ba1e87dfa1acfb9b542ec02",
+  "known_at": "2011-10-03T13:33:37+00:00",
+  "known_minus_published_days": -2975.45,
+  "days_known_to_usn": null
+ },
+ {
+  "cve": "CVE-2019-0147",
+  "published": "2019-11-14T19:15:00",
+  "first_usn": null,
+  "first_usn_at": null,
+  "tracker_first_commit": "e146f2de2a8ee4d7d1c898408cf11de2bdd87df6",
+  "known_at": "2020-10-06T00:39:42+00:00",
+  "known_minus_published_days": 326.23,
+  "days_known_to_usn": null
+ },
+ {
+  "cve": "CVE-2017-5754",
+  "published": "2018-01-03T22:00:00",
+  "first_usn": "USN-3516-1",
+  "first_usn_at": "2018-01-05T21:18:31.759862+00:00",
+  "tracker_first_commit": "9d4850b0c54c71ddca4f483f961756a699072a09",
+  "known_at": "2018-01-04T00:28:54+00:00",
+  "known_minus_published_days": 0.1,
+  "days_known_to_usn": 1.87
+ },
+ {
+  "cve": "CVE-2017-11282",
+  "published": "2017-12-01T08:29:00",
+  "first_usn": null,
+  "first_usn_at": null,
+  "tracker_first_commit": "2667523f8ff36c0709dec21b93d3e3de905a50a6",
+  "known_at": "2017-09-13T17:06:56+00:00",
+  "known_minus_published_days": -78.64,
+  "days_known_to_usn": null
+ },
+ {
+  "cve": "CVE-2017-11281",
+  "published": "2017-12-01T08:29:00",
+  "first_usn": null,
+  "first_usn_at": null,
+  "tracker_first_commit": "2667523f8ff36c0709dec21b93d3e3de905a50a6",
+  "known_at": "2017-09-13T17:06:56+00:00",
+  "known_minus_published_days": -78.64,
+  "days_known_to_usn": null
+ },
+ {
+  "cve": "CVE-2015-8768",
+  "published": "2017-02-13T18:59:00",
+  "first_usn": "USN-2771-1",
+  "first_usn_at": "2015-10-15T20:08:03.243326+00:00",
+  "tracker_first_commit": "64c59bf89c36d23ac4143640e92f0f1531f8a12c",
+  "known_at": "2016-01-12T20:10:19+00:00",
+  "known_minus_published_days": -397.95,
+  "days_known_to_usn": -89.0
+ },
+ {
+  "cve": "CVE-2014-0196",
+  "published": "2014-05-05T00:00:00",
+  "first_usn": "USN-2196-1",
+  "first_usn_at": "2014-05-06T02:14:37.336543+00:00",
+  "tracker_first_commit": "f18abbcfc361535cef08387ddc83560a5acdda25",
+  "known_at": "2014-05-05T19:48:05+00:00",
+  "known_minus_published_days": 0.83,
+  "days_known_to_usn": 0.27
+ },
+ {
+  "cve": "CVE-2014-0038",
+  "published": "2014-01-30T00:00:00",
+  "first_usn": "USN-2094-1",
+  "first_usn_at": "2014-01-31T05:19:35.752540+00:00",
+  "tracker_first_commit": "037eb59da02c9dfd66db1139cd52091318f36c8b",
+  "known_at": "2014-01-31T03:03:19+00:00",
+  "known_minus_published_days": 1.13,
+  "days_known_to_usn": 0.09
+ },
+ {
+  "cve": "CVE-2012-3587",
+  "published": "2012-06-19T20:55:00",
+  "first_usn": null,
+  "first_usn_at": null,
+  "tracker_first_commit": "12feeab0175138ebb72e830b211ce27d121a649f",
+  "known_at": "2012-06-21T12:24:40+00:00",
+  "known_minus_published_days": 1.65,
+  "days_known_to_usn": null
+ },
+ {
+  "cve": "CVE-2012-0954",
+  "published": "2012-06-15T00:00:00",
+  "first_usn": "USN-1477-1",
+  "first_usn_at": "2012-06-15T20:51:19.510776+00:00",
+  "tracker_first_commit": "1fa2dc80f567ccedfa8b6cd0a927f3949e1e8025",
+  "known_at": "2012-06-15T20:45:17+00:00",
+  "known_minus_published_days": 0.86,
+  "days_known_to_usn": 0.0
+ },
+ {
+  "cve": "CVE-2008-0166",
+  "published": "2008-05-13T17:20:00",
+  "first_usn": "USN-612-1",
+  "first_usn_at": "2008-05-13T13:19:44.897683+00:00",
+  "tracker_first_commit": "3a8590c5ec1b5575437aa7fd5e6c5735fa2844a0",
+  "known_at": "2008-05-30T18:54:53+00:00",
+  "known_minus_published_days": 17.07,
+  "days_known_to_usn": -17.23
+ }
+]
