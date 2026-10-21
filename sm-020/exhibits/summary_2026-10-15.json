@@ -1,0 +1,1301 @@
+{
+ "source": "results_2026-10-15.json",
+ "fetched_at": "2026-10-15T04:59:48.689849+00:00",
+ "deadlines": {
+  "2025Q1": "2025-04-21",
+  "2025Q2": "2025-07-21",
+  "2025Q3": "2025-10-20",
+  "2025Q4": "2026-01-20",
+  "2026Q1": "2026-04-20",
+  "2026Q2": "2026-07-20"
+ },
+ "quarters": {
+  "2025Q1": {
+   "deadline": "2025-04-21",
+   "types": {
+    "Q1": {
+     "total": 19910,
+     "late": 2321,
+     "over_30": 355
+    },
+    "Q1Y": {
+     "total": 2480,
+     "late": 562,
+     "over_30": 89
+    },
+    "1T": {
+     "total": 570,
+     "late": 79,
+     "over_30": 38
+    },
+    "1TY": {
+     "total": 644,
+     "late": 97,
+     "over_30": 36
+    }
+   },
+   "regular": {
+    "total": 19910,
+    "late": 2321,
+    "late_pct": 11.7
+   },
+   "no_activity": {
+    "total": 2480,
+    "late": 562,
+    "late_pct": 22.7
+   },
+   "termination": {
+    "total": 1214,
+    "late": 176,
+    "late_pct": 14.5
+   },
+   "total": 23604,
+   "late": 3059,
+   "late_pct": 13.0,
+   "over_30": 518,
+   "registered_after_due": 206
+  },
+  "2025Q2": {
+   "deadline": "2025-07-21",
+   "types": {
+    "Q2": {
+     "total": 20927,
+     "late": 2173,
+     "over_30": 286
+    },
+    "Q2Y": {
+     "total": 2342,
+     "late": 465,
+     "over_30": 53
+    },
+    "2T": {
+     "total": 629,
+     "late": 107,
+     "over_30": 43
+    },
+    "2TY": {
+     "total": 422,
+     "late": 64,
+     "over_30": 24
+    }
+   },
+   "regular": {
+    "total": 20927,
+    "late": 2173,
+    "late_pct": 10.4
+   },
+   "no_activity": {
+    "total": 2342,
+    "late": 465,
+    "late_pct": 19.9
+   },
+   "termination": {
+    "total": 1051,
+    "late": 171,
+    "late_pct": 16.3
+   },
+   "total": 24320,
+   "late": 2809,
+   "late_pct": 11.6,
+   "over_30": 406,
+   "registered_after_due": 139
+  },
+  "2025Q3": {
+   "deadline": "2025-10-20",
+   "types": {
+    "Q3": {
+     "total": 21117,
+     "late": 2388,
+     "over_30": 420
+    },
+    "Q3Y": {
+     "total": 2541,
+     "late": 529,
+     "over_30": 120
+    },
+    "3T": {
+     "total": 692,
+     "late": 115,
+     "over_30": 54
+    },
+    "3TY": {
+     "total": 443,
+     "late": 68,
+     "over_30": 23
+    }
+   },
+   "regular": {
+    "total": 21117,
+    "late": 2388,
+    "late_pct": 11.3
+   },
+   "no_activity": {
+    "total": 2541,
+    "late": 529,
+    "late_pct": 20.8
+   },
+   "termination": {
+    "total": 1135,
+    "late": 183,
+    "late_pct": 16.1
+   },
+   "total": 24793,
+   "late": 3100,
+   "late_pct": 12.5,
+   "over_30": 617,
+   "registered_after_due": 136
+  },
+  "2025Q4": {
+   "deadline": "2026-01-20",
+   "types": {
+    "Q4": {
+     "total": 20945,
+     "late": 2235,
+     "over_30": 317
+    },
+    "Q4Y": {
+     "total": 2699,
+     "late": 503,
+     "over_30": 80
+    },
+    "4T": {
+     "total": 952,
+     "late": 184,
+     "over_30": 92
+    },
+    "4TY": {
+     "total": 571,
+     "late": 96,
+     "over_30": 39
+    }
+   },
+   "regular": {
+    "total": 20945,
+    "late": 2235,
+    "late_pct": 10.7
+   },
+   "no_activity": {
+    "total": 2699,
+    "late": 503,
+    "late_pct": 18.6
+   },
+   "termination": {
+    "total": 1523,
+    "late": 280,
+    "late_pct": 18.4
+   },
+   "total": 25167,
+   "late": 3018,
+   "late_pct": 12.0,
+   "over_30": 528,
+   "registered_after_due": 113
+  },
+  "2026Q1": {
+   "deadline": "2026-04-20",
+   "types": {
+    "Q1": {
+     "total": 21843,
+     "late": 2522,
+     "over_30": 538
+    },
+    "Q1Y": {
+     "total": 2503,
+     "late": 452,
+     "over_30": 135
+    },
+    "1T": {
+     "total": 680,
+     "late": 126,
+     "over_30": 69
+    },
+    "1TY": {
+     "total": 642,
+     "late": 105,
+     "over_30": 57
+    }
+   },
+   "regular": {
+    "total": 21843,
+    "late": 2522,
+    "late_pct": 11.5
+   },
+   "no_activity": {
+    "total": 2503,
+    "late": 452,
+    "late_pct": 18.1
+   },
+   "termination": {
+    "total": 1322,
+    "late": 231,
+    "late_pct": 17.5
+   },
+   "total": 25668,
+   "late": 3205,
+   "late_pct": 12.5,
+   "over_30": 799,
+   "registered_after_due": 178
+  },
+  "2026Q2": {
+   "deadline": "2026-07-20",
+   "types": {
+    "Q2": {
+     "total": 21965,
+     "late": 2166,
+     "over_30": 150
+    },
+    "Q2Y": {
+     "total": 2490,
+     "late": 459,
+     "over_30": 26
+    },
+    "2T": {
+     "total": 703,
+     "late": 79,
+     "over_30": 32
+    },
+    "2TY": {
+     "total": 527,
+     "late": 77,
+     "over_30": 16
+    }
+   },
+   "regular": {
+    "total": 21965,
+    "late": 2166,
+    "late_pct": 9.9
+   },
+   "no_activity": {
+    "total": 2490,
+    "late": 459,
+    "late_pct": 18.4
+   },
+   "termination": {
+    "total": 1230,
+    "late": 156,
+    "late_pct": 12.7
+   },
+   "total": 25685,
+   "late": 2781,
+   "late_pct": 10.8,
+   "over_30": 224,
+   "registered_after_due": 92
+  }
+ },
+ "by_type": {
+  "regular": {
+   "total": 126707,
+   "late": 13805,
+   "late_pct": 10.9
+  },
+  "no_activity": {
+   "total": 15055,
+   "late": 2970,
+   "late_pct": 19.7
+  },
+  "termination": {
+   "total": 7475,
+   "late": 1197,
+   "late_pct": 16.0
+  }
+ },
+ "all": {
+  "quarters": [
+   "2025Q1",
+   "2025Q2",
+   "2025Q3",
+   "2025Q4",
+   "2026Q1",
+   "2026Q2"
+  ],
+  "total": 149237,
+  "late": 17972,
+  "late_pct": 12.0,
+  "over_30": 3092,
+  "median_days": 15.0,
+  "max_days": 525,
+  "registered_after_due": 864,
+  "late_excl_registered_after_due": 17108
+ },
+ "y2025": {
+  "quarters": [
+   "2025Q1",
+   "2025Q2",
+   "2025Q3",
+   "2025Q4"
+  ],
+  "total": 97884,
+  "late": 11986,
+  "late_pct": 12.2,
+  "over_30": 2069,
+  "median_days": 15.0,
+  "max_days": 525,
+  "registered_after_due": 594,
+  "late_excl_registered_after_due": 11392
+ },
+ "days_buckets": {
+  "1": 2985,
+  "2-7": 3303,
+  "8-30": 8592,
+  "31-90": 2296,
+  "over_90": 796
+ },
+ "days_late_counts": {
+  "1": 2985,
+  "2": 1119,
+  "3": 816,
+  "4": 472,
+  "5": 111,
+  "6": 253,
+  "7": 532,
+  "8": 355,
+  "9": 380,
+  "10": 456,
+  "11": 219,
+  "12": 32,
+  "13": 68,
+  "14": 1049,
+  "15": 1345,
+  "16": 721,
+  "17": 984,
+  "18": 517,
+  "19": 89,
+  "20": 158,
+  "21": 373,
+  "22": 449,
+  "23": 266,
+  "24": 144,
+  "25": 95,
+  "26": 32,
+  "27": 53,
+  "28": 369,
+  "29": 216,
+  "30": 222
+ },
+ "busiest_late_days": [
+  {
+   "quarter": "2025Q3",
+   "date": "2025-11-06",
+   "reports": 649,
+   "days_after_deadline": 17,
+   "weekday": "Thursday",
+   "registrants": 338
+  },
+  {
+   "quarter": "2026Q1",
+   "date": "2026-04-21",
+   "reports": 564,
+   "days_after_deadline": 1,
+   "weekday": "Tuesday",
+   "registrants": 159
+  },
+  {
+   "quarter": "2025Q1",
+   "date": "2025-05-06",
+   "reports": 545,
+   "days_after_deadline": 15,
+   "weekday": "Tuesday",
+   "registrants": 263
+  },
+  {
+   "quarter": "2025Q4",
+   "date": "2026-01-21",
+   "reports": 509,
+   "days_after_deadline": 1,
+   "weekday": "Wednesday",
+   "registrants": 169
+  },
+  {
+   "quarter": "2025Q2",
+   "date": "2025-08-05",
+   "reports": 506,
+   "days_after_deadline": 15,
+   "weekday": "Tuesday",
+   "registrants": 276
+  },
+  {
+   "quarter": "2025Q2",
+   "date": "2025-07-22",
+   "reports": 502,
+   "days_after_deadline": 1,
+   "weekday": "Tuesday",
+   "registrants": 164
+  },
+  {
+   "quarter": "2025Q1",
+   "date": "2025-04-22",
+   "reports": 484,
+   "days_after_deadline": 1,
+   "weekday": "Tuesday",
+   "registrants": 150
+  },
+  {
+   "quarter": "2026Q2",
+   "date": "2026-07-21",
+   "reports": 480,
+   "days_after_deadline": 1,
+   "weekday": "Tuesday",
+   "registrants": 160
+  },
+  {
+   "quarter": "2025Q3",
+   "date": "2025-10-21",
+   "reports": 446,
+   "days_after_deadline": 1,
+   "weekday": "Tuesday",
+   "registrants": 155
+  },
+  {
+   "quarter": "2026Q1",
+   "date": "2026-05-04",
+   "reports": 324,
+   "days_after_deadline": 14,
+   "weekday": "Monday",
+   "registrants": 177
+  },
+  {
+   "quarter": "2025Q1",
+   "date": "2025-05-05",
+   "reports": 304,
+   "days_after_deadline": 14,
+   "weekday": "Monday",
+   "registrants": 163
+  },
+  {
+   "quarter": "2026Q2",
+   "date": "2026-08-03",
+   "reports": 293,
+   "days_after_deadline": 14,
+   "weekday": "Monday",
+   "registrants": 152
+  }
+ ],
+ "third_week": {
+  "by_quarter": {
+   "2025Q1": {
+    "peak_registrants": 263,
+    "days_8_12": 190,
+    "days_13_18": 1149,
+    "days_19_24": 170,
+    "peak_day": 15,
+    "peak_reports": 545,
+    "busiest_day": 15,
+    "busiest_reports": 545,
+    "day_1": 484
+   },
+   "2025Q2": {
+    "peak_registrants": 276,
+    "days_8_12": 216,
+    "days_13_18": 846,
+    "days_19_24": 142,
+    "peak_day": 15,
+    "peak_reports": 506,
+    "busiest_day": 15,
+    "busiest_reports": 506,
+    "day_1": 502
+   },
+   "2025Q3": {
+    "peak_registrants": 338,
+    "days_8_12": 261,
+    "days_13_18": 875,
+    "days_19_24": 330,
+    "peak_day": 17,
+    "peak_reports": 649,
+    "busiest_day": 17,
+    "busiest_reports": 649,
+    "day_1": 446
+   },
+   "2025Q4": {
+    "peak_registrants": 137,
+    "days_8_12": 288,
+    "days_13_18": 460,
+    "days_19_24": 466,
+    "peak_day": 16,
+    "peak_reports": 266,
+    "busiest_day": 1,
+    "busiest_reports": 509,
+    "day_1": 509
+   },
+   "2026Q1": {
+    "peak_registrants": 177,
+    "days_8_12": 194,
+    "days_13_18": 597,
+    "days_19_24": 129,
+    "peak_day": 14,
+    "peak_reports": 324,
+    "busiest_day": 1,
+    "busiest_reports": 564,
+    "day_1": 564
+   },
+   "2026Q2": {
+    "peak_registrants": 152,
+    "days_8_12": 293,
+    "days_13_18": 757,
+    "days_19_24": 242,
+    "peak_day": 14,
+    "peak_reports": 293,
+    "busiest_day": 1,
+    "busiest_reports": 480,
+    "day_1": 480
+   }
+  },
+  "days_13_18": 4684,
+  "days_8_12": 1442,
+  "peak_days": [
+   14,
+   15,
+   16,
+   17
+  ]
+ },
+ "midnight_edge": {
+  "posted_00_00_to_00_05": 16,
+  "posted_00_00_to_01_59": 197
+ },
+ "top_firms": [
+  {
+   "registrant_id": 400862528,
+   "registrant": "SUSTAINABLE STRATEGIES DC",
+   "late": 249,
+   "clients_late": 43,
+   "quarters_late": 6,
+   "median_days": 15,
+   "max_days": 57,
+   "total": 249,
+   "counts": {
+    "2025Q1 Q1": 37,
+    "2025Q1 Q1Y": 3,
+    "2025Q1 1T": 0,
+    "2025Q1 1TY": 0,
+    "2025Q2 Q2": 37,
+    "2025Q2 Q2Y": 3,
+    "2025Q2 2T": 0,
+    "2025Q2 2TY": 0,
+    "2025Q3 Q3": 36,
+    "2025Q3 Q3Y": 4,
+    "2025Q3 3T": 0,
+    "2025Q3 3TY": 0,
+    "2025Q4 Q4": 39,
+    "2025Q4 Q4Y": 4,
+    "2025Q4 4T": 0,
+    "2025Q4 4TY": 0,
+    "2026Q1 Q1": 39,
+    "2026Q1 Q1Y": 4,
+    "2026Q1 1T": 0,
+    "2026Q1 1TY": 0,
+    "2026Q2 Q2": 39,
+    "2026Q2 Q2Y": 4,
+    "2026Q2 2T": 0,
+    "2026Q2 2TY": 0
+   },
+   "read_at": "2026-10-15T07:32:56.674733+00:00"
+  },
+  {
+   "registrant_id": 401104322,
+   "registrant": "MERCHANT MCINTYRE & ASSOCIATES, LLC",
+   "late": 234,
+   "clients_late": 94,
+   "quarters_late": 5,
+   "median_days": 1.0,
+   "max_days": 361,
+   "total": 561,
+   "counts": {
+    "2025Q1 Q1": 65,
+    "2025Q1 Q1Y": 19,
+    "2025Q1 1T": 0,
+    "2025Q1 1TY": 3,
+    "2025Q2 Q2": 66,
+    "2025Q2 Q2Y": 17,
+    "2025Q2 2T": 2,
+    "2025Q2 2TY": 2,
+    "2025Q3 Q3": 71,
+    "2025Q3 Q3Y": 16,
+    "2025Q3 3T": 1,
+    "2025Q3 3TY": 3,
+    "2025Q4 Q4": 69,
+    "2025Q4 Q4Y": 20,
+    "2025Q4 4T": 3,
+    "2025Q4 4TY": 2,
+    "2026Q1 Q1": 90,
+    "2026Q1 Q1Y": 8,
+    "2026Q1 1T": 1,
+    "2026Q1 1TY": 1,
+    "2026Q2 Q2": 87,
+    "2026Q2 Q2Y": 11,
+    "2026Q2 2T": 2,
+    "2026Q2 2TY": 2
+   },
+   "read_at": "2026-10-15T07:34:55.775021+00:00"
+  },
+  {
+   "registrant_id": 401104408,
+   "registrant": "KELLER PARTNERS & COMPANY",
+   "late": 204,
+   "clients_late": 54,
+   "quarters_late": 6,
+   "median_days": 3.0,
+   "max_days": 246,
+   "total": 290,
+   "counts": {
+    "2025Q1 Q1": 45,
+    "2025Q1 Q1Y": 5,
+    "2025Q1 1T": 0,
+    "2025Q1 1TY": 2,
+    "2025Q2 Q2": 43,
+    "2025Q2 Q2Y": 0,
+    "2025Q2 2T": 2,
+    "2025Q2 2TY": 0,
+    "2025Q3 Q3": 43,
+    "2025Q3 Q3Y": 0,
+    "2025Q3 3T": 0,
+    "2025Q3 3TY": 1,
+    "2025Q4 Q4": 49,
+    "2025Q4 Q4Y": 0,
+    "2025Q4 4T": 0,
+    "2025Q4 4TY": 0,
+    "2026Q1 Q1": 50,
+    "2026Q1 Q1Y": 0,
+    "2026Q1 1T": 0,
+    "2026Q1 1TY": 0,
+    "2026Q2 Q2": 50,
+    "2026Q2 Q2Y": 0,
+    "2026Q2 2T": 0,
+    "2026Q2 2TY": 0
+   },
+   "read_at": "2026-10-15T07:36:20.619030+00:00"
+  },
+  {
+   "registrant_id": 292573,
+   "registrant": "MCALLISTER & QUINN, LLC",
+   "late": 179,
+   "clients_late": 93,
+   "quarters_late": 6,
+   "median_days": 1,
+   "max_days": 183,
+   "total": 427,
+   "counts": {
+    "2025Q1 Q1": 47,
+    "2025Q1 Q1Y": 5,
+    "2025Q1 1T": 0,
+    "2025Q1 1TY": 2,
+    "2025Q2 Q2": 47,
+    "2025Q2 Q2Y": 9,
+    "2025Q2 2T": 1,
+    "2025Q2 2TY": 1,
+    "2025Q3 Q3": 42,
+    "2025Q3 Q3Y": 15,
+    "2025Q3 3T": 3,
+    "2025Q3 3TY": 2,
+    "2025Q4 Q4": 36,
+    "2025Q4 Q4Y": 17,
+    "2025Q4 4T": 3,
+    "2025Q4 4TY": 2,
+    "2026Q1 Q1": 87,
+    "2026Q1 Q1Y": 6,
+    "2026Q1 1T": 1,
+    "2026Q1 1TY": 3,
+    "2026Q2 Q2": 54,
+    "2026Q2 Q2Y": 41,
+    "2026Q2 2T": 1,
+    "2026Q2 2TY": 2
+   },
+   "read_at": "2026-10-15T07:38:18.116017+00:00"
+  },
+  {
+   "registrant_id": 401104651,
+   "registrant": "NORTH STAR STRATEGIES, LLC",
+   "late": 175,
+   "clients_late": 40,
+   "quarters_late": 5,
+   "median_days": 15,
+   "max_days": 316,
+   "total": 214,
+   "counts": {
+    "2025Q1 Q1": 5,
+    "2025Q1 Q1Y": 30,
+    "2025Q1 1T": 0,
+    "2025Q1 1TY": 0,
+    "2025Q2 Q2": 12,
+    "2025Q2 Q2Y": 23,
+    "2025Q2 2T": 0,
+    "2025Q2 2TY": 0,
+    "2025Q3 Q3": 5,
+    "2025Q3 Q3Y": 30,
+    "2025Q3 3T": 0,
+    "2025Q3 3TY": 0,
+    "2025Q4 Q4": 5,
+    "2025Q4 Q4Y": 30,
+    "2025Q4 4T": 0,
+    "2025Q4 4TY": 0,
+    "2026Q1 Q1": 1,
+    "2026Q1 Q1Y": 34,
+    "2026Q1 1T": 1,
+    "2026Q1 1TY": 3,
+    "2026Q2 Q2": 1,
+    "2026Q2 Q2Y": 34,
+    "2026Q2 2T": 0,
+    "2026Q2 2TY": 0
+   },
+   "read_at": "2026-10-15T07:39:43.379605+00:00"
+  },
+  {
+   "registrant_id": 400637926,
+   "registrant": "ARMORY HILL ADVOCATES (FORMERLY KNOWN AS RAWLSON POLICY GROUP)",
+   "late": 129,
+   "clients_late": 26,
+   "quarters_late": 6,
+   "median_days": 16,
+   "max_days": 60,
+   "total": 129,
+   "counts": {
+    "2025Q1 Q1": 8,
+    "2025Q1 Q1Y": 11,
+    "2025Q1 1T": 0,
+    "2025Q1 1TY": 1,
+    "2025Q2 Q2": 7,
+    "2025Q2 Q2Y": 13,
+    "2025Q2 2T": 0,
+    "2025Q2 2TY": 0,
+    "2025Q3 Q3": 8,
+    "2025Q3 Q3Y": 13,
+    "2025Q3 3T": 0,
+    "2025Q3 3TY": 1,
+    "2025Q4 Q4": 8,
+    "2025Q4 Q4Y": 12,
+    "2025Q4 4T": 0,
+    "2025Q4 4TY": 1,
+    "2026Q1 Q1": 11,
+    "2026Q1 Q1Y": 11,
+    "2026Q1 1T": 0,
+    "2026Q1 1TY": 1,
+    "2026Q2 Q2": 11,
+    "2026Q2 Q2Y": 11,
+    "2026Q2 2T": 0,
+    "2026Q2 2TY": 1
+   },
+   "read_at": "2026-10-15T07:41:44.052948+00:00"
+  },
+  {
+   "registrant_id": 18364,
+   "registrant": "HOBBS, STRAUS, DEAN & WALKER, LLP",
+   "late": 119,
+   "clients_late": 36,
+   "quarters_late": 5,
+   "median_days": 3,
+   "max_days": 32,
+   "total": 199,
+   "counts": {
+    "2025Q1 Q1": 12,
+    "2025Q1 Q1Y": 19,
+    "2025Q1 1T": 0,
+    "2025Q1 1TY": 0,
+    "2025Q2 Q2": 12,
+    "2025Q2 Q2Y": 19,
+    "2025Q2 2T": 0,
+    "2025Q2 2TY": 0,
+    "2025Q3 Q3": 15,
+    "2025Q3 Q3Y": 16,
+    "2025Q3 3T": 0,
+    "2025Q3 3TY": 0,
+    "2025Q4 Q4": 18,
+    "2025Q4 Q4Y": 17,
+    "2025Q4 4T": 0,
+    "2025Q4 4TY": 0,
+    "2026Q1 Q1": 27,
+    "2026Q1 Q1Y": 9,
+    "2026Q1 1T": 0,
+    "2026Q1 1TY": 0,
+    "2026Q2 Q2": 29,
+    "2026Q2 Q2Y": 6,
+    "2026Q2 2T": 0,
+    "2026Q2 2TY": 0
+   },
+   "read_at": "2026-10-15T07:43:41.348257+00:00"
+  },
+  {
+   "registrant_id": 401105148,
+   "registrant": "FS VECTOR LLC",
+   "late": 110,
+   "clients_late": 47,
+   "quarters_late": 5,
+   "median_days": 9.0,
+   "max_days": 91,
+   "total": 258,
+   "counts": {
+    "2025Q1 Q1": 38,
+    "2025Q1 Q1Y": 6,
+    "2025Q1 1T": 0,
+    "2025Q1 1TY": 1,
+    "2025Q2 Q2": 39,
+    "2025Q2 Q2Y": 5,
+    "2025Q2 2T": 0,
+    "2025Q2 2TY": 2,
+    "2025Q3 Q3": 39,
+    "2025Q3 Q3Y": 5,
+    "2025Q3 3T": 0,
+    "2025Q3 3TY": 0,
+    "2025Q4 Q4": 38,
+    "2025Q4 Q4Y": 4,
+    "2025Q4 4T": 0,
+    "2025Q4 4TY": 3,
+    "2026Q1 Q1": 35,
+    "2026Q1 Q1Y": 1,
+    "2026Q1 1T": 3,
+    "2026Q1 1TY": 3,
+    "2026Q2 Q2": 32,
+    "2026Q2 Q2Y": 2,
+    "2026Q2 2T": 1,
+    "2026Q2 2TY": 1
+   },
+   "read_at": "2026-10-15T07:45:07.467626+00:00"
+  },
+  {
+   "registrant_id": 72053,
+   "registrant": "CAPITOL HILL CONSULTING GROUP",
+   "late": 102,
+   "clients_late": 56,
+   "quarters_late": 6,
+   "median_days": 1.0,
+   "max_days": 525,
+   "total": 314,
+   "counts": {
+    "2025Q1 Q1": 46,
+    "2025Q1 Q1Y": 1,
+    "2025Q1 1T": 0,
+    "2025Q1 1TY": 0,
+    "2025Q2 Q2": 48,
+    "2025Q2 Q2Y": 1,
+    "2025Q2 2T": 1,
+    "2025Q2 2TY": 0,
+    "2025Q3 Q3": 51,
+    "2025Q3 Q3Y": 1,
+    "2025Q3 3T": 2,
+    "2025Q3 3TY": 0,
+    "2025Q4 Q4": 51,
+    "2025Q4 Q4Y": 2,
+    "2025Q4 4T": 2,
+    "2025Q4 4TY": 0,
+    "2026Q1 Q1": 52,
+    "2026Q1 Q1Y": 2,
+    "2026Q1 1T": 1,
+    "2026Q1 1TY": 0,
+    "2026Q2 Q2": 50,
+    "2026Q2 Q2Y": 2,
+    "2026Q2 2T": 1,
+    "2026Q2 2TY": 0
+   },
+   "read_at": "2026-10-15T07:47:04.266318+00:00"
+  },
+  {
+   "registrant_id": 401104869,
+   "registrant": "O'KEEFFE SHAHMORADI STRATEGIES, LLC",
+   "late": 100,
+   "clients_late": 28,
+   "quarters_late": 5,
+   "median_days": 3.5,
+   "max_days": 79,
+   "total": 148,
+   "counts": {
+    "2025Q1 Q1": 21,
+    "2025Q1 Q1Y": 0,
+    "2025Q1 1T": 0,
+    "2025Q1 1TY": 0,
+    "2025Q2 Q2": 23,
+    "2025Q2 Q2Y": 0,
+    "2025Q2 2T": 1,
+    "2025Q2 2TY": 0,
+    "2025Q3 Q3": 25,
+    "2025Q3 Q3Y": 0,
+    "2025Q3 3T": 0,
+    "2025Q3 3TY": 0,
+    "2025Q4 Q4": 25,
+    "2025Q4 Q4Y": 0,
+    "2025Q4 4T": 0,
+    "2025Q4 4TY": 0,
+    "2026Q1 Q1": 25,
+    "2026Q1 Q1Y": 0,
+    "2026Q1 1T": 1,
+    "2026Q1 1TY": 0,
+    "2026Q2 Q2": 25,
+    "2026Q2 Q2Y": 1,
+    "2026Q2 2T": 1,
+    "2026Q2 2TY": 0
+   },
+   "read_at": "2026-10-15T07:48:28.075588+00:00"
+  },
+  {
+   "registrant_id": 14451,
+   "registrant": "THE FERGUSON GROUP, LLC",
+   "late": 99,
+   "clients_late": 82,
+   "quarters_late": 6,
+   "median_days": 6,
+   "max_days": 277,
+   "total": 771,
+   "counts": {
+    "2025Q1 Q1": 110,
+    "2025Q1 Q1Y": 15,
+    "2025Q1 1T": 0,
+    "2025Q1 1TY": 0,
+    "2025Q2 Q2": 114,
+    "2025Q2 Q2Y": 14,
+    "2025Q2 2T": 0,
+    "2025Q2 2TY": 1,
+    "2025Q3 Q3": 114,
+    "2025Q3 Q3Y": 14,
+    "2025Q3 3T": 1,
+    "2025Q3 3TY": 0,
+    "2025Q4 Q4": 114,
+    "2025Q4 Q4Y": 13,
+    "2025Q4 4T": 3,
+    "2025Q4 4TY": 1,
+    "2026Q1 Q1": 114,
+    "2026Q1 Q1Y": 13,
+    "2026Q1 1T": 0,
+    "2026Q1 1TY": 0,
+    "2026Q2 Q2": 109,
+    "2026Q2 Q2Y": 6,
+    "2026Q2 2T": 6,
+    "2026Q2 2TY": 9
+   },
+   "read_at": "2026-10-15T07:50:26.580517+00:00"
+  },
+  {
+   "registrant_id": 401106132,
+   "registrant": "RUBIN, TURNBULL & ASSOCIATES",
+   "late": 88,
+   "clients_late": 45,
+   "quarters_late": 4,
+   "median_days": 3.0,
+   "max_days": 135,
+   "total": 216,
+   "counts": {
+    "2025Q1 Q1": 9,
+    "2025Q1 Q1Y": 10,
+    "2025Q1 1T": 0,
+    "2025Q1 1TY": 1,
+    "2025Q2 Q2": 21,
+    "2025Q2 Q2Y": 4,
+    "2025Q2 2T": 1,
+    "2025Q2 2TY": 0,
+    "2025Q3 Q3": 32,
+    "2025Q3 Q3Y": 4,
+    "2025Q3 3T": 2,
+    "2025Q3 3TY": 0,
+    "2025Q4 Q4": 36,
+    "2025Q4 Q4Y": 6,
+    "2025Q4 4T": 0,
+    "2025Q4 4TY": 0,
+    "2026Q1 Q1": 34,
+    "2026Q1 Q1Y": 5,
+    "2026Q1 1T": 4,
+    "2026Q1 1TY": 1,
+    "2026Q2 Q2": 35,
+    "2026Q2 Q2Y": 5,
+    "2026Q2 2T": 6,
+    "2026Q2 2TY": 0
+   },
+   "read_at": "2026-10-15T07:52:23.483084+00:00"
+  },
+  {
+   "registrant_id": 300195,
+   "registrant": "FREEMYER & ASSOCIATES P.C.",
+   "late": 88,
+   "clients_late": 21,
+   "quarters_late": 5,
+   "median_days": 3.0,
+   "max_days": 78,
+   "total": 106,
+   "counts": {
+    "2025Q1 Q1": 17,
+    "2025Q1 Q1Y": 0,
+    "2025Q1 1T": 0,
+    "2025Q1 1TY": 0,
+    "2025Q2 Q2": 16,
+    "2025Q2 Q2Y": 1,
+    "2025Q2 2T": 0,
+    "2025Q2 2TY": 0,
+    "2025Q3 Q3": 17,
+    "2025Q3 Q3Y": 0,
+    "2025Q3 3T": 1,
+    "2025Q3 3TY": 1,
+    "2025Q4 Q4": 17,
+    "2025Q4 Q4Y": 0,
+    "2025Q4 4T": 0,
+    "2025Q4 4TY": 0,
+    "2026Q1 Q1": 17,
+    "2026Q1 Q1Y": 0,
+    "2026Q1 1T": 1,
+    "2026Q1 1TY": 0,
+    "2026Q2 Q2": 18,
+    "2026Q2 Q2Y": 0,
+    "2026Q2 2T": 0,
+    "2026Q2 2TY": 0
+   },
+   "read_at": "2026-10-15T07:53:47.588527+00:00"
+  },
+  {
+   "registrant_id": 401104749,
+   "registrant": "VELOCITY GOVERNMENT RELATIONS, LLC",
+   "late": 86,
+   "clients_late": 19,
+   "quarters_late": 6,
+   "median_days": 30.0,
+   "max_days": 239,
+   "total": 89,
+   "counts": {
+    "2025Q1 Q1": 13,
+    "2025Q1 Q1Y": 0,
+    "2025Q1 1T": 0,
+    "2025Q1 1TY": 0,
+    "2025Q2 Q2": 15,
+    "2025Q2 Q2Y": 0,
+    "2025Q2 2T": 1,
+    "2025Q2 2TY": 0,
+    "2025Q3 Q3": 16,
+    "2025Q3 Q3Y": 0,
+    "2025Q3 3T": 1,
+    "2025Q3 3TY": 0,
+    "2025Q4 Q4": 14,
+    "2025Q4 Q4Y": 0,
+    "2025Q4 4T": 2,
+    "2025Q4 4TY": 0,
+    "2026Q1 Q1": 12,
+    "2026Q1 Q1Y": 0,
+    "2026Q1 1T": 3,
+    "2026Q1 1TY": 0,
+    "2026Q2 Q2": 11,
+    "2026Q2 Q2Y": 0,
+    "2026Q2 2T": 1,
+    "2026Q2 2TY": 0
+   },
+   "read_at": "2026-10-15T07:55:46.481422+00:00"
+  },
+  {
+   "registrant_id": 400713141,
+   "registrant": "THE MAJORITY GROUP, LLC",
+   "late": 85,
+   "clients_late": 19,
+   "quarters_late": 5,
+   "median_days": 6,
+   "max_days": 28,
+   "total": 102,
+   "counts": {
+    "2025Q1 Q1": 13,
+    "2025Q1 Q1Y": 4,
+    "2025Q1 1T": 0,
+    "2025Q1 1TY": 0,
+    "2025Q2 Q2": 12,
+    "2025Q2 Q2Y": 5,
+    "2025Q2 2T": 0,
+    "2025Q2 2TY": 0,
+    "2025Q3 Q3": 11,
+    "2025Q3 Q3Y": 5,
+    "2025Q3 3T": 0,
+    "2025Q3 3TY": 1,
+    "2025Q4 Q4": 10,
+    "2025Q4 Q4Y": 6,
+    "2025Q4 4T": 0,
+    "2025Q4 4TY": 1,
+    "2026Q1 Q1": 10,
+    "2026Q1 Q1Y": 7,
+    "2026Q1 1T": 0,
+    "2026Q1 1TY": 0,
+    "2026Q2 Q2": 10,
+    "2026Q2 Q2Y": 5,
+    "2026Q2 2T": 0,
+    "2026Q2 2TY": 2
+   },
+   "read_at": "2026-10-15T07:57:14.745373+00:00"
+  },
+  {
+   "registrant_id": 400487397,
+   "registrant": "LOBBYIT.COM",
+   "late": 82,
+   "clients_late": 42,
+   "quarters_late": 3,
+   "median_days": 30.5,
+   "max_days": 157,
+   "total": 253,
+   "counts": {
+    "2025Q1 Q1": 38,
+    "2025Q1 Q1Y": 1,
+    "2025Q1 1T": 10,
+    "2025Q1 1TY": 0,
+    "2025Q2 Q2": 37,
+    "2025Q2 Q2Y": 0,
+    "2025Q2 2T": 1,
+    "2025Q2 2TY": 1,
+    "2025Q3 Q3": 36,
+    "2025Q3 Q3Y": 1,
+    "2025Q3 3T": 3,
+    "2025Q3 3TY": 0,
+    "2025Q4 Q4": 38,
+    "2025Q4 Q4Y": 2,
+    "2025Q4 4T": 3,
+    "2025Q4 4TY": 0,
+    "2026Q1 Q1": 35,
+    "2026Q1 Q1Y": 0,
+    "2026Q1 1T": 7,
+    "2026Q1 1TY": 2,
+    "2026Q2 Q2": 35,
+    "2026Q2 Q2Y": 2,
+    "2026Q2 2T": 0,
+    "2026Q2 2TY": 1
+   },
+   "read_at": "2026-10-15T07:59:12.718879+00:00"
+  },
+  {
+   "registrant_id": 400704112,
+   "registrant": "CORLEY CONSULTING, LLC",
+   "late": 80,
+   "clients_late": 18,
+   "quarters_late": 6,
+   "median_days": 16.0,
+   "max_days": 36,
+   "total": 96,
+   "counts": {
+    "2025Q1 Q1": 8,
+    "2025Q1 Q1Y": 5,
+    "2025Q1 1T": 0,
+    "2025Q1 1TY": 1,
+    "2025Q2 Q2": 11,
+    "2025Q2 Q2Y": 5,
+    "2025Q2 2T": 0,
+    "2025Q2 2TY": 0,
+    "2025Q3 Q3": 10,
+    "2025Q3 Q3Y": 6,
+    "2025Q3 3T": 0,
+    "2025Q3 3TY": 0,
+    "2025Q4 Q4": 11,
+    "2025Q4 Q4Y": 6,
+    "2025Q4 4T": 0,
+    "2025Q4 4TY": 0,
+    "2026Q1 Q1": 11,
+    "2026Q1 Q1Y": 5,
+    "2026Q1 1T": 0,
+    "2026Q1 1TY": 1,
+    "2026Q2 Q2": 11,
+    "2026Q2 Q2Y": 4,
+    "2026Q2 2T": 0,
+    "2026Q2 2TY": 1
+   },
+   "read_at": "2026-10-15T08:00:37.196884+00:00"
+  },
+  {
+   "registrant_id": 316217,
+   "registrant": "POTOMAC STRATEGIC DEVELOPMENT COMPANY, LLC",
+   "late": 79,
+   "clients_late": 15,
+   "quarters_late": 6,
+   "median_days": 18,
+   "max_days": 46,
+   "total": 79,
+   "counts": {
+    "2025Q1 Q1": 15,
+    "2025Q1 Q1Y": 0,
+    "2025Q1 1T": 0,
+    "2025Q1 1TY": 0,
+    "2025Q2 Q2": 13,
+    "2025Q2 Q2Y": 0,
+    "2025Q2 2T": 0,
+    "2025Q2 2TY": 2,
+    "2025Q3 Q3": 12,
+    "2025Q3 Q3Y": 0,
+    "2025Q3 3T": 1,
+    "2025Q3 3TY": 0,
+    "2025Q4 Q4": 12,
+    "2025Q4 Q4Y": 0,
+    "2025Q4 4T": 0,
+    "2025Q4 4TY": 0,
+    "2026Q1 Q1": 11,
+    "2026Q1 Q1Y": 1,
+    "2026Q1 1T": 0,
+    "2026Q1 1TY": 0,
+    "2026Q2 Q2": 11,
+    "2026Q2 Q2Y": 1,
+    "2026Q2 2T": 0,
+    "2026Q2 2TY": 0
+   },
+   "read_at": "2026-10-15T08:02:05.457358+00:00"
+  },
+  {
+   "registrant_id": 40726,
+   "registrant": "PARAGON GOVERNMENT RELATIONS",
+   "late": 78,
+   "clients_late": 14,
+   "quarters_late": 6,
+   "median_days": 16.0,
+   "max_days": 148,
+   "total": 79,
+   "counts": {
+    "2025Q1 Q1": 13,
+    "2025Q1 Q1Y": 0,
+    "2025Q1 1T": 0,
+    "2025Q1 1TY": 0,
+    "2025Q2 Q2": 13,
+    "2025Q2 Q2Y": 0,
+    "2025Q2 2T": 0,
+    "2025Q2 2TY": 0,
+    "2025Q3 Q3": 13,
+    "2025Q3 Q3Y": 0,
+    "2025Q3 3T": 0,
+    "2025Q3 3TY": 0,
+    "2025Q4 Q4": 14,
+    "2025Q4 Q4Y": 0,
+    "2025Q4 4T": 0,
+    "2025Q4 4TY": 0,
+    "2026Q1 Q1": 12,
+    "2026Q1 Q1Y": 0,
+    "2026Q1 1T": 2,
+    "2026Q1 1TY": 0,
+    "2026Q2 Q2": 11,
+    "2026Q2 Q2Y": 0,
+    "2026Q2 2T": 1,
+    "2026Q2 2TY": 0
+   },
+   "read_at": "2026-10-15T08:04:03.427110+00:00"
+  },
+  {
+   "registrant_id": 401105196,
+   "registrant": "CONGRESSIONAL PARTNERS",
+   "late": 76,
+   "clients_late": 15,
+   "quarters_late": 6,
+   "median_days": 22.0,
+   "max_days": 30,
+   "total": 76,
+   "counts": {
+    "2025Q1 Q1": 0,
+    "2025Q1 Q1Y": 15,
+    "2025Q1 1T": 0,
+    "2025Q1 1TY": 0,
+    "2025Q2 Q2": 0,
+    "2025Q2 Q2Y": 14,
+    "2025Q2 2T": 0,
+    "2025Q2 2TY": 1,
+    "2025Q3 Q3": 0,
+    "2025Q3 Q3Y": 11,
+    "2025Q3 3T": 0,
+    "2025Q3 3TY": 3,
+    "2025Q4 Q4": 0,
+    "2025Q4 Q4Y": 11,
+    "2025Q4 4T": 0,
+    "2025Q4 4TY": 0,
+    "2026Q1 Q1": 0,
+    "2026Q1 Q1Y": 10,
+    "2026Q1 1T": 0,
+    "2026Q1 1TY": 2,
+    "2026Q2 Q2": 0,
+    "2026Q2 Q2Y": 9,
+    "2026Q2 2T": 0,
+    "2026Q2 2TY": 0
+   },
+   "read_at": "2026-10-15T08:06:01.827415+00:00"
+  }
+ ],
+ "firms_with_late": 2763,
+ "duplicates": {
+  "groups_with_more_than_one_late_report": 158,
+  "extra_reports": 163
+ }
+}

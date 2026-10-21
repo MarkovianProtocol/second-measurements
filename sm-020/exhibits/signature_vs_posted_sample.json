@@ -1,0 +1,291 @@
+{
+ "summary": {
+  "n": 40,
+  "seed": 20261015,
+  "read": 40,
+  "same_minute": 40,
+  "max_abs_diff_seconds": 0
+ },
+ "rows": [
+  {
+   "uuid": "0126c904-1700-43a7-99fc-5da618a56486",
+   "url": "https://lda.gov/filings/public/filing/0126c904-1700-43a7-99fc-5da618a56486/print/",
+   "posted": "2025-11-06T13:50:28-05:00",
+   "signed": "2025-11-06T13:50:28",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "f02debbf-5c02-42a1-bc51-fd41353c285d",
+   "url": "https://lda.gov/filings/public/filing/f02debbf-5c02-42a1-bc51-fd41353c285d/print/",
+   "posted": "2025-11-01T18:40:17-04:00",
+   "signed": "2025-11-01T18:40:17",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "c7935570-e9f7-4c61-aa84-f18d5c37c2c8",
+   "url": "https://lda.gov/filings/public/filing/c7935570-e9f7-4c61-aa84-f18d5c37c2c8/print/",
+   "posted": "2026-07-21T13:25:06-04:00",
+   "signed": "2026-07-21T13:25:06",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "f4a868c4-8fae-4e16-a146-a085bf60e386",
+   "url": "https://lda.gov/filings/public/filing/f4a868c4-8fae-4e16-a146-a085bf60e386/print/",
+   "posted": "2026-08-07T11:47:10-04:00",
+   "signed": "2026-08-07T11:47:10",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "f047be29-2e7a-49b6-bc65-06715207549c",
+   "url": "https://lda.gov/filings/public/filing/f047be29-2e7a-49b6-bc65-06715207549c/print/",
+   "posted": "2025-04-22T16:58:59-04:00",
+   "signed": "2025-04-22T16:58:59",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "1446e8d6-2891-4b9f-8a17-57f719950985",
+   "url": "https://lda.gov/filings/public/filing/1446e8d6-2891-4b9f-8a17-57f719950985/print/",
+   "posted": "2025-05-06T13:18:16-04:00",
+   "signed": "2025-05-06T13:18:16",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "b9df8c55-d9e3-44c0-89e2-d4c620c3a45e",
+   "url": "https://lda.gov/filings/public/filing/b9df8c55-d9e3-44c0-89e2-d4c620c3a45e/print/",
+   "posted": "2025-05-05T16:25:10-04:00",
+   "signed": "2025-05-05T16:25:10",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "b54929c8-1c48-434b-aff1-da7192136782",
+   "url": "https://lda.gov/filings/public/filing/b54929c8-1c48-434b-aff1-da7192136782/print/",
+   "posted": "2025-10-29T10:36:13-04:00",
+   "signed": "2025-10-29T10:36:13",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "fcfc8f1a-94f6-4edd-a162-6ea84d6aad80",
+   "url": "https://lda.gov/filings/public/filing/fcfc8f1a-94f6-4edd-a162-6ea84d6aad80/print/",
+   "posted": "2026-05-03T14:36:11-04:00",
+   "signed": "2026-05-03T14:36:11",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "557a623d-fc1d-46c2-9428-50751cc29e56",
+   "url": "https://lda.gov/filings/public/filing/557a623d-fc1d-46c2-9428-50751cc29e56/print/",
+   "posted": "2026-05-18T12:22:42-04:00",
+   "signed": "2026-05-18T12:22:42",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "ac06a3bf-8f24-40ed-9b24-16fd3389863d",
+   "url": "https://lda.gov/filings/public/filing/ac06a3bf-8f24-40ed-9b24-16fd3389863d/print/",
+   "posted": "2026-05-12T10:12:30-04:00",
+   "signed": "2026-05-12T10:12:30",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "273902e8-1000-46d1-813c-d6b0262b3cf2",
+   "url": "https://lda.gov/filings/public/filing/273902e8-1000-46d1-813c-d6b0262b3cf2/print/",
+   "posted": "2025-12-12T13:24:33-05:00",
+   "signed": "2025-12-12T13:24:33",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "40b9f274-b847-487f-8727-a7c0fc968c63",
+   "url": "https://lda.gov/filings/public/filing/40b9f274-b847-487f-8727-a7c0fc968c63/print/",
+   "posted": "2026-10-05T13:15:22-04:00",
+   "signed": "2026-10-05T13:15:22",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "d7ecedea-89e8-4188-8f31-ee3d89a97281",
+   "url": "https://lda.gov/filings/public/filing/d7ecedea-89e8-4188-8f31-ee3d89a97281/print/",
+   "posted": "2025-05-20T13:41:09-04:00",
+   "signed": "2025-05-20T13:41:09",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "c024e8aa-b496-45f0-ba33-8d043387e659",
+   "url": "https://lda.gov/filings/public/filing/c024e8aa-b496-45f0-ba33-8d043387e659/print/",
+   "posted": "2025-12-16T14:47:46-05:00",
+   "signed": "2025-12-16T14:47:46",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "1d4b0113-cbb7-4cbd-b9b5-12e96682f507",
+   "url": "https://lda.gov/filings/public/filing/1d4b0113-cbb7-4cbd-b9b5-12e96682f507/print/",
+   "posted": "2025-10-22T09:13:49-04:00",
+   "signed": "2025-10-22T09:13:49",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "1ece4523-69e4-41a3-8c38-6c04c3234c81",
+   "url": "https://lda.gov/filings/public/filing/1ece4523-69e4-41a3-8c38-6c04c3234c81/print/",
+   "posted": "2025-05-29T07:06:16-04:00",
+   "signed": "2025-05-29T07:06:16",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "949ba3b6-4f2d-44d8-837e-f7233a2b4f2f",
+   "url": "https://lda.gov/filings/public/filing/949ba3b6-4f2d-44d8-837e-f7233a2b4f2f/print/",
+   "posted": "2026-01-22T12:27:06-05:00",
+   "signed": "2026-01-22T12:27:06",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "11b9fd1c-1d81-4d49-9849-c5ede26c048a",
+   "url": "https://lda.gov/filings/public/filing/11b9fd1c-1d81-4d49-9849-c5ede26c048a/print/",
+   "posted": "2025-07-21T18:17:11-04:00",
+   "signed": "2025-07-21T18:17:11",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "07696f87-335b-4d56-9e09-ad8f283c1496",
+   "url": "https://lda.gov/filings/public/filing/07696f87-335b-4d56-9e09-ad8f283c1496/print/",
+   "posted": "2026-04-21T13:55:51-04:00",
+   "signed": "2026-04-21T13:55:51",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "18154302-7626-478b-9437-6a9e865a42e2",
+   "url": "https://lda.gov/filings/public/filing/18154302-7626-478b-9437-6a9e865a42e2/print/",
+   "posted": "2026-01-19T16:32:18-05:00",
+   "signed": "2026-01-19T16:32:18",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "dcd095a9-9a5b-4118-ad12-e62e89dbbddd",
+   "url": "https://lda.gov/filings/public/filing/dcd095a9-9a5b-4118-ad12-e62e89dbbddd/print/",
+   "posted": "2026-01-22T05:39:42-05:00",
+   "signed": "2026-01-22T05:39:42",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "4a2ce642-e796-40a0-89f8-04b35ea33563",
+   "url": "https://lda.gov/filings/public/filing/4a2ce642-e796-40a0-89f8-04b35ea33563/print/",
+   "posted": "2026-05-08T15:07:27-04:00",
+   "signed": "2026-05-08T15:07:27",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "91121842-14aa-4e52-9d89-06175d6e229c",
+   "url": "https://lda.gov/filings/public/filing/91121842-14aa-4e52-9d89-06175d6e229c/print/",
+   "posted": "2025-10-21T14:14:28-04:00",
+   "signed": "2025-10-21T14:14:28",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "2951fb49-befb-407b-a6cc-cf0dc85d905f",
+   "url": "https://lda.gov/filings/public/filing/2951fb49-befb-407b-a6cc-cf0dc85d905f/print/",
+   "posted": "2025-05-01T13:23:27-04:00",
+   "signed": "2025-05-01T13:23:27",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "1c176c02-20e0-4f7b-9ad8-e7093d098134",
+   "url": "https://lda.gov/filings/public/filing/1c176c02-20e0-4f7b-9ad8-e7093d098134/print/",
+   "posted": "2025-05-07T12:49:17-04:00",
+   "signed": "2025-05-07T12:49:17",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "6bd89c08-9bad-4fc4-8276-8dc1327119dc",
+   "url": "https://lda.gov/filings/public/filing/6bd89c08-9bad-4fc4-8276-8dc1327119dc/print/",
+   "posted": "2025-04-22T09:33:33-04:00",
+   "signed": "2025-04-22T09:33:33",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "0f22fde4-d3fd-49ad-a21e-9a37d88fa431",
+   "url": "https://lda.gov/filings/public/filing/0f22fde4-d3fd-49ad-a21e-9a37d88fa431/print/",
+   "posted": "2026-07-21T12:40:43-04:00",
+   "signed": "2026-07-21T12:40:43",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "23382c26-c7a0-4295-ac43-a3d894391590",
+   "url": "https://lda.gov/filings/public/filing/23382c26-c7a0-4295-ac43-a3d894391590/print/",
+   "posted": "2026-05-08T12:53:40-04:00",
+   "signed": "2026-05-08T12:53:40",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "bec395cf-84c2-44a1-a375-ef58ff0abc3d",
+   "url": "https://lda.gov/filings/public/filing/bec395cf-84c2-44a1-a375-ef58ff0abc3d/print/",
+   "posted": "2025-08-20T13:11:35-04:00",
+   "signed": "2025-08-20T13:11:35",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "6cb2cea5-6b8d-4b87-956f-66ba6fa7d131",
+   "url": "https://lda.gov/filings/public/filing/6cb2cea5-6b8d-4b87-956f-66ba6fa7d131/print/",
+   "posted": "2025-04-23T11:27:09-04:00",
+   "signed": "2025-04-23T11:27:09",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "4bf4f844-ed40-4ad0-ae63-6d41cb65e692",
+   "url": "https://lda.gov/filings/public/filing/4bf4f844-ed40-4ad0-ae63-6d41cb65e692/print/",
+   "posted": "2026-07-22T10:33:33-04:00",
+   "signed": "2026-07-22T10:33:33",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "3d36200c-b1ce-4908-9ede-cf616df3297c",
+   "url": "https://lda.gov/filings/public/filing/3d36200c-b1ce-4908-9ede-cf616df3297c/print/",
+   "posted": "2026-09-17T13:26:48-04:00",
+   "signed": "2026-09-17T13:26:48",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "61a74971-b6f9-422e-af62-10d5ee162457",
+   "url": "https://lda.gov/filings/public/filing/61a74971-b6f9-422e-af62-10d5ee162457/print/",
+   "posted": "2025-05-20T12:21:22-04:00",
+   "signed": "2025-05-20T12:21:22",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "07c76ec9-f22c-4b1a-9fe9-8f96033b18de",
+   "url": "https://lda.gov/filings/public/filing/07c76ec9-f22c-4b1a-9fe9-8f96033b18de/print/",
+   "posted": "2025-07-28T21:04:45-04:00",
+   "signed": "2025-07-28T21:04:45",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "1a5eaa91-f57b-4a04-9c99-f30ec33b0a80",
+   "url": "https://lda.gov/filings/public/filing/1a5eaa91-f57b-4a04-9c99-f30ec33b0a80/print/",
+   "posted": "2025-10-21T16:29:54-04:00",
+   "signed": "2025-10-21T16:29:54",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "2e0f2b46-c118-4e68-9ec7-0d2c6a157f0c",
+   "url": "https://lda.gov/filings/public/filing/2e0f2b46-c118-4e68-9ec7-0d2c6a157f0c/print/",
+   "posted": "2025-10-25T11:09:42-04:00",
+   "signed": "2025-10-25T11:09:42",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "8a5e6244-6b83-49ca-a253-e42f0db7620d",
+   "url": "https://lda.gov/filings/public/filing/8a5e6244-6b83-49ca-a253-e42f0db7620d/print/",
+   "posted": "2025-05-06T11:38:49-04:00",
+   "signed": "2025-05-06T11:38:49",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "b4f0fbc9-7513-462f-9635-3b73f03095cb",
+   "url": "https://lda.gov/filings/public/filing/b4f0fbc9-7513-462f-9635-3b73f03095cb/print/",
+   "posted": "2026-07-21T14:53:57-04:00",
+   "signed": "2026-07-21T14:53:57",
+   "diff_seconds": 0
+  },
+  {
+   "uuid": "acb72204-850d-48b7-a2e3-41a09b422767",
+   "url": "https://lda.gov/filings/public/filing/acb72204-850d-48b7-a2e3-41a09b422767/print/",
+   "posted": "2025-11-06T12:01:05-05:00",
+   "signed": "2025-11-06T12:01:05",
+   "diff_seconds": 0
+  }
+ ]
+}
