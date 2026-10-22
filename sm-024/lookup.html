@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Country lookup, SM-024 — Markovian Protocol</title>
+<meta name="description" content="Pick a country and see who is registered with the Justice Department as its foreign agent in the US, since when, and whether each agent filed its six-monthly FARA statements on time.">
+<style>
+:root{--ink:#1d1d1f;--sub:#6e6e73;--faint:#86868b;--line:#d2d2d7;--grey:#f5f5f7;--white:#fff;--good:#1d8a4e;--pend:#b26a00;--bad:#c62828;--blue:#0066cc;--sans:Charter,"Iowan Old Style",Georgia,"Times New Roman",serif;--mono:"SF Mono","IBM Plex Mono",ui-monospace,Menlo,monospace}
+body{margin:0;background:var(--white);color:var(--ink);font:17px/1.55 var(--sans)}
+main{max-width:760px;margin:0 auto;padding:28px 16px 60px}
+.id{font:12px/1 var(--mono);letter-spacing:.08em;color:var(--sub);margin:0 0 10px}
+h1{font-size:26px;line-height:1.25;margin:0 0 10px;font-weight:600}
+p{margin:0 0 12px}.cap{font-size:14px;color:var(--sub)}
+form{display:flex;gap:8px;margin:16px 0}
+input{flex:1;font:18px var(--mono);padding:10px 12px;border:1px solid var(--line);border-radius:8px;}
+button{font:16px var(--sans);padding:10px 16px;border:1px solid var(--ink);background:var(--ink);color:#fff;border-radius:8px;cursor:pointer}
+.card{border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin:14px 0;background:var(--grey)}
+.card h2{font-size:22px;margin:0 0 4px}.meta{color:var(--sub);font-size:15px;margin:0 0 10px}
+table{border-collapse:collapse;width:100%;font-size:15px}th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}th{font-weight:600;color:var(--sub);font-size:13px}
+.n{text-align:right;font-family:var(--mono);font-size:14px}
+.ok{color:var(--good)}.late{color:var(--pend)}.bad{color:var(--bad)}.none{color:var(--faint)}
+.sug a{display:inline-block;margin:4px 8px 0 0;font-family:var(--mono);font-size:14px;color:var(--blue)}
+a{color:var(--blue)}.foot{font-size:14px;color:var(--sub);margin-top:28px;border-top:1px solid var(--line);padding-top:12px}
+</style>
+<style>.sum{font-size:16px;margin:0 0 10px}.tw{overflow-x:auto}td.p{max-width:240px}</style></head><body><main>
+<p class="id">SECOND MEASUREMENT SM-024 · COUNTRY LOOKUP</p>
+<h1>Who works for a foreign government or company in the US, and did they report on time?</h1>
+<p class="cap">Pick a country. The card lists every foreign principal from that country with a registered US agent at any time since 1 January 2024, from the Justice Department&rsquo;s FARA records, and each agent&rsquo;s record on the six-monthly supplemental statement the law requires within 30 days of each period. The paper and method are at <a href="../sm-024.html">sm-024.html</a>.</p>
+<form id="f"><input id="q" list="cl" placeholder="country, e.g. Qatar" autocomplete="off" autofocus><datalist id="cl"></datalist><button>Look up</button></form>
+<div id="out"></div>
+<p class="foot">A <b>foreign principal</b> is the government, party, company or person the agent works for; the <b>agent</b> (the registrant) is the US firm or person registered under the Foreign Agents Registration Act. One supplemental statement covers all of an agent&rsquo;s principals, so the late count belongs to the agent, not to the country or the principal. <b>Late</b> means the statement was received (the FARA Unit&rsquo;s receipt stamp, or its bulk file&rsquo;s date where no stamp was read) more than 30 days after the end of the six-month period printed on the statement. The Unit may grant an extension &ldquo;in limited cases&rdquo; on a written request made before the due date; extensions do not appear in its filings data, so any late statement may have had one. A row shows the agent&rsquo;s whole record since January 2024, including statements from before that principal became a client. Payments are reported inside each statement (linked) and are not tallied here; OpenSecrets&rsquo; Foreign Lobby Watch tallies them. Data: <a href="lookup.json">lookup.json</a>, built by <a href="build_lookup.py">build_lookup.py</a> from DOJ&rsquo;s bulk FARA files and our reading of every statement filed since January 2024.</p>
+</main>
+<script>
+let D=null;
+async function load(){if(!D){const r=await fetch("lookup.json",{cache:"force-cache"});D=await r.json();}return D;}
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+function tc(s){return s.toLowerCase().replace(/(^|[\s(\-,&])([a-z])/g,(m,a,b)=>a+b.toUpperCase());}
+function find(d,raw){const q=raw.trim().toUpperCase();if(!q)return null;const ks=Object.keys(d.countries);
+ return ks.find(k=>k===q)||ks.find(k=>k.startsWith(q))||ks.find(k=>k.includes(q))||null;}
+function card(d,k){const c=d.countries[k];let rows="";
+ for(const r of c.rows){const st=r.statements?(r.late?`<span class="${r.max_days_late>30?"bad":"late"}">${r.late} of ${r.statements} late</span>${r.max_days_late?` <span class="cap">(up to ${r.max_days_late} day${r.max_days_late==1?"":"s"} past due)</span>`:""}`:`<span class="ok">${r.statements} on time</span>`):'<span class="none">none filed since Jan 2024</span>';
+  const links=[r.latest?`<a href="${r.latest}">latest</a>`:"",r.worst&&r.worst!==r.latest?`<a href="${r.worst}">most late</a>`:""].filter(Boolean).join(" · ");
+  rows+=`<tr><td class="p">${esc(r.principal)}</td><td>${esc(r.registrant)} <span class="cap">#${esc(r.reg)}</span></td><td class="n">${r.since||"—"}${r.ended?`<br><span class="cap">ended ${r.ended}</span>`:""}</td><td>${st}${links?`<br><span class="cap">${links}</span>`:""}</td></tr>`;}
+ return `<div class="card"><h2>${esc(tc(k))}</h2>
+ <p class="sum">${c.principals} foreign principal${c.principals==1?"":"s"} since January 2024 (${c.active} still active), represented by ${c.registrants} registered agent${c.registrants==1?"":"s"}; <b>${c.registrants_late_once}</b> of those agents filed at least one supplemental statement late.</p>
+ <div class="tw"><table><tr><th>Foreign principal</th><th>US agent (registrant)</th><th class="n">Since</th><th>Agent&rsquo;s supplemental statements since Jan 2024 (all its clients)</th></tr>${rows}</table></div></div>`;}
+async function go(raw){const out=document.getElementById("out");out.innerHTML='<p class="cap">loading…</p>';const d=await load();const k=find(d,raw);
+ if(!k){out.innerHTML=`<p class="cap">No country matching <b>${esc(raw)}</b> in the FARA records since January 2024.</p>`;return;}
+ out.innerHTML=card(d,k);document.getElementById("q").value=tc(k);history.replaceState(null,"",`?c=${encodeURIComponent(tc(k))}`);}
+load().then(d=>{document.getElementById("cl").innerHTML=Object.keys(d.countries).map(k=>`<option value="${esc(tc(k))}">`).join("");});
+document.getElementById("f").addEventListener("submit",e=>{e.preventDefault();go(document.getElementById("q").value);});
+const p=new URLSearchParams(location.search).get("c");if(p){document.getElementById("q").value=p;go(p);}
+</script></body></html>

@@ -1,0 +1,7 @@
+# SM-024 — FARA supplemental statements: late and overdue
+
+Paper: https://markovianprotocol.com/measurements/sm-024.html · DOI 10.5281/zenodo.23575930 · log leaf 12215; receipt in `sm-024.receipt.json` · country lookup: https://markovianprotocol.com/measurements/sm-024/lookup.html
+
+Scripts: `scan.py` downloads every supplemental statement the FARA Unit's bulk file lists as filed since 1 January 2024 and reads page 1 with Apple Vision text recognition (`ocr_page1.swift`): the period it covers and the Unit's receipt stamp. `analyze.py` scores each statement (due = period end + 30 days, 22 U.S.C. 612(b)). `overdue.py` lays out each active agent's six-month periods and finds those with no statement; `pre2024.py` reads each candidate's last statement before 2024; `verify_overdue.py` checks every candidate against the Unit's live filings page. `tables.py`, `build_lookup.py` and `make_page.py` build the page and the lookup.
+
+Exhibits: the three FARA bulk files and the eFile API active/terminated lists as read on 22 October 2026, every statement's hash, period, stamp and page-1 text (`scan_2024on.jsonl`, `ocr_text_page1.tar.gz`), the pre-2024 statements read (`pre2024_last.jsonl`, `ocr_text_pre2024.tar.gz`), the saved filings pages of all 159 overdue candidates (`live_2026-10-22.tar.gz`), full-text reads of the possibly-final statements, 22 U.S.C. 611–613, the DOJ FARA FAQ and the 2016 Inspector General audit (with NSD's response).
