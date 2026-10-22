@@ -1,0 +1,2088 @@
+{
+ "source": "cves.zip",
+ "own_domains": "own_domains.json",
+ "counts": {
+  "files_2025_2026": 115635,
+  "published": 112862,
+  "no_datePublic": 83897,
+  "kept_public_before_reserved_within_1d": 41,
+  "dropped_public_before_reserved": 4607,
+  "not_published": 2773,
+  "public_after_published_any": 8058,
+  "kept_public_1d_after_published": 40,
+  "dropped_public_after_published": 8018,
+  "scored": 16340
+ },
+ "dropped_before_reserved_by_cna": {
+  "VulnCheck": 3983,
+  "redhat": 286,
+  "INCIBE": 48,
+  "cisa-cg": 39,
+  "Tanium": 37,
+  "drupal": 35,
+  "Google": 24,
+  "GEN": 13,
+  "zdi": 11,
+  "redhat-cnalr": 9,
+  "GV": 8,
+  "Patchstack": 8,
+  "EEF": 7,
+  "fedora": 7,
+  "wibu": 7,
+  "Foxit": 6,
+  "adobe": 5,
+  "securin": 5,
+  "TCS-CERT": 4,
+  "Crestron": 4,
+  "Centreon": 4,
+  "HeroDevs": 3,
+  "Secur0": 3,
+  "chainguard": 3,
+  "NCSC.ch": 3,
+  "Cribl": 3,
+  "GovTech CSG": 3,
+  "glibc": 2,
+  "Altium": 2,
+  "Qt": 2,
+  "illumos": 2,
+  "f5": 2,
+  "BombadilSystems": 2,
+  "PostgreSQL": 2,
+  "suse": 2,
+  "ONEKEY": 2,
+  "cirosec": 2,
+  "HW": 1,
+  "postiz": 1,
+  "JAMF": 1,
+  "NCSC-FI": 1,
+  "canonical": 1,
+  "rapid7": 1,
+  "dell": 1,
+  "TuranSec": 1,
+  "Echo": 1,
+  "Intigriti": 1,
+  "icscert": 1,
+  "wikimedia-foundation": 1,
+  "NLOK": 1,
+  "microsoft": 1,
+  "Checkmarx": 1,
+  "kubernetes": 1,
+  "Edgewatch": 1,
+  "Radiometer": 1,
+  "TQtC": 1
+ },
+ "dell_tz_effect": {
+  "dates_moved": 125,
+  "late_flipped_to_on_time": 8
+ },
+ "published_by_cna": {
+  "GitHub_M": 14120,
+  "VulDB": 11330,
+  "Patchstack": 11283,
+  "Linux": 9785,
+  "mitre": 7149,
+  "VulnCheck": 5873,
+  "Wordfence": 5852,
+  "microsoft": 4214,
+  "oracle": 3388,
+  "Chrome": 3381,
+  "WPScan": 1799,
+  "adobe": 1646,
+  "ibm": 1644,
+  "apple": 1451,
+  "redhat": 1385,
+  "apache": 1212,
+  "mozilla": 799,
+  "icscert": 793,
+  "cisco": 793,
+  "dell": 723,
+  "zdi": 693,
+  "INCIBE": 622,
+  "jpcert": 527,
+  "nvidia": 522,
+  "GitLab": 518,
+  "TR-CERT": 484,
+  "google_android": 467,
+  "CERT-PL": 426,
+  "Joomla": 406,
+  "sap": 386,
+  "hpe": 370,
+  "SamsungMobile": 361,
+  "vmware": 343,
+  "intel": 328,
+  "EEF": 325,
+  "MediaTek": 320,
+  "CPANSec": 317,
+  "hackerone": 311,
+  "siemens": 309,
+  "CERTVDE": 307,
+  "qualcomm": 304,
+  "twcert": 293,
+  "HCL": 293,
+  "huawei": 289,
+  "Mattermost": 281,
+  "drupal": 271,
+  "mongodb": 253,
+  "JetBrains": 243,
+  "qnap": 241,
+  "wikimedia-foundation": 238,
+  "CIRCL": 235,
+  "jenkins": 235,
+  "certcc": 233,
+  "cisa-cg": 223,
+  "Google_Devices": 210,
+  "elastic": 207,
+  "TPLink": 201,
+  "fortinet": 201,
+  "TuranSec": 201,
+  "AMZN": 196,
+  "talos": 178,
+  "zephyr": 174,
+  "f5": 169,
+  "juniper": 167,
+  "eclipse": 164,
+  "palo_alto": 157,
+  "Nozomi": 155,
+  "@huntr_ai": 149,
+  "suse": 144,
+  "Liferay": 144,
+  "Go": 141,
+  "canonical": 140,
+  "NCSC.ch": 139,
+  "openjs": 128,
+  "Gitea": 126,
+  "Rockwell": 125,
+  "ProgressSoftware": 121,
+  "ConcreteCMS": 121,
+  "DEVOLUTIONS": 117,
+  "autodesk": 112,
+  "PostgreSQL": 112,
+  "ivanti": 110,
+  "OX": 110,
+  "wolfSSL": 107,
+  "WatchGuard": 106,
+  "GovTech CSG": 106,
+  "Fluid Attacks": 104,
+  "AMD": 104,
+  "Arista": 103,
+  "fedora": 99,
+  "lenovo": 97,
+  "Foxit": 96,
+  "Zohocorp": 93,
+  "samsung.tv_appliance": 93,
+  "JFROG": 92,
+  "schneider": 91,
+  "brocade": 91,
+  "SICK AG": 90,
+  "tenable": 88,
+  "Tanium": 86,
+  "SEC-VLab": 86,
+  "bcorg": 84,
+  "Google": 83,
+  "rapid7": 83,
+  "hp": 82,
+  "GV": 81,
+  "OpenHarmony": 80,
+  "GRAFANA": 75,
+  "HashiCorp": 73,
+  "TYPO3": 72,
+  "NI": 71,
+  "Zoom": 71,
+  "ASUS": 70,
+  "freebsd": 70,
+  "securin": 70,
+  "Deltaww": 70,
+  "snyk": 69,
+  "3DS": 68,
+  "openssl": 67,
+  "PSF": 65,
+  "ENISA": 64,
+  "NLnet Labs": 60,
+  "CERT-In": 60,
+  "sonicwall": 60,
+  "imaginationtech": 59,
+  "WSO2": 59,
+  "Acronis": 59,
+  "ABB": 59,
+  "zte": 58,
+  "trendmicro": 58,
+  "curl": 55,
+  "Silabs": 53,
+  "Checkmk": 53,
+  "GoogleCloud": 53,
+  "Esri": 53,
+  "XEN": 52,
+  "Gridware": 50,
+  "INCD": 50,
+  "Acer": 49,
+  "Absolute": 49,
+  "CSA": 49,
+  "SolarWinds": 49,
+  "jci": 48,
+  "isc": 47,
+  "NETGEAR": 47,
+  "GitHub_P": 46,
+  "synology": 45,
+  "Docker": 45,
+  "Unisoc": 44,
+  "Axis": 42,
+  "DIVD": 42,
+  "OpenText": 41,
+  "Sonatype": 39,
+  "azure-access": 39,
+  "runZero": 38,
+  "Secur0": 38,
+  "DSF": 38,
+  "TV": 37,
+  "Zabbix": 37,
+  "php": 36,
+  "rami.io": 34,
+  "Hitachi Energy": 34,
+  "Salesforce": 33,
+  "Centreon": 33,
+  "OpenVPN": 33,
+  "Hitachi": 33,
+  "Zyxel": 33,
+  "RTI": 30,
+  "Mitsubishi": 30,
+  "bosch": 29,
+  "Ubiquiti": 29,
+  "ASUSTOR1": 28,
+  "ZUSO ART": 28,
+  "Moxa": 28,
+  "glibc": 28,
+  "atlassian": 28,
+  "HeroDevs": 27,
+  "Canon": 27,
+  "hikvision": 26,
+  "Fortra": 26,
+  "NCSC-FI": 26,
+  "Honeywell": 26,
+  "Arm": 26,
+  "ERIC": 26,
+  "AHA": 26,
+  "CyberDanube": 25,
+  "Document Fdn.": 25,
+  "symantec": 25,
+  "Nokia": 25,
+  "Eaton": 25,
+  "cloudflare": 24,
+  "HiddenLayer": 24,
+  "PandoraFMS": 24,
+  "YokogawaGroup": 24,
+  "checkpoint": 23,
+  "ASRG": 23,
+  "Meta": 23,
+  "kubernetes": 23,
+  "Okta": 23,
+  "NEC": 22,
+  "Mandiant": 21,
+  "Perforce": 21,
+  "Altium": 21,
+  "SNOWFLAKE": 20,
+  "Altera": 20,
+  "NetScaler": 20,
+  "Insyde": 20,
+  "Octopus": 20,
+  "airbus": 20,
+  "harborist": 19,
+  "Pega": 19,
+  "GEN": 19,
+  "M-Files Corporation": 19,
+  "SEL": 19,
+  "Citrix": 18,
+  "redhat-cnalr": 18,
+  "Gallagher": 18,
+  "Kong": 17,
+  "BLSOPS": 17,
+  "SN": 17,
+  "TQtC": 17,
+  "Mautic": 17,
+  "FSI": 16,
+  "Temporal": 16,
+  "ESET": 16,
+  "netapp": 16,
+  "HITVAN": 15,
+  "Commvault": 15,
+  "PaperCut": 15,
+  "Zscaler": 15,
+  "S21sec": 15,
+  "LY-Corporation": 14,
+  "PRJBLK": 14,
+  "Microchip": 14,
+  "naver": 14,
+  "ConnectWise": 14,
+  "OTRS": 14,
+  "N-able": 14,
+  "ASR": 14,
+  "TCS-CERT": 13,
+  "SRA": 13,
+  "TECNOMobile": 13,
+  "BT": 13,
+  "sba-research": 12,
+  "Netskope": 12,
+  "Canva": 12,
+  "krcert": 12,
+  "HDFG": 12,
+  "ca": 12,
+  "arcinfo": 12,
+  "ChromeOS": 12,
+  "facebook": 12,
+  "MHV": 11,
+  "Kaspersky": 11,
+  "Genetec": 11,
+  "Neo4j": 11,
+  "Bugcrowd": 11,
+  "Ping Identity": 11,
+  "VULSec": 11,
+  "Supermicro": 11,
+  "NCSC-NL": 11,
+  "Delinea": 10,
+  "trellix": 10,
+  "AMI": 10,
+  "blackberry": 10,
+  "Honor": 10,
+  "Dragos": 10,
+  "Lexmark": 10,
+  "Armis": 10,
+  "bizerba": 9,
+  "BCNY": 9,
+  "Qt": 9,
+  "Toreon": 9,
+  "Bitdefender": 9,
+  "cirosec": 9,
+  "Tcpdump": 9,
+  "EDB": 9,
+  "illumos": 9,
+  "Medtronic": 9,
+  "KoreLogic": 9,
+  "Hackrate": 8,
+  "THA-PSIRT": 8,
+  "Vivo": 8,
+  "ExtremeNetworks": 8,
+  "TML": 8,
+  "WindRiver": 8,
+  "wibu": 8,
+  "HackRTU": 8,
+  "Omnissa": 8,
+  "Crestron": 8,
+  "tibco": 8,
+  "NLOK": 8,
+  "AxxonSoft": 8,
+  "ThinkstAppliedResearch": 7,
+  "Securifera": 7,
+  "Vaadin": 7,
+  "upKeeper": 7,
+  "Softing": 7,
+  "seal": 7,
+  "OpenNMS": 7,
+  "TRO": 7,
+  "dahua": 7,
+  "Sophos": 7,
+  "PureStorage": 7,
+  "OPPO": 7,
+  "KNIME": 7,
+  "floragunn": 7,
+  "Xerox": 6,
+  "Cato": 6,
+  "forcepoint": 6,
+  "OAI": 6,
+  "BlackDuck": 6,
+  "GE_Vernova": 6,
+  "Yugabyte": 6,
+  "Tigera": 6,
+  "ONEKEY": 6,
+  "Wiz": 6,
+  "HYPR": 5,
+  "debian": 5,
+  "Digi": 5,
+  "PTC": 5,
+  "SailPoint": 5,
+  "HW": 5,
+  "Seagate": 5,
+  "Cribl": 5,
+  "FERMAX": 5,
+  "GandC": 5,
+  "Caliptra": 5,
+  "CrowdStrike": 5,
+  "StrongDM": 5,
+  "Palantir": 5,
+  "Hanwha_Vision": 5,
+  "2N": 5,
+  "Carrier": 5,
+  "tlt_net": 4,
+  "alibaba": 4,
+  "dotCMS": 4,
+  "libreswan": 4,
+  "Payara": 4,
+  "yandex": 4,
+  "postiz": 4,
+  "flexera": 4,
+  "SK-CERT": 4,
+  "Canon_EMEA": 4,
+  "linqi": 4,
+  "Checkmarx": 4,
+  "Anthropic": 4,
+  "FSOFT": 4,
+  "Ciena": 4,
+  "OMRON": 4,
+  "Danfoss": 4,
+  "LGE": 4,
+  "CyberArk": 4,
+  "systemd": 3,
+  "Panasonic_Holdings_Corporation": 3,
+  "OMICRON": 3,
+  "Jaspersoft": 3,
+  "watchdog": 3,
+  "Secomea": 3,
+  "crafter": 3,
+  "chainguard": 3,
+  "Everpure": 3,
+  "rust": 3,
+  "YesWeHack": 3,
+  "AlgoSec": 3,
+  "Milestone": 3,
+  "Pentraze": 3,
+  "TianoCore": 3,
+  "Solidigm": 3,
+  "Saviynt": 3,
+  "Philips": 3,
+  "B.Braun": 3,
+  "Radiometer": 3,
+  "SWI": 3,
+  "FTI": 2,
+  "NX": 2,
+  "Hillstone": 2,
+  "SoftIron": 2,
+  "TXOne": 2,
+  "9front": 2,
+  "Roche": 2,
+  "larry_cashdollar": 2,
+  "CODRA": 2,
+  "BombadilSystems": 2,
+  "ATIS": 2,
+  "MON-CSIRT": 2,
+  "Proofpoint": 2,
+  "ClickHouse": 2,
+  "Huntress": 2,
+  "Splunk": 2,
+  "WDC PSIRT": 2,
+  "SCHUTZWERK": 2,
+  "Logitech": 1,
+  "spartans-security": 1,
+  "IQSIGHT": 1,
+  "Spotfire": 1,
+  "hsi": 1,
+  "JAMF": 1,
+  "Nutanix": 1,
+  "ELAN": 1,
+  "Vestel": 1,
+  "STAR_Labs": 1,
+  "Proton": 1,
+  "FB": 1,
+  "sirius": 1,
+  "Infoblox": 1,
+  "Echo": 1,
+  "Intigriti": 1,
+  "KrakenD": 1,
+  "openGauss": 1,
+  "Nintendo": 1,
+  "Dremio": 1,
+  "Ribose": 1,
+  "Opera": 1,
+  "ODA": 1,
+  "openam-jp": 1,
+  "OB": 1,
+  "ManageEngine": 1,
+  "1E": 1,
+  "Anolis": 1,
+  "avaya": 1,
+  "MIM": 1,
+  "Synaptics": 1,
+  "Profisee": 1,
+  "Bull": 1,
+  "Swift": 1,
+  "BECLS": 1,
+  "Qualys": 1,
+  "openEuler": 1,
+  "iManage": 1,
+  "Edgewatch": 1,
+  "Forescout": 1
+ },
+ "with_datePublic_by_cna": {
+  "Patchstack": 8749,
+  "VulnCheck": 5241,
+  "microsoft": 4214,
+  "adobe": 1642,
+  "redhat": 1382,
+  "dell": 720,
+  "zdi": 693,
+  "INCIBE": 557,
+  "TR-CERT": 418,
+  "icscert": 294,
+  "twcert": 283,
+  "drupal": 265,
+  "cisa-cg": 223,
+  "CERT-PL": 208,
+  "cisco": 202,
+  "f5": 169,
+  "juniper": 167,
+  "TuranSec": 153,
+  "palo_alto": 151,
+  "HCL": 138,
+  "suse": 123,
+  "AMD": 99,
+  "fedora": 98,
+  "Tanium": 86,
+  "vmware": 75,
+  "GV": 72,
+  "freebsd": 70,
+  "Deltaww": 70,
+  "Zoom": 69,
+  "openssl": 67,
+  "WatchGuard": 67,
+  "GRAFANA": 62,
+  "OX": 62,
+  "NLnet Labs": 60,
+  "sonicwall": 60,
+  "Arista": 53,
+  "TYPO3": 50,
+  "XEN": 50,
+  "tenable": 49,
+  "INCD": 49,
+  "isc": 47,
+  "NETGEAR": 47,
+  "CSA": 46,
+  "EEF": 40,
+  "Esri": 40,
+  "runZero": 38,
+  "securin": 38,
+  "DSF": 36,
+  "Nozomi": 36,
+  "Rockwell": 35,
+  "Google": 32,
+  "RTI": 30,
+  "rapid7": 28,
+  "ZUSO ART": 27,
+  "Secur0": 26,
+  "jci": 26,
+  "ASUSTOR1": 25,
+  "Document Fdn.": 25,
+  "AHA": 25,
+  "mongodb": 24,
+  "PandoraFMS": 24,
+  "YokogawaGroup": 24,
+  "wikimedia-foundation": 24,
+  "canonical": 22,
+  "CERTVDE": 22,
+  "php": 22,
+  "Altium": 21,
+  "google_android": 20,
+  "kubernetes": 19,
+  "SolarWinds": 18,
+  "Pega": 17,
+  "GEN": 17,
+  "wolfSSL": 16,
+  "Citrix": 16,
+  "glibc": 16,
+  "schneider": 16,
+  "Eaton": 16,
+  "Insyde": 15,
+  "PostgreSQL": 15,
+  "Arm": 15,
+  "NetScaler": 14,
+  "Fluid Attacks": 14,
+  "Perforce": 14,
+  "OTRS": 14,
+  "ASR": 14,
+  "DIVD": 13,
+  "hpe": 12,
+  "ca": 12,
+  "arcinfo": 12,
+  "N-able": 12,
+  "NCSC.ch": 11,
+  "ESET": 11,
+  "redhat-cnalr": 11,
+  "VULSec": 11,
+  "ABB": 11,
+  "TCS-CERT": 10,
+  "GovTech CSG": 10,
+  "AMI": 10,
+  "NCSC-FI": 10,
+  "Armis": 10,
+  "Honeywell": 10,
+  "SICK AG": 9,
+  "Zscaler": 9,
+  "Foxit": 9,
+  "KoreLogic": 9,
+  "WindRiver": 8,
+  "HackRTU": 8,
+  "Crestron": 8,
+  "Mautic": 8,
+  "HeroDevs": 7,
+  "SRA": 7,
+  "BCNY": 7,
+  "cloudflare": 7,
+  "wibu": 7,
+  "ASRG": 7,
+  "floragunn": 7,
+  "samsung.tv_appliance": 7,
+  "Centreon": 6,
+  "Qt": 6,
+  "THA-PSIRT": 6,
+  "AMZN": 6,
+  "Bitdefender": 6,
+  "ExtremeNetworks": 6,
+  "Tigera": 6,
+  "tibco": 6,
+  "Wiz": 6,
+  "rami.io": 5,
+  "ThinkstAppliedResearch": 5,
+  "HW": 5,
+  "ProgressSoftware": 5,
+  "Cribl": 5,
+  "Caliptra": 5,
+  "eclipse": 5,
+  "blackberry": 5,
+  "Omnissa": 5,
+  "postiz": 4,
+  "Xerox": 4,
+  "ERIC": 4,
+  "systemd": 3,
+  "Netskope": 3,
+  "OMICRON": 3,
+  "lenovo": 3,
+  "Jaspersoft": 3,
+  "Microchip": 3,
+  "Digi": 3,
+  "JFROG": 3,
+  "Canon_EMEA": 3,
+  "crafter": 3,
+  "Checkmarx": 3,
+  "chainguard": 3,
+  "symantec": 3,
+  "Pentraze": 3,
+  "TianoCore": 3,
+  "TQtC": 3,
+  "ONEKEY": 3,
+  "CrowdStrike": 3,
+  "Salesforce": 3,
+  "elastic": 3,
+  "cirosec": 3,
+  "Philips": 3,
+  "B.Braun": 3,
+  "SWI": 3,
+  "FTI": 2,
+  "SailPoint": 2,
+  "NX": 2,
+  "watchdog": 2,
+  "Go": 2,
+  "BlackDuck": 2,
+  "apache": 2,
+  "LGE": 2,
+  "illumos": 2,
+  "Google_Devices": 2,
+  "Roche": 2,
+  "larry_cashdollar": 2,
+  "Milestone": 2,
+  "KNIME": 2,
+  "BombadilSystems": 2,
+  "ATIS": 2,
+  "NLOK": 2,
+  "Huntress": 2,
+  "bizerba": 2,
+  "Supermicro": 2,
+  "Splunk": 2,
+  "GoogleCloud": 2,
+  "FSOFT": 2,
+  "Lexmark": 2,
+  "Radiometer": 2,
+  "forcepoint": 1,
+  "spartans-security": 1,
+  "yandex": 1,
+  "Hitachi": 1,
+  "Delinea": 1,
+  "Spotfire": 1,
+  "Payara": 1,
+  "Canva": 1,
+  "GandC": 1,
+  "Kong": 1,
+  "JAMF": 1,
+  "bcorg": 1,
+  "OpenVPN": 1,
+  "Docker": 1,
+  "Zyxel": 1,
+  "OMRON": 1,
+  "Nutanix": 1,
+  "TECNOMobile": 1,
+  "harborist": 1,
+  "Vestel": 1,
+  "Acer": 1,
+  "Moxa": 1,
+  "9front": 1,
+  "STAR_Labs": 1,
+  "PRJBLK": 1,
+  "seal": 1,
+  "Echo": 1,
+  "ibm": 1,
+  "Intigriti": 1,
+  "openGauss": 1,
+  "Nintendo": 1,
+  "DEVOLUTIONS": 1,
+  "Ribose": 1,
+  "Bugcrowd": 1,
+  "FERMAX": 1,
+  "Gridware": 1,
+  "1E": 1,
+  "Anolis": 1,
+  "ClickHouse": 1,
+  "mitre": 1,
+  "OPPO": 1,
+  "TPLink": 1,
+  "Danfoss": 1,
+  "Bull": 1,
+  "Octopus": 1,
+  "MON-CSIRT": 1,
+  "Carrier": 1,
+  "Qualys": 1,
+  "SCHUTZWERK": 1,
+  "Softing": 1,
+  "Hitachi Energy": 1,
+  "airbus": 1,
+  "Okta": 1,
+  "dahua": 1,
+  "iManage": 1,
+  "Edgewatch": 1
+ },
+ "cnas_scored": 234,
+ "cnas_scored_mapped": 219,
+ "cnas_scored_unmapped_30plus": [
+  "VulnCheck"
+ ],
+ "all": {
+  "scored": 16340,
+  "late": 2343,
+  "late_pct": 14.3,
+  "over_30": 474,
+  "over_90": 108,
+  "same_day": 11913,
+  "median_lag": 0,
+  "median_late_lag": 13,
+  "within_1_day": 13342
+ },
+ "own_site": {
+  "scored": 13881,
+  "late": 1816,
+  "late_pct": 13.1,
+  "over_30": 340,
+  "over_90": 72,
+  "same_day": 10519,
+  "median_lag": 0,
+  "median_late_lag": 13.0,
+  "within_1_day": 11585
+ },
+ "by_year": {
+  "2025": {
+   "all": {
+    "scored": 5218,
+    "late": 793,
+    "late_pct": 15.2,
+    "over_30": 146,
+    "over_90": 10,
+    "same_day": 3743,
+    "median_lag": 0,
+    "median_late_lag": 13,
+    "within_1_day": 4233
+   },
+   "own_site": {
+    "scored": 4902,
+    "late": 723,
+    "late_pct": 14.7,
+    "over_30": 136,
+    "over_90": 9,
+    "same_day": 3556,
+    "median_lag": 0,
+    "median_late_lag": 13,
+    "within_1_day": 4014
+   }
+  },
+  "2026": {
+   "all": {
+    "scored": 11122,
+    "late": 1550,
+    "late_pct": 13.9,
+    "over_30": 328,
+    "over_90": 98,
+    "same_day": 8170,
+    "median_lag": 0,
+    "median_late_lag": 13.0,
+    "within_1_day": 9109
+   },
+   "own_site": {
+    "scored": 8979,
+    "late": 1093,
+    "late_pct": 12.2,
+    "over_30": 204,
+    "over_90": 63,
+    "same_day": 6963,
+    "median_lag": 0,
+    "median_late_lag": 11,
+    "within_1_day": 7571
+   }
+  }
+ },
+ "by_quarter_own": {
+  "2025Q1": {
+   "scored": 762,
+   "late": 66,
+   "late_pct": 8.7,
+   "over_30": 1,
+   "over_90": 0,
+   "same_day": 597,
+   "median_lag": 0,
+   "median_late_lag": 10.5,
+   "within_1_day": 680
+  },
+  "2025Q2": {
+   "scored": 1366,
+   "late": 134,
+   "late_pct": 9.8,
+   "over_30": 15,
+   "over_90": 3,
+   "same_day": 1081,
+   "median_lag": 0,
+   "median_late_lag": 14.0,
+   "within_1_day": 1185
+  },
+  "2025Q3": {
+   "scored": 1400,
+   "late": 287,
+   "late_pct": 20.5,
+   "over_30": 78,
+   "over_90": 4,
+   "same_day": 990,
+   "median_lag": 0,
+   "median_late_lag": 13,
+   "within_1_day": 1056
+  },
+  "2025Q4": {
+   "scored": 1374,
+   "late": 236,
+   "late_pct": 17.2,
+   "over_30": 42,
+   "over_90": 2,
+   "same_day": 888,
+   "median_lag": 0,
+   "median_late_lag": 11.0,
+   "within_1_day": 1093
+  },
+  "2026Q1": {
+   "scored": 1415,
+   "late": 238,
+   "late_pct": 16.8,
+   "over_30": 47,
+   "over_90": 13,
+   "same_day": 975,
+   "median_lag": 0,
+   "median_late_lag": 14.0,
+   "within_1_day": 1133
+  },
+  "2026Q2": {
+   "scored": 2182,
+   "late": 181,
+   "late_pct": 8.3,
+   "over_30": 49,
+   "over_90": 26,
+   "same_day": 1765,
+   "median_lag": 0,
+   "median_late_lag": 13,
+   "within_1_day": 1950
+  },
+  "2026Q3": {
+   "scored": 4871,
+   "late": 573,
+   "late_pct": 11.8,
+   "over_30": 86,
+   "over_90": 23,
+   "same_day": 3939,
+   "median_lag": 0,
+   "median_late_lag": 9,
+   "within_1_day": 4184
+  },
+  "2026Q4": {
+   "scored": 511,
+   "late": 101,
+   "late_pct": 19.8,
+   "over_30": 22,
+   "over_90": 1,
+   "same_day": 284,
+   "median_lag": 0,
+   "median_late_lag": 6,
+   "within_1_day": 304
+  }
+ },
+ "by_cna_own": {
+  "zdi": {
+   "scored": 682,
+   "late": 526,
+   "late_pct": 77.1,
+   "over_30": 60,
+   "over_90": 8,
+   "same_day": 109,
+   "median_lag": 13,
+   "median_late_lag": 13.0,
+   "within_1_day": 134,
+   "distinct_publish_days": 42,
+   "records_per_publish_day": 16.2,
+   "worst": [
+    [
+     108,
+     "CVE-2025-11002"
+    ],
+    [
+     105,
+     "CVE-2026-5492"
+    ],
+    [
+     105,
+     "CVE-2026-5491"
+    ]
+   ]
+  },
+  "dell": {
+   "scored": 719,
+   "late": 350,
+   "late_pct": 48.7,
+   "over_30": 31,
+   "over_90": 12,
+   "same_day": 112,
+   "median_lag": 3,
+   "median_late_lag": 8.0,
+   "within_1_day": 294,
+   "distinct_publish_days": 144,
+   "records_per_publish_day": 5.0,
+   "worst": [
+    [
+     269,
+     "CVE-2025-36579"
+    ],
+    [
+     197,
+     "CVE-2025-43937"
+    ],
+    [
+     197,
+     "CVE-2025-43935"
+    ]
+   ]
+  },
+  "drupal": {
+   "scored": 229,
+   "late": 188,
+   "late_pct": 82.1,
+   "over_30": 48,
+   "over_90": 0,
+   "same_day": 20,
+   "median_lag": 16,
+   "median_late_lag": 21.0,
+   "within_1_day": 29,
+   "distinct_publish_days": 25,
+   "records_per_publish_day": 9.2,
+   "worst": [
+    [
+     57,
+     "CVE-2026-5343"
+    ],
+    [
+     56,
+     "CVE-2025-9954"
+    ],
+    [
+     56,
+     "CVE-2025-13986"
+    ]
+   ]
+  },
+  "redhat": {
+   "scored": 1096,
+   "late": 181,
+   "late_pct": 16.5,
+   "over_30": 66,
+   "over_90": 19,
+   "same_day": 770,
+   "median_lag": 0,
+   "median_late_lag": 17,
+   "within_1_day": 880,
+   "distinct_publish_days": 270,
+   "records_per_publish_day": 4.1,
+   "worst": [
+    [
+     312,
+     "CVE-2025-11395"
+    ],
+    [
+     182,
+     "CVE-2025-9572"
+    ],
+    [
+     163,
+     "CVE-2025-9909"
+    ]
+   ]
+  },
+  "INCIBE": {
+   "scored": 507,
+   "late": 69,
+   "late_pct": 13.6,
+   "over_30": 13,
+   "over_90": 0,
+   "same_day": 360,
+   "median_lag": 0,
+   "median_late_lag": 8,
+   "within_1_day": 422,
+   "distinct_publish_days": 142,
+   "records_per_publish_day": 3.6,
+   "worst": [
+    [
+     73,
+     "CVE-2026-1836"
+    ],
+    [
+     35,
+     "CVE-2025-11789"
+    ],
+    [
+     35,
+     "CVE-2025-11788"
+    ]
+   ]
+  },
+  "suse": {
+   "scored": 75,
+   "late": 54,
+   "late_pct": 72.0,
+   "over_30": 11,
+   "over_90": 1,
+   "same_day": 11,
+   "median_lag": 9,
+   "median_late_lag": 19.5,
+   "within_1_day": 16,
+   "distinct_publish_days": 35,
+   "records_per_publish_day": 2.1,
+   "worst": [
+    [
+     306,
+     "CVE-2025-46808"
+    ],
+    [
+     79,
+     "CVE-2025-23386"
+    ],
+    [
+     47,
+     "CVE-2025-8412"
+    ]
+   ]
+  },
+  "Patchstack": {
+   "scored": 760,
+   "late": 52,
+   "late_pct": 6.8,
+   "over_30": 1,
+   "over_90": 0,
+   "same_day": 583,
+   "median_lag": 0,
+   "median_late_lag": 6.0,
+   "within_1_day": 601,
+   "distinct_publish_days": 37,
+   "records_per_publish_day": 20.5,
+   "worst": [
+    [
+     62,
+     "CVE-2026-48197"
+    ],
+    [
+     9,
+     "CVE-2026-49076"
+    ],
+    [
+     7,
+     "CVE-2026-96553"
+    ]
+   ]
+  },
+  "adobe": {
+   "scored": 1633,
+   "late": 46,
+   "late_pct": 2.8,
+   "over_30": 22,
+   "over_90": 3,
+   "same_day": 1410,
+   "median_lag": 0,
+   "median_late_lag": 22.0,
+   "within_1_day": 1570,
+   "distinct_publish_days": 49,
+   "records_per_publish_day": 33.3,
+   "worst": [
+    [
+     135,
+     "CVE-2026-34620"
+    ],
+    [
+     135,
+     "CVE-2026-34616"
+    ],
+    [
+     107,
+     "CVE-2026-34674"
+    ]
+   ]
+  },
+  "Arista": {
+   "scored": 53,
+   "late": 43,
+   "late_pct": 81.1,
+   "over_30": 10,
+   "over_90": 9,
+   "same_day": 5,
+   "median_lag": 7,
+   "median_late_lag": 7,
+   "within_1_day": 6,
+   "distinct_publish_days": 13,
+   "records_per_publish_day": 4.1,
+   "worst": [
+    [
+     199,
+     "CVE-2025-5090"
+    ],
+    [
+     199,
+     "CVE-2025-5088"
+    ],
+    [
+     169,
+     "CVE-2025-5089"
+    ]
+   ]
+  },
+  "freebsd": {
+   "scored": 70,
+   "late": 39,
+   "late_pct": 55.7,
+   "over_30": 20,
+   "over_90": 0,
+   "same_day": 4,
+   "median_lag": 17,
+   "median_late_lag": 41,
+   "within_1_day": 31,
+   "distinct_publish_days": 12,
+   "records_per_publish_day": 5.8,
+   "worst": [
+    [
+     82,
+     "CVE-2025-14769"
+    ],
+    [
+     82,
+     "CVE-2025-14558"
+    ],
+    [
+     50,
+     "CVE-2026-58082"
+    ]
+   ]
+  },
+  "RTI": {
+   "scored": 30,
+   "late": 27,
+   "late_pct": 90.0,
+   "over_30": 0,
+   "over_90": 0,
+   "same_day": 0,
+   "median_lag": 7,
+   "median_late_lag": 7,
+   "within_1_day": 0,
+   "distinct_publish_days": 7,
+   "records_per_publish_day": 4.3,
+   "worst": [
+    [
+     7,
+     "CVE-2026-8849"
+    ],
+    [
+     7,
+     "CVE-2026-7866"
+    ],
+    [
+     7,
+     "CVE-2026-4374"
+    ]
+   ]
+  },
+  "GV": {
+   "scored": 64,
+   "late": 27,
+   "late_pct": 42.2,
+   "over_30": 0,
+   "over_90": 0,
+   "same_day": 32,
+   "median_lag": 0,
+   "median_late_lag": 8,
+   "within_1_day": 34,
+   "distinct_publish_days": 11,
+   "records_per_publish_day": 5.8,
+   "worst": [
+    [
+     8,
+     "CVE-2026-57278"
+    ],
+    [
+     8,
+     "CVE-2026-57277"
+    ],
+    [
+     8,
+     "CVE-2026-57276"
+    ]
+   ]
+  },
+  "XEN": {
+   "scored": 50,
+   "late": 22,
+   "late_pct": 44.0,
+   "over_30": 10,
+   "over_90": 5,
+   "same_day": 21,
+   "median_lag": 2,
+   "median_late_lag": 21.0,
+   "within_1_day": 23,
+   "distinct_publish_days": 11,
+   "records_per_publish_day": 4.5,
+   "worst": [
+    [
+     408,
+     "CVE-2025-27463"
+    ],
+    [
+     408,
+     "CVE-2025-27462"
+    ],
+    [
+     303,
+     "CVE-2025-58146"
+    ]
+   ]
+  },
+  "GRAFANA": {
+   "scored": 61,
+   "late": 21,
+   "late_pct": 34.4,
+   "over_30": 11,
+   "over_90": 3,
+   "same_day": 36,
+   "median_lag": 0,
+   "median_late_lag": 31,
+   "within_1_day": 40,
+   "distinct_publish_days": 29,
+   "records_per_publish_day": 2.1,
+   "worst": [
+    [
+     143,
+     "CVE-2026-21729"
+    ],
+    [
+     120,
+     "CVE-2025-12141"
+    ],
+    [
+     105,
+     "CVE-2026-28378"
+    ]
+   ]
+  },
+  "microsoft": {
+   "scored": 4203,
+   "late": 19,
+   "late_pct": 0.5,
+   "over_30": 0,
+   "over_90": 0,
+   "same_day": 4090,
+   "median_lag": 0,
+   "median_late_lag": 7,
+   "within_1_day": 4154,
+   "distinct_publish_days": 126,
+   "records_per_publish_day": 33.4,
+   "worst": [
+    [
+     20,
+     "CVE-2026-47646"
+    ],
+    [
+     15,
+     "CVE-2025-47964"
+    ],
+    [
+     15,
+     "CVE-2025-47963"
+    ]
+   ]
+  },
+  "icscert": {
+   "scored": 279,
+   "late": 18,
+   "late_pct": 6.5,
+   "over_30": 2,
+   "over_90": 0,
+   "same_day": 170,
+   "median_lag": 0,
+   "median_late_lag": 6.5,
+   "within_1_day": 232,
+   "distinct_publish_days": 73,
+   "records_per_publish_day": 3.8,
+   "worst": [
+    [
+     71,
+     "CVE-2026-38058"
+    ],
+    [
+     71,
+     "CVE-2026-38056"
+    ],
+    [
+     8,
+     "CVE-2026-38059"
+    ]
+   ]
+  },
+  "Esri": {
+   "scored": 39,
+   "late": 11,
+   "late_pct": 28.2,
+   "over_30": 0,
+   "over_90": 0,
+   "same_day": 14,
+   "median_lag": 1,
+   "median_late_lag": 21,
+   "within_1_day": 28,
+   "distinct_publish_days": 9,
+   "records_per_publish_day": 4.3,
+   "worst": [
+    [
+     21,
+     "CVE-2025-67711"
+    ],
+    [
+     21,
+     "CVE-2025-67710"
+    ],
+    [
+     21,
+     "CVE-2025-67709"
+    ]
+   ]
+  },
+  "Zoom": {
+   "scored": 69,
+   "late": 7,
+   "late_pct": 10.1,
+   "over_30": 0,
+   "over_90": 0,
+   "same_day": 24,
+   "median_lag": 1,
+   "median_late_lag": 16,
+   "within_1_day": 42,
+   "distinct_publish_days": 16,
+   "records_per_publish_day": 4.3,
+   "worst": [
+    [
+     16,
+     "CVE-2025-0147"
+    ],
+    [
+     16,
+     "CVE-2025-0146"
+    ],
+    [
+     16,
+     "CVE-2025-0145"
+    ]
+   ]
+  },
+  "tenable": {
+   "scored": 49,
+   "late": 5,
+   "late_pct": 10.2,
+   "over_30": 0,
+   "over_90": 0,
+   "same_day": 37,
+   "median_lag": 0,
+   "median_late_lag": 5,
+   "within_1_day": 44,
+   "distinct_publish_days": 27,
+   "records_per_publish_day": 1.8,
+   "worst": [
+    [
+     6,
+     "CVE-2025-36640"
+    ],
+    [
+     5,
+     "CVE-2026-15265"
+    ],
+    [
+     5,
+     "CVE-2025-1091"
+    ]
+   ]
+  },
+  "HCL": {
+   "scored": 138,
+   "late": 4,
+   "late_pct": 2.9,
+   "over_30": 1,
+   "over_90": 0,
+   "same_day": 126,
+   "median_lag": 0,
+   "median_late_lag": 14.0,
+   "within_1_day": 134,
+   "distinct_publish_days": 61,
+   "records_per_publish_day": 2.3,
+   "worst": [
+    [
+     31,
+     "CVE-2025-59873"
+    ],
+    [
+     14,
+     "CVE-2025-31985"
+    ],
+    [
+     14,
+     "CVE-2025-31973"
+    ]
+   ]
+  },
+  "palo_alto": {
+   "scored": 139,
+   "late": 4,
+   "late_pct": 2.9,
+   "over_30": 0,
+   "over_90": 0,
+   "same_day": 67,
+   "median_lag": 1,
+   "median_late_lag": 5.0,
+   "within_1_day": 112,
+   "distinct_publish_days": 26,
+   "records_per_publish_day": 5.3,
+   "worst": [
+    [
+     7,
+     "CVE-2025-0112"
+    ],
+    [
+     5,
+     "CVE-2026-0234"
+    ],
+    [
+     5,
+     "CVE-2026-0233"
+    ]
+   ]
+  },
+  "f5": {
+   "scored": 167,
+   "late": 3,
+   "late_pct": 1.8,
+   "over_30": 0,
+   "over_90": 0,
+   "same_day": 162,
+   "median_lag": 0,
+   "median_late_lag": 14,
+   "within_1_day": 164,
+   "distinct_publish_days": 17,
+   "records_per_publish_day": 9.8,
+   "worst": [
+    [
+     14,
+     "CVE-2026-66842"
+    ],
+    [
+     14,
+     "CVE-2026-63020"
+    ],
+    [
+     14,
+     "CVE-2026-18329"
+    ]
+   ]
+  },
+  "Deltaww": {
+   "scored": 67,
+   "late": 2,
+   "late_pct": 3.0,
+   "over_30": 1,
+   "over_90": 0,
+   "same_day": 63,
+   "median_lag": 0,
+   "median_late_lag": 20.5,
+   "within_1_day": 65,
+   "distinct_publish_days": 26,
+   "records_per_publish_day": 2.6,
+   "worst": [
+    [
+     36,
+     "CVE-2025-53417"
+    ],
+    [
+     5,
+     "CVE-2026-12578"
+    ],
+    [
+     1,
+     "CVE-2026-0975"
+    ]
+   ]
+  },
+  "AMD": {
+   "scored": 95,
+   "late": 2,
+   "late_pct": 2.1,
+   "over_30": 0,
+   "over_90": 0,
+   "same_day": 90,
+   "median_lag": 0,
+   "median_late_lag": 6.0,
+   "within_1_day": 93,
+   "distinct_publish_days": 20,
+   "records_per_publish_day": 4.8,
+   "worst": [
+    [
+     6,
+     "CVE-2025-0037"
+    ],
+    [
+     6,
+     "CVE-2025-0036"
+    ],
+    [
+     0,
+     "CVE-2026-43606"
+    ]
+   ]
+  },
+  "CERT-PL": {
+   "scored": 208,
+   "late": 1,
+   "late_pct": 0.5,
+   "over_30": 1,
+   "over_90": 0,
+   "same_day": 192,
+   "median_lag": 0,
+   "median_late_lag": 69,
+   "within_1_day": 200,
+   "distinct_publish_days": 86,
+   "records_per_publish_day": 2.4,
+   "worst": [
+    [
+     69,
+     "CVE-2026-52748"
+    ],
+    [
+     3,
+     "CVE-2025-55175"
+    ],
+    [
+     3,
+     "CVE-2025-54544"
+    ]
+   ]
+  },
+  "juniper": {
+   "scored": 167,
+   "late": 1,
+   "late_pct": 0.6,
+   "over_30": 1,
+   "over_90": 1,
+   "same_day": 24,
+   "median_lag": 1,
+   "median_late_lag": 357,
+   "within_1_day": 142,
+   "distinct_publish_days": 11,
+   "records_per_publish_day": 15.2,
+   "worst": [
+    [
+     357,
+     "CVE-2025-21589"
+    ],
+    [
+     2,
+     "CVE-2025-6549"
+    ],
+    [
+     2,
+     "CVE-2025-52989"
+    ]
+   ]
+  },
+  "Rockwell": {
+   "scored": 35,
+   "late": 1,
+   "late_pct": 2.9,
+   "over_30": 0,
+   "over_90": 0,
+   "same_day": 34,
+   "median_lag": 0,
+   "median_late_lag": 11,
+   "within_1_day": 34,
+   "distinct_publish_days": 10,
+   "records_per_publish_day": 3.5,
+   "worst": [
+    [
+     11,
+     "CVE-2025-1449"
+    ],
+    [
+     0,
+     "CVE-2026-11317"
+    ],
+    [
+     0,
+     "CVE-2025-8008"
+    ]
+   ]
+  },
+  "TR-CERT": {
+   "scored": 418,
+   "late": 0,
+   "late_pct": 0.0,
+   "over_30": 0,
+   "over_90": 0,
+   "same_day": 418,
+   "median_lag": 0,
+   "median_late_lag": null,
+   "within_1_day": 418,
+   "distinct_publish_days": 137,
+   "records_per_publish_day": 3.1,
+   "worst": [
+    [
+     0,
+     "CVE-2026-92555"
+    ],
+    [
+     0,
+     "CVE-2026-92085"
+    ],
+    [
+     0,
+     "CVE-2026-91844"
+    ]
+   ]
+  },
+  "runZero": {
+   "scored": 38,
+   "late": 0,
+   "late_pct": 0.0,
+   "over_30": 0,
+   "over_90": 0,
+   "same_day": 38,
+   "median_lag": 0,
+   "median_late_lag": null,
+   "within_1_day": 38,
+   "distinct_publish_days": 8,
+   "records_per_publish_day": 4.8,
+   "worst": [
+    [
+     0,
+     "CVE-2026-81846"
+    ],
+    [
+     0,
+     "CVE-2026-7778"
+    ],
+    [
+     0,
+     "CVE-2026-6688"
+    ]
+   ]
+  },
+  "EEF": {
+   "scored": 31,
+   "late": 0,
+   "late_pct": 0.0,
+   "over_30": 0,
+   "over_90": 0,
+   "same_day": 31,
+   "median_lag": 0,
+   "median_late_lag": null,
+   "within_1_day": 31,
+   "distinct_publish_days": 15,
+   "records_per_publish_day": 2.1,
+   "worst": [
+    [
+     0,
+     "CVE-2026-97853"
+    ],
+    [
+     0,
+     "CVE-2026-94194"
+    ],
+    [
+     0,
+     "CVE-2026-92103"
+    ]
+   ]
+  },
+  "twcert": {
+   "scored": 283,
+   "late": 0,
+   "late_pct": 0.0,
+   "over_30": 0,
+   "over_90": 0,
+   "same_day": 283,
+   "median_lag": 0,
+   "median_late_lag": null,
+   "within_1_day": 283,
+   "distinct_publish_days": 103,
+   "records_per_publish_day": 2.7,
+   "worst": [
+    [
+     0,
+     "CVE-2026-97181"
+    ],
+    [
+     0,
+     "CVE-2026-9493"
+    ],
+    [
+     0,
+     "CVE-2026-9492"
+    ]
+   ]
+  },
+  "Tanium": {
+   "scored": 49,
+   "late": 0,
+   "late_pct": 0.0,
+   "over_30": 0,
+   "over_90": 0,
+   "same_day": 45,
+   "median_lag": 0,
+   "median_late_lag": null,
+   "within_1_day": 47,
+   "distinct_publish_days": 12,
+   "records_per_publish_day": 4.1,
+   "worst": [
+    [
+     2,
+     "CVE-2026-1224"
+    ],
+    [
+     2,
+     "CVE-2026-0925"
+    ],
+    [
+     1,
+     "CVE-2026-15053"
+    ]
+   ]
+  },
+  "NLnet Labs": {
+   "scored": 60,
+   "late": 0,
+   "late_pct": 0.0,
+   "over_30": 0,
+   "over_90": 0,
+   "same_day": 60,
+   "median_lag": 0,
+   "median_late_lag": null,
+   "within_1_day": 60,
+   "distinct_publish_days": 10,
+   "records_per_publish_day": 6.0,
+   "worst": [
+    [
+     0,
+     "CVE-2026-85501"
+    ],
+    [
+     0,
+     "CVE-2026-82720"
+    ],
+    [
+     0,
+     "CVE-2026-82717"
+    ]
+   ]
+  },
+  "WatchGuard": {
+   "scored": 67,
+   "late": 0,
+   "late_pct": 0.0,
+   "over_30": 0,
+   "over_90": 0,
+   "same_day": 67,
+   "median_lag": 0,
+   "median_late_lag": null,
+   "within_1_day": 67,
+   "distinct_publish_days": 17,
+   "records_per_publish_day": 3.9,
+   "worst": [
+    [
+     0,
+     "CVE-2026-8247"
+    ],
+    [
+     0,
+     "CVE-2026-78011"
+    ],
+    [
+     0,
+     "CVE-2026-78010"
+    ]
+   ]
+  },
+  "isc": {
+   "scored": 47,
+   "late": 0,
+   "late_pct": 0.0,
+   "over_30": 0,
+   "over_90": 0,
+   "same_day": 47,
+   "median_lag": 0,
+   "median_late_lag": null,
+   "within_1_day": 47,
+   "distinct_publish_days": 12,
+   "records_per_publish_day": 3.9,
+   "worst": [
+    [
+     0,
+     "CVE-2026-81736"
+    ],
+    [
+     0,
+     "CVE-2026-81563"
+    ],
+    [
+     0,
+     "CVE-2026-80274"
+    ]
+   ]
+  },
+  "TYPO3": {
+   "scored": 50,
+   "late": 0,
+   "late_pct": 0.0,
+   "over_30": 0,
+   "over_90": 0,
+   "same_day": 50,
+   "median_lag": 0,
+   "median_late_lag": null,
+   "within_1_day": 50,
+   "distinct_publish_days": 10,
+   "records_per_publish_day": 5.0,
+   "worst": [
+    [
+     0,
+     "CVE-2026-8827"
+    ],
+    [
+     0,
+     "CVE-2026-8727"
+    ],
+    [
+     0,
+     "CVE-2026-8726"
+    ]
+   ]
+  },
+  "DSF": {
+   "scored": 36,
+   "late": 0,
+   "late_pct": 0.0,
+   "over_30": 0,
+   "over_90": 0,
+   "same_day": 36,
+   "median_lag": 0,
+   "median_late_lag": null,
+   "within_1_day": 36,
+   "distinct_publish_days": 10,
+   "records_per_publish_day": 3.6,
+   "worst": [
+    [
+     0,
+     "CVE-2026-87975"
+    ],
+    [
+     0,
+     "CVE-2026-87890"
+    ],
+    [
+     0,
+     "CVE-2026-84429"
+    ]
+   ]
+  },
+  "Nozomi": {
+   "scored": 36,
+   "late": 0,
+   "late_pct": 0.0,
+   "over_30": 0,
+   "over_90": 0,
+   "same_day": 30,
+   "median_lag": 0,
+   "median_late_lag": null,
+   "within_1_day": 30,
+   "distinct_publish_days": 10,
+   "records_per_publish_day": 3.6,
+   "worst": [
+    [
+     2,
+     "CVE-2026-33390"
+    ],
+    [
+     2,
+     "CVE-2026-31985"
+    ],
+    [
+     2,
+     "CVE-2026-31984"
+    ]
+   ]
+  },
+  "NETGEAR": {
+   "scored": 47,
+   "late": 0,
+   "late_pct": 0.0,
+   "over_30": 0,
+   "over_90": 0,
+   "same_day": 47,
+   "median_lag": 0,
+   "median_late_lag": null,
+   "within_1_day": 47,
+   "distinct_publish_days": 7,
+   "records_per_publish_day": 6.7,
+   "worst": [
+    [
+     0,
+     "CVE-2026-9216"
+    ],
+    [
+     0,
+     "CVE-2026-9215"
+    ],
+    [
+     0,
+     "CVE-2026-9214"
+    ]
+   ]
+  },
+  "vmware": {
+   "scored": 46,
+   "late": 0,
+   "late_pct": 0.0,
+   "over_30": 0,
+   "over_90": 0,
+   "same_day": 36,
+   "median_lag": 0,
+   "median_late_lag": null,
+   "within_1_day": 46,
+   "distinct_publish_days": 18,
+   "records_per_publish_day": 2.6,
+   "worst": [
+    [
+     1,
+     "CVE-2026-59310"
+    ],
+    [
+     1,
+     "CVE-2026-59309"
+    ],
+    [
+     1,
+     "CVE-2026-47876"
+    ]
+   ]
+  },
+  "CSA": {
+   "scored": 46,
+   "late": 0,
+   "late_pct": 0.0,
+   "over_30": 0,
+   "over_90": 0,
+   "same_day": 46,
+   "median_lag": 0,
+   "median_late_lag": null,
+   "within_1_day": 46,
+   "distinct_publish_days": 15,
+   "records_per_publish_day": 3.1,
+   "worst": [
+    [
+     0,
+     "CVE-2026-89191"
+    ],
+    [
+     0,
+     "CVE-2026-78237"
+    ],
+    [
+     0,
+     "CVE-2026-6888"
+    ]
+   ]
+  },
+  "INCD": {
+   "scored": 49,
+   "late": 0,
+   "late_pct": 0.0,
+   "over_30": 0,
+   "over_90": 0,
+   "same_day": 49,
+   "median_lag": 0,
+   "median_late_lag": null,
+   "within_1_day": 49,
+   "distinct_publish_days": 12,
+   "records_per_publish_day": 4.1,
+   "worst": [
+    [
+     0,
+     "CVE-2026-6923"
+    ],
+    [
+     0,
+     "CVE-2026-59507"
+    ],
+    [
+     0,
+     "CVE-2026-59506"
+    ]
+   ]
+  },
+  "sonicwall": {
+   "scored": 60,
+   "late": 0,
+   "late_pct": 0.0,
+   "over_30": 0,
+   "over_90": 0,
+   "same_day": 55,
+   "median_lag": 0,
+   "median_late_lag": null,
+   "within_1_day": 60,
+   "distinct_publish_days": 26,
+   "records_per_publish_day": 2.3,
+   "worst": [
+    [
+     1,
+     "CVE-2025-40603"
+    ],
+    [
+     1,
+     "CVE-2025-23010"
+    ],
+    [
+     1,
+     "CVE-2025-23009"
+    ]
+   ]
+  }
+ },
+ "batching": {}
+}

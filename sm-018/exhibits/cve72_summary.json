@@ -771,15 +771,15 @@
   "within_1_day": 13342
  },
  "own_site": {
-  "scored": 13871,
+  "scored": 13881,
   "late": 1816,
   "late_pct": 13.1,
   "over_30": 340,
   "over_90": 72,
-  "same_day": 10517,
+  "same_day": 10519,
   "median_lag": 0,
   "median_late_lag": 13.0,
-  "within_1_day": 11583
+  "within_1_day": 11585
  },
  "by_year": {
   "2025": {
@@ -795,9 +795,9 @@
     "within_1_day": 4233
    },
    "own_site": {
-    "scored": 4894,
+    "scored": 4902,
     "late": 723,
-    "late_pct": 14.8,
+    "late_pct": 14.7,
     "over_30": 136,
     "over_90": 9,
     "same_day": 3556,
@@ -819,15 +819,15 @@
     "within_1_day": 9109
    },
    "own_site": {
-    "scored": 8977,
+    "scored": 8979,
     "late": 1093,
     "late_pct": 12.2,
     "over_30": 204,
     "over_90": 63,
-    "same_day": 6961,
+    "same_day": 6963,
     "median_lag": 0,
     "median_late_lag": 11,
-    "within_1_day": 7569
+    "within_1_day": 7571
    }
   }
  },
@@ -855,9 +855,9 @@
    "within_1_day": 1185
   },
   "2025Q3": {
-   "scored": 1395,
+   "scored": 1400,
    "late": 287,
-   "late_pct": 20.6,
+   "late_pct": 20.5,
    "over_30": 78,
    "over_90": 4,
    "same_day": 990,
@@ -866,7 +866,7 @@
    "within_1_day": 1056
   },
   "2025Q4": {
-   "scored": 1371,
+   "scored": 1374,
    "late": 236,
    "late_pct": 17.2,
    "over_30": 42,
@@ -877,15 +877,15 @@
    "within_1_day": 1093
   },
   "2026Q1": {
-   "scored": 1413,
+   "scored": 1415,
    "late": 238,
    "late_pct": 16.8,
    "over_30": 47,
    "over_90": 13,
-   "same_day": 973,
+   "same_day": 975,
    "median_lag": 0,
    "median_late_lag": 14.0,
-   "within_1_day": 1131
+   "within_1_day": 1133
   },
   "2026Q2": {
    "scored": 2182,
@@ -1139,17 +1139,17 @@
    ]
   },
   "Arista": {
-   "scored": 50,
+   "scored": 53,
    "late": 43,
-   "late_pct": 86.0,
+   "late_pct": 81.1,
    "over_30": 10,
    "over_90": 9,
    "same_day": 5,
    "median_lag": 7,
    "median_late_lag": 7,
    "within_1_day": 6,
-   "distinct_publish_days": 12,
-   "records_per_publish_day": 4.2,
+   "distinct_publish_days": 13,
+   "records_per_publish_day": 4.1,
    "worst": [
     [
      199,
@@ -1220,17 +1220,17 @@
    ]
   },
   "GV": {
-   "scored": 63,
+   "scored": 64,
    "late": 27,
-   "late_pct": 42.9,
+   "late_pct": 42.2,
    "over_30": 0,
    "over_90": 0,
-   "same_day": 31,
+   "same_day": 32,
    "median_lag": 0,
    "median_late_lag": 8,
-   "within_1_day": 33,
-   "distinct_publish_days": 10,
-   "records_per_publish_day": 6.3,
+   "within_1_day": 34,
+   "distinct_publish_days": 11,
+   "records_per_publish_day": 5.8,
    "worst": [
     [
      8,
@@ -1382,16 +1382,16 @@
    ]
   },
   "Zoom": {
-   "scored": 64,
+   "scored": 69,
    "late": 7,
-   "late_pct": 10.9,
+   "late_pct": 10.1,
    "over_30": 0,
    "over_90": 0,
    "same_day": 24,
    "median_lag": 1,
    "median_late_lag": 16,
    "within_1_day": 42,
-   "distinct_publish_days": 15,
+   "distinct_publish_days": 16,
    "records_per_publish_day": 4.3,
    "worst": [
     [

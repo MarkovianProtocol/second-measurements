@@ -5,13 +5,13 @@ a CVE ID assigned by the CNA." Reads the cvelistV5 midnight archive directly (no
 record of 2025 and 2026, takes datePublished (the CVE List) and containers.cna.datePublic (the CNA's own statement of
 when it disclosed). The MUST applies when the CNA disclosed it itself; the proxy for that is a CNA reference to the
 CNA's own site (OWN map). Comparison is at day resolution (the second-path checks showed datePublic's clock time is a
-form-fill artifact at some CNAs); Dell's datePublic is read in India time (+05:30) as its own advisories date it.
+form-fill artifact at some CNAs); a doubled scheme in a reference URL ("https://https://...") is read as one (fix 22 Oct 2026, found by Kaveh Ranjbar); Dell's datePublic is read in India time (+05:30) as its own advisories date it.
 Excluded: records whose datePublic is more than a day before dateReserved (the ID did not exist on that date, so the
 advisory could not have carried it) and records whose datePublic is more than a day after datePublished (the clock had
 not started). Own-site domains come from own_domains.json (built from the CVE Program's partner roster plus a hand map;
 VulnCheck left out on purpose), looked up next to this script under exhibits/ or given as a third argument.
 python3 -I cve72.py all_cves.zip out_dir [own_domains.json]"""
-import sys, os, json, zipfile, datetime as dt, collections, statistics, urllib.parse
+import sys, os, re, json, zipfile, datetime as dt, collections, statistics, urllib.parse
 ZIP, OUT = sys.argv[1], sys.argv[2]; os.makedirs(OUT, exist_ok=True)
 _here = os.path.dirname(os.path.abspath(__file__))
 OWNF = sys.argv[3] if len(sys.argv) > 3 else next((p for p in (os.path.join(_here, "exhibits", "own_domains.json"), os.path.join(_here, "own_domains.json")) if os.path.exists(p)), None)
@@ -25,6 +25,11 @@ def P(ts):
     try:
         d = dt.datetime.fromisoformat(t if len(t) > 10 else t + "T00:00:00+00:00"); return d if d.tzinfo else d.replace(tzinfo=dt.timezone.utc)
     except Exception: return None
+def host(u):
+    # some records give a doubled scheme ("https://https://www.arista.com/..."), which would parse as host "https"
+    u = u.strip()
+    while re.match(r"(?i)^https?://https?://", u): u = u.split("://", 1)[1]
+    return urllib.parse.urlparse(u).netloc.lower()
 rows = []; counts = collections.Counter(); drop_res = collections.Counter(); tz_effect = collections.Counter(); pub_by_cna = collections.Counter(); pbc_by_cna = collections.Counter()
 with zipfile.ZipFile(ZIP) as z:
     names = [n for n in z.namelist() if n.endswith(".json") and ("/2025/" in n or "/2026/" in n)]
@@ -52,7 +57,7 @@ with zipfile.ZipFile(ZIP) as z:
             lag_utc = (pub.date() - pbc.date()).days
             if lag_utc != lag_days: tz_effect["dates_moved"] += 1
             if (lag_utc > 3) != (lag_days > 3): tz_effect["late_flipped_to_on_time" if lag_utc > 3 else "on_time_flipped_to_late"] += 1
-        hosts = {urllib.parse.urlparse(r.get("url", "")).netloc.lower() for r in cna.get("references", []) if isinstance(r, dict)}
+        hosts = {host(r.get("url", "")) for r in cna.get("references", []) if isinstance(r, dict)}
         own = any(h == dom or h.endswith("." + dom) for h in hosts for dom in OWN.get(norm(assigner), []))
         rows.append({"id": m["cveId"], "cna": assigner, "own": own, "public": pbc_local.date().isoformat(), "published": pub.date().isoformat(), "lag": lag_days})
 counts["scored"] = len(rows)
