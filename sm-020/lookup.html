@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lobbying lookup, SM-020 — Markovian Protocol</title>
+<meta name="description" content="Type a lobbying firm or a client and see every quarterly lobbying report it posted late since January 2025, and whether it filed by the 20 October 2026 deadline.">
+<style>
+:root{--ink:#1d1d1f;--sub:#6e6e73;--faint:#86868b;--line:#d2d2d7;--grey:#f5f5f7;--white:#fff;--good:#1d8a4e;--pend:#b26a00;--bad:#c62828;--blue:#0066cc;--sans:Charter,"Iowan Old Style",Georgia,"Times New Roman",serif;--mono:"SF Mono","IBM Plex Mono",ui-monospace,Menlo,monospace}
+body{margin:0;background:var(--white);color:var(--ink);font:17px/1.55 var(--sans)}
+main{max-width:760px;margin:0 auto;padding:28px 16px 60px}
+.id{font:12px/1 var(--mono);letter-spacing:.08em;color:var(--sub);margin:0 0 10px}
+h1{font-size:26px;line-height:1.25;margin:0 0 10px;font-weight:600}
+p{margin:0 0 12px}.cap{font-size:14px;color:var(--sub)}
+form{display:flex;gap:8px;margin:16px 0}
+input{flex:1;font:18px var(--mono);padding:10px 12px;border:1px solid var(--line);border-radius:8px;}
+button{font:16px var(--sans);padding:10px 16px;border:1px solid var(--ink);background:var(--ink);color:#fff;border-radius:8px;cursor:pointer}
+.card{border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin:14px 0;background:var(--grey)}
+.card h2{font-size:22px;margin:0 0 4px}.meta{color:var(--sub);font-size:15px;margin:0 0 10px}
+table{border-collapse:collapse;width:100%;font-size:15px}th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}th{font-weight:600;color:var(--sub);font-size:13px}
+.n{text-align:right;font-family:var(--mono);font-size:14px}
+.ok{color:var(--good)}.late{color:var(--pend)}.bad{color:var(--bad)}.none{color:var(--faint)}
+.sug a{display:inline-block;margin:4px 8px 0 0;font-family:var(--mono);font-size:14px;color:var(--blue)}
+a{color:var(--blue)}.foot{font-size:14px;color:var(--sub);margin-top:28px;border-top:1px solid var(--line);padding-top:12px}
+</style>
+<style>.sum{font-size:16px;margin:0 0 10px}.tw{overflow-x:auto}.res a.pick{display:block;padding:6px 0;border-bottom:1px solid var(--line);text-decoration:none}.res a.pick:hover{text-decoration:underline}</style></head><body><main>
+<p class="id">SECOND MEASUREMENT SM-020 · LOBBYING LOOKUP</p>
+<h1>Did this lobbying firm, or this client&rsquo;s lobbyist, report on time?</h1>
+<p class="cap">Type a lobbying firm or a client. The card shows every quarterly report the firm posted after the 20-day deadline from January 2025 to July 2026, and, for the 20 October 2026 deadline, whether each of its clients from the previous quarter had a report up by midnight. Data from lda.gov, the Senate and House lobbying disclosure site; the paper and method are at <a href="../sm-020.html">sm-020.html</a>. For foreign governments&rsquo; agents under FARA, see the <a href="../sm-024/lookup.html">country lookup</a> (SM-024).</p>
+<form id="f"><input id="q" placeholder="firm or client, e.g. Akin" autocomplete="off" autofocus><button>Look up</button></form>
+<div id="out"></div>
+<p class="foot">A report is <b>late</b> when lda.gov&rsquo;s posted time, in Eastern time, falls after the deadline day (the 20th day after the quarter, or the next business day). Only late reports are listed one by one; a firm with none here filed every report on time in that period, or did not file. The <b>20 October</b> column covers firm&ndash;client pairs that filed a regular or no-activity report for April&ndash;June 2026 and did not end the registration; &ldquo;nothing posted&rdquo; means no report for July&ndash;September was on lda.gov by midnight, read on 21 October. A firm can be late for a reason the data does not show. Data: <a href="lookup.json">lookup.json</a>, built by <a href="build_lookup.py">build_lookup.py</a> from the exhibits.</p>
+</main>
+<script>
+let D=null;const QN={Q1:"Jan–Mar",Q2:"Apr–Jun",Q3:"Jul–Sep",Q4:"Oct–Dec"};
+async function load(){if(!D){const r=await fetch("lookup.json",{cache:"force-cache"});D=await r.json();}return D;}
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+function norm(s){return s.toUpperCase().replace(/[^A-Z0-9 ]/g,"").replace(/\s+/g," ").trim();}
+function qlabel(q){return QN["Q"+q[5]]+" "+q.slice(0,4);}
+function kind(t){return /T/.test(t)?"termination":/Y$/.test(t)?"no activity":"regular";}
+function card(d,rid,onlyClient){const g=d.registrants[rid];let late=g.late.filter(x=>!onlyClient||x[4]===onlyClient);
+ const byC={};for(const x of late)(byC[x[4]]=byC[x[4]]||[]).push(x);
+ const cids=new Set([...Object.keys(byC),...Object.keys(g.q3)].filter(c=>!onlyClient||c===onlyClient));
+ let rows="";for(const c of [...cids].sort((a,b)=>(byC[b]||[]).length-(byC[a]||[]).length||(d.clients[a]||"").localeCompare(d.clients[b]||""))){
+  const ls=(byC[c]||[]).sort((a,b)=>a[2].localeCompare(b[2]));
+  const lt=ls.length?ls.map(x=>`<a href="https://lda.gov/filings/public/filing/${x[5]}/print/">${qlabel(x[0])}</a> <span class="cap">${kind(x[1])}, ${x[3]} d late</span>`).join("<br>"):'<span class="ok">none late</span>';
+  const s=g.q3[c];const q3=s==="missing"?'<span class="bad">nothing posted</span>':s==="filed"?'<span class="ok">filed</span>':'<span class="none">&ndash;</span>';
+  rows+=`<tr><td>${esc(d.clients[c]||c)}</td><td>${lt}</td><td>${q3}</td></tr>`;}
+ const nl=late.length,nm=Object.values(g.q3).filter(v=>v==="missing").length,nq=Object.keys(g.q3).length;
+ return `<div class="card"><h2>${esc(g.name)}</h2><p class="sum">${nl} late report${nl==1?"":"s"} from January 2025 to July 2026${onlyClient?" for this client":""}. At the 20 October deadline: ${nq?`${nq-nm} of ${nq} client${nq==1?"":"s"} filed, ${nm} with nothing posted`:"no clients expected"}.</p>
+ <div class="tw"><table><tr><th>Client</th><th>Late reports (link to the filing)</th><th>20 October 2026</th></tr>${rows}</table></div></div>`;}
+async function go(raw){const out=document.getElementById("out");out.innerHTML='<p class="cap">loading…</p>';const d=await load();const q=norm(raw);if(!q){out.innerHTML="";return;}
+ const hit=n=>(" "+norm(n)).includes(" "+q);   // match from the start of a word
+ const regs=Object.entries(d.registrants).filter(([id,g])=>hit(g.name));
+ const cl=Object.entries(d.clients).filter(([id,n])=>hit(n)).map(([id])=>id);
+ const viaC=[];for(const [rid,g] of Object.entries(d.registrants)){for(const c of cl){if(g.late.some(x=>x[4]===c)||g.q3[c])viaC.push([rid,c]);}}
+ const n=regs.length+viaC.length;
+ if(!n){out.innerHTML=`<p class="cap">No firm or client matching <b>${esc(raw)}</b> in the reports we read.</p>`;return;}
+ if(n===1){out.innerHTML=regs.length?card(d,regs[0][0]):card(d,viaC[0][0],viaC[0][1]);return;}
+ const L=regs.slice(0,40).map(([id,g])=>`<a class="pick" href="#" data-r="${id}">${esc(g.name)} <span class="cap">firm</span></a>`).concat(viaC.slice(0,60).map(([rid,c])=>`<a class="pick" href="#" data-r="${rid}" data-c="${c}">${esc(d.clients[c])} <span class="cap">client of ${esc(d.registrants[rid].name)}</span></a>`));
+ out.innerHTML=`<p class="cap">${n} matches${n>100?" (first 100 shown; type more of the name)":""}:</p><div class="res">${L.join("")}</div>`;}
+document.getElementById("f").addEventListener("submit",e=>{e.preventDefault();go(document.getElementById("q").value);history.replaceState(null,"","?q="+encodeURIComponent(document.getElementById("q").value));});
+document.addEventListener("click",e=>{const a=e.target.closest("a.pick");if(!a)return;e.preventDefault();load().then(d=>{document.getElementById("out").innerHTML=card(d,a.dataset.r,a.dataset.c);if(!a.dataset.c)history.replaceState(null,"","?firm="+a.dataset.r);window.scrollTo(0,0);});});
+const U=new URLSearchParams(location.search),p=U.get("q"),fid=U.get("firm");
+if(fid){load().then(d=>{if(d.registrants[fid]){document.getElementById("q").value=d.registrants[fid].name;document.getElementById("out").innerHTML=card(d,fid);}});}
+else if(p){document.getElementById("q").value=p;go(p);}
+</script></body></html>
