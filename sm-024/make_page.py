@@ -98,7 +98,7 @@ head = f"""<!DOCTYPE html>
 {style}
 """
 body = f"""<h1>{title}</h1>
-<p class="meta"><span>Markovian Protocol</span><span>Measured 2026-10-22</span><span>Status: <span style="color:var(--pend)">published 2026-10-22; questions to the FARA Unit pending</span></span><span>DOI: {DOI}</span></p>
+<p class="meta"><span>Markovian Protocol</span><span>Measured 2026-10-22</span><span>Status: <span style="color:var(--pend)">published 2026-10-22; questions sent to the FARA Unit 2026-10-22</span></span><span>DOI: {DOI}</span></p>
 <p class="plain">{desc}</p>
 
 <div class="short"><b class="k">The short version</b><ul>
@@ -143,8 +143,8 @@ body = f"""<h1>{title}</h1>
 <li>How many extensions of supplemental statements did the Unit grant in 2024, 2025 and 2026?</li>
 <li>Since the Inspector General&rsquo;s 2016 report, has the Unit taken any action, a deficiency notice, an injunction or anything else, over a late or missing supplemental statement?</li></ol>
 <h2 id="reply">Their reply, scored</h2>
-<p>Not yet asked. The questions go to the FARA Unit at its public address; answers are printed here as written.</p>
-<div class="tw"><table class="tl"><tr><td>22 Oct 2026</td><td>Measured and published. Nobody saw the page before.</td></tr></table></div>
+<div class="tw"><table class="tl"><tr><td>22 Oct 2026</td><td>Measured and published. Nobody saw the page before.</td></tr><tr><td>22 Oct 2026</td><td>The three questions above sent to the FARA Unit at fara.public@usdoj.gov, the address on its FAQ page, with the overall numbers and a link to this page. Answers are printed here as written.</td></tr></table></div>
+<div class="score">Sent 22 October 2026; no reply yet. Day 30 is 21 November.</div>
 
 <h2>What we can&rsquo;t be sure of</h2><ul>
 <li>The period is read from page 1 by text recognition, as the agent wrote it in the form&rsquo;s &ldquo;(Insert date)&rdquo; field, so a typo there carries into our count. Consecutive periods come out six months apart ({n(OK6)} of {n(PAIRS)} pairs; the other is an agent that skipped statements), but a misread that kept the six-month rhythm would not be caught.</li>
