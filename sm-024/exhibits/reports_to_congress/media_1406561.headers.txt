@@ -1,0 +1,53 @@
+HTTP/2 301 
+content-language: en
+content-security-policy: object-src 'none'; frame-ancestors 'self' https://doj365.sharepoint.us; report-uri /report-csp-violation
+content-type: text/html; charset=utf-8
+etag: "1792769849"
+last-modified: Fri, 23 Oct 2026 15:37:29 GMT
+location: https://www.justice.gov/nsd/media/1406561/dl?inline
+referrer-policy: no-referrer-when-downgrade
+server: nginx
+x-age: 0
+x-ah-environment: prod
+x-content-type-options: nosniff
+x-drupal-route-normalizer: 1
+x-frame-options: ALLOW-FROM https://doj365.sharepoint.us
+x-generator: Drupal 11 (https://www.drupal.org)
+x-request-id: v-a81953f4-cef7-11f1-bba3-8b3698a50617
+x-xss-protection: 0
+x-akamai-transformed: 0 - 0 -
+cache-control: public, max-age=259200
+expires: Mon, 26 Oct 2026 15:37:30 GMT
+date: Fri, 23 Oct 2026 15:37:30 GMT
+alt-svc: h3=":443"; ma=93600
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+akamai-grn: 0.b8592117.1792769849.10d2f611
+set-cookie: _abck=87AA9B02B2D409943644A33A6B1AB487~-1~YAAQuFkhF27WAF+hAQAAoPpoaRDtxJz8sdhtBLtAz6d8HRDo66X+GyVujgHX6EuaFv7qNX+Xos+zjndq8VEnUL6PVYxQOBdF/ubj92LOkDKFTzpxrAuGmHm3hPhpG15m8jfPdwd2rCtzA59iNMR1DBWW2x1DmMojAjbjWBmlfG9Rj5zzaoiooaIr8jKFvLg34ZLVSJveECO9l1XaWMkanMTljcsiXcDPO/yrKo42rJhORuCMVLv7mioQ1hKkKDIka6al08616bSr5Hn1/ypIbWD2yV8mJtRekJ4cvwxpYfSRqnT6pb8uGR3TO4OWnwk1QMpsQqOHF/gqzpOZ3cnkXPVho5sUqLIWxjJ/LB/I+wzFi8/Fi+pzXlwn7ZAPoFXhYZSRcyi3FRGX5/alwTn+Ri2rqmjUEpsXuNBwNuxCCfzSnJ94ef3c1IxCm9CGESdYFqcvB69+nJmGuqKLWPM=~-1~-1~-1~-1~-1; Domain=.justice.gov; Path=/; Expires=Sat, 23 Oct 2027 15:37:30 GMT; Max-Age=31536000; SameSite=None; Secure
+set-cookie: bm_sz=705644E3B2D2A075997C3FDB57158B41~YAAQuFkhF2/WAF+hAQAAoPpoaQF8chk2wQU8FijQeWgFGs1e8StEtwzVco0ReFoKvUs6XxaluWosBvNEVDEaL9BpYzMCWz4eg0OxqutpAwCYSIP/9bQDRqoo1d8JHcTqext4OsxYJI1acsAW2fx7JRMG8K1bPao/1X5MfWI12Rl9Lk8a9E+qCIAJiIWE+7JaXSyr0x1YpXemNPWE0bsC88NBAjV24G/VmcPgIfx0ctDi+XRKh7f3VNwrv+xCL6t0Nhz0tqtjxfbM6C3yGGqPUqIb+hiuFnBvJoP0ts4we272vVGAy8ZrUzcQBu5bvv0MpWf/J0X4lhEbptMUHoUfHV0aI3T894oaBk/U15SzWZeUEdIScWZhSKoU1urJ2cJuz2Z8W/cqzMBTvnfbDLhmENfbKaNZx6sPIw==~4604216~4534833; Domain=.justice.gov; Path=/; Expires=Fri, 23 Oct 2026 19:37:29 GMT; Max-Age=14399; SameSite=None; Secure
+
+HTTP/2 200 
+accept-ranges: bytes
+content-disposition: inline; filename="SAR 1st Half 2022 05012025 FINAL_0.pdf"
+content-language: en
+content-security-policy: object-src 'none'; frame-ancestors 'self' https://doj365.sharepoint.us; report-uri /report-csp-violation
+content-type: application/pdf
+last-modified: Tue, 01 Jul 2025 21:51:21 GMT
+referrer-policy: no-referrer-when-downgrade
+server: nginx
+x-age: 0
+x-ah-environment: prod
+x-content-type-options: nosniff
+x-drupal-dynamic-cache: HIT
+x-frame-options: ALLOW-FROM https://doj365.sharepoint.us
+x-generator: Drupal 11 (https://www.drupal.org)
+x-request-id: v-c3fe33ba-8234-11f1-9973-6b518ce189d1
+x-xss-protection: 0
+content-length: 3896189
+cache-control: public, max-age=136370
+date: Fri, 23 Oct 2026 15:37:30 GMT
+alt-svc: h3=":443"; ma=93600
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+akamai-grn: 0.b8592117.1792769850.10d2f8c9
+set-cookie: _abck=5FA08E53325C2C2878F17D04F64C8B65~-1~YAAQuFkhF3LWAF+hAQAA/PpoaRAWd6I6w2vSudFsHmxqv3RvqqDW3WjZXZngsdP+FCsuN7DzbQUSZ19bzd4jCD3D1N/+cf39v0EAhcYmUiQ+NUzwl23a+A0TvhQ0+bArIQV+vU6igWhy5VhImMjq29biNJFiXul61jXtrK0S5B6J5/mRONaoWcParZnFEuDNaRcetLoj7/t0pCZZMCXQYIlzAJ8SewqhT0bKh3spn1I0D55i3Adxd06uOLel0ZQqgkeCiiKHWyAnrWlj36kCnCmfw9oN2Qs17moHj2OaNfLalXbcxkpTDmstFFwrYlv++ggr9EZk5Oz7+MtvRb83OKeUwGO/vuPFj6ymskiW39giFR5ZfsVHECN4XXGR9qpN3fZKw7vJ3f72x2MhAOqkQhTzFR6qvbJkjau0ng3h267h0rZOsyZ92CHLSqB8gv8DfFhzlPpNumBdipIHFq8=~-1~-1~-1~-1~-1; Domain=.justice.gov; Path=/; Expires=Sat, 23 Oct 2027 15:37:30 GMT; Max-Age=31536000; SameSite=None; Secure
+set-cookie: bm_sz=C10C4B482B3955D2B8D70118D8AEF56E~YAAQuFkhF3PWAF+hAQAA/PpoaQEy+qz8/yL6tw+R7WvwwoHKpZpR8KKEbGZaUgJ0YYPxJA1k39fwrEW74c+XlSNJ9y5P0qY7nw8XKkotDlPuZvFRi0ObkXEKMwwWnmIZqIfxFHklxF+sLgdHsn7TKsdxFJDhWqC00wMz4ZG2jdVHj45UF8u17KU32OfSMhYe2VOhF+IkepVsJ+Qh45ziEHiFU5+Tu4LeaazHg+Hl13KVs7Kxbrkb309r1ptvvCGpbqs2aUXovvnCNMOrlH8XjhlhkBdMjiCNfgH4kflcTf15jQWGwZGaBPqhbfjOaBU8MkdvUalZYE6UoWeYSHkVJWiwYRXMztiIN5ZGzQM6ylMPU8AEtPO0qdNHcbr30FCbdYRPhlRzS70cg95vbWh0J4osvKd4NiV5lw==~3425076~3622214; Domain=.justice.gov; Path=/; Expires=Fri, 23 Oct 2026 19:37:30 GMT; Max-Age=14400; SameSite=None; Secure
+
