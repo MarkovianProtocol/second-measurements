@@ -1,0 +1,37 @@
+name: Suggest a claim to measure
+description: A public claim about a system, a dataset or a deadline that you think doesn't hold. We check it with our own code and publish what we find, either way.
+title: "Claim: "
+labels: ["suggested claim"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We measure claims that are public, specific and checkable from public data: "reviewed within 72 hours", "every file is scanned", "due within 30 days". Every check gets a published page with the script and the data, whatever it finds. Past papers: https://markovianprotocol.com/measurements/
+  - type: input
+    id: who
+    attributes:
+      label: Who made the claim
+      description: The organisation or person, as precisely as you can.
+      placeholder: e.g. GitHub, the CVE Program, a state agency
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: The claim, word for word, and where it is
+      description: Quote it and link the page, document or rule it appears in.
+      placeholder: '"Advisories are reviewed within 72 hours" — https://docs.example.com/...'
+    validations:
+      required: true
+  - type: textarea
+    id: doubt
+    attributes:
+      label: Why you doubt it, and what data could check it
+      description: What you've seen, and any public dataset, API or archive that records the real numbers.
+    validations:
+      required: true
+  - type: input
+    id: credit
+    attributes:
+      label: How to credit you
+      description: Your name, a handle, or leave blank to stay anonymous on the paper.
