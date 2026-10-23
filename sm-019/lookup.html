@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sub-award lookup, SM-019 — Markovian Protocol</title>
+<meta name="description" content="Type a state agency, university, city or company that receives federal grants and see how many of its sub-awards it reported late to the federal government, and how many dollars.">
+<style>
+:root{--ink:#1d1d1f;--sub:#6e6e73;--faint:#86868b;--line:#d2d2d7;--grey:#f5f5f7;--white:#fff;--good:#1d8a4e;--pend:#b26a00;--bad:#c62828;--blue:#0066cc;--sans:Charter,"Iowan Old Style",Georgia,"Times New Roman",serif;--mono:"SF Mono","IBM Plex Mono",ui-monospace,Menlo,monospace}
+body{margin:0;background:var(--white);color:var(--ink);font:17px/1.55 var(--sans)}
+main{max-width:760px;margin:0 auto;padding:28px 16px 60px}
+.id{font:12px/1 var(--mono);letter-spacing:.08em;color:var(--sub);margin:0 0 10px}
+h1{font-size:26px;line-height:1.25;margin:0 0 10px;font-weight:600}
+p{margin:0 0 12px}.cap{font-size:14px;color:var(--sub)}
+form{display:flex;gap:8px;margin:16px 0}
+input{flex:1;font:18px var(--mono);padding:10px 12px;border:1px solid var(--line);border-radius:8px;}
+button{font:16px var(--sans);padding:10px 16px;border:1px solid var(--ink);background:var(--ink);color:#fff;border-radius:8px;cursor:pointer}
+.card{border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin:14px 0;background:var(--grey)}
+.card h2{font-size:22px;margin:0 0 4px}.meta{color:var(--sub);font-size:15px;margin:0 0 10px}
+table{border-collapse:collapse;width:100%;font-size:15px}th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}th{font-weight:600;color:var(--sub);font-size:13px}
+.n{text-align:right;font-family:var(--mono);font-size:14px}
+.ok{color:var(--good)}.late{color:var(--pend)}.bad{color:var(--bad)}.none{color:var(--faint)}
+.sug a{display:inline-block;margin:4px 8px 0 0;font-family:var(--mono);font-size:14px;color:var(--blue)}
+a{color:var(--blue)}.foot{font-size:14px;color:var(--sub);margin-top:28px;border-top:1px solid var(--line);padding-top:12px}
+</style>
+<style>.sum{font-size:16px;margin:0 0 10px}.tw{overflow-x:auto}.res a.pick{display:block;padding:6px 0;border-bottom:1px solid var(--line);text-decoration:none}.res a.pick:hover{text-decoration:underline}.big{font-size:22px;font-weight:600}</style></head><body><main>
+<p class="id">SECOND MEASUREMENT SM-019 · SUB-AWARD LOOKUP</p>
+<h1>Did this grant recipient report its sub-awards on time?</h1>
+<p class="cap">When a state agency, university, city or company that holds a federal grant passes money on to someone else (a sub-award of $30,000 or more; $25,000 before November 2020), it must report it by the end of the following month. Type a recipient&rsquo;s name, for example your state&rsquo;s education or health department, to see how many of its sub-awards since October 2017 were reported late. Data from USAspending.gov; the paper and method are at <a href="../sm-019.html">sm-019.html</a>.</p>
+<form id="f"><input id="q" placeholder="recipient or state, e.g. Michigan" autocomplete="off" autofocus><button>Look up</button></form>
+<div id="out"></div>
+<p class="foot">A sub-award is <b>late</b> when its first report is in a month after the month following the sub-award, the deadline in 2 CFR 170, appendix A. Months are counted from the sub-award&rsquo;s action date to the month the report was published. <b>Late dollars</b> leave out sub-awards reported as larger than the prime award they came from, as the paper does. A recipient appears under the unique entity ID on its reports; one with several IDs appears more than once. The fiscal year runs October to September. A late report can have a reason the data does not show. Data: <a href="lookup.json">lookup.json</a>, built by <a href="build_lookup.py">build_lookup.py</a> from the paper&rsquo;s exhibit file.</p>
+</main>
+<script>
+let D=null;
+async function load(){if(!D){const r=await fetch("lookup.json",{cache:"force-cache"});D=await r.json();}return D;}
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+function norm(s){return s.toUpperCase().replace(/[^A-Z0-9 ]/g," ").replace(/\s+/g," ").trim();}
+function usd(x){return x>=1e9?"$"+(x/1e9).toFixed(1)+" billion":x>=1e6?"$"+(x/1e6).toFixed(1)+" million":"$"+Math.round(x).toLocaleString("en-US");}
+function card(d,k){const [name,n,late,lu,med,fy,ag]=d.primes[k];const pct=n?(100*late/n).toFixed(1):"0";
+ const fyr=Object.entries(fy).map(([y,v])=>`<tr><td>FY ${y}</td><td class="n">${v[0].toLocaleString("en-US")}</td><td class="n">${v[1].toLocaleString("en-US")}</td><td class="n">${v[0]?(100*v[1]/v[0]).toFixed(1):"0"}%</td></tr>`).join("");
+ const agr=ag.map(a=>`<tr><td>${esc(a[0])}</td><td class="n">${a[1].toLocaleString("en-US")}</td><td class="n">${a[2].toLocaleString("en-US")}</td></tr>`).join("");
+ return `<div class="card"><h2>${esc(name)}</h2><p class="meta">${k.startsWith("name:")?"no unique entity ID on its reports":"UEI "+esc(k)}</p>
+ <p class="sum"><span class="big">${late.toLocaleString("en-US")} of ${n.toLocaleString("en-US")}</span> sub-awards reported late (${pct}%)${late?`, ${usd(lu)} in late reports, a median of ${med} month${med==1?"":"s"} late`:""}.</p>
+ <div class="tw"><table><tr><th>Fiscal year</th><th class="n">Sub-awards</th><th class="n">Late</th><th class="n">Share</th></tr>${fyr}</table></div>
+ <p class="cap" style="margin:12px 0 4px">Main federal agencies behind its sub-awards</p>
+ <div class="tw"><table><tr><th>Agency</th><th class="n">Sub-awards</th><th class="n">Late</th></tr>${agr}</table></div></div>`;}
+async function go(raw){const out=document.getElementById("out");out.innerHTML='<p class="cap">loading…</p>';const d=await load();const q=norm(raw);if(!q){out.innerHTML="";return;}
+ const ws=q.split(" ");const hits=Object.entries(d.primes).filter(([k,p])=>{const nm=" "+norm(p[0]);return k.toUpperCase()===q||ws.every(w=>nm.includes(" "+w));}).sort((a,b)=>b[1][1]-a[1][1]);
+ if(!hits.length){out.innerHTML=`<p class="cap">No recipient matching <b>${esc(raw)}</b>. Try fewer words, or the name as it appears in grant records (try just the state, as in &ldquo;Michigan&rdquo; or &ldquo;New York&rdquo;).</p>`;return;}
+ if(hits.length===1){out.innerHTML=card(d,hits[0][0]);return;}
+ out.innerHTML=`<p class="cap">${hits.length} matches, largest first${hits.length>60?" (first 60 shown; add a word)":""}:</p><div class="res">`+hits.slice(0,60).map(([k,p])=>`<a class="pick" href="#" data-k="${esc(k)}">${esc(p[0])} <span class="cap">${p[2].toLocaleString("en-US")} of ${p[1].toLocaleString("en-US")} late</span></a>`).join("")+"</div>";}
+document.getElementById("f").addEventListener("submit",e=>{e.preventDefault();go(document.getElementById("q").value);history.replaceState(null,"","?q="+encodeURIComponent(document.getElementById("q").value));});
+document.addEventListener("click",e=>{const a=e.target.closest("a.pick");if(!a)return;e.preventDefault();load().then(d=>{document.getElementById("out").innerHTML=card(d,a.dataset.k);history.replaceState(null,"","?id="+encodeURIComponent(a.dataset.k));window.scrollTo(0,0);});});
+const U=new URLSearchParams(location.search),p=U.get("q"),id=U.get("id");
+if(id){load().then(d=>{if(d.primes[id]){document.getElementById("q").value=d.primes[id][0];document.getElementById("out").innerHTML=card(d,id);}});}else if(p){document.getElementById("q").value=p;go(p);}
+</script></body></html>
