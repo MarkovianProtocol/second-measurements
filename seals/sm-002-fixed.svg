@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="220" viewBox="0 0 220 220" role="img" aria-label="Second Measurement seal: SM-009 gap closed by Mozilla on the date it gave">
-<title>Second Measurement · SM-009 · gap closed by Mozilla on the date it gave</title>
-<a xlink:href="https://markovianprotocol.com/measurements/sm-009.html" href="https://markovianprotocol.com/measurements/sm-009.html">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="220" viewBox="0 0 220 220" role="img" aria-label="Second Measurement seal: SM-002 fixed by Hao Li (AIDev) in the next release">
+<title>Second Measurement · SM-002 · fixed by Hao Li (AIDev) in the next release</title>
+<a xlink:href="https://markovianprotocol.com/measurements/sm-002.html" href="https://markovianprotocol.com/measurements/sm-002.html">
 <defs><path id="ring" d="M110,110 m-86,0 a86,86 0 1,1 172,0 a86,86 0 1,1 -172,0"/></defs>
 <circle cx="110" cy="110" r="106" fill="#fff" stroke="#1d1d1f" stroke-width="3"/>
 <circle cx="110" cy="110" r="98" fill="none" stroke="#1d1d1f" stroke-width="1"/>
@@ -11,7 +11,7 @@
 <text x="110" y="137" text-anchor="middle" font-family="Charter,Georgia,serif" font-size="15" font-weight="600" fill="#1d1d1f">Fixed in the next release</text>
 <text x="110" y="155" text-anchor="middle" font-family="Menlo,Consolas,ui-monospace,monospace" font-size="10" fill="#6e6e73">SM-002 · 2026-10-21</text>
 </a>
-<a xlink:href="https://log.markovianprotocol.com/leaf/11289" href="https://log.markovianprotocol.com/leaf/11289">
+<a xlink:href="https://log.markovianprotocol.com/leaf/12197" href="https://log.markovianprotocol.com/leaf/12197">
 <text text-decoration="underline" x="110" y="169" text-anchor="middle" font-family="Menlo,Consolas,ui-monospace,monospace" font-size="9" fill="#6e6e73">log leaf 12197</text>
 </a>
 </svg>
