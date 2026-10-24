@@ -1,0 +1,299 @@
+{
+ "queried": "2026-10-11T20:16Z (live)",
+ "islands_as_of_census": [
+  "arctic.gov",
+  "icams-portal.gov",
+  "iwtsd.gov",
+  "oea.gov",
+  "srs.gov",
+  "projectsafeneighborhoods.gov",
+  "ficor.gov",
+  "treasury.gov",
+  "airnow.gov",
+  "permitting.gov",
+  "acquisitiongateway.gov",
+  "cio.gov",
+  "digital.gov",
+  "evaluation.gov",
+  "itdashboard.gov",
+  "arts.gov",
+  "nmb.gov",
+  "sac.gov",
+  "rrb.gov",
+  "sbrc.gov",
+  "abilityone.gov",
+  "jwod.gov",
+  "ocb.gov",
+  "cbo.gov",
+  "cbonews.gov"
+ ],
+ "results": {
+  "arctic.gov": {
+   "cds": [
+    "2371 13 2 64D309153814E6E735DE34552B3A4CA19A5C53DADEB44234FDFCD3CA 75B4EA85"
+   ],
+   "cdnskey": [
+    "257 3 13 mdsswUyr3DPW132"
+   ],
+   "ds_at_parent_now": [
+    "2371 13 2 64D309"
+   ],
+   "dnskey_algs_now": [
+    "13",
+    "13"
+   ]
+  },
+  "icams-portal.gov": {
+   "cds": [],
+   "cdnskey": [],
+   "ds_at_parent_now": [],
+   "dnskey_algs_now": [
+    "8",
+    "8"
+   ]
+  },
+  "iwtsd.gov": {
+   "cds": [
+    "0 0 0 00"
+   ],
+   "cdnskey": [
+    "0 3 0 AA=="
+   ],
+   "ds_at_parent_now": [],
+   "dnskey_algs_now": [
+    "13",
+    "13"
+   ]
+  },
+  "oea.gov": {
+   "cds": [],
+   "cdnskey": [],
+   "ds_at_parent_now": [],
+   "dnskey_algs_now": [
+    "8",
+    "8"
+   ]
+  },
+  "srs.gov": {
+   "cds": [],
+   "cdnskey": [],
+   "ds_at_parent_now": [],
+   "dnskey_algs_now": [
+    "8",
+    "8",
+    "8",
+    "8"
+   ]
+  },
+  "projectsafeneighborhoods.gov": {
+   "cds": [
+    "2371 13 2 CAC0178F9ECDA747B9619237FD84F1FE9FDAA03CD20804FC9344E786 7F485C2B"
+   ],
+   "cdnskey": [
+    "257 3 13 mdsswUyr3DPW132"
+   ],
+   "ds_at_parent_now": [],
+   "dnskey_algs_now": [
+    "13",
+    "13"
+   ]
+  },
+  "ficor.gov": {
+   "cds": [
+    "2371 13 2 82977AE197C8D34E259BE1BF5480BBB43C14417CB9679F95BA2DA50F 4F89E21C"
+   ],
+   "cdnskey": [
+    "257 3 13 mdsswUyr3DPW132"
+   ],
+   "ds_at_parent_now": [],
+   "dnskey_algs_now": [
+    "13",
+    "13"
+   ]
+  },
+  "treasury.gov": {
+   "cds": [
+    "0 0 0 00"
+   ],
+   "cdnskey": [
+    "0 3 0 AA=="
+   ],
+   "ds_at_parent_now": [],
+   "dnskey_algs_now": [
+    "13",
+    "13"
+   ]
+  },
+  "airnow.gov": {
+   "cds": [],
+   "cdnskey": [],
+   "ds_at_parent_now": [],
+   "dnskey_algs_now": [
+    "8",
+    "8",
+    "8"
+   ]
+  },
+  "permitting.gov": {
+   "cds": [],
+   "cdnskey": [],
+   "ds_at_parent_now": [],
+   "dnskey_algs_now": [
+    "8",
+    "8"
+   ]
+  },
+  "acquisitiongateway.gov": {
+   "cds": [],
+   "cdnskey": [],
+   "ds_at_parent_now": [],
+   "dnskey_algs_now": [
+    "8",
+    "8",
+    "8"
+   ]
+  },
+  "cio.gov": {
+   "cds": [],
+   "cdnskey": [],
+   "ds_at_parent_now": [],
+   "dnskey_algs_now": [
+    "8",
+    "8"
+   ]
+  },
+  "digital.gov": {
+   "cds": [],
+   "cdnskey": [],
+   "ds_at_parent_now": [],
+   "dnskey_algs_now": [
+    "13",
+    "13",
+    "13"
+   ]
+  },
+  "evaluation.gov": {
+   "cds": [],
+   "cdnskey": [],
+   "ds_at_parent_now": [],
+   "dnskey_algs_now": [
+    "8",
+    "8",
+    "8"
+   ]
+  },
+  "itdashboard.gov": {
+   "cds": [],
+   "cdnskey": [],
+   "ds_at_parent_now": [],
+   "dnskey_algs_now": [
+    "8",
+    "8",
+    "8"
+   ]
+  },
+  "arts.gov": {
+   "cds": [],
+   "cdnskey": [],
+   "ds_at_parent_now": [],
+   "dnskey_algs_now": [
+    "7",
+    "7",
+    "7",
+    "7"
+   ]
+  },
+  "nmb.gov": {
+   "cds": [
+    "60782 8 2 A877A74EAAF169F6878D0F40B364D847C0436BA9BFA49C00D88DABDF 39FF7253"
+   ],
+   "cdnskey": [],
+   "ds_at_parent_now": [],
+   "dnskey_algs_now": [
+    "8",
+    "8"
+   ]
+  },
+  "sac.gov": {
+   "cds": [
+    "2371 13 2 0C3E6A53AA6791D0D85BA3205D1BBB5EF8B82B701C548C7283AEEBBD 68F60172"
+   ],
+   "cdnskey": [
+    "257 3 13 mdsswUyr3DPW132"
+   ],
+   "ds_at_parent_now": [
+    "2371 13 2 0C3E6A"
+   ],
+   "dnskey_algs_now": [
+    "13",
+    "13"
+   ]
+  },
+  "rrb.gov": {
+   "cds": [],
+   "cdnskey": [],
+   "ds_at_parent_now": [],
+   "dnskey_algs_now": [
+    "8",
+    "8",
+    "8"
+   ]
+  },
+  "sbrc.gov": {
+   "cds": [],
+   "cdnskey": [],
+   "ds_at_parent_now": [],
+   "dnskey_algs_now": [
+    "8",
+    "8"
+   ]
+  },
+  "abilityone.gov": {
+   "cds": [],
+   "cdnskey": [],
+   "ds_at_parent_now": [],
+   "dnskey_algs_now": [
+    "13",
+    "13"
+   ]
+  },
+  "jwod.gov": {
+   "cds": [],
+   "cdnskey": [],
+   "ds_at_parent_now": [],
+   "dnskey_algs_now": [
+    "13",
+    "13"
+   ]
+  },
+  "ocb.gov": {
+   "cds": [],
+   "cdnskey": [],
+   "ds_at_parent_now": [],
+   "dnskey_algs_now": [
+    "7",
+    "7",
+    "7",
+    "7"
+   ]
+  },
+  "cbo.gov": {
+   "cds": [],
+   "cdnskey": [],
+   "ds_at_parent_now": [],
+   "dnskey_algs_now": [
+    "13",
+    "13"
+   ]
+  },
+  "cbonews.gov": {
+   "cds": [],
+   "cdnskey": [],
+   "ds_at_parent_now": [],
+   "dnskey_algs_now": [
+    "13",
+    "13"
+   ]
+  }
+ }
+}

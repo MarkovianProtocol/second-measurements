@@ -1,0 +1,1488 @@
+{
+ "checked_at": "2026-10-04T16:01:29+00:00",
+ "gov_server": "a.ns.gov 199.33.230.1",
+ "root_server": "a.root-servers.net 198.41.0.4",
+ "n": 211,
+ "results": {
+  "arc.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "arc\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "arctic.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "arctic\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "goldwaterinternship.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "goldwaterinternship\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "fedezfile.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "fedezfile\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "oasis.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "oasis\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "supervisioncentral.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "supervisioncentral\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "osde.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "osde\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "csb.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "csb\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "safetyvideos.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "safetyvideos\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "coldcaserecords.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "coldcaserecords\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "dra.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "dra\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "denali.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "denali\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "ap.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "ap\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "aviationweather.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "aviationweather\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "bis.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "bis\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "cwc.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "cwc\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "icams-portal.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "icams-portal\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "icts.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "icts\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "trumpgoldcard.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "trumpgoldcard\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "adlnet.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "adlnet\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "aftac.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "aftac\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "altusandc.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "altusandc\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "cmts.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "cmts\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "cttso.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "cttso\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "doddns.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "doddns\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "ecs.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "ecs\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "ehr.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "ehr\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "fehrm.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "fehrm\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "hive.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "hive\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "iwtsd.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "iwtsd\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "mds.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "mds\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "nsep.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "nsep\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "oea.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "oea\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "soarc.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "soarc\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "tswg.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "tswg\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219689"
+   ]
+  },
+  "usandc.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "usandc\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "usgovdod.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "usgovdod\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "llnl.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "llnl\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "srs.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "srs\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "aspr.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "aspr\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "birthcontrol.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "birthcontrol\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "familyplanning.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "familyplanning\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "findtreatment.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "findtreatment\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "fosteringthefuture.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "fosteringthefuture\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "gmta.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "gmta\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "grants.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "grants\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "guideline.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "guideline\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "guidelines.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "guidelines\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "headstart.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "headstart\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "health.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "health\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "healthit.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "healthit\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "ihs.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "ihs\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "pandemicflu.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "\\000.pandemicflu.gov. RRSIG NSEC TYPE128",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "reproductivehealthservices.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "reproductivehealthservices\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "usphs.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "usphs\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "womenshealth.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "womenshealth\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "evus.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "evus\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "get.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "get\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "bop.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "bop\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "fara.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "fara\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "foia.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "foia\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "interpol.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "interpol\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "learnatf.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "learnatf\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "learndoj.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "learndoj\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "lep.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "lep\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "namus.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "namus\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "ncirc.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "ncirc\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "nsopw.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "nsopw\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "ojp.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "ojp\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "projectsafeneighborhoods.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "projectsafeneighborhoods\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "psob.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "psob\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "passport.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "passport\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "ficor.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "ficor\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "nigc.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "nigc\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "treasury.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "treasury\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219690"
+   ]
+  },
+  "trumpaccounts.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "trumpaccounts\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "esc.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "esc\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "faa.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "faa\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "faasafety.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "faasafety\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "jccbi.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "jccbi\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "reach.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "reach\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "vaoig.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "vaoig\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "airnow.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "airnow\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "epaoig.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "epaoig\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "250.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "250\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "alien.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "alien\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "aliens.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "aliens\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "app.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "app\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "arcade.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "arcade\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "arcades.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "arcades\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "bebest.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "bebest\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "explore.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "explore\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "fosteringthefuturetogether.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "fosteringthefuturetogether\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "fraud.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "fraud\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "launch.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "launch\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "live.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "live\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "onlyfarms.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "onlyfarms\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "pitc.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "pitc\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "saveamerica.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "saveamerica\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "si.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "si\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "transparency.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "transparency\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "trumpira.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "trumpira\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "trumptv.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "trumptv\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "fmc.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "fmc\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "permitting.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "permitting\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "18f.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "18f\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "400yaahc.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "400yaahc\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "acquisitiongateway.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "acquisitiongateway\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "benefits.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "benefits\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "cio.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "cio\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "cloud.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "cloud\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "code.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "code\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "computersforlearning.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "computersforlearning\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "councils.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "councils\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "digital.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "digital\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219691"
+   ]
+  },
+  "digitalgov.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "digitalgov\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "evaluation.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "evaluation\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "fac.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "fac\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "fapiis.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "fapiis\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "fleet.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "fleet\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "fpdf.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "fpdf\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "go.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "go\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "govloans.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "govloans\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "gsaauctions.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "gsaauctions\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "gsafleet.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "gsafleet\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "innovation.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "innovation\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "itdashboard.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "itdashboard\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "ncmms.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "ncmms\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "notify.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "notify\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "pif.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "pif\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "plainlanguage.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "plainlanguage\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "ppms.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "ppms\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "presidentialinnovationfellows.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "presidentialinnovationfellows\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "sam.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "sam\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "search.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "search\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "usability.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "usability\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "usai.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "usai\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "ata.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "ata\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "dns.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "dns\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "dnsops.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "dnsops\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "domainops.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "domainops\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "ecfc.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "ecfc\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "erpo.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "erpo\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "example.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "example\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "fraho.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "fraho\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "igorville.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "igorville\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "jpo.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "jpo\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "lfs.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "lfs\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "nrpo.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "nrpo\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "owc.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "owc\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "psd.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "psd\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "psup.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "psup\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "pubservices.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "pubservices\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "rpo.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "rpo\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219692"
+   ]
+  },
+  "truman.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "truman\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "iaf.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "iaf\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "jamesmadison.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "jamesmadison\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "kennedy-center.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "kennedy-center\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "mmc.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "mmc\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "mspb.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "mspb\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "earth.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "earth\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "arts.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "arts\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "nmb.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "nmb\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "sac.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "sac\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "givecfc.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "givecfc\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "ce-ncsc.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "ce-ncsc\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "iarpa-ideas.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "iarpa-ideas\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "intelink.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "intelink\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "ncix.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "ncix\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "ugov.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "ugov\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "techprosperitycorps.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "techprosperitycorps\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "pbrb.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "pbrb\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "rrb.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "rrb\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "scrc.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "scrc\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "sbrc.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "sbrc\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "ustda.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "ustda\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "abilityone.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "abilityone\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "jwod.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "jwod\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "ibab.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "ibab\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "ocb.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "ocb\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "usip.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "usip\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "ich.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "ich\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "usich.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "usich\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "bankruptcy.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "bankruptcy\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "cavc.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "cavc\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "fd.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "fd\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "federalcourts.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "federalcourts\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "federalprobation.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "federalprobation\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "federalrules.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "federalrules\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "judicialconference.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "judicialconference\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "pacer.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "pacer\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "usbankruptcy.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "usbankruptcy\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219693"
+   ]
+  },
+  "usc.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "usc\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219694"
+   ]
+  },
+  "uscourts.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "uscourts\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219694"
+   ]
+  },
+  "usprobation.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "usprobation\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219694"
+   ]
+  },
+  "fjc.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "fjc\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219694"
+   ]
+  },
+  "ussc.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "ussc\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219694"
+   ]
+  },
+  "ustaxcourt.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "ustaxcourt\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219694"
+   ]
+  },
+  "adams.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "adams\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219694"
+   ]
+  },
+  "cbo.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "cbo\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219694"
+   ]
+  },
+  "cbonews.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "cbonews\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219694"
+   ]
+  },
+  "fasab.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "fasab\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219694"
+   ]
+  },
+  "gaonet.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "gaonet\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219694"
+   ]
+  },
+  "medpac.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "medpac\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219694"
+   ]
+  },
+  "stennis.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "stennis\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219694"
+   ]
+  },
+  "ppdcecc.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "ppdcecc\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219694"
+   ]
+  },
+  "uscpoig.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "uscpoig\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219694"
+   ]
+  },
+  "uscirf.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "uscirf\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219694"
+   ]
+  },
+  "america250.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "america250\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219694"
+   ]
+  },
+  "usa250.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "usa250\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219694"
+   ]
+  },
+  "ussemiquincentennial.gov": {
+   "verdict": "AUTHENTICATED_DENIAL",
+   "detail": [
+    "ussemiquincentennial\\000.gov. NS RRSIG NSEC",
+    "RRSIG keytag 35496 alg 13 exp 1791219694"
+   ]
+  }
+ },
+ "counts": {
+  "AUTHENTICATED_DENIAL": 211
+ }
+}

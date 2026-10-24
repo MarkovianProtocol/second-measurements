@@ -1,0 +1,601 @@
+{
+ "fetched": "2026-10-03T14:52:55Z",
+ "method": "dig @1.1.1.1 +cd for DNSKEY and SOA +dnssec; dig @8.8.8.8 DS +short; key tags computed per RFC 4034 appendix B",
+ "zones": {
+  "clinicaltrial.gov": {
+   "ds": [
+    {
+     "keytag": 43789,
+     "alg": 8,
+     "digest_type": 2
+    },
+    {
+     "keytag": 58792,
+     "alg": 8,
+     "digest_type": 2
+    }
+   ],
+   "dnskey_via_cloudflare_cd": [
+    {
+     "tag": 28576,
+     "flags": 257,
+     "alg": 8
+    },
+    {
+     "tag": 55833,
+     "flags": 256,
+     "alg": 8
+    }
+   ],
+   "dnskey_rrsig": [
+    {
+     "expires": "20261010121805",
+     "inception": "20261003111805",
+     "keytag": 28576
+    },
+    {
+     "expires": "20261010121805",
+     "inception": "20261003111805",
+     "keytag": 55833
+    }
+   ],
+   "soa_rrsig": [
+    {
+     "expires": "20261009013647",
+     "keytag": 55833
+    }
+   ],
+   "google_cd_status": "NOERROR",
+   "ds_matches_served_key": false
+  },
+  "childreninadversity.gov": {
+   "ds": [
+    {
+     "keytag": 21170,
+     "alg": 8,
+     "digest_type": 2
+    }
+   ],
+   "dnskey_via_cloudflare_cd": [],
+   "dnskey_rrsig": [],
+   "soa_rrsig": [],
+   "google_cd_status": "SERVFAIL",
+   "ds_matches_served_key": false
+  },
+  "neglecteddiseases.gov": {
+   "ds": [
+    {
+     "keytag": 50932,
+     "alg": 8,
+     "digest_type": 2
+    }
+   ],
+   "dnskey_via_cloudflare_cd": [],
+   "dnskey_rrsig": [],
+   "soa_rrsig": [],
+   "google_cd_status": "SERVFAIL",
+   "ds_matches_served_key": false
+  },
+  "pmi.gov": {
+   "ds": [
+    {
+     "keytag": 25564,
+     "alg": 8,
+     "digest_type": 2
+    }
+   ],
+   "dnskey_via_cloudflare_cd": [
+    {
+     "tag": 32163,
+     "flags": 256,
+     "alg": 8
+    },
+    {
+     "tag": 6990,
+     "flags": 256,
+     "alg": 8
+    },
+    {
+     "tag": 46479,
+     "flags": 256,
+     "alg": 8
+    },
+    {
+     "tag": 25564,
+     "flags": 257,
+     "alg": 8
+    },
+    {
+     "tag": 21910,
+     "flags": 257,
+     "alg": 8
+    }
+   ],
+   "dnskey_rrsig": [
+    {
+     "expires": "20270825194134",
+     "inception": "20260825184134",
+     "keytag": 21910
+    },
+    {
+     "expires": "20270825194134",
+     "inception": "20260825184134",
+     "keytag": 25564
+    },
+    {
+     "expires": "20270825194134",
+     "inception": "20260825184134",
+     "keytag": 46479
+    }
+   ],
+   "soa_rrsig": [
+    {
+     "expires": "20270825194134",
+     "keytag": 46479
+    }
+   ],
+   "google_cd_status": "NOERROR",
+   "ds_matches_served_key": true
+  },
+  "abd.gov": {
+   "ds": [
+    {
+     "keytag": 2371,
+     "alg": 13,
+     "digest_type": 2
+    }
+   ],
+   "dnskey_via_cloudflare_cd": [],
+   "dnskey_rrsig": [],
+   "soa_rrsig": [],
+   "google_cd_status": "SERVFAIL",
+   "ds_matches_served_key": false
+  },
+  "nds.gov": {
+   "ds": [
+    {
+     "keytag": 2371,
+     "alg": 13,
+     "digest_type": 2
+    }
+   ],
+   "dnskey_via_cloudflare_cd": [],
+   "dnskey_rrsig": [],
+   "soa_rrsig": [],
+   "google_cd_status": "SERVFAIL",
+   "ds_matches_served_key": false
+  },
+  "mortgagetranslations.gov": {
+   "ds": [
+    {
+     "keytag": 56650,
+     "alg": 8,
+     "digest_type": 2
+    }
+   ],
+   "dnskey_via_cloudflare_cd": [
+    {
+     "tag": 48573,
+     "flags": 256,
+     "alg": 8
+    },
+    {
+     "tag": 56650,
+     "flags": 257,
+     "alg": 8
+    }
+   ],
+   "dnskey_rrsig": [
+    {
+     "expires": "20260708060307",
+     "inception": "20260608060307",
+     "keytag": 48573
+    },
+    {
+     "expires": "20260708060307",
+     "inception": "20260608060307",
+     "keytag": 56650
+    }
+   ],
+   "soa_rrsig": [
+    {
+     "expires": "20260708060307",
+     "keytag": 48573
+    }
+   ],
+   "google_cd_status": "NOERROR",
+   "ds_matches_served_key": true
+  },
+  "adf.gov": {
+   "ds": [
+    {
+     "keytag": 16281,
+     "alg": 7,
+     "digest_type": 2
+    },
+    {
+     "keytag": 16281,
+     "alg": 7,
+     "digest_type": 1
+    },
+    {
+     "keytag": 51142,
+     "alg": 5,
+     "digest_type": 1
+    },
+    {
+     "keytag": 56043,
+     "alg": 7,
+     "digest_type": 2
+    },
+    {
+     "keytag": 51142,
+     "alg": 5,
+     "digest_type": 2
+    }
+   ],
+   "dnskey_via_cloudflare_cd": [
+    {
+     "tag": 32903,
+     "flags": 256,
+     "alg": 7
+    },
+    {
+     "tag": 47000,
+     "flags": 256,
+     "alg": 7
+    },
+    {
+     "tag": 55875,
+     "flags": 257,
+     "alg": 7
+    },
+    {
+     "tag": 5940,
+     "flags": 257,
+     "alg": 7
+    }
+   ],
+   "dnskey_rrsig": [
+    {
+     "expires": "20261010030505",
+     "inception": "20261003020505",
+     "keytag": 5940
+    },
+    {
+     "expires": "20261010030505",
+     "inception": "20261003020505",
+     "keytag": 47000
+    }
+   ],
+   "soa_rrsig": [
+    {
+     "expires": "20261010030505",
+     "keytag": 47000
+    }
+   ],
+   "google_cd_status": "NOERROR",
+   "ds_matches_served_key": false
+  },
+  "capitalgiftshop.gov": {
+   "ds": [
+    {
+     "keytag": 43651,
+     "alg": 8,
+     "digest_type": 2
+    },
+    {
+     "keytag": 43651,
+     "alg": 8,
+     "digest_type": 1
+    }
+   ],
+   "dnskey_via_cloudflare_cd": [
+    {
+     "tag": 60185,
+     "flags": 257,
+     "alg": 8
+    },
+    {
+     "tag": 24681,
+     "flags": 256,
+     "alg": 8
+    },
+    {
+     "tag": 12450,
+     "flags": 256,
+     "alg": 8
+    },
+    {
+     "tag": 3977,
+     "flags": 257,
+     "alg": 8
+    }
+   ],
+   "dnskey_rrsig": [
+    {
+     "expires": "20261007095824",
+     "inception": "20261003091614",
+     "keytag": 3977
+    },
+    {
+     "expires": "20261007095824",
+     "inception": "20261003091614",
+     "keytag": 12450
+    },
+    {
+     "expires": "20261007095824",
+     "inception": "20261003091614",
+     "keytag": 60185
+    }
+   ],
+   "soa_rrsig": [
+    {
+     "expires": "20261007101614",
+     "keytag": 12450
+    }
+   ],
+   "google_cd_status": "NOERROR",
+   "ds_matches_served_key": false
+  },
+  "capitolgiftshop.gov": {
+   "ds": [
+    {
+     "keytag": 62962,
+     "alg": 8,
+     "digest_type": 2
+    },
+    {
+     "keytag": 62962,
+     "alg": 8,
+     "digest_type": 1
+    }
+   ],
+   "dnskey_via_cloudflare_cd": [
+    {
+     "tag": 32116,
+     "flags": 257,
+     "alg": 8
+    },
+    {
+     "tag": 42216,
+     "flags": 256,
+     "alg": 8
+    },
+    {
+     "tag": 3114,
+     "flags": 256,
+     "alg": 8
+    },
+    {
+     "tag": 5462,
+     "flags": 257,
+     "alg": 8
+    }
+   ],
+   "dnskey_rrsig": [
+    {
+     "expires": "20261007095255",
+     "inception": "20261003092547",
+     "keytag": 3114
+    },
+    {
+     "expires": "20261007095255",
+     "inception": "20261003092547",
+     "keytag": 5462
+    },
+    {
+     "expires": "20261007095255",
+     "inception": "20261003092547",
+     "keytag": 32116
+    }
+   ],
+   "soa_rrsig": [
+    {
+     "expires": "20261007102547",
+     "keytag": 3114
+    }
+   ],
+   "google_cd_status": "NOERROR",
+   "ds_matches_served_key": false
+  },
+  "uscapitalgiftshop.gov": {
+   "ds": [
+    {
+     "keytag": 25321,
+     "alg": 8,
+     "digest_type": 2
+    },
+    {
+     "keytag": 25321,
+     "alg": 8,
+     "digest_type": 1
+    }
+   ],
+   "dnskey_via_cloudflare_cd": [
+    {
+     "tag": 15647,
+     "flags": 257,
+     "alg": 8
+    },
+    {
+     "tag": 2334,
+     "flags": 256,
+     "alg": 8
+    },
+    {
+     "tag": 30774,
+     "flags": 256,
+     "alg": 8
+    },
+    {
+     "tag": 53440,
+     "flags": 256,
+     "alg": 8
+    },
+    {
+     "tag": 39716,
+     "flags": 257,
+     "alg": 8
+    }
+   ],
+   "dnskey_rrsig": [
+    {
+     "expires": "20261006233510",
+     "inception": "20261002223959",
+     "keytag": 15647
+    },
+    {
+     "expires": "20261006233510",
+     "inception": "20261002223959",
+     "keytag": 30774
+    },
+    {
+     "expires": "20261006233510",
+     "inception": "20261002223959",
+     "keytag": 39716
+    }
+   ],
+   "soa_rrsig": [
+    {
+     "expires": "20261006233959",
+     "keytag": 30774
+    }
+   ],
+   "google_cd_status": "NOERROR",
+   "ds_matches_served_key": false
+  },
+  "uscapitolgiftshop.gov": {
+   "ds": [
+    {
+     "keytag": 25207,
+     "alg": 8,
+     "digest_type": 1
+    },
+    {
+     "keytag": 25207,
+     "alg": 8,
+     "digest_type": 2
+    }
+   ],
+   "dnskey_via_cloudflare_cd": [
+    {
+     "tag": 35719,
+     "flags": 256,
+     "alg": 8
+    },
+    {
+     "tag": 46543,
+     "flags": 256,
+     "alg": 8
+    },
+    {
+     "tag": 59869,
+     "flags": 257,
+     "alg": 8
+    },
+    {
+     "tag": 6310,
+     "flags": 257,
+     "alg": 8
+    },
+    {
+     "tag": 44248,
+     "flags": 256,
+     "alg": 8
+    }
+   ],
+   "dnskey_rrsig": [
+    {
+     "expires": "20261006232902",
+     "inception": "20261002232725",
+     "keytag": 6310
+    },
+    {
+     "expires": "20261006232902",
+     "inception": "20261002232725",
+     "keytag": 35719
+    },
+    {
+     "expires": "20261006232902",
+     "inception": "20261002232725",
+     "keytag": 59869
+    }
+   ],
+   "soa_rrsig": [
+    {
+     "expires": "20261007002725",
+     "keytag": 35719
+    }
+   ],
+   "google_cd_status": "NOERROR",
+   "ds_matches_served_key": false
+  },
+  "uscapitolgiftstore.gov": {
+   "ds": [
+    {
+     "keytag": 15382,
+     "alg": 8,
+     "digest_type": 1
+    },
+    {
+     "keytag": 15382,
+     "alg": 8,
+     "digest_type": 2
+    }
+   ],
+   "dnskey_via_cloudflare_cd": [
+    {
+     "tag": 30290,
+     "flags": 257,
+     "alg": 8
+    },
+    {
+     "tag": 44503,
+     "flags": 256,
+     "alg": 8
+    },
+    {
+     "tag": 27349,
+     "flags": 256,
+     "alg": 8
+    },
+    {
+     "tag": 7800,
+     "flags": 256,
+     "alg": 8
+    },
+    {
+     "tag": 55256,
+     "flags": 257,
+     "alg": 8
+    }
+   ],
+   "dnskey_rrsig": [
+    {
+     "expires": "20261006223433",
+     "inception": "20261002222731",
+     "keytag": 27349
+    },
+    {
+     "expires": "20261006223433",
+     "inception": "20261002222731",
+     "keytag": 30290
+    },
+    {
+     "expires": "20261006223433",
+     "inception": "20261002222731",
+     "keytag": 55256
+    }
+   ],
+   "soa_rrsig": [
+    {
+     "expires": "20261006232731",
+     "keytag": 27349
+    }
+   ],
+   "google_cd_status": "NOERROR",
+   "ds_matches_served_key": false
+  }
+ }
+}

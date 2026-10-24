@@ -1,0 +1,302 @@
+{
+ "by_branch": {
+  "Federal - Executive": {
+   "domains": 1169,
+   "ds": 986,
+   "ad": 967,
+   "dnskey_no_ds": 23
+  },
+  "Federal - Legislative": {
+   "domains": 121,
+   "ds": 108,
+   "ad": 103,
+   "dnskey_no_ds": 2
+  },
+  "Federal - Judicial": {
+   "domains": 24,
+   "ds": 9,
+   "ad": 9,
+   "dnskey_no_ds": 0
+  },
+  "Federal": {
+   "domains": 2,
+   "ds": 2,
+   "ad": 2,
+   "dnskey_no_ds": 0
+  }
+ },
+ "all": {
+  "domains": 1316,
+  "ds": 1105
+ },
+ "exec_orgs": {
+  "total": 121,
+  "fully_signed": 73,
+  "most_unsigned": [
+   [
+    "General Services Administration",
+    32,
+    90
+   ],
+   [
+    "Executive Office of the President",
+    19,
+    69
+   ],
+   [
+    "Department of Defense",
+    18,
+    41
+   ],
+   [
+    "Department of Health and Human Services",
+    17,
+    122
+   ],
+   [
+    ".gov Administration",
+    17,
+    21
+   ],
+   [
+    "Department of Justice",
+    13,
+    62
+   ],
+   [
+    "Department of Commerce",
+    7,
+    62
+   ],
+   [
+    "Office of the Director of National Intelligence",
+    5,
+    15
+   ],
+   [
+    "Department of Transportation",
+    4,
+    19
+   ],
+   [
+    "Board of Governors of the Federal Reserve",
+    3,
+    13
+   ],
+   [
+    "Chemical Safety and Hazard Investigation Board",
+    2,
+    2
+   ],
+   [
+    "Department of Energy",
+    2,
+    60
+   ]
+  ]
+ },
+ "exec_unsigned_in_use": {
+  "apex address": 129,
+  "no records": 11,
+  "delegation only": 19,
+  "mail only": 24
+ },
+ "validation": {
+  "bogus": [
+   "abd.gov",
+   "adf.gov",
+   "capitalgiftshop.gov",
+   "capitolgiftshop.gov",
+   "childreninadversity.gov",
+   "clinicaltrial.gov",
+   "mortgagetranslations.gov",
+   "nds.gov",
+   "neglecteddiseases.gov",
+   "pmi.gov",
+   "uscapitalgiftshop.gov",
+   "uscapitolgiftshop.gov",
+   "uscapitolgiftstore.gov"
+  ],
+  "dead": [
+   "adr.gov",
+   "ata.gov",
+   "budgetlob.gov",
+   "diabetescommittee.gov",
+   "dotideahub.gov",
+   "fedezfile.gov",
+   "fedsfeedfamilies.gov",
+   "feedthefuture.gov",
+   "fraho.gov",
+   "givecfc.gov",
+   "glri.gov",
+   "lmvsci.gov",
+   "notify.gov",
+   "opic.gov",
+   "osde.gov",
+   "prosperafrica.gov",
+   "supervisioncentral.gov"
+  ],
+  "flaky": [
+   "250.gov",
+   "explore.gov",
+   "poolsafely.gov",
+   "transparency.gov"
+  ]
+ },
+ "ds_algorithms": {
+  "3": 1,
+  "5": 6,
+  "7": 65,
+  "8": 356,
+  "10": 6,
+  "13": 687
+ },
+ "rsasha1": {
+  "any": 70,
+  "only": 63,
+  "only_by_org": [
+   [
+    "Supreme Court of the United States",
+    8
+   ],
+   [
+    "Department of Health and Human Services",
+    7
+   ],
+   [
+    "Department of Energy",
+    6
+   ],
+   [
+    "United States Postal Service",
+    6
+   ],
+   [
+    "Department of Defense",
+    4
+   ],
+   [
+    "Presidio Trust",
+    3
+   ],
+   [
+    "United States Agency for Global Media",
+    3
+   ],
+   [
+    "Department of Commerce",
+    2
+   ],
+   [
+    "Department of Homeland Security",
+    2
+   ],
+   [
+    "National Credit Union Administration",
+    2
+   ],
+   [
+    "National Endowment for the Humanities",
+    2
+   ],
+   [
+    "Securities and Exchange Commission",
+    2
+   ],
+   [
+    "Corporation for National and Community Service",
+    1
+   ],
+   [
+    "Farm Credit Administration",
+    1
+   ],
+   [
+    "Farm Credit System Insurance Corporation",
+    1
+   ],
+   [
+    "Federal Communications Commission",
+    1
+   ],
+   [
+    "Federal Election Commission",
+    1
+   ],
+   [
+    "Federal Mine Safety and Health Review Commission",
+    1
+   ],
+   [
+    "National Endowment for the Arts",
+    1
+   ],
+   [
+    "National Labor Relations Board",
+    1
+   ],
+   [
+    "Occupational Safety and Health Review Commission",
+    1
+   ],
+   [
+    "Office of Government Ethics",
+    1
+   ],
+   [
+    "State Justice Institute",
+    1
+   ],
+   [
+    "Surface Transportation Board",
+    1
+   ],
+   [
+    "Tennessee Valley Authority",
+    1
+   ],
+   [
+    "United States African Development Foundation",
+    1
+   ],
+   [
+    "U.S. Nuclear Waste Technical Review Board",
+    1
+   ],
+   [
+    "Government Accountability Office",
+    1
+   ]
+  ],
+  "sha1_digest_only": [
+   "hc.gov"
+  ]
+ },
+ "dnskey_no_ds": [
+  "abilityone.gov",
+  "acquisitiongateway.gov",
+  "airnow.gov",
+  "arctic.gov",
+  "arts.gov",
+  "cbo.gov",
+  "cbonews.gov",
+  "cio.gov",
+  "digital.gov",
+  "evaluation.gov",
+  "ficor.gov",
+  "icams-portal.gov",
+  "itdashboard.gov",
+  "iwtsd.gov",
+  "jwod.gov",
+  "nmb.gov",
+  "ocb.gov",
+  "oea.gov",
+  "permitting.gov",
+  "projectsafeneighborhoods.gov",
+  "rrb.gov",
+  "sac.gov",
+  "sbrc.gov",
+  "srs.gov",
+  "treasury.gov"
+ ]
+}

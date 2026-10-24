@@ -1,0 +1,19 @@
+current-federal.csv   https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-federal.csv   commit 67a8ae947c770c0f7fde1d68bf8436fd32642e9f (2026-10-02T12:07:22Z)
+m08-23.pdf            https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/fy2008/m08-23.pdf
+m18-23.pdf            https://www.whitehouse.gov/wp-content/uploads/2018/08/M-18-23.pdf
+sp800-131Ar2.pdf      https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf
+sp800-81r3.pdf        https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-81r3.pdf
+rfc8624.txt           https://www.rfc-editor.org/rfc/rfc8624.txt
+census.jsonl          census.py run 1, finished 2026-10-03T03:33Z, resolvers 8.8.8.8 and 1.1.1.1
+census_rerun.jsonl    census.py run 2, finished 2026-10-03T03:38Z
+ds_records.json       DS records (key algorithm, digest type) for every domain with a DS, 2026-10-03
+servfail_detail.json  both resolvers, with and without checking, for every SERVFAIL domain
+unsigned_inuse.json   A/AAAA, MX, NS presence for every unsigned domain
+broken_zones.json         dig @1.1.1.1 +cd DNSKEY/SOA and @8.8.8.8 DS for the 13 failing domains, key tags per RFC 4034 app. B, 2026-10-03
+sp800-131a_2011.pdf       https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-131a.pdf (January 2011 edition, Table 9)
+sp800-81-2.pdf            https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-81-2.pdf (September 2013)
+sp800-53r5_catalog.json, sp800-53r5_low.json   usnistgov/oscal-content NIST SP 800-53 rev5 catalog and LOW baseline
+unsigned_exec_tranco.json   Tranco top-1M rank (list as of 2026-10-02, topsites/top-1m.csv) for each unsigned executive domain found in it
+islands_cds_2026-10-11.json   live dig (11 Oct 2026, 20:16Z) of CDS, CDNSKEY, DS at a.ns.gov and DNSKEY algorithms for the 25 island zones (DNSKEY but no DS on 3 Oct): 2 publish the CDS delete signal, 3 publish a CDS asking for a DS, 2 now have a DS, 18 publish no CDS
+live_spotchecks_2026-10-11.json   live dig (11 Oct 2026, 20:16Z): lps.gov DNSKEYs (four, all algorithm 8) and its five DS records; hc.gov; medlineplus.gov DS at a.ns.gov (28576 8 2; on 3 Oct Google's resolver answered the DS query with the apex CNAME, so the census row has no algorithm — ds_records.json entry added by hand from this file); nsf.gov DS now ECDSA only
+census runs: census.jsonl written 2026-10-03T03:33:28Z, census_rerun.jsonl 03:38:36Z (file times of the originals in ~/second-measurements/dnssec/; the rows carry no timestamps)

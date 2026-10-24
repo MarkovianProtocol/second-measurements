@@ -1,0 +1,546 @@
+[
+ {
+  "domain": "fedezfile.gov",
+  "org": "Board of Governors of the Federal Reserve",
+  "ds": false,
+  "1.1.1.1": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "class": "dead"
+ },
+ {
+  "domain": "supervisioncentral.gov",
+  "org": "Board of Governors of the Federal Reserve",
+  "ds": false,
+  "1.1.1.1": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "class": "dead"
+ },
+ {
+  "domain": "osde.gov",
+  "org": "Central Intelligence Agency",
+  "ds": false,
+  "1.1.1.1": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "class": "dead"
+ },
+ {
+  "domain": "poolsafely.gov",
+  "org": "Consumer Product Safety Commission",
+  "ds": true,
+  "1.1.1.1": {
+   "plain": "NOERROR",
+   "cd": "NOERROR",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "NOERROR",
+   "cd": "NOERROR",
+   "ede": []
+  },
+  "class": "flaky"
+ },
+ {
+  "domain": "fedsfeedfamilies.gov",
+  "org": "Department of Agriculture",
+  "ds": true,
+  "1.1.1.1": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "class": "dead"
+ },
+ {
+  "domain": "budgetlob.gov",
+  "org": "Department of Education",
+  "ds": true,
+  "1.1.1.1": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "class": "dead"
+ },
+ {
+  "domain": "clinicaltrial.gov",
+  "org": "Department of Health and Human Services",
+  "ds": true,
+  "1.1.1.1": {
+   "plain": "SERVFAIL",
+   "cd": "NOERROR",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "SERVFAIL",
+   "cd": "NOERROR",
+   "ede": []
+  },
+  "class": "bogus"
+ },
+ {
+  "domain": "diabetescommittee.gov",
+  "org": "Department of Health and Human Services",
+  "ds": true,
+  "1.1.1.1": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "class": "dead"
+ },
+ {
+  "domain": "childreninadversity.gov",
+  "org": "Department of State",
+  "ds": true,
+  "1.1.1.1": {
+   "plain": "SERVFAIL",
+   "cd": "NOERROR",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "class": "bogus"
+ },
+ {
+  "domain": "feedthefuture.gov",
+  "org": "Department of State",
+  "ds": true,
+  "1.1.1.1": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "class": "dead"
+ },
+ {
+  "domain": "neglecteddiseases.gov",
+  "org": "Department of State",
+  "ds": true,
+  "1.1.1.1": {
+   "plain": "SERVFAIL",
+   "cd": "NOERROR",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "class": "bogus"
+ },
+ {
+  "domain": "pmi.gov",
+  "org": "Department of State",
+  "ds": true,
+  "1.1.1.1": {
+   "plain": "SERVFAIL",
+   "cd": "NOERROR",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "SERVFAIL",
+   "cd": "NOERROR",
+   "ede": []
+  },
+  "class": "bogus"
+ },
+ {
+  "domain": "prosperafrica.gov",
+  "org": "Department of State",
+  "ds": true,
+  "1.1.1.1": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "class": "dead"
+ },
+ {
+  "domain": "lmvsci.gov",
+  "org": "Department of the Interior",
+  "ds": true,
+  "1.1.1.1": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "class": "dead"
+ },
+ {
+  "domain": "dotideahub.gov",
+  "org": "Department of Transportation",
+  "ds": true,
+  "1.1.1.1": {
+   "plain": "NONE",
+   "cd": "NONE",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "NONE",
+   "cd": "NONE",
+   "ede": []
+  },
+  "class": "dead"
+ },
+ {
+  "domain": "glri.gov",
+  "org": "Environmental Protection Agency",
+  "ds": true,
+  "1.1.1.1": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "class": "dead"
+ },
+ {
+  "domain": "250.gov",
+  "org": "Executive Office of the President",
+  "ds": false,
+  "1.1.1.1": {
+   "plain": "NOERROR",
+   "cd": "NOERROR",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "class": "flaky"
+ },
+ {
+  "domain": "abd.gov",
+  "org": "Executive Office of the President",
+  "ds": true,
+  "1.1.1.1": {
+   "plain": "SERVFAIL",
+   "cd": "NOERROR",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "class": "bogus"
+ },
+ {
+  "domain": "explore.gov",
+  "org": "Executive Office of the President",
+  "ds": false,
+  "1.1.1.1": {
+   "plain": "NOERROR",
+   "cd": "NOERROR",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "class": "flaky"
+ },
+ {
+  "domain": "nds.gov",
+  "org": "Executive Office of the President",
+  "ds": true,
+  "1.1.1.1": {
+   "plain": "SERVFAIL",
+   "cd": "NOERROR",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "class": "bogus"
+ },
+ {
+  "domain": "transparency.gov",
+  "org": "Executive Office of the President",
+  "ds": false,
+  "1.1.1.1": {
+   "plain": "NOERROR",
+   "cd": "NOERROR",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "class": "flaky"
+ },
+ {
+  "domain": "mortgagetranslations.gov",
+  "org": "Federal Housing Finance Agency",
+  "ds": true,
+  "1.1.1.1": {
+   "plain": "SERVFAIL",
+   "cd": "NOERROR",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "SERVFAIL",
+   "cd": "NOERROR",
+   "ede": []
+  },
+  "class": "bogus"
+ },
+ {
+  "domain": "adr.gov",
+  "org": "Federal Mediation and Conciliation Service",
+  "ds": true,
+  "1.1.1.1": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "class": "dead"
+ },
+ {
+  "domain": "notify.gov",
+  "org": "General Services Administration",
+  "ds": false,
+  "1.1.1.1": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "class": "dead"
+ },
+ {
+  "domain": "ata.gov",
+  "org": ".gov Administration",
+  "ds": false,
+  "1.1.1.1": {
+   "plain": "NONE",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "class": "dead"
+ },
+ {
+  "domain": "fraho.gov",
+  "org": ".gov Administration",
+  "ds": false,
+  "1.1.1.1": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "class": "dead"
+ },
+ {
+  "domain": "givecfc.gov",
+  "org": "Office of Personnel Management",
+  "ds": false,
+  "1.1.1.1": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "class": "dead"
+ },
+ {
+  "domain": "adf.gov",
+  "org": "United States African Development Foundation",
+  "ds": true,
+  "1.1.1.1": {
+   "plain": "SERVFAIL",
+   "cd": "NOERROR",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "SERVFAIL",
+   "cd": "NOERROR",
+   "ede": []
+  },
+  "class": "bogus"
+ },
+ {
+  "domain": "opic.gov",
+  "org": "United States International Development Finance Corporation",
+  "ds": true,
+  "1.1.1.1": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "SERVFAIL",
+   "cd": "SERVFAIL",
+   "ede": []
+  },
+  "class": "dead"
+ },
+ {
+  "domain": "capitalgiftshop.gov",
+  "org": "Architect of the Capitol",
+  "ds": true,
+  "1.1.1.1": {
+   "plain": "SERVFAIL",
+   "cd": "NOERROR",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "SERVFAIL",
+   "cd": "NOERROR",
+   "ede": []
+  },
+  "class": "bogus"
+ },
+ {
+  "domain": "capitolgiftshop.gov",
+  "org": "Architect of the Capitol",
+  "ds": true,
+  "1.1.1.1": {
+   "plain": "SERVFAIL",
+   "cd": "NOERROR",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "SERVFAIL",
+   "cd": "NOERROR",
+   "ede": []
+  },
+  "class": "bogus"
+ },
+ {
+  "domain": "uscapitalgiftshop.gov",
+  "org": "Architect of the Capitol",
+  "ds": true,
+  "1.1.1.1": {
+   "plain": "SERVFAIL",
+   "cd": "NOERROR",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "SERVFAIL",
+   "cd": "NOERROR",
+   "ede": []
+  },
+  "class": "bogus"
+ },
+ {
+  "domain": "uscapitolgiftshop.gov",
+  "org": "Architect of the Capitol",
+  "ds": true,
+  "1.1.1.1": {
+   "plain": "SERVFAIL",
+   "cd": "NOERROR",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "SERVFAIL",
+   "cd": "NOERROR",
+   "ede": []
+  },
+  "class": "bogus"
+ },
+ {
+  "domain": "uscapitolgiftstore.gov",
+  "org": "Architect of the Capitol",
+  "ds": true,
+  "1.1.1.1": {
+   "plain": "SERVFAIL",
+   "cd": "NOERROR",
+   "ede": []
+  },
+  "8.8.8.8": {
+   "plain": "SERVFAIL",
+   "cd": "NOERROR",
+   "ede": []
+  },
+  "class": "bogus"
+ }
+]
