@@ -1,0 +1,311 @@
+<html>
+<head>
+<title>Federal Register, Volume 91 Issue 34 (Friday, February 20, 2026)</title>
+</head>
+<body><pre>
+[Federal Register Volume 91, Number 34 (Friday, February 20, 2026)]
+[Notices]
+[Pages 8305-8307]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2026-03361]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Pipeline and Hazardous Materials Safety Administration
+
+[Docket No. PHMSA-2026-0496]
+
+
+Pipeline Safety: Incident Notifications to the National Response 
+Center
+
+AGENCY: Pipeline and Hazardous Materials Safety Administration (PHMSA), 
+Department of Transportation.
+
+ACTION: Notice; issuance of advisory bulletin.
+
+-----------------------------------------------------------------------
+
+SUMMARY: PHMSA is issuing this advisory bulletin to remind operators of 
+gas pipelines, underground natural gas storage (UNGS) facilities, and 
+liquefied natural gas (LNG) facilities of their obligation to report 
+incidents in accordance with PHMSA's incident reporting requirements. 
+This advisory bulletin addresses a safety recommendation that the 
+National Transportation Safety Board (NTSB) issued to PHMSA in response 
+to a fatal incident that occurred on a gas distribution system in 
+February 2018.
+
+FOR FURTHER INFORMATION CONTACT: Nancy White by phone at 202-923-8268 
+or by email at <a href="/cdn-cgi/l/email-protection#bdf3dcd3dec493ead5d4c9d88cfdd9d2c993dad2cb"><span class="__cf_email__" data-cfemail="0a446b646973245d62637e6f3b4a6e657e246d657c">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: On February 23, 2018, an incident occurred
+
+[[Page 8306]]
+
+on a gas distribution system in Dallas, Texas, resulting in one 
+fatality, injuring four other people, and causing major structural 
+damage to a residence. Two separate incidents occurred two days earlier 
+at nearby residences served by the same gas distribution system, 
+resulting in second-degree burns to an occupant and causing significant 
+structural damage to the residences.\1\ The operator did not provide an 
+immediate notification to the National Response Center (NRC) of either 
+incident as required by 49 CFR 191.5 or file a written incident report 
+with PHMSA,\2\ asserting there was no evidence at the time that a 
+release of natural gas from its distribution system was involved.\3\
+---------------------------------------------------------------------------
+
+    \1\ NTSB, Accident Report PAR-21/01, Atmos Energy Corporation 
+Natural Gas-Fueled Explosion: Dallas, Texas: February 23, 2018, at 1 
+(Jan. 12, 2021) (NTSB/PAR-21/01), available at: <a href="https://www.ntsb.gov/investigations/AccidentReports/Reports/PAR2101.pdf">https://www.ntsb.gov/investigations/AccidentReports/Reports/PAR2101.pdf</a>.
+    \2\ NTSB/PAR-21/01 at 61. Atmos provided a courtesy email to the 
+state regulator following the second explosion on the evening of 
+February 22, 2018, but did not provide official notification or file 
+a formal incident report.
+    \3\ NTSB/PAR-21/01 at 4, 61.
+---------------------------------------------------------------------------
+
+    NTSB conducted an investigation and determined that the probable 
+cause of the February 23, 2018 incident was:
+
+. . . the ignition of an accumulation of natural gas that leaked 
+from the gas main that was damaged during a sewer replacement 
+project 23 years earlier and was undetected by [the gas distribution 
+operator's] investigation of two related natural gas incidents on 
+the 2 days before the explosion. Contributing to the explosion was 
+[the gas distribution operator's] insufficient wet weather leak 
+investigation procedures. Contributing to the severity of the 
+explosion was [the gas distribution operator's] inaction to isolate 
+the affected main and evacuate the houses. Contributing to the 
+degradation of the pipeline system was [the gas distribution 
+operator's] inadequate integrity management program.\4\
+---------------------------------------------------------------------------
+
+    \4\ NTSB/PAR-21/01 at 71.
+
+    NTSB also issued Safety Recommendation P--21-1 to PHMSA, advising 
+the Agency to ``[e]xpand incident reporting requirements in [49 CFR] 
+Part 191 so that events that may meet the definition of `incident' are 
+immediately reported to [NRC,] even when the source of the natural gas 
+has not been determined.'' \5\ NTSB's Accident Report also lists 
+industry guidance factors that pipeline operators can use to determine 
+whether an event could be a reportable incident, such as a rupture or 
+explosion, fire, loss of service, evacuation of people in the area, 
+involvement of local emergency response personnel, and degree of media 
+involvement (ANSI/GPTC 2018).\6\
+---------------------------------------------------------------------------
+
+    \5\ NTSB/PAR-21/01 at 72.
+    \6\ NTSB/PAR-21/01 at 61, 62.
+---------------------------------------------------------------------------
+
+    PHMSA's regulations in 49 CFR part 191 require operators of gas 
+pipelines, UNGS facilities, and LNG facilities to notify the NRC of an 
+incident at the earliest practicable moment following discovery, but no 
+later than one hour after confirmed discovery.\7\ An ``incident'' is 
+defined in Sec.  191.3 as any of the following events:
+---------------------------------------------------------------------------
+
+    \7\ 49 CFR 191.5(a).
+---------------------------------------------------------------------------
+
+    (1.) An event that involves a release of gas from a pipeline, gas 
+from a UNGS facility, liquefied natural gas, liquefied petroleum gas, 
+refrigerant gas, or gas from an LNG facility, and that results in one 
+or more of the following consequences:
+    (i) A death, or personal injury necessitating in-patient 
+hospitalization;
+    (ii) Estimated property damage of [$149,700] or more, including 
+loss to the operator or others, or both, but excluding the cost of gas 
+lost,\8\ [or]
+---------------------------------------------------------------------------
+
+    \8\ The dollar figure adjusts for inflation for 2025. Changes to 
+the reporting threshold are posted on PHMSA's website and determined 
+in accordance with the procedures in appendix A to Part 191. See 
+<a href="https://www.phmsa.dot.gov/sites/phmsa.dot.gov/files/2025-04/2025-Gas-Property-Damage-Reporting-Threshold-Inflation-Adjustment.pdf">https://www.phmsa.dot.gov/sites/phmsa.dot.gov/files/2025-04/2025-Gas-Property-Damage-Reporting-Threshold-Inflation-Adjustment.pdf</a>.
+---------------------------------------------------------------------------
+
+    (iii) Unintentional estimated gas loss of three million cubic feet 
+or more.
+    (2.) An event that results in an emergency shutdown of an LNG 
+facility or a UNGS facility.\9\
+---------------------------------------------------------------------------
+
+    \9\ ``Activation of an emergency shutdown system for reasons 
+other than an actual emergency within the facility does not 
+constitute an incident.'' 49 CFR 191.3.
+---------------------------------------------------------------------------
+
+    (3.) An event that is significant in the judgment of the operator, 
+even though it did not meet the criteria of paragraph (1) or (2) of 
+this definition.
+    For purposes of the incident reporting requirements, ``confirmed 
+discovery'' of an event occurs ``when it can be reasonably determined, 
+based on information available to the operator at the time a reportable 
+event has occurred, even if only based on a preliminary evaluation.'' 
+\10\
+---------------------------------------------------------------------------
+
+    \10\ 49 CFR 191.3.
+---------------------------------------------------------------------------
+
+    Operators are required to file additional telephonic or electronic 
+reports to NRC to confirm or revise the initial estimates of the number 
+of fatalities or injuries, amount of product released, or extent of 
+damages.\11\ This may include filing an updated NRC report for a 
+previously reported event that an operator subsequently determines did 
+not meet the regulatory reporting thresholds.
+---------------------------------------------------------------------------
+
+    \11\ 49 CFR 191.5.
+---------------------------------------------------------------------------
+
+    PHMSA's incident reporting requirements play a critical role in 
+ensuring public safety. Federal, state, and local agencies need to be 
+aware of incidents ``at the earliest practicable moment so that 
+emergency personnel or investigators can be dispatched quickly to 
+mitigate the consequences of such an event.'' \12\ Incident reporting 
+also provides PHMSA and states with a means to identify safety issues, 
+implement preventative measures to mitigate safety risks, analyze 
+trends, and enhance pipeline safety across the Nation.
+---------------------------------------------------------------------------
+
+    \12\ PHMSA, Pipeline Safety: Operator Qualification, Cost 
+Recovery, Accident and Incident Notification, and Other Pipeline 
+Safety Changes, 82 FR 7972, 7978 (Jan. 23, 2017).
+---------------------------------------------------------------------------
+
+    PHMSA and its predecessor agency, the Research and Special Programs 
+Administration, have issued numerous alerts and advisory bulletins 
+emphasizing the importance of complying with the incident reporting 
+requirements in Part 191, and providing complete and accurate 
+information during emergencies.\13\ PHMSA continues to remind operators 
+of gas pipelines, UNGS facilities, and LNG facilities of the 
+requirement to report incidents to NRC at the earliest practicable 
+moment following discovery, but no later than one hour after confirmed 
+discovery.
+---------------------------------------------------------------------------
+
+    \13\ E.g., ALN-91-01, Reemphasize each pipeline operator's 
+responsibility to report promptly; criteria specified in 49 CFR 
+191.5/195.52. (Apr. 15, 1991); ADB-02-04, Pipeline Safety: Required 
+Notification of National Response Center (Sep. 6, 2002); ADB-10-08, 
+Emergency Preparedness Communications (Nov. 3, 2010); ADB-2012-09 
+Communications During Emergency Situations (Oct. 11, 2012); ADB-
+2013-01, Pipeline Safety: Telephonic Notification Time Limit to NRC 
+(Jan. 30, 2013).
+---------------------------------------------------------------------------
+
+    Guidance and advisory bulletins are not rules; are not meant to 
+bind the public in any way; and do not assign duties, create legally 
+enforceable rights, or impose new obligations that are not otherwise 
+contained in regulations.
+
+I. Advisory Bulletin (ADB-2026-04)
+
+    To: Owners and Operators of Gas Pipelines, Underground Natural Gas 
+Storage Facilities, and Liquefied Natural Gas Facilities.
+    Subject: Incident Notifications to the National Response Center.
+    Advisory: PHMSA is issuing this advisory bulletin to inform owners 
+and operators of gas pipelines, underground natural gas storage (UNGS) 
+facilities, and liquefied natural gas (LNG) facilities of the findings 
+and safety recommendations issued by the National Transportation Safety 
+Board (NTSB) in response to a natural gas distribution incident that 
+occurred in Dallas, Texas on February 23, 2018, and to remind operators 
+of their obligation under 49 CFR part 191 to notify the National 
+Response Center (NRC) of
+
+[[Page 8307]]
+
+incidents at the earliest practicable moment following discovery, but 
+no later than one hour after confirmed discovery. For purposes of the 
+incident reporting requirements in Part 191, confirmed discovery occurs 
+``when it can be reasonably determined, based on information available 
+to the operator at the time a reportable event has occurred, even if 
+only based on a preliminary evaluation.'' \14\
+---------------------------------------------------------------------------
+
+    \14\ 49 CFR 191.3.
+---------------------------------------------------------------------------
+
+    PHMSA's incident reporting regulations are intended to ensure that 
+Federal, state, and local agencies are alerted to incidents ``at the 
+earliest practicable moment so that emergency personnel or 
+investigators can be dispatched quickly to [help] mitigate the 
+consequence of such an event.'' \15\ Operators are reminded that the 
+regulations require reporting of events that are significant in the 
+judgement of the operators even if they do not meet criteria specified 
+in the regulations.\16\ Operators are also reminded that the 
+regulations require immediate notification to the NRC of potential 
+incidents based on available information, even if only a preliminary 
+evaluation has been conducted.\17\ Gas pipeline operators should also 
+note that the ``[e]stimated property damage of $[149,700] or more'' 
+requirement under Sec.  191.3 does not include cost of gas lost but 
+does encompass certain ancillary costs associated with the natural gas 
+release event.
+---------------------------------------------------------------------------
+
+    \15\ Pipeline Safety: Operator Qualification, Cost Recovery, 
+Accident and Incident Notification, and Other Pipeline Safety 
+Changes, 82 FR 7972, 7978 (Jan. 23, 2017).
+    \16\ See 49 CFR 191.3.
+    \17\ See 49 CFR 191.3.
+---------------------------------------------------------------------------
+
+    PHMSA notes that NTSB's Accident Report identifies factors that 
+pipeline operators can use to determine whether an incident might be 
+reportable. Those factors include rupture or explosion; fire; loss of 
+service; evacuation of people in the area; involvement of local 
+emergency response personnel; and degree of media involvement.\18\ 
+NTSB's Accident Report further identifies that several of these factors 
+(explosion, fire, local emergency response, and media involvement) 
+occurred during the two nearby incidents that preceded the February 23, 
+2018 incident yet these incidents went unreported by the gas 
+distribution operator.\19\
+---------------------------------------------------------------------------
+
+    \18\ NTSB/PAR-21/01 at 61-62.
+    \19\ NTSB/PAR-21/01 at 62.
+---------------------------------------------------------------------------
+
+    PHMSA agrees with NTSB that timely incident reporting ``can make 
+the difference between life and death'' and ``provides appropriate 
+stakeholders with the information they need to perform their incident 
+response functions which support the identification, analysis, and 
+evaluation of pipeline safety problems, and facilitate[s] the 
+development of practical solutions to pipeline safety challenges.'' 
+\20\ It is imperative for an effective emergency response to ensure 
+that all information concerning a gas pipeline, UNGS facility, or LNG 
+facility's reportable incident is identified, considered, evaluated, 
+and integrated with other known system information.\21\
+---------------------------------------------------------------------------
+
+    \20\ NTSB, PAR-21/01 at 60.
+    \21\ See 49 CFR 192.615(a)(3) and 192.631(a)(2); see also PHMSA, 
+Pipeline Safety: Operator Qualification, Cost Recovery, Accident and 
+Incident Notification, and Other Pipeline Safety Changes, 82 FR 7972 
+(Jan. 23, 2017).
+---------------------------------------------------------------------------
+
+    For these reasons, PHMSA reminds operators that Federal pipeline 
+safety regulations require operators to notify NRC at the earliest 
+practicable moment following discovery, but no later than one hour 
+after confirmed discovery, of a reportable incident that involves a 
+release from a gas pipeline, UNGS facility, or LNG facility, even if 
+only based on a preliminary evaluation. PHMSA notes that the contents 
+of this advisory bulletin do not have the force and effect of law and 
+are not meant to bind operators nor the public in any way.
+
+    Issued in Washington, DC, on February 17, 2026, under authority 
+delegated in 49 CFR 1.97.
+Linda Daugherty,
+Acting Associate Administrator for Pipeline Safety.
+[FR Doc. 2026-03361 Filed 2-19-26; 8:45 am]
+BILLING CODE 4910-60-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

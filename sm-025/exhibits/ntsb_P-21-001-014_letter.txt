@@ -1,0 +1,1150 @@
+                                                                                 February 8, 2021
+
+Mr. Howard W. (Mac) McMillan
+Executive Director
+Pipeline and Hazardous Materials Safety Administration
+1200 New Jersey Ave., SE
+Washington, DC 20590
+
+The attached letter from the NTSB Chairman provides information about the NTSB’s January
+12, 2021, report Atmos Energy Corporation Natural Gas-Fueled Explosion, Dallas, Texas,
+February 23, 2018, PAR-21/01. The details of this accident investigation and the resulting safety
+recommendations may be found in the attached report, which can also be accessed at
+http://www.ntsb.gov.
+
+The NTSB is vitally interested in these recommendations because they are designed to prevent
+accidents and save lives. We would appreciate a response within 90 days of the date of this letter,
+detailing the actions you have taken or intend to take to implement these recommendations.
+When replying, please refer to the safety recommendations by number (for example, P-21-1
+through -3). We encourage you to submit your response to ExecutiveSecretariat@ntsb.gov. If
+your reply exceeds 20 megabytes, including attachments, please e-mail us at the same address for
+instructions on how to send larger documents. Please do not submit both an electronic copy and a
+hard copy of the same response.
+
+
+                        Executive Secretariat-LRM
+                        Office of the Managing Director
+                        National Transportation Safety Board
+                        490 L’Enfant Plaza SW
+                        Washington, DC 20594
+                        Email: ExecutiveSecretariat@ntsb.gov
+                                          National Transportation Safety Board
+                                                               Washington, DC 20594
+
+   Office of the Chairman
+
+                                                               February 8, 2021
+
+
+
+   Mr. Howard W. (Mac) McMillan
+   Executive Director
+   Pipeline and Hazardous Materials Safety Administration
+   1200 New Jersey Ave., SE
+   Washington, DC 20590
+
+   Dear Mr. McMillan:
+
+           This letter provides information about the National Transportation Safety Board’s (NTSB)
+   January 12, 2021, report Atmos Energy Corporation Natural Gas-Fueled Explosion, Dallas, Texas,
+   February 23, 2018, PAR-21/01. The details of this accident investigation and the resulting safety
+   recommendations may be found in the attached report, which can also be accessed at
+   http://www.ntsb.gov.
+
+            As a result of this investigation, we identified the following safety issues:
+
+        •   Incident investigation. Neither Dallas Fire-Rescue Department (DFR) nor Atmos Energy
+            Corporation (Atmos) identified the causes of the two incidents that occurred in the days
+            immediately preceding the explosion. DFR arson investigators and Atmos technicians did
+            not effectively investigate, communicate, or collaborate to determine the cause of either
+            incident. Further, Atmos did not gather enough evidence to determine if gas migrated from
+            their piping and fueled the first two incidents.
+
+        •   Leak investigations and repairs. Atmos dedicated significant resources to its response
+            following the second incident, finding 13 leaks determined to present an existing or
+            probable future hazard. However, none of its employees questioned the integrity of the
+            system. As a result, Atmos did not take appropriate action to secure the safety of the area
+            and its residents. This was attributed, in part, to inadequate procedures for performing leak
+            investigations in wet weather conditions.
+
+        •   Methane detection. Although Atmos added odorant to its gas distribution system in a
+            manner consistent with Pipeline and Hazardous Materials Safety Administration (PHMSA)
+            regulations, none of the residents at any of the affected homes smelled gas. Although
+            odorant can act as an early warning of a gas release to prevent an explosion and fire, it is
+            known to become depleted if it travels through soil.
+
+        •   Incident reporting. Incident reporting requirements mandated by the PHMSA rely on the
+            judgement of the operator to determine whether an incident resulted from a leak in their
+            system and do not specify the level of investigation necessary to make the determination.
+            While operators have an option to report events that may have been caused by their system,
+64964
+                                                 2
+
+
+       Atmos relied on an incomplete investigation to support its position not to report the first
+       two incidents.
+
+        Accordingly, the NTSB makes the following safety recommendations to PHMSA.
+Additional information regarding these recommendations can be found in the noted sections of the
+report.
+
+   •   Expand incident reporting requirements in Title 49 Code of Federal Regulations Part 191
+       so that events that may meet the definition of “incident” are immediately reported to the
+       National Response Center even when the source of the natural gas has not been determined.
+       (P-21-1) (See section 2.6.1.)
+
+   •   Evaluate industry’s implementation of the gas distribution pipeline integrity management
+       requirements and develop updated guidance for improving their effectiveness. The
+       evaluation should specifically consider factors that may increase the likelihood of failure
+       such as age, increase the overall risk (including factors that simultaneously increase the
+       likelihood and consequence of failure), and limit the effectiveness of leak management
+       programs. (P-21-2) (See section 2.7.)
+
+   •   Assist the Railroad Commission of Texas in conducting the audit recommended in Safety
+       Recommendation P-21-4. (P-21-3) (See section 2.7.)
+
+         The NTSB is vitally interested in these recommendations because they are designed to
+prevent accidents and save lives. We would appreciate a response within 90 days of the date of this
+letter, detailing the actions you have taken or intend to take to implement these recommendations.
+When replying, please refer to the safety recommendations by number (Safety Recommendation(s)
+P-21-1 through -3). We encourage you to submit your response to ExecutiveSecretariat@ntsb.gov.
+If your reply, including attachments, exceeds 20 megabytes, please e-mail us at the same address
+for instructions. Please do not submit both an electronic copy and a hard copy of the same response.
+
+                                                             Sincerely,
+
+                                                             [Original Signed]
+
+                                                             Robert L. Sumwalt, III
+                                                             Chairman
+                                                                                 February 8, 2021
+
+Ms. Christi Craddick
+Chairman
+Railroad Commission of Texas
+PO Box 12967
+Austin, TX 78711-2967
+
+The National Transportation Safety Board (NTSB) is an independent federal agency charged by
+Congress with investigating every civil aviation accident in the United States and significant
+accidents in other modes of transportation—railroad, highway, marine, and pipeline. We
+determine the probable cause of the accidents and issue safety recommendations aimed at
+preventing future accidents. In addition, we carry out special studies concerning transportation
+safety and coordinate the resources of the federal government and other organizations to provide
+assistance to victims and their family members affected by major transportation disasters.
+
+The attached letter from the NTSB Chairman provides information about the NTSB’s January
+12, 2021, report Atmos Energy Corporation Natural Gas-Fueled Explosion, Dallas, Texas,
+February 23, 2018, PAR-21/01. The details of this accident investigation and the resulting safety
+recommendation may be found in the attached report, which can also be accessed at
+http://www.ntsb.gov. For more information about NTSB and our recommendation process,
+please see the attached one-page summary.
+
+The NTSB is vitally interested in these recommendations because they are designed to prevent
+accidents and save lives. We would appreciate a response within 90 days of the date of this letter,
+detailing the actions you have taken or intend to take to implement these recommendations.
+When replying, please refer to the safety recommendation by number (for example, P-21-4). We
+encourage you to submit your response to ExecutiveSecretariat@ntsb.gov. If your reply exceeds
+20 megabytes, including attachments, please e-mail us at the same address for instructions on
+how to send larger documents. Please do not submit both an electronic copy and a hard copy of
+the same response.
+
+All communications regarding safety recommendations will be stored by the NTSB and viewable
+by the public. Please do not send privileged or confidential communications in response to this
+recommendation. Responses marked as confidential or privileged (or similar designations) will
+be considered nonresponsive. If you have concerns about this protocol, please contact us at
+ExecutiveSecretariat@ntsb.gov.
+
+
+                        Executive Secretariat-LRM
+                        Office of the Managing Director
+                        National Transportation Safety Board
+                        490 L’Enfant Plaza SW
+                        Washington, DC 20594
+                        Email: ExecutiveSecretariat@ntsb.gov
+                                          National Transportation Safety Board
+                                                               Washington, DC 20594
+
+   Office of the Chairman
+
+
+
+                                                               February 8, 2021
+
+
+
+   Ms. Christi Craddick
+   Chairman
+   Railroad Commission of Texas
+   PO Box 12967
+   Austin, TX 78711-2967
+
+   Dear Chairman Craddick:
+
+           The National Transportation Safety Board (NTSB) is an independent federal agency
+   charged by Congress with investigating every civil aviation accident in the United States and
+   significant accidents in other modes of transportation—railroad, highway, marine, and pipeline.
+   We determine the probable cause of the accidents and issue safety recommendations aimed at
+   preventing future accidents. In addition, we carry out special studies concerning transportation
+   safety and coordinate the resources of the federal government and other organizations to assist
+   victims and their family members affected by major transportation disasters.
+
+          We are providing the following information to urge the Railroad Commission of Texas
+   (RRC) to act on the safety recommendation in this letter because we believe your organization can
+   help reduce the risk of future accidents. For more information about the NTSB and our
+   recommendation process, please see the attached one-page summary.
+
+           This letter provides information about the National Transportation Safety Board’s (NTSB)
+   January 12, 2021, report Atmos Energy Corporation Natural Gas-Fueled Explosion, Dallas, Texas,
+   February 23, 2018, PAR-21/01. The details of this accident investigation and the resulting safety
+   recommendations may be found in the attached report, which can also be accessed at
+   http://www.ntsb.gov.
+
+            As a result of this investigation, we identified the following safety issues:
+
+        •   Incident investigation. Neither the Dallas Fire-Rescue Department (DFR) nor Atmos
+            Energy Corporation (Atmos) identified the causes of the two incidents that occurred in the
+            days immediately preceding the explosion. DFR arson investigators and Atmos technicians
+            did not effectively investigate, communicate, or collaborate to determine the cause of either
+            incident. Further, Atmos did not gather enough evidence to determine if gas migrated from
+            their piping and fueled the first two incidents.
+
+        •   Leak investigations and repairs. Atmos dedicated significant resources to its response
+            following the second incident, finding 13 leaks determined to present an existing or
+            probable future hazard. However, none of its employees questioned the integrity of the
+64964
+                                                2
+
+
+       system. As a result, Atmos did not take appropriate action to secure the safety of the area
+       and its residents. This was attributed, in part, to inadequate procedures for performing leak
+       investigations in wet weather conditions.
+
+   •   Methane detection. Although Atmos added odorant to its gas distribution system in a
+       manner consistent with Pipeline and Hazardous Materials Safety Administration (PHMSA)
+       regulations, none of the residents at any of the affected homes smelled gas. Although
+       odorant can act as an early warning of a gas release to prevent an explosion and fire, it is
+       known to become depleted if it travels through soil.
+
+   •   Incident reporting. Incident reporting requirements mandated by the PHMSA rely on the
+       judgement of the operator to determine whether an incident resulted from a leak in their
+       system and do not specify the level of investigation necessary to make the determination.
+       While operators have an option to report events that may have been caused by their system,
+       Atmos relied on an incomplete investigation to support its position not to report the first
+       two incidents.
+
+        Accordingly, the NTSB makes the following safety recommendation to the RRC.
+Additional information regarding this recommendation can be found in the noted section of the
+report.
+
+   •   With assistance from the Pipeline and Hazardous Materials Safety Administration, conduct
+       a comprehensive audit of Atmos Energy Corporation’s incident-reporting practices;
+       policies and procedures for responding to leaks, fires, explosions, and emergency calls; and
+       integrity management programs. (P-21-4) (See section 2.7.)
+
+        The NTSB is vitally interested in this recommendation because it is designed to prevent
+accidents and save lives. We would appreciate a response within 90 days of the date of this letter,
+detailing the actions you have taken or intend to take to implement this recommendation. When
+replying, please refer to the safety recommendation by number (Safety Recommendation 9-21-4).
+We encourage you to submit your response to ExecutiveSecretariat@ntsb.gov. If your reply,
+including attachments, exceeds 20 megabytes, please e-mail us at the same address for instructions.
+Please do not submit both an electronic copy and a hard copy of the same response.
+
+                                                             Sincerely,
+
+                                                             [Original Signed]
+
+                                                             Robert L. Sumwalt, III
+                                                             Chairman
+                                                                                 February 8, 2021
+
+Mr. Dominique Artis
+Chief
+Dallas Fire-Rescue Department
+1500 Marilla St.
+Dallas, TX 75201
+
+The National Transportation Safety Board (NTSB) is an independent federal agency charged by
+Congress with investigating every civil aviation accident in the United States and significant
+accidents in other modes of transportation—railroad, highway, marine, and pipeline. We
+determine the probable cause of the accidents and issue safety recommendations aimed at
+preventing future accidents. In addition, we carry out special studies concerning transportation
+safety and coordinate the resources of the federal government and other organizations to provide
+assistance to victims and their family members affected by major transportation disasters.
+
+The attached letter from the NTSB Chairman provides information about the NTSB’s January
+12, 2021, report Atmos Energy Corporation Natural Gas-Fueled Explosion, Dallas, Texas,
+February 23, 2018, PAR-21/01. The details of this accident investigation and the resulting safety
+recommendation may be found in the attached report, which can also be accessed at
+http://www.ntsb.gov. For more information about NTSB and our recommendation process,
+please see the attached one-page summary.
+
+The NTSB is vitally interested in these recommendations because they are designed to prevent
+accidents and save lives. We would appreciate a response within 90 days of the date of this letter,
+detailing the actions you have taken or intend to take to implement these recommendations.
+When replying, please refer to the safety recommendation by number (for example, P-21-5
+through -7). We encourage you to submit your response to ExecutiveSecretariat@ntsb.gov. If
+your reply exceeds 20 megabytes, including attachments, please e-mail us at the same address for
+instructions on how to send larger documents. Please do not submit both an electronic copy and a
+hard copy of the same response.
+
+All communications regarding safety recommendations will be stored by the NTSB and viewable
+by the public. Please do not send privileged or confidential communications in response to this
+recommendation. Responses marked as confidential or privileged (or similar designations) will
+be considered nonresponsive. If you have concerns about this protocol, please contact us at
+ExecutiveSecretariat@ntsb.gov.
+
+
+                        Executive Secretariat-LRM
+                        Office of the Managing Director
+                        National Transportation Safety Board
+                        490 L’Enfant Plaza SW
+                        Washington, DC 20594
+                        Email: ExecutiveSecretariat@ntsb.gov
+                                          National Transportation Safety Board
+                                                               Washington, DC 20594
+
+   Office of the Chairman
+
+                                                               February 8, 2021
+
+
+
+   Mr. Dominique Artis
+   Chief
+   Dallas Fire-Rescue Department
+   1500 Marilla St.
+   Dallas, TX 75201
+
+   Dear Chief Artis:
+
+           The National Transportation Safety Board (NTSB) is an independent federal agency
+   charged by Congress with investigating every civil aviation accident in the United States and
+   significant accidents in other modes of transportation—railroad, highway, marine, and pipeline.
+   We determine the probable cause of the accidents and issue safety recommendations aimed at
+   preventing future accidents. In addition, we carry out special studies concerning transportation
+   safety and coordinate the resources of the federal government and other organizations to assist
+   victims and their family members affected by major transportation disasters.
+
+          We are providing the following information to urge the Dallas Fire-Rescue Department
+   (DFR) to act on the safety recommendation in this letter because we believe your organization can
+   help reduce the risk of future accidents. For more information about the NTSB and our
+   recommendation process, please see the attached one-page summary.
+
+           This letter provides information about the National Transportation Safety Board’s (NTSB)
+   January 12, 2021, report Atmos Energy Corporation Natural Gas-Fueled Explosion, Dallas, Texas,
+   February 23, 2018, PAR-21/01. The details of this accident investigation and the resulting safety
+   recommendations may be found in the attached report, which can also be accessed at
+   http://www.ntsb.gov.
+
+
+            As a result of this investigation, we identified the following safety issues:
+
+        •   Incident investigation. Neither DFR nor Atmos Energy Corporation (Atmos) identified
+            the causes of the two incidents that occurred in the days immediately preceding the
+            explosion. DFR arson investigators and Atmos technicians did not effectively investigate,
+            communicate, or collaborate to determine the cause of either incident. Further, Atmos did
+            not gather enough evidence to determine if gas migrated from their piping and fueled the
+            first two incidents.
+
+        •   Leak investigations and repairs. Atmos dedicated significant resources to its response
+            following the second incident, finding 13 leaks determined to present an existing or
+            probable future hazard. However, none of its employees questioned the integrity of the
+            system. As a result, Atmos did not take appropriate action to secure the safety of the area
+64964
+                                                2
+
+
+       and its residents. This was attributed, in part, to inadequate procedures for performing leak
+       investigations in wet weather conditions.
+
+   •   Methane detection. Although Atmos added odorant to its gas distribution system in a
+       manner consistent with Pipeline and Hazardous Materials Safety Administration (PHMSA)
+       regulations, none of the residents at any of the affected homes smelled gas. Although
+       odorant can act as an early warning of a gas release to prevent an explosion and fire, it is
+       known to become depleted if it travels through soil.
+
+   •   Incident reporting. Incident reporting requirements mandated by the PHMSA rely on the
+       judgement of the operator to determine whether an incident resulted from a leak in their
+       system and do not specify the level of investigation necessary to make the determination.
+       While operators have an option to report events that may have been caused by their system,
+       Atmos relied on an incomplete investigation to support its position not to report the first
+       two incidents.
+
+       Accordingly, the NTSB makes the following safety recommendations to DFR. Additional
+information regarding these recommendations can be found in the noted sections of the report.
+
+   •   Revise the continuing education requirements for your arson investigators to include
+       training on building fuel gas systems. (P-21-5) (See section 2.3.1.)
+
+   •   Revise your procedures to require gas monitoring after the occurrence of a gas-related
+       structure fire or explosion. (P-21-6) (See section 2.4.)
+
+   •   Develop and implement a formal process to alert appropriate local, state, and federal
+       agencies of potential systemic safety issues that should be investigated further. (P-21-7)
+       (See section 2.6.2.)
+
+         The NTSB is vitally interested in these recommendations because they are designed to
+prevent accidents and save lives. We would appreciate a response within 90 days of the date of this
+letter, detailing the actions you have taken or intend to take to implement these recommendations.
+When replying, please refer to the safety recommendation(s) by number (Safety
+Recommendation(s) P-21-5 through -7). We encourage you to submit your response to
+ExecutiveSecretariat@ntsb.gov. If your reply, including attachments, exceeds 20 megabytes,
+please e-mail us at the same address for instructions. Please do not submit both an electronic copy
+and a hard copy of the same response.
+
+                                                             Sincerely,
+
+                                                             [Original Signed]
+
+                                                             Robert L. Sumwalt, III
+                                                             Chairman
+                                                                                 February 8, 2021
+
+Mr. Kevin Akers
+President and Chief Executive Officer
+Atmos Energy Corporation
+5430 Lyndon Baines Johnson Freeway, Suite 1800
+Dallas, TX 75240
+
+The National Transportation Safety Board (NTSB) is an independent federal agency charged by
+Congress with investigating every civil aviation accident in the United States and significant
+accidents in other modes of transportation—railroad, highway, marine, and pipeline. We
+determine the probable cause of the accidents and issue safety recommendations aimed at
+preventing future accidents. In addition, we carry out special studies concerning transportation
+safety and coordinate the resources of the federal government and other organizations to provide
+assistance to victims and their family members affected by major transportation disasters.
+
+The attached letter from the NTSB Chairman provides information about the NTSB’s January
+12, 2021, report Atmos Energy Corporation Natural Gas-Fueled Explosion, Dallas, Texas,
+February 23, 2018, PAR-21/01. The details of this accident investigation and the resulting safety
+recommendation may be found in the attached report, which can also be accessed at
+http://www.ntsb.gov. For more information about NTSB and our recommendation process,
+please see the attached one-page summary.
+
+The NTSB is vitally interested in these recommendations because they are designed to prevent
+accidents and save lives. We would appreciate a response within 90 days of the date of this letter,
+detailing the actions you have taken or intend to take to implement these recommendations.
+When replying, please refer to the safety recommendation by number (for example, P-21-8
+through -12). We encourage you to submit your response to ExecutiveSecretariat@ntsb.gov. If
+your reply exceeds 20 megabytes, including attachments, please e-mail us at the same address for
+instructions on how to send larger documents. Please do not submit both an electronic copy and a
+hard copy of the same response.
+
+All communications regarding safety recommendations will be stored by the NTSB and viewable
+by the public. Please do not send privileged or confidential communications in response to this
+recommendation. Responses marked as confidential or privileged (or similar designations) will
+be considered nonresponsive. If you have concerns about this protocol, please contact us at
+ExecutiveSecretariat@ntsb.gov.
+
+
+                        Executive Secretariat-LRM
+                        Office of the Managing Director
+                        National Transportation Safety Board
+                        490 L’Enfant Plaza SW
+                        Washington, DC 20594
+                        Email: ExecutiveSecretariat@ntsb.gov
+                                          National Transportation Safety Board
+                                                               Washington, DC 20594
+
+   Office of the Chairman
+
+                                                               February 8, 2021
+
+
+
+   Mr. Kevin Akers
+   President and Chief Executive Officer
+   Atmos Energy Corporation
+   5430 Lyndon Baines Johnson Freeway
+   Suite 1800
+   Dallas, TX 75240
+
+   Dear Mr. Akers:
+
+           The National Transportation Safety Board (NTSB) is an independent federal agency
+   charged by Congress with investigating every civil aviation accident in the United States and
+   significant accidents in other modes of transportation—railroad, highway, marine, and pipeline.
+   We determine the probable cause of the accidents and issue safety recommendations aimed at
+   preventing future accidents. In addition, we carry out special studies concerning transportation
+   safety and coordinate the resources of the federal government and other organizations to assist
+   victims and their family members affected by major transportation disasters.
+
+           We are providing the following information to urge Atmos Energy Corporation (Atmos) to
+   act on the safety recommendation in this letter because we believe your organization can help
+   reduce the risk of future accidents. For more information about the NTSB and our recommendation
+   process, please see the attached one-page summary.
+
+           This letter provides information about the National Transportation Safety Board’s (NTSB)
+   January 12, 2021, report Atmos Energy Corporation Natural Gas-Fueled Explosion, Dallas, Texas,
+   February 23, 2018, PAR-21/01. The details of this accident investigation and the resulting safety
+   recommendations may be found in the attached report, which can also be accessed at
+   http://www.ntsb.gov.
+
+            As a result of this investigation, we identified the following safety issues:
+
+        •   Incident investigation. Neither Dallas Fire-Rescue Department (DFR) nor Atmos
+            identified the causes of the two incidents that occurred in the days immediately preceding
+            the explosion. DFR arson investigators and Atmos technicians did not effectively
+            investigate, communicate, or collaborate to determine the cause of either incident. Further,
+            Atmos did not gather enough evidence to determine if gas migrated from their piping and
+            fueled the first two incidents.
+
+        •   Leak investigations and repairs. Atmos dedicated significant resources to its response
+            following the second incident, finding 13 leaks determined to present an existing or
+            probable future hazard. However, none of its employees questioned the integrity of the
+            system. As a result, Atmos did not take appropriate action to secure the safety of the area
+64964
+                                                2
+
+
+       and its residents. This was attributed, in part, to inadequate procedures for performing leak
+       investigations in wet weather conditions.
+
+   •   Methane detection. Although Atmos added odorant to its gas distribution system in a
+       manner consistent with Pipeline and Hazardous Materials Safety Administration (PHMSA)
+       regulations, none of the residents at any of the affected homes smelled gas. Although
+       odorant can act as an early warning of a gas release to prevent an explosion and fire, it is
+       known to become depleted if it travels through soil.
+
+   •   Incident reporting. Incident reporting requirements mandated by the PHMSA rely on the
+       judgement of the operator to determine whether an incident resulted from a leak in their
+       system and do not specify the level of investigation necessary to make the determination.
+       While operators have an option to report events that may have been caused by their system,
+       Atmos relied on an incomplete investigation to support its position not to report the first
+       two incidents.
+
+       Accordingly, the NTSB makes the following safety recommendations to Atmos. Additional
+information regarding these recommendations can be found in the noted sections of the report.
+
+   •   Provide initial and recurrent training to Dallas Fire-Rescue Department arson investigators
+       and firefighters on the local natural gas distribution system and associated hazards.
+       (P-21-8) (See section 2.3.1.)
+
+   •   Develop and implement more rigorous inside leak investigation requirements in response
+       to fires and explosions when gas involvement cannot be excluded, including clear guidance
+       on pressure testing and inside gas measurements and the potential need to return to the
+       property after firefighters have departed. (P-21-9) (See section 2.3.2.1.)
+
+   •   Develop a clear procedure to coordinate with local emergency responders when
+       investigating all fires and explosions that may be gas related to conclusively determine
+       whether your system can be excluded as a potential contributor, and collecting the
+       necessary evidence to support the conclusion of your investigations. (P-21-10) (See
+       section 2.3.2.3.)
+
+   •   Revise your policies and procedures for responding to leaks, fires, explosions, and
+       emergency calls to address the challenges caused by wet weather conditions. The revised
+       policies and procedures should include: (1) leak investigation methods that are reliable in
+       wet weather; (2) leak investigation procedures that assess all viable gas migration paths;
+       (3) criteria for when to shut down or isolate gas distribution systems and pressure test main
+       and service lines; and (4) an alternate safe response such as evacuation when reliable leak
+       investigations are not possible due to wet weather or other circumstances. (P-21-11) (See
+       section 2.4.)
+
+   •   Without delay, assess your integrity management program, paying particular attention to
+       the areas identified in this investigation, and revise the program to appropriately consider:
+       (1) threats that degrade a system over time, and (2) the increased risk that can result from
+                                                3
+
+
+       factors that simultaneously increase the likelihood and consequence of failure. (P-21-12)
+       (See section 2.7.)
+
+         The NTSB is vitally interested in these recommendations because they are designed to
+prevent accidents and save lives. We would appreciate a response within 90 days of the date of this
+letter, detailing the actions you have taken or intend to take to implement these recommendations.
+When replying, please refer to the safety recommendation(s) by number (Safety
+Recommendation(s) P-21-8 through -12). We encourage you to submit your response to
+ExecutiveSecretariat@ntsb.gov. If your reply, including attachments, exceeds 20 megabytes,
+please e-mail us at the same address for instructions. Please do not submit both an electronic copy
+and a hard copy of the same response.
+
+                                                            Sincerely,
+
+                                                            [Original Signed]
+
+                                                            Robert L. Sumwalt, III
+                                                            Chairman
+                                                                                 February 8, 2021
+
+Ms. Leticia Quezada
+Chairman
+Gas Piping Technology Committee
+Nicor Gas
+1844 Ferry Rd.
+Naperville, IL 60563
+
+The National Transportation Safety Board (NTSB) is an independent federal agency charged by
+Congress with investigating every civil aviation accident in the United States and significant
+accidents in other modes of transportation—railroad, highway, marine, and pipeline. We
+determine the probable cause of the accidents and issue safety recommendations aimed at
+preventing future accidents. In addition, we carry out special studies concerning transportation
+safety and coordinate the resources of the federal government and other organizations to provide
+assistance to victims and their family members affected by major transportation disasters.
+
+The attached letter from the NTSB Chairman provides information about the NTSB’s January
+12, 2021, report Atmos Energy Corporation Natural Gas-Fueled Explosion, Dallas, Texas,
+February 23, 2018, PAR-21/01. The details of this accident investigation and the resulting safety
+recommendation may be found in the attached report, which can also be accessed at
+http://www.ntsb.gov. For more information about NTSB and our recommendation process,
+please see the attached one-page summary.
+
+The NTSB is vitally interested in these recommendations because they are designed to prevent
+accidents and save lives. We would appreciate a response within 90 days of the date of this letter,
+detailing the actions you have taken or intend to take to implement these recommendations.
+When replying, please refer to the safety recommendation by number (for example, P-21-13 and
+-14). We encourage you to submit your response to ExecutiveSecretariat@ntsb.gov. If your reply
+exceeds 20 megabytes, including attachments, please e-mail us at the same address for
+instructions on how to send larger documents. Please do not submit both an electronic copy and a
+hard copy of the same response.
+
+All communications regarding safety recommendations will be stored by the NTSB and viewable
+by the public. Please do not send privileged or confidential communications in response to this
+recommendation. Responses marked as confidential or privileged (or similar designations) will
+be considered nonresponsive. If you have concerns about this protocol, please contact us at
+ExecutiveSecretariat@ntsb.gov.
+
+
+                        Executive Secretariat-LRM
+                        Office of the Managing Director
+                        National Transportation Safety Board
+                        490 L’Enfant Plaza SW
+                        Washington, DC 20594
+                        Email: ExecutiveSecretariat@ntsb.gov
+                                          National Transportation Safety Board
+                                                               Washington, DC 20594
+
+   Office of the Chairman
+
+                                                               February 8, 2021
+
+
+
+   Ms. Leticia Quezada
+   Chairman
+   Gas Piping Technology Committee
+   Nicor Gas
+   1844 Ferry Rd.
+   Naperville, IL 60563
+
+   Dear Ms. Quezada:
+
+           The National Transportation Safety Board (NTSB) is an independent federal agency
+   charged by Congress with investigating every civil aviation accident in the United States and
+   significant accidents in other modes of transportation—railroad, highway, marine, and pipeline.
+   We determine the probable cause of the accidents and issue safety recommendations aimed at
+   preventing future accidents. In addition, we carry out special studies concerning transportation
+   safety and coordinate the resources of the federal government and other organizations to assist
+   victims and their family members affected by major transportation disasters.
+
+          We are providing the following information to urge the Gas Piping Technology Committee
+   (GPTC) to act on the safety recommendation in this letter because we believe your organization
+   can help reduce the risk of future accidents. For more information about the NTSB and our
+   recommendation process, please see the attached one-page summary.
+
+           This letter provides information about the National Transportation Safety Board’s (NTSB)
+   January 12, 2021, report Atmos Energy Corporation Natural Gas-Fueled Explosion, Dallas, Texas,
+   February 23, 2018, PAR-21/01. The details of this accident investigation and the resulting safety
+   recommendations may be found in the attached report, which can also be accessed at
+   http://www.ntsb.gov.
+
+            As a result of this investigation, we identified the following safety issues:
+
+        •   Incident investigation. Neither Dallas Fire-Rescue Department (DFR) nor Atmos Energy
+            Corporation (Atmos) identified the causes of the two incidents that occurred in the days
+            immediately preceding the explosion. DFR arson investigators and Atmos technicians did
+            not effectively investigate, communicate, or collaborate to determine the cause of either
+            incident. Further, Atmos did not gather enough evidence to determine if gas migrated from
+            their piping and fueled the first two incidents.
+
+        •   Leak investigations and repairs. Atmos dedicated significant resources to its response
+            following the second incident, finding 13 leaks determined to present an existing or
+            probable future hazard. However, none of its employees questioned the integrity of the
+            system. As a result, Atmos did not take appropriate action to secure the safety of the area
+64964
+                                                 2
+
+
+       and its residents. This was attributed, in part, to inadequate procedures for performing leak
+       investigations in wet weather conditions.
+
+   •   Methane detection. Although Atmos added odorant to its gas distribution system in a
+       manner consistent with Pipeline and Hazardous Materials Safety Administration (PHMSA)
+       regulations, none of the residents at any of the affected homes smelled gas. Although
+       odorant can act as an early warning of a gas release to prevent an explosion and fire, it is
+       known to become depleted if it travels through soil.
+
+   •   Incident reporting. Incident reporting requirements mandated by the PHMSA rely on the
+       judgement of the operator to determine whether an incident resulted from a leak in their
+       system and do not specify the level of investigation necessary to make the determination.
+       While operators have an option to report events that may have been caused by their system,
+       Atmos relied on an incomplete investigation to support its position not to report the first
+       two incidents.
+
+        Accordingly, the NTSB makes the following safety recommendations to the GPTC.
+Additional information regarding these recommendations can be found in the noted sections of the
+report.
+
+   •   Develop additional guidance that identifies steps gas distribution operators can take to
+       safely respond to leaks, fires, explosions, and emergency calls, considering the limitations
+       due to wet weather conditions, that includes: (1) criteria for when to shut down or isolate
+       gas distribution systems, pressure test main and service lines, and begin evacuations;
+       (2) leak investigation methods that are reliable in wet weather, (3)require an alternate safe
+       response, such as an evacuation when reliable leak investigations are not possible due to
+       wet weather, and (4) leak investigations that assess all viable gas migration paths, including
+       granular backfill and crawlspaces. (P-21-13) (See section 2.4.)
+
+   •   Develop guidance that identifies steps that gas distribution operators can take to ensure that
+       their gas distribution integrity management program, at a minimum, appropriately
+       considers (1) threats that degrade a system over time, and (2) the increased risk that can
+       result from factors that simultaneously increase the likelihood and consequence of failure.
+       (P-21-14) (See section 2.7.)
+                                                3
+
+
+         The NTSB is vitally interested in these recommendations because they are designed to
+prevent accidents and save lives. We would appreciate a response within 90 days of the date of this
+letter, detailing the actions you have taken or intend to take to implement these recommendations.
+When replying, please refer to the safety recommendation(s) by number (Safety
+Recommendation(s) P-21-13 and -14). We encourage you to submit your response to
+ExecutiveSecretariat@ntsb.gov. If your reply, including attachments, exceeds 20 megabytes,
+please e-mail us at the same address for instructions. Please do not submit both an electronic copy
+and a hard copy of the same response.
+
+                                                            Sincerely,
+
+                                                            [Original Signed]
+
+                                                            Robert L. Sumwalt, III
+                                                            Chairman
+                                                                                 February 8, 2021
+
+Mr. Dominic Sims
+Chief Executive Officer
+International Code Council
+500 New Jersey Ave., NW, 6th Floor
+Washington, DC 20001
+
+The National Transportation Safety Board (NTSB) is an independent federal agency charged by
+Congress with investigating every civil aviation accident in the United States and significant
+accidents in other modes of transportation—railroad, highway, marine, and pipeline. We
+determine the probable cause of the accidents and issue safety recommendations aimed at
+preventing future accidents. In addition, we carry out special studies concerning transportation
+safety and coordinate the resources of the federal government and other organizations to provide
+assistance to victims and their family members affected by major transportation disasters.
+
+The attached letter from the NTSB Chairman provides information about the NTSB’s January
+12, 2021, report Atmos Energy Corporation Natural Gas-Fueled Explosion, Dallas, Texas,
+February 23, 2018, PAR-21/01. The details of this accident investigation and the resulting safety
+recommendation may be found in the attached report, which can also be accessed at
+http://www.ntsb.gov. For more information about NTSB and our recommendation process,
+please see the attached one-page summary.
+
+The NTSB is vitally interested in these recommendations because they are designed to prevent
+accidents and save lives. We would appreciate a response within 90 days of the date of this letter,
+detailing the actions you have taken or intend to take to implement these recommendations.
+When replying, please refer to the safety recommendation by number (for example, P-19-006).
+We encourage you to submit your response to ExecutiveSecretariat@ntsb.gov. If your reply
+exceeds 20 megabytes, including attachments, please e-mail us at the same address for
+instructions on how to send larger documents. Please do not submit both an electronic copy and a
+hard copy of the same response.
+
+All communications regarding safety recommendations will be stored by the NTSB and viewable
+by the public. Please do not send privileged or confidential communications in response to this
+recommendation. Responses marked as confidential or privileged (or similar designations) will
+be considered nonresponsive. If you have concerns about this protocol, please contact us at
+ExecutiveSecretariat@ntsb.gov.
+
+
+                        Executive Secretariat-LRM
+                        Office of the Managing Director
+                        National Transportation Safety Board
+                        490 L’Enfant Plaza SW
+                        Washington, DC 20594
+                        Email: ExecutiveSecretariat@ntsb.gov
+                                         National Transportation Safety Board
+                                                             Washington, DC 20594
+
+   Office of the Chairman
+
+                                                             February 8, 2021
+
+
+
+   Mr. Dominic Sims
+   Chief Executive Officer
+   International Code Council
+   500 New Jersey Ave., NW
+   6th Floor
+   Washington, DC 20001
+
+   Dear Mr. Sims:
+
+           The National Transportation Safety Board (NTSB) is an independent federal agency
+   charged by Congress with investigating every civil aviation accident in the United States and
+   significant accidents in other modes of transportation—railroad, highway, marine, and pipeline.
+   We determine the probable cause of the accidents and issue safety recommendations aimed at
+   preventing future accidents. In addition, we carry out special studies concerning transportation
+   safety and coordinate the resources of the federal government and other organizations to assist
+   victims and their family members affected by major transportation disasters.
+
+           We are providing the following information to urge the International Code Council (ICC)
+   to act on the safety recommendation in this letter because we believe your organization can help
+   reduce the risk of future accidents. For more information about the NTSB and our recommendation
+   process, please see the attached one-page summary.
+
+           This letter provides information about the National Transportation Safety Board’s (NTSB)
+   January 12, 2021, report Atmos Energy Corporation Natural Gas-Fueled Explosion, Dallas, Texas,
+   February 23, 2018, PAR-21/01. The details of this accident investigation and the resulting safety
+   recommendations may be found in the attached report, which can also be accessed at
+   http://www.ntsb.gov.
+
+   As a result of this investigation, we identified the following safety issues:
+
+        •   Incident investigation. Neither Dallas Fire-Rescue Department (DFR) nor Atmos Energy
+            Corporation (Atmos) identified the causes of the two incidents that occurred in the days
+            immediately preceding the explosion. DFR arson investigators and Atmos technicians did
+            not effectively investigate, communicate, or collaborate to determine the cause of either
+            incident. Further, Atmos did not gather enough evidence to determine if gas migrated from
+            their piping and fueled the first two incidents.
+
+        •   Leak investigations and repairs. Atmos dedicated significant resources to its response
+            following the second incident, finding 13 leaks determined to present an existing or
+            probable future hazard. However, none of its employees questioned the integrity of the
+            system. As a result, Atmos did not take appropriate action to secure the safety of the area
+64964
+                                                2
+
+
+       and its residents. This was attributed, in part, to inadequate procedures for performing leak
+       investigations in wet weather conditions.
+
+   •   Methane detection. Although Atmos added odorant to its gas distribution system in a
+       manner consistent with Pipeline and Hazardous Materials Safety Administration (PHMSA)
+       regulations, none of the residents at any of the affected homes smelled gas. Although
+       odorant can act as an early warning of a gas release to prevent an explosion and fire, it is
+       known to become depleted if it travels through soil.
+
+   •   Incident reporting. Incident reporting requirements mandated by the PHMSA rely on the
+       judgement of the operator to determine whether an incident resulted from a leak in their
+       system and do not specify the level of investigation necessary to make the determination.
+       While operators have an option to report events that may have been caused by their system,
+       Atmos relied on an incomplete investigation to support its position not to report the first
+       two incidents.
+
+        Accordingly, the NTSB reiterates the following safety recommendations to the ICC.
+Additional information regarding this recommendation can be found in the noted section of the
+report.
+
+   •   In coordination with the Gas Technology Institute and the National Fire Protection
+       Association, incorporate provisions in the International Fuel Gas Code that requires
+       methane detection systems for all types of residential occupancies with gas service. At a
+       minimum, the provisions should cover the installation, maintenance, placement of the
+       detectors, and testing requirements. (P-19-006) (See section 2.5.)
+
+        The NTSB is vitally interested in this recommendation because it is designed to prevent
+accidents and save lives. We would appreciate a response within 90 days of the date of this letter,
+detailing the actions you have taken or intend to take to implement this recommendation. When
+replying, please refer to the safety recommendation(s) by number (Safety Recommendation
+P-19-006). We encourage you to submit your response to ExecutiveSecretariat@ntsb.gov. If your
+reply, including attachments, exceeds 20 megabytes, please e-mail us at the same address for
+instructions. Please do not submit both an electronic copy and a hard copy of the same response.
+
+                                                             Sincerely,
+
+                                                             [Original Signed]
+
+                                                             Robert L. Sumwalt, III
+                                                             Chairman
+                                                                                 February 8, 2021
+
+Mr. James Pauley
+President and Chief Executive Officer
+National Fire Protection Association
+1 Batterymarch Park
+Quincy, MA 02169-7471
+
+The National Transportation Safety Board (NTSB) is an independent federal agency charged by
+Congress with investigating every civil aviation accident in the United States and significant
+accidents in other modes of transportation—railroad, highway, marine, and pipeline. We
+determine the probable cause of the accidents and issue safety recommendations aimed at
+preventing future accidents. In addition, we carry out special studies concerning transportation
+safety and coordinate the resources of the federal government and other organizations to provide
+assistance to victims and their family members affected by major transportation disasters.
+
+The attached letter from the NTSB Chairman provides information about the January 12, 2021,
+report Atmos Energy Corporation Natural Gas-Fueled Explosion, Dallas, Texas, February 23,
+2018, PAR-21/01. The details of this accident investigation and the resulting safety
+recommendation may be found in the attached report, which can also be accessed at
+http://www.ntsb.gov. For more information about NTSB and our recommendation process,
+please see the attached one-page summary.
+
+The NTSB is vitally interested in these recommendations because they are designed to prevent
+accidents and save lives. We would appreciate a response within 90 days of the date of this letter,
+detailing the actions you have taken or intend to take to implement these recommendations.
+When replying, please refer to the safety recommendation by number (for example, P-19-007).
+We encourage you to submit your response to ExecutiveSecretariat@ntsb.gov. If your reply
+exceeds 20 megabytes, including attachments, please e-mail us at the same address for
+instructions on how to send larger documents. Please do not submit both an electronic copy and a
+hard copy of the same response.
+
+All communications regarding safety recommendations will be stored by the NTSB and viewable
+by the public. Please do not send privileged or confidential communications in response to this
+recommendation. Responses marked as confidential or privileged (or similar designations) will
+be considered nonresponsive. If you have concerns about this protocol, please contact us at
+ExecutiveSecretariat@ntsb.gov.
+
+
+                        Executive Secretariat-LRM
+                        Office of the Managing Director
+                        National Transportation Safety Board
+                        490 L’Enfant Plaza SW
+                        Washington, DC 20594
+                        Email: ExecutiveSecretariat@ntsb.gov
+                                          National Transportation Safety Board
+                                                               Washington, DC 20594
+
+   Office of the Chairman
+
+                                                               February 8, 2021
+
+
+   Mr. James Pauley
+   President and Chief Executive Officer
+   National Fire Protection Association
+   1 Batterymarch Park
+   Quincy, MA 02169-7471
+
+   Dear Mr. Pauley:
+
+           The National Transportation Safety Board (NTSB) is an independent federal agency
+   charged by Congress with investigating every civil aviation accident in the United States and
+   significant accidents in other modes of transportation—railroad, highway, marine, and pipeline.
+   We determine the probable cause of the accidents and issue safety recommendations aimed at
+   preventing future accidents. In addition, we carry out special studies concerning transportation
+   safety and coordinate the resources of the federal government and other organizations to assist
+   victims and their family members affected by major transportation disasters.
+
+          We are providing the following information to urge the National Fire Protection
+   Association (NFPA) to act on the safety recommendation in this letter because we believe your
+   organization can help reduce the risk of future accidents. For more information about the NTSB
+   and our recommendation process, please see the attached one-page summary.
+
+           This letter provides information about the National Transportation Safety Board’s (NTSB)
+   January 12, 2021, report Atmos Energy Corporation Natural Gas-Fueled Explosion, Dallas, Texas,
+   February 23, 2018, PAR-21/01. The details of this accident investigation and the resulting safety
+   recommendations may be found in the attached report, which can also be accessed at
+   http://www.ntsb.gov.
+
+            As a result of this investigation, we identified the following safety issues:
+
+        •   Incident investigation. Neither Dallas Fire-Rescue Department (DFR) nor Atmos Energy
+            Corporation (Atmos) identified the causes of the two incidents that occurred in the days
+            immediately preceding the explosion. DFR arson investigators and Atmos technicians did
+            not effectively investigate, communicate, or collaborate to determine the cause of either
+            incident. Further, Atmos did not gather enough evidence to determine if gas migrated from
+            their piping and fueled the first two incidents.
+
+        •   Leak investigations and repairs. Atmos dedicated significant resources to its response
+            following the second incident, finding 13 leaks determined to present an existing or
+            probable future hazard. However, none of its employees questioned the integrity of the
+            system. As a result, Atmos did not take appropriate action to secure the safety of the area
+
+64964
+                                                2
+
+
+       and its residents. This was attributed, in part, to inadequate procedures for performing leak
+       investigations in wet weather conditions.
+
+   •   Methane detection. Although Atmos added odorant to its gas distribution system in a
+       manner consistent with Pipeline and Hazardous Materials Safety Administration (PHMSA)
+       regulations, none of the residents at any of the affected homes smelled gas. Although
+       odorant can act as an early warning of a gas release to prevent an explosion and fire, it is
+       known to become depleted if it travels through soil.
+
+   •   Incident reporting. Incident reporting requirements mandated by the PHMSA rely on the
+       judgement of the operator to determine whether an incident resulted from a leak in their
+       system and do not specify the level of investigation necessary to make the determination.
+       While operators have an option to report events that may have been caused by their system,
+       Atmos relied on an incomplete investigation to support its position not to report the first
+       two incidents.
+
+        Accordingly, the NTSB reiterates the following safety recommendations to the NFPA.
+Additional information regarding this recommendation can be found in the noted section of the
+report.
+
+   •   In coordination with the Gas Technology Institute and the International Code Council,
+       revise the National Fuel Gas Code, National Fire Protection Association 54 to require
+       methane detection systems for all types of residential occupancies with gas service. At a
+       minimum, the provisions should cover the installation, maintenance, placement of the
+       detectors, and testing requirements. (P-19-007) (See section 2.5.)
+
+        The NTSB is vitally interested in this recommendation because it is designed to prevent
+accidents and save lives. We would appreciate a response within 90 days of the date of this letter,
+detailing the actions you have taken or intend to take to implement this recommendation. When
+replying, please refer to the safety recommendation(s) by number (Safety Recommendation
+P-19-007). We encourage you to submit your response to ExecutiveSecretariat@ntsb.gov. If your
+reply, including attachments, exceeds 20 megabytes, please e-mail us at the same address for
+instructions. Please do not submit both an electronic copy and a hard copy of the same response.
+
+                                                             Sincerely,
+
+                                                             [Original Signed]
+
+                                                             Robert L. Sumwalt, III
+                                                             Chairman
+                                                                                 February 8, 2021
+
+Mr. David Carroll
+President and Chief Executive Officer
+Gas Technology Institute
+1700 S. Mount Prospect Rd.
+Des Plaines, IL 60018
+
+The National Transportation Safety Board (NTSB) is an independent federal agency charged by
+Congress with investigating every civil aviation accident in the United States and significant
+accidents in other modes of transportation—railroad, highway, marine, and pipeline. We
+determine the probable cause of the accidents and issue safety recommendations aimed at
+preventing future accidents. In addition, we carry out special studies concerning transportation
+safety and coordinate the resources of the federal government and other organizations to provide
+assistance to victims and their family members affected by major transportation disasters.
+
+The attached letter from the NTSB Chairman provides information about the NTSB’s January
+12, 2021, report Atmos Energy Corporation Natural Gas-Fueled Explosion, Dallas, Texas,
+February 23, 2018, PAR-21/01. The details of this accident investigation and the resulting safety
+recommendation may be found in the attached report, which can also be accessed at
+http://www.ntsb.gov. For more information about NTSB and our recommendation process,
+please see the attached one-page summary.
+
+The NTSB is vitally interested in these recommendations because they are designed to prevent
+accidents and save lives. We would appreciate a response within 90 days of the date of this letter,
+detailing the actions you have taken or intend to take to implement these recommendations.
+When replying, please refer to the safety recommendation by number (for example, P-19-008).
+We encourage you to submit your response to ExecutiveSecretariat@ntsb.gov. If your reply
+exceeds 20 megabytes, including attachments, please e-mail us at the same address for
+instructions on how to send larger documents. Please do not submit both an electronic copy and a
+hard copy of the same response.
+
+All communications regarding safety recommendations will be stored by the NTSB and viewable
+by the public. Please do not send privileged or confidential communications in response to this
+recommendation. Responses marked as confidential or privileged (or similar designations) will
+be considered nonresponsive. If you have concerns about this protocol, please contact us at
+ExecutiveSecretariat@ntsb.gov.
+
+
+                        Executive Secretariat-LRM
+                        Office of the Managing Director
+                        National Transportation Safety Board
+                        490 L’Enfant Plaza SW
+                        Washington, DC 20594
+                        Email: ExecutiveSecretariat@ntsb.gov
+                                          National Transportation Safety Board
+                                                               Washington, DC 20594
+
+   Office of the Chairman
+
+                                                               February 8, 2021
+
+
+   Mr. David Carroll
+   President and Chief Executive Officer
+   Gas Technology Institute
+   1700 S. Mount Prospect Rd.
+   Des Plaines, IL 60018
+
+   Dear Mr. Carroll:
+
+           The National Transportation Safety Board (NTSB) is an independent federal agency
+   charged by Congress with investigating every civil aviation accident in the United States and
+   significant accidents in other modes of transportation—railroad, highway, marine, and pipeline.
+   We determine the probable cause of the accidents and issue safety recommendations aimed at
+   preventing future accidents. In addition, we carry out special studies concerning transportation
+   safety and coordinate the resources of the federal government and other organizations to assist
+   victims and their family members affected by major transportation disasters.
+
+           We are providing the following information to urge the Gas Technology Institute (GTI) to
+   act on the safety recommendation in this letter because we believe your organization can help
+   reduce the risk of future accidents. For more information about the NTSB and our recommendation
+   process, please see the attached one-page summary.
+
+           This letter provides information about the National Transportation Safety Board’s (NTSB)
+   January 12, 2021, report Atmos Energy Corporation Natural Gas-Fueled Explosion, Dallas, Texas,
+   February 23, 2018, PAR-21/01. The details of this accident investigation and the resulting safety
+   recommendations may be found in the attached report, which can also be accessed at
+   http://www.ntsb.gov.
+
+            As a result of this investigation, we identified the following safety issues:
+
+        •   Incident investigation. Neither Dallas Fire-Rescue Department (DFR) nor Atmos Energy
+            Corporation (Atmos) identified the causes of the two incidents that occurred in the days
+            immediately preceding the explosion. DFR arson investigators and Atmos technicians did
+            not effectively investigate, communicate, or collaborate to determine the cause of either
+            incident. Further, Atmos did not gather enough evidence to determine if gas migrated from
+            their piping and fueled the first two incidents.
+
+        •   Leak investigations and repairs. Atmos dedicated significant resources to its response
+            following the second incident, finding 13 leaks determined to present an existing or
+            probable future hazard. However, none of its employees questioned the integrity of the
+            system. As a result, Atmos did not take appropriate action to secure the safety of the area
+            and its residents. This was attributed, in part, to inadequate procedures for performing leak
+            investigations in wet weather conditions.
+64964
+                                                2
+
+
+   •   Methane detection. Although Atmos added odorant to its gas distribution system in a
+       manner consistent with Pipeline and Hazardous Materials Safety Administration (PHMSA)
+       regulations, none of the residents at any of the affected homes smelled gas. Although
+       odorant can act as an early warning of a gas release to prevent an explosion and fire, it is
+       known to become depleted if it travels through soil.
+
+   •   Incident reporting. Incident reporting requirements mandated by the PHMSA rely on the
+       judgement of the operator to determine whether an incident resulted from a leak in their
+       system and do not specify the level of investigation necessary to make the determination.
+       While operators have an option to report events that may have been caused by their system,
+       Atmos relied on an incomplete investigation to support its position not to report the first
+       two incidents.
+
+        Accordingly, the NTSB reiterates the following safety recommendations to the GTI.
+Additional information regarding this recommendation can be found in the noted section of the
+report.
+
+   •   In coordination with the National Fire Protection Association and the International Code
+       Council, work to develop standards for methane detection systems for all types of
+       residential occupancies in both the International Fuel Gas Code and the National Fuel Gas
+       Code, National Fire Protection Association 54. At a minimum, the provisions should cover
+       the installation, maintenance, placement of the detectors, and testing requirements.
+       (P-19-008) (See section 2.5.)
+
+        The NTSB is vitally interested in this recommendation because it is designed to prevent
+accidents and save lives. We would appreciate a response within 90 days of the date of this letter,
+detailing the actions you have taken or intend to take to implement this recommendation. When
+replying, please refer to the safety recommendation(s) by number (Safety Recommendation
+P-19-008). We encourage you to submit your response to ExecutiveSecretariat@ntsb.gov. If your
+reply, including attachments, exceeds 20 megabytes, please e-mail us at the same address for
+instructions. Please do not submit both an electronic copy and a hard copy of the same response.
+
+                                                            Sincerely,
+
+                                                            [Original Signed]
+
+                                                            Robert L. Sumwalt, III
+                                                            Chairman
+Safety Recommendation Reiteration List
+
+ SR     Reiteration Report Report        Accident      Accident   Accident Accident
+ Number Number      Number Date          Description   City       State    Date
+ P-21-  1           PIR-25- 4/8/2025     Natural       West       PA       3/24/2023
+ 002                01                   Gas-Fueled    Reading
+                                         Explosion
+                                         and Fire
+ P-21-    2            PIR-26- 3/26/2026 Atmos         Jackson    MS       1/24/2024
+ 002                   01                Energy                            and
+                                         Corporation                       1/27/2024
+                                         Natural
+                                         Gas-Fueled
+                                         Home
+                                         Explosions
+                                         and Fires
+

@@ -1,0 +1,141 @@
+<html>
+<head>
+<title>Federal Register, Volume 78 Issue 20 (Wednesday, January 30, 2013)</title>
+</head>
+<body><pre>
+[Federal Register Volume 78, Number 20 (Wednesday, January 30, 2013)]
+[Notices]
+[Pages 6402-6403]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2013-01958]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Pipeline and Hazardous Materials Safety Administration
+
+[Docket No. PHMSA-2013-0015]
+
+
+Pipeline Safety: Accident and Incident Notification Time Limit
+
+AGENCY: Pipeline and Hazardous Materials Safety Administration (PHMSA); 
+DOT.
+
+ACTION: Notice; Issuance of Advisory Bulletin.
+
+-----------------------------------------------------------------------
+
+SUMMARY: Owners and operators of gas and hazardous liquid pipeline 
+systems and liquefied natural gas (LNG) facilities are already required 
+to provide telephonic reports of pipeline incidents and accidents to 
+the National Response Center (NRC) promptly, accurately, and fully 
+communicate the estimated extent of the damages. PHMSA is issuing this 
+advisory bulletin to notify the owners and operators that, as required 
+by the Pipeline Safety, Regulatory Certainty, and Job Creation Act of 
+2011, the agency will issue a proposed rule to revise telephonic 
+reporting regulations to establish specific time limits for telephonic 
+or electronic notice of accidents and incidents involving pipeline 
+facilities to the NRC.
+
+FOR FURTHER INFORMATION CONTACT: Cameron Satterthwaite by phone at 202-
+366-1319 or by email at <a href="/cdn-cgi/l/email-protection#7310121e16011c1d5d001207071601071b04121a071633171c075d141c05"><span class="__cf_email__" data-cfemail="b2d1d3dfd7c0dddc9cc1d3c6c6d7c0c6dac5d3dbc6d7f2d6ddc69cd5ddc4">[email&#160;protected]</span></a>. Information 
+about PHMSA may be found at <a href="http://phmsa.dot.gov">http://phmsa.dot.gov</a>.
+
+SUPPLEMENTARY INFORMATION: 
+
+Background
+
+    On January 3, 2012, President Obama signed into law the Pipeline 
+Safety, Regulatory Certainty, and Job Creation Act of 2011 (Pub. L. 
+112-90). Section 9 of the Act requires PHMSA to require a specific time 
+limit for telephonic or electronic reporting of pipeline accidents and 
+incidents. Specifically, Section 9 of the Act states:
+    SEC. 9. ACCIDENT AND INCIDENT NOTIFICATION.
+    (a) REVISION OF REGULATIONS.--Not later than 18 months after the 
+date of enactment of this Act, the Secretary of Transportation shall 
+revise regulations issued under sections 191.5 and 195.52 of title 49, 
+Code of Federal Regulations, to establish specific time limits for 
+telephonic or electronic notice of accidents and incidents involving 
+pipeline facilities to the Secretary and the National Response Center.
+    (b) MINIMUM REQUIREMENTS.--In revising the regulations, the 
+Secretary, at a minimum, shall--
+    (1) Establish time limits for telephonic or electronic notification 
+of an accident or incident to require such notification at the earliest 
+practicable moment following confirmed discovery of an accident or 
+incident and not later than 1 hour following the time of such confirmed 
+discovery;
+    (2) Review procedures for owners and operators of pipeline 
+facilities and the National Response Center to provide thorough and 
+coordinated notification to all relevant State and local emergency 
+response officials, including 911 emergency call centers, for the 
+jurisdictions in which those pipeline facilities are located in the 
+event of an accident or incident, and revise such procedures as 
+appropriate; and
+    (3) Require such owners and operators to revise their initial 
+telephonic or electronic notice to the Secretary and the National 
+Response Center with an estimate of the amount of the product released, 
+an estimate of the number of fatalities and injuries, if any, and any 
+other information determined appropriate by the Secretary within 48 
+hours of the accident or incident, to the extent practicable.
+    (c) UPDATING OF REPORTS.--After receiving revisions described in 
+subsection (b)(3), the National Response Center shall update the 
+initial report on an accident or incident instead of generating a new 
+report.
+    Currently, PHMSA requires pipeline owners and operators to notify 
+the NRC by telephone or electronically at the earliest practicable 
+moment following discovery (Sec. Sec.  191.5 and 195.52). In a 
+September 6, 2002, (67 FR 57060) advisory bulletin, PHMSA advised 
+owners and operators of gas and hazardous liquids pipeline systems and 
+LNG facilities that, ``at the earliest practicable opportunity,'' 
+usually means one-to-two hours after discovery of the incident.
+
+Advisory Bulletin (ADB-2013-01)
+
+    To: Owners and Operators of Gas and Hazardous Liquids Pipeline 
+Systems and LNG Facilities
+    Subject: Telephonic Notification Time Limit to NRC.
+    Purpose: To advise owners and operators of gas and hazardous 
+liquids pipeline systems and LNG facilities that they should contact 
+the NRC within one hour of discovery of a pipeline incident and should 
+also file additional telephonic reports if there are significant 
+changes in the number of fatalities or injuries, product release 
+estimates or the extent of damages.
+    Advisory: Owners and operators of gas and hazardous liquid 
+pipelines and LNG facilities are reminded that the pipeline safety 
+regulations already require operators to make a telephonic report of an 
+incident to the NRC in Washington, DC at the earliest practicable 
+opportunity (usually one-to-two hours after discovering the incident). 
+However, under Section 9(b)(1) of the Pipeline Safety, Regulatory 
+Certainty, and Job Creation Act of 2011, PHMSA is required to issue 
+regulations requiring owners and operators to notify the NRC within one 
+hour of discovery of a pipeline accident or incident. The 2011 Act 
+requires PHMSA to establish a time limit for telephonic or electronic 
+notification of an accident or incident to require such notification at 
+the earliest practicable moment following confirmed discovery of an 
+accident or incident that is not later than one hour following the time 
+of such confirmed discovery. PHMSA will issue a proposed rule at a 
+later date, but encourages owners and operators of the gas and 
+hazardous liquids pipeline systems and LNG facilities, as a practice, 
+to report such accidents and incidents within one hour of confirmed 
+discovery. The information required to be reported includes the name of 
+the operator, the name and telephone number of the person making the 
+report,
+
+[[Page 6403]]
+
+the location of the incident, the number of fatalities and injuries, 
+and all other significant facts that are relevant to the cause of the 
+incident or extent of the damages.
+
+    Issued in Washington, DC, on January 25, 2013.
+Alan K. Mayberry,
+Deputy Associate Administrator Field Operations.
+[FR Doc. 2013-01958 Filed 1-29-13; 8:45 am]
+BILLING CODE 4910-60-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

@@ -1,0 +1,352 @@
+<html>
+<head>
+<title>Federal Register, Volume 91 Issue 79 (Friday, April 24, 2026)</title>
+</head>
+<body><pre>
+[Federal Register Volume 91, Number 79 (Friday, April 24, 2026)]
+[Rules and Regulations]
+[Pages 21979-21981]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2026-08057]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TRANSPORTATION
+
+Pipeline and Hazardous Materials Safety Administration
+
+49 CFR Part 191
+
+[Docket No. PHMSA-2026-1540; Amdt. No. 191-38]
+RIN 2137-AG44
+
+
+Pipeline Safety: Clarification of Incident Reporting Requirements 
+for Gas Pipeline Facilities
+
+AGENCY: Pipeline and Hazardous Materials Safety Administration (PHMSA), 
+Department of Transportation (DOT).
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: This final rule makes certain non-substantive changes to the 
+incident reporting requirements for gas pipeline facilities.
+
+DATES: This rule is effective on August 3, 2026.
+
+FOR FURTHER INFORMATION CONTACT: Angela Hill, Transportation 
+Specialist, 1200 New Jersey Avenue SE, Washington, DC 20590, 202-680-
+2034, <a href="/cdn-cgi/l/email-protection#a8c9c6cfcdc4c986c0c1c4c4e8ccc7dc86cfc7de"><span class="__cf_email__" data-cfemail="45242b222029246b2d2c292905212a316b222a33">[email&#160;protected]</span></a>.
+
+SUPPLEMENTARY INFORMATION: In this final rule, PHMSA is making certain 
+non-substantive changes to the incident reporting requirements for gas 
+pipeline facilities in the Federal Pipeline Safety Regulations (49 CFR 
+parts 190-199). Specifically, Sec.  191.5 requires operators of gas 
+pipeline facilities to provide immediate notice of certain incidents to 
+the National Response Center (NRC) either by telephone or 
+electronically. The NRC no longer allows operators to provide 
+electronic incident notifications. PHMSA is therefore revising Sec.  
+191.5(b) to remove all references to electronic NRC submissions. 
+Operators must provide notices of incidents to the NRC by telephone to 
+800-424-8802 or, in Washington, DC, to 202-267-2675. This correction 
+will remove unnecessary delays in the process of operators reporting 
+incidents to the NRC.
+
+Regulatory Analyses and Notices
+
+A. Legal Authority
+
+    This final rule is published under the authority of the Secretary 
+of Transportation as set forth in the Federal Pipeline Safety Laws (49 
+U.S.C. 60101 et seq.) and delegated to the PHMSA Administrator pursuant 
+to 49 CFR 1.97. PHMSA has good cause under 5 U.S.C. 553(b)(B) to issue 
+this final rule without prior notice and comment. The NRC no longer 
+accepts electronic notifications, and PHMSA is simply revising the 
+incident reporting requirements in Sec.  191.5(b) to account for that 
+fact. PHMSA finds that notice and comment is unnecessary because the 
+electronic notification provision in Sec.  191.5(b) is obsolete and 
+serves no useful purpose.
+
+B. Executive Order 12866
+
+    E.O. 12866, Regulatory Planning and Review, as implemented by DOT 
+Order 2100.6B (``Policies and Procedures for Rulemaking'') and DOT 
+Order 2100.7 (``Ensuring Reliance upon Sound Economic Analysis in 
+Department of Transportation Policies, Programs, and Activities''), 
+requires agencies to regulate in the ``most cost-effective manner,'' to 
+make a ``reasoned determination that the benefits of the intended 
+regulation justify its costs,'' and to develop regulations that 
+``impose the least burden on society.'' In arriving at those 
+conclusions, E.O. 12866 requires that agencies should consider ``both 
+quantifiable measures . . . and qualitative measures of costs and 
+benefits that are difficult to quantify'' and ``maximize net benefits . 
+. . unless a statute requires another regulatory approach.'' E.O. 12866 
+also requires that ``agencies should assess all costs and benefits of 
+available regulatory alternatives, including the alternative of not 
+regulating.'' DOT Order 2100.6B directs that PHMSA and other Operating 
+Administrations must generally choose
+
+[[Page 21980]]
+
+the ``least costly regulatory alternative that achieves the relevant 
+objectives'' unless required by law or compelling safety need. DOT 
+Order 2100.6B also specifies that regulations should generally ``not be 
+issued unless their benefits are expected to exceed their costs'' 
+except where required by law or compelling safety need. DOT Order 
+2100.7 requires that ``all rulemaking activities shall be based on 
+sound economic principles and analysis supported by rigorous cost-
+benefit requirement.''
+    E.O. 12866 and DOT Order 2100.6B also require that PHMSA submit 
+``significant regulatory actions'' to the Office of Information and 
+Regulatory Affairs (OIRA) within the Executive Office of the 
+President's Office of Management and Budget (OMB) for review. This 
+final rule is a not significant regulatory action pursuant to E.O. 
+12866; OMB also has not designated this rule as a ``major rule'' as 
+defined by the Congressional Review Act (5 U.S.C. 801 et seq.).
+    PHMSA has complied with the procedural and analytical requirements 
+in E.O. 12866 as implemented by DOT Order 2100.6B and DOT Order 2100.7. 
+This final rule does not impose new burdens. The changes made are not 
+substantive in nature and do not impose new requirements in the Federal 
+Pipeline Safety Regulations. Similarly, the final rule does not have 
+any adverse effects on safety.
+
+C. Executive Orders 14192 and 14219
+
+    This final rule is considered a deregulatory action pursuant to 
+E.O. 14192, Unleashing Prosperity Through Deregulation. PHMSA estimates 
+that the total costs of the rule on the regulated community will be de 
+minimis. The non-substantive changes of this rulemaking do not impose 
+any new requirements on pipeline operators and should improve the 
+clarity and compliance with the Federal Pipeline Safety Regulations. 
+Nor does this rule implicate any of the factors identified in section 
+2(a) of E.O. 14219, Ensuring Lawful Governance and Implementing the 
+President's ``Department of Government Efficiency'' Deregulatory 
+Initiative, indicative that a regulation is ``unlawful . . . [or] that 
+undermine[s] the national interest.''
+
+D. Energy-Related Executive Orders 13211, 14154, and 14156
+
+    The President has declared in E.O. 14156, Declaring a National 
+Energy Emergency, a National emergency to address America's inadequate 
+energy development production, transportation, refining, and generation 
+capacity. Similarly, E.O. 14154, Unleashing American Energy, asserts a 
+Federal policy to unleash American energy by ensuing access to abundant 
+supplies of reliable, affordable energy from (inter alia) the removal 
+of ``undue burden[s]'' on the identification, development, or use of 
+domestic energy resources such as PHMSA-jurisdictional gases and 
+hazardous liquids. PHMSA finds this final rule is consistent with each 
+of E.O. 14156 and E.O. 14154. The final rule will clarify how to make 
+immediate notice of incidents to the NRC by removing erroneous and 
+obsolete references to electronic submissions. The provisions of this 
+final rule are not substantive and will not impose new requirements on 
+pipeline operators; they are intended to promote the ease of operators 
+complying with the existing regulations.
+    This final rule is not a ``significant energy action'' under E.O. 
+13211, Actions Concerning Regulations That Significantly Affect Energy 
+Supply, Distribution, or Use, which requires Federal agencies to 
+prepare a Statement of Energy Effects for any ``significant energy 
+action.'' Because this final rule is not a significant action under 
+E.O. 12866, it will not have a significant adverse effect on supply, 
+distribution, or energy use.
+
+E. Executive Order 13132: Federalism
+
+    PHMSA analyzed this final rule in accordance with the principles 
+and criteria contained in E.O. 13132, Federalism, and the Presidential 
+Memorandum ``Preemption'' published in the Federal Register on May 22, 
+2009. E.O. 13132 requires agencies to assure meaningful and timely 
+input by State and local officials in the development of regulatory 
+policies that may have ``substantial direct effects on the States, on 
+the relationship between the National Government and the States, or on 
+the distribution of power and responsibilities among the various levels 
+of government.''
+    While the final rule may operate to preempt some State 
+requirements, it would not impose any regulation that has substantial 
+direct effects on the States, the relationship between the National 
+Government and the States, or the distribution of power and 
+responsibilities among the various levels of government. Section 
+60104(c) of the Federal Pipeline Safety Laws prohibits certain State 
+safety regulation of interstate pipelines. Under the Federal Pipeline 
+Safety Laws, States that have submitted a current certification under 
+section 60105(a) can augment Federal pipeline safety requirements for 
+intrastate pipelines regulated by PHMSA but may not approve safety 
+requirements less stringent than those required by Federal law. A State 
+may also regulate an intrastate pipeline facility that PHMSA does not 
+regulate. The preemptive effect of the regulatory amendments in this 
+final rule is limited to the minimum level necessary to achieve the 
+objectives of the Federal Pipeline Safety Laws. Therefore, the 
+consultation and funding requirements of E.O. 13132 do not apply.
+
+F. Regulatory Flexibility Act
+
+    The Regulatory Flexibility Act (RFA, 5 U.S.C. 601 et seq.) requires 
+Federal agencies to conduct a Final Regulatory Flexibility Analysis 
+(FRFA) for a final rule subject to notice-and-comment rulemaking, 
+unless the agency certifies that the rule will not have a significant 
+economic impact on a substantial number of small entities. The RFA 
+applies only to rules for which an agency is required to first publish 
+a proposed rule (see 5 U.S.C. 603(a) and 604(a)). PHMSA is not required 
+to publish a notice of proposed rulemaking for this final rule, so the 
+RFA does not apply. However, PHMSA expects this final rule to reduce 
+burdens and provide regulatory certainty for operators by ensuring that 
+PHMSA regulations reflect existing practice that electronic incident 
+notifications are not accepted by the NRC. Further, the regulatory 
+amendments introduced here do not impose additional burdens on any 
+operator.
+
+G. Unfunded Mandates Reform Act of 1995
+
+    The Unfunded Mandates Reform Act (UMRA, 2 U.S.C. 1501 et seq.) 
+requires agencies to assess the effects of Federal regulatory actions 
+on State, local, and Tribal governments, and the private sector. For 
+any proposed or final rule that includes a Federal mandate that may 
+result in the expenditure by State, local, and Tribal governments, in 
+the aggregate of $100 million or more in 1996 dollars ($203 million in 
+2024) in any given year, the agency must prepare, amongst other things, 
+a written statement that qualitatively and quantitatively assesses the 
+costs and benefits of the Federal mandate.
+    This final rule does not impose unfunded mandates under UMRA 
+because it does not result in costs of $100 million or more (in 1996 
+dollars) per year for either State, local, or Tribal governments, or to 
+the private sector.
+
+H. National Environmental Policy Act
+
+    PHMSA has analyzed this rule pursuant to the National Environmental 
+Policy Act (NEPA, 42 U.S.C. 4321 et
+
+[[Page 21981]]
+
+seq.) and has determined it is categorically excluded under 23 CFR 
+771.117(c)(20), which applies to the promulgation of rules, 
+regulations, and directives. Under section 9 of DOT Order 5610.1D 
+(``DOT's Procedures for Considering Environmental Impacts''), PHMSA may 
+apply a categorical exclusion established in another Operating 
+Administration's procedures. PHMSA followed the requirements outlined 
+in DOT Order 5610.1D to apply a categorical exclusion issued by the 
+Federal Highway Administration (FHWA) to this deregulatory action. 
+PHMSA does not anticipate any adverse environmental impacts from this 
+rule, and PHMSA has determined no unusual circumstances are present 
+under 23 CFR 771.117(b). PHMSA's Categorical Exclusion Determination 
+memo for this action is available on PHMSA's website.\1\
+---------------------------------------------------------------------------
+
+    \1\ PHMSA, Implementing Procedures, <a href="https://www.phmsa.dot.gov/planning-and-analytics/environmental-analysis-and-compliance/implementing-procedures">https://www.phmsa.dot.gov/planning-and-analytics/environmental-analysis-and-compliance/implementing-procedures</a>.
+---------------------------------------------------------------------------
+
+I. Executive Order 13175
+
+    PHMSA analyzed this final rule according to the principles and 
+criteria in E.O. 13175, Consultation and Coordination with Indian 
+Tribal Governments, and DOT Order 5301.1A (``Department of 
+Transportation Tribal Consultation Policies and Procedures''). E.O. 
+13175 requires agencies to assure meaningful and timely input from 
+Tribal government representatives in the development of rules that 
+significantly or uniquely affect Tribal communities by imposing 
+``substantial direct compliance costs'' or ``substantial direct 
+effects'' on such communities or the relationship or distribution of 
+power between the Federal Government and Tribes.
+    PHMSA assessed the impact of the final rule and determined that it 
+will not significantly or uniquely affect Tribal communities or Indian 
+Tribal governments. The rulemaking's regulatory amendments have a 
+broad, national scope; therefore, this final rule will not 
+significantly or uniquely affect Tribal communities, much less impose 
+substantial compliance costs on Native American Tribal governments or 
+mandate Tribal action. For these reasons, PHMSA has concluded that the 
+funding and consultation requirements of E.O. 13175 and DOT Order 
+5301.1A do not apply.
+
+J. Paperwork Reduction Act
+
+    The Paperwork Reduction Act (44 U.S.C. 3501 et seq.) and its 
+implementing regulations at 5 CFR 1320.8(d) requires that PHMSA provide 
+interested members of the public and affected agencies with an 
+opportunity to comment on information collection and recordkeeping 
+requests. This rulemaking will amend the instructions for notifying the 
+NRC in the event of certain incidents. Accordingly, PHMSA intends to 
+request a revision to the information collection under OMB Control 
+Number 2137-0635.
+
+K. Executive Order 13609 and International Trade Analysis
+
+    E.O. 13609, Promoting International Regulatory Cooperation, 
+requires agencies consider whether the impacts associated with 
+significant variations between domestic and international regulatory 
+approaches are unnecessary or may impair the ability of American 
+business to export and compete internationally. In meeting shared 
+challenges involving health, safety, labor, security, environmental, 
+and other issues, international regulatory cooperation can identify 
+approaches that are at least as protective as those that are or would 
+be adopted in the absence of such cooperation. International regulatory 
+cooperation can also reduce, eliminate, or prevent unnecessary 
+differences in regulatory requirements.
+    Similarly, the Trade Agreements Act of 1979 (Pub. L. 96-39), as 
+amended by the Uruguay Round Agreements Act (Pub. L. 103-465), 
+prohibits Federal agencies from establishing any standards or engaging 
+in related activities that create unnecessary obstacles to the foreign 
+commerce of the United States. For purposes of these requirements, 
+Federal agencies may participate in the establishment of international 
+standards, so long as the standards have a legitimate domestic 
+objective, such as providing for safety, and do not operate to exclude 
+imports that meet this objective. The statute also requires 
+consideration of international standards and, where appropriate, that 
+they be the basis for U.S. standards.
+    PHMSA engages with international standards setting bodies to 
+protect the safety of the American public. PHMSA has assessed the 
+effects of the final rule and has determined that its regulatory 
+amendments will not cause unnecessary obstacles to foreign trade.
+
+L. Cybersecurity and Executive Order 14028
+
+    E.O. 14028, Improving the Nation's Cybersecurity, directs the 
+Federal Government to improve its efforts to identify, deter, and 
+respond to ``persistent and increasingly sophisticated malicious cyber 
+campaigns.'' PHMSA has considered the effects of the final rule and has 
+determined that its regulatory amendments will not materially affect 
+the cybersecurity risk profile for pipeline facilities.
+
+List of Subjects in 49 CFR Part 191
+
+    Natural gas, Pipeline safety.
+
+    In consideration of the foregoing, PHMSA amends 49 CFR part 191 as 
+follows:
+
+PART 191--TRANSPORTATION OF NATURAL AND OTHER GAS BY PIPELINE; 
+ANNUAL, INCIDENT, AND OTHER REPORTING
+
+0
+1. The authority citation for 49 CFR part 191 continues to read as 
+follows:
+
+    Authority:  30 U.S.C. 185(w)(3), 49 U.S.C. 5121, 60101 et seq., 
+and 49 CFR 1.97.
+
+
+0
+2. In Sec.  191.5, revise the introductory text of paragraph (b) to 
+read as follows:
+
+
+Sec.  191.5   Immediate notice of certain incidents.
+
+* * * * *
+    (b) Each notice required by paragraph (a) of this section must be 
+made to the National Response Center by telephone to 800-424-8802 (in 
+Washington, DC, 202-267-2675) and must include the following 
+information:
+* * * * *
+
+    Issued in Washington, DC, on April 22, 2026, under the authority 
+delegated in 49 CFR 1.97.
+Paul J. Roberti,
+Administrator.
+[FR Doc. 2026-08057 Filed 4-23-26; 8:45 am]
+BILLING CODE 4910-60-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
