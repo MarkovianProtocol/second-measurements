@@ -1,11 +1,12 @@
 {
-  "leaf_index": 11329,
-  "tree_size": 11330,
-  "leaf": "public-note:v1 sha256:37fa372de38ffc4609fc1aee737b0f71fe8dac8e748afc2a9e58dd97c69a4d6f 2026-10-19T03:29:08Z",
-  "inclusion_proof": "https://log.markovianprotocol.com/inclusion?leaf=11329&size=11330",
-  "leaf_bytes": "https://log.markovianprotocol.com/leaf/11329",
+  "leaf_index": 12728,
+  "tree_size": 12729,
+  "leaf": "public-note:v1 sha256:feaef63dba3180a2955a6b10a5c2c7ade93429c29112eda9f21e58cb1b2fb644 2026-10-26T13:28:37Z",
+  "inclusion_proof": "https://log.markovianprotocol.com/inclusion?leaf=12728&size=12729",
+  "leaf_bytes": "https://log.markovianprotocol.com/leaf/12728",
   "witnessed_checkpoint": "https://log.markovianprotocol.com/checkpoint",
-  "receipt_page": "https://markovianprotocol.com/r/11329",
-  "scitt_receipt": "https://log.markovianprotocol.com/receipt/scitt/11329",
-  "note": "your leaf is in the tree now; it is covered by witness cosignatures and the Bitcoin anchor once /checkpoint reports a size greater than 11329 (next witness round, within the hour). The log stores only this hash -- keep your file to prove what it was."
+  "receipt_page": "https://markovianprotocol.com/r/12728",
+  "scitt_receipt": "https://log.markovianprotocol.com/receipt/scitt/12728",
+  "note": "this hash was already in the log, so nothing new was appended: this is the receipt for the first leaf that carries it, with that leaf's timestamp. It is covered by witness cosignatures and the Bitcoin anchor once /checkpoint reports a size greater than 12728. The log stores only this hash -- keep your file to prove what it was.",
+  "duplicate": true
 }
