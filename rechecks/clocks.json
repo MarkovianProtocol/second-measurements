@@ -1,202 +1,269 @@
 {
- "note": "One row per party we asked, with the date the note went and the day its 30-day clock ends. Rendered into index.html by rechecks/clocks.py on Neo after every recheck; the Mac copy is rendered before each deploy. Dates are UTC. 'reply' is the date the party answered; 'closed' is the paper's ending if it has one.",
- "clock_days": 30,
- "rows": [
-  {
-   "paper": "SM-019",
-   "page": "sm-019.html",
-   "asked": "California, Texas and Michigan education agencies, Dept. of Education, GSA, GAO",
-   "sent": "2026-10-13",
-   "reply": null,
-   "closed": null,
-   "pending": null
-  },
-  {
-   "paper": "SM-001",
-   "page": "sm-001.html",
-   "asked": "Google, Pixel Binary Transparency",
-   "sent": "2026-09-15",
-   "reply": "2026-09-22",
-   "closed": "fixed in 7 days; daily recheck at 0 missing"
-  },
-  {
-   "paper": "SM-002",
-   "page": "sm-002.html",
-   "asked": "the AIDev authors",
-   "sent": "2026-09-30",
-   "reply": "2026-10-16",
-   "closed": "fixed in AIDev v5, released 21 Oct",
-   "partial_reply": "2026-10-16 Hao Li"
-  },
-  {
-   "paper": "SM-003",
-   "page": "sm-003.html",
-   "asked": "the authors",
-   "sent": "2026-09-30",
-   "reply": null,
-   "closed": null,
-   "partial_reply": "2026-10-22 Artur Zięba-Kozarzewski"
-  },
-  {
-   "paper": "SM-004",
-   "page": "sm-004.html",
-   "asked": "whisper.online",
-   "sent": "2026-09-18",
-   "reply": "2026-09-18",
-   "closed": "fixed in 4 hours"
-  },
-  {
-   "paper": "SM-005",
-   "page": "sm-005.html",
-   "asked": "Meta",
-   "sent": "2026-10-01",
-   "reply": null,
-   "closed": null
-  },
-  {
-   "paper": "SM-006",
-   "page": "sm-006.html",
-   "asked": "the authors",
-   "sent": "2026-10-01",
-   "reply": null,
-   "closed": null
-  },
-  {
-   "paper": "SM-007",
-   "page": "sm-007.html",
-   "asked": "Docker",
-   "sent": "2026-10-02",
-   "reply": null,
-   "closed": null
-  },
-  {
-   "paper": "SM-008",
-   "page": "sm-008.html",
-   "asked": "CISA and the kernel CVE team",
-   "sent": "2026-10-02",
-   "reply": null,
-   "closed": null
-  },
-  {
-   "paper": "SM-009",
-   "page": "sm-009.html",
-   "asked": "Mozilla, CRLite",
-   "sent": "2026-10-02",
-   "reply": "2026-10-05",
-   "closed": "answered in 3 days; the 17 October full filter shipped on the date given and cleared the gap (0 of 401 good on 18 October)"
-  },
-  {
-   "paper": "SM-010",
-   "page": "sm-010.html",
-   "asked": "Hugging Face",
-   "sent": "2026-10-02",
-   "reply": null,
-   "closed": null,
-   "partial_reply": "2026-10-06 docs fixed by Hugging Face"
-  },
-  {
-   "paper": "SM-011",
-   "page": "sm-011.html",
-   "asked": "Mozilla, CRLite",
-   "sent": "2026-10-02",
-   "reply": "2026-10-05",
-   "closed": "answered in 3 days"
-  },
-  {
-   "paper": "SM-012",
-   "page": "sm-012.html",
-   "asked": "the CCADB steering committee and Microsoft's root program",
-   "sent": "2026-10-03",
-   "reply": null,
-   "closed": null,
-   "partial_reply": "2026-10-21 CCADB triaged our Bugzilla reports; Thailand answered 20 Oct"
-  },
-  {
-   "paper": "SM-015",
-   "page": "sm-015.html",
-   "asked": "Apple's and Chrome's CT programs",
-   "sent": "2026-10-03",
-   "reply": null,
-   "closed": null,
-   "partial_reply": "2026-10-15 Apple fixed its list"
-  },
-  {
-   "paper": "SM-014",
-   "page": "sm-014.html",
-   "asked": "NIC.br (registro.br) and the RIPE NCC RPKI team",
-   "sent": "2026-10-12",
-   "reply": null,
-   "closed": null,
-   "pending": null,
-   "partial_reply": "2026-10-14 RIPE NCC"
-  },
-  {
-   "paper": "SM-016",
-   "page": "sm-016.html",
-   "asked": "EPA's TRI Program",
-   "sent": "2026-10-04",
-   "reply": null,
-   "closed": null
-  },
-  {
-   "paper": "SM-018",
-   "page": "sm-018.html",
-   "asked": "ZDI, Dell, Drupal and Arista",
-   "sent": "2026-10-12",
-   "reply": null,
-   "closed": null,
-   "pending": null
-  },
-  {
-   "paper": "SM-018",
-   "page": "sm-018.html",
-   "asked": "the CVE Program Secretariat (support form, CAN-2026-2039953)",
-   "sent": "2026-10-15",
-   "reply": null,
-   "closed": null,
-   "pending": null
-  },
-  {
-   "paper": "SM-017",
-   "page": "sm-017.html",
-   "asked": "the FCC (fccinfo@fcc.gov)",
-   "sent": "2026-10-14",
-   "reply": null,
-   "closed": null,
-   "pending": null
-  },
-  {
-   "paper": "SM-021",
-   "page": "sm-021.html",
-   "asked": "GitHub Advisory Database",
-   "sent": "2026-10-19",
-   "reply": "2026-10-19",
-   "closed": null,
-   "partial_reply": "2026-10-19 GitHub: 72-hour wording being removed"
-  },
-  {
-   "paper": "SM-023",
-   "page": "sm-023.html",
-   "asked": "Canonical, Ubuntu Security Team",
-   "sent": "2026-10-21",
-   "reply": null,
-   "closed": null
-  },
-  {
-   "paper": "SM-020",
-   "page": "sm-020.html",
-   "asked": "Senate Office of Public Records and House Legislative Resource Center",
-   "sent": "2026-10-21",
-   "reply": null,
-   "closed": null
-  },
-  {
-   "paper": "SM-024",
-   "page": "sm-024.html",
-   "asked": "the Justice Department's FARA Unit",
-   "sent": "2026-10-22",
-   "reply": null,
-   "closed": null
-  }
- ]
+  "note": "One row per party we asked, with the date the note went and the day its 30-day clock ends. Rendered into index.html by rechecks/clocks.py on Neo after every recheck; the Mac copy is rendered before each deploy. Dates are UTC. 'reply' is the date the party answered; 'closed' is the paper's ending if it has one.",
+  "clock_days": 30,
+  "rows": [
+    {
+      "paper": "SM-019",
+      "page": "sm-019.html",
+      "asked": "California, Texas and Michigan education agencies, Dept. of Education, GSA, GAO",
+      "sent": "2026-10-13",
+      "reply": null,
+      "closed": null,
+      "next": "Closes when prime recipients report in the month after the sub-award (monthly read), or GSA confirms GAO's recommendations are done."
+    },
+    {
+      "paper": "SM-001",
+      "page": "sm-001.html",
+      "asked": "Google, Pixel Binary Transparency",
+      "sent": "2026-09-15",
+      "reply": "2026-09-22",
+      "closed": "fixed in 7 days; daily recheck at 0 missing"
+    },
+    {
+      "paper": "SM-002",
+      "page": "sm-002.html",
+      "asked": "the AIDev authors",
+      "sent": "2026-09-30",
+      "reply": "2026-10-16",
+      "closed": "fixed in AIDev v5, released 21 Oct",
+      "partial_reply": "2026-10-16 Hao Li"
+    },
+    {
+      "paper": "SM-003",
+      "page": "sm-003.html",
+      "asked": "the 2026 study's author",
+      "sent": "2026-09-30",
+      "reply": "2026-10-22",
+      "closed": "corrected in its v3, 22 Oct",
+      "partial_reply": null
+    },
+    {
+      "paper": "SM-003",
+      "page": "sm-003.html",
+      "asked": "the Wild SBOMs authors",
+      "sent": "2026-09-30",
+      "reply": null,
+      "closed": null,
+      "partial_reply": null,
+      "next": "Closes when the Wild SBOMs description says 37,306 of its files came from one automated run."
+    },
+    {
+      "paper": "SM-004",
+      "page": "sm-004.html",
+      "asked": "whisper.online",
+      "sent": "2026-09-18",
+      "reply": "2026-09-18",
+      "closed": "fixed in 4 hours"
+    },
+    {
+      "paper": "SM-005",
+      "page": "sm-005.html",
+      "asked": "Meta",
+      "sent": "2026-10-01",
+      "reply": null,
+      "closed": null,
+      "next": "Closes when Meta's whitepaper says every 6 hours, or the list goes back to every 3. The weekly recheck reads the cadence."
+    },
+    {
+      "paper": "SM-006",
+      "page": "sm-006.html",
+      "asked": "the authors",
+      "sent": "2026-10-01",
+      "reply": null,
+      "closed": null,
+      "next": "Nothing for the authors to fix: our count reproduced theirs. The monthly recheck keeps counting."
+    },
+    {
+      "paper": "SM-007",
+      "page": "sm-007.html",
+      "asked": "Docker",
+      "sent": "2026-10-02",
+      "reply": null,
+      "closed": null,
+      "next": "Closes when an Official Image carries a signature anyone can verify (weekly recheck), or on 8 December, when the old Notary signatures stop."
+    },
+    {
+      "paper": "SM-008",
+      "page": "sm-008.html",
+      "asked": "CISA and the kernel CVE team",
+      "sent": "2026-10-02",
+      "reply": null,
+      "closed": null,
+      "next": "Closes when CISA's answers reappear on kernel CVEs (weekly recheck), or the directive says what it covers."
+    },
+    {
+      "paper": "SM-009",
+      "page": "sm-009.html",
+      "asked": "Mozilla, CRLite",
+      "sent": "2026-10-02",
+      "reply": "2026-10-05",
+      "closed": "answered in 3 days; the 17 October full filter shipped on the date given and cleared the gap (0 of 401 good on 18 October)"
+    },
+    {
+      "paper": "SM-010",
+      "page": "sm-010.html",
+      "asked": "Hugging Face",
+      "sent": "2026-10-02",
+      "reply": "2026-10-06",
+      "closed": null,
+      "partial_reply": "2026-10-06 docs fixed by Hugging Face",
+      "next": "Docs fixed 6 Oct. Closes when the badge stops saying \"safe\" on files never scanned."
+    },
+    {
+      "paper": "SM-011",
+      "page": "sm-011.html",
+      "asked": "Mozilla, CRLite",
+      "sent": "2026-10-02",
+      "reply": "2026-10-05",
+      "closed": "answered in 3 days"
+    },
+    {
+      "paper": "SM-012",
+      "page": "sm-012.html",
+      "asked": "the CCADB",
+      "sent": "2026-10-03",
+      "reply": "2026-10-21",
+      "closed": null,
+      "partial_reply": "2026-10-21 CCADB triaged our Bugzilla reports; Thailand answered 20 Oct",
+      "next": "Closes per CA: each late statement leaves the daily recheck's count when its letter or upload appears."
+    },
+    {
+      "paper": "SM-012",
+      "page": "sm-012.html",
+      "asked": "Microsoft's root program",
+      "sent": "2026-10-03",
+      "reply": null,
+      "closed": null,
+      "partial_reply": null,
+      "next": "Closes per CA: each late statement leaves the daily recheck's count when its letter or upload appears."
+    },
+    {
+      "paper": "SM-015",
+      "page": "sm-015.html",
+      "asked": "Apple's CT program",
+      "sent": "2026-10-03",
+      "reply": "2026-10-15",
+      "closed": "fixed its list 15 Oct",
+      "partial_reply": null
+    },
+    {
+      "paper": "SM-015",
+      "page": "sm-015.html",
+      "asked": "Chrome's CT program (asked again on ct-policy 16 Oct)",
+      "sent": "2026-10-03",
+      "reply": null,
+      "closed": null,
+      "partial_reply": null,
+      "next": "Closes when Chrome's list and policy state the same merge delay for RFC 6962 logs (daily recheck)."
+    },
+    {
+      "paper": "SM-014",
+      "page": "sm-014.html",
+      "asked": "NIC.br (registro.br) and the RIPE NCC RPKI team",
+      "sent": "2026-10-12",
+      "reply": null,
+      "closed": null,
+      "partial_reply": "2026-10-14 RIPE NCC",
+      "next": "Closes when registro.br's five-day grace matches what validators do (daily recheck)."
+    },
+    {
+      "paper": "SM-016",
+      "page": "sm-016.html",
+      "asked": "EPA's TRI Program",
+      "sent": "2026-10-04",
+      "reply": null,
+      "closed": null,
+      "next": "Closes when EPA loads the 2025 forms and the recheck counts the late ones, or a year-late filer appears in a case."
+    },
+    {
+      "paper": "SM-018",
+      "page": "sm-018.html",
+      "asked": "ZDI, Dell, Drupal and Arista",
+      "sent": "2026-10-12",
+      "reply": null,
+      "closed": null,
+      "next": "Closes when each CNA publishes on advisory day; the monthly recheck scores every record."
+    },
+    {
+      "paper": "SM-018",
+      "page": "sm-018.html",
+      "asked": "the CVE Program Secretariat (support form, CAN-2026-2039953)",
+      "sent": "2026-10-15",
+      "reply": null,
+      "closed": null,
+      "next": "Closes when MITRE, as Root, has the CNA of Last Resort publish late records, as the rule allows."
+    },
+    {
+      "paper": "SM-017",
+      "page": "sm-017.html",
+      "asked": "the FCC (fccinfo@fcc.gov)",
+      "sent": "2026-10-14",
+      "reply": null,
+      "closed": null,
+      "next": "Closes when stations upload the missing lists (quarterly read), or the Media Bureau raises them at renewal."
+    },
+    {
+      "paper": "SM-021",
+      "page": "sm-021.html",
+      "asked": "GitHub Advisory Database",
+      "sent": "2026-10-19",
+      "reply": "2026-10-19",
+      "closed": null,
+      "partial_reply": "2026-10-19 GitHub: 72-hour wording being removed",
+      "next": "Closes when the docs drop the 72-hour line (claim watch) or reviews are back inside 72 hours."
+    },
+    {
+      "paper": "SM-023",
+      "page": "sm-023.html",
+      "asked": "Canonical, Ubuntu Security Team",
+      "sent": "2026-10-21",
+      "reply": null,
+      "closed": null,
+      "next": "Closes when critical kernel fixes ship within 24 hours, \"critical\" stops meaning a CVSS score alone, or the FAQ changes (monthly recheck)."
+    },
+    {
+      "paper": "SM-020",
+      "page": "sm-020.html",
+      "asked": "Senate Office of Public Records and House Legislative Resource Center",
+      "sent": "2026-10-21",
+      "reply": null,
+      "closed": null,
+      "next": "Closes when the firms file on time; the quarterly read counts them."
+    },
+    {
+      "paper": "SM-024",
+      "page": "sm-024.html",
+      "asked": "the Justice Department's FARA Unit",
+      "sent": "2026-10-22",
+      "reply": "2026-10-23",
+      "closed": "declined to comment in 1 day"
+    },
+    {
+      "paper": "SM-013",
+      "page": "sm-013.html",
+      "asked": "CISA's .gov program (help@get.gov) and OMB's Office of the Federal CIO (ofcio@omb.eop.gov)",
+      "sent": "2026-10-23",
+      "reply": null,
+      "closed": null,
+      "next": "Closes one agency at a time; the weekly recheck counts each domain that leaves the lists."
+    },
+    {
+      "paper": "SM-025",
+      "page": "sm-025.html",
+      "asked": "PHMSA's Office of Pipeline Safety (contact on ADB-2026-04)",
+      "sent": "2026-10-24",
+      "reply": null,
+      "closed": null,
+      "next": "Closes when PHMSA compares call times with confirmed discovery and follows up the late ones (quarterly recheck)."
+    },
+    {
+      "paper": "SM-026",
+      "page": "sm-026.html",
+      "asked": "WIPO's Arbitration and Mediation Center (domain.info@wipo.int)",
+      "sent": "2026-10-24",
+      "reply": null,
+      "closed": null,
+      "next": "Closes when WIPO appoints within the five days, or ICANN says how it reads paragraph 6(b)."
+    }
+  ]
 }
