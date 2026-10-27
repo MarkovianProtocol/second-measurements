@@ -1,0 +1,53 @@
+{
+ "filing": "Form ADV annual amendment",
+ "filed": "3/22/2026",
+ "adviser": "A FIN MANAGEMENT LLC (Affinity Partners), CRD 315482",
+ "regulatory_aum": 6160297411,
+ "accounts": 6,
+ "aum_non_us": 6097061904,
+ "funds": [
+  {
+   "name": "AFFINITY PARTNERS FUND I CO-INVEST DELTA II LP",
+   "gross_asset_value": 12033077,
+   "minimum_investment": 10000000,
+   "beneficial_owners": 1,
+   "pct_non_us": 0
+  },
+  {
+   "name": "AFFINITY PARTNERS FUND I CO-INVEST DELTA LP",
+   "gross_asset_value": 1193319132,
+   "minimum_investment": 25000000,
+   "beneficial_owners": 1,
+   "pct_non_us": 100
+  },
+  {
+   "name": "AFFINITY PARTNERS FUND I CO-INVEST SIGMA II LP",
+   "gross_asset_value": 6023254,
+   "minimum_investment": 5000000,
+   "beneficial_owners": 1,
+   "pct_non_us": 0
+  },
+  {
+   "name": "AFFINITY PARTNERS FUND I CO-INVEST SIGMA LP",
+   "gross_asset_value": 596596930,
+   "minimum_investment": 25000000,
+   "beneficial_owners": 1,
+   "pct_non_us": 100
+  },
+  {
+   "name": "AFFINITY PARTNERS FUND I LP",
+   "gross_asset_value": 45179176,
+   "minimum_investment": 25000000,
+   "beneficial_owners": 1,
+   "pct_non_us": 0
+  },
+  {
+   "name": "AFFINITY PARTNERS PARALLEL FUND I LP",
+   "gross_asset_value": 4307145842,
+   "minimum_investment": 25000000,
+   "beneficial_owners": 6,
+   "pct_non_us": 100
+  }
+ ],
+ "aum_non_us_share": 0.9897
+}

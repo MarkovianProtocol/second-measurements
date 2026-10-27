@@ -4,6 +4,7 @@ Not papers. When we recompute a public figure for a person or outlet we follow, 
 
 | File | What | Log leaf |
 |---|---|---|
+| affinity-partners-adv-2026-10-26.md (+ folder: parse_adv.py, the Form ADV) | Affinity Partners (Kushner) by its own SEC Form ADV: $6.16B, 99% foreign (James Li recompute) | 12878 |
 | curl-cvss-2026-10-26.md (+ folder: compare.py, rows.csv, vuln.json) | curl's own CVE severities vs the CVSS CISA adds, 141 CVEs since 2021 (Daniel Stenberg recompute) | 12851 |
 | pypi-malware-takedown-2026-10-26.md (+ folder: scripts, rows.csv, still_live.csv) | PyPI malware takedown times vs Seth Larson's "removed within hours", 27 Apr–19 Oct 2026 | 12834 |
 | dod-unsupported-adjustments-2026-10-23.md (+ CSV, extract.py) | DoD unsupported accounting adjustments, FY2020–FY2025, from the auditor's reports | 12470 |
