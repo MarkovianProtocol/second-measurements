@@ -1,0 +1,66 @@
+{
+ "cves": 141,
+ "first": "2021-03-31",
+ "last": "2026-10-14",
+ "curl": {
+  "Low": 90,
+  "High": 3,
+  "Medium": 48
+ },
+ "cisa_scored": 109,
+ "cisa": {
+  "Medium": 46,
+  "Low": 8,
+  "High": 40,
+  "Critical": 15
+ },
+ "crosstab": {
+  "curl High / CISA High": 2,
+  "curl High / CISA none": 1,
+  "curl Low / CISA Critical": 7,
+  "curl Low / CISA High": 26,
+  "curl Low / CISA Low": 6,
+  "curl Low / CISA Medium": 24,
+  "curl Low / CISA none": 27,
+  "curl Medium / CISA Critical": 8,
+  "curl Medium / CISA High": 12,
+  "curl Medium / CISA Low": 2,
+  "curl Medium / CISA Medium": 22,
+  "curl Medium / CISA none": 4
+ },
+ "by_year": {
+  "2021": {
+   "cves": 13,
+   "curl_high": 1,
+   "cisa_high_or_critical": 3
+  },
+  "2022": {
+   "cves": 21,
+   "curl_high": 0,
+   "cisa_high_or_critical": 9
+  },
+  "2023": {
+   "cves": 18,
+   "curl_high": 1,
+   "cisa_high_or_critical": 7
+  },
+  "2024": {
+   "cves": 11,
+   "curl_high": 0,
+   "cisa_high_or_critical": 2
+  },
+  "2025": {
+   "cves": 9,
+   "curl_high": 0,
+   "cisa_high_or_critical": 4
+  },
+  "2026": {
+   "cves": 69,
+   "curl_high": 1,
+   "cisa_high_or_critical": 30
+  }
+ },
+ "cisa_versions": {
+  "cvssV3_1": 109
+ }
+}

@@ -1,0 +1,142 @@
+cve,published,summary,curl,cisa_version,cisa_severity,cisa_score
+CVE-2021-22890,2021-03-31,TLS 1.3 session ticket proxy host mix-up,Low,cvssV3_1,Medium,4.3
+CVE-2021-22876,2021-03-31,Automatic referer leaks credentials,Low,cvssV3_1,Medium,5.3
+CVE-2021-22901,2021-05-26,TLS session caching disaster,High,,,
+CVE-2021-22898,2021-05-26,TELNET stack contents disclosure,Medium,cvssV3_1,Low,3.1
+CVE-2021-22897,2021-05-26,Schannel cipher selection surprise,Low,cvssV3_1,Medium,5.3
+CVE-2021-22926,2021-07-21,CURLOPT_SSLCERT mix-up with Secure Transport,Medium,cvssV3_1,High,7.5
+CVE-2021-22925,2021-07-21,TELNET stack contents disclosure again,Medium,cvssV3_1,Medium,5.3
+CVE-2021-22924,2021-07-21,Bad connection reuse due to flawed path name checks,Medium,cvssV3_1,Low,3.7
+CVE-2021-22923,2021-07-21,Metalink download sends credentials,Medium,,,
+CVE-2021-22922,2021-07-21,Wrong content via Metalink not discarded,Medium,cvssV3_1,Medium,6.5
+CVE-2021-22946,2021-09-15,Protocol downgrade required TLS bypassed,Medium,cvssV3_1,High,7.5
+CVE-2021-22947,2021-09-15,STARTTLS protocol injection via MITM,Medium,cvssV3_1,Medium,5.9
+CVE-2021-22945,2021-09-15,UAF and double free in MQTT sending,Medium,cvssV3_1,Critical,9.1
+CVE-2022-27776,2022-04-27,Auth/cookie leak on redirect,Low,,,
+CVE-2022-27775,2022-04-27,Bad local IPv6 connection reuse,Low,cvssV3_1,High,7.5
+CVE-2022-27774,2022-04-27,Credential leak on redirect,Medium,cvssV3_1,Medium,5.7
+CVE-2022-22576,2022-04-27,OAUTH2 bearer bypass in connection reuse,Medium,cvssV3_1,High,8.1
+CVE-2022-30115,2022-05-11,HSTS bypass via trailing dot,Medium,,,
+CVE-2022-27782,2022-05-11,TLS and SSH connection too eager reuse,Medium,cvssV3_1,High,7.5
+CVE-2022-27781,2022-05-11,CERTINFO never-ending busy-loop,Low,cvssV3_1,High,7.5
+CVE-2022-27780,2022-05-11,percent-encoded path separator in URL host,Medium,cvssV3_1,Medium,5.3
+CVE-2022-27779,2022-05-11,cookie for trailing dot TLD,Medium,,,
+CVE-2022-27778,2022-05-11,curl removes wrong file on error,Medium,,,
+CVE-2022-32208,2022-06-27,FTP-KRB bad message verification,Low,cvssV3_1,Medium,5.9
+CVE-2022-32207,2022-06-27,Non-preserved file permissions,Medium,cvssV3_1,Critical,9.8
+CVE-2022-32206,2022-06-27,HTTP compression denial of service,Medium,cvssV3_1,Medium,6.5
+CVE-2022-32205,2022-06-27,Set-Cookie denial of service,Low,cvssV3_1,Medium,4.3
+CVE-2022-35252,2022-08-31,control code in cookie denial of service,Low,cvssV3_1,Low,3.7
+CVE-2022-42916,2022-10-26,HSTS bypass via IDN,Medium,cvssV3_1,High,7.5
+CVE-2022-42915,2022-10-26,HTTP proxy double free,Medium,cvssV3_1,High,8.1
+CVE-2022-35260,2022-10-26,.netrc parser out-of-bounds access,Low,,,
+CVE-2022-32221,2022-10-26,POST following PUT confusion,Medium,cvssV3_1,Critical,9.8
+CVE-2022-43552,2022-12-21,HTTP Proxy deny use after free,Low,cvssV3_1,Medium,5.9
+CVE-2022-43551,2022-12-21,Another HSTS bypass via IDN,Medium,cvssV3_1,High,7.5
+CVE-2023-23916,2023-02-15,HTTP multi-header compression denial of service,Medium,cvssV3_1,Medium,6.5
+CVE-2023-23915,2023-02-15,HSTS amnesia with --parallel,Low,cvssV3_1,Medium,6.5
+CVE-2023-23914,2023-02-15,HSTS ignored on multiple requests,Low,cvssV3_1,Critical,9.1
+CVE-2023-27538,2023-03-20,SSH connection too eager reuse still,Low,cvssV3_1,High,7.7
+CVE-2023-27537,2023-03-20,HSTS double free,Low,,,
+CVE-2023-27536,2023-03-20,GSS delegation too eager connection reuse,Low,cvssV3_1,Medium,5.9
+CVE-2023-27535,2023-03-20,FTP too eager connection reuse,Medium,cvssV3_1,Medium,5.9
+CVE-2023-27534,2023-03-20,SFTP path ~ resolving discrepancy,Low,cvssV3_1,High,8.8
+CVE-2023-27533,2023-03-20,TELNET option IAC injection,Low,cvssV3_1,Critical,9.8
+CVE-2023-28322,2023-05-17,more POST-after-PUT confusion,Low,cvssV3_1,Medium,5.3
+CVE-2023-28321,2023-05-17,IDN wildcard match,Low,cvssV3_1,Medium,5.9
+CVE-2023-28320,2023-05-17,siglongjmp race condition,Low,cvssV3_1,Medium,5.9
+CVE-2023-28319,2023-05-17,UAF in SSH sha256 fingerprint check,Medium,cvssV3_1,High,7.5
+CVE-2023-38039,2023-09-13,HTTP headers eat all memory,Medium,cvssV3_1,High,7.5
+CVE-2023-38545,2023-10-11,SOCKS5 heap buffer overflow,High,cvssV3_1,High,8.8
+CVE-2023-38546,2023-10-11,cookie injection with none file,Low,,,
+CVE-2023-46219,2023-12-06,HSTS long filename clears contents,Low,cvssV3_1,Medium,5.3
+CVE-2023-46218,2023-12-06,cookie mixed case PSL bypass,Medium,cvssV3_1,Medium,6.5
+CVE-2024-0853,2024-01-31,OCSP verification bypass with TLS session reuse,Low,cvssV3_1,Medium,5.3
+CVE-2024-2466,2024-03-27,TLS certificate check bypass with mbedTLS,Medium,cvssV3_1,Medium,6.5
+CVE-2024-2379,2024-03-27,QUIC certificate check bypass with wolfSSL,Low,cvssV3_1,Medium,6.3
+CVE-2024-2398,2024-03-27,HTTP/2 push headers memory-leak,Medium,cvssV3_1,High,8.6
+CVE-2024-2004,2024-03-27,Usage of disabled protocol,Low,cvssV3_1,Low,3.5
+CVE-2024-6874,2024-07-24,macidn punycode buffer overread,Low,cvssV3_1,Low,3.1
+CVE-2024-6197,2024-07-24,freeing stack buffer in utf8asn1str,Medium,cvssV3_1,High,7.5
+CVE-2024-7264,2024-07-31,ASN.1 date parser overread,Low,cvssV3_1,Medium,6.3
+CVE-2024-8096,2024-09-11,OCSP stapling bypass with GnuTLS,Medium,cvssV3_1,Medium,6.5
+CVE-2024-9681,2024-11-06,HSTS subdomain overwrites parent cache entry,Low,cvssV3_1,Medium,5.9
+CVE-2024-11053,2024-12-11,netrc and redirect credential leak,Low,cvssV3_1,Low,3.4
+CVE-2025-0725,2025-02-05,gzip integer overflow,Low,cvssV3_1,High,7.3
+CVE-2025-0665,2025-02-05,eventfd double close,Low,cvssV3_1,High,7
+CVE-2025-0167,2025-02-05,netrc and default credential leak,Low,cvssV3_1,Low,3.4
+CVE-2025-5025,2025-05-28,No QUIC certificate pinning with wolfSSL,Medium,cvssV3_1,Medium,4.8
+CVE-2025-4947,2025-05-28,QUIC certificate check skip with wolfSSL,Medium,cvssV3_1,Medium,6.5
+CVE-2025-5399,2025-06-04,WebSocket endless loop,Low,cvssV3_1,High,7.5
+CVE-2025-10148,2025-09-10,predictable WebSocket mask,Low,cvssV3_1,Medium,5.3
+CVE-2025-9086,2025-09-10,Out of bounds read for cookie path,Low,cvssV3_1,High,7.5
+CVE-2025-10966,2025-11-05,missing SFTP host verification with wolfSSH,Low,cvssV3_1,Medium,4.3
+CVE-2025-15224,2026-01-07,libssh key passphrase bypass without agent set,Low,cvssV3_1,Low,3.1
+CVE-2025-15079,2026-01-07,libssh global known_hosts override,Low,cvssV3_1,Medium,5.3
+CVE-2025-14819,2026-01-07,OpenSSL partial chain store policy bypass,Low,cvssV3_1,Medium,5.3
+CVE-2025-14524,2026-01-07,bearer token leak on cross-protocol redirect,Low,cvssV3_1,Medium,5.3
+CVE-2025-14017,2026-01-07,broken TLS options for threaded LDAPS,Medium,cvssV3_1,Medium,6.3
+CVE-2025-13034,2026-01-07,No QUIC certificate pinning with GnuTLS,Medium,cvssV3_1,Medium,5.9
+CVE-2026-3805,2026-03-11,use after free in SMB connection reuse,Medium,cvssV3_1,High,7.5
+CVE-2026-3784,2026-03-11,wrong proxy connection reuse with credentials,Low,cvssV3_1,Medium,6.5
+CVE-2026-3783,2026-03-11,token leak with redirect and netrc,Medium,cvssV3_1,Medium,5.3
+CVE-2026-1965,2026-03-11,bad reuse of HTTP Negotiate connection,Medium,cvssV3_1,Medium,6.5
+CVE-2026-7168,2026-04-29,cross-proxy Digest auth state leak,Medium,cvssV3_1,Medium,5.3
+CVE-2026-7009,2026-04-29,OCSP stapling bypass with Apple SecTrust,Medium,cvssV3_1,Medium,5.3
+CVE-2026-6429,2026-04-29,netrc credential leak with reused proxy connection,Medium,cvssV3_1,Medium,5.3
+CVE-2026-6276,2026-04-29,stale custom cookie host causes cookie leak,Low,cvssV3_1,High,7.5
+CVE-2026-6253,2026-04-29,proxy credentials leak over redirect-to proxy,Medium,cvssV3_1,Medium,5.9
+CVE-2026-5773,2026-04-29,wrong reuse of SMB connection,Low,cvssV3_1,High,7.5
+CVE-2026-5545,2026-04-29,wrong reuse of HTTP Negotiate connection,Medium,cvssV3_1,Medium,6.5
+CVE-2026-4873,2026-04-29,connection reuse ignores TLS requirement,Low,cvssV3_1,Medium,5.9
+CVE-2026-12064,2026-06-24,proto-default skips SSH verification,Low,cvssV3_1,High,7.5
+CVE-2026-11856,2026-06-24,cross-origin Digest auth state leak,Medium,cvssV3_1,Critical,9.8
+CVE-2026-11586,2026-06-24,WS Auto-PONG memory exhaustion,Low,cvssV3_1,High,7.5
+CVE-2026-11564,2026-06-24,Native CA trust persist,Low,cvssV3_1,Critical,9.1
+CVE-2026-11352,2026-06-24,QUIC zero-length UDP datagrams busy-loop,Low,cvssV3_1,High,7.5
+CVE-2026-9546,2026-06-24,sending old referer,Low,cvssV3_1,High,7.5
+CVE-2026-10536,2026-06-24,HTTP/2 stream-dependency tree UAF,Low,cvssV3_1,Critical,9.8
+CVE-2026-9547,2026-06-24,SSH improper host validation,Low,cvssV3_1,High,7.4
+CVE-2026-9079,2026-06-24,stale proxy password leak,Medium,cvssV3_1,Critical,9.8
+CVE-2026-9545,2026-06-24,exposing HTTP/3 early data,Low,cvssV3_1,High,7.5
+CVE-2026-9080,2026-06-24,UAF after pause in socket callback,Low,cvssV3_1,High,7.3
+CVE-2026-8927,2026-06-24,env-set cross-proxy Digest auth state leak,Medium,cvssV3_1,Critical,9.1
+CVE-2026-8926,2026-06-24,password leak with netrc and user in URL,Low,cvssV3_1,Critical,9.1
+CVE-2026-8925,2026-06-24,SASL double-free,Medium,cvssV3_1,Critical,9.8
+CVE-2026-8932,2026-06-24,incomplete mTLS config matching in conn reuse,Low,cvssV3_1,High,7.5
+CVE-2026-8924,2026-06-24,trailing dot domain super cookie,Low,cvssV3_1,Critical,9.1
+CVE-2026-8458,2026-06-24,wrong reuse for different services,Low,cvssV3_1,Medium,6.5
+CVE-2026-8286,2026-06-24,wrong STARTTLS connection reuse,Low,cvssV3_1,High,8.1
+CVE-2026-82208,2026-09-02,wolfSSL CA-cache hit overrides callback,Low,cvssV3_1,High,7.5
+CVE-2026-82209,2026-09-02,domain-scoped PSL domain cookie,Low,cvssV3_1,High,8.2
+CVE-2026-80255,2026-09-02,secure cookie attribute bypass with tab,Low,cvssV3_1,High,7.5
+CVE-2026-80231,2026-09-02,native CA store conn reuse,Low,cvssV3_1,High,7.5
+CVE-2026-80230,2026-09-02,OpenSSL pinning bypass,Low,cvssV3_1,High,7.5
+CVE-2026-80229,2026-09-02,OpenSSL provider use-after-free,Low,cvssV3_1,High,7.5
+CVE-2026-19931,2026-09-02,Negotiate ambient user conn reuse,Medium,cvssV3_1,Critical,9.8
+CVE-2026-18924,2026-09-02,HTTP/2 server push UAF,Low,cvssV3_1,Critical,9.1
+CVE-2026-13608,2026-09-02,OpenLDAP SASL authentication bypass,Low,cvssV3_1,High,7.4
+CVE-2026-107929,2026-10-14,local interface connection reuse mixup,Low,,,
+CVE-2026-107928,2026-10-14,info leak uploading over WebSockets with GnuTLS,Low,,,
+CVE-2026-94266,2026-10-14,password leak in CURLINFO_EFFECTIVE_URL,Low,,,
+CVE-2026-94265,2026-10-14,Authorization: Negotiate sent to foreign origin,Low,,,
+CVE-2026-92392,2026-10-14,HTTP/2 upload Use-After-Free,High,cvssV3_1,High,8.1
+CVE-2026-92391,2026-10-14,curl_mime_free stack overflow by recursion,Low,,,
+CVE-2026-92390,2026-10-14,-J no-clobber guarantee bypassed with 103 early hints,Low,,,
+CVE-2026-92389,2026-10-14,TFTP direction confusion,Low,,,
+CVE-2026-92388,2026-10-14,FTP wildcard write callback mixup,Low,,,
+CVE-2026-92387,2026-10-14,never-ending loop via server response omission,Low,,,
+CVE-2026-92386,2026-10-14,server-set cookie aborts cookie jar load,Low,,,
+CVE-2026-86415,2026-10-14,auto client cert connection reuse mixup,Low,,,
+CVE-2026-86414,2026-10-14,leaking host credentials to HTTP proxy,Low,,,
+CVE-2026-86413,2026-10-14,Negotiate credentials sent to redirected origin,Low,,,
+CVE-2026-87866,2026-10-14,wolfSSL public-key pinning bypass,Low,,,
+CVE-2026-87865,2026-10-14,knownhost callback mismatches key as missing,Low,,,
+CVE-2026-86412,2026-10-14,server-set cookie erases cookie jar,Low,,,
+CVE-2026-86411,2026-10-14,FTP connection reuse inherits client-certificate,Low,,,
+CVE-2026-86410,2026-10-14,redirect to SFTP or SCP bypasses host verification,Low,,,
+CVE-2026-86409,2026-10-14,stale SigV4 headers sent unintended,Low,,,
+CVE-2026-87864,2026-10-14,IMAP APPEND plus CRLF conversion command injection,Low,,,
+CVE-2026-87863,2026-10-14,HSTS response erases persisted entries,Low,,,
+CVE-2026-87862,2026-10-14,HSTS cache import drops longer-lived child,Low,,,
+CVE-2026-87861,2026-10-14,cross-origin reuse of a Negotiate connection,Low,,,
