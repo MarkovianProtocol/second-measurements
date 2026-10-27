@@ -4,6 +4,8 @@ Not papers. When we recompute a public figure for a person or outlet we follow, 
 
 | File | What | Log leaf |
 |---|---|---|
+| trust-stores-recheck-2026-10-27.md (+ folder: scan.py, fetchpkgs.sh; archives on HF/site, hashes in SHA256SUMS) | CA bundles in packages after eMudhra, rechecked six days on (Andrew Nesbitt recheck) | 12948 |
+| real-earnings-2026-10-27.md (+ folder: real.py, BLS + FRED inputs) | Real earnings, April–September 2026, five measures (Saagar Enjeti recompute) | 12949 |
 | affinity-partners-adv-2026-10-26.md (+ folder: parse_adv.py, the Form ADV) | Affinity Partners (Kushner) by its own SEC Form ADV: $6.16B, 99% foreign (James Li recompute) | 12878 |
 | curl-cvss-2026-10-26.md (+ folder: compare.py, rows.csv, vuln.json) | curl's own CVE severities vs the CVSS CISA adds, 141 CVEs since 2021 (Daniel Stenberg recompute) | 12851 |
 | pypi-malware-takedown-2026-10-26.md (+ folder: scripts, rows.csv, still_live.csv) | PyPI malware takedown times vs Seth Larson's "removed within hours", 27 Apr–19 Oct 2026 | 12834 |
