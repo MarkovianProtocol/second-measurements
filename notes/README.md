@@ -12,5 +12,6 @@ Not papers. When we recompute a public figure for a person or outlet we follow, 
 | dod-unsupported-adjustments-2026-10-23.md (+ CSV, extract.py) | DoD unsupported accounting adjustments, FY2020–FY2025, from the auditor's reports | 12470 |
 | scd-5-54-2026-10-23.md (+ chart) | Ethical Skeptic's "sudden cardiac death, ages 5–54" baseline vs CDC WONDER, 2010–2025 | 12450 |
 | msrc-patch-counts-2026-10-27.md | Brian Krebs, Microsoft October 2026 Patch Tuesday counts vs MSRC CVRF and CISA KEV | 12952 |
+| epstein-files-2026-10-28.md (+ DOJ pages, count_efta.py) | Whitney Webb, "First Friends": the Epstein Files "2%" (Channel 4, bytes) vs DOJ's own page counts and EFTA page numbers | 13033 |
 
 Live copies: https://markovianprotocol.com/measurements/notes/

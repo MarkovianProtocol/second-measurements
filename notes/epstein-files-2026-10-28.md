@@ -1,0 +1,20 @@
+# The DOJ Epstein Files: what the "2%" measures, and what DOJ's own numbers say
+
+Markovian Protocol, 28 October 2026. A data note on one sentence in Whitney Webb's "First Friends" (Unlimited Hangout, 10 March 2026): the Epstein Files are "estimated by some to represent as little as 2% of the Department's Epstein-related documentation" and "are largely centered on emails from a single Gmail account used by Epstein: jeevacation@gmail.com."
+
+The sources support both parts. The 2% is a measure of data volume, not of documents, and DOJ counts pages instead, so the two figures can be set against each other. The table puts them side by side.
+
+| Measure | Released | Held or collected | Share | Source |
+|---|---|---|---|---|
+| Data volume (Channel 4 News) | about 300 GB | "a total of approximately 14.6 Terabytes of archived data to unpack" (investigator email, March 2025); "somewhere around 20-40 [terabytes]" (June 2020) | about 2% | Channel 4 News, 12 February 2026, from FBI emails it obtained |
+| Pages (DOJ) | "nearly 3.5 million pages" | "more than 6 million pages being identified as potentially responsive" | about 58% | DOJ letter to Congress, 30 January 2026 |
+| Pages withheld or redacted for privilege (DOJ) | — | "approximately 200,000 pages" | — | same letter |
+| Page numbers on DOJ's own files | data sets 1–11 are numbered EFTA00000001 to EFTA02730264; data set 12 (4 listing pages) starts at EFTA02730265 | — | — | justice.gov/epstein/doj-disclosures, read 28 October 2026 |
+
+- **The 2% is real, and measures volume.** It compares the bytes released with the terabytes investigators described holding. That is data from the devices seized from his properties, so "2% of the data investigators said they held, by volume" is the precise form. DOJ answers in pages, and by its own page count it released about 58% of what it collected. Anyone who wants to wave away the 2% will quote the 58%. They measure different things, and both come from the government's own records.
+- **DOJ's page count does not obviously match the page numbers on its own files.** DOJ says it released "nearly 3.5 million pages" in all, "over 3 million" of them on 30 January. The page numbers on its 12 data sets run from EFTA00000001 to EFTA02730264 before data set 12, which starts at EFTA02730265 and lists at most about 200 files: about 2.73 million pages. The library's separate "Court Records" set, earlier releases, and the way videos and images are counted may account for the difference; we could not settle it from outside. It is a question DOJ can answer.
+- **The Gmail account.** CBS News (19 June 2026): "The DOJ released hundreds of thousands of Epstein's emails. Nearly all originate from an email account he created around the time he went to jail in 2008: jeevacation@gmail.com." The same piece notes what is missing: about 20,000 messages from his earlier jeeproject@yahoo.com account, archived by Distributed Denial of Secrets, are not in the release. The House Oversight Committee's 12 November 2025 release of documents from Epstein's estate (23,000 documents) is a separate set.
+
+What we could not check: the bytes figure (DOJ's site stopped answering our requests after we read the listing pages, so we did not size the files ourselves), and how DOJ counts videos and images in its page total.
+
+Sources: Channel 4 News, "Epstein Files: Investigation suggests just 2% of data released to public", 12 February 2026 (a video report; the email quotes are as printed by The New Republic, "Report: The DOJ Has Only Released a Tiny Fraction of the Epstein Files", 16 February 2026); DOJ Office of the Deputy Attorney General, letter to Congress, 30 January 2026 (justice.gov/letter-to-congress.pdf); DOJ Epstein Library, DOJ Disclosures, data sets 1–12 (justice.gov/epstein/doj-disclosures); CBS News, "What's missing from the Epstein files?", 19 June 2026; House Oversight Committee Democrats, press release, 12 November 2025. Saved copies of the DOJ pages and letter, and the counting script, are in the folder beside this note (epstein-files-2026-10-28/).
