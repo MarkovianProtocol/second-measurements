@@ -1,0 +1,338 @@
+[
+ {
+  "d": 4,
+  "name": "EM OV TLS CA - G3C",
+  "crtsh_id": 18518875953,
+  "issuer": "CN=AAA Certificate Services,O=Comodo CA Limited,L=Salford,ST=Greater Manchester,C=GB",
+  "serial": "8d5a4811939ef447d77111cdd9849ae9",
+  "not_before": "2025-05-14T00:00:00+00:00",
+  "crl_urls": [
+   "http://crl.comodoca.com/AAACertificateServices.crl"
+  ],
+  "crls": [
+   {
+    "url": "http://crl.comodoca.com/AAACertificateServices.crl",
+    "crl_number": 7295,
+    "this_update": "2026-10-30T11:39:56+00:00",
+    "next_update": "2026-11-06T11:39:56+00:00",
+    "revoked_at": "2025-05-14T00:00:00+00:00",
+    "reason": "ca_compromise"
+   }
+  ]
+ },
+ {
+  "d": 4,
+  "name": "EM OV TLS CA - G3C",
+  "crtsh_id": 18286207177,
+  "issuer": "CN=emSign Root TLS CA - G3,O=eMudhra Technologies Limited,C=IN",
+  "serial": "296926c227a3a1526392b19482a504",
+  "not_before": "2025-04-30T15:37:41+00:00",
+  "crl_urls": [
+   "http://crl.emsign.com/?roottlscag3.crl"
+  ],
+  "crls": [
+   {
+    "url": "http://crl.emsign.com/?roottlscag3.crl",
+    "crl_number": 17,
+    "this_update": "2026-10-18T09:38:46+00:00",
+    "next_update": "2027-04-16T09:38:46+00:00",
+    "revoked_at": "2026-10-18T09:38:46+00:00",
+    "reason": "ca_compromise"
+   }
+  ]
+ },
+ {
+  "d": 56,
+  "name": "EM EV TLS CA - G3C",
+  "crtsh_id": 18518842538,
+  "issuer": "CN=AAA Certificate Services,O=Comodo CA Limited,L=Salford,ST=Greater Manchester,C=GB",
+  "serial": "5f078752dece7a1bb8595d303167171",
+  "not_before": "2025-05-14T00:00:00+00:00",
+  "crl_urls": [
+   "http://crl.comodoca.com/AAACertificateServices.crl"
+  ],
+  "crls": [
+   {
+    "url": "http://crl.comodoca.com/AAACertificateServices.crl",
+    "crl_number": 7295,
+    "this_update": "2026-10-30T11:39:56+00:00",
+    "next_update": "2026-11-06T11:39:56+00:00",
+    "revoked_at": "2025-05-14T00:00:00+00:00",
+    "reason": "ca_compromise"
+   }
+  ]
+ },
+ {
+  "d": 56,
+  "name": "EM EV TLS CA - G3C",
+  "crtsh_id": 18286207182,
+  "issuer": "CN=emSign Root TLS CA - G3,O=eMudhra Technologies Limited,C=IN",
+  "serial": "8009928a64107601af05fa2f19f109",
+  "not_before": "2025-04-30T15:39:31+00:00",
+  "crl_urls": [
+   "http://crl.emsign.com/?roottlscag3.crl"
+  ],
+  "crls": [
+   {
+    "url": "http://crl.emsign.com/?roottlscag3.crl",
+    "crl_number": 17,
+    "this_update": "2026-10-18T09:38:46+00:00",
+    "next_update": "2027-04-16T09:38:46+00:00",
+    "revoked_at": "2026-10-18T09:30:49+00:00",
+    "reason": "ca_compromise"
+   }
+  ]
+ },
+ {
+  "d": 66,
+  "name": "EM OV CS CA - G3B",
+  "crtsh_id": 18519019578,
+  "issuer": "CN=AAA Certificate Services,O=Comodo CA Limited,L=Salford,ST=Greater Manchester,C=GB",
+  "serial": "41e32b73ac185d6ce0d7480bacf84e69",
+  "not_before": "2025-05-14T00:00:00+00:00",
+  "crl_urls": [
+   "http://crl.comodoca.com/AAACertificateServices.crl"
+  ],
+  "crls": [
+   {
+    "url": "http://crl.comodoca.com/AAACertificateServices.crl",
+    "crl_number": 7295,
+    "this_update": "2026-10-30T11:39:56+00:00",
+    "next_update": "2026-11-06T11:39:56+00:00",
+    "revoked_at": "2025-05-14T00:00:00+00:00",
+    "reason": "ca_compromise"
+   }
+  ]
+ },
+ {
+  "d": 66,
+  "name": "EM OV CS CA - G3B",
+  "crtsh_id": 18286207189,
+  "issuer": "CN=emSign Root CS CA - G3,O=eMudhra Technologies Limited,C=IN",
+  "serial": "7818933f8f85b4619a2b35fba83d0a",
+  "not_before": "2025-04-30T16:08:27+00:00",
+  "crl_urls": [
+   "http://crl.emsign.com/?rootcscag3.crl"
+  ],
+  "crls": [
+   {
+    "url": "http://crl.emsign.com/?rootcscag3.crl",
+    "crl_number": 9,
+    "this_update": "2026-10-18T09:35:24+00:00",
+    "next_update": "2027-04-16T09:35:24+00:00",
+    "revoked_at": "2026-10-18T09:33:37+00:00",
+    "reason": "ca_compromise"
+   }
+  ]
+ },
+ {
+  "d": 115,
+  "name": "EM EV TLS CA - G3B",
+  "crtsh_id": 18518841942,
+  "issuer": "CN=AAA Certificate Services,O=Comodo CA Limited,L=Salford,ST=Greater Manchester,C=GB",
+  "serial": "d8f8685e4f2bd9d82402a85a1c1eb731",
+  "not_before": "2025-05-14T00:00:00+00:00",
+  "crl_urls": [
+   "http://crl.comodoca.com/AAACertificateServices.crl"
+  ],
+  "crls": [
+   {
+    "url": "http://crl.comodoca.com/AAACertificateServices.crl",
+    "crl_number": 7295,
+    "this_update": "2026-10-30T11:39:56+00:00",
+    "next_update": "2026-11-06T11:39:56+00:00",
+    "revoked_at": "2025-05-14T00:00:00+00:00",
+    "reason": "ca_compromise"
+   }
+  ]
+ },
+ {
+  "d": 115,
+  "name": "EM EV TLS CA - G3B",
+  "crtsh_id": 18286207187,
+  "issuer": "CN=emSign Root TLS CA - G3,O=eMudhra Technologies Limited,C=IN",
+  "serial": "c7c41efe92d825f05eae841a4a82c1",
+  "not_before": "2025-04-30T16:03:31+00:00",
+  "crl_urls": [
+   "http://crl.emsign.com/?roottlscag3.crl"
+  ],
+  "crls": [
+   {
+    "url": "http://crl.emsign.com/?roottlscag3.crl",
+    "crl_number": 17,
+    "this_update": "2026-10-18T09:38:46+00:00",
+    "next_update": "2027-04-16T09:38:46+00:00",
+    "revoked_at": "2026-10-18T09:28:53+00:00",
+    "reason": "ca_compromise"
+   }
+  ]
+ },
+ {
+  "d": 155,
+  "name": "EM OV TLS CA - G3B",
+  "crtsh_id": 18519019580,
+  "issuer": "CN=AAA Certificate Services,O=Comodo CA Limited,L=Salford,ST=Greater Manchester,C=GB",
+  "serial": "e94223bde92f914e5ab9acabfdac3710",
+  "not_before": "2025-05-14T00:00:00+00:00",
+  "crl_urls": [
+   "http://crl.comodoca.com/AAACertificateServices.crl"
+  ],
+  "crls": [
+   {
+    "url": "http://crl.comodoca.com/AAACertificateServices.crl",
+    "crl_number": 7295,
+    "this_update": "2026-10-30T11:39:56+00:00",
+    "next_update": "2026-11-06T11:39:56+00:00",
+    "revoked_at": "2025-05-14T00:00:00+00:00",
+    "reason": "ca_compromise"
+   }
+  ]
+ },
+ {
+  "d": 155,
+  "name": "EM OV TLS CA - G3B",
+  "crtsh_id": 18286207195,
+  "issuer": "CN=emSign Root TLS CA - G3,O=eMudhra Technologies Limited,C=IN",
+  "serial": "6cada367fb1c100088120ea202d568",
+  "not_before": "2025-04-30T16:00:12+00:00",
+  "crl_urls": [
+   "http://crl.emsign.com/?roottlscag3.crl"
+  ],
+  "crls": [
+   {
+    "url": "http://crl.emsign.com/?roottlscag3.crl",
+    "crl_number": 17,
+    "this_update": "2026-10-18T09:38:46+00:00",
+    "next_update": "2027-04-16T09:38:46+00:00",
+    "revoked_at": "2026-10-18T09:37:19+00:00",
+    "reason": "ca_compromise"
+   }
+  ]
+ },
+ {
+  "d": 156,
+  "name": "EM DV TLS CA - G3B",
+  "crtsh_id": 18519019583,
+  "issuer": "CN=AAA Certificate Services,O=Comodo CA Limited,L=Salford,ST=Greater Manchester,C=GB",
+  "serial": "a024fdf4ba665c785ce4a020483858b7",
+  "not_before": "2025-05-14T00:00:00+00:00",
+  "crl_urls": [
+   "http://crl.comodoca.com/AAACertificateServices.crl"
+  ],
+  "crls": [
+   {
+    "url": "http://crl.comodoca.com/AAACertificateServices.crl",
+    "crl_number": 7295,
+    "this_update": "2026-10-30T11:39:56+00:00",
+    "next_update": "2026-11-06T11:39:56+00:00",
+    "revoked_at": "2025-05-14T00:00:00+00:00",
+    "reason": "ca_compromise"
+   }
+  ]
+ },
+ {
+  "d": 156,
+  "name": "EM DV TLS CA - G3B",
+  "crtsh_id": 18286207191,
+  "issuer": "CN=emSign Root TLS CA - G3,O=eMudhra Technologies Limited,C=IN",
+  "serial": "a4aee678f23362b4c0e460b772f214",
+  "not_before": "2025-04-30T15:54:08+00:00",
+  "crl_urls": [
+   "http://crl.emsign.com/?roottlscag3.crl"
+  ],
+  "crls": [
+   {
+    "url": "http://crl.emsign.com/?roottlscag3.crl",
+    "crl_number": 17,
+    "this_update": "2026-10-18T09:38:46+00:00",
+    "next_update": "2027-04-16T09:38:46+00:00",
+    "revoked_at": "2026-10-18T09:24:32+00:00",
+    "reason": "ca_compromise"
+   }
+  ]
+ },
+ {
+  "d": 230,
+  "name": "EM DV TLS CA - G3C",
+  "crtsh_id": 18518842463,
+  "issuer": "CN=AAA Certificate Services,O=Comodo CA Limited,L=Salford,ST=Greater Manchester,C=GB",
+  "serial": "91f347f1a5b7d39962b95e0ee4e299d1",
+  "not_before": "2025-05-14T00:00:00+00:00",
+  "crl_urls": [
+   "http://crl.comodoca.com/AAACertificateServices.crl"
+  ],
+  "crls": [
+   {
+    "url": "http://crl.comodoca.com/AAACertificateServices.crl",
+    "crl_number": 7295,
+    "this_update": "2026-10-30T11:39:56+00:00",
+    "next_update": "2026-11-06T11:39:56+00:00",
+    "revoked_at": "2025-05-14T00:00:00+00:00",
+    "reason": "ca_compromise"
+   }
+  ]
+ },
+ {
+  "d": 230,
+  "name": "EM DV TLS CA - G3C",
+  "crtsh_id": 18286207186,
+  "issuer": "CN=emSign Root TLS CA - G3,O=eMudhra Technologies Limited,C=IN",
+  "serial": "588b2e3c2bb8cda13e1a1209254321",
+  "not_before": "2025-04-30T15:35:09+00:00",
+  "crl_urls": [
+   "http://crl.emsign.com/?roottlscag3.crl"
+  ],
+  "crls": [
+   {
+    "url": "http://crl.emsign.com/?roottlscag3.crl",
+    "crl_number": 17,
+    "this_update": "2026-10-18T09:38:46+00:00",
+    "next_update": "2027-04-16T09:38:46+00:00",
+    "revoked_at": "2026-10-18T09:27:07+00:00",
+    "reason": "ca_compromise"
+   }
+  ]
+ },
+ {
+  "d": 237,
+  "name": "EM OV CS CA - G3C",
+  "crtsh_id": 18519019579,
+  "issuer": "CN=AAA Certificate Services,O=Comodo CA Limited,L=Salford,ST=Greater Manchester,C=GB",
+  "serial": "d6a5ef613b390f32ef9cdf349f772841",
+  "not_before": "2025-05-14T00:00:00+00:00",
+  "crl_urls": [
+   "http://crl.comodoca.com/AAACertificateServices.crl"
+  ],
+  "crls": [
+   {
+    "url": "http://crl.comodoca.com/AAACertificateServices.crl",
+    "crl_number": 7295,
+    "this_update": "2026-10-30T11:39:56+00:00",
+    "next_update": "2026-11-06T11:39:56+00:00",
+    "revoked_at": "2025-05-14T00:00:00+00:00",
+    "reason": "ca_compromise"
+   }
+  ]
+ },
+ {
+  "d": 237,
+  "name": "EM OV CS CA - G3C",
+  "crtsh_id": 18286207185,
+  "issuer": "CN=emSign Root CS CA - G3,O=eMudhra Technologies Limited,C=IN",
+  "serial": "544b7f922c31ae220a4a922916f6e6",
+  "not_before": "2025-04-30T16:38:40+00:00",
+  "crl_urls": [
+   "http://crl.emsign.com/?rootcscag3.crl"
+  ],
+  "crls": [
+   {
+    "url": "http://crl.emsign.com/?rootcscag3.crl",
+    "crl_number": 9,
+    "this_update": "2026-10-18T09:35:24+00:00",
+    "next_update": "2027-04-16T09:35:24+00:00",
+    "revoked_at": "2026-10-18T09:35:24+00:00",
+    "reason": "ca_compromise"
+   }
+  ]
+ }
+]

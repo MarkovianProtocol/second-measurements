@@ -15,5 +15,6 @@ Not papers. When we recompute a public figure for a person or outlet we follow, 
 | epstein-files-2026-10-28.md (+ DOJ pages, count_efta.py) | Whitney Webb, "First Friends": the Epstein Files "2%" (Channel 4, bytes) vs DOJ's own page counts and EFTA page numbers | 13033 |
 | testosterone-nhanes-2026-10-28.md (+ analyze.py, fetch.sh) | Jay Bhattacharya, "under-diagnosed testosterone deficiencies" and the decline: NHANES 1999–2023 testosterone and prescriptions | 13073 |
 | cve-volume-2026-10-30.md (+ gamblin_count.py, counts.json) | Jerry Gamblin, "Volume Vertical, Exploitation Rare": 2026 CVE counts recounted from his NVD mirror and the CVE List, KEV share | 13163 |
+| emudhra-crls-2026-10-30.md (+ spki_census.py, revtimes.py, CRLs) | Ryan Hurst, "The Private Key Was Four": eMudhra weak keys, 16 certificates, CRL revocation times, the CRL 11 gap | 13201 |
 
 Live copies: https://markovianprotocol.com/measurements/notes/

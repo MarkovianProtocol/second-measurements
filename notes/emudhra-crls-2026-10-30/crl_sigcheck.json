@@ -1,0 +1,27 @@
+{
+ "http://crl.comodoca.com/AAACertificateServices.crl": {
+  "crl_issuer": "CN=AAA Certificate Services,O=Comodo CA Limited,L=Salford,ST=Greater Manchester,C=GB",
+  "crl_number": 7295,
+  "this_update": "2026-10-30T11:39:56+00:00",
+  "issuer_certs_matched": 1,
+  "valid_under": [
+   true
+  ]
+ },
+ "http://crl.emsign.com/?roottlscag3.crl": {
+  "crl_issuer": "CN=emSign Root TLS CA - G3,O=eMudhra Technologies Limited,C=IN",
+  "crl_number": 17,
+  "this_update": "2026-10-18T09:38:46+00:00",
+  "issuer_certs_matched": 1,
+  "valid_under": [
+   true
+  ]
+ },
+ "http://crl.emsign.com/?rootcscag3.crl": {
+  "crl_issuer": "CN=emSign Root CS CA - G3,O=eMudhra Technologies Limited,C=IN",
+  "crl_number": 9,
+  "this_update": "2026-10-18T09:35:24+00:00",
+  "issuer_certs_matched": 0,
+  "valid_under": []
+ }
+}
