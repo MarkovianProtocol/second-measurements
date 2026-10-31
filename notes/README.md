@@ -16,5 +16,6 @@ Not papers. When we recompute a public figure for a person or outlet we follow, 
 | testosterone-nhanes-2026-10-28.md (+ analyze.py, fetch.sh) | Jay Bhattacharya, "under-diagnosed testosterone deficiencies" and the decline: NHANES 1999–2023 testosterone and prescriptions | 13073 |
 | cve-volume-2026-10-30.md (+ gamblin_count.py, counts.json) | Jerry Gamblin, "Volume Vertical, Exploitation Rare": 2026 CVE counts recounted from his NVD mirror and the CVE List, KEV share | 13163 |
 | emudhra-crls-2026-10-30.md (+ spki_census.py, revtimes.py, CRLs) | Ryan Hurst, "The Private Key Was Four": eMudhra weak keys, 16 certificates, CRL revocation times, the CRL 11 gap | 13201 |
+| digid-availability-2026-10-30.md (+ Logius archive and calendar, TK answers) | Bert Hubert, "De IT-onmacht van de Nederlandse overheid": DigiD availability with and without maintenance windows; public outage list vs 99.57% | 13230 |
 
 Live copies: https://markovianprotocol.com/measurements/notes/
