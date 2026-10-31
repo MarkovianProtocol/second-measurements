@@ -1,0 +1,568 @@
+[
+ {
+  "pkg": "smart-open-with-s3",
+  "version": "8.0.4",
+  "found": false
+ },
+ {
+  "pkg": "airflow-nomad",
+  "version": "0.2.1",
+  "found": true,
+  "ci": "github",
+  "run": 39442343224,
+  "run_finished": "2026-10-20T16:29:25+00:00",
+  "upload": "2026-10-20 16:29:16.961000+00:00",
+  "upload_minus_finish_s": -8.0,
+  "wait_from_ci_finish_min": 18.9,
+  "wait_from_upload_min": 19.0
+ },
+ {
+  "pkg": "publicsuffixlist",
+  "version": "1.1.2.20261021",
+  "found": true,
+  "ci": "github",
+  "run": 39563336603,
+  "run_finished": "2026-10-21T07:41:04+00:00",
+  "upload": "2026-10-21 07:40:54.350000+00:00",
+  "upload_minus_finish_s": -9.7,
+  "wait_from_ci_finish_min": 44.8,
+  "wait_from_upload_min": 45.0
+ },
+ {
+  "pkg": "torchax",
+  "version": "0.0.13",
+  "found": true,
+  "ci": "github",
+  "run": 39780032183,
+  "run_finished": "2026-10-22T12:40:51+00:00",
+  "upload": "2026-10-22 12:40:41.543000+00:00",
+  "upload_minus_finish_s": -9.5,
+  "wait_from_ci_finish_min": 53.0,
+  "wait_from_upload_min": 53.1
+ },
+ {
+  "pkg": "h3spark",
+  "version": "0.5.0",
+  "found": true,
+  "ci": "github",
+  "run": 39717830676,
+  "run_finished": "2026-10-22T03:40:08+00:00",
+  "upload": "2026-10-22 03:40:01.257000+00:00",
+  "upload_minus_finish_s": -6.7,
+  "wait_from_ci_finish_min": 38.2,
+  "wait_from_upload_min": 38.3
+ },
+ {
+  "pkg": "zerobrew",
+  "version": "0.4.2",
+  "found": true,
+  "ci": "azure",
+  "run": 1613316,
+  "run_finished": "2026-10-21T23:48:08.747750+00:00",
+  "upload": "2026-10-21 23:47:53.754000+00:00",
+  "upload_minus_finish_s": -15.0,
+  "wait_from_ci_finish_min": 31.6,
+  "wait_from_upload_min": 31.9
+ },
+ {
+  "pkg": "copykitten",
+  "version": "2.1.0",
+  "found": true,
+  "ci": "azure",
+  "run": 1610610,
+  "run_finished": "2026-10-17T19:45:05.679730+00:00",
+  "upload": "2026-10-17 19:44:53.511000+00:00",
+  "upload_minus_finish_s": -12.2,
+  "wait_from_ci_finish_min": 25.8,
+  "wait_from_upload_min": 26.0
+ },
+ {
+  "pkg": "pyvae",
+  "version": "1.1.0",
+  "found": true,
+  "ci": "github",
+  "run": 39411425823,
+  "run_finished": "2026-10-20T10:58:38+00:00",
+  "upload": "2026-10-20 10:58:29.670000+00:00",
+  "upload_minus_finish_s": -8.3,
+  "wait_from_ci_finish_min": 40.2,
+  "wait_from_upload_min": 40.4
+ },
+ {
+  "pkg": "diracx-tasks",
+  "version": "0.6.1",
+  "found": false
+ },
+ {
+  "pkg": "ocaml-stdlib-shims",
+  "version": "0.3.0",
+  "found": true,
+  "ci": "github",
+  "run": 39092782348,
+  "run_finished": "2026-10-18T03:16:41+00:00",
+  "upload": "2026-10-18 03:16:32.805000+00:00",
+  "upload_minus_finish_s": -8.2,
+  "wait_from_ci_finish_min": 25.0,
+  "wait_from_upload_min": 25.1
+ },
+ {
+  "pkg": "bmad",
+  "version": "20261021.0",
+  "found": true,
+  "ci": "azure",
+  "run": 1613419,
+  "run_finished": "2026-10-22T04:24:31.881987+00:00",
+  "upload": "2026-10-22 04:11:51.485000+00:00",
+  "upload_minus_finish_s": -760.4,
+  "wait_from_ci_finish_min": -6.2,
+  "wait_from_upload_min": 6.5
+ },
+ {
+  "pkg": "llvm-tools",
+  "version": "23.1.4",
+  "found": false
+ },
+ {
+  "pkg": "libhipblas-common-devel",
+  "version": "7.2.4",
+  "found": false
+ },
+ {
+  "pkg": "conda-forge-ci-setup",
+  "version": "4.29.0",
+  "found": true,
+  "ci": "azure",
+  "run": 1610666,
+  "run_finished": "2026-10-17T21:27:43.037093+00:00",
+  "upload": "2026-10-17 21:27:26.051000+00:00",
+  "upload_minus_finish_s": -17.0,
+  "wait_from_ci_finish_min": 35.1,
+  "wait_from_upload_min": 35.4
+ },
+ {
+  "pkg": "locust-with-mqtt",
+  "version": "2.47.0",
+  "found": false
+ },
+ {
+  "pkg": "usage",
+  "version": "7.1.1",
+  "found": true,
+  "ci": "azure",
+  "run": 1613602,
+  "run_finished": "2026-10-22T11:16:26.836607+00:00",
+  "upload": "2026-10-22 11:16:13.077000+00:00",
+  "upload_minus_finish_s": -13.8,
+  "wait_from_ci_finish_min": 16.8,
+  "wait_from_upload_min": 17.0
+ },
+ {
+  "pkg": "zig_impl_osx-64",
+  "version": "0.17.0",
+  "found": false
+ },
+ {
+  "pkg": "graphatoms",
+  "version": "2.3.0",
+  "found": true,
+  "ci": "github",
+  "run": 39193144624,
+  "run_finished": "2026-10-19T03:09:03+00:00",
+  "upload": "2026-10-19 03:08:56.415000+00:00",
+  "upload_minus_finish_s": -6.6,
+  "wait_from_ci_finish_min": 25.7,
+  "wait_from_upload_min": 25.8
+ },
+ {
+  "pkg": "typst-lilaq",
+  "version": "0.6.0",
+  "found": true,
+  "ci": "github",
+  "run": 39619947103,
+  "run_finished": "2026-10-21T14:48:54+00:00",
+  "upload": "2026-10-21 14:48:42.291000+00:00",
+  "upload_minus_finish_s": -11.7,
+  "wait_from_ci_finish_min": 39.2,
+  "wait_from_upload_min": 39.4
+ },
+ {
+  "pkg": "perplexityai",
+  "version": "0.46.0",
+  "found": true,
+  "ci": "github",
+  "run": 39883131989,
+  "run_finished": "2026-10-23T01:18:25+00:00",
+  "upload": "2026-10-23 01:18:19.214000+00:00",
+  "upload_minus_finish_s": -5.8,
+  "wait_from_ci_finish_min": 31.1,
+  "wait_from_upload_min": 31.1
+ },
+ {
+  "pkg": "bagpy",
+  "version": "2.0.6",
+  "found": false
+ },
+ {
+  "pkg": "nannos",
+  "version": "2.6.5",
+  "found": false
+ },
+ {
+  "pkg": "aws-vault",
+  "version": "7.17.1",
+  "found": true,
+  "ci": "github",
+  "run": 39529139277,
+  "run_finished": "2026-10-21T01:51:00+00:00",
+  "upload": "2026-10-21 01:50:57.161000+00:00",
+  "upload_minus_finish_s": -2.8,
+  "wait_from_ci_finish_min": 30.4,
+  "wait_from_upload_min": 30.5
+ },
+ {
+  "pkg": "harlequin-postgres",
+  "version": "1.5.1",
+  "found": true,
+  "ci": "github",
+  "run": 39596177263,
+  "run_finished": "2026-10-21T12:01:45+00:00",
+  "upload": "2026-10-21 12:01:27.395000+00:00",
+  "upload_minus_finish_s": -17.6,
+  "wait_from_ci_finish_min": 24.3,
+  "wait_from_upload_min": 24.6
+ },
+ {
+  "pkg": "docling-ibm-models",
+  "version": "4.0.4",
+  "found": true,
+  "ci": "github",
+  "run": 39714459372,
+  "run_finished": "2026-10-22T03:01:58+00:00",
+  "upload": "2026-10-22 03:01:50.468000+00:00",
+  "upload_minus_finish_s": -7.5,
+  "wait_from_ci_finish_min": 37.1,
+  "wait_from_upload_min": 37.2
+ },
+ {
+  "pkg": "icu",
+  "version": "79.1",
+  "found": true,
+  "ci": "azure",
+  "run": 1613813,
+  "run_finished": "2026-10-22T18:09:21.428081+00:00",
+  "upload": "2026-10-22 18:08:41.950000+00:00",
+  "upload_minus_finish_s": -39.5,
+  "wait_from_ci_finish_min": 7.8,
+  "wait_from_upload_min": 8.5
+ },
+ {
+  "pkg": "ocaml_osx-arm64",
+  "version": "5.4.1",
+  "found": false
+ },
+ {
+  "pkg": "deply",
+  "version": "1.2.2",
+  "found": true,
+  "ci": "github",
+  "run": 39059394340,
+  "run_finished": "2026-10-17T18:45:21+00:00",
+  "upload": "2026-10-17 18:45:16.613000+00:00",
+  "upload_minus_finish_s": -4.4,
+  "wait_from_ci_finish_min": 47.7,
+  "wait_from_upload_min": 47.8
+ },
+ {
+  "pkg": "go-cgo_linux-riscv64",
+  "version": "1.27.3",
+  "found": false
+ },
+ {
+  "pkg": "fastapi-core",
+  "version": "0.146.0",
+  "found": false
+ },
+ {
+  "pkg": "djangocms-frontend",
+  "version": "2.5.3",
+  "found": true,
+  "ci": "github",
+  "run": 39841385279,
+  "run_finished": "2026-10-22T19:38:37+00:00",
+  "upload": "2026-10-22 19:38:30.130000+00:00",
+  "upload_minus_finish_s": -6.9,
+  "wait_from_ci_finish_min": 44.1,
+  "wait_from_upload_min": 44.2
+ },
+ {
+  "pkg": "robotframework-robocop-with-tests",
+  "version": "9.1.2",
+  "found": false
+ },
+ {
+  "pkg": "onnxruntime-novec-cpp",
+  "version": "1.31.0",
+  "found": false
+ },
+ {
+  "pkg": "libllvm-c23",
+  "version": "23.1.4",
+  "found": false
+ },
+ {
+  "pkg": "openinference-instrumentation-llama-index",
+  "version": "4.6.1",
+  "found": true,
+  "ci": "github",
+  "run": 40042996633,
+  "run_finished": "2026-10-24T00:06:14+00:00",
+  "upload": "2026-10-24 00:06:09.071000+00:00",
+  "upload_minus_finish_s": -4.9,
+  "wait_from_ci_finish_min": 79.2,
+  "wait_from_upload_min": 79.2
+ },
+ {
+  "pkg": "ocaml_linux-s390x",
+  "version": "5.5.1",
+  "found": false
+ },
+ {
+  "pkg": "radarx",
+  "version": "0.5.1",
+  "found": true,
+  "ci": "azure",
+  "run": 1610879,
+  "run_finished": "2026-10-18T12:13:32.264475+00:00",
+  "upload": "2026-10-18 12:13:09.091000+00:00",
+  "upload_minus_finish_s": -23.2,
+  "wait_from_ci_finish_min": 16.4,
+  "wait_from_upload_min": 16.8
+ },
+ {
+  "pkg": "rplibs",
+  "version": "6.9.7",
+  "found": true,
+  "ci": "github",
+  "run": 39658987784,
+  "run_finished": "2026-10-21T19:12:15+00:00",
+  "upload": "2026-10-21 19:12:06.884000+00:00",
+  "upload_minus_finish_s": -8.1,
+  "wait_from_ci_finish_min": 36.5,
+  "wait_from_upload_min": 36.7
+ },
+ {
+  "pkg": "edrixs",
+  "version": "0.2.0",
+  "found": true,
+  "ci": "azure",
+  "run": 1613035,
+  "run_finished": "2026-10-21T17:32:32.676558+00:00",
+  "upload": "2026-10-21 17:32:23.820000+00:00",
+  "upload_minus_finish_s": -8.9,
+  "wait_from_ci_finish_min": 24.9,
+  "wait_from_upload_min": 25.0
+ },
+ {
+  "pkg": "office2pdf",
+  "version": "0.9.1",
+  "found": true,
+  "ci": "github",
+  "run": 39123568817,
+  "run_finished": "2026-10-18T11:58:47+00:00",
+  "upload": "2026-10-18 11:58:41.441000+00:00",
+  "upload_minus_finish_s": -5.6,
+  "wait_from_ci_finish_min": 31.1,
+  "wait_from_upload_min": 31.2
+ },
+ {
+  "pkg": "mcstas-data",
+  "version": "3.9.2",
+  "found": false
+ },
+ {
+  "pkg": "graphed-executors",
+  "version": "0.0.3",
+  "found": true,
+  "ci": "github",
+  "run": 39336792721,
+  "run_finished": "2026-10-19T22:44:00+00:00",
+  "upload": "2026-10-19 22:43:52.138000+00:00",
+  "upload_minus_finish_s": -7.9,
+  "wait_from_ci_finish_min": 54.0,
+  "wait_from_upload_min": 54.1
+ },
+ {
+  "pkg": "sphericart-torch",
+  "version": "2.0.4",
+  "found": false
+ },
+ {
+  "pkg": "libcvcuda-tests",
+  "version": "0.19.0",
+  "found": false
+ },
+ {
+  "pkg": "systemd-pydantic",
+  "version": "0.1.1",
+  "found": true,
+  "ci": "github",
+  "run": 39441452151,
+  "run_finished": "2026-10-20T14:42:40+00:00",
+  "upload": "2026-10-20 14:42:30.223000+00:00",
+  "upload_minus_finish_s": -9.8,
+  "wait_from_ci_finish_min": 50.6,
+  "wait_from_upload_min": 50.8
+ },
+ {
+  "pkg": "typeline",
+  "version": "3.0.1",
+  "found": true,
+  "ci": "azure",
+  "run": 1612025,
+  "run_finished": "2026-10-20T16:06:09.311667+00:00",
+  "upload": "2026-10-20 16:05:45.137000+00:00",
+  "upload_minus_finish_s": -24.2,
+  "wait_from_ci_finish_min": 42.1,
+  "wait_from_upload_min": 42.5
+ },
+ {
+  "pkg": "hugo",
+  "version": "0.168.0",
+  "found": true,
+  "ci": "azure",
+  "run": 1613856,
+  "run_finished": "2026-10-22T19:54:34.829537+00:00",
+  "upload": "2026-10-22 19:54:20.914000+00:00",
+  "upload_minus_finish_s": -13.9,
+  "wait_from_ci_finish_min": 28.1,
+  "wait_from_upload_min": 28.4
+ },
+ {
+  "pkg": "rpptx-cli",
+  "version": "0.14.3",
+  "found": false
+ },
+ {
+  "pkg": "avito-sdk",
+  "version": "0.4.1",
+  "found": true,
+  "ci": "github",
+  "run": 39150750555,
+  "run_finished": "2026-10-18T17:43:01+00:00",
+  "upload": "2026-10-18 17:42:51.978000+00:00",
+  "upload_minus_finish_s": -9.0,
+  "wait_from_ci_finish_min": 35.5,
+  "wait_from_upload_min": 35.7
+ },
+ {
+  "pkg": "ruff",
+  "version": "0.17.2",
+  "found": true,
+  "ci": "azure",
+  "run": 1613897,
+  "run_finished": "2026-10-22T21:20:43.978486+00:00",
+  "upload": "2026-10-22 21:20:21.206000+00:00",
+  "upload_minus_finish_s": -22.8,
+  "wait_from_ci_finish_min": 24.2,
+  "wait_from_upload_min": 24.5
+ },
+ {
+  "pkg": "kedro-skills",
+  "version": "0.2.0",
+  "found": true,
+  "ci": "github",
+  "run": 39334401885,
+  "run_finished": "2026-10-19T22:23:23+00:00",
+  "upload": "2026-10-19 22:23:15.112000+00:00",
+  "upload_minus_finish_s": -7.9,
+  "wait_from_ci_finish_min": 36.1,
+  "wait_from_upload_min": 36.2
+ },
+ {
+  "pkg": "netgen-lvs",
+  "version": "1.5.325",
+  "found": true,
+  "ci": "github",
+  "run": 39466106837,
+  "run_finished": "2026-10-20T17:28:27+00:00",
+  "upload": "2026-10-20 17:28:09.896000+00:00",
+  "upload_minus_finish_s": -17.1,
+  "wait_from_ci_finish_min": 35.1,
+  "wait_from_upload_min": 35.4
+ },
+ {
+  "pkg": "go-cgo_linux-aarch64",
+  "version": "1.27.3",
+  "found": false
+ },
+ {
+  "pkg": "rabbitmq-server",
+  "version": "4.4.0",
+  "found": true,
+  "ci": "azure",
+  "run": 1611268,
+  "run_finished": "2026-10-19T13:27:42.187596+00:00",
+  "upload": "2026-10-19 13:27:20.415000+00:00",
+  "upload_minus_finish_s": -21.8,
+  "wait_from_ci_finish_min": 37.0,
+  "wait_from_upload_min": 37.4
+ },
+ {
+  "pkg": "pycfit",
+  "version": "1.1.1",
+  "found": true,
+  "ci": "github",
+  "run": 39680944213,
+  "run_finished": "2026-10-21T21:44:11+00:00",
+  "upload": "2026-10-21 21:44:05.049000+00:00",
+  "upload_minus_finish_s": -6.0,
+  "wait_from_ci_finish_min": 46.7,
+  "wait_from_upload_min": 46.8
+ },
+ {
+  "pkg": "cif2hkl",
+  "version": "1.5.1",
+  "found": true,
+  "ci": "azure",
+  "run": 1612994,
+  "run_finished": "2026-10-21T16:35:17.799125+00:00",
+  "upload": "2026-10-21 16:35:03.460000+00:00",
+  "upload_minus_finish_s": -14.3,
+  "wait_from_ci_finish_min": 44.2,
+  "wait_from_upload_min": 44.4
+ },
+ {
+  "pkg": "lfx-ibm",
+  "version": "0.3.0",
+  "found": false
+ },
+ {
+  "pkg": "cappa",
+  "version": "0.33.0",
+  "found": true,
+  "ci": "github",
+  "run": 39068545840,
+  "run_finished": "2026-10-17T20:53:40+00:00",
+  "upload": "2026-10-17 20:53:35.710000+00:00",
+  "upload_minus_finish_s": -4.3,
+  "wait_from_ci_finish_min": 31.8,
+  "wait_from_upload_min": 31.9
+ },
+ {
+  "pkg": "libresolve-robotics-uri-cpp",
+  "version": "0.6.0",
+  "found": false
+ },
+ {
+  "pkg": "py-rattler",
+  "version": "0.28.0",
+  "found": true,
+  "ci": "github",
+  "run": 39947894902,
+  "run_finished": "2026-10-23T12:22:31+00:00",
+  "upload": "2026-10-23 12:21:22.460000+00:00",
+  "upload_minus_finish_s": -68.5,
+  "wait_from_ci_finish_min": 26.4,
+  "wait_from_upload_min": 27.6
+ }
+]
