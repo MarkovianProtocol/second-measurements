@@ -1,0 +1,123 @@
+{
+ "versions": 527331,
+ "with_registry_deps": 400457,
+ "unresolved": 107673,
+ "share": 0.2042,
+ "unresolved_prerelease_versions": 51656,
+ "unresolved_only_via_dependencies": 81247,
+ "by_kind": {
+  "d": 81247,
+  "p": 17527,
+  "d+p": 4798,
+  "o": 3871,
+  "d+o": 173,
+  "o+p": 46,
+  "d+o+p": 11
+ },
+ "by_reason": {
+  "not yet published": 101131,
+  "no such package": 5427,
+  "no satisfying version": 3789,
+  "workspace": 631
+ },
+ "resolved_later": 98428,
+ "never_resolved": 9245,
+ "wait_minutes": {
+  "median": 1.4,
+  "p90": 6.17,
+  "p96": 12.38,
+  "p99": 42.52,
+  "max": 5618.3,
+  "le_5": 85601,
+  "le_60": 97977
+ },
+ "by_utc_day": {
+  "2026-10-26": {
+   "versions": 103540,
+   "unresolved": 19653,
+   "share": 0.1898
+  },
+  "2026-10-27": {
+   "versions": 108077,
+   "unresolved": 23092,
+   "share": 0.2137
+  },
+  "2026-10-28": {
+   "versions": 106195,
+   "unresolved": 21749,
+   "share": 0.2048
+  },
+  "2026-10-29": {
+   "versions": 109745,
+   "unresolved": 22141,
+   "share": 0.2017
+  },
+  "2026-10-30": {
+   "versions": 99774,
+   "unresolved": 21038,
+   "share": 0.2109
+  }
+ },
+ "top_scopes": [
+  [
+   "@teambit",
+   2405
+  ],
+  [
+   "@open-mercato",
+   2157
+  ],
+  [
+   "@stacksjs",
+   1578
+  ],
+  [
+   "@cleartrip",
+   1537
+  ],
+  [
+   "@domicile-desktop",
+   1490
+  ],
+  [
+   "@clerk",
+   1421
+  ],
+  [
+   "@cedarjs",
+   1237
+  ],
+  [
+   "@paperclipai",
+   961
+  ],
+  [
+   "@bitgo-beta",
+   932
+  ],
+  [
+   "@agimon-ai",
+   925
+  ],
+  [
+   "@opencode",
+   902
+  ],
+  [
+   "@veryfront",
+   902
+  ],
+  [
+   "@elliemae",
+   831
+  ],
+  [
+   "@happyvertical",
+   792
+  ],
+  [
+   "@webiny",
+   789
+  ]
+ ]
+}
