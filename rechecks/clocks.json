@@ -270,9 +270,9 @@
    "page": "sm-022.html",
    "asked": "conda-forge and Anaconda, on conda/infrastructure#1280",
    "sent": "2026-10-31",
-   "reply": null,
+   "reply": "2026-11-03",
    "closed": null,
-   "next": "Closes when the sync cycle gets back near 15 minutes, or the docs change to match it."
+   "next": "Closes when uploads reach the CDN in about 15 to 20 minutes (Anaconda's target, end of November); the weekly recount will see it."
   }
  ]
 }
