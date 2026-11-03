@@ -1,0 +1,97 @@
+{
+ "note": "One entry per recurring public number. Each cycle = one recount, newest last. verdict: holds | close | differs. Written by hand when a recount ships; recounts.py renders measurements/recounts.html.",
+ "people": [
+  {
+   "id": "krebs",
+   "name": "Brian Krebs",
+   "venue": "KrebsOnSecurity",
+   "cadence": "monthly, Patch Tuesday",
+   "next": "10 Nov",
+   "cycles": [
+    {
+     "date": "2026-10-27",
+     "claim": "Microsoft Patches More Than 1,400 Security Flaws",
+     "quoted": false,
+     "claim_date": "13 Oct",
+     "source": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+     "theirs": "1,400+",
+     "theirs_sub": "October fixes",
+     "ours": "1,415",
+     "ours_sub": "Microsoft CVEs on Patch Tuesday, from Microsoft's own update data",
+     "verdict": "holds",
+     "verdict_note": "every count in the post",
+     "note": "notes/msrc-patch-counts-2026-10-27.md"
+    }
+   ]
+  },
+  {
+   "id": "gamblin",
+   "name": "Jerry Gamblin",
+   "venue": "CVE.icu",
+   "cadence": "monthly",
+   "next": "the December update",
+   "cycles": [
+    {
+     "date": "2026-10-30",
+     "claim": "CVEs published in 2026 through September",
+     "quoted": false,
+     "claim_date": "monthlyCVEStats, 1 Oct",
+     "source": "https://github.com/jgamblin/monthlyCVEStats",
+     "theirs": "72,812",
+     "theirs_sub": "from NVD",
+     "ours": "72,800",
+     "ours_sub": "72,801 from the CVE List, a second source",
+     "verdict": "holds",
+     "verdict_note": "within 12; 2026 passed all of 2025 on 10 Aug",
+     "note": "notes/cve-volume-2026-10-30.md"
+    }
+   ]
+  },
+  {
+   "id": "pot",
+   "name": "Evert Pot",
+   "venue": "vlt",
+   "cadence": "when it’s published",
+   "next": null,
+   "cycles": [
+    {
+     "date": "2026-10-31",
+     "claim": "22% of those (38,995) landed on the registry with a dependency that could not be resolved",
+     "quoted": true,
+     "claim_date": "27 Oct",
+     "source": "https://vlt.io/blog/consistent-ish-graph",
+     "theirs": "22%",
+     "theirs_sub": "of 175,891 new npm versions in a day",
+     "ours": "20.4%",
+     "ours_sub": "of 527,331 over 26–30 Oct; 19.0–21.4% each day",
+     "verdict": "holds",
+     "verdict_note": "our daily volume is lower, 100–110k",
+     "note": "notes/npm-unresolved-deps-2026-10-31.md"
+    }
+   ]
+  },
+  {
+   "id": "stenberg",
+   "name": "Daniel Stenberg",
+   "venue": "curl",
+   "cadence": "each release",
+   "next": "when curl next ships",
+   "cycles": [
+    {
+     "date": "2026-10-26",
+     "claim": "We have only published two CVEs with severity HIGH since 2021",
+     "quoted": true,
+     "claim_date": "7 Oct",
+     "source": "https://daniel.haxx.se/blog/2026/10/07/twenty-two-pending-curl-vulnerabilities/",
+     "theirs": "2",
+     "theirs_sub": "HIGH by curl’s rating, plus one announced in the same post",
+     "ours": "3",
+     "ours_sub": "by curl’s records, counting that one; CISA’s scores put 55 at HIGH or CRITICAL",
+     "verdict": "holds",
+     "verdict_note": "the CVSS gap in the post holds too",
+     "note": "notes/curl-cvss-2026-10-26.md"
+    }
+   ]
+  }
+ ]
+}

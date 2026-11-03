@@ -34,3 +34,5 @@ How long the wait was, for the 107,673:
 Not covered: transitive dependencies (the post's hold looks at those; we check direct dependencies only); delay between publication and availability (npm's scanning and CDN; we use the publish time on both sides); the 24 hours the post was written in, which we can't place exactly.
 
 Files: recount.js (fetch and count; needs Node and npm's bundled semver), analyze.py (the tables), analysis.json, summary.json, rows.jsonl.gz (each new version with its unresolved dependencies and the time the first satisfying version appeared), ids.txt.gz (the 154,043 packages read), SHA256SUMS.
+
+Part of the [recounts](https://markovianprotocol.com/measurements/recounts.html#pot): this number, recounted each time it is published.

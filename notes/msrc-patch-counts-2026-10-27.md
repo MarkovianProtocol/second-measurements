@@ -25,3 +25,5 @@ Our path: Microsoft's monthly security update documents (MSRC CVRF API, api.msrc
 Not covered: why the monthly count rose tenfold this year; the 2020 figure depends on which IDs are counted (ours: CVE-2020 IDs only).
 
 Files: analyze.py, rows.csv (every CVE with assigner, severity, first published date), analyze_output_2026-10-27.txt, SHA256SUMS of the API documents as read.
+
+Part of the [recounts](https://markovianprotocol.com/measurements/recounts.html#krebs): this number, recounted each time it is published.
