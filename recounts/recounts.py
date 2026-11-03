@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """Recounts: one card per recurring public number someone we read publishes, beside our recount of it.
 Reads recounts.json; writes recounts.html with the head, nav and footer of a measurement page.
-Usage: python3 -I recounts.py recounts.json TEMPLATE_PAGE OUT.html"""
+Usage: python3 -I recounts.py recounts.json TEMPLATE_PAGE OUT.html [ROWS.jsonl]   (ROWS: one row per recount, for the HF dataset)"""
 import datetime, html, json, re, sys
 
 DATA, TPL, OUT = sys.argv[1], sys.argv[2], sys.argv[3]
+ROWS = sys.argv[4] if len(sys.argv) > 4 else None
 E = html.escape
 day = lambda d: (lambda x: f"{x.day} {x.strftime('%b')}")(datetime.date.fromisoformat(d))
 VD = {"holds": ("good", "✓", "Holds"), "close": ("pend", "≈", "Close"), "differs": ("bad", "✗", "Differs")}
@@ -71,4 +72,12 @@ head = re.sub(r'(<meta property="og:description" content=")[^"]*', lambda m: m.g
 nav = T[T.find("</head>"):T.find('<main class="paper">')]
 foot = T[T.find("<footer>"):]
 open(OUT, "w").write(head + CSS + nav + body + "\n" + foot)
-print("wrote", OUT, "|", len(cards), "cards")
+if ROWS:
+    with open(ROWS, "w") as fh:
+        for p in json.load(open(DATA))["people"]:
+            for c in p["cycles"]:
+                fh.write(json.dumps({"person": p["name"], "venue": p["venue"], "cadence": p["cadence"], "recounted": c["date"],
+                    "claim": c["claim"], "claim_source": c["source"], "their_figure": c["theirs"], "their_figure_detail": c["theirs_sub"],
+                    "our_recount": c["ours"], "our_recount_detail": c["ours_sub"], "verdict": c["verdict"], "verdict_note": c["verdict_note"],
+                    "note": "https://markovianprotocol.com/measurements/" + c["note"]}, ensure_ascii=False) + "\n")
+print("wrote", OUT, "|", len(cards), "cards" + (f" | rows -> {ROWS}" if ROWS else ""))
