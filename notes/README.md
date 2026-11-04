@@ -18,5 +18,6 @@ Not papers. When we recompute a public figure for a person or outlet we follow, 
 | emudhra-crls-2026-10-30.md (+ spki_census.py, revtimes.py, CRLs) | Ryan Hurst, "The Private Key Was Four": eMudhra weak keys, 16 certificates, CRL revocation times, the CRL 11 gap | 13201 |
 | digid-availability-2026-10-30.md (+ Logius archive and calendar, TK answers) | Bert Hubert, "De IT-onmacht van de Nederlandse overheid": DigiD availability with and without maintenance windows; public outage list vs 99.57% | 13230 |
 | npm-unresolved-deps-2026-10-31.md (+ recount.js, rows, package list) | Evert Pot, "A consistent(-ish) npm dependency graph": new npm versions published before a dependency existed, 26–30 Oct; 20.4% vs the post's 22% | 13291 |
+| cve-volume-2026-11-04.md (+ counts, script) | Jerry Gamblin, monthlyCVEStats October 2026: 17,060 vs our 17,059 from NVD and the CVE List; YTD 89,859 vs 89,857/89,858; second recount | 13541 |
 
 Live copies: https://markovianprotocol.com/measurements/notes/

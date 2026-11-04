@@ -44,6 +44,20 @@
      "verdict": "holds",
      "verdict_note": "within 12; 2026 passed all of 2025 on 10 Aug",
      "note": "notes/cve-volume-2026-10-30.md"
+    },
+    {
+     "date": "2026-11-04",
+     "claim": "CVEs published in October 2026",
+     "quoted": false,
+     "claim_date": "monthlyCVEStats, 1 Nov",
+     "source": "https://github.com/jgamblin/monthlyCVEStats",
+     "theirs": "17,060",
+     "theirs_sub": "October, from NVD; 89,859 for the year",
+     "ours": "17,059",
+     "ours_sub": "from NVD and from the CVE List alike; 89,857 and 89,858 for the year",
+     "verdict": "holds",
+     "verdict_note": "within one; October is the largest month on record",
+     "note": "notes/cve-volume-2026-11-04.md"
     }
    ]
   },
