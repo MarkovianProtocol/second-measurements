@@ -78,18 +78,21 @@ def log_signed(p, keys):
 def run(state, vantage, logs):
     keys = vkeys(); now = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
     obs_p = os.path.join(state, "observations.jsonl"); seen_p = os.path.join(state, "seen.json")
-    seen = json.load(open(seen_p)) if os.path.exists(seen_p) else {}   # origin -> {size: [root, first_source, first_time, note]}
+    seen = json.load(open(seen_p)) if os.path.exists(seen_p) else {}   # origin -> {size: [root, first_source, first_time, note, [sources]]}
+    for s_ in seen.values():  # 5 Nov 2026: sources were "log"/"witness"; logs are now tagged with their vantage
+        for v in s_.values():
+            if len(v) > 4: v[4] = ["log@hetzner-helsinki" if x == "log" else x for x in v[4]]
     new, errs, forks = [], [], []
     def record(origin, p, note, src):
         _, size, root, _, sigs = p; s = seen.setdefault(origin, {}); k = str(size)
         cos = sorted({n for n, _, _ in sigs if n != origin})
-        kind = src.split("@")[0].split(":")[0]  # "log" or "witness"
+        kind = src.split(":")[0] if src.startswith("witness") else src  # "witness" or "log@<vantage>"
         if k not in s:
-            s[k] = [root, src, now, note, [kind]]; new.append({"t": now, "log": origin, "size": size, "root": root, "src": src, "vantage": vantage, "cosigners": cos})
+            s[k] = [root, src, now, note, [kind]]; new.append({"t": now, "log": origin, "size": size, "root": root, "src": src, "vantage": src.split("@", 1)[1] if src.startswith("log@") else vantage, "cosigners": cos})
         elif s[k][0] != root:
             forks.append((origin, size, s[k], [root, src, now, note]))
         elif kind not in s[k][4]:
-            s[k][4].append(kind); new.append({"t": now, "log": origin, "size": size, "root": root, "src": src, "vantage": vantage, "cosigners": cos, "agrees_with": s[k][1]})
+            s[k][4].append(kind); new.append({"t": now, "log": origin, "size": size, "root": root, "src": src, "vantage": src.split("@", 1)[1] if src.startswith("log@") else vantage, "cosigners": cos, "agrees_with": s[k][1]})
     for origin, url in logs:
         h = hashlib.sha256(origin.encode()).hexdigest()
         try:
@@ -104,6 +107,15 @@ def run(state, vantage, logs):
                 n = json.loads(line)["note"]; p = parse(n)
                 if p and p[0] == origin and log_signed(p, keys): record(origin, p, n, "witness:markovianprotocol.com")
         except Exception as e: errs.append(f"{origin}: witness history {repr(e)[:90]}")
+    inbox = os.path.join(state, "inbox")  # checkpoints fetched elsewhere (fetch mode below), one JSON per fetch
+    if os.path.isdir(inbox):
+        for fn in sorted(os.listdir(inbox)):
+            fp = os.path.join(inbox, fn)
+            try:
+                r = json.load(open(fp)); p = parse(r["note"])
+                if p and p[0] == r["origin"] and log_signed(p, keys): record(r["origin"], p, r["note"], f"log@{r['vantage']}")
+            except Exception as e: errs.append(f"inbox {fn}: {repr(e)[:80]}")
+            os.remove(fp)
     with open(obs_p, "a") as f:
         for r in new: f.write(json.dumps(r) + "\n")
     os.makedirs(os.path.join(state, "forks"), exist_ok=True)
@@ -131,12 +143,12 @@ def page(state, site):
                     f'<td>{"not reachable last run" if o in bad else "ok"}</td></tr>')
     desc = "Each log our witness follows, checked every hour: at every size where two of our signed observations meet, did the log give the same root?"
     body = (f'<main class="paper sameview"><h1>Same view?</h1>\n<p>{E(desc)} An observation is a checkpoint carrying the log&rsquo;s own valid '
-            'signature, read either from the log as any reader sees it or from what our witness cosigned. Two signed checkpoints at one size with '
+            'signature, read from the log as any reader sees it (hourly from a datacenter in Helsinki and from a home connection in Colorado) or from what our witness cosigned. Two signed checkpoints at one size with '
             'different roots would be a fork the log signed; we would publish both here. This cannot see a split aimed only at readers we never are, '
             f'or a fork between sizes we never both saw. We don&rsquo;t ask the other witnesses what they signed: the spec&rsquo;s endpoint for that (c2sp.org/tlog-witness, added 1 July 2026) is not yet in litewitness or omniwitness, the programs most witnesses run, so ours is the only one that answers. Witness names on a checkpoint are recorded as written; only the log&rsquo;s signature is verified. '
             f'Running since {first}; last run {E(last["t"])}. Script: <a href="sameview/splitview.py">splitview.py</a>; every observation: '
             '<a href="sameview/observations.jsonl">observations.jsonl</a>.</p>\n'
-            '<div class="tw"><table>\n<tr><th>Log</th><th>Sizes seen</th><th>Sizes where the log&rsquo;s own copy met our witness&rsquo;s, and agreed</th><th>Range</th><th>Forks</th><th>Last run</th></tr>\n'
+            '<div class="tw"><table>\n<tr><th>Log</th><th>Sizes seen</th><th>Sizes seen from two places, agreeing</th><th>Range</th><th>Forks</th><th>Last run</th></tr>\n'
             + "\n".join(rows) + '\n</table></div>\n</main>')
     T = open(os.path.join(site, "sm-026.html"), encoding="utf-8").read()
     head = T[:T.find("</head>")].replace("sm-026.html", "sameview.html").replace("cards/sm-026.png", "cards/recounts.png")
@@ -160,8 +172,21 @@ def logs_from(poll_json):
         elif v["type"] == "sigsum" and b: out.append((origin, b.rstrip("/") + "/get-tree-head"))
     return out
 
+def fetch(outdir, vantage, logs):
+    """Second-vantage mode: fetch each log's checkpoint as this machine sees it; write one JSON per log for the main run's inbox."""
+    os.makedirs(outdir, exist_ok=True); keys = vkeys(); t = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ"); n = 0
+    for origin, url in logs:
+        try: note = sigsum_note(origin, url, keys) if url.endswith("/get-tree-head") else get(url).decode()
+        except Exception: continue
+        fn = f"{t}_{vantage}_{hashlib.sha256(origin.encode()).hexdigest()[:16]}.json"
+        json.dump({"origin": origin, "note": note, "vantage": vantage, "t": t}, open(os.path.join(outdir, fn), "w")); n += 1
+    print("fetched", n, "->", outdir)
+
 if __name__ == "__main__":
     st = sys.argv[1]; os.makedirs(st, exist_ok=True); a = sys.argv
+    if "--fetch" in a:
+        logs = json.load(open(a[a.index("--logs") + 1])) if "--logs" in a else logs_from(a[a.index("--poll") + 1])
+        fetch(st, a[a.index("--vantage") + 1], logs); sys.exit()
     vantage = a[a.index("--vantage") + 1] if "--vantage" in a else "hetzner-helsinki"
     poll = a[a.index("--poll") + 1] if "--poll" in a else "/home/mkv/markovian/witness/poll_logs.json"
     seen, new, forks, errs = run(st, vantage, logs_from(poll))
