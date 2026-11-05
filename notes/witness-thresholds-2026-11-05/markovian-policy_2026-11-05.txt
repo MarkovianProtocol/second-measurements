@@ -1,0 +1,55 @@
+# Trust policy for markovianprotocol.com/log (c2sp.org/tlog-policy)
+#
+# A checkpoint is valid if it is signed by the log and cosigned by at
+# least 4 of the 7 pinned witnesses below -- the same quorum the log's
+# own standing monitor enforces (github.com/MarkovianProtocol/log-monitor).
+# Every key below was collected from the witness operator's own published
+# key page, not from this log.
+#
+# Honest note: little-garden and ring-any-bells are both operated by
+# TrustFabric (Google). The 4-of-7 quorum cannot be met by any single
+# operator's keys alone.
+#
+# A signature under this log's own origin name (markovianprotocol.com/log)
+# never counts toward the witness quorum, whatever its algorithm. The log
+# signs its own checkpoints with Ed25519 and ML-DSA-44; those lines
+# authenticate the checkpoint, they are not witness cosignatures.
+#
+# Witnesses may cosign this log without appearing below, and some do. A
+# cosignature from a witness that is not pinned here carries NO quorum weight:
+# the quorum is counted only over the keys in this file. As of 2026-10-05 there
+# are two such witnesses.
+#
+# gblin.digital/witness
+# (gblin.digital/witness+c335a002+BF54nC8Q1wHAlKirQexRC5phxjLtbEhcq8udv8TXPwXx,
+# published at https://gblin-mcp.gblin-mcp-worker.workers.dev/witness) has
+# cosigned since 2026-08-18.
+#
+# whisper.online/witness has cosigned since 2026-10-03. Both of its servers
+# sign with one key,
+# whisper.online/witness+25aef676+BMXtkY/wfbHppAEEBMs0x9NdEEYZi3kj8JZMvy/28JWI,
+# published at https://whisper.online/ledger/witness/key. We switched to it on
+# 2026-10-22; the earlier per-server keys (ns1 6a58da87, ns2 8116f75c) are
+# retired. It is one witness and counts once.
+#
+# So a reader who counts more witness names on /checkpoint than the 7 keys
+# here is seeing the real state, not a stale file.
+#
+# These are unpinned by rule, not oversight: the pinned set is fixed by the signed
+# trust-root manifest (/.well-known/trust-root.json, v2), and changing it means
+# a v3 manifest signed under the offline manifest key plus an in-log
+# trust-root-manifest/v1 leaf. Until that rotation, this file and the manifest
+# agree at 7, and the quorum stays 4 of those 7.
+
+log markovianprotocol.com/log+0302c6c8+ATkpOWo95UuEiW2EhNZAol4f0CS8hMluJfPcTSzrr03v
+
+witness stagemole witness.stagemole.eu+67f7aea0+BEqSG3yu9YrmcM3BHvQYTxwFj3uSWakQepafafpUqklv
+witness little-garden transparency.dev/DEV:witness-little-garden+d8042a87+BCtusOxINQNUTN5Oj8HObRkh2yHf/MwYaGX4CPdiVEPM
+witness ring-any-bells staging.witness.transparency.goog/ring-any-bells+2e1a8dc9+BG5JTpLc3FJtwzgh1Uv+Qelz9qeOH2bfWjS1s0s+y4rL
+witness rgdd rgdd.se/poc-witness+db03732e+BCjJKlo6BU0xfIb8LutqerIFTWIXEA0L5n3tW3QyPFgG
+witness smartit witness1.smartit.nu/witness1+a48c820f+BPSFWg9G6KPiO7QPryYO5Xq4oYJJ+kAvLKLSimDhoxMO
+witness remora remora.n621.de+da77ade7+BOvN63jn/bLvkieywe8R6UYAtVtNbZpXh34x7onlmtw2
+witness navigli witness.navigli.sunlight.geomys.org+a3e00fe2+BNy/co4C1Hn1p+INwJrfUlgz7W55dSZReusH/GhUhJ/G
+
+group independent-witnesses 4 stagemole little-garden ring-any-bells rgdd smartit remora navigli
+quorum independent-witnesses
