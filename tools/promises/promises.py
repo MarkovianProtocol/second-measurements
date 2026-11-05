@@ -16,7 +16,7 @@ import datetime as dt, hashlib, html, json, os, re, sys, urllib.request
 HOME = os.path.expanduser("~")
 SITE = os.environ.get("PROMISES_SITE", "/home/mkv/websync/site/measurements")
 OUT = os.path.join(SITE, "promises"); RAW = os.path.join(HOME, "claimwatch", "raw")
-IDX = os.path.join(OUT, "index.json"); LOG = os.environ.get("PROMISES_LOG", "https://log.markovianprotocol.com/submit")
+IDX = os.path.join(HOME, "claimwatch", "promises_index.json"); PUB = os.path.join(OUT, "index.json"); LOG = os.environ.get("PROMISES_LOG", "https://log.markovianprotocol.com/submit")
 
 def text_of(s):
     s = re.sub(r"(?s)<!--.*?-->", " ", s)
@@ -31,6 +31,8 @@ def load():
 
 def save(ix):
     os.makedirs(OUT, exist_ok=True); tmp = IDX + ".tmp"; json.dump(ix, open(tmp, "w"), indent=1); os.replace(tmp, IDX)
+    pub = {"entries": {k: e for k, e in ix["entries"].items() if os.path.exists(os.path.join(SITE, e["paper"].lower() + ".html"))}}
+    json.dump(pub, open(PUB + ".tmp", "w"), indent=1); os.replace(PUB + ".tmp", PUB)  # the public index lists published papers only
 
 def stamp(sha):
     req = urllib.request.Request(LOG, data=f"sha256:{sha}".encode(), method="POST", headers={"User-Agent": "markovian-promises"})
@@ -66,7 +68,8 @@ def retry(ix):
 def page(ix):
     E = html.escape; T = open(os.path.join(SITE, "sm-026.html"), encoding="utf-8").read()
     rows = []
-    for k, e in sorted(ix["entries"].items(), key=lambda kv: (kv[1]["paper"], kv[1]["label"])):
+    live = lambda e: os.path.exists(os.path.join(SITE, e["paper"].lower() + ".html"))  # unpublished papers: copies are kept and stamped, not listed
+    for k, e in sorted(((k, e) for k, e in ix["entries"].items() if live(e)), key=lambda kv: (kv[1]["paper"], kv[1]["label"])):
         sn = e["snaps"]; last = sn[-1]
         when = lambda s: f'{s["t"][:4]}-{s["t"][4:6]}-{s["t"][6:8]} {s["t"][9:11]}:{s["t"][11:13]}Z'
         leaf = lambda s: f'<a href="https://log.markovianprotocol.com/leaf/{s["leaf"]}">leaf {s["leaf"]}</a>' if s.get("leaf") is not None else "stamp pending"
@@ -74,11 +77,11 @@ def page(ix):
         rows.append(f'<tr id="{E(k)}"><td class="o"><a href="{E(e["paper"].lower())}.html">{E(e["paper"])}</a></td>'
                     f'<td><a href="{E(e["url"])}">{E(e["label"])}</a></td><td>{len(sn)}</td>'
                     f'<td><details><summary>{when(last)} · {leaf(last)}</summary><ul>{hist}</ul></details></td></tr>')
-    n = sum(len(e["snaps"]) for e in ix["entries"].values())
+    n = sum(len(e["snaps"]) for e in ix["entries"].values() if live(e))
     desc = "Every page where a promise we measured lives, copied and stamped in our witnessed log each time it changes."
     body = (f'<main class="paper promises"><h1>Promise snapshots</h1>\n<p>{desc} The copy is the page&rsquo;s visible text. '
             f'To check one, hash the file and find the hash at its leaf. To re-take one, run <a href="promises/promises.py">promises.py</a>&rsquo;s '
-            f'<code>text_of</code> on the live page. {len(ix["entries"])} pages, {n} snapshots, checked every 3 hours.</p>\n'
+            f'<code>text_of</code> on the live page. {sum(1 for e in ix["entries"].values() if live(e))} pages, {n} snapshots, checked every 3 hours.</p>\n'
             '<div class="tw"><table>\n<tr><th>Paper</th><th>Page</th><th>Copies</th><th>Newest (open for all)</th></tr>\n' + "\n".join(rows) + '\n</table></div>\n</main>')
     head = T[:T.find("</head>")].replace("sm-026.html", "promises.html").replace("cards/sm-026.png", "cards/recounts.png")
     head = re.sub(r"<title>.*?</title>", "<title>Promise snapshots — Markovian Protocol</title>", head, flags=re.S)
