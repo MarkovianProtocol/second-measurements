@@ -133,7 +133,7 @@ def page(state, site):
     body = (f'<main class="paper sameview"><h1>Same view?</h1>\n<p>{E(desc)} An observation is a checkpoint carrying the log&rsquo;s own valid '
             'signature, read either from the log as any reader sees it or from what our witness cosigned. Two signed checkpoints at one size with '
             'different roots would be a fork the log signed; we would publish both here. This cannot see a split aimed only at readers we never are, '
-            f'or a fork between sizes we never both saw. Witness names on a checkpoint are recorded as written; only the log&rsquo;s signature is verified. '
+            f'or a fork between sizes we never both saw. We don&rsquo;t ask the other witnesses what they signed: the spec&rsquo;s endpoint for that (c2sp.org/tlog-witness, added 1 July 2026) is not yet in litewitness or omniwitness, the programs most witnesses run, so ours is the only one that answers. Witness names on a checkpoint are recorded as written; only the log&rsquo;s signature is verified. '
             f'Running since {first}; last run {E(last["t"])}. Script: <a href="sameview/splitview.py">splitview.py</a>; every observation: '
             '<a href="sameview/observations.jsonl">observations.jsonl</a>.</p>\n'
             '<div class="tw"><table>\n<tr><th>Log</th><th>Sizes seen</th><th>Sizes where the log&rsquo;s own copy met our witness&rsquo;s, and agreed</th><th>Range</th><th>Forks</th><th>Last run</th></tr>\n'
