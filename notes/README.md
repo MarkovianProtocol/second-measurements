@@ -20,5 +20,6 @@ Not papers. When we recompute a public figure for a person or outlet we follow, 
 | npm-unresolved-deps-2026-10-31.md (+ recount.js, rows, package list) | Evert Pot, "A consistent(-ish) npm dependency graph": new npm versions published before a dependency existed, 26–30 Oct; 20.4% vs the post's 22% | 13291 |
 | cve-volume-2026-11-04.md (+ counts, script) | Jerry Gamblin, monthlyCVEStats October 2026: 17,060 vs our 17,059 from NVD and the CVE List; YTD 89,859 vs 89,857/89,858; second recount | 13541 |
 | ai-productivity-2026-11-07.md (+ calc.py, alt.py, results.csv, BEA/BLS data) | John Burn-Murdoch (FT), AI and US productivity thread, 2 Nov: all three hold; inside tech, jobs below trend give 14.5 of 18.8 points; across three sectors the tech shortfall is ≈ 1/7 | 13835 (v1 13834) |
+| jobless-claims-2026-11-07.md (+ analyze.py, results.txt, FRED data) | Wolf Richter (Wolf Street), initial claims lowest since 1969, 5 Nov: holds; per payroll job a record since 1967 (12.2 per 10,000 vs 25.5 in 1969); continued-claims "only 2018–19 and post-Covid" misses 1970–73 in raw counts, holds as a rate | 13858 |
 
 Live copies: https://markovianprotocol.com/measurements/notes/
