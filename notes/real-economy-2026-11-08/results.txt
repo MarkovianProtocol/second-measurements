@@ -1,0 +1,12 @@
+PPI final demand (PPIFIS, SA): Sep 2026 vs Aug 1.34%, vs Sep 2025 6.35%
+CPI-U all items: Sep 2026 vs Sep 2025 3.72% (SA), 3.74% (NSA)
+CPI gasoline (SA): Sep vs Aug 9.09%, vs Sep 2025 34.17%
+Freddie Mac 30-yr: latest before 19 Oct ('2026-10-15', 7.4) | 2026 high ('2026-10-08', 7.4) | last week at or above 7.5 ('2023-11-09', 7.5)
+Equities (direct+indirect) / financial assets: latest 2026-04-01 48.23%; 1945Q4 22.51%; all-time low 1982-04-01 9.50%; previous high 2025-10-01 45.42%
+1984 quarters: [('1984-01-01', 11.45), ('1984-04-01', 10.55), ('1984-07-01', 10.87), ('1984-10-01', 10.73)] | 1982: [('1982-01-01', 9.99), ('1982-04-01', 9.5), ('1982-07-01', 9.99), ('1982-10-01', 11.63)]
+Equity share at past peaks (highest quarter of each year), with $ held:
+  1968-10-01 30.00% $0.9T
+  2000-01-01 38.71% $13.7T
+  2007-04-01 33.51% $17.7T
+  2021-10-01 40.98% $48.4T
+  2026-04-01 48.23% $74.0T (latest)
