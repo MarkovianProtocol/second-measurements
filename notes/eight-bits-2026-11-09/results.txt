@@ -1,0 +1,17 @@
+EM OV TLS CA - G3C         issuer=AAA Certificate Services   notBefore=2025-05-14 notAfter=2028-12-31 d=4 search=3.29 ms
+EM OV TLS CA - G3C         issuer=emSign Root TLS CA - G3    notBefore=2025-04-30 notAfter=2040-04-28 d=4 search=3.21 ms
+EM EV TLS CA - G3C         issuer=AAA Certificate Services   notBefore=2025-05-14 notAfter=2028-12-31 d=56 search=46.11 ms
+EM EV TLS CA - G3C         issuer=emSign Root TLS CA - G3    notBefore=2025-04-30 notAfter=2040-04-28 d=56 search=45.11 ms
+EM OV CS CA - G3B          issuer=AAA Certificate Services   notBefore=2025-05-14 notAfter=2028-12-31 d=66 search=54.68 ms
+EM OV CS CA - G3B          issuer=emSign Root CS CA - G3     notBefore=2025-04-30 notAfter=2040-04-28 d=66 search=53.61 ms
+EM EV TLS CA - G3B         issuer=AAA Certificate Services   notBefore=2025-05-14 notAfter=2028-12-31 d=115 search=94.43 ms
+EM EV TLS CA - G3B         issuer=emSign Root TLS CA - G3    notBefore=2025-04-30 notAfter=2040-04-28 d=115 search=93.85 ms
+EM OV TLS CA - G3B         issuer=AAA Certificate Services   notBefore=2025-05-14 notAfter=2028-12-31 d=155 search=128.09 ms
+EM OV TLS CA - G3B         issuer=emSign Root TLS CA - G3    notBefore=2025-04-30 notAfter=2040-04-28 d=155 search=126.37 ms
+EM DV TLS CA - G3B         issuer=AAA Certificate Services   notBefore=2025-05-14 notAfter=2028-12-31 d=156 search=127.75 ms
+EM DV TLS CA - G3B         issuer=emSign Root TLS CA - G3    notBefore=2025-04-30 notAfter=2040-04-28 d=156 search=127.19 ms
+EM DV TLS CA - G3C         issuer=AAA Certificate Services   notBefore=2025-05-14 notAfter=2028-12-31 d=230 search=188.75 ms
+EM DV TLS CA - G3C         issuer=emSign Root TLS CA - G3    notBefore=2025-04-30 notAfter=2040-04-28 d=230 search=187.90 ms
+EM OV CS CA - G3C          issuer=AAA Certificate Services   notBefore=2025-05-14 notAfter=2028-12-31 d=237 search=194.05 ms
+EM OV CS CA - G3C          issuer=emSign Root CS CA - G3     notBefore=2025-04-30 notAfter=2040-04-28 d=237 search=193.08 ms
+certs: 16 | distinct keys: 8 | max d: 237 | slowest search 194.05 ms, total 1667.5 ms

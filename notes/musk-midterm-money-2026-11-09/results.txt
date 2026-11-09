@@ -1,0 +1,18 @@
+Direct contributions (non-memo), 67 rows, 1 Jan 2025 - 2026-10-14: $407.40M
+  AMERICA PAC                        $177.72M
+  SLF PAC                            $168.00M
+  CLF                                $30.00M
+  LONE STAR LIBERTY PAC              $10.00M
+  FIGHT FOR KENTUCKY                 $10.00M
+  V-PAC: VICTORS, NOT VICTIMS        $5.00M
+  MAGA INC.                          $5.00M
+  AURORA ACTION NETWORK              $1.50M
+  candidate committees etc.          $0.18M (25 committees)
+In-kind to America PAC attributed to Musk via a partnership (memo lines): $38.26M in 24 lines
+Other memo lines (earmark/split notes, already in the totals above or duplicates): 32, $0.00M
+Total incl. in-kind attributions: $445.66M
+Through the pre-general reports (latest receipt 2026-10-14); post-general reports covering 15 Oct - 23 Nov are due 3 Dec.
+Texas PAC (C00960211) receipts: [('2026-09-10', 'SLF PAC,', 75000000.0), ('2026-09-24', 'SLF PAC,', 83000000.0)]
+Musk -> Senate Leadership Fund: [('2025-06-27', 5000000.0), ('2025-12-15', 5000000.0), ('2026-09-09', 75000000.0), ('2026-09-23', 83000000.0)]
+Pro-Paxton / anti-Talarico independent spending, 24/48-hour reports, by committee ($M): {'TEXAS PAC': 181.74, 'AMERICA PAC': 47.26, 'MAGA INC.': 37.65, 'LONE STAR LIBERTY PAC': 36.59, 'DEFEND US PAC': 18.72, 'NO GOING BACK PAC INC.': 5.62, 'TRUTH AND COURAGE PAC': 3.72, 'NRA VICTORY FUND, INC.': 2.13}
+Paxton campaign committee receipts, cycle to 2026-10-14: $22.33M

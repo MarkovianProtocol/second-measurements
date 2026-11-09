@@ -23,5 +23,8 @@ Not papers. When we recompute a public figure for a person or outlet we follow, 
 | jobless-claims-2026-11-07.md (+ analyze.py, results.txt, FRED data) | Wolf Richter (Wolf Street), initial claims lowest since 1969, 5 Nov: holds; per payroll job a record since 1967 (12.2 per 10,000 vs 25.5 in 1969); continued-claims "only 2018–19 and post-Covid" misses 1970–73 in raw counts, holds as a rate | 13858 |
 | real-economy-2026-11-08.md (+ analyze.py, results.txt, FRED data) | Matt Stoller (BIG), 19 Oct round-up: households hold 48.2% of financial assets in stocks vs 38.7% at the Q1 2000 dot-com top; 5 of 7 numbers hold; PPI 6.3% is 12-month, record low is 9.5% in 1982 | 13919 |
 | october-jobs-2026-11-08.md (+ analyze.py, results.txt, FRED/ALFRED data) | E.J. Antoni (Heritage), Townhall 7 Nov, October jobs report: every figure holds (165k, 249k with revisions, household +1.44M since July vs payrolls +411k) | 13922 |
+| debt-vs-deficit-2026-11-09.md (+ analyze.py, Treasury API data) | Peter Schiff, 3 Nov show: FY2026 debt +$2.53T vs deficit $1.99T, both hold; the $542B gap is $387B trust funds, $93B cash, $62B other | 13931 |
+| musk-midterm-money-2026-11-09.md (+ fetch scripts, FEC API data) | Robert Reich / NYT / AP: Musk federal giving $445.7M through 14 Oct (AP matches); Reich's $168M Texas Senate holds via SLF→Texas PAC | 13932 |
+| eight-bits-2026-11-09.md (+ analyze.py, 16 certificates) | Scott Helme, eMudhra eight-bit keys: all 8 keys and dates hold; trust ends Dec 2028 (Sectigo/AAA), not July 2039 | 13933 |
 
 Live copies: https://markovianprotocol.com/measurements/notes/
