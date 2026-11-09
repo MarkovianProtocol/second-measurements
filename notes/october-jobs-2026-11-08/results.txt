@@ -1,0 +1,10 @@
+Payrolls Oct: +165 k
+Revisions: Aug +53 k, Sep +84 k; Oct level minus Sep level as first published: +249 k
+Household employment: Oct +463 k, since Jul +1438 k | payrolls since Jul +411 k
+Participation Jul-Oct ['61.4', '61.6', '61.8', '61.9'] | emp-pop ['58.9', '59.1', '59.2', '59.3']
+Full-time: Oct +714 k, since Jul +1537 k | part-time: Oct -242 k, since Jul -260 k
+Multiple jobholders Oct -181 k
+Private +159 k of +165 k = 96.4%; government +6 k (federal -1, state +8, local -1)
+Manufacturing Oct 12681 k; last month at or above: ('2024-12', 12693.0); Jan 2023 12903 k -> Dec 2025 12580 k
+Bachelor+ employed (25+): Oct +422 k, since Jul +2035 k
+Q3 payroll gain per month: first published 51 k, current 79 k

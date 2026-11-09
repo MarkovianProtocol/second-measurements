@@ -22,5 +22,6 @@ Not papers. When we recompute a public figure for a person or outlet we follow, 
 | ai-productivity-2026-11-07.md (+ calc.py, alt.py, results.csv, BEA/BLS data) | John Burn-Murdoch (FT), AI and US productivity thread, 2 Nov: all three hold; inside tech, jobs below trend give 14.5 of 18.8 points; across three sectors the tech shortfall is ≈ 1/7 | 13835 (v1 13834) |
 | jobless-claims-2026-11-07.md (+ analyze.py, results.txt, FRED data) | Wolf Richter (Wolf Street), initial claims lowest since 1969, 5 Nov: holds; per payroll job a record since 1967 (12.2 per 10,000 vs 25.5 in 1969); continued-claims "only 2018–19 and post-Covid" misses 1970–73 in raw counts, holds as a rate | 13858 |
 | real-economy-2026-11-08.md (+ analyze.py, results.txt, FRED data) | Matt Stoller (BIG), 19 Oct round-up: households hold 48.2% of financial assets in stocks vs 38.7% at the Q1 2000 dot-com top; 5 of 7 numbers hold; PPI 6.3% is 12-month, record low is 9.5% in 1982 | 13919 |
+| october-jobs-2026-11-08.md (+ analyze.py, results.txt, FRED/ALFRED data) | E.J. Antoni (Heritage), Townhall 7 Nov, October jobs report: every figure holds (165k, 249k with revisions, household +1.44M since July vs payrolls +411k) | 13922 |
 
 Live copies: https://markovianprotocol.com/measurements/notes/
