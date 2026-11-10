@@ -1,0 +1,1632 @@
+{
+  "id" : "3q5t-ddp8",
+  "name" : "2024 General Election Mail Ballot Requests Department of State NO FURTHER UPDATES",
+  "assetType" : "dataset",
+  "attribution" : "Department of State",
+  "averageRating" : 0,
+  "category" : "Government Efficiency & Citizen Engagement",
+  "createdAt" : 1725651807,
+  "description" : "This dataset describes the current state of mail ballot requests for the 2024 General Election. It’s a <b>snapshot in time</b> of the current volume of ballot requests across the Commonwealth. The file contains all mail ballot requests except ballot applications that are declined as duplicate. <b>The final version of this data was pulled on 1/24/2025.</b> \n\nThis point-in-time transactional data is being published for informational purposes to provide detailed data pertaining to the processing of absentee and mail-in ballots by county election offices. This data is extracted once per day from the Statewide Uniform Registry of Electors (SURE system), and it reflects activity recorded by the counties in the SURE system at the time of the data extraction.\n\nPlease note that county election offices will continue to process ballot applications (as applicable), record ballots, reconcile ballot data, and make corrections when necessary, and this will continue through, and even after, Election Day. Administrative practices for recording transactions in the system will vary by county. For example, some counties record individual transactions as they occur, while others record transactions in batches at specific intervals. These activities may result in substantial changes to a county's reported data from one day to the next. County practices also differ on when cancelled ballot data is entered into the database (i.e., before or after the election). Some counties do not enter cancelled ballot data entirely.\n\n<b>Additional notes specific to this dataset:</b>\n• Counties can enter cancellation codes without entering a ballot returned date.\n• Some cancellation codes are a result of administrative processes, meaning the ballot was never mailed to the voter before it was cancelled (e.g., there was an error when the label was printed).\n• Confidential and protected voters are not included in this file.\n• Counties can only enter one cancel code per ballot, even if there are multiple errors. Different counties may vary in what code they choose to use when this arises, or they may choose to use the catch-all category of 'CANC - OTHER'.\n\n<b>Type of data included in this file: </b>\nThis data includes all mail ballot applications processed by counties, which includes voters on the permanent mail-in and absentee ballot lists. Multiple rows in this data may correspond to the same voter if they submitted more than one application or had a(n) cancelled ballot(s). A deidentified voter ID has been provided to allow data users to identify when rows correspond to the same voter. This ID is randomized and cannot be used to match to SURE, the Full Voter Export, or previous iterations of the Statewide Mail Ballot File.\nAll application types in this file are considered a type of mail ballot. Some of the applications are considered UOCAVA (Uniformed and Overseas Citizens Absentee Voting Act) or UMOVA (Uniform Military and Overseas Voters Act) ballots. These are listed below:\n\n•\tCRI - Civilian - Remote/Isolated\n•\tCVO - Civilian Overseas\n•\tF - Federal (Unregistered)\n•\tM - Military\n•\tMRI - Military - Remote/Isolated\n•\tV - Veteran\n•\tBV - Bedridden Veteran\n•\tBVRI - Bedridden Veteran - Remote/Isolated\n*We may not have all application types in the file for every election.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 1244,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "licenseId" : "USGOV_WORKS",
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 41267331,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1744663703,
+  "publicationGroup" : 19646460,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1744661581,
+  "tableId" : 19856008,
+  "totalTimesRated" : 0,
+  "viewCount" : 3816,
+  "viewLastModified" : 1751554719,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1729193875,
+    "reviewedAutomatically" : false,
+    "state" : "approved",
+    "submissionId" : 6845799,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1729193858,
+    "targetAudience" : "public",
+    "workflowId" : 2176,
+    "reviewer" : {
+      "id" : "s9q8-jynp",
+      "displayName" : "John Long"
+    },
+    "submissionDetails" : {
+      "permissionType" : "read"
+    },
+    "submissionOutcomeApplication" : {
+      "endedAt" : 1729193875,
+      "failureCount" : 0,
+      "startedAt" : 1729193875,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "s9q8-jynp",
+      "displayName" : "John Long"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 608811320,
+    "name" : "County Name",
+    "dataTypeName" : "text",
+    "description" : "This identifies the county of registration.  ",
+    "fieldName" : "countyname",
+    "position" : 1,
+    "renderTypeName" : "text",
+    "tableColumnId" : 154781916,
+    "cachedContents" : {
+      "non_null" : "2404091",
+      "largest" : "YORK",
+      "null" : "0",
+      "top" : [ {
+        "item" : "ALLEGHENY",
+        "count" : "278074"
+      }, {
+        "item" : "PHILADELPHIA",
+        "count" : "258715"
+      }, {
+        "item" : "MONTGOMERY",
+        "count" : "212282"
+      }, {
+        "item" : "BUCKS",
+        "count" : "166494"
+      }, {
+        "item" : "CHESTER",
+        "count" : "135794"
+      }, {
+        "item" : "DELAWARE",
+        "count" : "110137"
+      }, {
+        "item" : "LANCASTER",
+        "count" : "80534"
+      }, {
+        "item" : "YORK",
+        "count" : "79069"
+      }, {
+        "item" : "NORTHAMPTON",
+        "count" : "70345"
+      }, {
+        "item" : "LEHIGH",
+        "count" : "70173"
+      }, {
+        "item" : "WESTMORELAND",
+        "count" : "67967"
+      }, {
+        "item" : "LUZERNE",
+        "count" : "65003"
+      }, {
+        "item" : "BERKS",
+        "count" : "63293"
+      }, {
+        "item" : "CUMBERLAND",
+        "count" : "51002"
+      }, {
+        "item" : "DAUPHIN",
+        "count" : "49466"
+      }, {
+        "item" : "ERIE",
+        "count" : "48396"
+      }, {
+        "item" : "LACKAWANNA",
+        "count" : "38431"
+      }, {
+        "item" : "BUTLER",
+        "count" : "37804"
+      }, {
+        "item" : "WASHINGTON",
+        "count" : "35498"
+      }, {
+        "item" : "MONROE",
+        "count" : "34183"
+      } ],
+      "smallest" : "ADAMS",
+      "count" : "2404091",
+      "cardinality" : "67"
+    },
+    "format" : { }
+  }, {
+    "id" : 608811321,
+    "name" : "Party",
+    "dataTypeName" : "text",
+    "description" : "The voter’s party as indicated on their application. The following are the possible values of this field:  • DEM: Democratic • REP: Republican  • LIB: Libertarian  • GRN: Green  • OTH: Other/Independent ",
+    "fieldName" : "party",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 154781914,
+    "cachedContents" : {
+      "non_null" : "2404091",
+      "largest" : "REP",
+      "null" : "0",
+      "top" : [ {
+        "item" : "DEM",
+        "count" : "1320991"
+      }, {
+        "item" : "REP",
+        "count" : "769430"
+      }, {
+        "item" : "OTH",
+        "count" : "302104"
+      }, {
+        "item" : "LIB",
+        "count" : "8148"
+      }, {
+        "item" : "GRN",
+        "count" : "3418"
+      } ],
+      "smallest" : "DEM",
+      "count" : "2404091",
+      "cardinality" : "5"
+    },
+    "format" : { }
+  }, {
+    "id" : 608811322,
+    "name" : "Date of Birth",
+    "dataTypeName" : "text",
+    "description" : "Voter’s Month and Year of Birth in MM/YYYY format  ",
+    "fieldName" : "dateofbirth",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 154781912,
+    "cachedContents" : {
+      "non_null" : "2404090",
+      "largest" : "2006-11",
+      "null" : "1",
+      "top" : [ {
+        "item" : "1954-09",
+        "count" : "4813"
+      }, {
+        "item" : "1956-09",
+        "count" : "4781"
+      }, {
+        "item" : "1956-08",
+        "count" : "4765"
+      }, {
+        "item" : "1954-07",
+        "count" : "4748"
+      }, {
+        "item" : "1957-08",
+        "count" : "4695"
+      }, {
+        "item" : "1955-10",
+        "count" : "4688"
+      }, {
+        "item" : "1957-07",
+        "count" : "4683"
+      }, {
+        "item" : "1957-10",
+        "count" : "4680"
+      }, {
+        "item" : "1956-07",
+        "count" : "4675"
+      }, {
+        "item" : "1954-08",
+        "count" : "4663"
+      }, {
+        "item" : "1953-07",
+        "count" : "4661"
+      }, {
+        "item" : "1952-07",
+        "count" : "4654"
+      }, {
+        "item" : "1952-10",
+        "count" : "4652"
+      }, {
+        "item" : "1956-10",
+        "count" : "4641"
+      }, {
+        "item" : "1957-05",
+        "count" : "4612"
+      }, {
+        "item" : "1951-09",
+        "count" : "4608"
+      }, {
+        "item" : "1957-01",
+        "count" : "4605"
+      }, {
+        "item" : "1957-09",
+        "count" : "4604"
+      }, {
+        "item" : "1954-10",
+        "count" : "4592"
+      }, {
+        "item" : "1955-07",
+        "count" : "4574"
+      } ],
+      "smallest" : "1800-01",
+      "count" : "2404091",
+      "cardinality" : "1082"
+    },
+    "format" : { }
+  }, {
+    "id" : 608811323,
+    "name" : "Mail Application Type",
+    "dataTypeName" : "text",
+    "description" : "The mail ballot application type. The following are the possible values for this field.<br>•\tAlt - Alternative ballot (voters who are disabled or at least 65 years of age where the polling place may not be fully accessible)<br>•\tBV - Bedridden Veteran<br>•\tBVRI - Bedridden Veteran - Remote/Isolated<br>•\tC - Emergency Absentee ballot application<br>•\tCIV - Civilian absentee submitted via paper<br>•\tCRI - Overseas voter - Remote/Isolated<br>•\tCVO - Overseas voter<br>•\tF - Federal voter (voter is eligible to vote in federal races only)<br>•\tM - Military<br>•\tMAILIN - Mail-in submitted via paper<br>•\tMRI - Military - Remote/Isolated<br>•\tOLMAILV - Mail-in submitted online<br>•\tOLMAILNV - Mail-In submitted online where ID verification did not occur or was not successful at the time of submission<br>•\tOLREGV - Absentee submitted online<br>•\tOLREGNV - Absentee submitted online where ID verification did not occur or was not successful at the time of submission.<br>•\tPER - Absentee where applicant has requested permanent status<br>•\tPMI - Mail-in where applicant has requested permanent status<br>•\tREG - Absentee submitted via paper<br>•\tV - Veteran<br><br><i>Note: An application is designated as NV (not verified) if the county was unable to verify the application via the ID verification process prior to approving the application. <b><u>The voter will still be required to present proof of identification before their ballot may be counted.</u></b> However, even if the voter subsequently verifies their ID, the application will still be marked as NV in the SURE system. For example, a ballot application would be marked as NV if it is a new application and the provided ID was not able to be immediately verified.</i>",
+    "fieldName" : "mailapplicationtype",
+    "position" : 4,
+    "renderTypeName" : "text",
+    "tableColumnId" : 154781910,
+    "cachedContents" : {
+      "non_null" : "2404091",
+      "largest" : "V",
+      "null" : "0",
+      "top" : [ {
+        "item" : "MAILIN",
+        "count" : "1199705"
+      }, {
+        "item" : "OLMAILV",
+        "count" : "765448"
+      }, {
+        "item" : "OLMAILNV",
+        "count" : "358234"
+      }, {
+        "item" : "REG",
+        "count" : "18629"
+      }, {
+        "item" : "F",
+        "count" : "16304"
+      }, {
+        "item" : "OLREGV",
+        "count" : "15549"
+      }, {
+        "item" : "CVO",
+        "count" : "13592"
+      }, {
+        "item" : "M",
+        "count" : "7695"
+      }, {
+        "item" : "C",
+        "count" : "4572"
+      }, {
+        "item" : "OLREGNV",
+        "count" : "3471"
+      }, {
+        "item" : "CIV",
+        "count" : "605"
+      }, {
+        "item" : "CRI",
+        "count" : "101"
+      }, {
+        "item" : "BV",
+        "count" : "96"
+      }, {
+        "item" : "MRI",
+        "count" : "55"
+      }, {
+        "item" : "ALT",
+        "count" : "25"
+      }, {
+        "item" : "PMI",
+        "count" : "5"
+      }, {
+        "item" : "PER",
+        "count" : "4"
+      }, {
+        "item" : "V",
+        "count" : "1"
+      } ],
+      "smallest" : "ALT",
+      "count" : "2404091",
+      "cardinality" : "18"
+    },
+    "format" : { }
+  }, {
+    "id" : 608811324,
+    "name" : "Application Request Date",
+    "dataTypeName" : "calendar_date",
+    "description" : "The date the application was submitted by the voter. ",
+    "fieldName" : "appissuedate",
+    "position" : 5,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 154781908,
+    "cachedContents" : {
+      "non_null" : "2404081",
+      "largest" : "2024-12-02T00:00:00.000",
+      "null" : "10",
+      "top" : [ {
+        "item" : "2024-10-29T00:00:00.000",
+        "count" : "66019"
+      }, {
+        "item" : "2024-08-09T00:00:00.000",
+        "count" : "54079"
+      }, {
+        "item" : "2024-10-28T00:00:00.000",
+        "count" : "54060"
+      }, {
+        "item" : "2024-10-25T00:00:00.000",
+        "count" : "45846"
+      }, {
+        "item" : "2024-10-23T00:00:00.000",
+        "count" : "44284"
+      }, {
+        "item" : "2024-10-24T00:00:00.000",
+        "count" : "41242"
+      }, {
+        "item" : "2024-10-22T00:00:00.000",
+        "count" : "36617"
+      }, {
+        "item" : "2024-10-26T00:00:00.000",
+        "count" : "35526"
+      }, {
+        "item" : "2024-10-15T00:00:00.000",
+        "count" : "33146"
+      }, {
+        "item" : "2024-10-16T00:00:00.000",
+        "count" : "31375"
+      }, {
+        "item" : "2024-10-17T00:00:00.000",
+        "count" : "31374"
+      }, {
+        "item" : "2024-02-14T00:00:00.000",
+        "count" : "30995"
+      }, {
+        "item" : "2024-10-10T00:00:00.000",
+        "count" : "29483"
+      }, {
+        "item" : "2024-02-12T00:00:00.000",
+        "count" : "29101"
+      }, {
+        "item" : "2024-10-21T00:00:00.000",
+        "count" : "29098"
+      }, {
+        "item" : "2024-10-14T00:00:00.000",
+        "count" : "27862"
+      }, {
+        "item" : "2024-10-18T00:00:00.000",
+        "count" : "27373"
+      }, {
+        "item" : "2024-02-09T00:00:00.000",
+        "count" : "26048"
+      }, {
+        "item" : "2024-10-11T00:00:00.000",
+        "count" : "25939"
+      }, {
+        "item" : "2024-02-08T00:00:00.000",
+        "count" : "25803"
+      } ],
+      "smallest" : "1933-12-06T00:00:00.000",
+      "count" : "2404091",
+      "cardinality" : "367"
+    },
+    "format" : {
+      "view" : "date"
+    }
+  }, {
+    "id" : 608811325,
+    "name" : "Application Approved Date",
+    "dataTypeName" : "calendar_date",
+    "description" : "The date the application was approved by the county. ",
+    "fieldName" : "appreturndate",
+    "position" : 6,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 154781906,
+    "cachedContents" : {
+      "non_null" : "2404081",
+      "largest" : "2024-12-02T00:00:00.000",
+      "null" : "10",
+      "top" : [ {
+        "item" : "2024-10-29T00:00:00.000",
+        "count" : "66021"
+      }, {
+        "item" : "2024-08-09T00:00:00.000",
+        "count" : "54079"
+      }, {
+        "item" : "2024-10-28T00:00:00.000",
+        "count" : "54059"
+      }, {
+        "item" : "2024-10-25T00:00:00.000",
+        "count" : "45846"
+      }, {
+        "item" : "2024-10-23T00:00:00.000",
+        "count" : "44277"
+      }, {
+        "item" : "2024-10-24T00:00:00.000",
+        "count" : "41241"
+      }, {
+        "item" : "2024-10-22T00:00:00.000",
+        "count" : "36620"
+      }, {
+        "item" : "2024-10-26T00:00:00.000",
+        "count" : "35529"
+      }, {
+        "item" : "2024-10-15T00:00:00.000",
+        "count" : "33147"
+      }, {
+        "item" : "2024-10-17T00:00:00.000",
+        "count" : "31376"
+      }, {
+        "item" : "2024-10-16T00:00:00.000",
+        "count" : "31375"
+      }, {
+        "item" : "2024-02-14T00:00:00.000",
+        "count" : "30995"
+      }, {
+        "item" : "2024-10-10T00:00:00.000",
+        "count" : "29495"
+      }, {
+        "item" : "2024-02-12T00:00:00.000",
+        "count" : "29101"
+      }, {
+        "item" : "2024-10-21T00:00:00.000",
+        "count" : "29096"
+      }, {
+        "item" : "2024-10-14T00:00:00.000",
+        "count" : "27861"
+      }, {
+        "item" : "2024-10-18T00:00:00.000",
+        "count" : "27372"
+      }, {
+        "item" : "2024-02-09T00:00:00.000",
+        "count" : "26048"
+      }, {
+        "item" : "2024-10-11T00:00:00.000",
+        "count" : "25938"
+      }, {
+        "item" : "2024-02-08T00:00:00.000",
+        "count" : "25803"
+      } ],
+      "smallest" : "1933-12-06T00:00:00.000",
+      "count" : "2404091",
+      "cardinality" : "367"
+    },
+    "format" : {
+      "view" : "date"
+    }
+  }, {
+    "id" : 608811326,
+    "name" : "Ballot Mailed Date",
+    "dataTypeName" : "text",
+    "description" : "The date the county queued a ballot label to mail the ballot materials to the voter. This column may be updated when the county indicates they have mailed the ballot. If the county has not mailed the ballot or does not indicate the ballot was mailed, the date in which the ballot label was queued will remain. This data may be updated based on county data entry, not necessarily when the ballot is scanned by USPS. There can be delays between when the ballot is mailed and the entry of the Ballot Mailed Date. ",
+    "fieldName" : "ballotsentdate",
+    "position" : 7,
+    "renderTypeName" : "text",
+    "tableColumnId" : 154781905,
+    "cachedContents" : {
+      "non_null" : "2226220",
+      "largest" : "2027-10-22",
+      "null" : "177871",
+      "top" : [ {
+        "item" : "2024-09-24",
+        "count" : "246529"
+      }, {
+        "item" : "2024-10-02",
+        "count" : "181503"
+      }, {
+        "item" : "2024-09-26",
+        "count" : "172312"
+      }, {
+        "item" : "2024-10-07",
+        "count" : "139129"
+      }, {
+        "item" : "2024-09-30",
+        "count" : "132227"
+      }, {
+        "item" : "2024-10-01",
+        "count" : "128364"
+      }, {
+        "item" : "2024-10-04",
+        "count" : "120315"
+      }, {
+        "item" : "2024-10-10",
+        "count" : "84793"
+      }, {
+        "item" : "2024-10-11",
+        "count" : "80380"
+      }, {
+        "item" : "2024-10-28",
+        "count" : "70342"
+      }, {
+        "item" : "2024-10-09",
+        "count" : "64806"
+      }, {
+        "item" : "2024-09-27",
+        "count" : "54898"
+      }, {
+        "item" : "2024-10-25",
+        "count" : "51695"
+      }, {
+        "item" : "2024-10-15",
+        "count" : "51576"
+      }, {
+        "item" : "2024-10-08",
+        "count" : "49146"
+      }, {
+        "item" : "2024-10-21",
+        "count" : "46875"
+      }, {
+        "item" : "2024-10-29",
+        "count" : "46783"
+      }, {
+        "item" : "2024-10-23",
+        "count" : "43499"
+      }, {
+        "item" : "2024-10-24",
+        "count" : "38199"
+      }, {
+        "item" : "2024-10-30",
+        "count" : "37779"
+      } ],
+      "smallest" : "2022-10-02",
+      "count" : "2404091",
+      "cardinality" : "127"
+    },
+    "format" : { }
+  }, {
+    "id" : 608811327,
+    "name" : "Ballot Returned Date",
+    "dataTypeName" : "text",
+    "description" : "The date the county marked the ballot as received. ",
+    "fieldName" : "ballotreturneddate",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 154781903,
+    "cachedContents" : {
+      "non_null" : "1980976",
+      "largest" : "2025-01-22",
+      "null" : "423115",
+      "top" : [ {
+        "item" : "2024-10-21",
+        "count" : "131414"
+      }, {
+        "item" : "2024-10-17",
+        "count" : "102336"
+      }, {
+        "item" : "2024-10-15",
+        "count" : "99538"
+      }, {
+        "item" : "2024-10-18",
+        "count" : "96016"
+      }, {
+        "item" : "2024-11-04",
+        "count" : "87356"
+      }, {
+        "item" : "2024-10-07",
+        "count" : "83402"
+      }, {
+        "item" : "2024-10-23",
+        "count" : "83345"
+      }, {
+        "item" : "2024-11-05",
+        "count" : "83246"
+      }, {
+        "item" : "2024-10-09",
+        "count" : "81133"
+      }, {
+        "item" : "2024-10-29",
+        "count" : "78989"
+      }, {
+        "item" : "2024-10-28",
+        "count" : "78194"
+      }, {
+        "item" : "2024-10-24",
+        "count" : "78090"
+      }, {
+        "item" : "2024-10-30",
+        "count" : "74344"
+      }, {
+        "item" : "2024-10-22",
+        "count" : "72731"
+      }, {
+        "item" : "2024-10-10",
+        "count" : "70414"
+      }, {
+        "item" : "2024-10-11",
+        "count" : "69058"
+      }, {
+        "item" : "2024-10-16",
+        "count" : "60214"
+      }, {
+        "item" : "2024-11-01",
+        "count" : "58450"
+      }, {
+        "item" : "2024-10-31",
+        "count" : "57361"
+      }, {
+        "item" : "2024-10-25",
+        "count" : "55529"
+      } ],
+      "smallest" : "2024-08-28",
+      "count" : "2404091",
+      "cardinality" : "114"
+    },
+    "format" : { }
+  }, {
+    "id" : 608811328,
+    "name" : "State House District",
+    "dataTypeName" : "text",
+    "description" : "The voter’s state house district. ",
+    "fieldName" : "legislative",
+    "position" : 9,
+    "renderTypeName" : "text",
+    "tableColumnId" : 154781901,
+    "cachedContents" : {
+      "non_null" : "2404029",
+      "largest" : "9TH LEGISLATIVE DISTRICT",
+      "null" : "62",
+      "top" : [ {
+        "item" : "31ST LEGISLATIVE DISTRICT",
+        "count" : "24898"
+      }, {
+        "item" : "29TH LEGISLATIVE DISTRICT",
+        "count" : "23590"
+      }, {
+        "item" : "148TH LEGISLATIVE DISTRICT",
+        "count" : "21354"
+      }, {
+        "item" : "157TH LEGISLATIVE DISTRICT",
+        "count" : "19662"
+      }, {
+        "item" : "119TH LEGISLATIVE DISTRICT",
+        "count" : "19280"
+      }, {
+        "item" : "182ND LEGISLATIVE DISTRICT",
+        "count" : "19106"
+      }, {
+        "item" : "167TH LEGISLATIVE DISTRICT",
+        "count" : "19029"
+      }, {
+        "item" : "137TH LEGISLATIVE DISTRICT",
+        "count" : "18981"
+      }, {
+        "item" : "61ST LEGISLATIVE DISTRICT",
+        "count" : "18920"
+      }, {
+        "item" : "178TH LEGISLATIVE DISTRICT",
+        "count" : "18589"
+      }, {
+        "item" : "150TH LEGISLATIVE DISTRICT",
+        "count" : "18421"
+      }, {
+        "item" : "155TH LEGISLATIVE DISTRICT",
+        "count" : "18302"
+      }, {
+        "item" : "30TH LEGISLATIVE DISTRICT",
+        "count" : "17986"
+      }, {
+        "item" : "139TH LEGISLATIVE DISTRICT",
+        "count" : "17873"
+      }, {
+        "item" : "28TH LEGISLATIVE DISTRICT",
+        "count" : "17638"
+      }, {
+        "item" : "151ST LEGISLATIVE DISTRICT",
+        "count" : "17620"
+      }, {
+        "item" : "168TH LEGISLATIVE DISTRICT",
+        "count" : "17620"
+      }, {
+        "item" : "144TH LEGISLATIVE DISTRICT",
+        "count" : "17519"
+      }, {
+        "item" : "160TH LEGISLATIVE DISTRICT",
+        "count" : "17518"
+      }, {
+        "item" : "143RD LEGISLATIVE DISTRICT",
+        "count" : "17494"
+      } ],
+      "smallest" : "100TH LEGISLATIVE DISTRICT",
+      "count" : "2404091",
+      "cardinality" : "203"
+    },
+    "format" : { }
+  }, {
+    "id" : 608811329,
+    "name" : "State Senate District",
+    "dataTypeName" : "text",
+    "description" : "The voter’s state senate district. ",
+    "fieldName" : "senate",
+    "position" : 10,
+    "renderTypeName" : "text",
+    "tableColumnId" : 154781899,
+    "cachedContents" : {
+      "non_null" : "2404029",
+      "largest" : "9TH SENATORIAL DISTRICT",
+      "null" : "62",
+      "top" : [ {
+        "item" : "10TH SENATORIAL DISTRICT",
+        "count" : "75312"
+      }, {
+        "item" : "44TH SENATORIAL DISTRICT",
+        "count" : "68925"
+      }, {
+        "item" : "12TH SENATORIAL DISTRICT",
+        "count" : "65625"
+      }, {
+        "item" : "6TH SENATORIAL DISTRICT",
+        "count" : "65269"
+      }, {
+        "item" : "17TH SENATORIAL DISTRICT",
+        "count" : "64147"
+      }, {
+        "item" : "19TH SENATORIAL DISTRICT",
+        "count" : "63368"
+      }, {
+        "item" : "16TH SENATORIAL DISTRICT",
+        "count" : "63116"
+      }, {
+        "item" : "37TH SENATORIAL DISTRICT",
+        "count" : "61816"
+      }, {
+        "item" : "20TH SENATORIAL DISTRICT",
+        "count" : "61372"
+      }, {
+        "item" : "4TH SENATORIAL DISTRICT",
+        "count" : "61346"
+      }, {
+        "item" : "38TH SENATORIAL DISTRICT",
+        "count" : "60779"
+      }, {
+        "item" : "1ST SENATORIAL DISTRICT",
+        "count" : "59025"
+      }, {
+        "item" : "18TH SENATORIAL DISTRICT",
+        "count" : "57600"
+      }, {
+        "item" : "43RD SENATORIAL DISTRICT",
+        "count" : "56840"
+      }, {
+        "item" : "24TH SENATORIAL DISTRICT",
+        "count" : "56743"
+      }, {
+        "item" : "9TH SENATORIAL DISTRICT",
+        "count" : "55939"
+      }, {
+        "item" : "39TH SENATORIAL DISTRICT",
+        "count" : "52785"
+      }, {
+        "item" : "42ND SENATORIAL DISTRICT",
+        "count" : "52720"
+      }, {
+        "item" : "7TH SENATORIAL DISTRICT",
+        "count" : "50401"
+      }, {
+        "item" : "40TH SENATORIAL DISTRICT",
+        "count" : "49921"
+      } ],
+      "smallest" : "10TH SENATORIAL DISTRICT",
+      "count" : "2404091",
+      "cardinality" : "50"
+    },
+    "format" : { }
+  }, {
+    "id" : 608811330,
+    "name" : "Congressional District",
+    "dataTypeName" : "text",
+    "description" : "The voter’s congressional district. ",
+    "fieldName" : "congressional",
+    "position" : 11,
+    "renderTypeName" : "text",
+    "tableColumnId" : 154781897,
+    "cachedContents" : {
+      "non_null" : "2404029",
+      "largest" : "9TH CONGRESSIONAL DISTRICT",
+      "null" : "62",
+      "top" : [ {
+        "item" : "1ST CONGRESSIONAL DISTRICT",
+        "count" : "194211"
+      }, {
+        "item" : "4TH CONGRESSIONAL DISTRICT",
+        "count" : "180123"
+      }, {
+        "item" : "17TH CONGRESSIONAL DISTRICT",
+        "count" : "170680"
+      }, {
+        "item" : "6TH CONGRESSIONAL DISTRICT",
+        "count" : "168632"
+      }, {
+        "item" : "12TH CONGRESSIONAL DISTRICT",
+        "count" : "159768"
+      }, {
+        "item" : "8TH CONGRESSIONAL DISTRICT",
+        "count" : "155133"
+      }, {
+        "item" : "3RD CONGRESSIONAL DISTRICT",
+        "count" : "152510"
+      }, {
+        "item" : "7TH CONGRESSIONAL DISTRICT",
+        "count" : "152168"
+      }, {
+        "item" : "5TH CONGRESSIONAL DISTRICT",
+        "count" : "146459"
+      }, {
+        "item" : "10TH CONGRESSIONAL DISTRICT",
+        "count" : "141226"
+      }, {
+        "item" : "16TH CONGRESSIONAL DISTRICT",
+        "count" : "129430"
+      }, {
+        "item" : "14TH CONGRESSIONAL DISTRICT",
+        "count" : "119330"
+      }, {
+        "item" : "11TH CONGRESSIONAL DISTRICT",
+        "count" : "115837"
+      }, {
+        "item" : "13TH CONGRESSIONAL DISTRICT",
+        "count" : "114248"
+      }, {
+        "item" : "9TH CONGRESSIONAL DISTRICT",
+        "count" : "105246"
+      }, {
+        "item" : "15TH CONGRESSIONAL DISTRICT",
+        "count" : "102915"
+      }, {
+        "item" : "2ND CONGRESSIONAL DISTRICT",
+        "count" : "96113"
+      } ],
+      "smallest" : "10TH CONGRESSIONAL DISTRICT",
+      "count" : "2404091",
+      "cardinality" : "17"
+    },
+    "format" : { }
+  }, {
+    "id" : 608811331,
+    "name" : "# Latitude",
+    "dataTypeName" : "number",
+    "description" : "A generic Latitude point within the county. ",
+    "fieldName" : "latitude",
+    "position" : 12,
+    "renderTypeName" : "number",
+    "tableColumnId" : 154781895,
+    "cachedContents" : {
+      "non_null" : "2404091",
+      "largest" : "41.99413787020",
+      "null" : "0",
+      "top" : [ {
+        "item" : "40.46735542980",
+        "count" : "278074"
+      }, {
+        "item" : "40.00444353840",
+        "count" : "258715"
+      }, {
+        "item" : "40.20989873900",
+        "count" : "212282"
+      }, {
+        "item" : "40.33501133100",
+        "count" : "166494"
+      }, {
+        "item" : "39.97487055660",
+        "count" : "135794"
+      }, {
+        "item" : "39.91657866520",
+        "count" : "110137"
+      }, {
+        "item" : "40.04590796190",
+        "count" : "80534"
+      }, {
+        "item" : "39.92192531240",
+        "count" : "79069"
+      }, {
+        "item" : "40.75459540400",
+        "count" : "70345"
+      }, {
+        "item" : "40.61464794160",
+        "count" : "70173"
+      }, {
+        "item" : "40.31031499850",
+        "count" : "67967"
+      }, {
+        "item" : "41.17836438840",
+        "count" : "65003"
+      }, {
+        "item" : "40.41939635130",
+        "count" : "63293"
+      }, {
+        "item" : "40.16759838800",
+        "count" : "51002"
+      }, {
+        "item" : "40.41974635970",
+        "count" : "49466"
+      }, {
+        "item" : "41.99413787020",
+        "count" : "48396"
+      }, {
+        "item" : "41.43910064280",
+        "count" : "38431"
+      }, {
+        "item" : "40.91083184830",
+        "count" : "37804"
+      }, {
+        "item" : "40.19109663450",
+        "count" : "35498"
+      }, {
+        "item" : "41.06091786530",
+        "count" : "34183"
+      } ],
+      "smallest" : "39.85480393420",
+      "count" : "2404091",
+      "cardinality" : "67"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 608811332,
+    "name" : "# Longitude",
+    "dataTypeName" : "number",
+    "description" : "A generic Longitude point within the county.",
+    "fieldName" : "longitude",
+    "position" : 13,
+    "renderTypeName" : "number",
+    "tableColumnId" : 154781893,
+    "cachedContents" : {
+      "non_null" : "2404091",
+      "largest" : "-75.03270924480",
+      "null" : "0",
+      "top" : [ {
+        "item" : "-79.98619842820",
+        "count" : "278074"
+      }, {
+        "item" : "-75.14023600200",
+        "count" : "258715"
+      }, {
+        "item" : "-75.37252000720",
+        "count" : "212282"
+      }, {
+        "item" : "-75.11291241110",
+        "count" : "166494"
+      }, {
+        "item" : "-75.75626498180",
+        "count" : "135794"
+      }, {
+        "item" : "-75.40627712120",
+        "count" : "110137"
+      }, {
+        "item" : "-76.25138768380",
+        "count" : "80534"
+      }, {
+        "item" : "-76.72576052310",
+        "count" : "79069"
+      }, {
+        "item" : "-75.31263725760",
+        "count" : "70345"
+      }, {
+        "item" : "-75.60099481180",
+        "count" : "70173"
+      }, {
+        "item" : "-79.47134117600",
+        "count" : "67967"
+      }, {
+        "item" : "-75.99199609800",
+        "count" : "65003"
+      }, {
+        "item" : "-75.93077327050",
+        "count" : "63293"
+      }, {
+        "item" : "-77.26866270500",
+        "count" : "51002"
+      }, {
+        "item" : "-76.77960568020",
+        "count" : "49466"
+      }, {
+        "item" : "-80.04075910360",
+        "count" : "48396"
+      }, {
+        "item" : "-75.61218345240",
+        "count" : "38431"
+      }, {
+        "item" : "-79.91711778890",
+        "count" : "37804"
+      }, {
+        "item" : "-80.25180082760",
+        "count" : "35498"
+      }, {
+        "item" : "-75.34083603020",
+        "count" : "34183"
+      } ],
+      "smallest" : "-80.35107356480",
+      "count" : "2404091",
+      "cardinality" : "67"
+    },
+    "format" : {
+      "decimalSeparator" : ".",
+      "groupSeparator" : ","
+    }
+  }, {
+    "id" : 608811333,
+    "name" : "Perm Indicator",
+    "dataTypeName" : "checkbox",
+    "description" : "Indicates whether voter has requested to be on the permanent absentee list or permanent mail-in list (True) or not (False). ",
+    "fieldName" : "perm_indicator",
+    "position" : 14,
+    "renderTypeName" : "checkbox",
+    "tableColumnId" : 154781892,
+    "cachedContents" : {
+      "non_null" : "2404091",
+      "null" : "0",
+      "top" : [ {
+        "item" : true,
+        "count" : "1946807"
+      }, {
+        "item" : false,
+        "count" : "457284"
+      } ],
+      "count" : "2404091",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 608811334,
+    "name" : "Ballot Application Disposition",
+    "dataTypeName" : "text",
+    "description" : "Disposition of the ballot application – Approved/Declined ",
+    "fieldName" : "ballot_application_disposition",
+    "position" : 15,
+    "renderTypeName" : "text",
+    "tableColumnId" : 154781890,
+    "cachedContents" : {
+      "non_null" : "2404091",
+      "largest" : "Declined",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Approved",
+        "count" : "2242055"
+      }, {
+        "item" : "Declined",
+        "count" : "162036"
+      } ],
+      "smallest" : "Approved",
+      "count" : "2404091",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 608811335,
+    "name" : "Ballot Application Disposition reason",
+    "dataTypeName" : "text",
+    "description" : "Reason for the Disposition of the Ballot Application. Counties can only choose one reason, even if there are multiple reasons to decline an application. The specific rejection reason a county chooses to enter first depends on county practices. <br>•\tAPPR – ID NOT VERIFIED<br>•\tAPPR – ID VERIFICATION PEND<br>•\tAPPR – ID VERIFIED<br>•\tAPPR - VALID APPLICATION-MAIL<br>•\tDECL - AFTER DEADLINE<br>•\tDECL - DECEASED<br>•\tDECL – DUPLICATE APPLICATION<br>•\tDECL - INCOMPLETE ADDRESS<br>•\tDECL - INVALID REASON<br>•\tDECL - NO SIGNATURE<br>•\tDECL - NOT REGISTERED<br>•\tDECL - SIGNATURE MISMATCH<br>•\tDECL - UNAFFILIATED (NO NON-PARTISAN ISSUES)",
+    "fieldName" : "disposition_reason",
+    "position" : 16,
+    "renderTypeName" : "text",
+    "tableColumnId" : 154781888,
+    "cachedContents" : {
+      "non_null" : "2404091",
+      "largest" : "DECL - UNAFFILIATED (NO NON-PARTISAN ISSUES)",
+      "null" : "0",
+      "top" : [ {
+        "item" : "APPR - ID VERIFIED",
+        "count" : "2199562"
+      }, {
+        "item" : "DECL - DUPLICATE APPLICATION",
+        "count" : "153296"
+      }, {
+        "item" : "APPR - VALID APPLICATION-MAIL",
+        "count" : "37753"
+      }, {
+        "item" : "APPR - ID NOT VERIFIED",
+        "count" : "4645"
+      }, {
+        "item" : "DECL - INCOMPLETE ADDRESS",
+        "count" : "3412"
+      }, {
+        "item" : "DECL - NOT REGISTERED",
+        "count" : "3119"
+      }, {
+        "item" : "DECL - INVALID REASON",
+        "count" : "747"
+      }, {
+        "item" : "DECL - DECEASED",
+        "count" : "661"
+      }, {
+        "item" : "DECL - AFTER DEADLINE",
+        "count" : "442"
+      }, {
+        "item" : "DECL - SIGNATURE MISMATCH",
+        "count" : "221"
+      }, {
+        "item" : "DECL - NO SIGNATURE",
+        "count" : "142"
+      }, {
+        "item" : "APPR - ID VERIFICATION PEND",
+        "count" : "87"
+      }, {
+        "item" : "DECL - UNAFFILIATED (NO NON-PARTISAN ISSUES)",
+        "count" : "3"
+      }, {
+        "item" : "APPR - UNAFFILIATED (NON-PARTISAN BALLOT SENT)",
+        "count" : "1"
+      } ],
+      "smallest" : "APPR - ID NOT VERIFIED",
+      "count" : "2404091",
+      "cardinality" : "14"
+    },
+    "format" : { }
+  }, {
+    "id" : 608811336,
+    "name" : "ID verification status",
+    "dataTypeName" : "checkbox",
+    "description" : "This field indicates whether the voter’s ID on their mail ballot application has been verified (True) or not (False). ",
+    "fieldName" : "id_verification_status",
+    "position" : 17,
+    "renderTypeName" : "checkbox",
+    "tableColumnId" : 154781886,
+    "cachedContents" : {
+      "non_null" : "2404091",
+      "null" : "0",
+      "top" : [ {
+        "item" : true,
+        "count" : "2329739"
+      }, {
+        "item" : false,
+        "count" : "74352"
+      } ],
+      "count" : "2404091",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 608811337,
+    "name" : "Ballot status",
+    "dataTypeName" : "text",
+    "description" : "Status of the ballot<br>•\tPending: The county needs additional information or action by the voter before the ballot can be counted. This may be because the voter has not yet returned it, or the voter should take some additional action to ensure the ballot envelopes accord with statutory requirements (such as the requirement that a voter sign the envelope).<br>•\tVote Recorded: Ballot received by county election authority and marked as recorded in SURE. <br>•\tCancelled: The county election authority cancelled the ballot. This may be because the voter has received a replacement ballot, or because their ballot could not be counted.",
+    "fieldName" : "ballot_status",
+    "position" : 18,
+    "renderTypeName" : "text",
+    "tableColumnId" : 154781884,
+    "cachedContents" : {
+      "non_null" : "2240953",
+      "largest" : "Vote Recorded",
+      "null" : "163138",
+      "top" : [ {
+        "item" : "Vote Recorded",
+        "count" : "1960300"
+      }, {
+        "item" : "Pending",
+        "count" : "209053"
+      }, {
+        "item" : "Cancelled",
+        "count" : "71600"
+      } ],
+      "smallest" : "Cancelled",
+      "count" : "2404091",
+      "cardinality" : "3"
+    },
+    "format" : { }
+  }, {
+    "id" : 608811338,
+    "name" : "Ballot status reason",
+    "dataTypeName" : "text",
+    "description" : "Reason for the “Ballot Status” discussed above. Counties can only choose one reason, even if there could be multiple reasons for the same disposition. The specific cancellation reason a county chooses to enter first depends on county practices.  <br>•\tCANC – EMAIL BALLOT UND BATCH: Ballot cannot be delivered to the email address provided by the voter. Ballots are emailed to qualifying overseas voters pursuant to federal law. <br>•\tCANC – EMAIL BALLOT UNDELIVERABLE: The email sent with the ballot was returned as undeliverable.<br>•\tCANC – INCORRECT DATE: Voter dated the ballot return envelope with a date that was not within the reason that permitted it to be counted. <br>•\tCANC – LABEL CANCELLED: County elections office cancelled the ballot due to an error on the label.<br>•\tCANC – NO DATE: Voter did not provide a date on the ballot return envelope.<br>•\tCANC – NO ID: Voter has not provided valid I.D. to verify their ballot.<br>•\tCANC – NO SECRECY ENVELOPE: Voter forgot to include the secrecy envelope.<br>•\tCANC – NO SIGNATURE: Voter did not sign the return envelope.<br>•\tCANC – REPLACED: Voter was issued a replacement ballot.<br>•\tCANC – RETURNED AFTER DEADLINE: Ballot was received after deadline.<br>•\tCANC – UNDELIVERABLE: Ballot was returned to the county because it could not be delivered by USPS. <br>•\tCANC – VOTE CANCELLED: The original code counties used to cancel a ballot before the above – more detailed codes – were created. Now exists as a generic category that a county may use to cancel a ballot if the reason does not fit in the more specific categories.<br>•\tCANC – VOTE CHALLENGED: Ballot was not counted because of a successful challenge.<br>•\tPEND – NOT YET RETURNED: Ballot that has been issued by the county to the voter but has not been returned by the voter to the county. <br>•\tPEND – INCORRECT DATE: A code that counties may use to alert a voter that the county observed that the voter dated the ballot return envelope with a date that was not within the range that permitted it to be be counted, and the county offers a way for the voter to address that. The code is changed to 'CANC-INCORRECT DATE' if the error is not corrected. <br>•\tPEND – NO DATE: A code that counties may use to alert a voter that their ballot return envelope is not dated, and that the county offers a way for the voter to address that. The code is change to 'CANC - NO DATE' if the error is not corrected.<br>•\tPEND – NO ID: A code used to alert a voter that their ballot will be cancelled if they do tno verify their identification within six days of the election day. <br>•\tPEND – NO SIGNATURE: A code that counties may use to alert a voter that their ballot return envelope is not signed, and the county offers a way for the voter to address that. The code is changed to ‘CANC - NO SIGNATURE’ if the error is not corrected.<br>•\tPEND – NO SECRECY ENVELOPE: A code that counties may use to alert a voter that their ballot is missing a secrecy envelope, and the county offers a way for the voter to address that. The code is changed to ‘CANC - NO SECRECY ENVELOPE’ if the error is not corrected.<br>•\tRECORD – BALLOT RETURNED: Ballot has been returned to the county and the county has not logged an observed error that would prevent, or after the canvass, did prevent, the ballot from being counted.",
+    "fieldName" : "ballot_status_reason",
+    "position" : 19,
+    "renderTypeName" : "text",
+    "tableColumnId" : 154781882,
+    "cachedContents" : {
+      "non_null" : "2241288",
+      "largest" : "RECORD - FWAB RETURNED",
+      "null" : "162803",
+      "top" : [ {
+        "item" : "RECORD - BALLOT RETURNED",
+        "count" : "1959243"
+      }, {
+        "item" : "PEND - NOT YET RETURNED",
+        "count" : "209041"
+      }, {
+        "item" : "CANC - REPLACED",
+        "count" : "22688"
+      }, {
+        "item" : "CANC - LABEL CANCELLED",
+        "count" : "16098"
+      }, {
+        "item" : "CANC - UNDELIVERABLE",
+        "count" : "11916"
+      }, {
+        "item" : "CANC - RETURNED AFTER DEADLINE",
+        "count" : "6820"
+      }, {
+        "item" : "CANC - NO SIGNATURE",
+        "count" : "3543"
+      }, {
+        "item" : "CANC - NO SECRECY ENVELOPE",
+        "count" : "3006"
+      }, {
+        "item" : "CANC - INCORRECT DATE",
+        "count" : "2647"
+      }, {
+        "item" : "CANC - NO DATE",
+        "count" : "2074"
+      }, {
+        "item" : "CANC - NO ID",
+        "count" : "1603"
+      }, {
+        "item" : "RECORD - FWAB RETURNED",
+        "count" : "1041"
+      }, {
+        "item" : "CANC - OTHER",
+        "count" : "989"
+      }, {
+        "item" : "CANC - EMAIL BALLOT UND BATCH",
+        "count" : "527"
+      }, {
+        "item" : "CANC - EMAIL BALLOT UNDELIVERABLE",
+        "count" : "21"
+      }, {
+        "item" : "FWAB OVERRIDE-OFFICIAL BALLOT RECEIVED",
+        "count" : "16"
+      }, {
+        "item" : "PEND - OTHER",
+        "count" : "5"
+      }, {
+        "item" : "CANC - VOTE CHALLENGED",
+        "count" : "3"
+      }, {
+        "item" : "PEND - NO SIGNATURE",
+        "count" : "2"
+      }, {
+        "item" : "PEND - INCORRECT DATE",
+        "count" : "2"
+      } ],
+      "smallest" : "CANC - EMAIL BALLOT UND BATCH",
+      "count" : "2404091",
+      "cardinality" : "23"
+    },
+    "format" : { }
+  }, {
+    "id" : 608811340,
+    "name" : "Georeferenced Latitude & Longitude",
+    "dataTypeName" : "point",
+    "description" : "A georeferenced latitude and longitude based on the mailing address that can be used to create maps.",
+    "fieldName" : "georeferenced_latitude_longitude",
+    "position" : 20,
+    "renderTypeName" : "point",
+    "tableColumnId" : 154781876,
+    "cachedContents" : {
+      "non_null" : "2404091",
+      "null" : "0",
+      "top" : [ {
+        "item" : {
+          "coordinates" : [ -79.9861984282, 40.4673554298 ],
+          "type" : "Point"
+        },
+        "count" : "278074"
+      }, {
+        "item" : {
+          "coordinates" : [ -75.140236002, 40.0044435384 ],
+          "type" : "Point"
+        },
+        "count" : "258715"
+      }, {
+        "item" : {
+          "coordinates" : [ -75.3725200072, 40.209898739 ],
+          "type" : "Point"
+        },
+        "count" : "212282"
+      }, {
+        "item" : {
+          "coordinates" : [ -75.1129124111, 40.335011331 ],
+          "type" : "Point"
+        },
+        "count" : "166494"
+      }, {
+        "item" : {
+          "coordinates" : [ -75.7562649818, 39.9748705566 ],
+          "type" : "Point"
+        },
+        "count" : "135794"
+      }, {
+        "item" : {
+          "coordinates" : [ -75.4062771212, 39.9165786652 ],
+          "type" : "Point"
+        },
+        "count" : "110137"
+      }, {
+        "item" : {
+          "coordinates" : [ -76.2513876838, 40.0459079619 ],
+          "type" : "Point"
+        },
+        "count" : "80534"
+      }, {
+        "item" : {
+          "coordinates" : [ -76.7257605231, 39.9219253124 ],
+          "type" : "Point"
+        },
+        "count" : "79069"
+      }, {
+        "item" : {
+          "coordinates" : [ -75.3126372576, 40.754595404 ],
+          "type" : "Point"
+        },
+        "count" : "70345"
+      }, {
+        "item" : {
+          "coordinates" : [ -75.6009948118, 40.6146479416 ],
+          "type" : "Point"
+        },
+        "count" : "70173"
+      }, {
+        "item" : {
+          "coordinates" : [ -79.471341176, 40.3103149985 ],
+          "type" : "Point"
+        },
+        "count" : "67967"
+      }, {
+        "item" : {
+          "coordinates" : [ -75.991996098, 41.1783643884 ],
+          "type" : "Point"
+        },
+        "count" : "65003"
+      }, {
+        "item" : {
+          "coordinates" : [ -75.9307732705, 40.4193963513 ],
+          "type" : "Point"
+        },
+        "count" : "63293"
+      }, {
+        "item" : {
+          "coordinates" : [ -77.268662705, 40.167598388 ],
+          "type" : "Point"
+        },
+        "count" : "51002"
+      }, {
+        "item" : {
+          "coordinates" : [ -76.7796056802, 40.4197463597 ],
+          "type" : "Point"
+        },
+        "count" : "49466"
+      }, {
+        "item" : {
+          "coordinates" : [ -80.0407591036, 41.9941378702 ],
+          "type" : "Point"
+        },
+        "count" : "48396"
+      }, {
+        "item" : {
+          "coordinates" : [ -75.6121834524, 41.4391006428 ],
+          "type" : "Point"
+        },
+        "count" : "38431"
+      }, {
+        "item" : {
+          "coordinates" : [ -79.9171177889, 40.9108318483 ],
+          "type" : "Point"
+        },
+        "count" : "37804"
+      }, {
+        "item" : {
+          "coordinates" : [ -80.2518008276, 40.1910966345 ],
+          "type" : "Point"
+        },
+        "count" : "35498"
+      }, {
+        "item" : {
+          "coordinates" : [ -75.3408360302, 41.0609178653 ],
+          "type" : "Point"
+        },
+        "count" : "34183"
+      } ],
+      "count" : "2404091",
+      "cardinality" : "67"
+    },
+    "format" : { }
+  }, {
+    "id" : 608811346,
+    "name" : "File Identification",
+    "dataTypeName" : "number",
+    "description" : "A random ID generated to allow data users to identify rows related to the same voter. The random ID is unique to this specific data-file and cannot be used to match to SURE or any other public data files. ",
+    "fieldName" : "file_identification",
+    "position" : 21,
+    "renderTypeName" : "number",
+    "tableColumnId" : 157957034,
+    "cachedContents" : {
+      "non_null" : "2404091",
+      "largest" : "2231929",
+      "null" : "0",
+      "top" : [ {
+        "item" : "714281",
+        "count" : "18"
+      }, {
+        "item" : "1542808",
+        "count" : "18"
+      }, {
+        "item" : "2050660",
+        "count" : "16"
+      }, {
+        "item" : "1160302",
+        "count" : "16"
+      }, {
+        "item" : "1298224",
+        "count" : "12"
+      }, {
+        "item" : "1226907",
+        "count" : "11"
+      }, {
+        "item" : "1233614",
+        "count" : "10"
+      }, {
+        "item" : "976874",
+        "count" : "10"
+      }, {
+        "item" : "1315609",
+        "count" : "10"
+      }, {
+        "item" : "2020265",
+        "count" : "10"
+      }, {
+        "item" : "1924293",
+        "count" : "9"
+      }, {
+        "item" : "1996309",
+        "count" : "9"
+      }, {
+        "item" : "1408659",
+        "count" : "9"
+      }, {
+        "item" : "179216",
+        "count" : "9"
+      }, {
+        "item" : "1092072",
+        "count" : "8"
+      }, {
+        "item" : "928923",
+        "count" : "8"
+      }, {
+        "item" : "887431",
+        "count" : "8"
+      }, {
+        "item" : "2020165",
+        "count" : "8"
+      }, {
+        "item" : "1364748",
+        "count" : "8"
+      }, {
+        "item" : "1849589",
+        "count" : "8"
+      } ],
+      "smallest" : "1",
+      "count" : "2404091",
+      "cardinality" : "2208599"
+    },
+    "format" : {
+      "noCommas" : "true",
+      "align" : "right"
+    }
+  }, {
+    "id" : 608811342,
+    "name" : "US House Districts for PA 2019",
+    "dataTypeName" : "number",
+    "description" : "This column was automatically created in order to record in what polygon from the dataset 'US House Districts for PA 2019' (3x3q-vpda) the point in column 'georeferenced_latitude_longitude' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+    "fieldName" : ":@computed_region_3x3q_vpda",
+    "position" : 23,
+    "renderTypeName" : "number",
+    "tableColumnId" : 154781920,
+    "computationStrategy" : {
+      "source_columns" : [ "georeferenced_latitude_longitude" ],
+      "type" : "georegion_match_on_point",
+      "parameters" : {
+        "region" : "_3x3q-vpda",
+        "primary_key" : "_feature_id"
+      }
+    },
+    "format" : { }
+  }, {
+    "id" : 608811343,
+    "name" : "PA County Boundaries Spatial Data Current Transportation",
+    "dataTypeName" : "number",
+    "description" : "This column was automatically created in order to record in what polygon from the dataset 'PA County Boundaries Spatial Data Current Transportation' (4fjn-fq7k) the point in column 'georeferenced_latitude_longitude' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+    "fieldName" : ":@computed_region_4fjn_fq7k",
+    "position" : 24,
+    "renderTypeName" : "number",
+    "tableColumnId" : 154781923,
+    "computationStrategy" : {
+      "source_columns" : [ "georeferenced_latitude_longitude" ],
+      "type" : "georegion_match_on_point",
+      "parameters" : {
+        "region" : "_4fjn-fq7k",
+        "primary_key" : "_feature_id"
+      }
+    },
+    "format" : { }
+  }, {
+    "id" : 608811344,
+    "name" : "US House Districts for PA 2019 Health",
+    "dataTypeName" : "number",
+    "description" : "This column was automatically created in order to record in what polygon from the dataset 'US House Districts for PA 2019 Health' (gbji-5m4q) the point in column 'georeferenced_latitude_longitude' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+    "fieldName" : ":@computed_region_gbji_5m4q",
+    "position" : 25,
+    "renderTypeName" : "number",
+    "tableColumnId" : 154781926,
+    "computationStrategy" : {
+      "source_columns" : [ "georeferenced_latitude_longitude" ],
+      "type" : "georegion_match_on_point",
+      "parameters" : {
+        "region" : "_gbji-5m4q",
+        "primary_key" : "_feature_id"
+      }
+    },
+    "format" : { }
+  }, {
+    "id" : 608811345,
+    "name" : "PA State Senate Districts 2016 Health",
+    "dataTypeName" : "number",
+    "description" : "This column was automatically created in order to record in what polygon from the dataset 'PA State Senate Districts 2016 Health' (75dh-jrw3) the point in column 'georeferenced_latitude_longitude' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+    "fieldName" : ":@computed_region_75dh_jrw3",
+    "position" : 26,
+    "renderTypeName" : "number",
+    "tableColumnId" : 154781928,
+    "computationStrategy" : {
+      "source_columns" : [ "georeferenced_latitude_longitude" ],
+      "type" : "georegion_match_on_point",
+      "parameters" : {
+        "region" : "_75dh-jrw3",
+        "primary_key" : "_feature_id"
+      }
+    },
+    "format" : { }
+  }, {
+    "id" : 608811341,
+    "name" : "PA State House Districts 2016 Health",
+    "dataTypeName" : "number",
+    "description" : "This column was automatically created in order to record in what polygon from the dataset 'PA State House Districts 2016 Health' (its3-bt6a) the point in column 'georeferenced_latitude_longitude' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+    "fieldName" : ":@computed_region_its3_bt6a",
+    "position" : 27,
+    "renderTypeName" : "number",
+    "tableColumnId" : 154781918,
+    "computationStrategy" : {
+      "source_columns" : [ "georeferenced_latitude_longitude" ],
+      "type" : "georegion_match_on_point",
+      "parameters" : {
+        "region" : "_its3-bt6a",
+        "primary_key" : "_feature_id"
+      }
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "license" : {
+    "name" : "Public Domain U.S. Government",
+    "termsLink" : "https://www.usa.gov/government-works"
+  },
+  "metadata" : {
+    "custom_fields" : {
+      "Data Management" : {
+        "Update Frequency" : "Daily",
+        "Business Owner" : "Department of State (DOS)"
+      }
+    },
+    "rowLabel" : "Mail Ballot Request for 2024 General Election",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "6jh9-ydjy",
+    "displayName" : "Jere Matthews",
+    "profileImageUrlLarge" : "/api/users/6jh9-ydjy/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/6jh9-ydjy/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/6jh9-ydjy/profile_images/TINY",
+    "screenName" : "Jere Matthews",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "6jh9-ydjy",
+    "displayName" : "Jere Matthews",
+    "profileImageUrlLarge" : "/api/users/6jh9-ydjy/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/6jh9-ydjy/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/6jh9-ydjy/profile_images/TINY",
+    "screenName" : "Jere Matthews",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "ballot", "election", "geo", "dos", "state", "general", "2024", "mail", "vote", "voting" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

@@ -1,0 +1,14 @@
+{
+ "thu_fri_vs_same_week_mon_tue": {
+  "cells": 178,
+  "diff_pct_points_mailed_late": 8.5,
+  "diff_pct_points_returned_by_eday": -2.1,
+  "diff_pct_points_returned_any_date": -1.9
+ },
+ "thu_fri_vs_next_week_mon_tue": {
+  "cells": 202,
+  "diff_pct_points_mailed_late": 21.9,
+  "diff_pct_points_returned_by_eday": 2.5,
+  "diff_pct_points_returned_any_date": 2.1
+ }
+}

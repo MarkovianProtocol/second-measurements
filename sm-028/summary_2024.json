@@ -1,0 +1,640 @@
+{
+ "rule": "Election Code 1305-D and 1305(b)(1): within 48 hours of approval, once mailing has begun",
+ "data": "data.pa.gov 3q5t-ddp8, final pull 24 Jan 2025",
+ "total_rows": 2404091,
+ "approved_rows_of_counted_types": 2199798,
+ "total": {
+  "counted": 702985,
+  "late": 227378,
+  "pct_late": 32.3,
+  "late_3_days": 75497,
+  "late_3_or_4_days": 127522,
+  "late_over_7_days": 17863,
+  "median_days": 2,
+  "late_returned_within_1_day_of_mailed_date": 5785,
+  "late_returned_same_day_as_mailed_date": 2330,
+  "late_over_7_returned": 14707,
+  "late_over_7_returned_within_1_day": 2000,
+  "handed_over_same_day": 64982,
+  "recorded_mailed_after_election_day": 11
+ },
+ "mail_in": {
+  "counted": 693209,
+  "late": 223792,
+  "pct_late": 32.3,
+  "late_3_days": 74335,
+  "late_3_or_4_days": 125404,
+  "late_over_7_days": 17548,
+  "median_days": 2,
+  "late_returned_within_1_day_of_mailed_date": 5718,
+  "late_returned_same_day_as_mailed_date": 2286,
+  "late_over_7_returned": 14442,
+  "late_over_7_returned_within_1_day": 1967,
+  "handed_over_same_day": 64180,
+  "recorded_mailed_after_election_day": 11
+ },
+ "absentee": {
+  "counted": 9776,
+  "late": 3586,
+  "pct_late": 36.7,
+  "late_3_days": 1162,
+  "late_3_or_4_days": 2118,
+  "late_over_7_days": 315,
+  "median_days": 2.0,
+  "late_returned_within_1_day_of_mailed_date": 67,
+  "late_returned_same_day_as_mailed_date": 44,
+  "late_over_7_returned": 265,
+  "late_over_7_returned_within_1_day": 33,
+  "handed_over_same_day": 802,
+  "recorded_mailed_after_election_day": 0
+ },
+ "counties_counted": 65,
+ "counties_with_late": 64,
+ "main_mailing_day_range": [
+  "2024-09-18",
+  "2024-10-21"
+ ],
+ "excluded": {
+  "no mailed date": 6916,
+  "no mailed date, returned": 5412,
+  "mailed after final pull": 206,
+  "returned before mailed": 1522,
+  "mailed before approval": 93,
+  "FRANKLIN": 9313,
+  "FRANKLIN returned before mailed": 2682,
+  "INDIANA": 5995,
+  "INDIANA returned before mailed": 0,
+  "no approval date": 8
+ },
+ "mailed_after_final_pull_by_county_and_date": {
+  "BUCKS 2025-10-25": 167,
+  "SUSQUEHANNA 2027-10-15": 12,
+  "SUSQUEHANNA 2027-10-22": 27
+ },
+ "excluded_counties_main_mailing_day": {
+  "FRANKLIN": "2024-10-04",
+  "INDIANA": "2024-06-26"
+ },
+ "pct_late_with_dropped_date_rows_put_back": 32.349,
+ "pct_late_exact": 32.345,
+ "mail_in_dated_before_1_sep_2024": {
+  "INDIANA": [
+   5011,
+   9600
+  ],
+  "BUTLER": [
+   405,
+   34354
+  ],
+  "CUMBERLAND": [
+   304,
+   46280
+  ],
+  "WYOMING": [
+   46,
+   3521
+  ],
+  "ERIE": [
+   35,
+   43869
+  ],
+  "MIFFLIN": [
+   5,
+   5320
+  ],
+  "BEAVER": [
+   3,
+   25099
+  ],
+  "LACKAWANNA": [
+   2,
+   33686
+  ],
+  "WAYNE": [
+   1,
+   9545
+  ]
+ },
+ "by_county": {
+  "ALLEGHENY": {
+   "counted": 76650,
+   "late": 44850,
+   "pct_late": 58.5,
+   "late_over_7_days": 2315,
+   "median_days": 3.0,
+   "main_mailing_day": "2024-09-26"
+  },
+  "PHILADELPHIA": {
+   "counted": 91668,
+   "late": 24780,
+   "pct_late": 27.0,
+   "late_over_7_days": 3826,
+   "median_days": 2.0,
+   "main_mailing_day": "2024-09-24"
+  },
+  "MONTGOMERY": {
+   "counted": 68465,
+   "late": 22570,
+   "pct_late": 33.0,
+   "late_over_7_days": 794,
+   "median_days": 2,
+   "main_mailing_day": "2024-09-24"
+  },
+  "DELAWARE": {
+   "counted": 29842,
+   "late": 16957,
+   "pct_late": 56.8,
+   "late_over_7_days": 2699,
+   "median_days": 4.0,
+   "main_mailing_day": "2024-10-02"
+  },
+  "BERKS": {
+   "counted": 22403,
+   "late": 15529,
+   "pct_late": 69.3,
+   "late_over_7_days": 83,
+   "median_days": 3,
+   "main_mailing_day": "2024-10-04"
+  },
+  "LANCASTER": {
+   "counted": 26093,
+   "late": 14939,
+   "pct_late": 57.3,
+   "late_over_7_days": 125,
+   "median_days": 3,
+   "main_mailing_day": "2024-10-01"
+  },
+  "YORK": {
+   "counted": 18802,
+   "late": 12518,
+   "pct_late": 66.6,
+   "late_over_7_days": 814,
+   "median_days": 5.0,
+   "main_mailing_day": "2024-10-10"
+  },
+  "BUCKS": {
+   "counted": 45648,
+   "late": 10058,
+   "pct_late": 22.0,
+   "late_over_7_days": 402,
+   "median_days": 2.0,
+   "main_mailing_day": "2024-10-02"
+  },
+  "DAUPHIN": {
+   "counted": 16441,
+   "late": 8713,
+   "pct_late": 53.0,
+   "late_over_7_days": 127,
+   "median_days": 3,
+   "main_mailing_day": "2024-09-27"
+  },
+  "MONROE": {
+   "counted": 11064,
+   "late": 7909,
+   "pct_late": 71.5,
+   "late_over_7_days": 1297,
+   "median_days": 4.0,
+   "main_mailing_day": "2024-10-01"
+  },
+  "WESTMORELAND": {
+   "counted": 16662,
+   "late": 6847,
+   "pct_late": 41.1,
+   "late_over_7_days": 101,
+   "median_days": 2.0,
+   "main_mailing_day": "2024-10-11"
+  },
+  "NORTHAMPTON": {
+   "counted": 21140,
+   "late": 4790,
+   "pct_late": 22.7,
+   "late_over_7_days": 84,
+   "median_days": 1.0,
+   "main_mailing_day": "2024-10-01"
+  },
+  "ERIE": {
+   "counted": 11007,
+   "late": 4151,
+   "pct_late": 37.7,
+   "late_over_7_days": 1231,
+   "median_days": 1,
+   "main_mailing_day": "2024-10-09"
+  },
+  "LEHIGH": {
+   "counted": 16434,
+   "late": 3296,
+   "pct_late": 20.1,
+   "late_over_7_days": 51,
+   "median_days": 0.0,
+   "main_mailing_day": "2024-10-07"
+  },
+  "BEAVER": {
+   "counted": 8119,
+   "late": 3262,
+   "pct_late": 40.2,
+   "late_over_7_days": 451,
+   "median_days": 2,
+   "main_mailing_day": "2024-10-02"
+  },
+  "FAYETTE": {
+   "counted": 4434,
+   "late": 2996,
+   "pct_late": 67.6,
+   "late_over_7_days": 582,
+   "median_days": 4.0,
+   "main_mailing_day": "2024-10-04"
+  },
+  "LUZERNE": {
+   "counted": 15029,
+   "late": 2709,
+   "pct_late": 18.0,
+   "late_over_7_days": 150,
+   "median_days": 2,
+   "main_mailing_day": "2024-10-08"
+  },
+  "BUTLER": {
+   "counted": 12743,
+   "late": 2270,
+   "pct_late": 17.8,
+   "late_over_7_days": 11,
+   "median_days": 0,
+   "main_mailing_day": "2024-10-01"
+  },
+  "LEBANON": {
+   "counted": 7430,
+   "late": 1999,
+   "pct_late": 26.9,
+   "late_over_7_days": 140,
+   "median_days": 1.0,
+   "main_mailing_day": "2024-10-04"
+  },
+  "CARBON": {
+   "counted": 2768,
+   "late": 1575,
+   "pct_late": 56.9,
+   "late_over_7_days": 447,
+   "median_days": 3.0,
+   "main_mailing_day": "2024-10-01"
+  },
+  "ADAMS": {
+   "counted": 7669,
+   "late": 1496,
+   "pct_late": 19.5,
+   "late_over_7_days": 0,
+   "median_days": 1,
+   "main_mailing_day": "2024-10-04"
+  },
+  "SCHUYLKILL": {
+   "counted": 4765,
+   "late": 1471,
+   "pct_late": 30.9,
+   "late_over_7_days": 89,
+   "median_days": 2,
+   "main_mailing_day": "2024-09-29"
+  },
+  "MERCER": {
+   "counted": 4663,
+   "late": 1350,
+   "pct_late": 29.0,
+   "late_over_7_days": 51,
+   "median_days": 0,
+   "main_mailing_day": "2024-10-10"
+  },
+  "WASHINGTON": {
+   "counted": 8865,
+   "late": 1192,
+   "pct_late": 13.4,
+   "late_over_7_days": 59,
+   "median_days": 0,
+   "main_mailing_day": "2024-10-07"
+  },
+  "CENTRE": {
+   "counted": 8861,
+   "late": 1014,
+   "pct_late": 11.4,
+   "late_over_7_days": 82,
+   "median_days": 1,
+   "main_mailing_day": "2024-09-27"
+  },
+  "WAYNE": {
+   "counted": 3363,
+   "late": 973,
+   "pct_late": 28.9,
+   "late_over_7_days": 524,
+   "median_days": 0,
+   "main_mailing_day": "2024-09-30"
+  },
+  "BLAIR": {
+   "counted": 6165,
+   "late": 896,
+   "pct_late": 14.5,
+   "late_over_7_days": 19,
+   "median_days": 1,
+   "main_mailing_day": "2024-10-07"
+  },
+  "CHESTER": {
+   "counted": 38855,
+   "late": 837,
+   "pct_late": 2.2,
+   "late_over_7_days": 345,
+   "median_days": 1,
+   "main_mailing_day": "2024-09-30"
+  },
+  "CUMBERLAND": {
+   "counted": 13942,
+   "late": 753,
+   "pct_late": 5.4,
+   "late_over_7_days": 76,
+   "median_days": 1.0,
+   "main_mailing_day": "2024-10-04"
+  },
+  "MIFFLIN": {
+   "counted": 2031,
+   "late": 718,
+   "pct_late": 35.4,
+   "late_over_7_days": 47,
+   "median_days": 1,
+   "main_mailing_day": "2024-10-02"
+  },
+  "VENANGO": {
+   "counted": 2559,
+   "late": 523,
+   "pct_late": 20.4,
+   "late_over_7_days": 338,
+   "median_days": 1,
+   "main_mailing_day": "2024-09-18"
+  },
+  "CAMBRIA": {
+   "counted": 4409,
+   "late": 361,
+   "pct_late": 8.2,
+   "late_over_7_days": 10,
+   "median_days": 0,
+   "main_mailing_day": "2024-10-07"
+  },
+  "PIKE": {
+   "counted": 5935,
+   "late": 354,
+   "pct_late": 6.0,
+   "late_over_7_days": 85,
+   "median_days": 0,
+   "main_mailing_day": "2024-10-05"
+  },
+  "BEDFORD": {
+   "counted": 2546,
+   "late": 316,
+   "pct_late": 12.4,
+   "late_over_7_days": 8,
+   "median_days": 0.0,
+   "main_mailing_day": "2024-09-28"
+  },
+  "LYCOMING": {
+   "counted": 5938,
+   "late": 292,
+   "pct_late": 4.9,
+   "late_over_7_days": 41,
+   "median_days": 0.0,
+   "main_mailing_day": "2024-09-25"
+  },
+  "NORTHUMBERLAND": {
+   "counted": 3385,
+   "late": 267,
+   "pct_late": 7.9,
+   "late_over_7_days": 32,
+   "median_days": 0,
+   "main_mailing_day": "2024-10-02"
+  },
+  "SUSQUEHANNA": {
+   "counted": 2226,
+   "late": 250,
+   "pct_late": 11.2,
+   "late_over_7_days": 16,
+   "median_days": 0.0,
+   "main_mailing_day": "2024-10-01"
+  },
+  "SNYDER": {
+   "counted": 1876,
+   "late": 238,
+   "pct_late": 12.7,
+   "late_over_7_days": 21,
+   "median_days": 0.0,
+   "main_mailing_day": "2024-10-05"
+  },
+  "SOMERSET": {
+   "counted": 2386,
+   "late": 185,
+   "pct_late": 7.8,
+   "late_over_7_days": 3,
+   "median_days": 0.0,
+   "main_mailing_day": "2024-10-08"
+  },
+  "CRAWFORD": {
+   "counted": 4058,
+   "late": 178,
+   "pct_late": 4.4,
+   "late_over_7_days": 28,
+   "median_days": 0.0,
+   "main_mailing_day": "2024-09-30"
+  },
+  "MONTOUR": {
+   "counted": 1043,
+   "late": 143,
+   "pct_late": 13.7,
+   "late_over_7_days": 11,
+   "median_days": 1,
+   "main_mailing_day": "2024-09-30"
+  },
+  "WARREN": {
+   "counted": 1517,
+   "late": 124,
+   "pct_late": 8.2,
+   "late_over_7_days": 3,
+   "median_days": 1,
+   "main_mailing_day": "2024-10-07"
+  },
+  "COLUMBIA": {
+   "counted": 2132,
+   "late": 117,
+   "pct_late": 5.5,
+   "late_over_7_days": 0,
+   "median_days": 0.0,
+   "main_mailing_day": "2024-10-08"
+  },
+  "LACKAWANNA": {
+   "counted": 10591,
+   "late": 87,
+   "pct_late": 0.8,
+   "late_over_7_days": 62,
+   "median_days": 0,
+   "main_mailing_day": "2024-09-30"
+  },
+  "JUNIATA": {
+   "counted": 876,
+   "late": 81,
+   "pct_late": 9.2,
+   "late_over_7_days": 2,
+   "median_days": 0.0,
+   "main_mailing_day": "2024-10-10"
+  },
+  "UNION": {
+   "counted": 1939,
+   "late": 75,
+   "pct_late": 3.9,
+   "late_over_7_days": 61,
+   "median_days": 0,
+   "main_mailing_day": "2024-10-07"
+  },
+  "CLEARFIELD": {
+   "counted": 2301,
+   "late": 72,
+   "pct_late": 3.1,
+   "late_over_7_days": 4,
+   "median_days": 0,
+   "main_mailing_day": "2024-10-09"
+  },
+  "BRADFORD": {
+   "counted": 2603,
+   "late": 54,
+   "pct_late": 2.1,
+   "late_over_7_days": 27,
+   "median_days": 0,
+   "main_mailing_day": "2024-09-27"
+  },
+  "ELK": {
+   "counted": 1257,
+   "late": 32,
+   "pct_late": 2.5,
+   "late_over_7_days": 7,
+   "median_days": 0,
+   "main_mailing_day": "2024-09-27"
+  },
+  "GREENE": {
+   "counted": 898,
+   "late": 32,
+   "pct_late": 3.6,
+   "late_over_7_days": 7,
+   "median_days": 0.0,
+   "main_mailing_day": "2024-10-11"
+  },
+  "ARMSTRONG": {
+   "counted": 2332,
+   "late": 30,
+   "pct_late": 1.3,
+   "late_over_7_days": 4,
+   "median_days": 0.0,
+   "main_mailing_day": "2024-10-11"
+  },
+  "TIOGA": {
+   "counted": 1950,
+   "late": 27,
+   "pct_late": 1.4,
+   "late_over_7_days": 18,
+   "median_days": 0.0,
+   "main_mailing_day": "2024-09-27"
+  },
+  "McKEAN": {
+   "counted": 1367,
+   "late": 26,
+   "pct_late": 1.9,
+   "late_over_7_days": 5,
+   "median_days": 0,
+   "main_mailing_day": "2024-10-08"
+  },
+  "CLINTON": {
+   "counted": 1872,
+   "late": 25,
+   "pct_late": 1.3,
+   "late_over_7_days": 13,
+   "median_days": 0.0,
+   "main_mailing_day": "2024-09-30"
+  },
+  "FULTON": {
+   "counted": 648,
+   "late": 12,
+   "pct_late": 1.9,
+   "late_over_7_days": 3,
+   "median_days": 0.0,
+   "main_mailing_day": "2024-10-05"
+  },
+  "LAWRENCE": {
+   "counted": 4127,
+   "late": 11,
+   "pct_late": 0.3,
+   "late_over_7_days": 2,
+   "median_days": 0,
+   "main_mailing_day": "2024-10-02"
+  },
+  "WYOMING": {
+   "counted": 1487,
+   "late": 11,
+   "pct_late": 0.7,
+   "late_over_7_days": 9,
+   "median_days": 0,
+   "main_mailing_day": "2024-09-18"
+  },
+  "HUNTINGDON": {
+   "counted": 882,
+   "late": 8,
+   "pct_late": 0.9,
+   "late_over_7_days": 5,
+   "median_days": 1.0,
+   "main_mailing_day": "2024-10-21"
+  },
+  "FOREST": {
+   "counted": 257,
+   "late": 7,
+   "pct_late": 2.7,
+   "late_over_7_days": 6,
+   "median_days": 0,
+   "main_mailing_day": "2024-09-20"
+  },
+  "JEFFERSON": {
+   "counted": 1926,
+   "late": 6,
+   "pct_late": 0.3,
+   "late_over_7_days": 4,
+   "median_days": 0.0,
+   "main_mailing_day": "2024-10-04"
+  },
+  "POTTER": {
+   "counted": 783,
+   "late": 6,
+   "pct_late": 0.8,
+   "late_over_7_days": 1,
+   "median_days": 0,
+   "main_mailing_day": "2024-10-09"
+  },
+  "CLARION": {
+   "counted": 1269,
+   "late": 5,
+   "pct_late": 0.4,
+   "late_over_7_days": 1,
+   "median_days": 0,
+   "main_mailing_day": "2024-10-11"
+  },
+  "PERRY": {
+   "counted": 1166,
+   "late": 4,
+   "pct_late": 0.3,
+   "late_over_7_days": 3,
+   "median_days": 0.0,
+   "main_mailing_day": "2024-10-18"
+  },
+  "SULLIVAN": {
+   "counted": 274,
+   "late": 1,
+   "pct_late": 0.4,
+   "late_over_7_days": 1,
+   "median_days": 0.0,
+   "main_mailing_day": "2024-10-04"
+  },
+  "CAMERON": {
+   "counted": 149,
+   "late": 0,
+   "pct_late": 0.0,
+   "late_over_7_days": 0,
+   "median_days": 0,
+   "main_mailing_day": "2024-10-03"
+  }
+ }
+}
