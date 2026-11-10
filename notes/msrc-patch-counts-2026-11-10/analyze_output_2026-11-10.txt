@@ -1,0 +1,13 @@
+month total CVE-only  MS-CNA  MS-CNA_day1  MS-crit_day1  CNAs(non-MS top)
+Jan 327 327 124 112 8 [('Linux', 131), ('GitHub_M', 14), ('Chrome', 13)]
+Feb 173 173 61 58 5 [('Linux', 53), ('GitHub_M', 20), ('Chrome', 18)]
+Mar 463 463 97 83 8 [('Linux', 117), ('Chrome', 74), ('GitHub_M', 51)]
+Apr 688 688 181 172 15 [('Linux', 227), ('Chrome', 109), ('GitHub_M', 48)]
+May 1132 1132 162 137 30 [('Linux', 377), ('Chrome', 368), ('GitHub_M', 53)]
+Jun 1285 1285 220 207 38 [('Chrome', 543), ('Linux', 297), ('GitHub_M', 45)]
+Jul 2012 2012 663 622 61 [('Chrome', 869), ('Linux', 245), ('GitHub_M', 41)]
+Aug 1681 1681 457 422 64 [('Linux', 643), ('Chrome', 350), ('GitHub_M', 51)]
+Sep 2988 2988 998 972 113 [('Linux', 1184), ('Chrome', 437), ('GitHub_M', 105)]
+Oct 3491 3490 1474 1415 84 [('Linux', 848), ('Chrome', 739), ('apache', 81)]
+Nov 1342 1342 1095 1095 64 [('Chrome', 165), ('Linux', 41), ('CPANSec', 15)]
+YTD {'all': 15581, 'ms': 5532, 'ms1': 5295}

@@ -1,0 +1,5 @@
+Nov PT-day 1093 critical 63 critical by impact [('Remote Code Execution', 48), ('Elevation of Privilege', 15)]
+Nov EoP 535
+2025 MS on PT [('Jan', 159), ('Feb', 63), ('Mar', 58), ('Apr', 124), ('May', 78), ('Jun', 67), ('Jul', 130), ('Aug', 111), ('Sep', 86), ('Oct', 175), ('Nov', 63), ('Dec', 58)] mean 97.7
+KEV version 2026.11.10
+KEV added 2026 295 with CVE-2026 IDs 207
