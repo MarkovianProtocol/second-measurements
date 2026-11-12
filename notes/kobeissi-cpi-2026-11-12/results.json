@@ -1,0 +1,182 @@
+{
+ "2024-04": {
+  "core": 4.31,
+  "supercore_updated_w": 6.82,
+  "supercore_fixed_w": 6.83,
+  "services_less_rent_of_shelter": 5.99
+ },
+ "2024-05": {
+  "core": 3.25,
+  "supercore_updated_w": 4.53,
+  "supercore_fixed_w": 4.52,
+  "services_less_rent_of_shelter": 4.48
+ },
+ "2024-06": {
+  "core": 2.03,
+  "supercore_updated_w": 2.32,
+  "supercore_fixed_w": 2.31,
+  "services_less_rent_of_shelter": 1.67
+ },
+ "2024-07": {
+  "core": 1.64,
+  "supercore_updated_w": 1.37,
+  "supercore_fixed_w": 1.36,
+  "services_less_rent_of_shelter": 1.57
+ },
+ "2024-08": {
+  "core": 2.1,
+  "supercore_updated_w": 2.45,
+  "supercore_fixed_w": 2.44,
+  "services_less_rent_of_shelter": 1.71
+ },
+ "2024-09": {
+  "core": 2.97,
+  "supercore_updated_w": 4.01,
+  "supercore_fixed_w": 4.01,
+  "services_less_rent_of_shelter": 3.45
+ },
+ "2024-10": {
+  "core": 3.55,
+  "supercore_updated_w": 4.44,
+  "supercore_fixed_w": 4.44,
+  "services_less_rent_of_shelter": 4.5
+ },
+ "2024-11": {
+  "core": 3.69,
+  "supercore_updated_w": 4.35,
+  "supercore_fixed_w": 4.35,
+  "services_less_rent_of_shelter": 4.48
+ },
+ "2024-12": {
+  "core": 3.19,
+  "supercore_updated_w": 2.99,
+  "supercore_fixed_w": 2.98,
+  "services_less_rent_of_shelter": 3.76
+ },
+ "2025-01": {
+  "core": 3.66,
+  "supercore_updated_w": 4.21,
+  "supercore_fixed_w": 4.21,
+  "services_less_rent_of_shelter": 3.74
+ },
+ "2025-02": {
+  "core": 3.53,
+  "supercore_updated_w": 4.42,
+  "supercore_fixed_w": 4.42,
+  "services_less_rent_of_shelter": 4.46
+ },
+ "2025-03": {
+  "core": 3.04,
+  "supercore_updated_w": 3.62,
+  "supercore_fixed_w": 3.62,
+  "services_less_rent_of_shelter": 4.16
+ },
+ "2025-04": {
+  "core": 2.27,
+  "supercore_updated_w": 2.01,
+  "supercore_fixed_w": 2.0,
+  "services_less_rent_of_shelter": 3.5
+ },
+ "2025-05": {
+  "core": 1.77,
+  "supercore_updated_w": 1.07,
+  "supercore_fixed_w": 1.07,
+  "services_less_rent_of_shelter": 3.41
+ },
+ "2025-06": {
+  "core": 2.44,
+  "supercore_updated_w": 2.64,
+  "supercore_fixed_w": 2.64,
+  "services_less_rent_of_shelter": 3.92
+ },
+ "2025-07": {
+  "core": 2.74,
+  "supercore_updated_w": 3.8,
+  "supercore_fixed_w": 3.8,
+  "services_less_rent_of_shelter": 4.41
+ },
+ "2025-08": {
+  "core": 3.48,
+  "supercore_updated_w": 4.51,
+  "supercore_fixed_w": 4.51,
+  "services_less_rent_of_shelter": 3.82
+ },
+ "2025-09": {
+  "core": 3.41,
+  "supercore_updated_w": 4.09,
+  "supercore_fixed_w": 4.09,
+  "services_less_rent_of_shelter": 2.95
+ },
+ "2025-11": {
+  "core": 1.64,
+  "supercore_updated_w": null,
+  "supercore_fixed_w": null,
+  "services_less_rent_of_shelter": 2.48
+ },
+ "2025-12": {
+  "core": 1.7,
+  "supercore_updated_w": null,
+  "supercore_fixed_w": null,
+  "services_less_rent_of_shelter": 2.65
+ },
+ "2026-01": {
+  "core": null,
+  "supercore_updated_w": null,
+  "supercore_fixed_w": null,
+  "services_less_rent_of_shelter": null
+ },
+ "2026-02": {
+  "core": 3.02,
+  "supercore_updated_w": 4.32,
+  "supercore_fixed_w": 4.32,
+  "services_less_rent_of_shelter": 3.5
+ },
+ "2026-03": {
+  "core": 2.86,
+  "supercore_updated_w": 4.54,
+  "supercore_fixed_w": 4.54,
+  "services_less_rent_of_shelter": 3.92
+ },
+ "2026-04": {
+  "core": 3.2,
+  "supercore_updated_w": 3.39,
+  "supercore_fixed_w": 3.39,
+  "services_less_rent_of_shelter": 4.08
+ },
+ "2026-05": {
+  "core": 3.17,
+  "supercore_updated_w": 3.16,
+  "supercore_fixed_w": 3.15,
+  "services_less_rent_of_shelter": 5.19
+ },
+ "2026-06": {
+  "core": 2.29,
+  "supercore_updated_w": 2.1,
+  "supercore_fixed_w": 2.1,
+  "services_less_rent_of_shelter": 3.07
+ },
+ "2026-07": {
+  "core": 1.64,
+  "supercore_updated_w": 2.13,
+  "supercore_fixed_w": 2.13,
+  "services_less_rent_of_shelter": 2.28
+ },
+ "2026-08": {
+  "core": 1.97,
+  "supercore_updated_w": 2.76,
+  "supercore_fixed_w": 2.76,
+  "services_less_rent_of_shelter": 1.29
+ },
+ "2026-09": {
+  "core": 3.41,
+  "supercore_updated_w": 4.53,
+  "supercore_fixed_w": 4.53,
+  "services_less_rent_of_shelter": 3.26
+ },
+ "2026-10": {
+  "core": 3.75,
+  "supercore_updated_w": 4.67,
+  "supercore_fixed_w": 4.67,
+  "services_less_rent_of_shelter": 4.33
+ }
+}

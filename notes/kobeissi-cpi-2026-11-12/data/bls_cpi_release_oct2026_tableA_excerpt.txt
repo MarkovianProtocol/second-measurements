@@ -1,0 +1,5 @@
+Source: https://www.bls.gov/news.release/cpi.nr0.htm, CPI October 2026, USDL-26-1685, released 10 Nov 2026 (read 12 Nov 2026)
+Table A, seasonally adjusted changes from preceding month (percent):            Aug 2026  Sep 2026  Oct 2026
+All items less food and energy                                                   0.3       0.3       0.3
+Services less energy services                                                    0.3       0.4       0.3
+Shelter                                                                          0.3       0.4       0.3

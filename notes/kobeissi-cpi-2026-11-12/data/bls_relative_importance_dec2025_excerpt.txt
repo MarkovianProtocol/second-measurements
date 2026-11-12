@@ -1,0 +1,10 @@
+Source: https://www.bls.gov/cpi/tables/relative-importance/2025.htm (read 12 Nov 2026; page last modified 7 Oct 2026)
+Relative importance of components in the CPI, U.S. city average, December 2025, CPI-U, percent of all items:
+All items 100.000
+Shelter 35.625
+Rent of shelter 35.333
+Services 64.006
+Services less rent of shelter 28.673
+Services less energy services 60.744
+Energy services 3.262
+All items less food and energy 79.919
