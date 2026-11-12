@@ -14,16 +14,18 @@ def row(r):
         return f'<tr><td class="o">{link}</td><td>{H(r["asked"])}</td><td>{H(r["sent"] or "")}</td><td style="color:var(--good)">{when}</td><td>{H(r["closed"])}</td></tr>'
     if not r.get("sent"):
         return f'<tr><td class="o">{link}</td><td>{H(r["asked"])}</td><td>&mdash;</td><td style="color:var(--sub)">not yet sent</td><td>{H(r.get("pending") or "")}</td></tr>'
-    sent = dt.date.fromisoformat(r["sent"]); ends = sent + dt.timedelta(days=N); left = (ends - today).days
+    sent = dt.date.fromisoformat(r["sent"]); fu = dt.date.fromisoformat(r["followup"]) if r.get("followup") else None
+    start = fu or sent; ends = start + dt.timedelta(days=N); left = (ends - today).days   # a follow-up starts the clock again
+    sc = f"{sent}; followed up {fu}" if fu else f"{sent}"
     if r.get("reply"):
         days = (dt.date.fromisoformat(r["reply"]) - sent).days
         return f'<tr><td class="o">{link}</td><td>{H(r["asked"])}</td><td>{sent}</td><td style="color:var(--good)">{"replied the same day" if days == 0 else f"replied in {days} day" + ("s" if days != 1 else "")}</td><td>{H(r.get("next") or "reply on the page")}</td></tr>'
     if left >= 0:
-        return f'<tr><td class="o">{link}</td><td>{H(r["asked"])}</td><td>{sent}</td><td style="color:var(--pend)">{left} day{"s" if left != 1 else ""} left</td><td>{H(r.get("next") or f"clock ends {ends}")}</td></tr>'
-    return f'<tr><td class="o">{link}</td><td>{H(r["asked"])}</td><td>{sent}</td><td style="color:var(--bad)">no reply in {N} days</td><td>{H(r.get("next") or "clock ran out " + str(ends))}</td></tr>'
+        return f'<tr><td class="o">{link}</td><td>{H(r["asked"])}</td><td>{sc}</td><td style="color:var(--pend)">{left} day{"s" if left != 1 else ""} left</td><td>{H(r.get("next") or f"clock ends {ends}")}</td></tr>'
+    return f'<tr><td class="o">{link}</td><td>{H(r["asked"])}</td><td>{sc}</td><td style="color:var(--bad)">no reply in {N} days{" after a follow-up" if fu else ""}</td><td>{H(r.get("next") or "clock ran out " + str(ends))}</td></tr>'
 rows = sorted(d["rows"], key=lambda r: (r.get("closed") is not None, r.get("reply") is not None, r.get("sent") or "9999"))
 block = ('<!--clocks--><h2 id="clocks">Open clocks</h2>\n'
-         f'<p class="cap">Every party we asked, the day the note went, and where its {N}-day clock stands today ({today}). A reply or a fix is printed on the paper and scored. Silence past day {N} turns red and counts, and we don&rsquo;t write to the same address again. The last column says what can still close each paper, and which recheck will see it.</p>\n'
+         f'<p class="cap">Every party we asked, the day the note went, and where its {N}-day clock stands today ({today}). A reply or a fix is printed on the paper and scored. Silence at day {N} gets one friendly follow-up, and the clock starts again; silence after that turns red and counts. The last column says what can still close each paper, and which recheck will see it.</p>\n'
          '<div class="tw"><table>\n<tr><th>Paper</th><th>Asked</th><th>Sent</th><th>Clock</th><th>Ending</th></tr>\n' + "\n".join(row(r) for r in rows) + '\n</table></div><!--/clocks-->')
 p = os.path.join(SITE, "index.html"); s = open(p, encoding="utf-8").read()
 if "<!--clocks-->" in s:
