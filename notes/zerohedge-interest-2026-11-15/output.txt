@@ -1,0 +1,6 @@
+Nov 2025-Oct 2026: gross interest $1,371.5B; total receipts $5,367.8B -> 25.55%; on-budget receipts $4,022.9B -> 34.09%
+  receipts needed for 28.2%: $4,863B
+Line: 901 Interest on Treasury debt securities (gross) | years 1962 - 2025
+Highest fiscal years, gross interest / total receipts: FY1991 27.05%, FY1992 26.79%, FY1990 25.65%, FY1993 25.34%, FY1986 24.74%, FY1995 24.59%
+FY2025: 23.21% | years at or above the last-12-month share: [1990, 1991, 1992]
+October 2026: deficit $404.1B (Treasury MTS table 1); gross interest $115.5B
