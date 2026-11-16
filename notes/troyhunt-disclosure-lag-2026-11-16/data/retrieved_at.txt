@@ -1,0 +1,6 @@
+2026-11-16T22:56:54Z
+wa_sb4j-ca4h.json: https://data.wa.gov/resource/sb4j-ca4h.json?$limit=50000
+de_dir6-wx8v.json: https://data.delaware.gov/resource/dir6-wx8v.json?$limit=50000
+wa_ag_dbr_2026.pdf, wa_ag_dbr_2025.pdf: linked from https://www.atg.wa.gov/data-breach-reports
+de_6delc_12B-102.html: https://delcode.delaware.gov/title6/c012b/index.html (60 days after determination)
+wa_rcw_19.255.010.html: https://app.leg.wa.gov/RCW/default.aspx?cite=19.255.010 (thirty calendar days after the breach was discovered)

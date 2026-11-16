@@ -1,0 +1,52 @@
+
+WA: 1698 records, 1675 used, 23 dropped (missing/negative/implausible dates)
+  year     n  median   p75  within 30 d
+  2015    11      35   117  4 (36.4%)
+  2016    39      34    55  17 (43.6%)
+  2017    80    36.5    57  35 (43.8%)
+  2018    62    43.0    86  23 (37.1%)
+  2019    60    43.0    70  19 (31.7%)
+  2020   198    36.0    74  81 (40.9%)
+  2021   186    70.5   144  37 (19.9%)
+  2022   171      83   183  23 (13.5%)
+  2023   252    67.0   130  39 (15.5%)
+  2024   228   109.5   213  15 (6.6%)
+  2025   209     134   232  27 (12.9%)
+  2026   179      99   196  19 (10.6%)
+  Carnival 2026: ('Carnival Corporation', '2026-04-14', '2026-05-27', 43)
+
+DE: 473 records, 391 used, 82 dropped (missing/negative/implausible dates)
+  year     n  median   p75  within 60 d
+  2019     7      29    39  7 (100.0%)
+  2020    43      31    65  30 (69.8%)
+  2021    44    55.0    76  26 (59.1%)
+  2022    56    43.0    84  40 (71.4%)
+  2023    88    42.0    65  63 (71.6%)
+  2024    60    42.0    60  47 (78.3%)
+  2025    58    47.5   104  33 (56.9%)
+  2026    35      30    59  28 (80.0%)
+  Carnival 2026: ('Carnival Corporation', '2026-04-14', '2026-05-27', 43)
+
+WA median days by cause (groups of 15+):
+  Cyberattack/Malware          2015-2020  n=101  median 39
+  Cyberattack/Malware          2021-2023  n= 82  median 77.5
+  Cyberattack/Malware          2024-2026  n= 32  median 54.5
+  Cyberattack/Other            2021-2023  n= 78  median 65.0
+  Cyberattack/Other            2024-2026  n= 82  median 79.0
+  Cyberattack/Phishing         2015-2020  n= 31  median 60
+  Cyberattack/Phishing         2021-2023  n= 41  median 102
+  Cyberattack/Phishing         2024-2026  n= 42  median 110.0
+  Cyberattack/Ransomware       2015-2020  n=118  median 31.0
+  Cyberattack/Ransomware       2021-2023  n=201  median 84
+  Cyberattack/Ransomware       2024-2026  n=273  median 166
+  Cyberattack/Unclear/unknown  2015-2020  n= 52  median 43.0
+  Cyberattack/Unclear/unknown  2021-2023  n= 26  median 42.0
+  Theft or Mistake             2015-2020  n= 38  median 36.0
+  Theft or Mistake             2021-2023  n= 34  median 60.5
+  Theft or Mistake             2024-2026  n= 21  median 43
+  Unauthorized Access          2015-2020  n= 88  median 42.0
+  Unauthorized Access          2021-2023  n=142  median 73.0
+  Unauthorized Access          2024-2026  n=147  median 85
+
+Same breach in both registers: 120 filings; same start date in 58; Delaware's 'discovered' more than 30 days after Washington's 'aware' in 36
+  median lag, WA 67.0 | DE 42.5
