@@ -1,0 +1,190 @@
+{
+ "nvd_cves": 1877,
+ "nvd_status": {
+  "Modified": 767,
+  "Rejected": 364,
+  "Analyzed": 647,
+  "Deferred": 66,
+  "Awaiting Analysis": 33
+ },
+ "nvd_2026": {
+  "Analyzed": 362,
+  "Modified": 14,
+  "Rejected": 123,
+  "Deferred": 65,
+  "Awaiting Analysis": 33
+ },
+ "nvd_first_published": "2020-06-09T16:15:10.520",
+ "cve_issue_pairs": 1136,
+ "issues": 1132,
+ "issues_2026": 254,
+ "conflicts": [],
+ "one_network_only": [],
+ "headline_2026_past_90": {
+  "n": 176,
+  "hidden": 153,
+  "pct": 86.9
+ },
+ "latest_cve_counted": "2026-08-12T20:17:49",
+ "rule_30_releases": {
+  "n": 143,
+  "hidden": 120,
+  "pct": 83.9
+ },
+ "rule_90_releases_past_90": {
+  "n": 33,
+  "hidden": 33,
+  "pct": 100.0
+ },
+ "youngest_hidden_30day_release_days_at_probe": 142,
+ "api_check_hidden_2026_past_90": {
+  "null": 153
+ },
+ "by_year_past_90": {
+  "2020": {
+   "n": 104,
+   "hidden": 23,
+   "pct": 22.1
+  },
+  "2021": {
+   "n": 152,
+   "hidden": 48,
+   "pct": 31.6
+  },
+  "2022": {
+   "n": 143,
+   "hidden": 44,
+   "pct": 30.8
+  },
+  "2023": {
+   "n": 166,
+   "hidden": 18,
+   "pct": 10.8
+  },
+  "2024": {
+   "n": 145,
+   "hidden": 35,
+   "pct": 24.1
+  },
+  "2025": {
+   "n": 168,
+   "hidden": 73,
+   "pct": 43.5
+  },
+  "2026": {
+   "n": 176,
+   "hidden": 153,
+   "pct": 86.9
+  }
+ },
+ "by_month_2026_past_90": {
+  "1": {
+   "n": 13,
+   "hidden": 8,
+   "pct": 61.5
+  },
+  "2": {
+   "n": 25,
+   "hidden": 13,
+   "pct": 52.0
+  },
+  "3": {
+   "n": 27,
+   "hidden": 22,
+   "pct": 81.5
+  },
+  "4": {
+   "n": 23,
+   "hidden": 22,
+   "pct": 95.7
+  },
+  "5": {
+   "n": 31,
+   "hidden": 31,
+   "pct": 100.0
+  },
+  "6": {
+   "n": 24,
+   "hidden": 24,
+   "pct": 100.0
+  },
+  "7": {
+   "n": 20,
+   "hidden": 20,
+   "pct": 100.0
+  },
+  "8": {
+   "n": 13,
+   "hidden": 13,
+   "pct": 100.0
+  }
+ },
+ "release_dates_2026": [
+  "2026-01-07",
+  "2026-01-19",
+  "2026-01-21",
+  "2026-02-04",
+  "2026-02-10",
+  "2026-02-25",
+  "2026-03-11",
+  "2026-03-25",
+  "2026-04-08",
+  "2026-04-22",
+  "2026-04-29",
+  "2026-05-13",
+  "2026-05-27",
+  "2026-06-10",
+  "2026-06-24",
+  "2026-07-01",
+  "2026-07-08",
+  "2026-07-29",
+  "2026-08-06",
+  "2026-08-12",
+  "2026-08-17",
+  "2026-08-26",
+  "2026-09-10",
+  "2026-09-23",
+  "2026-10-12",
+  "2026-10-21",
+  "2026-10-29",
+  "2026-11-10",
+  "2026-11-12"
+ ],
+ "cve_days_after_release_2026": {
+  "0": 105,
+  "1": 114,
+  "2": 9,
+  "5": 6,
+  "6": 16,
+  "7": 1,
+  "9": 1,
+  "12": 1,
+  "14": 1
+ },
+ "visibility_lag": {
+  "2024": {
+   "n": 1,
+   "median_days": 43,
+   "negative": 0
+  },
+  "2025": {
+   "n": 88,
+   "median_days": 40.5,
+   "negative": 5
+  },
+  "2026": {
+   "n": 17,
+   "median_days": 70,
+   "negative": 1
+  },
+  "rate_limited": 12,
+  "public_without_note": 1
+ },
+ "probe_date": "2026-11-13",
+ "latest_release_counted": "2026-08-12",
+ "headline_without_latest_release": {
+  "n": 163,
+  "hidden": 140,
+  "pct": 85.9
+ }
+}

@@ -1,0 +1,37 @@
+# Hand-check, 28 Oct 2026. 30 issues sampled with random.seed(1028) from the Mac probe rows that are 2026, answered 404, and have a CVE date on or before 2026-07-30.
+# For each: GitLab's CNA record from cveawg.mitre.org/api/cve/<id> (names_issue = the record cites gitlab-org/gitlab issue <iid>),
+# and anonymous GETs of the web issue page and the /-/work_items/ page. 14 rows hit HTTP 429 (rate limit) on the web checks.
+# The last line's 'consistent hidden: 0 of 30' required the work_items page to answer 404; it answers 200 for every item, because
+# that page is served for hidden items too (see control_wi_596134.html: generic 'Work items' title, no content) - so it is not a visibility signal.
+# Result used on the page: names_issue True for 30 of 30.
+CVE-2026-5952 2026-06-25 596134 cna GitLab names_issue True web 404 work_item 200 | GitLab has remediated an issue in GitLab CE/EE affecting all versions 
+CVE-2026-6269 2026-06-11 596625 cna GitLab names_issue True web 404 work_item 200 | GitLab has remediated an issue in GitLab CE/EE affecting all versions 
+CVE-2026-6515 2026-04-22 595993 cna GitLab names_issue True web 404 work_item 200 | GitLab has remediated an issue in GitLab CE/EE affecting all versions 
+CVE-2026-2619 2026-04-08 590430 cna GitLab names_issue True web 404 work_item 200 | GitLab has remediated an issue in GitLab EE affecting all versions fro
+CVE-2026-8330 2026-06-25 599621 cna GitLab names_issue True web 404 work_item 200 | GitLab has remediated an issue in GitLab CE/EE affecting all versions 
+CVE-2026-8280 2026-05-14 579035 cna GitLab names_issue True web 404 work_item 200 | GitLab has remediated an issue in GitLab CE/EE affecting all versions 
+CVE-2026-1500 2026-06-11 587825 cna GitLab names_issue True web 404 work_item 200 | GitLab has remediated an issue in GitLab CE/EE affecting all versions 
+CVE-2026-3093 2026-07-29 591274 cna GitLab names_issue True web 404 work_item 200 | GitLab has remediated an issue in GitLab CE/EE affecting all versions 
+CVE-2025-13928 2026-01-22 582736 cna GitLab names_issue True web 404 work_item 200 | GitLab has remediated an issue in GitLab CE/EE affecting all versions 
+CVE-2026-14351 2026-07-29 604691 cna GitLab names_issue True web 404 work_item 200 | GitLab has remediated an issue in GitLab CE/EE affecting all versions 
+CVE-2026-1663 2026-03-11 588207 cna GitLab names_issue True web 404 work_item 200 | GitLab has remediated an issue in GitLab CE/EE affecting all versions 
+CVE-2025-12576 2026-03-11 579170 cna GitLab names_issue True web 404 work_item 200 | GitLab has remediated an issue in GitLab CE/EE affecting all versions 
+CVE-2025-3922 2026-04-22 537422 cna GitLab names_issue True web 404 work_item 200 | GitLab has remediated an issue in GitLab CE/EE affecting all versions 
+CVE-2026-2900 2026-05-14 590983 cna GitLab names_issue True web 404 work_item 200 | GitLab has remediated an issue in GitLab EE affecting all versions fro
+CVE-2025-12575 2026-02-11 579171 cna GitLab names_issue True web 404 work_item 200 | GitLab has remediated an issue in GitLab EE affecting all versions fro
+CVE-2026-7492 2026-07-08 597947 cna GitLab names_issue True web 404 work_item 200 | GitLab has remediated an issue in GitLab CE/EE affecting all versions 
+CVE-2026-8144 2026-05-14 591964 cna GitLab names_issue True web 429 work_item 429 | GitLab has remediated an issue in GitLab CE/EE affecting all versions 
+CVE-2026-1094 2026-02-11 586483 cna GitLab names_issue True web 429 work_item 429 | GitLab has remediated an issue in GitLab CE/EE affecting all versions 
+CVE-2026-3857 2026-03-25 592828 cna GitLab names_issue True web 429 work_item 429 | GitLab has remediated an issue in GitLab CE/EE affecting all versions 
+CVE-2026-2238 2026-06-25 589186 cna GitLab names_issue True web 429 work_item 429 | GitLab has remediated an issue in GitLab CE/EE affecting all versions 
+CVE-2026-3176 2026-06-25 591373 cna GitLab names_issue True web 429 work_item 429 | GitLab has remediated an issue in GitLab EE affecting all versions fro
+CVE-2026-1102 2026-01-22 579746 cna GitLab names_issue True web 429 work_item 429 | GitLab has remediated an issue in GitLab CE/EE affecting all versions 
+CVE-2026-10087 2026-06-11 601633 cna GitLab names_issue True web 429 work_item 429 | GitLab has remediated an issue in GitLab EE affecting all versions fro
+CVE-2025-12697 2026-03-11 579504 cna GitLab names_issue True web 429 work_item 429 | GitLab has remediated an issue in GitLab CE/EE affecting all versions 
+CVE-2026-1092 2026-04-08 586479 cna GitLab names_issue True web 429 work_item 429 | GitLab has remediated an issue in GitLab CE/EE affecting all versions 
+CVE-2026-4524 2026-05-14 594295 cna GitLab names_issue True web 429 work_item 429 | GitLab has remediated an issue in GitLab CE/EE affecting all versions 
+CVE-2025-0186 2026-04-22 511312 cna GitLab names_issue True web 429 work_item 429 | GitLab has remediated an issue in GitLab CE/EE affecting all versions 
+CVE-2026-3848 2026-03-11 577298 cna GitLab names_issue True web 429 work_item 429 | GitLab has remediated an issue in GitLab CE/EE affecting all versions 
+CVE-2025-14869 2026-05-14 584489 cna GitLab names_issue True web 429 work_item 429 | GitLab has remediated an issue in GitLab CE/EE affecting all versions 
+CVE-2026-1662 2026-02-25 588206 cna GitLab names_issue True web 429 work_item 429 | GitLab has remediated an issue in GitLab CE/EE affecting all versions 
+consistent hidden: 0 of 30
