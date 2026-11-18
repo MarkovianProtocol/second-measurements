@@ -1,0 +1,200 @@
+[
+ {
+  "title": "MyHeritage",
+  "breach": "2017-10-26",
+  "hibp_added": "2019-02-20",
+  "first_notice": "2018-06-15",
+  "first_state": "DE",
+  "pwn": 91991358,
+  "hibp_first_by_days": -250
+ },
+ {
+  "title": "CafePress",
+  "breach": "2019-02-20",
+  "hibp_added": "2019-08-05",
+  "first_notice": "2019-09-04",
+  "first_state": "WA",
+  "pwn": 23205290,
+  "hibp_first_by_days": 30
+ },
+ {
+  "title": "StockX",
+  "breach": "2019-07-26",
+  "hibp_added": "2019-08-10",
+  "first_notice": "2019-08-08",
+  "first_state": "DE",
+  "pwn": 6840339,
+  "hibp_first_by_days": -2
+ },
+ {
+  "title": "Mathway",
+  "breach": "2020-01-13",
+  "hibp_added": "2020-06-05",
+  "first_notice": "2020-05-22",
+  "first_state": "WA",
+  "pwn": 25692862,
+  "hibp_first_by_days": -14
+ },
+ {
+  "title": "Dave",
+  "breach": "2020-06-28",
+  "hibp_added": "2020-07-27",
+  "first_notice": "2020-08-20",
+  "first_state": "WA",
+  "pwn": 2964182,
+  "hibp_first_by_days": 24
+ },
+ {
+  "title": "TrueFire",
+  "breach": "2020-02-21",
+  "hibp_added": "2020-08-02",
+  "first_notice": "2020-10-27",
+  "first_state": "WA",
+  "pwn": 599667,
+  "hibp_first_by_days": 86
+ },
+ {
+  "title": "Zoosk (2020)",
+  "breach": "2020-01-12",
+  "hibp_added": "2020-08-07",
+  "first_notice": "2020-06-03",
+  "first_state": "DE",
+  "pwn": 23927853,
+  "hibp_first_by_days": -65
+ },
+ {
+  "title": "LiveAuctioneers",
+  "breach": "2020-06-19",
+  "hibp_added": "2020-08-22",
+  "first_notice": "2020-07-11",
+  "first_state": "DE",
+  "pwn": 3385862,
+  "hibp_first_by_days": -42
+ },
+ {
+  "title": "Minted",
+  "breach": "2020-05-06",
+  "hibp_added": "2020-11-03",
+  "first_notice": "2020-05-27",
+  "first_state": "WA",
+  "pwn": 4418182,
+  "hibp_first_by_days": -160
+ },
+ {
+  "title": "Epik",
+  "breach": "2021-09-13",
+  "hibp_added": "2021-09-19",
+  "first_notice": "2021-09-22",
+  "first_state": "WA",
+  "pwn": 15003961,
+  "hibp_first_by_days": 3
+ },
+ {
+  "title": "Neiman Marcus",
+  "breach": "2024-04-14",
+  "hibp_added": "2024-07-09",
+  "first_notice": "2024-06-24",
+  "first_state": "WA",
+  "pwn": 31152842,
+  "hibp_first_by_days": -15
+ },
+ {
+  "title": "National Public Data",
+  "breach": "2024-04-09",
+  "hibp_added": "2024-08-13",
+  "first_notice": "2024-08-10",
+  "first_state": "DE",
+  "pwn": 133957569,
+  "hibp_first_by_days": -3
+ },
+ {
+  "title": "Allianz Life",
+  "breach": "2025-07-16",
+  "hibp_added": "2025-08-18",
+  "first_notice": "2025-07-25",
+  "first_state": "WA",
+  "pwn": 1115061,
+  "hibp_first_by_days": -24
+ },
+ {
+  "title": "Prosper",
+  "breach": "2025-09-01",
+  "hibp_added": "2025-10-16",
+  "first_notice": "2025-12-09",
+  "first_state": "WA",
+  "pwn": 17605276,
+  "hibp_first_by_days": 54
+ },
+ {
+  "title": "Betterment",
+  "breach": "2026-01-09",
+  "hibp_added": "2026-02-05",
+  "first_notice": "2026-03-27",
+  "first_state": "WA",
+  "pwn": 1435174,
+  "hibp_first_by_days": 50
+ },
+ {
+  "title": "University of Pennsylvania",
+  "breach": "2025-10-30",
+  "hibp_added": "2026-02-16",
+  "first_notice": "2025-12-01",
+  "first_state": "WA",
+  "pwn": 623750,
+  "hibp_first_by_days": -77
+ },
+ {
+  "title": "Figure",
+  "breach": "2026-01-28",
+  "hibp_added": "2026-02-18",
+  "first_notice": "2026-02-23",
+  "first_state": "WA",
+  "pwn": 967178,
+  "hibp_first_by_days": 5
+ },
+ {
+  "title": "Carnival",
+  "breach": "2026-04-18",
+  "hibp_added": "2026-04-24",
+  "first_notice": "2026-05-27",
+  "first_state": "WA",
+  "pwn": 7531359,
+  "hibp_first_by_days": 33
+ },
+ {
+  "title": "ADT",
+  "breach": "2026-04-20",
+  "hibp_added": "2026-04-27",
+  "first_notice": "2026-04-24",
+  "first_state": "DE",
+  "pwn": 5488888,
+  "hibp_first_by_days": -3
+ },
+ {
+  "title": "Marcus & Millichap",
+  "breach": "2026-04-12",
+  "hibp_added": "2026-05-03",
+  "first_notice": "2026-05-14",
+  "first_state": "WA",
+  "pwn": 1837078,
+  "hibp_first_by_days": 11
+ },
+ {
+  "title": "Ameriprise",
+  "breach": "2026-03-02",
+  "hibp_added": "2026-05-26",
+  "first_notice": "2026-04-17",
+  "first_state": "WA",
+  "pwn": 502597,
+  "hibp_first_by_days": -39
+ },
+ {
+  "title": "DentaQuest",
+  "breach": "2026-05-23",
+  "hibp_added": "2026-06-03",
+  "first_notice": "2026-07-16",
+  "first_state": "WA",
+  "pwn": 2553599,
+  "hibp_first_by_days": 43
+ }
+]

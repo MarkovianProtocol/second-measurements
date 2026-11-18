@@ -1,0 +1,25 @@
+MyHeritage                   HIBP 2019-02-20  first state notice 2018-06-15 (DE)  company first by 250 d
+CafePress                    HIBP 2019-08-05  first state notice 2019-09-04 (WA)  HIBP first by 30 d
+StockX                       HIBP 2019-08-10  first state notice 2019-08-08 (DE)  company first by 2 d
+Mathway                      HIBP 2020-06-05  first state notice 2020-05-22 (WA)  company first by 14 d
+Dave                         HIBP 2020-07-27  first state notice 2020-08-20 (WA)  HIBP first by 24 d
+TrueFire                     HIBP 2020-08-02  first state notice 2020-10-27 (WA)  HIBP first by 86 d
+Zoosk (2020)                 HIBP 2020-08-07  first state notice 2020-06-03 (DE)  company first by 65 d
+LiveAuctioneers              HIBP 2020-08-22  first state notice 2020-07-11 (DE)  company first by 42 d
+Minted                       HIBP 2020-11-03  first state notice 2020-05-27 (WA)  company first by 160 d
+Epik                         HIBP 2021-09-19  first state notice 2021-09-22 (WA)  HIBP first by 3 d
+Neiman Marcus                HIBP 2024-07-09  first state notice 2024-06-24 (WA)  company first by 15 d
+National Public Data         HIBP 2024-08-13  first state notice 2024-08-10 (DE)  company first by 3 d
+Allianz Life                 HIBP 2025-08-18  first state notice 2025-07-25 (WA)  company first by 24 d
+Prosper                      HIBP 2025-10-16  first state notice 2025-12-09 (WA)  HIBP first by 54 d
+Betterment                   HIBP 2026-02-05  first state notice 2026-03-27 (WA)  HIBP first by 50 d
+University of Pennsylvania   HIBP 2026-02-16  first state notice 2025-12-01 (WA)  company first by 77 d
+Figure                       HIBP 2026-02-18  first state notice 2026-02-23 (WA)  HIBP first by 5 d
+Carnival                     HIBP 2026-04-24  first state notice 2026-05-27 (WA)  HIBP first by 33 d
+ADT                          HIBP 2026-04-27  first state notice 2026-04-24 (DE)  company first by 3 d
+Marcus & Millichap           HIBP 2026-05-03  first state notice 2026-05-14 (WA)  HIBP first by 11 d
+Ameriprise                   HIBP 2026-05-26  first state notice 2026-04-17 (WA)  company first by 39 d
+DentaQuest                   HIBP 2026-06-03  first state notice 2026-07-16 (WA)  HIBP first by 43 d
+
+incidents in both: 22; HIBP loaded the data before the company's first state notice: 10; median lead 31.5 days (range 3-86)
+2026 (HIBP added): 8; HIBP first: 5

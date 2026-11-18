@@ -11,6 +11,7 @@ Not papers. When we recompute a public figure for a person or outlet we follow, 
 | pypi-malware-takedown-2026-10-26.md (+ folder: scripts, rows.csv, still_live.csv) | PyPI malware takedown times vs Seth Larson's "removed within hours", 27 Apr–19 Oct 2026 | 12834 |
 | dod-unsupported-adjustments-2026-10-23.md (+ CSV, extract.py) | DoD unsupported accounting adjustments, FY2020–FY2025, from the auditor's reports | 12470 |
 | scd-5-54-2026-10-23.md (+ chart) | Ethical Skeptic's "sudden cardiac death, ages 5–54" baseline vs CDC WONDER, 2010–2025 | 12450 |
+| troyhunt-hibp-first-2026-11-18.md | Troy Hunt follow-up: Have I Been Pwned load date vs the company's first state breach notice (Washington, Delaware), 22 breaches | 14477 |
 | alrich-vulnpocalypse-2026-11-18.md | Tom Alrich (Energy Central), August 2026 CVE record count and growth, vs NVD; plus product identifiers (CPE, PURL) in August's CVE records | 14473 |
 | troyhunt-disclosure-lag-2026-11-16.md | Troy Hunt (Have I Been Pwned), breach disclosure lag "worse than ever", vs Washington and Delaware breach registers | 14407 |
 | cve-100k-2026-11-16.md | Josh Bressers (VulnCheck) in The Register, 100,000 CVEs in 2026, with and without rejected IDs, vs NVD | 14354 |
