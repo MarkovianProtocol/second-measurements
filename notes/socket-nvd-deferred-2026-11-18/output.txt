@@ -1,0 +1,37 @@
+NVD records published 1 Jan - 27 Oct 2026, read 18 Nov: 90,189
+vulnStatus            Socket 28 Oct  ours 18 Nov
+Analyzed                     33,894       35,464 (39.3%)
+Deferred                     33,417       33,459 (37.1%)
+Awaiting Analysis             9,227        8,092 (9.0%)
+Modified                      5,157        5,861 (6.5%)
+Received                      4,916        4,546 (5.0%)
+Rejected                      2,272        2,290 (2.5%)
+Undergoing Analysis           1,309          477 (0.5%)
+
+month     total S/us   deferred S/us   queue 28 Oct -> 18 Nov  cleared  deferred share us
+    1  5,143/5,143    1,732/1,731             3 -> 0                 3              33.7%
+    2  4,808/4,808    1,568/1,568             2 -> 2                 0              32.6%
+    3  6,304/6,304    1,590/1,590           203 -> 202               1              25.2%
+    4  5,885/5,885    1,610/1,610           248 -> 248               0              27.4%
+    5  6,985/6,985    2,639/2,639           432 -> 432               0              37.8%
+    6  8,001/8,001    3,233/3,233           331 -> 328               3              40.4%
+    7  9,919/9,919    3,745/3,745           699 -> 498             201              37.8%
+    8 12,719/12,719   5,320/5,319         2,866 -> 2,820            46              41.8%
+    9 15,074/15,074   5,772/5,770         4,453 -> 4,324           129              38.3%
+   10 15,354/15,351   6,208/6,254         6,215 -> 4,261         1,954              40.7%
+queue, all months: 15,452 on 28 Oct -> 13,115 on 18 Nov (2,337 cleared, 15.1%)
+
+with NVD CPE configurations: 41,544 of 90,189 (46.1%)  [Socket: 43.5%]
+with any CVSS: 85,290 (94.6%)  [Socket 93.4%]; scored by NVD: 14,474 (16.0%)  [Socket 14,090, 15.6%]
+GitHub CNA records: 12,262  [Socket 12,262]; Deferred 4,659 (38.0%)  [Socket 4,640, 37.8%]
+KEV-listed CVEs among them (CISA catalog as of 18 Nov): 205; status {'Analyzed': 205}  [Socket: all 197 Analyzed]
+
+largest submitting sources, Deferred share and still in queue on 18 Nov:
+  security-advisories@github.com             12,147  deferred  38.4%  queue   7.7%  analyzed  53.9%
+  disclosure@vulncheck.com                    9,003  deferred  62.4%  queue   8.7%  analyzed  29.0%
+  416baaa9-dc9f-4396-8d5f-8c081fb06d67        8,080  deferred   1.6%  queue  58.3%  analyzed  40.1%
+  cna@vuldb.com                               6,090  deferred  77.2%  queue   0.3%  analyzed  22.5%
+  audit@patchstack.com                        4,939  deferred  99.8%  queue   0.0%  analyzed   0.2%
+  secure@microsoft.com                        4,420  deferred   0.0%  queue   2.5%  analyzed  97.5%
+  secalert_us@oracle.com                      4,154  deferred   6.1%  queue  11.0%  analyzed  82.9%
+  cve@mitre.org                               3,655  deferred  49.8%  queue  10.5%  analyzed  39.7%

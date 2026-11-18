@@ -1,0 +1,6 @@
+Deferred CVEs, 1 Jan - 27 Oct 2026: 33,459; random sample 400 (seed 20261118)
+  unreviewed only (no Dependabot alert)                 339 (84.8%)
+  reviewed, names a package (Dependabot can alert)       32 (8.0%)
+  no GitHub advisory                                     29 (7.2%)
+  WordPress-plugin CNAs: 146; Dependabot can alert on 0 (0.0%)
+  all other CNAs: 254; Dependabot can alert on 32 (12.6%)

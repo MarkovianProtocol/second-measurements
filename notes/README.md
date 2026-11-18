@@ -36,3 +36,4 @@ Not papers. When we recompute a public figure for a person or outlet we follow, 
 | eight-bits-2026-11-09.md (+ analyze.py, 16 certificates) | Scott Helme, eMudhra eight-bit keys: all 8 keys and dates hold; trust ends Dec 2028 (Sectigo/AAA), not July 2039 | 13933 |
 
 Live copies: https://markovianprotocol.com/measurements/notes/
+| socket-nvd-deferred-2026-11-18.md | Socket's NVD Deferred-status measurement recomputed live three weeks on; queue clearance; per-CNA deferral; Dependabot reach on 400 Deferred CVEs | 14478 |

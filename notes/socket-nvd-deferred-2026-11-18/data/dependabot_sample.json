@@ -1,0 +1,4104 @@
+[
+{
+"cve": "CVE-2026-24553",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-jff8-mh7v-78jj"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-57814",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-4w75-4w83-g4vf"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-103664",
+"source": "5a6e4751-2f3f-4070-9419-94fb35b644e8",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-66pp-jmhc-r9mv"
+],
+"package": []
+},
+{
+"cve": "CVE-2025-68889",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-4j9w-6jcv-v8mp"
+],
+"package": []
+},
+{
+"cve": "CVE-2024-14044",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-pgwr-38c3-f9pj"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-3139",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-g22g-h6v3-25jw"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-67857",
+"source": "cve@mitre.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-2mh5-cmr8-pwvp"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-54207",
+"source": "vulnerability@ncsc.ch",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-ppvf-phq2-5chq"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-94095",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-63qx-qw7q-xchq"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-78318",
+"source": "security@apache.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-3mx4-f6m3-9f3g"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-15449",
+"source": "0ca53633-f0b5-4853-ba72-e0a2e62000d0",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-5jqp-7hrf-w792"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-27830",
+"source": "security-advisories@github.com",
+"class": "reviewed, names a package (Dependabot can alert)",
+"reviewed": [
+"GHSA-5476-xc4j-rqcv"
+],
+"unreviewed": [],
+"package": [
+{
+"ecosystem": "maven",
+"name": "com.mchange:c3p0"
+}
+]
+},
+{
+"cve": "CVE-2018-25344",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-333f-6x78-w4q9"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-32531",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-mhr3-454m-4wv6"
+],
+"package": []
+},
+{
+"cve": "CVE-2025-7964",
+"source": "product-security@silabs.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-mwv3-x6r9-r9c2"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-65516",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-4966-5qv6-xgv5"
+],
+"package": []
+},
+{
+"cve": "CVE-2019-25466",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-4c84-63pp-c7rv"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-2515",
+"source": "security@wordfence.com",
+"class": "no GitHub advisory",
+"reviewed": [],
+"unreviewed": [],
+"package": []
+},
+{
+"cve": "CVE-2026-45188",
+"source": "security@apache.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-mfqh-v96x-m264"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-61688",
+"source": "security-advisories@github.com",
+"class": "no GitHub advisory",
+"reviewed": [],
+"unreviewed": [],
+"package": []
+},
+{
+"cve": "CVE-2026-108705",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-9hfx-wfh9-xc9r"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-25305",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-2f8f-8j4g-347v"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-71571",
+"source": "security@joomla.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-64cq-v4q5-vx8r"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-1236",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-g6v7-27h6-p2wq"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-27091",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-vcxx-p94p-37wg"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-3360",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-hqrg-cfxf-rjg9"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-110099",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-cf27-x93f-gg54"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-94045",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-92hr-qfch-w4h7"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-79701",
+"source": "security@joomla.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-r2gr-75qm-qf6m"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-27404",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-mmf8-rfrr-cx8x"
+],
+"package": []
+},
+{
+"cve": "CVE-2025-70365",
+"source": "cve@mitre.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-8jxf-cjx5-gp4f"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-86817",
+"source": "contact@wpscan.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-qpw5-3rj5-433c"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-18405",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-9vc8-8x69-mwph"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-41065",
+"source": "security-advisories@github.com",
+"class": "no GitHub advisory",
+"reviewed": [],
+"unreviewed": [],
+"package": []
+},
+{
+"cve": "CVE-2026-1367",
+"source": "0fc0942c-577d-436f-ae8e-945763c79b02",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-7jmh-rhmc-g5gq"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-73617",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-rqxq-f5cc-3xp6"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-6649",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-x2wv-w39c-7c55"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-62022",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-wpxh-fjch-x32q"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-100185",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-v6w7-4jw7-37cj"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-101037",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-95q6-8fg4-hpvm"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-49302",
+"source": "psirt@huawei.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-3r4g-j3pm-8grm"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-57772",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-9f7m-6v2m-8r5x"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-66616",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-55jw-g6cw-mv99"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-14327",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-c67p-rxvq-wp57"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-73155",
+"source": "5a6e4751-2f3f-4070-9419-94fb35b644e8",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-rv36-q8cj-wgr9"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-44075",
+"source": "33c584b5-0579-4c06-b2a0-8d8329fcab9c",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-8qf9-m7wh-563j"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-57274",
+"source": "0df08a0e-a200-4957-9bb0-084f562506f9",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-pjcq-p37h-r7c4"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-110896",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-xmvj-cg9h-p459"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-22438",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-44cc-3q7j-59mj"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-45274",
+"source": "security-advisories@github.com",
+"class": "no GitHub advisory",
+"reviewed": [],
+"unreviewed": [],
+"package": []
+},
+{
+"cve": "CVE-2026-81837",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-pjx2-9jx7-x89r"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-88907",
+"source": "iletisim@usom.gov.tr",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-974p-3f2w-mrv2"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-1290",
+"source": "67325c3f-c596-46c5-a235-e1a1e73abe4e",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-3whv-8qg8-4ffw"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-13461",
+"source": "cret@cert.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-g8qr-vqpc-qjpw"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-10177",
+"source": "cna@vuldb.com",
+"class": "reviewed, names a package (Dependabot can alert)",
+"reviewed": [
+"GHSA-hchg-qm84-cj9p"
+],
+"unreviewed": [],
+"package": [
+{
+"ecosystem": "pip",
+"name": "aider-chat"
+}
+]
+},
+{
+"cve": "CVE-2026-38577",
+"source": "cve@mitre.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-9h8p-33cv-g2wj"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-66696",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-pfhc-6c7h-5cc4"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-87759",
+"source": "contact@wpscan.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-2x96-8ghm-3875"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-76865",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-3f5g-mqj3-72gq"
+],
+"package": []
+},
+{
+"cve": "CVE-2025-15282",
+"source": "cna@python.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-6rv6-r2f2-gqrc"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-45617",
+"source": "security-advisories@github.com",
+"class": "reviewed, names a package (Dependabot can alert)",
+"reviewed": [
+"GHSA-r7g9-xpmj-5fcq"
+],
+"unreviewed": [],
+"package": [
+{
+"ecosystem": "npm",
+"name": "liquidjs"
+}
+]
+},
+{
+"cve": "CVE-2026-72699",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-55hc-4r2f-h6wr"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-10818",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-g685-9q2w-88f4"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-19797",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-gffp-v2pr-848w"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-0953",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-46hh-8mqf-62rx"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-58256",
+"source": "security-advisories@github.com",
+"class": "no GitHub advisory",
+"reviewed": [],
+"unreviewed": [],
+"package": []
+},
+{
+"cve": "CVE-2025-68021",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-3mfv-m4f8-5m67"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-109695",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-4937-mg6x-79qm"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-89030",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-78j3-qgmg-rvq3"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-42716",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-hqp4-gqgp-vfhp"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-7224",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-23j8-hxrw-3w4c"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-68572",
+"source": "security@apache.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-4h4c-qxh3-jw66"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-22441",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-2mm5-94gq-67xj"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-108649",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-8qxr-46x4-p4xq"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-8445",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-wf6m-786j-gxrr"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-15989",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-mjx4-cmxj-rrrw"
+],
+"package": []
+},
+{
+"cve": "CVE-2023-54399",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-6j7f-83xh-j3x3"
+],
+"package": []
+},
+{
+"cve": "CVE-2025-67953",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-m4hg-pxfp-9fhc"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-90976",
+"source": "contact@wpscan.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-vm4x-47jq-gqcc"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-0809",
+"source": "cvd@cert.pl",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-4h75-v39v-9pq7"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-15013",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-p847-q8vx-c3fg"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-12483",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-48gr-hj52-h85w"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-1781",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-9vm9-fm4p-mcpm"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-84476",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-mm87-mmw2-x2jf"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-12472",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-7w58-pfxv-fq26"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-56248",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-rp66-wcx8-j4pj"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-74837",
+"source": "6b3ad84c-e1a6-4bf7-a703-f496b71e49db",
+"class": "no GitHub advisory",
+"reviewed": [],
+"unreviewed": [],
+"package": []
+},
+{
+"cve": "CVE-2026-5092",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-8jxx-fm8x-v9qp"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-4307",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-fcq3-632g-qpmv"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-18684",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-j682-xx2h-hv5m"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-59540",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-v59g-2c3c-298g"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-77977",
+"source": "ics-cert@hq.dhs.gov",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-8g5x-wgwr-8jwp"
+],
+"package": []
+},
+{
+"cve": "CVE-2025-14360",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-p5wx-jv8p-whhm"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-57350",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-v8f6-4wvm-6rp8"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-87091",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-75wc-wvc7-9m96"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-19433",
+"source": "4daa8cea-433a-44bd-9456-53b127fc289a",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-8666-8wpq-7c9q"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-59544",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-3pxr-wpfc-92h9"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-13206",
+"source": "iletisim@usom.gov.tr",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-pmfq-2qhc-4w43"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-33250",
+"source": "security-advisories@github.com",
+"class": "no GitHub advisory",
+"reviewed": [],
+"unreviewed": [],
+"package": []
+},
+{
+"cve": "CVE-2026-118011",
+"source": "security@mozilla.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-q583-7wf7-8qjw"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-12560",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-c3mc-8j5j-vh28"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-76148",
+"source": "vultures@jpcert.or.jp",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-4gm4-9fm3-vc2p"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-44401",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-8vfw-vh7q-p649"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-78055",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-8wh2-r774-f9x3"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-89412",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-h8jc-c8c9-624r"
+],
+"package": []
+},
+{
+"cve": "CVE-2016-20066",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-gm2p-w58f-v4q2"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-12815",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-5qv5-j543-5fwg"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-62429",
+"source": "security@xen.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-8fgv-987v-pg9v"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-16060",
+"source": "contact@wpscan.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-v4q5-7cp7-m46j"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-7547",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-qg23-9w2r-h58w"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-44063",
+"source": "33c584b5-0579-4c06-b2a0-8d8329fcab9c",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-h47x-56q8-mw44"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-40822",
+"source": "info@cert.vde.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-h4f9-4gwx-v954"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-19998",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-pf4j-r84m-3xhw"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-66578",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-gg8g-c6pv-q3jj"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-52840",
+"source": "security-advisories@github.com",
+"class": "reviewed, names a package (Dependabot can alert)",
+"reviewed": [
+"GHSA-pm5p-7w5h-jm5q"
+],
+"unreviewed": [],
+"package": [
+{
+"ecosystem": "composer",
+"name": "alextselegidis/easyappointments"
+}
+]
+},
+{
+"cve": "CVE-2026-55978",
+"source": "5f57b9bf-260d-4433-bf07-b6a79e9bb7d4",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-547c-jxf5-rw6f"
+],
+"package": []
+},
+{
+"cve": "CVE-2025-13667",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-226c-v4c5-7xv2"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-109720",
+"source": "security@mozilla.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-5r38-4r4j-9hg3"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-88910",
+"source": "contact@wpscan.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-6w2r-gp8j-3hjr"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-32375",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-cmrw-vccp-w5q5"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-14737",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-vj97-338f-28pp"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-82873",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-982q-23f5-hrw9"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-25577",
+"source": "security-advisories@github.com",
+"class": "reviewed, names a package (Dependabot can alert)",
+"reviewed": [
+"GHSA-x6cr-mq53-cc76"
+],
+"unreviewed": [],
+"package": [
+{
+"ecosystem": "pip",
+"name": "emmett-core"
+}
+]
+},
+{
+"cve": "CVE-2026-34424",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-37pc-8f3j-hpmr"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-32339",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-4x4m-8c2x-4hq3"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-112840",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-r597-rh52-9mhf"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-7279",
+"source": "twcert@cert.org.tw",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-m4rm-63h7-9mj5"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-77807",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-w97p-m43x-6fh6"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-77611",
+"source": "security-advisories@github.com",
+"class": "no GitHub advisory",
+"reviewed": [],
+"unreviewed": [],
+"package": []
+},
+{
+"cve": "CVE-2026-39541",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-26j4-477q-gv33"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-92977",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-x9w3-97r6-g49g"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-92002",
+"source": "5a6e4751-2f3f-4070-9419-94fb35b644e8",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-f6c4-mg5x-232x"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-47406",
+"source": "security-advisories@github.com",
+"class": "reviewed, names a package (Dependabot can alert)",
+"reviewed": [
+"GHSA-4x6r-9v57-3gqw"
+],
+"unreviewed": [],
+"package": [
+{
+"ecosystem": "pip",
+"name": "praisonai-platform"
+}
+]
+},
+{
+"cve": "CVE-2026-9628",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-82pj-c6qc-rcq2"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-2832",
+"source": "hp-security-alert@hp.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-53q4-966f-vpp2"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-14684",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-5846-q349-47qp"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-48999",
+"source": "psirt@zte.com.cn",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-7rj9-hhpj-ff6p"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-16797",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-44qr-p5wv-c2wg"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-7011",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-2p3h-3pf2-9rg6"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-53646",
+"source": "security-advisories@github.com",
+"class": "no GitHub advisory",
+"reviewed": [],
+"unreviewed": [],
+"package": []
+},
+{
+"cve": "CVE-2026-54411",
+"source": "309f9ea4-e3e9-4c6c-b79d-e8eb01244f2c",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-56gg-22rq-q53x"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-111684",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-vh76-85cj-956g"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-55382",
+"source": "security-advisories@github.com",
+"class": "no GitHub advisory",
+"reviewed": [],
+"unreviewed": [],
+"package": []
+},
+{
+"cve": "CVE-2026-54694",
+"source": "security-advisories@github.com",
+"class": "no GitHub advisory",
+"reviewed": [],
+"unreviewed": [],
+"package": []
+},
+{
+"cve": "CVE-2026-16030",
+"source": "contact@wpscan.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-w2g6-85hw-mgcv"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-6670",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-4j6w-h2q8-35x3"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-109738",
+"source": "security@mozilla.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-3p73-m32p-fgv8"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-73102",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-w982-6rqp-v5xg"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-16534",
+"source": "contact@wpscan.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-xw98-5fp3-v7vg"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-112075",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-fmj9-5fq7-mvjg"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-56383",
+"source": "disclosure@vulncheck.com",
+"class": "reviewed, names a package (Dependabot can alert)",
+"reviewed": [
+"GHSA-6j87-m5qx-9fqp"
+],
+"unreviewed": [],
+"package": [
+{
+"ecosystem": "composer",
+"name": "craftcms/cms"
+}
+]
+},
+{
+"cve": "CVE-2026-68000",
+"source": "cve@mitre.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-rqmc-ggwg-7wvr"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-103269",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-cg23-423q-wg36"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-16145",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-9x6r-qjxj-jj37"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-36807",
+"source": "cve@mitre.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-8p8j-8h77-ccvc"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-103081",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-j3p4-jq3v-9g6h"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-86168",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-pqxv-x4wf-xvvc"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-93937",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-7ghx-gjh7-w66h"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-68067",
+"source": "ics-cert@hq.dhs.gov",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-g9jf-c3gx-prx3"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-35013",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-rv9j-hj4r-57hm"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-103061",
+"source": "6b3ad84c-e1a6-4bf7-a703-f496b71e49db",
+"class": "no GitHub advisory",
+"reviewed": [],
+"unreviewed": [],
+"package": []
+},
+{
+"cve": "CVE-2018-25276",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-8p27-39cc-g33g"
+],
+"package": []
+},
+{
+"cve": "CVE-2023-46273",
+"source": "cve@mitre.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-4vmj-722q-82r2"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-15502",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-c64p-m44g-q69p"
+],
+"package": []
+},
+{
+"cve": "CVE-2025-7432",
+"source": "product-security@silabs.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-mhvf-ghpw-c93c"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-105254",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-3cfj-hc7w-65q7"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-63157",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-ghgw-7245-fm88"
+],
+"package": []
+},
+{
+"cve": "CVE-2019-25480",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-9mfj-w336-px2g"
+],
+"package": []
+},
+{
+"cve": "CVE-2025-51675",
+"source": "cve@mitre.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-f96g-rjqw-vv44"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-19253",
+"source": "contact@wpscan.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-2v87-2mcf-5jgh"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-78970",
+"source": "cve@mitre.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-qr64-92v9-qvjg"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-101065",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-m95h-j2gj-xrgq"
+],
+"package": []
+},
+{
+"cve": "CVE-2020-37004",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-c4c5-39xc-rxv2"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-12924",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-j2h9-v293-4vf9"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-81678",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-pmq2-hv69-w45g"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-49057",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-mpx7-h9vm-hj89"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-105064",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-2ff7-6h2m-wxm2"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-6708",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-mxgq-qrj9-vj5p"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-12416",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-5656-6hgp-4v5v"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-27708",
+"source": "security-advisories@github.com",
+"class": "no GitHub advisory",
+"reviewed": [],
+"unreviewed": [],
+"package": []
+},
+{
+"cve": "CVE-2026-116071",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-qgg8-6p8q-vrp7"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-61959",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-cv33-h348-47m4"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-97070",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-xg4m-cxjw-r2gh"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-58303",
+"source": "PSIRT@samsung.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-95xm-4789-hr5f"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-84201",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-j4m2-645j-49qh"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-102986",
+"source": "security-advisories@github.com",
+"class": "no GitHub advisory",
+"reviewed": [],
+"unreviewed": [],
+"package": []
+},
+{
+"cve": "CVE-2026-1763",
+"source": "GEPowerCVD@ge.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-w49w-5662-qw44"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-103418",
+"source": "security@mozilla.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-7fw9-g4rg-xvqv"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-57136",
+"source": "security-advisories@github.com",
+"class": "reviewed, names a package (Dependabot can alert)",
+"reviewed": [
+"GHSA-vjv9-7m7j-h833"
+],
+"unreviewed": [],
+"package": [
+{
+"ecosystem": "npm",
+"name": "praisonai"
+}
+]
+},
+{
+"cve": "CVE-2026-10513",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-q4c4-6mqr-j8hq"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-115480",
+"source": "security-advisories@github.com",
+"class": "no GitHub advisory",
+"reviewed": [],
+"unreviewed": [],
+"package": []
+},
+{
+"cve": "CVE-2025-68552",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-7cjr-h9q5-mgrf"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-87983",
+"source": "6f8de1f0-f67e-45a6-b68f-98777fdb759c",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-wcxh-p9m4-jq8r"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-5323",
+"source": "cna@vuldb.com",
+"class": "reviewed, names a package (Dependabot can alert)",
+"reviewed": [
+"GHSA-prmx-7v35-7q82"
+],
+"unreviewed": [],
+"package": [
+{
+"ecosystem": "npm",
+"name": "a11y-mcp"
+}
+]
+},
+{
+"cve": "CVE-2026-45106",
+"source": "security-advisories@github.com",
+"class": "reviewed, names a package (Dependabot can alert)",
+"reviewed": [
+"GHSA-6wxc-8mgq-w26m"
+],
+"unreviewed": [],
+"package": [
+{
+"ecosystem": "pip",
+"name": "weblate"
+}
+]
+},
+{
+"cve": "CVE-2025-14778",
+"source": "secalert@redhat.com",
+"class": "reviewed, names a package (Dependabot can alert)",
+"reviewed": [
+"GHSA-fm6w-rrp3-2x4w"
+],
+"unreviewed": [],
+"package": [
+{
+"ecosystem": "maven",
+"name": "org.keycloak:keycloak-services"
+}
+]
+},
+{
+"cve": "CVE-2026-36806",
+"source": "cve@mitre.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-gx3p-fq8g-q8x3"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-4583",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-mh2m-j5hq-vv2j"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-112363",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-vjf2-p5h6-wg3v"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-101074",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-89wp-g8p9-x5r7"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-86731",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-2j7x-j7rx-9x3g"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-16091",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-c2g3-mwf4-9w67"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-7171",
+"source": "cve-coordination@incibe.es",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-2jq2-728v-8wjw"
+],
+"package": []
+},
+{
+"cve": "CVE-2025-67952",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-fxpv-vhr6-hx33"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-10737",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-7ppx-r2wh-w5w3"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-19127",
+"source": "4cdc9741-f887-419a-a2fd-acbbd2729276",
+"class": "no GitHub advisory",
+"reviewed": [],
+"unreviewed": [],
+"package": []
+},
+{
+"cve": "CVE-2026-86837",
+"source": "contact@wpscan.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-qqvg-v89g-fp38"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-8995",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-5846-9fv5-4429"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-76548",
+"source": "contact@wpscan.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-mpcm-vcpj-wm9p"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-12527",
+"source": "1c6b5737-9389-4011-8117-89fa251edfb2",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-4fqm-96mj-r77p"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-104081",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-fq3j-vm9f-qx52"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-8253",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-4px6-q9qm-gpx4"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-113674",
+"source": "contact@wpscan.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-pjph-x42v-fp6x"
+],
+"package": []
+},
+{
+"cve": "CVE-2019-25606",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-jq84-678m-q45p"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-27410",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-m2r7-c642-w8hv"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-50606",
+"source": "8fc372e3-d9c5-46e4-9410-38469745c639",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-8v4w-xw92-9w3q"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-1512",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-gvj8-q7mf-wvgw"
+],
+"package": []
+},
+{
+"cve": "CVE-2025-68020",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-36jg-fqm9-hv24"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-36773",
+"source": "cve@mitre.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-89jf-vjpv-ffj2"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-97281",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-jh58-44fp-wwgc"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-97318",
+"source": "contact@wpscan.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-9949-jq7q-8g48"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-18722",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-mf5p-w73p-97vh"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-4830",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-264f-3frq-cpxq"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-55236",
+"source": "security-advisories@github.com",
+"class": "reviewed, names a package (Dependabot can alert)",
+"reviewed": [
+"GHSA-jfj5-wrj9-63x4"
+],
+"unreviewed": [],
+"package": [
+{
+"ecosystem": "pip",
+"name": "langgraph-api"
+}
+]
+},
+{
+"cve": "CVE-2026-92289",
+"source": "9b29abf9-4ab0-4765-b253-1875cd9b441e",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-vw4x-93xp-f6f3"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-101354",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-ccwh-mr5w-5j9f"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-76613",
+"source": "security@joomla.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-vmfm-wc5f-55m2"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-47344",
+"source": "f4fb688c-4412-4426-b4b8-421ecf27b14a",
+"class": "reviewed, names a package (Dependabot can alert)",
+"reviewed": [
+"GHSA-jvf5-rxvv-3mcg"
+],
+"unreviewed": [],
+"package": [
+{
+"ecosystem": "composer",
+"name": "typo3/html-sanitizer"
+}
+]
+},
+{
+"cve": "CVE-2026-39502",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-hqwp-wgxm-88pc"
+],
+"package": []
+},
+{
+"cve": "CVE-2018-25171",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-gqrw-cj69-gmgp"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-51775",
+"source": "cve@mitre.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-gv5j-v9wc-3wcw"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-9607",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-gq47-jjfp-q45r"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-17123",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-mgg8-m984-r93c"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-36777",
+"source": "cve@mitre.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-cp2j-fxf4-h2xw"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-46386",
+"source": "security-advisories@github.com",
+"class": "no GitHub advisory",
+"reviewed": [],
+"unreviewed": [],
+"package": []
+},
+{
+"cve": "CVE-2025-10913",
+"source": "iletisim@usom.gov.tr",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-h64q-7h2c-3jw5"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-114083",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-r9qj-p24x-r8fw"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-24385",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-334v-5h97-qm29"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-90709",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-cjwg-q7rf-chx4"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-11508",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-pxpv-x94f-9r98"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-39716",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-38gq-23v5-5q4r"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-9228",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-gcrv-h884-8q69"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-15386",
+"source": "contact@wpscan.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-ff3q-prph-g9j7"
+],
+"package": []
+},
+{
+"cve": "CVE-2021-47854",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-fmvf-xj4m-jpwf"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-116683",
+"source": "security-advisories@github.com",
+"class": "reviewed, names a package (Dependabot can alert)",
+"reviewed": [
+"GHSA-vg84-c5mg-76xh"
+],
+"unreviewed": [],
+"package": [
+{
+"ecosystem": "go",
+"name": "github.com/ctfer-io/terraform-provider-ctfd"
+}
+]
+},
+{
+"cve": "CVE-2026-110807",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-9h5h-jqm8-rrcw"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-16056",
+"source": "contact@wpscan.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-xp5w-q4v3-mxrm"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-107861",
+"source": "ics-cert@hq.dhs.gov",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-f3x3-gqxc-76c6"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-13468",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-m84g-2mgp-69wx"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-27425",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-jcxf-hgc5-3v4w"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-90688",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-xqq3-p9cq-5c28"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-62427",
+"source": "security@xen.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-92vf-cq3f-7mp6"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-45027",
+"source": "security-advisories@github.com",
+"class": "no GitHub advisory",
+"reviewed": [],
+"unreviewed": [],
+"package": []
+},
+{
+"cve": "CVE-2026-5205",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-rphr-fw27-85gg"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-82540",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-q78f-c32r-53f2"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-83291",
+"source": "secalert_us@oracle.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-rmv3-2x5h-vfm3"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-85582",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-gm2w-r3g5-frq5"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-18368",
+"source": "001d69cf-3fc9-4203-93fb-9865b54e05b2",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-26g8-9jvg-gfw6"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-45715",
+"source": "security-advisories@github.com",
+"class": "reviewed, names a package (Dependabot can alert)",
+"reviewed": [
+"GHSA-fgqv-jh4g-pvg2"
+],
+"unreviewed": [],
+"package": [
+{
+"ecosystem": "npm",
+"name": "@budibase/server"
+}
+]
+},
+{
+"cve": "CVE-2026-47068",
+"source": "6b3ad84c-e1a6-4bf7-a703-f496b71e49db",
+"class": "reviewed, names a package (Dependabot can alert)",
+"reviewed": [
+"GHSA-mrhx-6pw9-q5fh"
+],
+"unreviewed": [],
+"package": [
+{
+"ecosystem": "erlang",
+"name": "phoenix_storybook"
+}
+]
+},
+{
+"cve": "CVE-2026-54459",
+"source": "security-advisories@github.com",
+"class": "no GitHub advisory",
+"reviewed": [],
+"unreviewed": [],
+"package": []
+},
+{
+"cve": "CVE-2026-106469",
+"source": "contact@wpscan.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-77vr-jjv3-x5q5"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-114441",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-4crc-x2q4-m7cg"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-59962",
+"source": "security-advisories@github.com",
+"class": "no GitHub advisory",
+"reviewed": [],
+"unreviewed": [],
+"package": []
+},
+{
+"cve": "CVE-2026-41688",
+"source": "security-advisories@github.com",
+"class": "no GitHub advisory",
+"reviewed": [],
+"unreviewed": [],
+"package": []
+},
+{
+"cve": "CVE-2026-22566",
+"source": "support@hackerone.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-qg4j-p3wp-3c25"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-115381",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-m3j5-9cx2-7c68"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-92783",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-w297-93hv-q3cx"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-36950",
+"source": "cve@mitre.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-w6pw-7fv8-jw27"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-103060",
+"source": "6b3ad84c-e1a6-4bf7-a703-f496b71e49db",
+"class": "no GitHub advisory",
+"reviewed": [],
+"unreviewed": [],
+"package": []
+},
+{
+"cve": "CVE-2026-23735",
+"source": "security-advisories@github.com",
+"class": "reviewed, names a package (Dependabot can alert)",
+"reviewed": [
+"GHSA-53wg-r69p-v3r7"
+],
+"unreviewed": [],
+"package": [
+{
+"ecosystem": "npm",
+"name": "graphql-modules"
+}
+]
+},
+{
+"cve": "CVE-2026-72789",
+"source": "disclosure@vulncheck.com",
+"class": "reviewed, names a package (Dependabot can alert)",
+"reviewed": [
+"GHSA-v684-q882-jgmq"
+],
+"unreviewed": [],
+"package": [
+{
+"ecosystem": "go",
+"name": "github.com/siyuan-note/siyuan/kernel"
+}
+]
+},
+{
+"cve": "CVE-2026-49349",
+"source": "security-advisories@github.com",
+"class": "reviewed, names a package (Dependabot can alert)",
+"reviewed": [
+"GHSA-qvqc-4c52-x6qp"
+],
+"unreviewed": [],
+"package": [
+{
+"ecosystem": "go",
+"name": "github.com/regclient/regclient"
+}
+]
+},
+{
+"cve": "CVE-2025-12640",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-342w-vxrh-ccxv"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-13568",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-w68f-j8vg-r852"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-10813",
+"source": "cna@vuldb.com",
+"class": "reviewed, names a package (Dependabot can alert)",
+"reviewed": [
+"GHSA-3hh9-752g-5g22"
+],
+"unreviewed": [],
+"package": [
+{
+"ecosystem": "pip",
+"name": "lmcache"
+}
+]
+},
+{
+"cve": "CVE-2026-66479",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-vhxj-w8cf-84xv"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-62066",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-6m8x-vgcj-67f7"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-94142",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-8fx2-frcj-2gw4"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-4317",
+"source": "cve-coordination@incibe.es",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-r66v-9cpq-347q"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-83147",
+"source": "secalert_us@oracle.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-whmv-j58r-796p"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-7436",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-33hx-w9g7-6rmq"
+],
+"package": []
+},
+{
+"cve": "CVE-2020-37231",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-r472-vxph-wqrf"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-52793",
+"source": "security-advisories@github.com",
+"class": "reviewed, names a package (Dependabot can alert)",
+"reviewed": [
+"GHSA-f9rx-7wf7-jr36"
+],
+"unreviewed": [],
+"package": [
+{
+"ecosystem": "composer",
+"name": "froxlor/froxlor"
+}
+]
+},
+{
+"cve": "CVE-2026-55624",
+"source": "security-advisories@github.com",
+"class": "no GitHub advisory",
+"reviewed": [],
+"unreviewed": [],
+"package": []
+},
+{
+"cve": "CVE-2026-6057",
+"source": "33c584b5-0579-4c06-b2a0-8d8329fcab9c",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-2987-f6gf-82vj"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-86781",
+"source": "contact@wpscan.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-jmvf-92jg-53j3"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-111158",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-p3hv-2xrm-x5px"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-49260",
+"source": "security-advisories@github.com",
+"class": "reviewed, names a package (Dependabot can alert)",
+"reviewed": [
+"GHSA-f5gc-qxf8-mh9g"
+],
+"unreviewed": [],
+"package": [
+{
+"ecosystem": "composer",
+"name": "pontedilana/php-weasyprint"
+}
+]
+},
+{
+"cve": "CVE-2026-103590",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-5wxf-fcx2-rcwq"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-102507",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-57xm-mfg7-58xm"
+],
+"package": []
+},
+{
+"cve": "CVE-2020-37238",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-r549-hx7w-7xr9"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-7780",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-6c8x-4gc8-74gg"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-0632",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-r9wp-g99c-jrq8"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-4086",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-x5f6-m38m-6rp5"
+],
+"package": []
+},
+{
+"cve": "CVE-2025-68837",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-cvjq-fp7r-7jf7"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-97245",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-m9hp-w7fc-x8w6"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-48169",
+"source": "security-advisories@github.com",
+"class": "reviewed, names a package (Dependabot can alert)",
+"reviewed": [
+"GHSA-gv23-xrm3-8c62"
+],
+"unreviewed": [],
+"package": [
+{
+"ecosystem": "pip",
+"name": "praisonai-platform"
+}
+]
+},
+{
+"cve": "CVE-2025-11157",
+"source": "security@huntr.dev",
+"class": "reviewed, names a package (Dependabot can alert)",
+"reviewed": [
+"GHSA-34wm-4hw7-qfjv"
+],
+"unreviewed": [],
+"package": [
+{
+"ecosystem": "pip",
+"name": "feast"
+}
+]
+},
+{
+"cve": "CVE-2026-86436",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-v24q-8gmj-8457"
+],
+"package": []
+},
+{
+"cve": "CVE-2018-25373",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-rx4c-jm9c-q7qc"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-49063",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-g5vj-vrxx-7p65"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-110767",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-cgrx-q63r-jf38"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-1969",
+"source": "contact@wpscan.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-qxq6-27j9-fv97"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-116257",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-w52v-5242-fjcm"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-100670",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-xw59-q7ph-pgh5"
+],
+"package": []
+},
+{
+"cve": "CVE-2020-37061",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-gvjr-x44c-p2vx"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-66013",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-jg8p-j9v5-g5x5"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-63409",
+"source": "security-advisories@github.com",
+"class": "no GitHub advisory",
+"reviewed": [],
+"unreviewed": [],
+"package": []
+},
+{
+"cve": "CVE-2026-6597",
+"source": "cna@vuldb.com",
+"class": "reviewed, names a package (Dependabot can alert)",
+"reviewed": [
+"GHSA-5jjf-wcvf-923w"
+],
+"unreviewed": [],
+"package": [
+{
+"ecosystem": "pip",
+"name": "langflow"
+}
+]
+},
+{
+"cve": "CVE-2026-16539",
+"source": "contact@wpscan.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-7g4m-2955-87xx"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-105651",
+"source": "security-advisories@github.com",
+"class": "reviewed, names a package (Dependabot can alert)",
+"reviewed": [
+"GHSA-347q-26qq-h2p6"
+],
+"unreviewed": [],
+"package": [
+{
+"ecosystem": "npm",
+"name": "ghost"
+}
+]
+},
+{
+"cve": "CVE-2026-116123",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-r6jf-7rr9-67p9"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-104742",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-qjp4-v5fm-75mr"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-76586",
+"source": "contact@wpscan.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-h9qm-hc3c-qpr3"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-40794",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-98j9-frcv-j6pw"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-15651",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-3gw6-96rm-6cm8"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-109762",
+"source": "security@mozilla.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-78gq-6664-43hv"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-55370",
+"source": "security-advisories@github.com",
+"class": "no GitHub advisory",
+"reviewed": [],
+"unreviewed": [],
+"package": []
+},
+{
+"cve": "CVE-2026-39588",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-3xmw-f5q8-mw2q"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-79394",
+"source": "cve@mitre.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-9336-2gc5-q65c"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-57806",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-hp95-rmfm-r289"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-54805",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-ch7m-79px-p832"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-78358",
+"source": "security@otrs.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-hq7p-2c9c-64hf"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-78846",
+"source": "cve@mitre.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-h523-c37q-v8g3"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-97370",
+"source": "security-advisories@github.com",
+"class": "reviewed, names a package (Dependabot can alert)",
+"reviewed": [
+"GHSA-h9h9-2rmf-rvhp"
+],
+"unreviewed": [],
+"package": [
+{
+"ecosystem": "maven",
+"name": "com.github.junrar:junrar"
+}
+]
+},
+{
+"cve": "CVE-2026-32430",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-j25f-52qh-vv7j"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-15267",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-8572-g449-grqq"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-18284",
+"source": "zdi-disclosures@trendmicro.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-3j3v-5mxm-2c69"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-46361",
+"source": "disclosure@vulncheck.com",
+"class": "reviewed, names a package (Dependabot can alert)",
+"reviewed": [
+"GHSA-pqh6-8fxf-jx22"
+],
+"unreviewed": [],
+"package": [
+{
+"ecosystem": "composer",
+"name": "phpmyfaq/phpmyfaq"
+}
+]
+},
+{
+"cve": "CVE-2026-13603",
+"source": "655498c3-6ec5-4f0b-aea6-853b334d05a6",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-29fq-jc8m-8rq2"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-82437",
+"source": "security@apache.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-mwq3-c685-c87r"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-97247",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-gj2r-qc55-w46r"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-75808",
+"source": "54bf65a7-a193-42d2-b1ba-8e150d3c35e1",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-7v55-5w7v-fgwj"
+],
+"package": []
+},
+{
+"cve": "CVE-2025-14973",
+"source": "contact@wpscan.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-hrp9-p693-x2cg"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-51751",
+"source": "cve@mitre.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-6crr-f4rp-973c"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-17011",
+"source": "contact@wpscan.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-gf2c-5g46-3crp"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-46496",
+"source": "security-advisories@github.com",
+"class": "reviewed, names a package (Dependabot can alert)",
+"reviewed": [
+"GHSA-2m6p-hm3w-6jm3"
+],
+"unreviewed": [],
+"package": [
+{
+"ecosystem": "npm",
+"name": "@haxtheweb/haxcms-nodejs"
+}
+]
+},
+{
+"cve": "CVE-2026-62101",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-43pf-pr8q-7rwh"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-113382",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-8pxh-4pp9-w6j7"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-44958",
+"source": "support@hackerone.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-hqvw-xvc4-mxq4"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-25015",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-54jx-h2q6-qwrf"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-31845",
+"source": "309f9ea4-e3e9-4c6c-b79d-e8eb01244f2c",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-hxff-cjjh-cmf4"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-12697",
+"source": "contact@wpscan.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-x66g-mh39-q4gx"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-88784",
+"source": "contact@wpscan.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-v5cq-8fvv-9wcc"
+],
+"package": []
+},
+{
+"cve": "CVE-2025-12462",
+"source": "cvd@cert.pl",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-wm44-5cvm-mq2q"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-44359",
+"source": "security-advisories@github.com",
+"class": "no GitHub advisory",
+"reviewed": [],
+"unreviewed": [],
+"package": []
+},
+{
+"cve": "CVE-2026-18044",
+"source": "contact@wpscan.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-xjx9-mjr5-hr38"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-115722",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-pqc7-7g6c-cw4g"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-81343",
+"source": "contact@wpscan.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-jjg3-qq29-rm7h"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-5114",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-3q9x-fhmv-6x69"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-72840",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-6vfc-74mf-qrmj"
+],
+"package": []
+},
+{
+"cve": "CVE-2025-15025",
+"source": "iletisim@usom.gov.tr",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-hjg6-2c9h-3rgp"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-78292",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-j565-hhqc-8rx3"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-18496",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-865w-3pc6-gq4c"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-9062",
+"source": "contact@wpscan.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-553w-8mm7-5gf2"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-86498",
+"source": "cve@jetbrains.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-jgfw-8cqw-4r27"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-55252",
+"source": "security-advisories@github.com",
+"class": "reviewed, names a package (Dependabot can alert)",
+"reviewed": [
+"GHSA-h5g6-xmh4-hc37"
+],
+"unreviewed": [],
+"package": [
+{
+"ecosystem": "go",
+"name": "github.com/openrundev/openrun"
+}
+]
+},
+{
+"cve": "CVE-2026-25069",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-h6v5-xrjh-m9fj"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-100293",
+"source": "ics-cert@hq.dhs.gov",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-5v8p-59fw-m8g2"
+],
+"package": []
+},
+{
+"cve": "CVE-2025-12707",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-9m78-cmhg-58g5"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-4022",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-2rgw-rqcx-h77r"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-4355",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-7cgm-xpmc-6mg5"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-1893",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-x4xg-c2mg-399g"
+],
+"package": []
+},
+{
+"cve": "CVE-2025-61982",
+"source": "talos-cna@cisco.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-f7cx-4c4g-9g59"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-94568",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-qh49-6wvm-jfrp"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-61560",
+"source": "security-advisories@github.com",
+"class": "reviewed, names a package (Dependabot can alert)",
+"reviewed": [
+"GHSA-cv3r-c5h8-f4g5"
+],
+"unreviewed": [],
+"package": [
+{
+"ecosystem": "npm",
+"name": "@zereight/mcp-gitlab"
+}
+]
+},
+{
+"cve": "CVE-2026-105178",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-gfw5-76vf-fmvr"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-108655",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-qq99-5fcw-r864"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-5356",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-jrp6-4xgv-3wr7"
+],
+"package": []
+},
+{
+"cve": "CVE-2018-25197",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-wm3j-hx7p-jg7q"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-9402",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-r9fg-8xgr-43j8"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-48212",
+"source": "security@otrs.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-x238-8qx9-7hh7"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-77008",
+"source": "contact@wpscan.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-hv52-q9g7-xc97"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-28173",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-v9pr-m9rf-hfcw"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-110901",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-rgf9-cfvx-22f4"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-96294",
+"source": "security@apache.org",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-q62p-j25r-fc4c"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-76071",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-mx2q-89wp-jrvh"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-105289",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-6f56-4432-9vhq"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-2893",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-3xm9-wqg6-2qvm"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-44668",
+"source": "security-advisories@github.com",
+"class": "no GitHub advisory",
+"reviewed": [],
+"unreviewed": [],
+"package": []
+},
+{
+"cve": "CVE-2026-48794",
+"source": "security-advisories@github.com",
+"class": "reviewed, names a package (Dependabot can alert)",
+"reviewed": [
+"GHSA-j748-h363-wqj8"
+],
+"unreviewed": [],
+"package": [
+{
+"ecosystem": "go",
+"name": "github.com/authelia/authelia/v4"
+}
+]
+},
+{
+"cve": "CVE-2026-72001",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-gqgf-x763-r89w"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-85599",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-5xgg-wmqq-qr2g"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-39676",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-q462-ghxj-5ffx"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-4357",
+"source": "contact@wpscan.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-j479-42pv-8r66"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-19340",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-qp9j-gfjj-6h3v"
+],
+"package": []
+},
+{
+"cve": "CVE-2023-52212",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-x984-f4vj-r499"
+],
+"package": []
+},
+{
+"cve": "CVE-2025-8308",
+"source": "iletisim@usom.gov.tr",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-vwcq-x7gx-g26f"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-115797",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-prx2-chrc-4rxp"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-86533",
+"source": "6b3ad84c-e1a6-4bf7-a703-f496b71e49db",
+"class": "no GitHub advisory",
+"reviewed": [],
+"unreviewed": [],
+"package": []
+},
+{
+"cve": "CVE-2026-39704",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-fm8h-m965-7h8g"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-107435",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-2p4c-fhxq-6mq7"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-1065",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-gp5g-8g53-p3x2"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-6140",
+"source": "cna@vuldb.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-qq79-56j7-gmq4"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-0611",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-344f-p6q5-rw6q"
+],
+"package": []
+},
+{
+"cve": "CVE-2019-25469",
+"source": "disclosure@vulncheck.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-j5rx-6c64-rvcf"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-1503",
+"source": "security@wordfence.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-p352-rg87-vcp2"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-25359",
+"source": "audit@patchstack.com",
+"class": "unreviewed only (no Dependabot alert)",
+"reviewed": [],
+"unreviewed": [
+"GHSA-w7gm-q7h5-8h8w"
+],
+"package": []
+},
+{
+"cve": "CVE-2026-45153",
+"source": "security-advisories@github.com",
+"class": "no GitHub advisory",
+"reviewed": [],
+"unreviewed": [],
+"package": []
+}
+]
