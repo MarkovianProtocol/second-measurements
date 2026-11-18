@@ -1,0 +1,1 @@
+GitHub-CNA August CVEs sampled: 60 of 1364; with a GitHub advisory naming ecosystem+package: 26; with no global advisory: 34

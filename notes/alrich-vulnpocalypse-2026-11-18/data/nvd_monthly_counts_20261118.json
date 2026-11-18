@@ -1,0 +1,46 @@
+{
+ "1": {
+  "all": 5143,
+  "noRejected": 4302
+ },
+ "2": {
+  "all": 4808,
+  "noRejected": 4616
+ },
+ "3": {
+  "all": 6304,
+  "noRejected": 6234
+ },
+ "4": {
+  "all": 5885,
+  "noRejected": 5810
+ },
+ "5": {
+  "all": 6985,
+  "noRejected": 6936
+ },
+ "6": {
+  "all": 8001,
+  "noRejected": 7942
+ },
+ "7": {
+  "all": 9919,
+  "noRejected": 9770
+ },
+ "8": {
+  "all": 12719,
+  "noRejected": 12255
+ },
+ "9": {
+  "all": 15074,
+  "noRejected": 14927
+ },
+ "10": {
+  "all": 17481,
+  "noRejected": 17051
+ },
+ "11": {
+  "all": 9860,
+  "noRejected": 9559
+ }
+}

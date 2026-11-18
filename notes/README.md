@@ -11,6 +11,7 @@ Not papers. When we recompute a public figure for a person or outlet we follow, 
 | pypi-malware-takedown-2026-10-26.md (+ folder: scripts, rows.csv, still_live.csv) | PyPI malware takedown times vs Seth Larson's "removed within hours", 27 Apr–19 Oct 2026 | 12834 |
 | dod-unsupported-adjustments-2026-10-23.md (+ CSV, extract.py) | DoD unsupported accounting adjustments, FY2020–FY2025, from the auditor's reports | 12470 |
 | scd-5-54-2026-10-23.md (+ chart) | Ethical Skeptic's "sudden cardiac death, ages 5–54" baseline vs CDC WONDER, 2010–2025 | 12450 |
+| alrich-vulnpocalypse-2026-11-18.md | Tom Alrich (Energy Central), August 2026 CVE record count and growth, vs NVD; plus product identifiers (CPE, PURL) in August's CVE records | 14473 |
 | troyhunt-disclosure-lag-2026-11-16.md | Troy Hunt (Have I Been Pwned), breach disclosure lag "worse than ever", vs Washington and Delaware breach registers | 14407 |
 | cve-100k-2026-11-16.md | Josh Bressers (VulnCheck) in The Register, 100,000 CVEs in 2026, with and without rejected IDs, vs NVD | 14354 |
 | zerohedge-interest-2026-11-15.md | ZeroHedge, gross interest as a share of revenue (28.2%, "highest on record") vs Treasury and OMB data | 14290 |

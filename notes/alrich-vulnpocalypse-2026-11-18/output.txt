@@ -1,0 +1,36 @@
+CVE records by month of NVD publication, 2026 (all / without rejected IDs):
+   1:  5,143 /  4,302
+   2:  4,808 /  4,616
+   3:  6,304 /  6,234
+   4:  5,885 /  5,810
+   5:  6,985 /  6,936
+   6:  8,001 /  7,942
+   7:  9,919 /  9,770
+   8: 12,719 / 12,255
+   9: 15,074 / 14,927
+  10: 17,481 / 17,051
+  11:  9,860 /  9,559
+highest month in 2024-2025: 2025-12 with 5,643; 2025 total 49,972
+2026 months that set an all-time record: ['2026-03', '2026-05', '2026-06', '2026-07', '2026-08']
+August vs January: 2.47x all, 2.85x without rejected
+Sep 1 - Nov 17: 42,415 records, 16,525/month, 198,304/year at that pace
+
+August, NVD, 12,255 records not rejected:
+  Deferred              5,319  43.4%
+  Analyzed              3,734  30.5%
+  Received              1,632  13.3%
+  Awaiting Analysis     1,147   9.4%
+  Modified                382   3.1%
+  Undergoing Analysis      41   0.3%
+  with an NVD CPE configuration: 4,149 (33.9%)
+  with a CVSS score from NVD itself: 830 (6.8%)
+  distinct submitting sources (sourceIdentifier): 200; top three 4,247 (34.7%): [('416baaa9-dc9f-4396-8d5f-8c081fb06d67', 1643), ('security-advisories@github.com', 1364), ('disclosure@vulncheck.com', 1240)]
+
+CVE records (cvelistV5) by month of CVE publication, PUBLISHED state:
+  2026-08: 12,068; CNA PURL 961 (8.0%); CNA CPE 1,430 (11.8%); ADP PURL 0
+  2026-09: 14,708; CNA PURL 1,111 (7.6%); CNA CPE 1,719 (11.7%); ADP PURL 0
+  2026-10: 16,808; CNA PURL 1,954 (11.6%); CNA CPE 1,442 (8.6%); ADP PURL 0
+  August, largest CNAs: Linux 1,643 (PURL 0, packageName+collectionURL 0, repo 1643); GitHub_M 1,362 (PURL 0, packageName+collectionURL 0, repo 0); VulnCheck 1,222 (PURL 768, packageName+collectionURL 20, repo 290); oracle 890 (PURL 0, packageName+collectionURL 0, repo 0); VulDB 673 (PURL 0, packageName+collectionURL 0, repo 0)
+  August PURLs by CNA: [('VulnCheck', 768), ('EEF', 80), ('bcorg', 34), ('apache', 29)] of 961
+
+August records in both sources: 12,067; no CPE (NVD or CNA) and no PURL: 6,474 (53.7%); of those, Linux kernel records (which carry the git repo): 1,632; the rest: 4,842 (40.1%)

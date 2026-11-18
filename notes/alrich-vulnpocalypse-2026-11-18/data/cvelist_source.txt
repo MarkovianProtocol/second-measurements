@@ -1,0 +1,1 @@
+cvelistV5 release cve_2026-11-18_0400Z, 2026-11-18_all_CVEs_at_midnight.zip.zip sha256 e8613183f25b83a29a0132eb6cc089600c03b5fbd9f37c62e594e0c0b237073d

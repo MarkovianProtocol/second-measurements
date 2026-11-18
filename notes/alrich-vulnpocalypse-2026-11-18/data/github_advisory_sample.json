@@ -1,0 +1,484 @@
+[
+{
+"cve": "CVE-2026-79744",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-53959",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-62296",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-47663",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-45618",
+"ghsa": [
+"GHSA-gf2q-c269-pqgc"
+],
+"package": [
+{
+"ecosystem": "npm",
+"name": "liquidjs"
+}
+]
+},
+{
+"cve": "CVE-2026-39944",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-54614",
+"ghsa": [
+"GHSA-p46m-g734-vpc4"
+],
+"package": [
+{
+"ecosystem": "composer",
+"name": "cakephp/debug_kit"
+}
+]
+},
+{
+"cve": "CVE-2026-63640",
+"ghsa": [
+"GHSA-q4gh-4ffp-5cg8"
+],
+"package": [
+{
+"ecosystem": "npm",
+"name": "magicmirror"
+}
+]
+},
+{
+"cve": "CVE-2026-59187",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-71493",
+"ghsa": [
+"GHSA-mmg6-4qmv-6pc8"
+],
+"package": [
+{
+"ecosystem": "go",
+"name": "github.com/infracost/infracost"
+}
+]
+},
+{
+"cve": "CVE-2026-68929",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-50576",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-54508",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-27463",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-54687",
+"ghsa": [
+"GHSA-q7m3-rhxg-7vxr"
+],
+"package": [
+{
+"ecosystem": "npm",
+"name": "n8n-nodes-sqlite3"
+}
+]
+},
+{
+"cve": "CVE-2026-73066",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-46334",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-63380",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-30865",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-54134",
+"ghsa": [
+"GHSA-j4h9-pm27-4rfw"
+],
+"package": [
+{
+"ecosystem": "pip",
+"name": "OctoPrint"
+}
+]
+},
+{
+"cve": "CVE-2026-55539",
+"ghsa": [
+"GHSA-2jgc-f764-c5r2"
+],
+"package": [
+{
+"ecosystem": "pip",
+"name": "PraisonAI"
+}
+]
+},
+{
+"cve": "CVE-2026-62862",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-48077",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-73245",
+"ghsa": [
+"GHSA-hpj9-grjp-7vc7"
+],
+"package": [
+{
+"ecosystem": "maven",
+"name": "io.kestra:kestra"
+}
+]
+},
+{
+"cve": "CVE-2026-72737",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-64677",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-49819",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-54457",
+"ghsa": [
+"GHSA-824w-x939-6cmc"
+],
+"package": [
+{
+"ecosystem": "pip",
+"name": "tensorzero"
+}
+]
+},
+{
+"cve": "CVE-2026-73293",
+"ghsa": [
+"GHSA-cxvf-gvfq-36w2"
+],
+"package": [
+{
+"ecosystem": "go",
+"name": "github.com/semaphoreui/semaphore"
+}
+]
+},
+{
+"cve": "CVE-2026-54730",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-48121",
+"ghsa": [
+"GHSA-98xf-r82g-9mhx"
+],
+"package": [
+{
+"ecosystem": "npm",
+"name": "@langchain/langgraph-checkpoint-mongodb"
+}
+]
+},
+{
+"cve": "CVE-2026-71491",
+"ghsa": [
+"GHSA-f2ff-p2ww-7p4p"
+],
+"package": [
+{
+"ecosystem": "pip",
+"name": "sqlparse"
+}
+]
+},
+{
+"cve": "CVE-2026-69148",
+"ghsa": [
+"GHSA-gqch-g4w5-7qcw"
+],
+"package": [
+{
+"ecosystem": "npm",
+"name": "mlflow"
+}
+]
+},
+{
+"cve": "CVE-2026-54493",
+"ghsa": [
+"GHSA-6p96-cfg5-4vhp"
+],
+"package": [
+{
+"ecosystem": "composer",
+"name": "phanan/koel"
+}
+]
+},
+{
+"cve": "CVE-2026-45790",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-70604",
+"ghsa": [
+"GHSA-v3j7-r9gq-3gjw"
+],
+"package": [
+{
+"ecosystem": "npm",
+"name": "electron"
+}
+]
+},
+{
+"cve": "CVE-2026-53451",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-73220",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-55227",
+"ghsa": [
+"GHSA-2p9g-x3cv-5hh4"
+],
+"package": [
+{
+"ecosystem": "pip",
+"name": "weblate"
+}
+]
+},
+{
+"cve": "CVE-2026-73649",
+"ghsa": [
+"GHSA-7gfh-x38p-prh3"
+],
+"package": [
+{
+"ecosystem": "npm",
+"name": "velocityjs"
+}
+]
+},
+{
+"cve": "CVE-2026-50139",
+"ghsa": [
+"GHSA-j48m-h7xq-2xpj"
+],
+"package": [
+{
+"ecosystem": "go",
+"name": "goshs.de/goshs/v2"
+}
+]
+},
+{
+"cve": "CVE-2026-66000",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-63409",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-62941",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-46380",
+"ghsa": [
+"GHSA-w76h-q7c6-jpjp"
+],
+"package": [
+{
+"ecosystem": "pip",
+"name": "compliance-trestle"
+}
+]
+},
+{
+"cve": "CVE-2026-47127",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-55678",
+"ghsa": [
+"GHSA-p378-jp5r-gpgw"
+],
+"package": [
+{
+"ecosystem": "go",
+"name": "github.com/basekick-labs/arc"
+}
+]
+},
+{
+"cve": "CVE-2026-62293",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-73417",
+"ghsa": [
+"GHSA-pppj-hq3g-57pj"
+],
+"package": [
+{
+"ecosystem": "pip",
+"name": "jupyterlab"
+}
+]
+},
+{
+"cve": "CVE-2026-73418",
+"ghsa": [
+"GHSA-xmf8-cvqr-rfgj"
+],
+"package": [
+{
+"ecosystem": "npm",
+"name": "@auth/core"
+}
+]
+},
+{
+"cve": "CVE-2026-63462",
+"ghsa": [
+"GHSA-r5pq-6chh-j3xp"
+],
+"package": [
+{
+"ecosystem": "npm",
+"name": "unleash-server"
+}
+]
+},
+{
+"cve": "CVE-2026-77317",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-82395",
+"ghsa": [
+"GHSA-h6cx-gjxx-v25c"
+],
+"package": [
+{
+"ecosystem": "composer",
+"name": "sulu/sulu"
+}
+]
+},
+{
+"cve": "CVE-2026-50161",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-65959",
+"ghsa": [
+"GHSA-mhc4-g3wh-cw7m"
+],
+"package": [
+{
+"ecosystem": "go",
+"name": "vitess.io/vitess"
+}
+]
+},
+{
+"cve": "CVE-2026-55527",
+"ghsa": [
+"GHSA-gxmw-5f7x-6g22"
+],
+"package": [
+{
+"ecosystem": "pip",
+"name": "praisonaiagents"
+}
+]
+},
+{
+"cve": "CVE-2026-61800",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-73660",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-48162",
+"ghsa": [],
+"package": []
+},
+{
+"cve": "CVE-2026-53569",
+"ghsa": [],
+"package": []
+}
+]
