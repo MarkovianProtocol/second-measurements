@@ -1,0 +1,29 @@
+field dateaware: 'The data the notifying entity became aware that a breach impacting Washington residents had occurred.'
+field datesubmitted: 'The date the notifying entity submitted their notice to the Attorney General’s Office.'
+field dayselapsedbeforenotification: 'The number of days that elapsed before the notifying entity submitted notice to the Attorney General’s Office.'
+field washingtoniansaffected: 'The estimated or known number of Washington residents whose information was affected by the data breach.'
+
+register notices: 1,698; with days-before-notification: 1,675; field equals submitted - aware: 1,675
+filed 2021 onward: 1,225; affecting <=500 residents: 2; no residents value: 2
+
+ year  notices  median  over 30  share  over 90   (notices affecting >500 residents)
+ 2021      186    70.5      149    80%       78
+ 2022      170    84.0      147    86%       81
+ 2023      251      67      212    84%       93
+ 2024      227     110      213    94%      124
+ 2025      209     134      182    87%      128
+ 2026      178    99.5      159    89%      100
+2021 onward: 1,221 notices, 1,062 more than 30 days after awareness (87.0%)
+
+RCW 19.255.010(3): (3) The notification required by this section may be delayed if the data owner or licensee contacts a law enforcement agency after discovery of a breach of the security of the system and a law enforcement agency determines that the notification will impede a criminal investigation. The notification required by this section shall be made after the law enforcement agency determines that it will not compromise the investigation.
+RCW 19.255.010(7): (7) Any person or business that is required to issue a notification pursuant to this section to more than five hundred Washington residents as a result of a single breach shall notify the attorney general of the breach no more than thirty days after the breach was discovered.
+RCW 19.255.010(7)(b): (b) The notice to the attorney general must be updated if any of the information identified in (a) of this subsection is unknown at the time notice is due.
+RCW 19.255.010(8): (8) Notification to affected consumers under this section must be made in the most expedient time possible, without unreasonable delay, and no more than thirty calendar days after the breach was discovered, unless the delay is at the request of law enforcement as provided in subsection (3) of this section, or the delay is due to any measures necessary to determine the scope of the breach and restore the reasonable integrity of the data system.
+RCW 42.56.590(7): (7) Any agency that is required to issue a notification pursuant to this section to more than five hundred Washington residents as a result of a single breach shall notify the attorney general of the breach no more than thirty days after the breach was discovered.
+
+2026 report, lines mentioning 'day(s)': ['Every day, Washingtonians entrust businesses, government agencies, and other institutions', 'Washingtonians within 45 days of the discovery of a data breach, and to the AGO when a', 'request of the Attorney General, reducing the deadline to notify residents to 30 days and']
+2026 report, 'promptly': ['control over personal data. They also deserve to be notified promptly when that information']
+2026 report, numbered recommendations: [('1', 'Expand the definition of personal information in RCW 19.255.005(2)(a)('), ('2', 'Enhance protections for Washingtonians’ personal information by adding'), ('3', 'Require notice by any entity in the event that an AI agent operated by')]
+
+live statistics page, any time-to-notify measure: False
+live statistics page, embedded charts: ['Avg-Breach-Lifecycle-by-Year', 'Avg-Data-Breach-Lifecycle-by-Industry', 'Cyberattacks-by-Type', 'Data-Breaches-By-Cause', 'Instances-of-PI-Breached-by-Type', 'Number-of-Washingtonians-Affected-by-Data-Breaches', 'Reported-Data-Breaches-by-Industry']

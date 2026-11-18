@@ -1,0 +1,1664 @@
+{
+  "id" : "sb4j-ca4h",
+  "name" : "Data Breach Notifications Affecting Washington Residents",
+  "assetType" : "dataset",
+  "attribution" : "Washington State Attorney General's Office Consumer Protection Division",
+  "attributionLink" : "https://www.atg.wa.gov/data-breach-notifications",
+  "averageRating" : 0,
+  "category" : "Consumer Protection",
+  "createdAt" : 1621978883,
+  "description" : "Washington law requires entities impacted by a data breach to notify the Attorney General’s Office (AGO) when more than 500 Washingtonians personal information was compromised as a result of the breach. This dataset is a collection of various statistics that have been derived from these notices, and is the source of data used to produce the AGO’s Annual Data Breach Report.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 17481,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 40468719,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1710293986,
+  "publicationGroup" : 18330386,
+  "publicationStage" : "published",
+  "rowIdentifierColumnId" : 590536888,
+  "rowsUpdatedAt" : 1794970810,
+  "rowsUpdatedBy" : "tgvs-vv5b",
+  "tableId" : 19475964,
+  "totalTimesRated" : 0,
+  "viewCount" : 14836,
+  "viewLastModified" : 1710293986,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1628650650,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 6213203,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1628650650,
+    "targetAudience" : "public",
+    "workflowId" : 2106,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "endedAt" : 1628650651,
+      "failureCount" : 0,
+      "startedAt" : 1628650650,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "fhhb-wxuk",
+      "displayName" : "Imamura, Kaya (ATG)"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 590536882,
+    "name" : "DateAware",
+    "dataTypeName" : "calendar_date",
+    "description" : "The data the notifying entity became aware that a breach impacting Washington residents had occurred.",
+    "fieldName" : "dateaware",
+    "position" : 1,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 138174445,
+    "cachedContents" : {
+      "non_null" : "1675",
+      "largest" : "2026-10-23T00:00:00.000",
+      "null" : "23",
+      "top" : [ {
+        "item" : "2020-07-16T00:00:00.000",
+        "count" : "71"
+      }, {
+        "item" : "2023-05-31T00:00:00.000",
+        "count" : "21"
+      }, {
+        "item" : "2017-02-06T00:00:00.000",
+        "count" : "17"
+      }, {
+        "item" : "2024-04-10T00:00:00.000",
+        "count" : "14"
+      }, {
+        "item" : "2023-06-01T00:00:00.000",
+        "count" : "8"
+      }, {
+        "item" : "2017-06-06T00:00:00.000",
+        "count" : "7"
+      }, {
+        "item" : "2023-06-20T00:00:00.000",
+        "count" : "6"
+      }, {
+        "item" : "2023-06-06T00:00:00.000",
+        "count" : "6"
+      }, {
+        "item" : "2023-11-02T00:00:00.000",
+        "count" : "5"
+      }, {
+        "item" : "2024-02-26T00:00:00.000",
+        "count" : "5"
+      }, {
+        "item" : "2023-09-22T00:00:00.000",
+        "count" : "5"
+      }, {
+        "item" : "2025-08-22T00:00:00.000",
+        "count" : "5"
+      }, {
+        "item" : "2022-06-02T00:00:00.000",
+        "count" : "5"
+      }, {
+        "item" : "2023-11-16T00:00:00.000",
+        "count" : "4"
+      }, {
+        "item" : "2020-05-01T00:00:00.000",
+        "count" : "4"
+      }, {
+        "item" : "2021-10-15T00:00:00.000",
+        "count" : "4"
+      }, {
+        "item" : "2020-08-14T00:00:00.000",
+        "count" : "4"
+      }, {
+        "item" : "2023-06-09T00:00:00.000",
+        "count" : "4"
+      }, {
+        "item" : "2023-06-07T00:00:00.000",
+        "count" : "4"
+      }, {
+        "item" : "2020-08-05T00:00:00.000",
+        "count" : "4"
+      } ],
+      "smallest" : "2014-09-17T00:00:00.000",
+      "count" : "1698",
+      "cardinality" : "1698"
+    },
+    "format" : { }
+  }, {
+    "id" : 590536883,
+    "name" : "DateSubmitted",
+    "dataTypeName" : "calendar_date",
+    "description" : "The date the notifying entity submitted their notice to the Attorney General’s Office.",
+    "fieldName" : "datesubmitted",
+    "position" : 2,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 138174446,
+    "cachedContents" : {
+      "non_null" : "1698",
+      "largest" : "2026-11-09T00:00:00.000",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2020-08-14T00:00:00.000",
+        "count" : "16"
+      }, {
+        "item" : "2017-02-25T00:00:00.000",
+        "count" : "8"
+      }, {
+        "item" : "2020-09-18T00:00:00.000",
+        "count" : "7"
+      }, {
+        "item" : "2023-07-28T00:00:00.000",
+        "count" : "7"
+      }, {
+        "item" : "2022-07-25T00:00:00.000",
+        "count" : "7"
+      }, {
+        "item" : "2020-09-04T00:00:00.000",
+        "count" : "6"
+      }, {
+        "item" : "2020-08-21T00:00:00.000",
+        "count" : "6"
+      }, {
+        "item" : "2026-04-17T00:00:00.000",
+        "count" : "6"
+      }, {
+        "item" : "2020-09-08T00:00:00.000",
+        "count" : "6"
+      }, {
+        "item" : "2023-12-15T00:00:00.000",
+        "count" : "6"
+      }, {
+        "item" : "2026-05-29T00:00:00.000",
+        "count" : "6"
+      }, {
+        "item" : "2026-08-14T00:00:00.000",
+        "count" : "5"
+      }, {
+        "item" : "2023-06-30T00:00:00.000",
+        "count" : "5"
+      }, {
+        "item" : "2024-02-29T00:00:00.000",
+        "count" : "5"
+      }, {
+        "item" : "2020-08-17T00:00:00.000",
+        "count" : "5"
+      }, {
+        "item" : "2020-09-02T00:00:00.000",
+        "count" : "5"
+      }, {
+        "item" : "2023-08-24T00:00:00.000",
+        "count" : "5"
+      }, {
+        "item" : "2021-12-17T00:00:00.000",
+        "count" : "5"
+      }, {
+        "item" : "2024-05-24T00:00:00.000",
+        "count" : "5"
+      }, {
+        "item" : "2023-07-27T00:00:00.000",
+        "count" : "4"
+      } ],
+      "smallest" : "2015-08-11T00:00:00.000",
+      "count" : "1698",
+      "cardinality" : "1698"
+    },
+    "format" : { }
+  }, {
+    "id" : 590536884,
+    "name" : "DataBreachCause",
+    "dataTypeName" : "text",
+    "description" : "The cause of the data breach. Three categories are available. Cyberattack: when a third party deliberately attempts to access secured data, such as information stored on a server, using cyber technology. Unauthorized access: when an unauthorized person purposefully accesses data through means such as an unsecured network or sifting through sensitive documents left out on a desk. Theft or mistake: the mistaken loss of information, such as a clerical error, or the inadvertent theft of information. ",
+    "fieldName" : "databreachcause",
+    "position" : 3,
+    "renderTypeName" : "text",
+    "tableColumnId" : 138126378,
+    "cachedContents" : {
+      "non_null" : "1698",
+      "largest" : "Unauthorized Access",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Cyberattack",
+        "count" : "1220"
+      }, {
+        "item" : "Unauthorized Access",
+        "count" : "385"
+      }, {
+        "item" : "Theft or Mistake",
+        "count" : "93"
+      } ],
+      "smallest" : "Cyberattack",
+      "count" : "1698",
+      "cardinality" : "1698"
+    },
+    "format" : { }
+  }, {
+    "id" : 590536885,
+    "name" : "DateStart",
+    "dataTypeName" : "calendar_date",
+    "description" : "The known or estimated start date of the breach.",
+    "fieldName" : "datestart",
+    "position" : 4,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 138174451,
+    "cachedContents" : {
+      "non_null" : "1529",
+      "largest" : "2026-11-21T00:00:00.000",
+      "null" : "169",
+      "top" : [ {
+        "item" : "2020-02-07T00:00:00.000",
+        "count" : "108"
+      }, {
+        "item" : "2023-05-29T00:00:00.000",
+        "count" : "31"
+      }, {
+        "item" : "2023-05-30T00:00:00.000",
+        "count" : "25"
+      }, {
+        "item" : "2023-05-27T00:00:00.000",
+        "count" : "17"
+      }, {
+        "item" : "2024-02-21T00:00:00.000",
+        "count" : "17"
+      }, {
+        "item" : "2016-02-26T00:00:00.000",
+        "count" : "14"
+      }, {
+        "item" : "2023-05-28T00:00:00.000",
+        "count" : "12"
+      }, {
+        "item" : "2023-05-31T00:00:00.000",
+        "count" : "10"
+      }, {
+        "item" : "2016-08-10T00:00:00.000",
+        "count" : "7"
+      }, {
+        "item" : "2025-08-09T00:00:00.000",
+        "count" : "5"
+      }, {
+        "item" : "2024-05-13T00:00:00.000",
+        "count" : "5"
+      }, {
+        "item" : "2024-08-14T00:00:00.000",
+        "count" : "5"
+      }, {
+        "item" : "2023-10-29T00:00:00.000",
+        "count" : "5"
+      }, {
+        "item" : "2020-09-18T00:00:00.000",
+        "count" : "5"
+      }, {
+        "item" : "2022-05-18T00:00:00.000",
+        "count" : "5"
+      }, {
+        "item" : "2021-11-24T00:00:00.000",
+        "count" : "5"
+      }, {
+        "item" : "2024-11-05T00:00:00.000",
+        "count" : "5"
+      }, {
+        "item" : "2021-12-28T00:00:00.000",
+        "count" : "4"
+      }, {
+        "item" : "2024-09-17T00:00:00.000",
+        "count" : "4"
+      }, {
+        "item" : "2023-02-01T00:00:00.000",
+        "count" : "4"
+      } ],
+      "smallest" : "2008-04-01T00:00:00.000",
+      "count" : "1698",
+      "cardinality" : "1698"
+    },
+    "format" : { }
+  }, {
+    "id" : 590536886,
+    "name" : "DateEnd",
+    "dataTypeName" : "calendar_date",
+    "description" : "The known or estimated end date of the breach.",
+    "fieldName" : "dateend",
+    "position" : 5,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 138174448,
+    "cachedContents" : {
+      "non_null" : "1457",
+      "largest" : "2026-10-06T00:00:00.000",
+      "null" : "241",
+      "top" : [ {
+        "item" : "2020-05-20T00:00:00.000",
+        "count" : "109"
+      }, {
+        "item" : "2023-05-30T00:00:00.000",
+        "count" : "40"
+      }, {
+        "item" : "2023-05-31T00:00:00.000",
+        "count" : "21"
+      }, {
+        "item" : "2024-02-21T00:00:00.000",
+        "count" : "15"
+      }, {
+        "item" : "2016-12-05T00:00:00.000",
+        "count" : "14"
+      }, {
+        "item" : "2022-02-03T00:00:00.000",
+        "count" : "7"
+      }, {
+        "item" : "2023-06-01T00:00:00.000",
+        "count" : "6"
+      }, {
+        "item" : "2022-12-14T00:00:00.000",
+        "count" : "6"
+      }, {
+        "item" : "2017-03-09T00:00:00.000",
+        "count" : "6"
+      }, {
+        "item" : "2023-05-28T00:00:00.000",
+        "count" : "5"
+      }, {
+        "item" : "2024-02-26T00:00:00.000",
+        "count" : "5"
+      }, {
+        "item" : "2024-12-09T00:00:00.000",
+        "count" : "5"
+      }, {
+        "item" : "2022-06-02T00:00:00.000",
+        "count" : "5"
+      }, {
+        "item" : "2023-11-02T00:00:00.000",
+        "count" : "5"
+      }, {
+        "item" : "2018-07-09T00:00:00.000",
+        "count" : "4"
+      }, {
+        "item" : "2026-04-09T00:00:00.000",
+        "count" : "4"
+      }, {
+        "item" : "2024-11-21T00:00:00.000",
+        "count" : "4"
+      }, {
+        "item" : "2017-12-22T00:00:00.000",
+        "count" : "4"
+      }, {
+        "item" : "2025-12-18T00:00:00.000",
+        "count" : "4"
+      }, {
+        "item" : "2025-08-22T00:00:00.000",
+        "count" : "4"
+      } ],
+      "smallest" : "2009-01-01T00:00:00.000",
+      "count" : "1698",
+      "cardinality" : "1698"
+    },
+    "format" : { }
+  }, {
+    "id" : 590536887,
+    "name" : "Name",
+    "dataTypeName" : "text",
+    "description" : "The name of the entity providing notice to the Attorney General’s Office. This is nearly always the owner of the breached data, whether or not they were the entity to be breached. E.g. If Company A contracts with Company B to process their data, and Company B is breached, Washington law requires Company A to provide the notice.",
+    "fieldName" : "name",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 138126375,
+    "cachedContents" : {
+      "non_null" : "1698",
+      "largest" : "Zoosk, Inc.",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Fred Hutchinson Cancer Center",
+        "count" : "3"
+      }, {
+        "item" : "Seattle Housing Authority",
+        "count" : "3"
+      }, {
+        "item" : "Rite Aid Corporation",
+        "count" : "3"
+      }, {
+        "item" : "Premera Blue Cross",
+        "count" : "3"
+      }, {
+        "item" : "The UPS Store, Inc.",
+        "count" : "2"
+      }, {
+        "item" : "Warner Norcross & Judd, LLP",
+        "count" : "2"
+      }, {
+        "item" : "Virginia Mason Medical Center",
+        "count" : "2"
+      }, {
+        "item" : "T-Mobile USA",
+        "count" : "2"
+      }, {
+        "item" : "University of Puget Sound",
+        "count" : "2"
+      }, {
+        "item" : "Infinity Insurance Company",
+        "count" : "2"
+      }, {
+        "item" : "Boeing Employees' Credit Union",
+        "count" : "2"
+      }, {
+        "item" : "Morgan Stanley",
+        "count" : "2"
+      }, {
+        "item" : "North 40 Outfitters",
+        "count" : "2"
+      }, {
+        "item" : "Landmark Admin, LLC",
+        "count" : "2"
+      }, {
+        "item" : "Maximus, Inc.",
+        "count" : "2"
+      }, {
+        "item" : "U-Haul International, Inc.",
+        "count" : "2"
+      }, {
+        "item" : "Panera, LLC",
+        "count" : "2"
+      }, {
+        "item" : "Delaware Life Insurance Company",
+        "count" : "2"
+      }, {
+        "item" : "Caesars Entertainment, Inc.",
+        "count" : "2"
+      }, {
+        "item" : "CellNetix Pathology and Laboratories",
+        "count" : "2"
+      } ],
+      "smallest" : "1Life Healthcare, Inc.",
+      "count" : "1698",
+      "cardinality" : "1698"
+    },
+    "format" : { }
+  }, {
+    "id" : 590536888,
+    "name" : "Id",
+    "dataTypeName" : "number",
+    "description" : "Unique Key",
+    "fieldName" : "id",
+    "position" : 7,
+    "renderTypeName" : "number",
+    "tableColumnId" : 138174453,
+    "cachedContents" : {
+      "non_null" : "1698",
+      "largest" : "26199",
+      "null" : "0",
+      "top" : [ {
+        "item" : "10377",
+        "count" : "1"
+      }, {
+        "item" : "16345",
+        "count" : "1"
+      }, {
+        "item" : "10269",
+        "count" : "1"
+      }, {
+        "item" : "10406",
+        "count" : "1"
+      }, {
+        "item" : "25379",
+        "count" : "1"
+      }, {
+        "item" : "22778",
+        "count" : "1"
+      }, {
+        "item" : "24481",
+        "count" : "1"
+      }, {
+        "item" : "15946",
+        "count" : "1"
+      }, {
+        "item" : "10490",
+        "count" : "1"
+      }, {
+        "item" : "9627",
+        "count" : "1"
+      }, {
+        "item" : "25855",
+        "count" : "1"
+      }, {
+        "item" : "18174",
+        "count" : "1"
+      }, {
+        "item" : "9585",
+        "count" : "1"
+      }, {
+        "item" : "18241",
+        "count" : "1"
+      }, {
+        "item" : "17449",
+        "count" : "1"
+      }, {
+        "item" : "10345",
+        "count" : "1"
+      }, {
+        "item" : "15760",
+        "count" : "1"
+      }, {
+        "item" : "10454",
+        "count" : "1"
+      }, {
+        "item" : "17432",
+        "count" : "1"
+      }, {
+        "item" : "11289",
+        "count" : "1"
+      } ],
+      "smallest" : "9561",
+      "count" : "1698",
+      "cardinality" : "1698"
+    },
+    "format" : { }
+  }, {
+    "id" : 590536889,
+    "name" : "CyberattackType",
+    "dataTypeName" : "text",
+    "description" : "This is a sub-category of breaches caused by Cyberattacks. The tracked types include: Malware, Ransomware, Phishing, Skimmers, Other, and Unknown.",
+    "fieldName" : "cyberattacktype",
+    "position" : 8,
+    "renderTypeName" : "text",
+    "tableColumnId" : 138174447,
+    "cachedContents" : {
+      "non_null" : "1228",
+      "largest" : "Unclear/unknown",
+      "null" : "470",
+      "top" : [ {
+        "item" : "Ransomware",
+        "count" : "597"
+      }, {
+        "item" : "Malware",
+        "count" : "226"
+      }, {
+        "item" : "Other",
+        "count" : "176"
+      }, {
+        "item" : "Phishing",
+        "count" : "116"
+      }, {
+        "item" : "Unclear/unknown",
+        "count" : "94"
+      }, {
+        "item" : "Skimmers",
+        "count" : "19"
+      } ],
+      "smallest" : "Malware",
+      "count" : "1698",
+      "cardinality" : "1698"
+    },
+    "format" : { }
+  }, {
+    "id" : 590536890,
+    "name" : "WashingtoniansAffected",
+    "dataTypeName" : "number",
+    "description" : "The estimated or known number of Washington residents whose information was affected by the data breach.",
+    "fieldName" : "washingtoniansaffected",
+    "position" : 9,
+    "renderTypeName" : "number",
+    "tableColumnId" : 138174452,
+    "cachedContents" : {
+      "non_null" : "1666",
+      "largest" : "3243664",
+      "null" : "32",
+      "top" : [ {
+        "item" : "518",
+        "count" : "7"
+      }, {
+        "item" : "657",
+        "count" : "6"
+      }, {
+        "item" : "511",
+        "count" : "5"
+      }, {
+        "item" : "640",
+        "count" : "5"
+      }, {
+        "item" : "516",
+        "count" : "5"
+      }, {
+        "item" : "1929",
+        "count" : "5"
+      }, {
+        "item" : "755",
+        "count" : "4"
+      }, {
+        "item" : "505",
+        "count" : "4"
+      }, {
+        "item" : "677",
+        "count" : "4"
+      }, {
+        "item" : "639",
+        "count" : "4"
+      }, {
+        "item" : "519",
+        "count" : "4"
+      }, {
+        "item" : "500",
+        "count" : "4"
+      }, {
+        "item" : "700",
+        "count" : "4"
+      }, {
+        "item" : "662",
+        "count" : "4"
+      }, {
+        "item" : "685",
+        "count" : "4"
+      }, {
+        "item" : "889",
+        "count" : "4"
+      }, {
+        "item" : "642",
+        "count" : "4"
+      }, {
+        "item" : "1066",
+        "count" : "4"
+      }, {
+        "item" : "992",
+        "count" : "4"
+      }, {
+        "item" : "706",
+        "count" : "3"
+      } ],
+      "smallest" : "15",
+      "count" : "1698",
+      "cardinality" : "1698"
+    },
+    "format" : { }
+  }, {
+    "id" : 590536891,
+    "name" : "IndustryType",
+    "dataTypeName" : "text",
+    "description" : "The industry type that the notifying entity belongs to. Options include: Business, Education, Finance, Government, Health, and Nonprofit or Charity.",
+    "fieldName" : "industrytype",
+    "position" : 10,
+    "renderTypeName" : "text",
+    "tableColumnId" : 138174449,
+    "cachedContents" : {
+      "non_null" : "1698",
+      "largest" : "Non-Profit/Charity",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Business",
+        "count" : "767"
+      }, {
+        "item" : "Health",
+        "count" : "341"
+      }, {
+        "item" : "Finance",
+        "count" : "267"
+      }, {
+        "item" : "Education",
+        "count" : "139"
+      }, {
+        "item" : "Non-Profit/Charity",
+        "count" : "126"
+      }, {
+        "item" : "Government",
+        "count" : "58"
+      } ],
+      "smallest" : "Business",
+      "count" : "1698",
+      "cardinality" : "1698"
+    },
+    "format" : { }
+  }, {
+    "id" : 590536892,
+    "name" : "BusinessType",
+    "dataTypeName" : "text",
+    "description" : "A sub-category of notifying entities who are categorized as Businesses. Options include: Accessories, Biotech, Cleaning, Clothing, Construction, Consumable, Cosmetic, Cryptocurrency, Entertainment, Fitness, Home, Hospitality, Human Resources, Legal, Manufacturing, Professional Services, Real Estate, Retail, Shipping, Software, Telecommunications, Transportation, and Web Services. There is also an “other” category to capture any businesses that do not fit into the above.",
+    "fieldName" : "businesstype",
+    "position" : 11,
+    "renderTypeName" : "text",
+    "tableColumnId" : 138174450,
+    "cachedContents" : {
+      "non_null" : "776",
+      "largest" : "Web Services",
+      "null" : "922",
+      "top" : [ {
+        "item" : "Other",
+        "count" : "186"
+      }, {
+        "item" : "Retail",
+        "count" : "150"
+      }, {
+        "item" : "Professional Services",
+        "count" : "58"
+      }, {
+        "item" : "Hospitality",
+        "count" : "57"
+      }, {
+        "item" : "Manufacturing",
+        "count" : "49"
+      }, {
+        "item" : "Software",
+        "count" : "41"
+      }, {
+        "item" : "Legal",
+        "count" : "36"
+      }, {
+        "item" : "Consumable",
+        "count" : "25"
+      }, {
+        "item" : "Entertainment",
+        "count" : "24"
+      }, {
+        "item" : "Construction",
+        "count" : "20"
+      }, {
+        "item" : "Clothing",
+        "count" : "20"
+      }, {
+        "item" : "Web Services",
+        "count" : "16"
+      }, {
+        "item" : "Human Resources",
+        "count" : "12"
+      }, {
+        "item" : "Transportation",
+        "count" : "12"
+      }, {
+        "item" : "Telecommunications",
+        "count" : "11"
+      }, {
+        "item" : "Shipping",
+        "count" : "11"
+      }, {
+        "item" : "Real Estate",
+        "count" : "11"
+      }, {
+        "item" : "Cosmetic",
+        "count" : "9"
+      }, {
+        "item" : "Accessories",
+        "count" : "8"
+      }, {
+        "item" : "Home",
+        "count" : "8"
+      } ],
+      "smallest" : "Accessories",
+      "count" : "1698",
+      "cardinality" : "1698"
+    },
+    "format" : { }
+  }, {
+    "id" : 590536893,
+    "name" : "Year",
+    "dataTypeName" : "number",
+    "description" : "The “year” in which a data breach notice is submitted to the Attorney General’s Office (AGO). As a result of the effective date of the law requiring notice to the AGO, a year starts on July 24 and ends on July 23 of the following year. In other words, a notice submitted on July 23, 2020 would be marked as a “2020” breach, while a notice submitted on July 24, 2020 would be marked as a “2021” breach.",
+    "fieldName" : "year",
+    "position" : 13,
+    "renderTypeName" : "number",
+    "tableColumnId" : 138174859,
+    "cachedContents" : {
+      "non_null" : "1698",
+      "largest" : "2027",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2024",
+        "count" : "294"
+      }, {
+        "item" : "2021",
+        "count" : "286"
+      }, {
+        "item" : "2025",
+        "count" : "212"
+      }, {
+        "item" : "2026",
+        "count" : "197"
+      }, {
+        "item" : "2023",
+        "count" : "181"
+      }, {
+        "item" : "2022",
+        "count" : "159"
+      }, {
+        "item" : "2017",
+        "count" : "77"
+      }, {
+        "item" : "2027",
+        "count" : "65"
+      }, {
+        "item" : "2019",
+        "count" : "65"
+      }, {
+        "item" : "2018",
+        "count" : "63"
+      }, {
+        "item" : "2020",
+        "count" : "60"
+      }, {
+        "item" : "2016",
+        "count" : "39"
+      } ],
+      "smallest" : "2016",
+      "count" : "1698",
+      "cardinality" : "1698"
+    },
+    "format" : { }
+  }, {
+    "id" : 590536894,
+    "name" : "YearText",
+    "dataTypeName" : "text",
+    "description" : "Year in text formatting for visualizations",
+    "fieldName" : "yeartext",
+    "position" : 14,
+    "renderTypeName" : "text",
+    "tableColumnId" : 138174875,
+    "cachedContents" : {
+      "non_null" : "1698",
+      "largest" : "2027",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2024",
+        "count" : "294"
+      }, {
+        "item" : "2021",
+        "count" : "286"
+      }, {
+        "item" : "2025",
+        "count" : "212"
+      }, {
+        "item" : "2026",
+        "count" : "197"
+      }, {
+        "item" : "2023",
+        "count" : "181"
+      }, {
+        "item" : "2022",
+        "count" : "159"
+      }, {
+        "item" : "2017",
+        "count" : "77"
+      }, {
+        "item" : "2027",
+        "count" : "65"
+      }, {
+        "item" : "2019",
+        "count" : "65"
+      }, {
+        "item" : "2018",
+        "count" : "63"
+      }, {
+        "item" : "2020",
+        "count" : "60"
+      }, {
+        "item" : "2016",
+        "count" : "39"
+      } ],
+      "smallest" : "2016",
+      "count" : "1698",
+      "cardinality" : "1698"
+    },
+    "format" : { }
+  }, {
+    "id" : 590536895,
+    "name" : "WashingtoniansAffectedRange",
+    "dataTypeName" : "text",
+    "description" : "Range of Washingtonians Affected for visualizations",
+    "fieldName" : "washingtoniansaffectedrange",
+    "position" : 29,
+    "renderTypeName" : "text",
+    "tableColumnId" : 138186780,
+    "cachedContents" : {
+      "non_null" : "1698",
+      "largest" : "Unknown",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1,000-9,999",
+        "count" : "820"
+      }, {
+        "item" : "500-999",
+        "count" : "486"
+      }, {
+        "item" : "10,000-49,999",
+        "count" : "233"
+      }, {
+        "item" : "50,000-999,999",
+        "count" : "119"
+      }, {
+        "item" : "Unknown",
+        "count" : "32"
+      }, {
+        "item" : "1,000,000+",
+        "count" : "7"
+      }, {
+        "item" : "< 500",
+        "count" : "1"
+      } ],
+      "smallest" : "1,000,000+",
+      "count" : "1698",
+      "cardinality" : "1698"
+    },
+    "format" : { }
+  }, {
+    "id" : 590536896,
+    "name" : "BreachLifecycleRange",
+    "dataTypeName" : "text",
+    "description" : "The lifecycle of a breach is the sum of the “Time to Identify”, and “Time to Contain” a breach. If one or both of these variables is unknown, then the Lifecycle is unknown as well. This data is measured in days, and categorized into one of the following buckets: 0 days, 1-99 days, 100-199 days, 200-299 days, 300-399 days, 400-499 days, 500+ days, and unknown.",
+    "fieldName" : "breachlifecyclerange",
+    "position" : 30,
+    "renderTypeName" : "text",
+    "tableColumnId" : 138186781,
+    "cachedContents" : {
+      "non_null" : "1698",
+      "largest" : "Unknown",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1-99",
+        "count" : "868"
+      }, {
+        "item" : "Unknown",
+        "count" : "285"
+      }, {
+        "item" : "100-199",
+        "count" : "202"
+      }, {
+        "item" : "0",
+        "count" : "149"
+      }, {
+        "item" : "200-299",
+        "count" : "70"
+      }, {
+        "item" : "300-399",
+        "count" : "59"
+      }, {
+        "item" : "500+",
+        "count" : "53"
+      }, {
+        "item" : "400-499",
+        "count" : "12"
+      } ],
+      "smallest" : "0",
+      "count" : "1698",
+      "cardinality" : "1698"
+    },
+    "format" : { }
+  }, {
+    "id" : 590536897,
+    "name" : "DaysToContainBreach",
+    "dataTypeName" : "number",
+    "description" : "The total number of days it takes a notifying entity to end the exposure of consumer data, after discovering the breach. If a breach ends before it is discovered, this column will be marked as “0”.",
+    "fieldName" : "daystocontainbreach",
+    "position" : 31,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139150938,
+    "cachedContents" : {
+      "non_null" : "1441",
+      "largest" : "366",
+      "null" : "257",
+      "top" : [ {
+        "item" : "0",
+        "count" : "1106"
+      }, {
+        "item" : "1",
+        "count" : "87"
+      }, {
+        "item" : "2",
+        "count" : "31"
+      }, {
+        "item" : "4",
+        "count" : "19"
+      }, {
+        "item" : "5",
+        "count" : "18"
+      }, {
+        "item" : "3",
+        "count" : "15"
+      }, {
+        "item" : "8",
+        "count" : "14"
+      }, {
+        "item" : "7",
+        "count" : "12"
+      }, {
+        "item" : "6",
+        "count" : "8"
+      }, {
+        "item" : "10",
+        "count" : "7"
+      }, {
+        "item" : "27",
+        "count" : "6"
+      }, {
+        "item" : "9",
+        "count" : "5"
+      }, {
+        "item" : "12",
+        "count" : "5"
+      }, {
+        "item" : "18",
+        "count" : "4"
+      }, {
+        "item" : "39",
+        "count" : "4"
+      }, {
+        "item" : "15",
+        "count" : "4"
+      }, {
+        "item" : "11",
+        "count" : "4"
+      }, {
+        "item" : "17",
+        "count" : "4"
+      }, {
+        "item" : "19",
+        "count" : "4"
+      }, {
+        "item" : "25",
+        "count" : "4"
+      } ],
+      "smallest" : "0",
+      "count" : "1698",
+      "cardinality" : "1698"
+    },
+    "format" : { }
+  }, {
+    "id" : 590536898,
+    "name" : "DaysToIdentifyBreach",
+    "dataTypeName" : "number",
+    "description" : "The total number of days it takes a notifying entity to discover that a breach of consumer data has occurred after the breach has begun.",
+    "fieldName" : "daystoidentifybreach",
+    "position" : 32,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139150939,
+    "cachedContents" : {
+      "non_null" : "1510",
+      "largest" : "3728",
+      "null" : "188",
+      "top" : [ {
+        "item" : "0",
+        "count" : "246"
+      }, {
+        "item" : "1",
+        "count" : "80"
+      }, {
+        "item" : "2",
+        "count" : "73"
+      }, {
+        "item" : "160",
+        "count" : "68"
+      }, {
+        "item" : "3",
+        "count" : "56"
+      }, {
+        "item" : "5",
+        "count" : "50"
+      }, {
+        "item" : "4",
+        "count" : "42"
+      }, {
+        "item" : "6",
+        "count" : "34"
+      }, {
+        "item" : "7",
+        "count" : "32"
+      }, {
+        "item" : "16",
+        "count" : "22"
+      }, {
+        "item" : "8",
+        "count" : "22"
+      }, {
+        "item" : "49",
+        "count" : "20"
+      }, {
+        "item" : "10",
+        "count" : "19"
+      }, {
+        "item" : "11",
+        "count" : "16"
+      }, {
+        "item" : "14",
+        "count" : "15"
+      }, {
+        "item" : "13",
+        "count" : "15"
+      }, {
+        "item" : "17",
+        "count" : "15"
+      }, {
+        "item" : "346",
+        "count" : "15"
+      }, {
+        "item" : "9",
+        "count" : "12"
+      }, {
+        "item" : "24",
+        "count" : "12"
+      } ],
+      "smallest" : "-503",
+      "count" : "1698",
+      "cardinality" : "1698"
+    },
+    "format" : { }
+  }, {
+    "id" : 590536899,
+    "name" : "DaysBreachLifecycle",
+    "dataTypeName" : "number",
+    "description" : "The lifecycle of a breach is the sum of the “Time to Identify”, and “Time to Contain” a breach. This data is measured in days.",
+    "fieldName" : "daysbreachlifecycle",
+    "position" : 33,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139150945,
+    "cachedContents" : {
+      "non_null" : "1413",
+      "largest" : "3728",
+      "null" : "285",
+      "top" : [ {
+        "item" : "0",
+        "count" : "145"
+      }, {
+        "item" : "1",
+        "count" : "80"
+      }, {
+        "item" : "2",
+        "count" : "74"
+      }, {
+        "item" : "160",
+        "count" : "68"
+      }, {
+        "item" : "5",
+        "count" : "57"
+      }, {
+        "item" : "3",
+        "count" : "49"
+      }, {
+        "item" : "4",
+        "count" : "47"
+      }, {
+        "item" : "6",
+        "count" : "38"
+      }, {
+        "item" : "7",
+        "count" : "31"
+      }, {
+        "item" : "8",
+        "count" : "26"
+      }, {
+        "item" : "10",
+        "count" : "20"
+      }, {
+        "item" : "49",
+        "count" : "19"
+      }, {
+        "item" : "16",
+        "count" : "19"
+      }, {
+        "item" : "15",
+        "count" : "18"
+      }, {
+        "item" : "11",
+        "count" : "15"
+      }, {
+        "item" : "12",
+        "count" : "15"
+      }, {
+        "item" : "346",
+        "count" : "15"
+      }, {
+        "item" : "19",
+        "count" : "13"
+      }, {
+        "item" : "21",
+        "count" : "13"
+      }, {
+        "item" : "17",
+        "count" : "13"
+      } ],
+      "smallest" : "-503",
+      "count" : "1698",
+      "cardinality" : "1698"
+    },
+    "format" : { }
+  }, {
+    "id" : 590536900,
+    "name" : "DiscoveredInProgress",
+    "dataTypeName" : "checkbox",
+    "description" : "Whether or not a notifying entity discovered a breach while it was still in progress.",
+    "fieldName" : "discoveredinprogress",
+    "position" : 34,
+    "renderTypeName" : "checkbox",
+    "tableColumnId" : 139150941,
+    "cachedContents" : {
+      "non_null" : "1698",
+      "null" : "0",
+      "top" : [ {
+        "item" : true,
+        "count" : "891"
+      }, {
+        "item" : false,
+        "count" : "807"
+      } ],
+      "count" : "1698",
+      "cardinality" : "1698"
+    },
+    "format" : { }
+  }, {
+    "id" : 590536901,
+    "name" : "DaysOfExposure",
+    "dataTypeName" : "number",
+    "description" : "The total number of days that consumers’ information was exposed by a breach.",
+    "fieldName" : "daysofexposure",
+    "position" : 35,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139150943,
+    "cachedContents" : {
+      "non_null" : "1429",
+      "largest" : "2240",
+      "null" : "269",
+      "top" : [ {
+        "item" : "0",
+        "count" : "233"
+      }, {
+        "item" : "1",
+        "count" : "137"
+      }, {
+        "item" : "103",
+        "count" : "111"
+      }, {
+        "item" : "2",
+        "count" : "78"
+      }, {
+        "item" : "3",
+        "count" : "56"
+      }, {
+        "item" : "4",
+        "count" : "48"
+      }, {
+        "item" : "5",
+        "count" : "44"
+      }, {
+        "item" : "6",
+        "count" : "43"
+      }, {
+        "item" : "8",
+        "count" : "27"
+      }, {
+        "item" : "7",
+        "count" : "23"
+      }, {
+        "item" : "16",
+        "count" : "22"
+      }, {
+        "item" : "15",
+        "count" : "19"
+      }, {
+        "item" : "14",
+        "count" : "16"
+      }, {
+        "item" : "9",
+        "count" : "16"
+      }, {
+        "item" : "10",
+        "count" : "15"
+      }, {
+        "item" : "283",
+        "count" : "14"
+      }, {
+        "item" : "11",
+        "count" : "13"
+      }, {
+        "item" : "17",
+        "count" : "12"
+      }, {
+        "item" : "12",
+        "count" : "12"
+      }, {
+        "item" : "19",
+        "count" : "12"
+      } ],
+      "smallest" : "-503",
+      "count" : "1698",
+      "cardinality" : "1698"
+    },
+    "format" : { }
+  }, {
+    "id" : 590536902,
+    "name" : "DaysElapsedBetweenEndAndDiscovery",
+    "dataTypeName" : "number",
+    "description" : "The total number of days that elapsed after the exposure of consumers’ data ended, and when the notifying entity actually learned of the breached.",
+    "fieldName" : "dayselapsedbetweenendanddiscovery",
+    "position" : 36,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139150942,
+    "cachedContents" : {
+      "non_null" : "550",
+      "largest" : "3453",
+      "null" : "1148",
+      "top" : [ {
+        "item" : "57",
+        "count" : "68"
+      }, {
+        "item" : "1",
+        "count" : "44"
+      }, {
+        "item" : "2",
+        "count" : "28"
+      }, {
+        "item" : "4",
+        "count" : "19"
+      }, {
+        "item" : "63",
+        "count" : "16"
+      }, {
+        "item" : "3",
+        "count" : "15"
+      }, {
+        "item" : "49",
+        "count" : "15"
+      }, {
+        "item" : "7",
+        "count" : "11"
+      }, {
+        "item" : "5",
+        "count" : "10"
+      }, {
+        "item" : "13",
+        "count" : "9"
+      }, {
+        "item" : "6",
+        "count" : "9"
+      }, {
+        "item" : "8",
+        "count" : "8"
+      }, {
+        "item" : "21",
+        "count" : "8"
+      }, {
+        "item" : "12",
+        "count" : "7"
+      }, {
+        "item" : "9",
+        "count" : "7"
+      }, {
+        "item" : "89",
+        "count" : "7"
+      }, {
+        "item" : "15",
+        "count" : "6"
+      }, {
+        "item" : "14",
+        "count" : "6"
+      }, {
+        "item" : "24",
+        "count" : "6"
+      }, {
+        "item" : "42",
+        "count" : "6"
+      } ],
+      "smallest" : "1",
+      "count" : "1698",
+      "cardinality" : "1698"
+    },
+    "format" : { }
+  }, {
+    "id" : 590536903,
+    "name" : "EndedOnDayDiscovered",
+    "dataTypeName" : "checkbox",
+    "description" : "Whether or not the exposure of consumers’ information ended on the same day that the notifying entity discovered the breach.",
+    "fieldName" : "endedondaydiscovered",
+    "position" : 37,
+    "renderTypeName" : "checkbox",
+    "tableColumnId" : 139150940,
+    "cachedContents" : {
+      "non_null" : "1698",
+      "null" : "0",
+      "top" : [ {
+        "item" : false,
+        "count" : "1142"
+      }, {
+        "item" : true,
+        "count" : "556"
+      } ],
+      "count" : "1698",
+      "cardinality" : "1698"
+    },
+    "format" : { }
+  }, {
+    "id" : 590536904,
+    "name" : "DaysElapsedBeforeNotification",
+    "dataTypeName" : "number",
+    "description" : "The number of days that elapsed before the notifying entity submitted notice to the Attorney General’s Office.",
+    "fieldName" : "dayselapsedbeforenotification",
+    "position" : 38,
+    "renderTypeName" : "number",
+    "tableColumnId" : 139150944,
+    "cachedContents" : {
+      "non_null" : "1675",
+      "largest" : "1043",
+      "null" : "23",
+      "top" : [ {
+        "item" : "30",
+        "count" : "55"
+      }, {
+        "item" : "29",
+        "count" : "47"
+      }, {
+        "item" : "28",
+        "count" : "32"
+      }, {
+        "item" : "60",
+        "count" : "31"
+      }, {
+        "item" : "42",
+        "count" : "28"
+      }, {
+        "item" : "34",
+        "count" : "27"
+      }, {
+        "item" : "27",
+        "count" : "25"
+      }, {
+        "item" : "31",
+        "count" : "22"
+      }, {
+        "item" : "43",
+        "count" : "21"
+      }, {
+        "item" : "48",
+        "count" : "19"
+      }, {
+        "item" : "51",
+        "count" : "17"
+      }, {
+        "item" : "50",
+        "count" : "17"
+      }, {
+        "item" : "45",
+        "count" : "16"
+      }, {
+        "item" : "41",
+        "count" : "15"
+      }, {
+        "item" : "53",
+        "count" : "15"
+      }, {
+        "item" : "19",
+        "count" : "15"
+      }, {
+        "item" : "59",
+        "count" : "15"
+      }, {
+        "item" : "36",
+        "count" : "15"
+      }, {
+        "item" : "56",
+        "count" : "14"
+      }, {
+        "item" : "25",
+        "count" : "14"
+      } ],
+      "smallest" : "0",
+      "count" : "1698",
+      "cardinality" : "1698"
+    },
+    "format" : { }
+  }, {
+    "id" : 590536905,
+    "name" : "DaysOfExposureRange",
+    "dataTypeName" : "text",
+    "description" : "Range of Days of Exposure for visualizations",
+    "fieldName" : "daysofexposurerange",
+    "position" : 39,
+    "renderTypeName" : "text",
+    "tableColumnId" : 139295380,
+    "cachedContents" : {
+      "non_null" : "1698",
+      "largest" : "Unknown",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1-99",
+        "count" : "860"
+      }, {
+        "item" : "Unknown",
+        "count" : "269"
+      }, {
+        "item" : "0",
+        "count" : "237"
+      }, {
+        "item" : "100-199",
+        "count" : "192"
+      }, {
+        "item" : "200-299",
+        "count" : "59"
+      }, {
+        "item" : "500+",
+        "count" : "44"
+      }, {
+        "item" : "300-399",
+        "count" : "30"
+      }, {
+        "item" : "400-499",
+        "count" : "7"
+      } ],
+      "smallest" : "0",
+      "count" : "1698",
+      "cardinality" : "1698"
+    },
+    "format" : { }
+  }, {
+    "id" : 590536906,
+    "name" : "EntityState",
+    "dataTypeName" : "text",
+    "description" : "The US state of the entity if one was provided",
+    "fieldName" : "entitystate",
+    "position" : 40,
+    "renderTypeName" : "text",
+    "tableColumnId" : 151765128,
+    "cachedContents" : {
+      "non_null" : "1058",
+      "largest" : "WI",
+      "null" : "640",
+      "top" : [ {
+        "item" : "WA",
+        "count" : "303"
+      }, {
+        "item" : "CA",
+        "count" : "122"
+      }, {
+        "item" : "TX",
+        "count" : "57"
+      }, {
+        "item" : "PA",
+        "count" : "46"
+      }, {
+        "item" : "NY",
+        "count" : "46"
+      }, {
+        "item" : "IL",
+        "count" : "42"
+      }, {
+        "item" : "FL",
+        "count" : "41"
+      }, {
+        "item" : "GA",
+        "count" : "29"
+      }, {
+        "item" : "OR",
+        "count" : "28"
+      }, {
+        "item" : "OH",
+        "count" : "25"
+      }, {
+        "item" : "MA",
+        "count" : "23"
+      }, {
+        "item" : "TN",
+        "count" : "21"
+      }, {
+        "item" : "NJ",
+        "count" : "21"
+      }, {
+        "item" : "CO",
+        "count" : "19"
+      }, {
+        "item" : "NV",
+        "count" : "17"
+      }, {
+        "item" : "MI",
+        "count" : "16"
+      }, {
+        "item" : "AZ",
+        "count" : "16"
+      }, {
+        "item" : "NC",
+        "count" : "14"
+      }, {
+        "item" : "MO",
+        "count" : "13"
+      }, {
+        "item" : "ID",
+        "count" : "13"
+      } ],
+      "smallest" : "AK",
+      "count" : "1698",
+      "cardinality" : "1698"
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "custom_fields" : {
+      "Temporal" : {
+        "Posting Frequency" : "Daily",
+        "Period of Time" : "August 2015-Present"
+      }
+    },
+    "rowIdentifier" : 590536888,
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "fhhb-wxuk",
+    "displayName" : "Imamura, Kaya (ATG)",
+    "screenName" : "Imamura, Kaya (ATG)",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "fhhb-wxuk",
+    "displayName" : "Imamura, Kaya (ATG)",
+    "screenName" : "Imamura, Kaya (ATG)",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "data breach", "notification", "consumer", "consumer protection", "privacy", "cyber", "malware", "ransomware" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

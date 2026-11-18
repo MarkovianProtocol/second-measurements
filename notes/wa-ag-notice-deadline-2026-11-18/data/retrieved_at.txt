@@ -1,0 +1,7 @@
+2026-11-16T22:56:54Z
+wa_sb4j-ca4h.json: https://data.wa.gov/resource/sb4j-ca4h.json?$limit=50000
+wa_rcw_19.255.010.html: https://app.leg.wa.gov/RCW/default.aspx?cite=19.255.010 (thirty calendar days after the breach was discovered)
+wa_sb4j-ca4h_metadata.json: https://data.wa.gov/api/views/sb4j-ca4h.json (read 2026-11-18T06:04:55Z; field definitions)
+wa_rcw_42.56.590.html: https://app.leg.wa.gov/RCW/default.aspx?cite=42.56.590 (read 2026-11-18T06:05:14Z)
+wa_ag_dbr_2026.pdf: linked from https://www.atg.wa.gov/data-breach-reports (read 2026-11-16)
+atg_live_stats.html: https://www.atg.wa.gov/data-breach-live-statistics (read 2026-11-16)
