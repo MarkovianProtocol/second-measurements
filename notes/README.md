@@ -36,5 +36,6 @@ Not papers. When we recompute a public figure for a person or outlet we follow, 
 | debt-vs-deficit-2026-11-09.md (+ analyze.py, Treasury API data) | Peter Schiff, 3 Nov show: FY2026 debt +$2.53T vs deficit $1.99T, both hold; the $542B gap is $387B trust funds, $93B cash, $62B other | 13931 |
 | musk-midterm-money-2026-11-09.md (+ fetch scripts, FEC API data) | Robert Reich / NYT / AP: Musk federal giving $445.7M through 14 Oct (AP matches); Reich's $168M Texas Senate holds via SLF→Texas PAC | 13932 |
 | eight-bits-2026-11-09.md (+ analyze.py, 16 certificates) | Scott Helme, eMudhra eight-bit keys: all 8 keys and dates hold; trust ends Dec 2028 (Sectigo/AAA), not July 2039 | 13933 |
+| optimizely-recheck-2026-11-22.md (+ crawl.py, analyze.py, 58 snippets, chain/) | Scott Helme / Report URI, Optimizely injection one week on: all captured snippets clean; 45 of 48 CSPs that block track.js allow 'unsafe-eval'; wallets hold, plus 1.7065 LTC after the sweep | 14729 |
 
 Live copies: https://markovianprotocol.com/measurements/notes/

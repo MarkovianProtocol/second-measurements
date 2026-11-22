@@ -1,0 +1,1323 @@
+[
+ {
+  "org": "Paychex",
+  "sector": "Banking & Finance",
+  "hosts": [
+   "www.paychex.com"
+  ]
+ },
+ {
+  "org": "HSBC US",
+  "sector": "Banking & Finance",
+  "hosts": [
+   "www.us.hsbc.com"
+  ]
+ },
+ {
+  "org": "Equifax",
+  "sector": "Banking & Finance",
+  "hosts": [
+   "equifax.com",
+   "my.equifax.com",
+   "signin.my.equifax.com",
+   "www.equifax.com"
+  ]
+ },
+ {
+  "org": "SmartAsset",
+  "sector": "Banking & Finance",
+  "hosts": [
+   "smartasset.com"
+  ]
+ },
+ {
+  "org": "HSBC Hong Kong",
+  "sector": "Banking & Finance",
+  "hosts": [
+   "www.hsbc.com.hk"
+  ]
+ },
+ {
+  "org": "ABN AMRO",
+  "sector": "Banking & Finance",
+  "hosts": [
+   "www.abnamro.de",
+   "www.abnamro.nl",
+   "www.abnamromeespierson.be"
+  ]
+ },
+ {
+  "org": "TaxAct",
+  "sector": "Banking & Finance",
+  "hosts": [
+   "www.taxact.com"
+  ]
+ },
+ {
+  "org": "HSBC Mexico",
+  "sector": "Banking & Finance",
+  "hosts": [
+   "www.hsbc.com.mx"
+  ]
+ },
+ {
+  "org": "HSBC Singapore",
+  "sector": "Banking & Finance",
+  "hosts": [
+   "www.insurance.hsbc.com.sg"
+  ]
+ },
+ {
+  "org": "NetCredit",
+  "sector": "Banking & Finance",
+  "hosts": [
+   "www.netcredit.com"
+  ]
+ },
+ {
+  "org": "Associated Bank",
+  "sector": "Banking & Finance",
+  "hosts": [
+   "www.associatedbank.com"
+  ]
+ },
+ {
+  "org": "S-Pankki",
+  "sector": "Banking & Finance",
+  "hosts": [
+   "www.s-pankki.fi"
+  ]
+ },
+ {
+  "org": "Equifax Canada",
+  "sector": "Banking & Finance",
+  "hosts": [
+   "my.equifax.ca",
+   "www.equifax.ca"
+  ]
+ },
+ {
+  "org": "Equifax UK",
+  "sector": "Banking & Finance",
+  "hosts": [
+   "equifax.co.uk"
+  ]
+ },
+ {
+  "org": "The Work Number (Equifax)",
+  "sector": "Banking & Finance",
+  "hosts": [
+   "theworknumber.com"
+  ]
+ },
+ {
+  "org": "Funding Circle",
+  "sector": "Banking & Finance",
+  "hosts": [
+   "fundingcircle.com",
+   "www.fundingcircle.com"
+  ]
+ },
+ {
+  "org": "HSBC Australia",
+  "sector": "Banking & Finance",
+  "hosts": [
+   "www.hsbc.com.au"
+  ]
+ },
+ {
+  "org": "CashNetUSA",
+  "sector": "Banking & Finance",
+  "hosts": [
+   "www.cashnetusa.com"
+  ]
+ },
+ {
+  "org": "OnDeck",
+  "sector": "Banking & Finance",
+  "hosts": [
+   "www.ondeck.com"
+  ]
+ },
+ {
+  "org": "ICS Cards",
+  "sector": "Banking & Finance",
+  "hosts": [
+   "www.icscards.nl"
+  ]
+ },
+ {
+  "org": "HSBC UAE",
+  "sector": "Banking & Finance",
+  "hosts": [
+   "www.hsbc.ae"
+  ]
+ },
+ {
+  "org": "HSBC Malaysia",
+  "sector": "Banking & Finance",
+  "hosts": [
+   "www.hsbc.com.my",
+   "www.hsbcamanah.com.my"
+  ]
+ },
+ {
+  "org": "Rest Super",
+  "sector": "Banking & Finance",
+  "hosts": [
+   "rest.com.au"
+  ]
+ },
+ {
+  "org": "HSBC Taiwan",
+  "sector": "Banking & Finance",
+  "hosts": [
+   "www.hsbc.com.tw"
+  ]
+ },
+ {
+  "org": "HSBC Vietnam",
+  "sector": "Banking & Finance",
+  "hosts": [
+   "www.hsbc.com.vn"
+  ]
+ },
+ {
+  "org": "HSBC Egypt",
+  "sector": "Banking & Finance",
+  "hosts": [
+   "www.hsbc.com.eg"
+  ]
+ },
+ {
+  "org": "HSBC Philippines",
+  "sector": "Banking & Finance",
+  "hosts": [
+   "www.hsbc.com.ph"
+  ]
+ },
+ {
+  "org": "SmartAdvisor Match (SmartAsset)",
+  "sector": "Banking & Finance",
+  "hosts": [
+   "smartadvisormatch.com"
+  ]
+ },
+ {
+  "org": "Compare Club",
+  "sector": "Banking & Finance",
+  "hosts": [
+   "compareclub.com.au"
+  ]
+ },
+ {
+  "org": "ABN AMRO Lease",
+  "sector": "Banking & Finance",
+  "hosts": [
+   "abnamrolease.com"
+  ]
+ },
+ {
+  "org": "Energy Scout",
+  "sector": "Banking & Finance",
+  "hosts": [
+   "energyscout.com.au"
+  ]
+ },
+ {
+  "org": "Hang Seng Investment",
+  "sector": "Banking & Finance",
+  "hosts": [
+   "www.hangsenginvestment.com"
+  ]
+ },
+ {
+  "org": "Zoom",
+  "sector": "Technology & SaaS",
+  "hosts": [
+   "www.zoom.com",
+   "zoom.com",
+   "zoom.us"
+  ]
+ },
+ {
+  "org": "Bitly",
+  "sector": "Technology & SaaS",
+  "hosts": [
+   "arcg.is",
+   "bit.ly",
+   "bitly.com"
+  ]
+ },
+ {
+  "org": "Salesforce",
+  "sector": "Technology & SaaS",
+  "hosts": [
+   "evergage.com",
+   "exacttarget.com",
+   "pardot.com",
+   "salesforce-scrt.com"
+  ]
+ },
+ {
+  "org": "GitLab",
+  "sector": "Technology & SaaS",
+  "hosts": [
+   "about.gitlab.com",
+   "gitlab.com"
+  ]
+ },
+ {
+  "org": "Optimizely",
+  "sector": "Technology & SaaS",
+  "hosts": [
+   "home.optimizely.com",
+   "login.optimizely.com",
+   "optimizely.com",
+   "prep.login.optimizely.com"
+  ]
+ },
+ {
+  "org": "Mixpanel",
+  "sector": "Technology & SaaS",
+  "hosts": [
+   "mixpanel.com"
+  ]
+ },
+ {
+  "org": "Typeform",
+  "sector": "Technology & SaaS",
+  "hosts": [
+   "typeform.com",
+   "www.typeform.com"
+  ]
+ },
+ {
+  "org": "InMotion Hosting",
+  "sector": "Technology & SaaS",
+  "hosts": [
+   "www.inmotionhosting.com"
+  ]
+ },
+ {
+  "org": "Wasabi",
+  "sector": "Technology & SaaS",
+  "hosts": [
+   "wasabi.com",
+   "wasabisys.com"
+  ]
+ },
+ {
+  "org": "Perforce / Zend / Puppet",
+  "sector": "Technology & SaaS",
+  "hosts": [
+   "www.perforce.com",
+   "www.puppet.com",
+   "zend.com"
+  ]
+ },
+ {
+  "org": "Tableau",
+  "sector": "Technology & SaaS",
+  "hosts": [
+   "www.tableau.com"
+  ]
+ },
+ {
+  "org": "Hootsuite",
+  "sector": "Technology & SaaS",
+  "hosts": [
+   "hootsuite.com",
+   "www.hootsuite.com"
+  ]
+ },
+ {
+  "org": "Smartsheet",
+  "sector": "Technology & SaaS",
+  "hosts": [
+   "de.smartsheet.com",
+   "es.smartsheet.com",
+   "fr.smartsheet.com",
+   "help.smartsheet.com"
+  ]
+ },
+ {
+  "org": "MuleSoft",
+  "sector": "Technology & SaaS",
+  "hosts": [
+   "mulesoft.com",
+   "www.mulesoft.com"
+  ]
+ },
+ {
+  "org": "Thales / Imperva",
+  "sector": "Technology & SaaS",
+  "hosts": [
+   "community-cybersec.thalesgroup.com",
+   "imperva.com"
+  ]
+ },
+ {
+  "org": "Tricentis",
+  "sector": "Technology & SaaS",
+  "hosts": [
+   "www.tricentis.com"
+  ]
+ },
+ {
+  "org": "Web Hosting Hub",
+  "sector": "Technology & SaaS",
+  "hosts": [
+   "www.webhostinghub.com"
+  ]
+ },
+ {
+  "org": "QR Code Generator",
+  "sector": "Technology & SaaS",
+  "hosts": [
+   "login.qr-code-generator.com",
+   "www.qr-code-generator.com"
+  ]
+ },
+ {
+  "org": "ServiceChannel",
+  "sector": "Technology & SaaS",
+  "hosts": [
+   "preview.servicechannel.com",
+   "servicechannel.com",
+   "servicechannel.us"
+  ]
+ },
+ {
+  "org": "Brandfolder",
+  "sector": "Technology & SaaS",
+  "hosts": [
+   "brandfolder.com"
+  ]
+ },
+ {
+  "org": "Intelex",
+  "sector": "Technology & SaaS",
+  "hosts": [
+   "www.intelex.com"
+  ]
+ },
+ {
+  "org": "Enverus",
+  "sector": "Technology & SaaS",
+  "hosts": [
+   "www.enverus.com"
+  ]
+ },
+ {
+  "org": "Accruent",
+  "sector": "Technology & SaaS",
+  "hosts": [
+   "www.accruent.com"
+  ]
+ },
+ {
+  "org": "IKEA",
+  "sector": "Retail & Fashion",
+  "hosts": [
+   "client.home-design.ikea.com"
+  ]
+ },
+ {
+  "org": "ASOS",
+  "sector": "Retail & Fashion",
+  "hosts": [
+   "asos.com"
+  ]
+ },
+ {
+  "org": "Mattel",
+  "sector": "Retail & Fashion",
+  "hosts": [
+   "creations.mattel.com"
+  ]
+ },
+ {
+  "org": "American Eagle",
+  "sector": "Retail & Fashion",
+  "hosts": [
+   "www.ae.com"
+  ]
+ },
+ {
+  "org": "Scheels",
+  "sector": "Retail & Fashion",
+  "hosts": [
+   "scheels.com",
+   "www.scheels.com"
+  ]
+ },
+ {
+  "org": "Ariat",
+  "sector": "Retail & Fashion",
+  "hosts": [
+   "www.ariat.com"
+  ]
+ },
+ {
+  "org": "American Girl",
+  "sector": "Retail & Fashion",
+  "hosts": [
+   "www.americangirl.com"
+  ]
+ },
+ {
+  "org": "StackSocial",
+  "sector": "Retail & Fashion",
+  "hosts": [
+   "www.stacksocial.com"
+  ]
+ },
+ {
+  "org": "Crocs India",
+  "sector": "Retail & Fashion",
+  "hosts": [
+   "www.crocs.in"
+  ]
+ },
+ {
+  "org": "Levi's Japan",
+  "sector": "Retail & Fashion",
+  "hosts": [
+   "levi.jp"
+  ]
+ },
+ {
+  "org": "Todd Snyder",
+  "sector": "Retail & Fashion",
+  "hosts": [
+   "www.toddsnyder.com"
+  ]
+ },
+ {
+  "org": "Levi's Indonesia",
+  "sector": "Retail & Fashion",
+  "hosts": [
+   "levi.co.id"
+  ]
+ },
+ {
+  "org": "Just Russel",
+  "sector": "Retail & Fashion",
+  "hosts": [
+   "app.brt-4076-credits-in-order-summary.justrussel.de",
+   "app.rph-487-customer-can-switch-their-pet-to.justrussel.be",
+   "app.rph-487-customer-can-switch-their-pet-to.justrussel.com",
+   "app.rph-487-customer-can-switch-their-pet-to.justrussel.fr"
+  ]
+ },
+ {
+  "org": "Loloi Rugs",
+  "sector": "Retail & Fashion",
+  "hosts": [
+   "www.loloirugs.com"
+  ]
+ },
+ {
+  "org": "Levi's Australia",
+  "sector": "Retail & Fashion",
+  "hosts": [
+   "levis.com.au"
+  ]
+ },
+ {
+  "org": "Levi's Malaysia",
+  "sector": "Retail & Fashion",
+  "hosts": [
+   "levi.com.my"
+  ]
+ },
+ {
+  "org": "Levi's Philippines",
+  "sector": "Retail & Fashion",
+  "hosts": [
+   "levi.com.ph"
+  ]
+ },
+ {
+  "org": "Levi's Singapore",
+  "sector": "Retail & Fashion",
+  "hosts": [
+   "levi.com.sg"
+  ]
+ },
+ {
+  "org": "Levi's Korea",
+  "sector": "Retail & Fashion",
+  "hosts": [
+   "levi.co.kr"
+  ]
+ },
+ {
+  "org": "Levi's New Zealand",
+  "sector": "Retail & Fashion",
+  "hosts": [
+   "levis.co.nz"
+  ]
+ },
+ {
+  "org": "Peacock",
+  "sector": "Streaming & Entertainment",
+  "hosts": [
+   "peacocktv.com",
+   "www.peacocktv.com"
+  ]
+ },
+ {
+  "org": "D&D Beyond",
+  "sector": "Streaming & Entertainment",
+  "hosts": [
+   "dndbeyond.com",
+   "www.dndbeyond.com"
+  ]
+ },
+ {
+  "org": "Wizards of the Coast",
+  "sector": "Streaming & Entertainment",
+  "hosts": [
+   "secretlair.wizards.com"
+  ]
+ },
+ {
+  "org": "NOW TV",
+  "sector": "Streaming & Entertainment",
+  "hosts": [
+   "nowtv.com",
+   "www.nowtv.com"
+  ]
+ },
+ {
+  "org": "Zattoo",
+  "sector": "Streaming & Entertainment",
+  "hosts": [
+   "zattoo.com"
+  ]
+ },
+ {
+  "org": "Crave",
+  "sector": "Streaming & Entertainment",
+  "hosts": [
+   "www.crave.ca"
+  ]
+ },
+ {
+  "org": "Starz",
+  "sector": "Streaming & Entertainment",
+  "hosts": [
+   "www.starz.com"
+  ]
+ },
+ {
+  "org": "SkyShowtime",
+  "sector": "Streaming & Entertainment",
+  "hosts": [
+   "www.skyshowtime.com"
+  ]
+ },
+ {
+  "org": "Bravo",
+  "sector": "Streaming & Entertainment",
+  "hosts": [
+   "www.bravotv.com"
+  ]
+ },
+ {
+  "org": "SeaWorld",
+  "sector": "Streaming & Entertainment",
+  "hosts": [
+   "buschgardens.com",
+   "seaworld.com"
+  ]
+ },
+ {
+  "org": "WOW (Sky Deutschland)",
+  "sector": "Streaming & Entertainment",
+  "hosts": [
+   "www.wowtv.de"
+  ]
+ },
+ {
+  "org": "NOW Italia",
+  "sector": "Streaming & Entertainment",
+  "hosts": [
+   "www.nowtv.it"
+  ]
+ },
+ {
+  "org": "CNN",
+  "sector": "News & Media",
+  "hosts": [
+   "cnn.com",
+   "edition.cnn.com",
+   "us.cnn.com",
+   "www.cnn.com"
+  ]
+ },
+ {
+  "org": "BBC",
+  "sector": "News & Media",
+  "hosts": [
+   "www.bbc.co.uk",
+   "www.bbc.com"
+  ]
+ },
+ {
+  "org": "Fox News",
+  "sector": "News & Media",
+  "hosts": [
+   "www.foxnews.com"
+  ]
+ },
+ {
+  "org": "NPR",
+  "sector": "News & Media",
+  "hosts": [
+   "legacy-s1.npr.org",
+   "legacy.stage.npr.org",
+   "media.stage.npr.org",
+   "s-s1-origin.npr.org"
+  ]
+ },
+ {
+  "org": "CTV News",
+  "sector": "News & Media",
+  "hosts": [
+   "www.ctvnews.ca"
+  ]
+ },
+ {
+  "org": "Fox Sports",
+  "sector": "News & Media",
+  "hosts": [
+   "foxsports.com"
+  ]
+ },
+ {
+  "org": "BNN Bloomberg / CP24",
+  "sector": "News & Media",
+  "hosts": [
+   "www.bnnbloomberg.ca",
+   "www.cp24.com"
+  ]
+ },
+ {
+  "org": "TSN",
+  "sector": "News & Media",
+  "hosts": [
+   "www.tsn.ca"
+  ]
+ },
+ {
+  "org": "Top Gear",
+  "sector": "News & Media",
+  "hosts": [
+   "www.topgear.com"
+  ]
+ },
+ {
+  "org": "BBC Earth",
+  "sector": "News & Media",
+  "hosts": [
+   "www.bbcearth.com"
+  ]
+ },
+ {
+  "org": "Alaska Airlines / Hawaiian Airlines",
+  "sector": "Airlines & Travel",
+  "hosts": [
+   "www.alaskaair.com",
+   "www.hawaiianairlines.com"
+  ]
+ },
+ {
+  "org": "Transavia",
+  "sector": "Airlines & Travel",
+  "hosts": [
+   "www.transavia.com"
+  ]
+ },
+ {
+  "org": "Air France-KLM",
+  "sector": "Airlines & Travel",
+  "hosts": [
+   "liberia.klm.com",
+   "russia.airfrance.com",
+   "www.klm.be",
+   "wwws.airfrance.fr"
+  ]
+ },
+ {
+  "org": "KLM Netherlands",
+  "sector": "Airlines & Travel",
+  "hosts": [
+   "deal.klm.nl"
+  ]
+ },
+ {
+  "org": "Trafalgar",
+  "sector": "Airlines & Travel",
+  "hosts": [
+   "www.trafalgar.com"
+  ]
+ },
+ {
+  "org": "Contiki",
+  "sector": "Airlines & Travel",
+  "hosts": [
+   "www.contiki.com"
+  ]
+ },
+ {
+  "org": "Insight Vacations",
+  "sector": "Airlines & Travel",
+  "hosts": [
+   "www.insightvacations.com"
+  ]
+ },
+ {
+  "org": "The Travel Corporation",
+  "sector": "Airlines & Travel",
+  "hosts": [
+   "uat.costco.ttc.com"
+  ]
+ },
+ {
+  "org": "Costsaver",
+  "sector": "Airlines & Travel",
+  "hosts": [
+   "www.costsavertour.com"
+  ]
+ },
+ {
+  "org": "Invisalign",
+  "sector": "Healthcare & Pharma",
+  "hosts": [
+   "invisalign.com",
+   "www.invisalign.com"
+  ]
+ },
+ {
+  "org": "Takeda",
+  "sector": "Healthcare & Pharma",
+  "hosts": [
+   "www.takeda.com"
+  ]
+ },
+ {
+  "org": "Covetrus",
+  "sector": "Healthcare & Pharma",
+  "hosts": [
+   "covetrus.com"
+  ]
+ },
+ {
+  "org": "iTero (Align)",
+  "sector": "Healthcare & Pharma",
+  "hosts": [
+   "itero.com"
+  ]
+ },
+ {
+  "org": "Covetrus Pharmacy",
+  "sector": "Healthcare & Pharma",
+  "hosts": [
+   "eastfieldveterinary.covetruspharmacy.com"
+  ]
+ },
+ {
+  "org": "myCovetrus",
+  "sector": "Healthcare & Pharma",
+  "hosts": [
+   "www.mycovetrus.com"
+  ]
+ },
+ {
+  "org": "RaySafe (Fluke)",
+  "sector": "Healthcare & Pharma",
+  "hosts": [
+   "www.raysafe.com"
+  ]
+ },
+ {
+  "org": "Takeda Oncology",
+  "sector": "Healthcare & Pharma",
+  "hosts": [
+   "www.takedaoncology.com"
+  ]
+ },
+ {
+  "org": "Fluke",
+  "sector": "Industrial & Manufacturing",
+  "hosts": [
+   "fluke.com"
+  ]
+ },
+ {
+  "org": "eMaint (Fluke)",
+  "sector": "Industrial & Manufacturing",
+  "hosts": [
+   "www.emaint.com"
+  ]
+ },
+ {
+  "org": "Fluke Networks",
+  "sector": "Industrial & Manufacturing",
+  "hosts": [
+   "www.flukenetworks.com"
+  ]
+ },
+ {
+  "org": "Vaillant Germany",
+  "sector": "Industrial & Manufacturing",
+  "hosts": [
+   "www.vaillant.de"
+  ]
+ },
+ {
+  "org": "Fluke Process Instruments",
+  "sector": "Industrial & Manufacturing",
+  "hosts": [
+   "www.flukeprocessinstruments.com"
+  ]
+ },
+ {
+  "org": "Fluke Biomedical",
+  "sector": "Industrial & Manufacturing",
+  "hosts": [
+   "www.flukebiomedical.com"
+  ]
+ },
+ {
+  "org": "Landauer",
+  "sector": "Industrial & Manufacturing",
+  "hosts": [
+   "www.landauer.com"
+  ]
+ },
+ {
+  "org": "Vaillant Spain",
+  "sector": "Industrial & Manufacturing",
+  "hosts": [
+   "www.vaillant.es"
+  ]
+ },
+ {
+  "org": "Virgin Media",
+  "sector": "Telecoms",
+  "hosts": [
+   "virginmedia.com",
+   "www.virginmedia.com"
+  ]
+ },
+ {
+  "org": "Virgin Media O2",
+  "sector": "Telecoms",
+  "hosts": [
+   "virginmediao2.co.uk",
+   "www.virginmediao2.co.uk"
+  ]
+ },
+ {
+  "org": "Vodafone Australia",
+  "sector": "Telecoms",
+  "hosts": [
+   "www.vodafone.com.au"
+  ]
+ },
+ {
+  "org": "O2",
+  "sector": "Telecoms",
+  "hosts": [
+   "o2.co.uk",
+   "www.o2.co.uk"
+  ]
+ },
+ {
+  "org": "TPG Telecom",
+  "sector": "Telecoms",
+  "hosts": [
+   "www.tpg.com.au"
+  ]
+ },
+ {
+  "org": "Mint Mobile",
+  "sector": "Telecoms",
+  "hosts": [
+   "www.mintmobile.com"
+  ]
+ },
+ {
+  "org": "TalkTalk",
+  "sector": "Telecoms",
+  "hosts": [
+   "talktalk.co.uk",
+   "www.talktalk.co.uk"
+  ]
+ },
+ {
+  "org": "Ledger",
+  "sector": "Crypto & Trading",
+  "hosts": [
+   "ledger.com",
+   "www.ledger.com"
+  ]
+ },
+ {
+  "org": "IG",
+  "sector": "Crypto & Trading",
+  "hosts": [
+   "www.ig.com"
+  ]
+ },
+ {
+  "org": "OANDA / Coinpass",
+  "sector": "Crypto & Trading",
+  "hosts": [
+   "oanda.com",
+   "www.oanda.com"
+  ]
+ },
+ {
+  "org": "interactive investor",
+  "sector": "Crypto & Trading",
+  "hosts": [
+   "www.ii.co.uk"
+  ]
+ },
+ {
+  "org": "TMS Brokers",
+  "sector": "Crypto & Trading",
+  "hosts": [
+   "www.tms.pl"
+  ]
+ },
+ {
+  "org": "Betashares",
+  "sector": "Crypto & Trading",
+  "hosts": [
+   "www.betashares.com.au"
+  ]
+ },
+ {
+  "org": "Asurion / uBreakiFix",
+  "sector": "Insurance",
+  "hosts": [
+   "www.asurion.com",
+   "www.ubreakifix.com"
+  ]
+ },
+ {
+  "org": "Mutual of Omaha",
+  "sector": "Insurance",
+  "hosts": [
+   "moocat.mutualofomaha.com",
+   "www.mutualofomaha.com"
+  ]
+ },
+ {
+  "org": "Admiral",
+  "sector": "Insurance",
+  "hosts": [
+   "www.admiral.com"
+  ]
+ },
+ {
+  "org": "Securian Financial",
+  "sector": "Insurance",
+  "hosts": [
+   "www.securian.com"
+  ]
+ },
+ {
+  "org": "eRenterPlan",
+  "sector": "Insurance",
+  "hosts": [
+   "erenterplan.com"
+  ]
+ },
+ {
+  "org": "AKA (Danish unemployment fund)",
+  "sector": "Insurance",
+  "hosts": [
+   "www.aka.dk"
+  ]
+ },
+ {
+  "org": "Buildium (managebuilding.com)",
+  "sector": "Property & Real Estate",
+  "hosts": [
+   "headwayassetsllc.managebuilding.com"
+  ]
+ },
+ {
+  "org": "Loft Living apartments",
+  "sector": "Property & Real Estate",
+  "hosts": [
+   "theapartmentsatkeltonstation.loftliving.com"
+  ]
+ },
+ {
+  "org": "Buildium",
+  "sector": "Property & Real Estate",
+  "hosts": [
+   "www.buildium.com"
+  ]
+ },
+ {
+  "org": "HireAHelper",
+  "sector": "Property & Real Estate",
+  "hosts": [
+   "qa2.hireahelper.com"
+  ]
+ },
+ {
+  "org": "Flytte.no (and sister comparison sites)",
+  "sector": "Property & Real Estate",
+  "hosts": [
+   "flytte.no"
+  ]
+ },
+ {
+  "org": "MovingPlace",
+  "sector": "Property & Real Estate",
+  "hosts": [
+   "unionplus-qa4.movingplace.com"
+  ]
+ },
+ {
+  "org": "Restaurant ordering sites (order.online)",
+  "sector": "Food & Hospitality",
+  "hosts": [
+   "order.online"
+  ]
+ },
+ {
+  "org": "Heineken",
+  "sector": "Food & Hospitality",
+  "hosts": [
+   "www.heineken.com"
+  ]
+ },
+ {
+  "org": "Home Chef",
+  "sector": "Food & Hospitality",
+  "hosts": [
+   "www.homechef.com"
+  ]
+ },
+ {
+  "org": "Starbucks Canada",
+  "sector": "Food & Hospitality",
+  "hosts": [
+   "www.starbucks.ca"
+  ]
+ },
+ {
+  "org": "Cinnabon",
+  "sector": "Food & Hospitality",
+  "hosts": [
+   "www.cinnabon.com"
+  ]
+ },
+ {
+  "org": "Resideo",
+  "sector": "Home & Smart Home",
+  "hosts": [
+   "resideo.com",
+   "www.resideo.com"
+  ]
+ },
+ {
+  "org": "Honeywell Home",
+  "sector": "Home & Smart Home",
+  "hosts": [
+   "www.honeywellhome.com"
+  ]
+ },
+ {
+  "org": "myQ (Chamberlain)",
+  "sector": "Home & Smart Home",
+  "hosts": [
+   "www.myq.com"
+  ]
+ },
+ {
+  "org": "Chamberlain",
+  "sector": "Home & Smart Home",
+  "hosts": [
+   "www.chamberlain.com"
+  ]
+ },
+ {
+  "org": "First Alert",
+  "sector": "Home & Smart Home",
+  "hosts": [
+   "www.firstalert.com"
+  ]
+ },
+ {
+  "org": "Change.org",
+  "sector": "Nonprofit & Civic",
+  "hosts": [
+   "www.change.org"
+  ]
+ },
+ {
+  "org": "ASPCA",
+  "sector": "Nonprofit & Civic",
+  "hosts": [
+   "aspca.org",
+   "dev-cloudflare.aspca.org",
+   "secure.aspca.org",
+   "www.aspca.org"
+  ]
+ },
+ {
+  "org": "UNICEF USA",
+  "sector": "Nonprofit & Civic",
+  "hosts": [
+   "www.unicefusa.org"
+  ]
+ },
+ {
+  "org": "DonorsChoose",
+  "sector": "Nonprofit & Civic",
+  "hosts": [
+   "www.donorschoose.org"
+  ]
+ },
+ {
+  "org": "Betsson",
+  "sector": "Gambling",
+  "hosts": [
+   "betsson.bet.ar",
+   "www.betsson.co",
+   "www.betsson.com",
+   "www.betsson1002.com"
+  ]
+ },
+ {
+  "org": "PokerStars",
+  "sector": "Gambling",
+  "hosts": [
+   "www.pokerstars.com",
+   "www.pokerstars.de",
+   "www.pokerstars.fr",
+   "www.pokerstars.pt"
+  ]
+ },
+ {
+  "org": "tombola",
+  "sector": "Gambling",
+  "hosts": [
+   "tombola.co.uk",
+   "tombolaarcade.co.uk",
+   "www.tombola.co.uk",
+   "www.tombola.it"
+  ]
+ },
+ {
+  "org": "Betfred",
+  "sector": "Gambling",
+  "hosts": [
+   "www.betfred.com"
+  ]
+ },
+ {
+  "org": "Freshfields",
+  "sector": "Professional Services",
+  "hosts": [
+   "www.freshfields.com"
+  ]
+ },
+ {
+  "org": "CohnReznick",
+  "sector": "Professional Services",
+  "hosts": [
+   "www.cohnreznick.com"
+  ]
+ },
+ {
+  "org": "Baringa",
+  "sector": "Professional Services",
+  "hosts": [
+   "www.baringa.com"
+  ]
+ },
+ {
+  "org": "Cro Metrics",
+  "sector": "Professional Services",
+  "hosts": [
+   "crometrics.com"
+  ]
+ },
+ {
+  "org": "ShipStation / ShipEngine",
+  "sector": "Logistics & Shipping",
+  "hosts": [
+   "shipstation.com",
+   "www.shipstation.com"
+  ]
+ },
+ {
+  "org": "Stamps.com",
+  "sector": "Logistics & Shipping",
+  "hosts": [
+   "www.stamps.com"
+  ]
+ },
+ {
+  "org": "ShipEngine",
+  "sector": "Logistics & Shipping",
+  "hosts": [
+   "www.shipengine.com"
+  ]
+ },
+ {
+  "org": "Lucid Motors",
+  "sector": "Automotive",
+  "hosts": [
+   "lucidmotors.com"
+  ]
+ },
+ {
+  "org": "O'Brien Glass",
+  "sector": "Automotive",
+  "hosts": [
+   "www.obrien.com.au"
+  ]
+ },
+ {
+  "org": "Chevrolet dealer network (Bill Rapp and others)",
+  "sector": "Automotive",
+  "hosts": [
+   "www.billrappchevy.com"
+  ]
+ },
+ {
+  "org": "Walden University",
+  "sector": "Education",
+  "hosts": [
+   "www.waldenu.edu"
+  ]
+ },
+ {
+  "org": "Perlego",
+  "sector": "Education",
+  "hosts": [
+   "www.perlego.com"
+  ]
+ },
+ {
+  "org": "Chamberlain University",
+  "sector": "Education",
+  "hosts": [
+   "www.chamberlain.edu"
+  ]
+ }
+]

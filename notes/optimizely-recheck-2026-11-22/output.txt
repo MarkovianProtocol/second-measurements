@@ -1,0 +1,16 @@
+orgs 178
+hosts 253
+hosts_loaded 224
+orgs_loaded 162
+csp_worst {'allowed payload and theft': 47, 'payload blocked': 48, 'no CSP': 47, 'data theft blocked': 3, 'report-only CSP only': 17}
+csp_best {'allowed payload and theft': 49, 'payload blocked': 52, 'no CSP': 43, 'data theft blocked': 3, 'report-only CSP only': 15}
+orgs_payload_blocked 48
+orgs_payload_blocked_but_eval_allowed 45
+orgs_payload_blocked_and_eval_blocked ['Takeda', 'Takeda Oncology', 'CohnReznick']
+orgs_optimizely_still_runs 86
+orgs_optimizely_not_seen 77
+snippets_captured 58
+snippets_with_ioc 0
+snippets_with_projectJS 35
+orgs_with_ioc []
+orgs_with_bad_requests []

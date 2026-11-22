@@ -1,0 +1,2681 @@
+/*! For license information please see client.min.js.LICENSE.txt */
+(function(){var __webpack_modules__={3958:function(t,n,e){var i=e(2702)(),r=e(7002);t.exports=function(t,n){function e(n){if(!(this instanceof e))return new e(n);try{throw new Error(n)}catch(n){n.name=t,this.stack=n.stack}i&&this.stack&&(this.stack=r(this.stack,t,n)),this.message=n||"",this.name=t}return e.prototype=new(n||Error),e.prototype.constructor=e,e.prototype.inspect=function(){return this.message?"["+t+": "+this.message+"]":"["+t+"]"},e.prototype.name=t,e}},7002:function(t){"use strict";t.exports=function(t,n,e){var i=n;return e&&(i+=": "+e),t=i+t.slice(t.indexOf("\n"))}},2702:function(t){"use strict";t.exports=function(){var t=new Error("yep");return!!t.stack&&"Error: yep\n"===t.stack.substr(0,11)}},1375:function(t,n,e){t.exports=function(){"use strict";function t(t){return"function"==typeof t||"object"==typeof t&&null!==t}function n(t){return"function"==typeof t}var i=Array.isArray?Array.isArray:function(t){return"[object Array]"===Object.prototype.toString.call(t)},r=0,o=void 0,a=void 0,u=function(t,n){y[r]=t,y[r+1]=n,2===(r+=2)&&(a?a(w):I())};function c(t){a=t}function s(t){u=t}var f="undefined"!=typeof window?window:void 0,l=f||{},d=l.MutationObserver||l.WebKitMutationObserver,v="undefined"==typeof self&&"undefined"!=typeof process&&"[object process]"==={}.toString.call(process),h="undefined"!=typeof Uint8ClampedArray&&"undefined"!=typeof importScripts&&"undefined"!=typeof MessageChannel;function p(){return function(){return process.nextTick(w)}}function g(){return void 0!==o?function(){o(w)}:_()}function m(){var t=0,n=new d(w),e=document.createTextNode("");return n.observe(e,{characterData:!0}),function(){e.data=t=++t%2}}function b(){var t=new MessageChannel;return t.port1.onmessage=w,function(){return t.port2.postMessage(0)}}function _(){var t=setTimeout;return function(){return t(w,1)}}var y=new Array(1e3);function w(){for(var t=0;t<r;t+=2)(0,y[t])(y[t+1]),y[t]=void 0,y[t+1]=void 0;r=0}function E(){try{var t=e(4118);return o=t.runOnLoop||t.runOnContext,g()}catch(t){return _()}}var I=void 0;function A(t,n){var e=arguments,i=this,r=new this.constructor(O);void 0===r[T]&&Q(r);var o,a=i._state;return a?(o=e[a-1],u((function(){return $(a,r,o,i._result)}))):G(i,r,t,n),r}function S(t){var n=this;if(t&&"object"==typeof t&&t.constructor===n)return t;var e=new n(O);return V(e,t),e}I=v?p():d?m():h?b():void 0===f?E():_();var T=Math.random().toString(36).substring(16);function O(){}var k=void 0,R=1,C=2,N=new H;function D(){return new TypeError("You cannot resolve a promise with itself")}function x(){return new TypeError("A promises callback cannot return that same promise.")}function j(t){try{return t.then}catch(t){return N.error=t,N}}function M(t,n,e,i){try{t.call(n,e,i)}catch(t){return t}}function P(t,n,e){u((function(t){var i=!1,r=M(e,n,(function(e){i||(i=!0,n!==e?V(t,e):z(t,e))}),(function(n){i||(i=!0,F(t,n))}),"Settle: "+(t._label||" unknown promise"));!i&&r&&(i=!0,F(t,r))}),t)}function L(t,n){n._state===R?z(t,n._result):n._state===C?F(t,n._result):G(n,void 0,(function(n){return V(t,n)}),(function(n){return F(t,n)}))}function U(t,e,i){e.constructor===t.constructor&&i===A&&e.constructor.resolve===S?L(t,e):i===N?(F(t,N.error),N.error=null):void 0===i?z(t,e):n(i)?P(t,e,i):z(t,e)}function V(n,e){n===e?F(n,D()):t(e)?U(n,e,j(e)):z(n,e)}function B(t){t._onerror&&t._onerror(t._result),q(t)}function z(t,n){t._state===k&&(t._result=n,t._state=R,0!==t._subscribers.length&&u(q,t))}function F(t,n){t._state===k&&(t._state=C,t._result=n,u(B,t))}function G(t,n,e,i){var r=t._subscribers,o=r.length;t._onerror=null,r[o]=n,r[o+R]=e,r[o+C]=i,0===o&&t._state&&u(q,t)}function q(t){var n=t._subscribers,e=t._state;if(0!==n.length){for(var i=void 0,r=void 0,o=t._result,a=0;a<n.length;a+=3)i=n[a],r=n[a+e],i?$(e,i,r,o):r(o);t._subscribers.length=0}}function H(){this.error=null}var Y=new H;function K(t,n){try{return t(n)}catch(t){return Y.error=t,Y}}function $(t,e,i,r){var o=n(i),a=void 0,u=void 0,c=void 0,s=void 0;if(o){if((a=K(i,r))===Y?(s=!0,u=a.error,a.error=null):c=!0,e===a)return void F(e,x())}else a=r,c=!0;e._state!==k||(o&&c?V(e,a):s?F(e,u):t===R?z(e,a):t===C&&F(e,a))}function W(t,n){try{n((function(n){V(t,n)}),(function(n){F(t,n)}))}catch(n){F(t,n)}}var X=0;function J(){return X++}function Q(t){t[T]=X++,t._state=void 0,t._result=void 0,t._subscribers=[]}function Z(t,n){this._instanceConstructor=t,this.promise=new t(O),this.promise[T]||Q(this.promise),i(n)?(this._input=n,this.length=n.length,this._remaining=n.length,this._result=new Array(this.length),0===this.length?z(this.promise,this._result):(this.length=this.length||0,this._enumerate(),0===this._remaining&&z(this.promise,this._result))):F(this.promise,tt())}function tt(){return new Error("Array Methods must be provided an Array")}function nt(t){return new Z(this,t).promise}function et(t){var n=this;return i(t)?new n((function(e,i){for(var r=t.length,o=0;o<r;o++)n.resolve(t[o]).then(e,i)})):new n((function(t,n){return n(new TypeError("You must pass an array to race."))}))}function it(t){var n=new this(O);return F(n,t),n}function rt(){throw new TypeError("You must pass a resolver function as the first argument to the promise constructor")}function ot(){throw new TypeError("Failed to construct 'Promise': Please use the 'new' operator, this object constructor cannot be called as a function.")}function at(t){this[T]=J(),this._result=this._state=void 0,this._subscribers=[],O!==t&&("function"!=typeof t&&rt(),this instanceof at?W(this,t):ot())}function ut(){var t=void 0;if(void 0!==e.g)t=e.g;else if("undefined"!=typeof self)t=self;else try{t=Function("return this")()}catch(t){throw new Error("polyfill failed because global object is unavailable in this environment")}var n=t.Promise;if(n){var i=null;try{i=Object.prototype.toString.call(n.resolve())}catch(t){}if("[object Promise]"===i&&!n.cast)return}t.Promise=at}return Z.prototype._enumerate=function(){for(var t=this.length,n=this._input,e=0;this._state===k&&e<t;e++)this._eachEntry(n[e],e)},Z.prototype._eachEntry=function(t,n){var e=this._instanceConstructor,i=e.resolve;if(i===S){var r=j(t);if(r===A&&t._state!==k)this._settledAt(t._state,n,t._result);else if("function"!=typeof r)this._remaining--,this._result[n]=t;else if(e===at){var o=new e(O);U(o,t,r),this._willSettleAt(o,n)}else this._willSettleAt(new e((function(n){return n(t)})),n)}else this._willSettleAt(i(t),n)},Z.prototype._settledAt=function(t,n,e){var i=this.promise;i._state===k&&(this._remaining--,t===C?F(i,e):this._result[n]=e),0===this._remaining&&z(i,this._result)},Z.prototype._willSettleAt=function(t,n){var e=this;G(t,void 0,(function(t){return e._settledAt(R,n,t)}),(function(t){return e._settledAt(C,n,t)}))},at.all=nt,at.race=et,at.resolve=S,at.reject=it,at._setScheduler=c,at._setAsap=s,at._asap=u,at.prototype={constructor:at,then:A,catch:function(t){return this.then(null,t)}},at.polyfill=ut,at.Promise=at,at}()},3826:function(t){"use strict";t.exports=function(t){var n,e={};if(!(t instanceof Object)||Array.isArray(t))throw new Error("keyMirror(...): Argument must be an object.");for(n in t)t.hasOwnProperty(n)&&(e[n]=n);return e}},2627:function(t){"use strict";t.exports=function(t,n,e,i){Object.defineProperty(t,n,{get:function(){var t=e.call(this);return Object.defineProperty(this,n,{value:t,enumerable:!!i,writable:!0}),t},set:function(t){return Object.defineProperty(this,n,{value:t,enumerable:!!i,writable:!0}),t},enumerable:!!i,configurable:!0})}},9891:function(t){"use strict";var n=Element.prototype,e=n.matches||n.matchesSelector||n.webkitMatchesSelector||n.mozMatchesSelector||n.msMatchesSelector||n.oMatchesSelector;t.exports=function(t,n){if(e)return e.call(t,n);for(var i=t.parentNode.querySelectorAll(n),r=0;r<i.length;r++)if(i[r]==t)return!0;return!1}},5556:function(t){!function(){function n(t,n){var e,i,r,o,a,u,c,s;for(e=3&t.length,i=t.length-e,r=n,a=3432918353,u=461845907,s=0;s<i;)c=255&t.charCodeAt(s)|(255&t.charCodeAt(++s))<<8|(255&t.charCodeAt(++s))<<16|(255&t.charCodeAt(++s))<<24,++s,r=27492+(65535&(o=5*(65535&(r=(r^=c=(65535&(c=(c=(65535&c)*a+(((c>>>16)*a&65535)<<16)&4294967295)<<15|c>>>17))*u+(((c>>>16)*u&65535)<<16)&4294967295)<<13|r>>>19))+((5*(r>>>16)&65535)<<16)&4294967295))+((58964+(o>>>16)&65535)<<16);switch(c=0,e){case 3:c^=(255&t.charCodeAt(s+2))<<16;case 2:c^=(255&t.charCodeAt(s+1))<<8;case 1:r^=c=(65535&(c=(c=(65535&(c^=255&t.charCodeAt(s)))*a+(((c>>>16)*a&65535)<<16)&4294967295)<<15|c>>>17))*u+(((c>>>16)*u&65535)<<16)&4294967295}return r^=t.length,r=2246822507*(65535&(r^=r>>>16))+((2246822507*(r>>>16)&65535)<<16)&4294967295,r=3266489909*(65535&(r^=r>>>13))+((3266489909*(r>>>16)&65535)<<16)&4294967295,(r^=r>>>16)>>>0}var e=n;e.v2=function(t,n){for(var e,i=t.length,r=n^i,o=0;i>=4;)e=1540483477*(65535&(e=255&t.charCodeAt(o)|(255&t.charCodeAt(++o))<<8|(255&t.charCodeAt(++o))<<16|(255&t.charCodeAt(++o))<<24))+((1540483477*(e>>>16)&65535)<<16),r=1540483477*(65535&r)+((1540483477*(r>>>16)&65535)<<16)^(e=1540483477*(65535&(e^=e>>>24))+((1540483477*(e>>>16)&65535)<<16)),i-=4,++o;switch(i){case 3:r^=(255&t.charCodeAt(o+2))<<16;case 2:r^=(255&t.charCodeAt(o+1))<<8;case 1:r=1540483477*(65535&(r^=255&t.charCodeAt(o)))+((1540483477*(r>>>16)&65535)<<16)}return r=1540483477*(65535&(r^=r>>>13))+((1540483477*(r>>>16)&65535)<<16),(r^=r>>>15)>>>0},e.v3=n,t.exports=e}()},1691:function(t,n,e){var i=e(5556).v3,r=Math.pow(2,32),o=function(t,n){return(i(t,n)>>>0)/r};t.exports={Seed:{IGNORING:0,BUCKETING:1,FALLBACK:2,HOLDBACK:3,BEHAVIOR_EVENT:2716770798},hashToHex:function(t,n){var e=i(t,n);return(e>>>16).toString(16)+(65535&e).toString(16)},hashToInt:function(t,n,e){return Math.floor(o(t,n)*e)},hashToReal:o,toByteString:function(t){var n=String.fromCharCode;return t.replace(/[\S\s]/gi,(function(t){t=t.charCodeAt(0);var e=n(255&t);return t>255&&(e=n(t>>>8&255)+e),t>65535&&(e=n(t>>>16)+e),e}))}}},8674:function(t,n,e){var i=e(8275).pick,r=e(2025).get("stores/audience_data"),o=e(7566),a=e(3111),u=e(2895),c=e(7474);function s(t){var n=["type","selector","attributes","value"],e=Object.assign({},t);return e.changeSet=t.changeSet.map((function(t){return i(c.dereferenceChangeId(t),n)})),e}n.emitLayerDecided=function(t){var n=(t.decisionTicket?t.decisionTicket.audienceIds:[]).map((function(t){return{id:t,name:r.get(t).name}})),e={type:a.TYPES.LIFECYCLE,name:"layerDecided",data:Object.assign(t,{audiences:n})},i=c.translateLayerEventToCampaignEvent(e);o.emit(e),o.emit(i)},n.emitViewActivated=function(t){var n={type:a.TYPES.LIFECYCLE,name:"viewActivated",data:t},e=c.translateViewActivatedToPageActivated(n);o.emit(n),o.emit(e)},n.emitViewsActivated=function(t){var n={type:a.TYPES.LIFECYCLE,name:"viewsActivated",data:t};o.emit(n)},n.emitCampaignsDecided=function(t){o.emit({type:a.TYPES.LIFECYCLE,name:"campaignsDecided",data:{pageIds:t}})},n.emitPageDeactivated=function(t){var n={type:a.TYPES.LIFECYCLE,name:"pageDeactivated",data:t};o.emit(n)},n.emitActivateEvent=function(){o.emit({type:a.TYPES.LIFECYCLE,name:"activate"},!0)},n.emitActivatedEvent=function(){o.emit({type:a.TYPES.LIFECYCLE,name:"activated"})},n.emitInitializedEvent=function(){var t={type:a.TYPES.LIFECYCLE,name:"initialized"};window.optimizely&&(window.optimizely.initialized=!0),o.emit(t)},n.emitOriginsSyncedEvent=function(){var t={type:a.TYPES.LIFECYCLE,name:"originsSynced"};o.emit(t)},n.emitActionAppliedEvent=function(t){var n={type:t.type,campaignId:t.layerId,pageId:t.pageId,experimentId:t.experimentId,variationId:t.variationId};u.defineProperty(n,"changes",(function(){return s(t).changeSet}),"actionAppliedEvent");var e={type:a.TYPES.ACTION,name:"applied",data:n};o.emit(e)},n.emitActionsForDecisionAppliedEvent=function(t,n){var e={decision:t};u.defineProperty(e,"actions",(function(){return n.map(s)}),"appliedAllForDecisionEvent");var i={type:a.TYPES.ACTION,name:"appliedAllForDecision",data:e};o.emit(i)},n.emitSendEvents=function(){var t={type:a.TYPES.ANALYTICS,name:"sendEvents"};o.emit(t)},n.emitMaybeSendEvents=function(){var t={type:a.TYPES.ANALYTICS,name:"maybeSendEvents"};o.emit(t)},n.emitHoldEvents=function(){var t={type:a.TYPES.ANALYTICS,name:"holdEvents"};o.emit(t)}},188:function(t,n,e){Object.defineProperty(n,"u",{value:!0});var i=e(8275),r=i.cloneDeep,o=i.isEqual,a=i.mapValues,u=i.pick,c=i.pickBy,s=e(9207),f=e(2895),l=e(7474),d=e(5686),v=e(3272);function h(t,n,e,i){var r=t.getLayerState(i),o=n.get(i),a=e.get();if(!r||!o)return a?{layer:{name:a.layerName,id:a.layerId,policy:a.layerPolicy,integrationStringVersion:a.integrationStringVersion},experiment:{name:a.experimentName,id:a.experimentId},variation:{name:a.variationName,id:a.variationId},isLayerHoldback:!1}:null;if(d.isSingleExperimentPolicy(o.policy)&&r.decision.isLayerHoldback)return null;var u,c,s=r.decision.experimentId,f=r.decision.variationId;return s&&f&&(u=o.experiments.find((function(t){return t.id===s})))&&(c=u.variations.find((function(t){return t.id===f})))?{layer:{name:o.name,id:o.id,policy:o.policy,integrationStringVersion:o.integrationStringVersion},experiment:{name:u.name,id:u.id},variation:{name:c.name,id:c.id},isLayerHoldback:r.decision.isLayerHoldback}:null}function p(t,n,e,i,r,a,c){var s=[],f=t.getLayerStates();c.onlySingleExperiments&&(f=f.filter((function(t){var e=n.get(t.layerId);return e&&d.isSingleExperimentPolicy(e.policy)})));var l=e.getActiveViewIds(),h=f.map((function(t){var e,i=!!t.decision.variationId,o=t.decisionActivationId&&t.decisionActivationId===r.getActivationId(),a=v.getExperimentAndVariation(),u=a?a.variationId:null,c=i&&t.decision.variationId===u,s=((null==(e=n.get(null==t?void 0:t.layerId))?void 0:e.viewIds)||[]).every((function(t){return!l.includes(t)}));return Object.assign(t,{isActive:i&&o&&!s||c,visitorRedirected:c})}));return(a?"function"==typeof a?h.filter(a):h.filter((function(t){return Object.keys(a).every((function(n){return o(t[n],a[n])}))})):h).forEach((function(t){var e=function(t,n,e,i){var r,o,a=t.layerId,c=n.get(a)||{},s=(c.experiments||[]).map((function(t){return u(t,["id","name"])}));if(!i&&c.decisionMetadata&&c.decisionMetadata.offerConsistency)return;var f={id:a,campaignName:c.name||null,experiment:null,audiences:[],allExperiments:s,variation:null,reason:t.decision.reason,isActive:!!t.isActive,visitorRedirected:t.visitorRedirected,isInCampaignHoldback:t.decision.isLayerHoldback};t.decision&&t.decision.experimentId&&(r=(c.experiments||[]).find((function(n){return n.id===t.decision.experimentId}))),r&&(f.experiment=u(r,["id","name","campaignName"])),r&&t.decision.variationId&&(o=r.variations.find((function(n){return n.id===t.decision.variationId}))),o&&(f.variation=u(o,["id","name"]));var l=(t.decisionTicket.audienceIds||[]).map((function(t){return u(e.get(t),["id","name"])}));return f.audiences=l,c.decisionMetadata&&c.decisionMetadata.offerConsistency&&(f.pageId=t.pageId),f}(t,n,i,c.includeOfferConsistency);e&&s.push(e)})),s}n.data=["stores/audience_data","stores/client_metadata","stores/event_data","stores/layer_data","stores/view_data","stores/group_data","stores/interest_group","stores/tag_group","stores/global",function(t,n,e,i,r,o,a,u,c){var s={},d={},v={},h={audiences:t.getAudiencesMap(),events:e.getEventsMap(),campaigns:s,pages:r.getPagesMap(),experiments:d,variations:v,projectId:c.getProjectId(),snippetId:c.getSnippetId(),accountId:c.getAccountId(),dcpServiceId:c.getDCPServiceId(),revision:c.getRevision(),clientName:n.getClientName(),clientVersion:n.getClientVersion()},p=l.dereferenceChangeId;return i.getAll().forEach((function(t){f.defineProperty(s,t.id,(function(){var n=Object.assign({},t);return f.defineProperty(n,"changes",(function(){return(t.changes||[]).map(p)}),"campaign"),f.defineProperty(n,"experiments",(function(){return(t.experiments||[]).map((function(t){return d[t.id]}))}),"campaign"),n}),"campaignMap","byId"),(t.experiments||[]).forEach((function(t){f.defineProperty(d,t.id,(function(){var n=Object.assign({},t);return f.defineProperty(n,"changes",(function(){return(t.changes||[]).map(p)}),"experiment"),f.defineProperty(n,"variations",(function(){return(t.variations||[]).map((function(t){return v[t.id]}))}),"experiment"),n}),"experimentMap","byId"),(t.variations||[]).forEach((function(t){f.defineProperty(v,t.id,(function(){var n=Object.assign({},t);return f.defineProperty(n,"actions",(function(){return(t.actions||[]).map((function(t){return Object.assign({},t,{changes:(t.changes||[]).map(p)})}))}),"variation"),n}),"variationMap","byId")}))}))})),h}],n.visitor=["stores/visitor",function(t){return r(t.getVisitorProfile())}],n.visitor_id=["stores/visitor_id",function(t){return{randomId:t.getRandomId()}}],n.state=["stores/audience_data","stores/layer_data","stores/layer","stores/view_data","stores/view","stores/global","stores/observed_redirect",function(t,n,i,r,o,f,l){return{getTrafficExclusionStats:function(){return e(4308).getStats()},getCampaignStates:function(e){var r={};return p(i,n,o,t,f,e,{includeOfferConsistency:!1}).forEach((function(t){r[t.id]=t})),r},getExperimentStates:function(e){var r=p(i,n,o,t,f,e,{includeOfferConsistency:!1,onlySingleExperiments:!0}),a=["audiences","variation","reason","visitorRedirected","isActive"];return r.reduce((function(t,n){var e=n.allExperiments[0];return t[e.id]=Object.assign({},u(n,a),{id:e.id,experimentName:e.name,isInExperimentHoldback:n.isInCampaignHoldback}),t}),{})},getCampaignStateLists:function(e){var r={};return p(i,n,o,t,f,e,{includeOfferConsistency:!0}).forEach((function(t){var n=t.id;r[n]||(r[n]=[]),r[n].push(t)})),r},getPageStates:function(t){var n=o.getAll(),e=Object.keys(n).reduce((function(t,e){var i=n[e],o=r.get(i.id);return t[i.id]=Object.assign({},u(o,["id","name","apiName","category","staticConditions","tags"]),u(i,["isActive","metadata"])),t[i.id].isActive=!!t[i.id].isActive,t}),{});return t?c(e,t):e},isGlobalHoldback:function(){return f.isGlobalHoldback()},getActivationId:function(){return f.getActivationId()},getVariationMap:function(){var t=i.getLayerStates(),e={};return t.forEach((function(t){var i=n.get(t.layerId);if(t.decision&&t.decision.experimentId&&(e[t.decision.experimentId]={id:t.decision.variationId,name:null,index:null},i)){var r=(i.experiments||[]).find((function(n){return n.id===t.decision.experimentId}));if(r&&t.decision.variationId)var o=r.variations.find((function(n){return n.id===t.decision.variationId})),a=r.variations.findIndex((function(n){return n.id===t.decision.variationId}));o&&(e[t.decision.experimentId]={id:t.decision.variationId,name:o.name,index:a})}})),e},getActiveExperimentIds:function(){var t={},n=this.getCampaignStateLists({isActive:!0});return Object.keys(n).forEach((function(e){n[e].forEach((function(n){t[n.experiment.id]=!0}))})),Object.keys(t)},getRedirectInfo:function(){var t=v.getExperimentAndVariation();return t&&(t.referrer=v.getReferrer()),t},getDecisionString:function(t){if(!t)throw new Error("Must pass a config to getDecisionString");t=Object.assign({maxLength:255,shouldCleanString:!1},t);var e=h(i,n,l,t.campaignId);return e?s.generateAnalyticsString(e.layer,e.experiment,e.variation,e.isLayerHoldback,t.maxLength,t.shouldCleanString):null},getDecisionObject:function(t){if(!t)throw new Error("Must pass a config to getDecisionObject");t=Object.assign({maxLength:255,shouldCleanString:!1},t);var e=h(i,n,l,t.campaignId);if(!e)return null;var r=s.formatNamesAndIdsForAnalytics(e.layer,e.experiment,e.variation,t.shouldCleanString),o=a(r.names,(function(n,e){return s.combineAndTruncateIdAndName(n,r.idStrings[e],t.maxLength)})),u={experiment:o.experiment,variation:o.variation};return d.isSingleExperimentPolicy(e.layer.policy)||Object.assign(u,{campaign:o.layer,holdback:e.isLayerHoldback}),u}}}],n.utils=e(2671).create(),n.jquery=["env/jquery",function(t){return t}],n.event_emitter=e(5547)},9445:function(t,n,e){var i=e(7852),r=e(9454),o="optimizelyDataApi";n.registerFunction=function(t,n){var e=r.getGlobal(o);e||(e={},r.setGlobal(o,e)),e[t]||(e[t]=n)},n.unregisterFunction=function(t){var n=r.getGlobal(o);n&&n[t]&&(n[t]=function(){i.log('Ignoring attempt to call "'+o+"."+t+'" which has been unregistered.')})},n.getFunction=function(t){return r.getGlobal(o)[t]}},3737:function(t,n,e){var i=e(8275).isObject,r=e(7852),o=e(188),a=e(2025),u=a.get("stores/plugins"),c=e(136),s=e(6592),f=e(409),l=[e(3770),e(6708),e(8197)],d=["clientMetadata","cookieDomain","disable","load","optOut","rum"];n.push=function(t,n){var e,o,a,u;if(!Array.isArray(t)&&i(t))u=void 0!==t.version?t.version:1,e=t.type,a=[t];else if(Array.isArray(t))u=0,e=t[0],a=t.slice(1);else{if("string"!=typeof t)return r.warn("API / Ignoring non-array/object/string argument:",t),!1;u=0,e=t,a=[]}if(l[u]&&(o=l[u][e]),n&&-1===d.indexOf(e))return r.debug("API / Ignoring non high priority function:",e,a),!1;if(!o)return r.warn('API / No function found for "'+e+'" (v'+u+") with arguments:",a),!1;r.log('API / Executing: "'+e,'" with arguments:',a);try{o.apply(null,a),f.dispatch(c.RECORD_API_USAGE,{methodName:u?"v"+u+"."+e:e})}catch(t){r.error(t)}return!0},n.get=function(t){r.log('API / Getting module: "'+t+'"');var n=o[t];if(n?Array.isArray(n)&&(n=a.evaluate(n)):n=u.getPlugin(s.PluginTypes.apiModules,t),n)return f.dispatch(c.RECORD_API_USAGE,{methodName:"get."+t}),n;r.warn('Module "'+t+'" not found.')}},2895:function(t,n,e){var i=e(2627),r=e(136),o=e(409),a=e(7852);n.defineProperty=function(t,n,e,u,c){i(t,n,(function(){var t=["prop",u,c||n].join(".");return a.debug('Evaluating getter: "'+t+'"'),o.dispatch(r.RECORD_API_USAGE,{methodName:t}),e()}),!0)}},3770:function(t,n,e){var i=e(6708);function r(t){var n,e={};if(t)if(o(t))n=Number(t);else{if("object"!=typeof t)throw new Error("tracker: Revenue argument "+t+"not a number.");if("revenue"in(e=Object.assign({},t))){if(!o(e.revenue))throw new Error("tracker: Revenue value "+e.revenue+"not a number.");n=Number(e.revenue),delete e.revenue}}return void 0!==n&&(e.revenue=n),e}function o(t){return"number"==typeof t||"string"==typeof t&&!isNaN(Number(t))&&Number(t).toString()==t}n.activateGeoDelayedExperiments=function(t,n){n||(n=t.lists?"odds":"cdn3"),i.dataFromSource({data:t,source:n})},n.activateSiteCatalyst=function(t){t&&t.sVariable&&i.integrationSettings({id:"adobe_analytics",settings:{sVariableReference:t.sVariable}})},n.bucketVisitor=function(t,n){if(t&&n){var e={experimentId:String(t)};n>256?e.variationId=String(n):e.variationIndex=String(n),i.bucketVisitor(e)}},n.bucketUser=n.bucketVisitor,n.disable=function(t){i.disable({scope:t})},n.log=function(t){void 0===t&&(t=!0),i.log({level:t?"INFO":"OFF"})},n.optOut=function(t){void 0===t&&(t=!0),i.optOut({isOptOut:t})},n.setCookieDomain=function(t){i.cookieDomain({cookieDomain:t})},n.setCookieExpiration=function(t){i.cookieExpiration({cookieExpirationDays:t})},n.setDimensionValue=function(t,n){var e={};e[t]=n,i.user({attributes:e})},n.setUserId=function(t){i.user({userId:t})},n.setGA4UserId=function(t){i.ga4User({ga4UserId:t})},n.storeThirdPartyData=function(t,n){i.dataFromSource({source:t,data:n})},n.trackEvent=function(t,n){i.event({eventName:t,tags:r(n)})}},7474:function(t,n,e){var i=e(8275),r=i.cloneDeep,o=i.omit,a=e(2025),u=e(3019),c=e(2895),s=a.get("stores/change_data");n.translateDecisionToCampaignDecision=function(t){return f(r(t),{layerId:"campaignId",isLayerHoldback:"isCampaignHoldback"})},n.translateLayerEventToCampaignEvent=function(t){var e={};return c.defineProperty(e,"campaign",(function(){return function(t){var e=r(t);return e.changes&&(e.changes=e.changes.map(n.dereferenceChangeId)),e.experiments&&e.experiments.forEach((function(t){t.changes&&(t.changes=t.changes.map(n.dereferenceChangeId)),t.variations&&t.variations.forEach((function(t){t.actions&&t.actions.forEach((function(t){t.changes&&(t.changes=t.changes.map(n.dereferenceChangeId))}))}))})),e}(t.data.layer)}),"campaignEvent"),e.decisionTicket=t.data.decisionTicket,e.decision=this.translateDecisionToCampaignDecision(t.data.decision),e.audiences=t.data.audiences,{type:"lifecycle",name:"campaignDecided",data:e}},n.translateViewActivatedToPageActivated=function(t){return{type:"lifecycle",name:"pageActivated",data:{page:t.data.view}}},n.dereferenceChangeId=function(t){var n=s.getChange(t);return n?u.safeReference(n):t};var f=function(t,n){var e=o(t,Object.keys(n));return Object.keys(n).forEach((function(i){var r=n[i];e[r]=t[i]})),e}},2671:function(t,n,e){var i=e(6761).Promise,r=e(7796).o,o=e(1166).F,a=e(5504).M,u=e(3329).poll,c=e(9558).x,s=e(6726).a;n.create=function(){return{observeSelector:r,onUrlChange:o,persistHtml:a,poll:u,Promise:i,waitForElement:c,waitUntil:s}}},6643:function(t){t.exports={DEFAULT_INTERVAL:20}},7796:function(t,n,e){var i=e(8275),r=i.isEmpty,o=i.isObject,a=(e(136),e(2025)),u=a.get("stores/directive"),c=e(1019),s=e(4970),f=(e(6592),e(409),e(9899).generate),l=e(3329),d=e(9454),v=(a.get("stores/rum"),{once:!1,onTimeout:null,timeout:null}),h={},p=function(t){p=function(){if(!u.shouldObserveChangesIndefinitely())return function(t){var n=l.poll(m.bind(null,t));h[t].cancelObservation=function(){n(),delete h[t]}};var t,n=function(){t.disconnect(),Object.keys(h).forEach(m),t.observe(i,e)},e={attributes:!0,childList:!0,subtree:!0},i=c.getDocumentElement();return t=s.create(n),function(n){var o=h[n];t.observe(i,e),o.cancelObservation=function(){delete h[n],r(h)&&t.disconnect()}}}(),p(t)};function g(t){var n=h[t];n&&n.cancelObservation&&n.cancelObservation()}function m(t){if(h[t]){if(function(t){var n=t.options.timeout;if(null!==n)if("function"==typeof n)try{return n()}catch(t){}else if(Date.now()-t.startTime>n)return!0;return!1}(h[t]))return 0===h[t].matchedCount&&"function"==typeof h[t].options.onTimeout&&h[t].options.onTimeout(),void g(t);var n=c.querySelectorAll(h[t].selector);n.length&&(n.forEach((function(n){n.l&&n.l[t]||h[t].callbackQueue.push(n)})),function(t){for(;h[t]&&h[t].callbackQueue.length;){var n=h[t].callbackQueue.shift();if(b(n,t),h[t].matchedCount=h[t].matchedCount+1,h[t].callback(n),h[t]&&h[t].options.once)return void g(t)}}(t))}}function b(t,n){t.l||(t.l={}),t.l[n]=!0}n.o=function(t,n,e){if(!function(t){try{c.querySelector(t)}catch(t){return!1}return!0}(t))throw new Error("observeSelector expects a valid css selector as its first argument");if("function"!=typeof n)throw new Error("observeSelector expects a function as its second argument");if(e&&(!o(e)||"function"==typeof e))throw new Error("observeSelector expects an object as its third argument");var i=f();return e=Object.assign({},v,e||{}),h[i]={callback:n,callbackQueue:[],matchedCount:0,options:e,selector:t,startTime:Date.now()},p(i),d.setTimeout(m.bind(null,i),0),g.bind(null,i)}},1166:function(t,n,e){var i=e(9899).generate,r=e(9454),o={},a=!1,u=null,c=null,s=null,f=null;function l(){a&&(window.history.pushState===s&&(window.history.pushState=u),window.history.replaceState===f&&(window.history.replaceState=c),u=null,c=null,s=null,f=null,a=!1)}function d(){var t=r.getHref();Object.keys(o).forEach((function(n){var e=o[n];e&&e(t)}))}n.F=function(t){var n=i(),e=0===Object.keys(o).length;return o[n]=t,e&&(r.addEventListener("popstate",d),r.addEventListener("hashchange",d),a||(u=window.history.pushState,c=window.history.replaceState,window.history.pushState=function(t,n,e){u.apply(window.history,arguments),d()},s=window.history.pushState,window.history.replaceState=function(t,n,e){c.apply(window.history,arguments),d()},f=window.history.replaceState,a=!0)),function(){!function(t){delete o[t],0===Object.keys(o).length&&(r.removeEventListener("popstate",d),r.removeEventListener("hashchange",d),l())}(n)}}},5504:function(t,n,e){var i=e(1019),r=e(9899).generate,o=e(4970),a={before:"beforebegin",after:"afterend",first_child:"afterbegin",last_child:"beforeend"},u=Object.keys(a),c=[];function s(t,n,e){var i,r,o=[];if("beforebegin"===n)for(i=t.previousSibling,r=0;r<e&&i;r++)o.unshift(i),i=i.previousSibling;else if("afterend"===n)for(i=t.nextSibling,r=0;r<e&&i;r++)o.push(i),i=i.nextSibling;else if("afterbegin"===n)for(i=t.firstChild,r=0;r<e&&i;r++)o.push(i),i=i.nextSibling;else if("beforeend"===n)for(i=t.lastChild,r=0;r<e&&i;r++)o.unshift(i),i=i.previousSibling;return o}function f(t){return document.documentElement.contains(t)}n.M=function(t,n,e){if("string"!=typeof t||!t)throw new Error("persistHtml: html must be a non-empty string");if(!function(t){try{i.querySelector(t)}catch(t){return!1}return!0}(n))throw new Error("persistHtml: invalid CSS selector: "+n);if(e=null!=e?e:"before",-1===u.indexOf(e))throw new Error("persistHtml: placement must be one of: "+u.join(", "));var l=a[e],d=i.querySelector(n);if(!d)throw new Error('persistHtml: no element found for selector "'+n+'"');if(("beforebegin"===l||"afterend"===l)&&!d.parentElement)throw new Error('persistHtml: placement "'+e+'" requires the anchor element to have a parent');var v=function(t){var n=document.createElement("div");return n.innerHTML=t,n.childNodes.length}(t);if(0===v)throw new Error("persistHtml: html produces no DOM nodes");var h=function(t){var n=document.createElement("div");n.innerHTML=t;var e=[];return Array.prototype.forEach.call(n.childNodes,(function(t){if(t.nodeType===Node.ELEMENT_NODE){var n=r();e.push(n),t.setAttribute("data-optly-persist-id",n)}})),{taggedHtml:n.innerHTML,ids:e}}(t);d.insertAdjacentHTML(l,h.taggedHtml);var p,g=s(d,l,v),m=!1,b={childList:!0,subtree:!0},_=i.getDocumentElement();function y(){if(!m){m=!0,p.disconnect();var t=c.indexOf(y);-1!==t&&c.splice(t,1),g.forEach((function(t){f(t)&&t.parentNode&&t.parentNode.removeChild(t)}))}}return(p=o.create((function(){if(!m&&g.some((function(t){return!f(t)}))){var t=i.querySelector(n);!t||("beforebegin"===l||"afterend"===l)&&!t.parentElement||(p.disconnect(),g.forEach((function(t){f(t)&&t.parentNode&&t.parentNode.removeChild(t)})),m||(t.insertAdjacentHTML(l,h.taggedHtml),g=s(t,l,v)),m||p.observe(_,b))}}))).observe(_,b),c.push(y),y}},3329:function(t,n,e){e(136);var i=e(2025),r=(e(6592),e(409),e(9899).generate),o=e(9454),a=e(6643).DEFAULT_INTERVAL,u=(i.get("stores/rum"),{});function c(t){u[t]&&Object.keys(u[t].callbacks).forEach((function(n){u[t].callbacks[n].call(null)}))}function s(t,n){u[n]&&u[n].callbacks[t]&&(delete u[n].callbacks[t],0===Object.keys(u[n].callbacks).length&&(clearInterval(u[n].id),delete u[n]))}n.poll=function(t,n){"number"!=typeof n&&(n=a),u[n]||(u[n]={callbacks:{},id:o.setInterval(c.bind(null,n),n)});var e=r();return u[n].callbacks[e]=t,s.bind(null,e,n)},n.cancelAll=function(){Object.keys(u).forEach((function(t){var n=u[t];clearInterval(n.id),delete u[t]}))}},9558:function(t,n,e){var i=e(6761).Promise,r=e(7796).o;n.x=function(t){return new i((function(n,e){r(t,n,{once:!0})}))}},6726:function(t,n,e){var i=e(6761).Promise,r=e(3329).poll;n.a=function(t){return new i((function(n,e){if(t())n();else var i=r((function(){t()&&(i(),n())}))}))}},6708:function(t,n,e){var i=e(8275).omit,r=e(136),o=e(3737),a=e(188),u=e(9480),c=e(6592),s=e(8131),f=e(8674),l=e(5192),d=e(8130).v,v=e(8298),h=e(4214),p=(e(673),e(8851)),g=e(7566),m=e(409),b=e(192),_=e(2042),y=e(587),w=e(7852),E=e(9937),I=(e(5894),e(2348)),A=e(4285),S=e(2025),T=S.get("stores/dimension_data"),O=S.get("stores/view"),k=S.get("stores/view_data"),R=S.get("stores/visitor_id"),C=S.get("stores/layer_data"),N=S.get("stores/directive"),D=n.ApiListenerError=d("ApiListenerError");n.event=function(t){var n;switch(t.eventType){case"click":n=function(t){var n;return t.eventData&&(n=p.create(t.eventData.id,t.eventData.apiName,"click",t.eventData)),function(){var t=s.trackClickEvent(n);t?w.log("API / Tracking click event:",t):w.log("API / Not tracking click event:",t)}}(t);break;case"decision":n=function(t){var n=t.eventData,e=_.createLayerState(n.layerId,n.experimentId,n.variationId,n.isLayerHoldback,n.isLayerConcluded),i=_.createSingle(n.layerId,n.experimentId,n.variationId);return function(){_.recordLayerDecision(e.layerId,e.decisionTicket,e.decision),w.log("API / Tracking decision event:",e),s.trackDecisionEvent(e.decision,e.decisionTicket,i)}}(t);break;case"pageview":n=function(t){var n=I.create(t.eventData.id,t.eventData.apiName),e=I.createState(n.id);return function(){var t=s.trackViewActivation(n,e);t?w.log("API / Tracking pageview event:",t):w.log("API / Not tracking pageview event:",t)}}(t);break;default:n=function(t){var n;return t.eventId&&(n=p.create(t.eventId,t.eventName,"custom")),I.updateAllViewTags(),function(){s.trackCustomEvent(t.eventName,t.tags,n,t.properties)?w.log("API / Tracking custom event:",t.eventName,t.tags):w.log("API / Not tracking custom event:",t.eventName)}}(t)}R.getBucketingId()?n():m.dispatch(r.ADD_CLEANUP_FN,{lifecycle:c.Lifecycle.postActivate,cleanupFn:n})},n.clientMetadata=function(t){0},n.priorRedirectString=function(t){},n.microsnippetError=function(t){},n.rum=function(t){m.dispatch(r.SET_RUM_DATA,t.eventData)},n.initialViewStates=function(t){var n=Object.keys(t.states||{}).map((function(n){return{id:n,isActive:t.states[n]}}));I.registerViews(n)},n.page=function(t){var n=k.getByApiName(t.pageName);if(!n)throw new Error('Unknown page "'+t.pageName+'"');var e=!t.hasOwnProperty("isActive")||t.isActive,i=function(){e?I.activateViaAPI(n,t.tags):(I.deactivate(n),w.log("API / Deactivated Page",I.description(n)))};R.getBucketingId()?i():m.dispatch(r.ADD_CLEANUP_FN,{lifecycle:c.Lifecycle.postViewsActivated,cleanupFn:i})},n.tags=function(t){I.setGlobalTags(t.tags)},n.user=function(t){w.log("API / Setting visitor custom attributes:",t.attributes),Object.keys(t.attributes||{}).forEach((function(n){var e,i,r=t.attributes[n],o=n,a=T.getById(n)||T.getByApiName(n);a&&(o=a.id,e=a.apiName,i=a.segmentId||a.id);var u={id:i,value:r};e&&(u.name=e),x(o,u,!0)}))},n.ga4User=function(t){t.ga4UserId?(w.log("API / Setting ga4 user id in the global store:",t.ga4UserId),m.dispatch(r.SET_GA4_USER_ID,t)):w.error('API / Argument "ga4UserId" is missing')};var x=function(t,n,e){var i=[{key:e?["custom",t]:[t],value:n,metadata:{lastModified:v.now()}}],o=function(){m.dispatch(r.SET_VISITOR_ATTRIBUTES,{attributes:i})};R.getBucketingId()?o():m.dispatch(r.ADD_CLEANUP_FN,{lifecycle:c.Lifecycle.postVisitorProfileLoad,cleanupFn:o})};n.optOut=function(t){var n=!t.hasOwnProperty("isOptOut")||t.isOptOut;h.setOptOut(n)},n.cookieExpiration=function(t){var n=t.cookieExpirationDays;n<90&&(w.error('Argument "cookieExpirationDays"=',n,"less than minimum days:",90,", setting to minimum."),n=90),w.log("API / Setting cookie age to",n,"days."),m.dispatch(r.SET_COOKIE_AGE,86400*n)},n.extendCookieLifetime=function(t){t=Object.assign({isEnabled:!0},t),w.log("API / Setting cookie automatic lifetime extension to",t.isEnabled),m.dispatch(r.SET_COOKIE_AUTO_REFRESH,t.isEnabled)},n.cookieDomain=function(t){w.log("API / Setting cookie domain to",t.cookieDomain),m.dispatch(r.SET_COOKIE_DOMAIN,t.cookieDomain)},n.disable=function(t){if(t.scope){if("tracking"!==t.scope)throw new Error('Unknown "scope" for disable: '+t.scope);w.log("API / Disabling tracking"),m.dispatch(r.LOAD_DIRECTIVE,{trackingDisabled:!0})}else w.log("API / Disabling everything"),m.dispatch(r.LOAD_DIRECTIVE,{disabled:!0})},n.log=function(t){var n=t.level,e=t.match;void 0===n&&(n="INFO"),void 0===e&&(e=""),w.setLogMatcher(e),w.setLogLevel(n)},n.registerModule=function(t){var n="custom/"+t.moduleName;if(a[n]||o.get(n))throw new Error('Module name "'+n+'" is reserved. Will not be registered as plugin.');E.registerApiModule(n,t.module)},n.dataFromSource=function(t){var n=t.source;l.makeAsyncRequest(n),l.resolveRequest(n,t.data)},n.addListener=function(t){if("function"!=typeof t.handler)throw new Error("A handler function must be supplied");(t=i(t,["type"])).publicOnly=!0,t.emitErrors=!0;var n=t.handler;t.handler=function(t){try{return n(t)}catch(t){throw new D(t)}},g.on(t)},n.removeListener=function(t){if(!t.token)throw new Error("Must supply a token to removeListener");g.off(t.token)},n.load=function(t){t.data=Object.assign({},t.data),u.normalizeClientData(t.data),m.dispatch(r.DATA_LOADED,{data:t.data})},n.integrationSettings=function(t){if(!t.id)throw new Error("id is required");if(!t.settings)throw new Error("settings is required");m.dispatch(r.SET_INTEGRATION_SETTINGS,Object.assign({},t.settings,{id:t.id}))},n.loadEmbeddedEditor=function(){document.getElementById("optimizely-visual-editor-root")?w.warn("API / Visual editor is already loaded."):y.loadEmbeddedEditor("https://app.optimizely.com/dist/visual-editor/main.js")},n.bucketVisitor=function(t){if(!t.variationId&&void 0===t.variationIndex||t.variationId&&t.variationIndex)throw new Error("One of a variationId or a variationIndex is required.");if(!t.experimentId)throw new Error("An experimentId is required.");var n,e,i=t.campaignId;if(i){if(!(n=C.get(i)))throw new Error("Could not find layer "+i)}else if(!(i=(n=C.getLayerByExperimentId(t.experimentId)).id))throw new Error("Could not find layer for experiment "+t.experimentId);if(!(e=n.experiments.find((function(n){return n.id===t.experimentId}))))throw new Error("Could not find experiment "+t.experimentId+" in layer "+i);var r=t.variationId;if(void 0!==t.variationIndex){if(!(r=e.variations[t.variationIndex].id))throw new Error("Could not find variation at index "+t.variationIndex+" in experiment "+t.experimentId)}else if(!e.variations.find((function(t){return t.id===r})))throw new Error("Cound not find variation "+r+" in experiment "+t.experimentId);A.updateVariationIdMap(i,t.experimentId,r),R.getBucketingId()&&A.persistVariationIdMap(),A.updateContextualMabMap(i,t.experimentId,{variationId:r}),R.getBucketingId()&&A.persistContextualMabMap()},n.waitForOriginSync=function(t){if(!Array.isArray(t.canonicalOrigins))throw new Error("canonicalOrigins must be an array. Got: "+b.stringify(t.canonicalOrigins));t.canonicalOrigins.forEach((function(t){if("string"!=typeof t)throw new Error("Each item in canonicalOrigins must be a string. Found type "+(void 0===t?"undefined":(n=t)&&"undefined"!=typeof Symbol&&n.constructor===Symbol?"symbol":typeof n));var n})),m.dispatch(r.XDOMAIN_SET_CANONICAL_ORIGINS,{canonicalOrigins:t.canonicalOrigins})},n.disableCrossOrigin=function(){w.log("API / cross origin tracking is DISABLED"),m.dispatch(r.XDOMAIN_SET_DISABLED,{disabled:!0})},n.activate=function(){N.shouldActivate()?(O.getActiveViewStates().forEach((function(t){I.deactivate(k.get(t.id))})),m.dispatch(r.RESET_VIEW_STATES),f.emitActivateEvent()):w.debug("Not activating.")},n.sendEvents=function(){f.emitSendEvents()},n.holdEvents=function(){f.emitHoldEvents()}},8197:function(){},4860:function(t,n,e){var i=e(8275),r=i.cloneDeep,o=i.flattenDeep,a=i.isEmpty,u=i.isObject,c=e(8130).v,s=n.ActivationCodeError=c("ActivationCodeError"),f=n.ProjectJSError=c("ProjectJSError"),l=e(8395),d=e(136),v=e(8131),h=e(8674),p=e(7595),g=e(8841),m=e(9480),b=e(8298),_=e(1035),y=e(2025),w=e(4214),E=e(1019),I=e(6592),A=e(7566),S=e(3111),T=e(8484),O=e(409),k=(e(3672),e(2042)),R=e(1353).DT,C=e(7852),N=e(3224),D=e(5010),x=e(9937),j=e(5385),M=e(6761).Promise,P=e(5467),L=e(5894),U=e(249),V=e(123),B=e(2348),z=e(4285),F=e(9454),G=(y=e(2025)).get("stores/session"),q=y.get("stores/audience_data"),H=y.get("stores/action_data"),Y=y.get("stores/cleanup"),K=y.get("stores/directive"),$=y.get("stores/global"),W=(y.get("stores/group_data"),y.get("stores/layer_data")),X=y.get("stores/layer"),J=y.get("stores/pending_events"),Q=y.get("stores/plugins"),Z=y.get("stores/rum"),tt=y.get("stores/visitor"),nt=y.get("stores/view_data"),et=y.get("stores/view"),it=y.get("stores/visitor_id"),rt=y.get("stores/visitor_bucketing"),ot=y.get("stores/xdomain"),at=e(3737),ut=e(673),ct=e(2594),st=!1,ft=n;function lt(){h.emitActivateEvent()}function dt(t){ut.handleError(t.data.error,t.data.metadata)}function vt(t,n){O.dispatch(d.SET_RUM_DATA,{data:{extras:{xdAttempt:t,xdError:n?n.toString():void 0}}})}function ht(t,n,e){t=t||[];var i=$.getGlobalHoldbackThreshold(),r=it.getBucketingId();if(!r)throw new Error("bucketingId not set");var o,a=tt.getVisitorProfile();n&&(o=rt.getVariationIdMap()[n.id]);var u={bucketingId:r,visitorProfile:a,audiences:t,globalHoldback:i,preferredVariationMap:o,layer:n};return n&&e&&_.isPageIdRelevant(n)?e.map((function(t){return _.createTicket(Object.assign({},u,{pageId:t}))})):[_.createTicket(u)]}function pt(t,n){var e={};return t.forEach((function(t){Array.isArray(t)?Object.assign(e,pt(t,n)):u(t)&&n[t.type]&&(e[t.type]=!0)})),e}function gt(t){var n=[];return t.forEach((function(t){n.push(t.name,t)})),n}function mt(t){var n=Y.getCleanupFns(t);if(n.length>0){for(;n.length>0;)n.shift()();O.dispatch(d.CLEAR_CLEANUP_FN,{lifecycle:t})}}n.initialize=function(t){return this.initGlobalStore(t.clientData),this.initializePlugins(t.plugins)},n.initGlobalStore=function(t){m.normalizeClientData(t),A.on({filter:{type:"error"},handler:dt}),O.dispatch(d.DATA_LOADED,{data:t}),C.log("Initialized with DATA:",t)},n.initializePlugins=function(t){if(Array.isArray(window.optimizely)&&(window.optimizely=window.optimizely.filter((function(t){var n=!0;return!at.push(t,n)}))),w.setOptOut(K.shouldOptOut()),!K.isDisabled()&&!K.shouldOptOut()){ct.queueBeacons(),E.isReady()?O.dispatch(d.SET_DOMCONTENTLOADED):E.addReadyHandler((function(){O.dispatch(d.SET_DOMCONTENTLOADED)})),D.time("projectJS");var e=$.getProjectJS();if("function"==typeof e)try{T.apply(e)}catch(t){C.error("Error while executing projectJS: ",t),g.emitError(new f(t))}D.timeEnd("projectJS"),(t||[]).forEach((function(t){try{t(x)}catch(t){g.emitInternalError(t)}})),($.getPlugins()||[]).forEach((function(t){try{T.apply(t,[x])}catch(t){g.emitError(t)}})),L.load();var i=A.on({filter:{type:"lifecycle",name:"activated"},handler:function(){tt.observe(z.persistVisitorProfile),X.observe(z.persistLayerStates),G.observe(z.persistSessionState),J.observe(N.schedulePersistPendingEvents),rt.observe(z.persistVisitorBucketingStore),A.off(i)}});A.on({filter:{type:"lifecycle",name:"viewsActivated"},handler:n.onViewsActivated}),A.on({filter:{type:"lifecycle",name:"pageDeactivated"},handler:n.onPageDeactivated}),n.initializeApi();var r=N.getPendingEvents();if(r&&(O.dispatch(d.LOAD_PENDING_EVENTS,{events:r}),N.retryPendingEvents(r)),A.on({filter:{type:"lifecycle",name:"activate"},handler:n.activate}),h.emitInitializedEvent(),!K.shouldActivate())return M.resolve();var o=[];if(ot.isDisabled())lt();else{var a=n.initializeXDomainStorage();if(o.push(a),Boolean(ot.getCanonicalOrigins())){var u=U.makeTimeoutPromise(1e3);M.race([a,u]).catch((function(t){C.error("Failed to initialize xDomain storage: ",t)})).then(lt).catch(ut.handleError)}else lt()}return M.all(o)}C.log("Controller / Is disabled")},n.activate=function(){try{var t=[];C.log("Activated client"),mt(I.Lifecycle.preActivate);var n=!1;st;var e=b.now();O.dispatch(d.ACTIVATE,{activationId:String(e),activationTimestamp:e});var i=nt.getAll();B.registerViews(i,n),z.setId(z.getOrGenerateId()),t.push(v.trackPostRedirectDecisionEvent()),O.dispatch(d.MERGE_VARIATION_ID_MAP,{variationIdMap:z.getVariationIdMap()}),O.dispatch(d.MERGE_CONTEXTUAL_MAB_MAP,{contextualMabMap:z.getContextualMabMap()}),O.dispatch(d.SET_ODP_SEGMENTS,z.getOdpSegments()),mt(I.Lifecycle.postVisitorProfileLoad),t.push((s=Q.getAllPlugins(I.PluginTypes.visitorProfileProviders),f=tt.getVisitorProfile(),z.populateEagerVisitorData(s,f)).then((function(){C.log("Populated visitor profile")})));var r=ht(),o=_.decideGlobal(r);C.log("Made global decision",r,"->",o),O.dispatch(d.RECORD_GLOBAL_DECISION,o);var a=v.trackClientActivation();a?C.log("Tracked activation event",a):C.log("Not tracking activation event");var u=ft.setUpViewActivation(i),c=[];return u.forEach((function(t){c=c.concat(B.activateMultiple([t]))})),mt(I.Lifecycle.postViewsActivated),et.getActiveViewStates().length||h.emitCampaignsDecided([]),mt(I.Lifecycle.postActivate),h.emitActivatedEvent(),M.all(t).then((function(){A.emit({type:S.TYPES.LIFECYCLE,name:"activateDeferredDone"}),C.log("All immediate effects of activation resolved")}),g.emitError)}catch(t){return g.emitError(t),M.reject(t)}var s,f},ft.setUpViewActivation=function(t){var n=[];return t.forEach((function(t){"boolean"==typeof et.getViewState(t.id).isActive&&B.isActivationTypeImmediate(t.activationType)?C.debug("Skipping page: already evaluated, presumably at the edge",B.description(t)):B.shouldTriggerImmediately(t.activationType)?n.push(t):t.activationType===I.ViewActivationTypes.callback?(C.debug("Setting up conditional activation for Page",B.description(t)),ft.activateViewOnCallback(t)):t.activationType===I.ViewActivationTypes.polling?(C.debug("Setting up polling activation for Page",B.description(t)),j.pollFor(T.apply.bind(null,t.activationCode),null,V.isTimedOut.bind(null,b.now())).then((function(){B.activateMultiple([t])})).catch((function(n){C.warn("Failed to activate view ",t,n)}))):t.activationType!==I.ViewActivationTypes.manual&&g.emitError(new Error("Unknown view activationType: "+t.activationType))})),n},ft.activateViewOnCallback=function(t){var n={pageId:t.id};Object.defineProperty(n,"isActive",{get:function(){return et.isViewActive(t.id)}});try{T.apply(t.activationCode,[function(n){var e=Object.assign({},n,{pageName:t.apiName,type:"page"});at.push(e)},n])}catch(n){var e=new s("("+n.toString()+") in activationCode for "+B.description(t));g.emitError(e,{originalError:n,userError:!0})}},n.onViewsActivated=function(t){var e,i=t.data.views,r=i.map((function(t){return t.id}));try{if(!it.getBucketingId())throw new Error("View activated with no visitorId set");var o=function(t){var e=W.getAllByPageIds(t),i=K.getForceVariationIds(),r=K.getForceAudienceIds();!a(i)&&C.log("Force variations are in use. Disabling mutual exclusivity.");var o={individual:e};C.log("Deciding Campaigns/Experiments for Page(s)",t),!1;var u=o.individual.map(k.description).join(", ");C.log("Campaigns/Experiments not in Groups (by Campaign id):",u);var c=[],s=o.individual.map((function(e){var o=(e.pageIds||[]).filter((function(n){return Array.isArray(t)&&t.includes(n)}));return n.decideAndExecuteLayerASAP(i,r,o,e)})),f=c.concat(s);return M.all(f).then((function(n){var e=n.filter((function(t){return!!t}));return C.log("All Campaigns/Experiments for Page(s) (by Campaign id)",t,"resolved:",e.map(k.description).join(", ")),e}))}(r).catch(g.emitError);return o.then((function(){h.emitCampaignsDecided(r)})),e=M.all(i.map((function(t){var n=function(){B.parseViewTags(t);var n=v.trackViewActivation(t);n?C.log("Tracked activation for Page",B.description(t),n):C.log("Not Tracking activation for Page",B.description(t))};return E.isReady()?M.resolve(n()):j.pollFor(E.isReady,1e3).then(n)}))),M.all([o,e])}catch(t){g.emitError(t)}},n.onPageDeactivated=function(t){var n=t.data.page;(H.getAllActionIdsByPageId(n.id)||[]).forEach((function(t){var e=H.getActionState(t);e&&(Object.keys(e).forEach((function(t){var i=e[t];if(i.cancel)try{i.cancel(),C.debug("Controller / Canceled change",t,"observation due to deactivation of page:",n)}catch(n){C.error("Controller / Error canceling change",t,"observation upon deactivation of page.",n)}if(n.undoOnDeactivation&&i.undo)try{i.undo(),C.debug("Controller / Undid change",t,"due to deactivation of page:",n)}catch(t){C.error("Controller / Error undoing change upon deactivation of page.",t)}})),O.dispatch(d.REMOVE_ACTION_STATE,{actionId:t}),C.debug("Controller / Undid changes and/or canceled change observation due to deactivation of page:",n,t))}))},n.initializeApi=function(){var t={push:at.push};t.get=at.get;var n=window.optimizely;Array.isArray(n)&&n.forEach((function(n){t.push(n)})),t.data={note:"Obsolete, use optimizely.get('data') instead"},t.state={},window.optimizely=t},n.persistItemsWithId=function(t){return Object.keys(t).forEach((function(n){var e=t[n];z.checkKeyForVisitorId(n)&&R.setItem(n,e)})),t},n.initializeXDomainStorage=function(){var t=e(5292),i=!!z.getCurrentId(),r=!!i&&z.hasSomeData();i?r?C.log("xd / Existing visitor; has data on this origin"):C.log("xd / Existing visitor; new to this origin"):C.log("xd / New visitor");var o=$.getAccountId(),u="https://a25408250069.cdn.optimizely.com".replace("__SUBDOMAIN__","a"+o+"."),c="/client_storage/a"+o+".html";t.subscribe((function(t,n){z.checkKeyForVisitorId(t)&&R.setItem(t,n)}));var s=t.fetchAll().then((function(n){if(!it.getVisitorIdLocator()){var e=ot.getCanonicalOrigins();if(e){var i=t.getXDomainUserId(n,e);i&&(C.log("Syncing cross-origin visitor randomId:",i),z.maybePersistVisitorId({randomId:i}))}}return z.deleteOldForeignData(),n})).then(n.persistItemsWithId).then((function(t){if(z.loadForeignData(),i&&!r){var n=!a(t);C.debug("xd / Loaded foreign data? ",n),vt(n)}C.log("Loaded visitor data from foreign origins"),h.emitOriginsSyncedEvent()}),(function(t){throw i&&!r&&(C.debug("xd / Failed to load foreign data:",t),vt(!1,t)),t}));return M.all([t.load(u,c).catch((function(t){throw C.debug("xd / Failed to load iframe:",t),i&&!r&&vt(!1,t),t})),s.catch((function(t){C.debug("xd / Ignored error syncing foreign data (expected if waitForOriginSync used):",t.message),C.debug("xd / Enqueuing sync to happen after visitorId set."),O.dispatch(d.ADD_CLEANUP_FN,{lifecycle:I.Lifecycle.postVisitorProfileLoad,cleanupFn:h.emitOriginsSyncedEvent})}))])},n.decideAndExecuteLayerASAP=function(t,e,i,u){return new M((function(c,s){try{!function(t,n,e,i,r){if(n.length||e.length)return void r(ht([],void 0,i));var u=k.relatedAudienceIds(t),c=u.reduce((function(t,n){var e=q.get(n);return e&&t.push(e),t}),[]),s=Q.getAllPlugins(I.PluginTypes.audienceMatchers);if(Z.getSampleRum()){var f={};if(c.forEach((function(t){Object.assign(f,pt(t.conditions,s))})),!a(f)){var l=Object.keys(f);O.dispatch(d.RECORD_AUDIENCE_USAGE,{audienceTypes:l,layerId:t.id})}}var v=function(t){C.debug("Audience list for extracting types",t);try{var n=new Set(o(t.map((function(t){return t.conditions}))).filter((function(t){return null!=t&&"string"!=typeof t})).map((function(t){return t.type})));return n.has("time_and_day")&&n.add("currentTimestamp"),C.debug("Extracted unique types from audiences",n),n}catch(t){return C.error("An error occurred while extracting types from audiences:",t),new Set}}(c),h=Q.getAllPlugins(I.PluginTypes.visitorProfileProviders),g=tt.getVisitorProfile();z.populateLazyVisitorData(h,g,v),function(t,n,e,i){var r=t.reduce((function(t,e){return Object.assign(t,p.requiredAudienceFieldsForConditions(e.conditions,n))}),{}),o=Object.keys(r).reduce((function(t,n){var e=r[n];if(void 0===z.getAttribute(e)){var i=z.getPendingAttributeValue(e);void 0!==i&&t.push(i)}return t}),[]);if(0===o.length)return i();var u=[].concat(t),c=P.firstToResolve(o.map((function(t){return M.resolve(t).then((function(){var t=tt.getVisitorProfile();if(u=u.filter((function(e){return void 0===p.isInAudience(t,e,n)})),!a(u))throw new Error("At least one audience is still pending")}))})));M.race([c,new M((function(t,n){F.setTimeout(n,e)}))]).then((function(){C.log("Activating Campaign after pending Audiences resolved",t),i()}),(function(){C.log("Activating Campaign after timeout on Audiences",t),i()}))}(c,s,k.getActivationTimeout(t),(function(){var n=ht(c,t,i);n.forEach((function(n){!function(t,n,e){var i=t.audienceIds.map(q.get.bind(q)).filter(Boolean),r=n.filter((function(n){return!t.audienceIds.includes(n.id)}));C.log("When deciding Campaign",k.description(e),"visitor is in audiences:",gt(i),"and not in audiences:",gt(r))}(n,c,t)})),r(n)}))}(u,t,e,i,(function(o){o.forEach((function(o){var c=o.pageId?[o.pageId]:i;C.debug("Deciding layer: ",u,"with decisionTicket: ",o,"and actionViewIds: ",c),function(t,e,i,o,u){var c=k.description(t);C.log("Activating Campaign",c,"on Page(s)",o),i.length&&(C.log("Applying force audienceIds:",i,"to Campaign",c),(u=r(u)).audienceIds=i);var s=n.decideLayer(t,u,e),f=!(!e.length&&!i.length),p=n.getActionsForDecision(t,s,f),g=function(t,n){return t.filter((function(t){return void 0===t.pageId||n.includes(t.pageId)}))}(p.actions,o);if(p.maybeExecute&&function(t,n,e,i){var r=k.description(n);C.log("Preparing actions",t,"for Campaign",r,"on Page(s)",i),t.forEach(l.prepareAction)}(g,t,0,o),o.forEach((function(){v.trackDecisionEvent(s,u,t)})),h.emitLayerDecided({layer:t,decisionTicket:u,decision:s}),s.error)throw s.error;if(Z.getSampleRum()){O.dispatch(d.RECORD_LAYER_POLICY_USAGE,{policy:t.policy,layerId:t.id});var m=function(t){var n={};return t.forEach((function(t){t.changeSet.forEach((function(t){n[t.type]||(n[t.type]=!0)}))})),n}(p.actions);O.dispatch(d.RECORD_CHANGE_TYPE_USAGE,{changeTypes:Object.keys(m),layerId:t.id}),a(t.integrationSettings)||O.dispatch(d.RECORD_INTEGRATION_USAGE,{integrations:k.getIntegrationTypes(t),layerId:t.id})}if(!_.isInCohort(s))return void C.log("Not activating Campaign: "+k.description(t)+"; not in the cohort because:",s.reason);p.maybeExecute&&function(t,n,e,i){var r=k.description(n);C.log("Executing actions",t,"for Campaign",r,"on Page(s)",i),M.all(t.map((function(t){return l.executePreparedAction(t).then(h.emitActionAppliedEvent.bind(null,t))}))).then((function(){C.log("All page actions for",e,"applied:",t),h.emitActionsForDecisionAppliedEvent(e,t)})).catch((function(t){C.warn("Error evaluating page actions for decision",e,"because:",t)}))}(g,t,s,o)}(u,t,e,c,o)})),c(u)}))}catch(t){C.error("Error getting decision for Campaign: "+k.description(u),t),s(t)}}))},n.decideLayer=function(t,n,e){var i;var r=k.description(t);i=e.length?_.getDummyLayerDecision(t,e):_.decideLayer(t,n),C.log("Recording decision for Campaign",r,n,"->",i),k.recordLayerDecision(t.id,n,i),i.variationId&&i.experimentId&&z.updateVariationIdMap(t.id,i.experimentId,i.variationId);return i},n.getActionsForDecision=function(t,n,e){var i=k.description(t),r="NOT applying changes for Campaign",o={actions:[],maybeExecute:!1};if(o.actions=[].concat(H.getLayerActions(n.layerId)||[],H.getExperimentActions(n.experimentId)||[],H.getExperimentVariationActions(n.experimentId,n.variationId)||[]),!e&&$.isGlobalHoldback())return C.log(r,i,"(visitor is in global holdback)"),o;if(n.isLayerHoldback)return C.log(r,i,"(visitor is in layer holdback)"),o;if(!n.experimentId||!n.variationId)return C.log(r,i,"(visitor is not eligible for any Experiments)"),o;return o.maybeExecute=!0,C.log("Got Actions for Campaign:",i,o.actions),o}},6546:function(t,n,e){var i=e(6761).Promise,r=e(8298),o=e(2025).get("stores/plugins"),a=e(6592),u=e(7852);n.create=function(t,n,e){var c={identifier:t.id,action:n,startTime:e||r.now()};try{var s=o.getPlugin(a.PluginTypes.changeAppliers,t.type);if(!s)throw new Error("Unrecognized change type "+t.type);return new s(t,c)}catch(t){return u.error("Change applier was never properly constructed:",t),{apply:function(){return i.reject(t)}}}}},8486:function(t){t.exports={SELECTOR_POLLING_MAX_TIME:2e3,CHANGE_DATA_KEY:"optimizelyChangeData",CHANGE_ID_ATTRIBUTE_PREFIX:"data-optly-"}},9114:function(t,n,e){var i=e(8275).isEmpty,r=e(8486).CHANGE_DATA_KEY;function o(t,n){return[t,n].join("_")}n.getData=function(t,n,e){var i=o(n,e);return t[r]&&t[r][i]?t[r][i]:null},n.hasData=function(t){return Boolean(t&&t[r]&&!i(t[r]))},n.removeData=function(t,n,e){t[r]&&delete t[r][o(n,e)]},n.setData=function(t,n,e,i){if("object"!=typeof i)throw new Error("setData expects an object");t[r]||(t[r]={}),t[r][o(n,e)]=i}},8421:function(t,n,e){var i=e(3826);t.exports={changeType:{CUSTOM_CODE:"custom_code",ATTRIBUTE:"attribute",APPEND:"append",REARRANGE:"rearrange",REDIRECT:"redirect",WIDGET:"widget"},DOMInsertionType:{AFTER:"after",APPEND:"append",BEFORE:"before",PREPEND:"prepend"},insertAdjacentHTMLType:{AFTER_BEGIN:"afterbegin",AFTER_END:"afterend",BEFORE_BEGIN:"beforebegin",BEFORE_END:"beforeend"},selectorChangeType:{CLASS:"class",HTML:"html",HREF:"href",SRC:"src",SRCSET:"srcset",STYLE:"style",TEXT:"text",HIDE:"hide",REMOVE:"remove"},changeApplierState:i({APPLIED:null,APPLYING:null,UNAPPLIED:null,UNDOING:null}),changeState:i({BLOCKED:null,UNAPPLIED:null,APPLIED:null,APPLYING:null,UNDOING:null,TIMED_OUT:null,IGNORED:null,ERROR:null})}},8395:function(t,n,e){var i=e(136),r=e(8841),o=e(5192),a=e(8130).v,u=e(8298),c=e(2025),s=e(409),f=e(7852),l=e(6761).Promise,d=e(7219),v=c.get("stores/global"),h=c.get("stores/action_data"),p=c.get("stores/change_data"),g=c.get("stores/session"),m=e(6546);e(123).initialize();var b=a("ActionError");function _(t,n,e){if(h.getActionState(n.id))if(void 0===h.getChangeApplier(t.id,n.id)){var r={changeId:t.id,actionId:n.id,changeApplier:m.create(t,n,e)};s.dispatch(i.SET_CHANGE_APPLIER,r)}else f.warn("Action / Attempted to prepare a change which is already being applied: ",t);else f.warn("Action / Attempted to prepare change for inactive action: ",n)}function y(t,n,e,i){if(!i.includes(n)){if(!t[String(n)]){var a=p.getChange(n);if(!a){var c="Change with id "+n+" is absent";return i.length&&(c+=" but listed as a dependency for "+i[i.length-1]),void f.warn(c)}t[String(n)]=new l((function(c){var s=(a.dependencies||[]).map((function(r){return y(t,r,e,i.concat([n]))}));if(a.src){var v="change_"+a.src,g=o.makeAsyncRequest(v,(function(){return d.addScriptAsync("https://cdn.optimizely.com/public/25408250069/data"+a.src,(function(){o.resolveRequest(v)}))})).then((function(){var t=p.getChange(a.id);t||r.emitError(new b("Failed to load async change from src: "+a.src)),_(t,e,u.now())}));s.push(g)}l.all(s).then((function(){var t=u.now(),i=h.getChangeApplier(n,e.id);return i?(f.debug("Action / Applying change:",a),i.apply().then((function(n){n?f.log(n):f.debug("Action / Applied change for the first time in "+(u.now()-t)+"ms:",a),c()}))):(f.debug("Action / Not applying change ",n," - No changeApplier found."),void c())})).catch((function(t){f.error("Action / Failed to apply change:",a,t),c()}))}))}return t[String(n)]}f.error("Change with id "+n+" has circular dependencies: "+i.concat(n))}n.prepareAction=function(t){f.debug("Action / Preparing:",t),s.dispatch(i.ACTION_EXECUTED,{actionId:t.id,sessionId:g.getSessionId(),layerId:t.layerId,pageId:t.pageId,timestamp:u.now(),activationId:v.getActivationId()});var n=u.now();t.changeSet.forEach((function(e){var r="object"==typeof e&&null!==e?e.id:e,o=p.getChange(r);o||(s.dispatch(i.ADD_CHANGE,e),o=p.getChange(r)),o.src||_(o,t,n)}))},n.executePreparedAction=function(t){f.debug("Action / Executing:",t);var n={},e=t.changeSet.map((function(e){var i="object"==typeof e&&null!==e?e.id:e;return y(n,i,t,[])}));return l.all(e).then((function(){f.debug("changes for action id="+t.id+" applied")}))}},123:function(t,n,e){var i=e(8486),r=e(2025).get("stores/directive");function o(){("interactive"===document.readyState||"complete"===document.readyState)&&(n.domReadyTime=Date.now())}n.domReadyTime=null,n.initialize=function(){o(),document.addEventListener("readystatechange",o,!0)},n.isTimedOut=function(t){var e=Date.now();if(!n.domReadyTime||!t)return!1;var o=Math.max(t,n.domReadyTime);return r.isEditor()&&(o=n.domReadyTime),!(e-o<i.SELECTOR_POLLING_MAX_TIME)}},8131:function(t,n,e){var i=e(8275),r=i.omit,o=i.pick,a=e(136),u=e(8841),c=e(8674),s=e(2575),f=e(8298),l=e(7871),d=e(2025),v=e(1019),h=e(6592),p=e(8421),g=e(5225),m=e(7566),b=e(3111),_=e(1320),y=e(409),w=e(2042),E=e(7852),I=(e(5010),e(6761).Promise),A=e(3272),S=e(5894),T=e(249),O=e(6938),k=e(9899),R=d.get("stores/client_metadata"),C=d.get("stores/global"),N=d.get("stores/session"),D=d.get("stores/view"),x=d.get("stores/plugins"),j=d.get("stores/layer"),M=d.get("stores/layer_data"),P=d.get("stores/observed_redirect"),L=d.get("stores/pending_redirect"),U=d.get("stores/visitor"),V=d.get("stores/directive"),B=d.get("stores/event_data"),z=d.get("stores/visitor_id");function F(t,n,e){return void 0===e&&(e=!1),Object.assign({},t,{isLayerHoldback:n,isLayerConcluded:e,isGlobalHoldback:!1,clientName:null!==t.clientName?t.clientName:l.NAME,integrationStringVersion:null!==t.integrationStringVersion?t.integrationStringVersion:1,anonymizeIP:null!==C.getAnonymizeIP()?C.getAnonymizeIP():void 0,activationId:C.getActivationId(),decisionTicketAudienceIds:[],sessionId:N.getSessionId(),activeViewStates:[],userFeatures:Y(U.getVisitorProfile()),layerStates:j.getLayerStatesForAnalytics()})}function G(t){var n=A.getReferrer()||v.getReferrer();return{eventId:k.generate(),timestamp:f.now(),revision:C.getRevision(),clientName:R.getClientName(),clientVersion:R.getClientVersion(),projectId:C.getProjectId(),accountId:C.getAccountId(),activationId:C.getActivationId(),sessionId:N.getSessionId(),isGlobalHoldback:C.isGlobalHoldback(),namespace:C.getNamespace(),referrer:n,visitorId:z.getRandomId(),activeViewStates:t.activeViewStates,layerStates:t.layerStates,userFeatures:Y(t.visitorProfile,!t.deferBehaviorFeatures)}}function q(t){var n,e;return t.pageId?(n=t.pageId,(e=D.getViewState(n))&&e.isActive?e.metadata:{}):{}}function H(){try{var t=M.getExperimentsMap()||{},n=[],i=Object.create(null);if(Object.keys(t).forEach((function(e){var r=t[e]&&t[e].experimentMetadata;(r&&r.cmabAttributes&&r.cmabAttributes.vbaAttributes||[]).forEach((function(t){t&&t.featureName&&!i[t.featureName]&&(i[t.featureName]=!0,n.push(t))}))})),!n.length)return[];var r=e(8620).getEvents();return e(5560).buildVbaFeatures(n,r,f.now()).map((function(t){return{id:t.id,name:t.id,type:t.type,value:t.value,shouldIndex:!0}}))}catch(t){E.warn("CMAB / VBA / Error building visitor behavior features",t)}return[]}function Y(t,n){void 0===n&&(n=!0);var e=x.getAllPlugins(h.PluginTypes.visitorProfileProviders),i=Object.values(e).filter((function(t){return!0===t.shouldTrack})),r={id:null,type:null,name:"",value:null,shouldIndex:!0},a=i.reduce((function(n,e){try{var i=e.provides,a=t[i],u=[];if(void 0!==a){null!==a&&"object"==typeof a?u=Object.keys(a).map((function(t){var n=a[t],e=null!==n&&"object"==typeof n?n:{value:n};return Object.assign({},{type:i,name:t},e)})):u.push({type:i,value:a});var c=u.map((function(t){return o(Object.assign({},r,t),Object.keys(r))})).filter((function(t){return!!t.value}));n=n.concat(c)}}catch(t){E.warn("Error evaluating userFeature against visitorProfile:",t)}return n}),[]);return n?a.concat(H()):a}function K(t){t&&t.userFeatures&&(t.userFeatures=t.userFeatures.concat(H()))}function $(t,n,e){var i=function(t,n){var e=[],i=x.getAllPlugins(h.PluginTypes.analyticsTrackers);return Object.keys(i).forEach((function(r){var o=i[r];if(o[t]&&(!n||!o[n]))try{e.push({name:r,hookFn:d.evaluate(o[t])})}catch(t){E.error(t)}})),e}(t,e);E.debug("Found "+i.length+" analytics integrations defining a "+t+" hook"),E.debug("Calling each with data: ",n),i.forEach((function(t){try{E.debug("Calling plugin: "+t.name),t.hookFn(n),E.debug("Called plugin: "+t.name)}catch(t){E.error(t)}}))}function W(t,n,e){var i=function(t,n){0;var e=[],i=x.getAllPlugins(h.PluginTypes.analyticsTrackers);return Object.keys(i).forEach((function(r){var o=i[r];n.includes(o[t])&&e.push({name:r,hookFn:o.trackLayerDecision})})),e}(t,n);E.debug("Found "+i.length+" analytics integrations  defining a trackLayerDecision "+t+" timing of "+n.join("|")),E.debug("Calling each with data: ",e),i.forEach((function(t){try{E.debug("Calling plugin: "+t.name),t.hookFn(e),E.debug("Called plugin: "+t.name)}catch(t){E.error(t)}}))}n.trackClientActivation=function(){if(!e(4308).shouldDrop()&&V.shouldSendTrackingData()){var t,n=(t=G({activeViewStates:[],visitorProfile:U.getVisitorProfile(),layerStates:j.getLayerStatesForAnalytics()}),Object.assign(t,{eventTags:{}}));return $("onClientActivation",n),n}},n.trackCustomEvent=function(t,n,i,o){if(!e(4308).shouldDrop()){n=n||{},o=o||{},i||(i=B.getByApiName(t));var a=function(t,n,e,i){var r=G({activeViewStates:D.getActiveViewStates(),visitorProfile:U.getVisitorProfile(),layerStates:j.getLayerStatesForAnalytics(),deferBehaviorFeatures:!0}),o=i&&i.pageId?q(i):D.getActiveViewTags(),a=Object.assign({},o,n),u=i&&i.category?i.category:g.OTHER;return Object.assign(r,{eventEntityId:i&&i.id,eventApiName:t,eventCategory:u,eventTags:a,eventProperties:e})}(t,n,o,i),c={name:t,type:_.CUSTOM,category:a.eventCategory,tags:r(a.eventTags,["revenue"])};if(void 0!==n.revenue&&(c.revenue=n.revenue),u.emitAnalyticsEvent({name:i?i.name||i.apiName:t,apiName:i?i.apiName:void 0,type:_.CUSTOM,properties:a.eventProperties,tags:r(a.eventTags,["revenue"]),category:a.eventCategory,metrics:c.revenue?{revenue:c.revenue}:{}},!V.shouldSendTrackingData()),V.shouldSendTrackingData())return s.addEvent(c),K(a),$("onCustomEvent",a),a}},n.trackDecisionEvent=function(t,n,i){if(!e(4308).shouldDrop()){i||(i=M.get(t.layerId));var r=k.generate();y.dispatch(a.RECORD_LAYER_DECISION_EVENT_ID,{layerId:t.layerId,pageId:n.pageId,decisionId:r});var o=t.experimentId?i.experiments.find((function(n){return n.id===t.experimentId})):null,u=function(t,n,e,i,r){var o=null,a=null,u=null;if(r&&(o=r.name||null,u=r.integrationSettings,n.variationId)){var c=r.variations.find((function(t){return t.id===n.variationId}));c&&(a=c.name||null)}var s=A.getReferrer()||v.getReferrer(),l={sessionId:N.getSessionId(),decisionTicketAudienceIds:e.audienceIds,visitorId:z.getRandomId(),decisionId:t,activationId:C.getActivationId(),namespace:C.getNamespace(),timestamp:f.now(),pageId:e.pageId||null,variationId:n.variationId,variationName:a,experimentId:n.experimentId,experimentName:o,layerId:n.layerId,layerName:i.name,layerPolicy:i.policy,accountId:C.getAccountId(),projectId:C.getProjectId(),revision:String(C.getRevision()),clientName:R.getClientName(),clientVersion:R.getClientVersion(),referrer:s,integrationStringVersion:i.integrationStringVersion||1,integrationSettings:Object.assign({},i.integrationSettings,u)};return l}(r,t,n,i,o),s=L.isExpectingRedirect(),l=L.getLayerId(),d=w.description(i);if(s&&l===i.id&&(S.persist(u,"COOKIE"),E.log("Relaying decision for redirect Campaign",d)),V.shouldSendTrackingData()){var h=F(u,t.isLayerHoldback,t.isLayerConcluded);if(s&&l===i.id){var g=O.TrackLayerDecisionTimingFlags.preRedirectPolicy;h.timing=g,W(g,[O.PreRedirectPolicies.PERSIST_BEFORE_AND_TRACK_DURING_REDIRECT],h),E.log("Called trackLayerDecision for redirect Campaign",d,h)}else{g=O.TrackLayerDecisionTimingFlags.nonRedirectPolicy;h.timing=g,W(g,[O.NonRedirectPolicies.TRACK_IMMEDIATELY],h),E.log("Called trackLayerDecision for non-redirect Campaign",d,h)}(function(t){return!(!t||!t.variations)&&t.variations.some((function(t){return!!t.actions&&t.actions.some((function(t){return!(!t||!t.changes)&&t.changes.some((function(t){return t.type===p.changeType.REDIRECT}))}))}))})(o)&&(y.dispatch(a.SET_TRACKER_USE_BEACON,!0),c.emitMaybeSendEvents(),y.dispatch(a.SET_TRACKER_USE_BEACON,!1))}else E.log("Analytics / Not tracking decision for Campaign",w.description(i))}},n.trackPostRedirectDecisionEvent=function(){if(e(4308).shouldDrop()||!V.shouldSendTrackingData()||P.hasTracked())return I.resolve();var t=P.get();if(!t)return I.resolve();var n=F(t,!1),i=O.TrackLayerDecisionTimingFlags.postRedirectPolicy;n.timing=i,W(i,[O.PostRedirectPolicies.TRACK_IMMEDIATELY],n);var r=new I((function(t){var n=m.on({filter:{type:b.TYPES.LIFECYCLE,name:"originsSynced"},handler:function(){t(),m.off(n)}})})),o=T.makeTimeoutPromise(1e3);return I.race([r,o]).then((function(){E.log("Calling trackers after successful sync")}),(function(t){E.warn("Calling trackers after failed sync:",t)})).then((function(){(n=F(t,!1)).timing=O.TrackLayerDecisionTimingFlags.postRedirectPolicy,W(O.TrackLayerDecisionTimingFlags.postRedirectPolicy,[O.PostRedirectPolicies.TRACK_AFTER_SYNC],n),y.dispatch(a.REGISTER_TRACKED_REDIRECT_DATA)})).catch((function(t){E.error("Error when calling trackers after sync:",t)}))},n.trackClickEvent=function(t){if(!e(4308).shouldDrop()){var n=function(t){var n=G({activeViewStates:D.getActiveViewStates(),visitorProfile:U.getVisitorProfile(),layerStates:j.getLayerStatesForAnalytics(),deferBehaviorFeatures:!0}),e=t.config&&t.config.selector?t.config.selector:t.eventFilter.selector,i=t.apiName,r=t.category||g.OTHER,o=t.id,a=q(t);return Object.assign(n,{eventApiName:i,eventCategory:r,eventEntityId:o,eventTags:a,pageId:t.pageId,selector:e})}(t),i={name:t.apiName,type:t.eventType,category:n.eventCategory,tags:n.eventTags};if(u.emitAnalyticsEvent({name:t.name||t.apiName,apiName:t?t.apiName:void 0,type:t.eventType,category:n.eventCategory,tags:n.eventTags,metrics:{}},!V.shouldSendTrackingData()),V.shouldSendTrackingData())return s.addEvent(i),K(n),$("onClickEvent",n),n}},n.trackViewActivation=function(t,n){if(!e(4308).shouldDrop())if(n||(n=D.getViewState(t.id)),n.isActive){var i=function(t,n){var e=G({activeViewStates:D.getActiveViewStates(),visitorProfile:U.getVisitorProfile(),layerStates:j.getLayerStatesForAnalytics(),deferBehaviorFeatures:!0});return Object.assign(e,{pageId:t.id,pageApiName:t.apiName,viewCategory:t.category,eventTags:n.metadata})}(t,n);if(u.emitAnalyticsEvent({name:t.name||i.pageApiName,apiName:i.pageApiName,type:_.PAGEVIEW,category:i.viewCategory,tags:i.eventTags,metrics:{}},!V.shouldSendTrackingData()),V.shouldSendTrackingData())return s.addEvent({name:i.pageApiName,type:_.PAGEVIEW,category:i.viewCategory,tags:i.eventTags}),K(i),y.dispatch(a.TRACK_VIEW_ACTIVATED_EVENT,{pageId:t.id,eventData:i}),$("onPageActivated",i),i}else E.debug("Inactive view passed to `trackViewActivation`")}},5894:function(t,n,e){var i=e(136),r=e(6278),o=e(8841),a=e(2025),u=e(6592),c=e(409),s=e(7852),f=e(6938),l=a.get("stores/plugins"),d=".",v=[{name:"sessionId",relayName:"s"},{name:"decisionTicketAudienceIds",relayName:"as",valueToValueString:function(t){return t.map(encodeURIComponent).join(",")},encodeValueString:function(t){return t},decodeValueString:function(t){return t},valueFromValueString:function(t){return t.split(",").map(r.safeDecodeURIComponent)}},{name:"decisionId",relayName:"d"},{name:"activationId",relayName:"aId"},{name:"pageId",relayName:"vId",isNullable:!0},{name:"variationId",relayName:"v",isNullable:!0},{name:"referrer",relayName:"r"},{name:"timestamp",relayName:"t",valueFromValueString:Number},{name:"visitorId",relayName:"i"},{name:"projectId",relayName:"p"},{name:"revision",relayName:"n"},{name:"clientName",relayName:"cN",isNullable:!0},{name:"clientVersion",relayName:"cV"},{name:"namespace",relayName:"ns"},{name:"accountId",relayName:"a"},{name:"layerId",relayName:"l"},{name:"layerName",relayName:"lN",isNullable:!0},{name:"layerPolicy",relayName:"lP"},{name:"experimentId",relayName:"x",isNullable:!0},{name:"experimentName",relayName:"xN",isNullable:!0},{name:"variationName",relayName:"vN",isNullable:!0},{name:"integrationStringVersion",relayName:"isv",valueFromValueString:Number,isNullable:!0},{name:"integrationSettings",relayName:"iS",isMulti:!0,valueToValueString:function(t,n){var e=null;if(t){var i=l.getPlugin(u.PluginTypes.analyticsTrackers,n);if(i&&"function"==typeof i.serializeSettings)try{e=i.serializeSettings(t)}catch(t){s.warn("Analytics / Failed to persist integrationSettings for plugin:",n,t)}}return e},valueFromValueString:function(t,n){var e=null,i=l.getPlugin(u.PluginTypes.analyticsTrackers,n);if(i&&"function"==typeof i.deserializeSettings)try{e=i.deserializeSettings(t)}catch(t){s.warn("Analytics / Failed to persist integrationSettings for plugin:",n,t)}return e},isNullable:!0}],h={},p={};v.forEach((function(t){h[t.name]=t,p[t.relayName]=t})),n.persist=function(t,n){n===f.RedirectRelayMedia.COOKIE?function(t){try{var n=function(t){var n=[],e=Object.keys(t).reduce((function(e,i){var r=t[i],o=h[i];return o?(o.isMulti?Object.keys(r).forEach((function(t){var n=r[t];null!==(n=o.valueToValueString?o.valueToValueString(n,t):String(n))&&(n=(o.encodeValueString||encodeURIComponent)(n),e.push(encodeURIComponent(o.relayName+d+t)+"="+n))})):null!==r&&(r=(o.valueToValueString||String)(r),r=(o.encodeValueString||encodeURIComponent)(r),e.push(o.relayName+"="+r)),e):(n.push(i),e)}),[]);if(n.length)throw new Error("Relay / Don't know how to relay some fields: "+n);return e.sort(),e.join("&")}(t)}catch(t){return s.error("Relay / Error computing redirect relay cookie: ",t),void o.emitError(t)}s.debug("Relay / Setting redirect relay cookie:",n);try{r.set(u.COOKIES.REDIRECT,n,{maxAge:5,encodeValue:!1})}catch(t){s.error("Relay / Failed to set redirect relay cookie",t),o.emitError(t)}}(t):s.error("Relay / Unsupported redirect relay medium: "+n)},n.load=function(t){if(t||(t=function(){var t=r.get(u.COOKIES.REDIRECT,!1);if(t)return s.log("Relay / Found redirect cookie:",t),t}()),t){var n=function(t){var n={};return t.split("&").forEach((function(t){var e=t.split("=");if(2===e.length){var i=r.safeDecodeURIComponent(e[0]),a=p[i];if(a||(a=v.find((function(t){return t.isMulti&&0===i.indexOf(t.relayName+d)})))){var u=e[1];try{if(a.isMulti){n[a.name]=n[a.name]||{};var c=i.substring(a.relayName.length+1);u=(a.decodeValueString||r.safeDecodeURIComponent)(u),u=(a.valueFromValueString||function(t){return t})(u,c),n[a.name][c]=u}else u=(a.decodeValueString||r.safeDecodeURIComponent)(u),u=(a.valueFromValueString||function(t){return t})(u),n[a.name]=u}catch(n){return s.warn("Relay / Skipping segment due to decode or parse error:",t,n),void o.emitError(n)}}else s.warn("Relay / Skipping segment with unknown field identifier:",t,i)}else s.warn("Relay / Skipping invalid segment:",t)})),n}(t);if(n){var e=[];if(v.forEach((function(t){null!==n[t.name]&&void 0!==n[t.name]||(t.isNullable?n[t.name]=null:(delete n[t.name],e.push(t.name)))})),!e.length)return c.dispatch(i.LOAD_REDIRECT_DATA,n),c.dispatch(i.ADD_CLEANUP_FN,{lifecycle:u.Lifecycle.postVisitorProfileLoad,cleanupFn:function(){var t,e;e=(t=n).pageId||void 0,c.dispatch(i.RECORD_LAYER_DECISION,{layerId:t.layerId,decision:{layerId:t.layerId,experimentId:t.experimentId,variationId:t.variationId,isLayerHoldback:!1},decisionTicket:{audienceIds:t.decisionTicketAudienceIds,bucketingId:t.visitorId,globalHoldback:0,preferredVariationMap:void 0,pageId:e,activationId:t.activationId},sessionId:t.sessionId,activationId:t.activationId,timestamp:t.timestamp,revision:t.revision,namespace:t.namespace,pageId:e}),c.dispatch(i.RECORD_LAYER_DECISION_EVENT_ID,{layerId:t.layerId,pageId:e,decisionId:t.decisionId}),c.dispatch(i.ACTION_EXECUTED,{sessionId:t.sessionId,layerId:t.layerId,pageId:t.pageId,timestamp:t.timestamp,activationId:t.activationId})}}),n;s.error("Relay / Observed redirect data with missing fields:",e)}}}},8841:function(t,n,e){var i=e(7566);n.emitError=function(t,n,e){i.emit({type:"error",name:t.name||"Error",data:{error:t,metadata:n}},e||!1,!0)},n.emitInternalError=function(t,e){n.emitError(t,e,!0)},n.emitAnalyticsEvent=function(t,n){var e={type:"analytics",name:"trackEvent",data:t};i.emit(e,n)}},7595:function(t,n,e){var i=e(5421),r=e(8859),o=e(7852),a=e(4285);function u(t,n){var e="function"==typeof t?t(n):t;return"string"==typeof e&&(e=[e]),Array.isArray(e)?e:(o.warn("Couldn't determine fieldsNeeded for matcher; assuming []"),[])}function c(t){return t.name?t.name+" ("+t.id+")":t.id}n.isInAudience=function(t,n,e){var a,s=function(t,n){return function(e){var i=e.type,a=n[i];if(!a)throw new Error("Audience / No matcher found for type="+i);if(a.fieldsNeeded)for(var c=u(a.fieldsNeeded,e),s=0;s<c.length;s++){var f=c[s];if(void 0===r.getFieldValue(t,f))return void o.debug("Audience / Required field",f,"for type",i,"has no value")}o.debug("Matching condition:",e,"to values:",t);var l=a.match(t,e);if(void 0!==l)return!!l}}(t,e);o.groupCollapsed("Checking audience",n.name,n.id,n),o.debug("Visitor Profile:",t);try{var f=i.evaluate(n.conditions,s)}catch(t){a=t,f=!1}return o.groupEnd(),a&&o.error("Audience / Error evaluating audience",c(n),":",a),o.log("Is "+(f?"in":"NOT in")+" audience:",c(n)),f},n.requiredAudienceFieldsForConditions=function t(n,e){var i={};return n.forEach((function(n){if(Array.isArray(n))Object.assign(i,t(n,e));else if(null!==n&&"object"==typeof n){var r=e[n.type];if(r)u(r.fieldsNeeded,n).forEach((function(t){i[a.serializeFieldKey(t)]=t}))}})),i}},1489:function(t,n){n.FIELDS={NAME:"n",TIME:"t",TYPE:"y",CATEGORY:"c",REVENUE:"r",SESSION_ID:"s",OPTIONS:"o",SESSION_INDEX:"si"},n.FIELDS_V0_2={name:n.FIELDS.NAME,time:n.FIELDS.TIME,type:n.FIELDS.TYPE,category:n.FIELDS.CATEGORY,tags:n.FIELDS.OPTIONS,session_index:n.FIELDS.SESSION_INDEX}},8487:function(t,n,e){var i=e(1489),r=e(8859).getFieldValue,o=e(1691);function a(t,n,e,r,o){this[i.FIELDS.NAME]=t,this[i.FIELDS.TYPE]=n,"string"==typeof e&&e.trim().length>0&&(this[i.FIELDS.CATEGORY]=e),r&&Object.keys(r).length>0&&(this[i.FIELDS.OPTIONS]=r),void 0!==o&&(this[i.FIELDS.REVENUE]=o)}function u(t,n,e,r){this.eventBase=t,this[i.FIELDS.TIME]=n,void 0!==e&&(this[i.FIELDS.SESSION_ID]=e),void 0!==r&&(this[i.FIELDS.SESSION_INDEX]=r)}n._=a,a.prototype.digest=function(){var t=function(t,n){return encodeURIComponent(t)+"="+encodeURIComponent(n)},n=[];if(n.push(t(i.FIELDS.NAME,this[i.FIELDS.NAME])),n.push(t(i.FIELDS.TYPE,this[i.FIELDS.TYPE])),this[i.FIELDS.CATEGORY]&&n.push(t(i.FIELDS.CATEGORY,this[i.FIELDS.CATEGORY])),this[i.FIELDS.REVENUE]&&n.push(t(i.FIELDS.REVENUE,this[i.FIELDS.REVENUE])),!this[i.FIELDS.OPTIONS])return n.join("&");var e=this[i.FIELDS.OPTIONS]||{},r=Object.keys(e).filter((function(t){return e.hasOwnProperty(t)}));r=r.sort();for(var o=0;o<r.length;o++)n.push(t(r[o],e[r[o]]));return n.join("&")},a.prototype.hash=function(){return this.hash_||(this.hash_=o.hashToHex(o.toByteString(this.digest()),o.Seed.BEHAVIOR_EVENT)),this.hash_},a.prototype.setHash=function(t){this.hash_=t},a.prototype.reHash=function(){this.hash_=null,this.hash()},a.prototype.equals=function(t){if(this.hash()!==t.hash()||this[i.FIELDS.NAME]!==t[i.FIELDS.NAME]||this[i.FIELDS.TYPE]!==t[i.FIELDS.TYPE]||this[i.FIELDS.CATEGORY]!==t[i.FIELDS.CATEGORY]||this[i.FIELDS.REVENUE]!==t[i.FIELDS.REVENUE])return!1;var n=this[i.FIELDS.OPTIONS]||{},e=t[i.FIELDS.OPTIONS]||{},r=Object.keys(n).filter((function(t){return n.hasOwnProperty(t)})),o=Object.keys(e).filter((function(t){return e.hasOwnProperty(t)}));if(r.length!==o.length)return!1;for(var a=0;a<r.length;a++){var u=r[a];if(!e.hasOwnProperty(u)||n[u]!==e[u])return!1}return!0},a.prototype.getValueOrDefault=function(t,n){var e=r(this,t);return void 0!==e?e:n},a.prototype.setFieldValue=function(t,n){t!==i.FIELDS.NAME&&t!==i.FIELDS.TYPE&&t!==i.FIELDS.CATEGORY&&t!==i.FIELDS.REVENUE&&t!==i.FIELDS.OPTIONS||(this[t]=n,this.reHash())},n.J=u,u.prototype.getValueOrDefault=function(t,n){if(0===t.length)return this;var e={};e[i.FIELDS.TIME]=this[i.FIELDS.TIME],e[i.FIELDS.SESSION_ID]=this[i.FIELDS.SESSION_ID],e[i.FIELDS.SESSION_INDEX]=this[i.FIELDS.SESSION_INDEX];var o=r(e,t);return void 0!==o?o:this.eventBase.getValueOrDefault(t,n)},u.prototype.setFieldValue=function(t,n){t===i.FIELDS.TIME||t===i.FIELDS.SESSION_ID||t===i.FIELDS.SESSION_INDEX?this[t]=n:this.eventBase.setFieldValue(t,n)};var c={n:"name",y:"type",c:"category",r:"revenue",s:"session_id",o:"tags",si:"session_index"};u.prototype.readableEvent=function(){var t,n,e=function(t){return"string"==typeof t?'"'+t+'"':t},r=this,o=[];[i.FIELDS.NAME,i.FIELDS.TYPE,i.FIELDS.CATEGORY,i.FIELDS.REVENUE,i.FIELDS.SESSION_ID].forEach((function(i){t=c[i],void 0!==(n=r.getValueOrDefault([i]))&&o.push(t+": "+e(n))}));var a=[];if(t=c[i.FIELDS.OPTIONS],void 0!==(n=r.getValueOrDefault([i.FIELDS.OPTIONS]))&&(Object.keys(n).forEach((function(t){var i=n[t];a.push(t+": "+String(e(i)))})),o.push(t+": {\n\t\t"+a.join(",\n\t\t")+"\n\t}")),"number"==typeof(n=r.getValueOrDefault([i.FIELDS.TIME]))&&(n=e(new Date(n).toString())),void 0!==n){o.push("timestamp: "+n)}return"{\n\t"+o.join(",\n\t")+"\n}"},u.prototype.toObject=function(t){var n,e,r={},o=this;[i.FIELDS.NAME,i.FIELDS.TYPE,i.FIELDS.CATEGORY,i.FIELDS.REVENUE,i.FIELDS.OPTIONS,i.FIELDS.SESSION_INDEX].forEach((function(t){n=c[t],void 0!==(e=o.getValueOrDefault([t],t===i.FIELDS.OPTIONS?{}:void 0))&&(r[n]=e)}));var a=c[i.FIELDS.OPTIONS],u=c[i.FIELDS.REVENUE];if(t&&t.revenueAsTag&&r[u]&&(r[a]=r[a]||{},r[a][u]=r[u],delete r[u]),"number"==typeof(e=o.getValueOrDefault([i.FIELDS.TIME])))if(t&&t.timeAsTimestamp){r.timestamp=new Date(e)}else{r.time=e}return r}},2575:function(t,n,e){var i=e(4938);n.initializeStore=i.initialize,n.addEvent=i.addEvent,n.getEvents=i.getEvents,n.getEventCount=i.getEventCount},7269:function(t,n,e){var i=e(8487).J,r=e(8298),o=e(1489),a=e(8487)._;n.CURRENT_SESSION_INDEX=0;var u=18e5;function c(t,e){var i;i=n.isInSameSession(t,e)?t.getValueOrDefault([o.FIELDS.SESSION_ID]):e.getValueOrDefault([o.FIELDS.TIME]),e.setFieldValue(o.FIELDS.SESSION_ID,i)}function s(t,e,i){var r,a=t.getValueOrDefault([o.FIELDS.SESSION_INDEX]);r=n.isInSameSession(e,t)?a:i?a+1:a-1,e.setFieldValue(o.FIELDS.SESSION_INDEX,r)}n.isInSameSession=function(t,n){var e=t.getValueOrDefault([o.FIELDS.TIME],0),i=n.getValueOrDefault([o.FIELDS.TIME],0);return this.isTimestampInSameSession(e,i)},n.isTimestampInSameSession=function(t,n){return Math.abs(t-n)<u},n.updateSessionId=function(t,n){if(t){var e=t.getValueOrDefault([o.FIELDS.TIME]),r=t.getValueOrDefault([o.FIELDS.SESSION_ID]),u=n.getValueOrDefault([o.FIELDS.TIME]);e="number"!=typeof e?u-36e5:e,r="number"!=typeof r?e:r,c(t=new i(new a("",""),e,r),n)}else n.setFieldValue(o.FIELDS.SESSION_ID,n.getValueOrDefault([o.FIELDS.TIME]))},n.updateSessionIndex=function(t,n){if(t){var e=t.getValueOrDefault([o.FIELDS.TIME]),r=t.getValueOrDefault([o.FIELDS.SESSION_INDEX]),u=n.getValueOrDefault([o.FIELDS.TIME]),c=t.getValueOrDefault([o.FIELDS.SESSION_ID]);e="number"!=typeof e?u-36e5:e,r="number"!=typeof r?0:r,c="number"!=typeof c?e:c,s(t=new i(new a("",""),e,c,r),n,!1)}else n.setFieldValue(o.FIELDS.SESSION_INDEX,0)},n.sessionize=function(t){var e=t.length;if(0!==e){t[0].setFieldValue(o.FIELDS.SESSION_ID,t[0].getValueOrDefault([o.FIELDS.TIME]));for(var i=1;i<e;i++)c(t[i-1],t[i]);var a=n.CURRENT_SESSION_INDEX,f=t[e-1].getValueOrDefault([o.FIELDS.TIME]);r.now()-f>u&&(a+=1),t[e-1].setFieldValue(o.FIELDS.SESSION_INDEX,a);for(i=e-1;i>0;i--)s(t[i],t[i-1],!0)}},n.reindexIfNecessary=function(t,n,e){var i=function(t){for(var n=0;n<t.length;n++){var e=t[n].getValueOrDefault([o.FIELDS.SESSION_INDEX]);t[n].setFieldValue(o.FIELDS.SESSION_INDEX,e+1)}};-1===t.getValueOrDefault([o.FIELDS.SESSION_INDEX])&&(i(n),i(e))},n.sessionSortPredicate=function(t,n){return t[o.FIELDS.TIME]-n[o.FIELDS.TIME]},n.applyMigrations=function(t){return!1}},4938:function(t,n,e){var i=e(136),r=e(6278),o=e(8298),a=e(5225),u=e(409),c=e(7852),s=e(7269),f=e(4285),l=n,d=e(8487).J,v=e(1489),h=e(6592),p=e(8487)._,g=(s=e(7269),e(2025)),m=g.get("stores/visitor_events"),b=g.get("stores/visitor_events_manager"),_={EVENTBASE:"eb",HASH:"h",TIMEBASE:"tb",TIMESTAMPS:"ts",DELTA:"d",INDEX:"i"},y=1e3;function w(t){u.dispatch(i.SET_VISITOR_EVENTS,t)}function E(t){u.dispatch(i.UPDATE_BEHAVIOR_STORE,{key:"baseMap",value:t})}function I(t){u.dispatch(i.UPDATE_BEHAVIOR_STORE,{key:"eventQueue",value:t})}function A(t){u.dispatch(i.UPDATE_BEHAVIOR_STORE,{key:"lastEvent",value:t})}function S(){return m.getEvents()}function T(){return b.getBaseMap()}function O(){return b.getEventQueue()}function k(){return b.getLastEvent()}function R(){var t=S().concat(O()),n=!1;return t.length>y&&(t=t.slice(-1e3),n=!0),w(t),I([]),n}n.initialize=function(t,n){if(!b.getInitialized()){l.I(t,n);var e=S();e.length>0&&A(e[e.length-1]);var r=O();r.length>0&&A(r[r.length-1]),u.dispatch(i.UPDATE_BEHAVIOR_STORE,{key:"initialized",value:!0})}},n.addEvent=function(t){c.debug("Behavior store: adding event",t);var n=l.A(t);A(n),I(O().concat(n)),s.reindexIfNecessary(k(),S(),O()),l.S(O()),n.t&&function(t){try{var n=Number(r.get(h.COOKIES.OPTIMIZELY_SESSION,!1));if(isNaN(n)||0!==n){var e=n?s.isTimestampInSameSession(t,n)?t:0:t;r.set(h.COOKIES.OPTIMIZELY_SESSION,e.toString(),{path:"/",encodeValue:!1},!0)}}catch(t){c.error("Error setting session cookie",t)}}(n.t)},n.getEvents=function(){return O().length>0&&(R()&&s.sessionize(S()),l.T(S()),l.S(O())),S()},n.getEventCount=function(){return O().length+S().length},l.I=function(t,n){l.O(t,n)&&(l.T(S()),l.S(O())),s.sessionize(S())},l.O=function(t,n){if(0===t.length&&0===n.length)return w([]),I([]),!1;var e=!1,i=t[0]||n[0];return _.EVENTBASE in i?(w(l.k(t)),I(l.k(n))):(e=!0,w(l.R(t)),I(l.R(n))),O().length>0&&(R(),e=!0),w(l._updateBaseMapAndMaybeDedupe(S())),l._migrateEventBasesAndUpdateStore()&&(e=!0),e},l.R=function(t){for(var n=[],e=0;e<t.length;e++){var i=t[e],r=l.N(i);n[e]=new d(r,i[v.FIELDS.TIME])}return n},l._migrateEventBasesAndUpdateStore=function(){var t=!1,n=l.D();return s.applyMigrations(n)&&(t=!0,E({}),w(l._updateBaseMapAndMaybeDedupe(S())),I(l._updateBaseMapAndMaybeDedupe(O()))),t},l.j=function(){return o.now()},l.A=function(t){var n,e=t.name,i=t.type||"default",r=t.category||a.OTHER,o=t.tags||{};t.revenue&&(n=t.revenue);var u=new p(e,i,r,o,n);u=l.P(u);var c=l.j(),f=new d(u,c,-1);return s.updateSessionId(k(),f),s.updateSessionIndex(k(),f),f},l._updateBaseMapAndMaybeDedupe=function(t){for(var n=0;n<t.length;n++)t[n].eventBase=l.P(t[n].eventBase);return t},l.T=function(t){var n=l.L(t);f.persistBehaviorEvents(n)},l.S=function(t){var n=l.L(t);f.persistBehaviorEventQueue(n)},l.U=function(){var t;b.getCleared()||(w([]),I([]),l.T(S()),l.S(O()),E({}),A(null),t=!0,u.dispatch(i.UPDATE_BEHAVIOR_STORE,{key:"cleared",value:t}))},l.P=function(t){var n=t.hash(),e=T(),i=e[n];if(void 0===i)return e[n]=[t],E(e),t;for(var r=0;r<i.length;r++)if(t.equals(i[r]))return i[r];return i.push(t),E(e),t},l.D=function(){var t=[],n=T();for(var e in n)!n.hasOwnProperty(e)||(t=t.concat(n[e]));return t},l.L=function(t){for(var n=function(t){var n={};n[v.FIELDS.NAME]=t.getValueOrDefault([v.FIELDS.NAME]),n[v.FIELDS.TYPE]=t.getValueOrDefault([v.FIELDS.TYPE]);var e=t.getValueOrDefault([v.FIELDS.CATEGORY]);void 0!==e&&(n[v.FIELDS.CATEGORY]=e);var i=t.getValueOrDefault([v.FIELDS.REVENUE]);void 0!==i&&(n[v.FIELDS.REVENUE]=i);var r=t.getValueOrDefault([v.FIELDS.OPTIONS]);return void 0!==r&&(n[v.FIELDS.OPTIONS]=r),n},e=_,i=[],r="_idx_",o=0;o<t.length;o++){var a,u,c=t[o],s=c.eventBase;if(s.hasOwnProperty(r)){a=i[s[r]];var f=c[v.FIELDS.TIME]-(a[e.TIMEBASE]||0);(u={})[e.DELTA]=f,u[e.INDEX]=o,a[e.TIMESTAMPS].push(u)}else(a={})[e.EVENTBASE]=n(c),a[e.HASH]=s.hash(),a[e.TIMEBASE]=c[v.FIELDS.TIME],(u={})[e.DELTA]=0,u[e.INDEX]=o,a[e.TIMESTAMPS]=[u],i.push(a),s[r]=i.length-1}for(o=0;o<t.length;o++)delete t[o].eventBase[r];return i},l.N=function(t,n){var e=new p(t[v.FIELDS.NAME],t[v.FIELDS.TYPE],t[v.FIELDS.CATEGORY],t[v.FIELDS.OPTIONS],t[v.FIELDS.REVENUE]);return void 0!==n&&e.setHash(n),e},l.k=function(t){for(var n=_,e=[],i=0;i<t.length;i++)for(var r=t[i],o=l.N(r[n.EVENTBASE],r[n.HASH]),a=r[n.TIMEBASE],u=r[n.TIMESTAMPS],c=0;c<u.length;c++){var s=u[c],f=new d(o,a+s[n.DELTA]);e[s[n.INDEX]]=f}return e},n.deserialize=function(t){return l.k(t)},n.mergeAllEvents=function(t){var n=[].concat.apply([],t);return n.sort(s.sessionSortPredicate),s.sessionize(n),n},n.MAX_EVENTS=y},136:function(t,n,e){var i=e(3826);t.exports=i({LOG:null,SET_LOGLEVEL:null,INITIALIZE_STATE:null,SET_DOMCONTENTLOADED:null,ACTIVATE:null,UPDATE_BEHAVIOR_STORE:null,DATA_LOADED:null,SET_CLIENT_NAME:null,SET_CLIENT_VERSION:null,LOAD_PERSISTED_LAYER_STATES:null,RECORD_GLOBAL_DECISION:null,RECORD_LAYER_DECISION:null,ENSURE_ORIGINAL_PUSHSTATE:null,ENSURE_ORIGINAL_REPLACESTATE:null,SET_VISITOR_ATTRIBUTES:null,SET_VISITOR_ATTRIBUTE_PENDING:null,LOAD_EXISTING_VISITOR_PROFILE:null,SET_VISITOR_EVENTS:null,SET_FOREIGN_VISITOR_EVENTS:null,SET_FOREIGN_VISITOR_EVENT_QUEUE:null,SET_VISITOR_ID:null,SET_VISITOR_ID_VIA_API:null,SET_GA4_USER_ID:null,REFRESH_SESSION:null,LOAD_SESSION_STATE:null,UPDATE_VARIATION_ID_MAP:null,MERGE_VARIATION_ID_MAP:null,UPDATE_PREFERRED_LAYER_MAP:null,MERGE_PREFERRED_LAYER_MAP:null,UPDATE_CONTEXTUAL_MAB_MAP:null,MERGE_CONTEXTUAL_MAB_MAP:null,SET_ODP_SEGMENTS:null,RECORD_LAYER_DECISION_EVENT_ID:null,TRACK_VIEW_ACTIVATED_EVENT:null,REGISTER_ASYNC_DEFERRED:null,RESOLVE_DEFERRED:null,REJECT_DEFERRED:null,REGISTER_PLUGIN:null,ADD_CLEANUP_FN:null,CLEAR_CLEANUP_FN:null,ACTION_EXECUTED:null,REGISTER_ACTION:null,SET_VIEW_ACTIVE_STATE:null,UPDATE_PARSED_VIEW_METADATA:null,UPDATE_USER_SUPPLIED_METADATA:null,REGISTER_VIEWS:null,SET_GLOBAL_TAGS:null,SET_VIEW_BATCHING:null,RESET_VIEW_STATES:null,ATTACH_EVENT_STREAM_PUBLISHERS:null,DETACH_EVENT_STREAM_PUBLISHERS:null,LOAD_DIRECTIVE:null,SET_COOKIE_AGE:null,SET_COOKIE_DOMAIN:null,SET_COOKIE_AUTO_REFRESH:null,XDOMAIN_SET_DEFAULT_FRAME:null,XDOMAIN_ADD_FRAME:null,XDOMAIN_SET_MESSAGE:null,XDOMAIN_ADD_SUBSCRIBER:null,XDOMAIN_SET_CANONICAL_ORIGINS:null,XDOMAIN_SET_DISABLED:null,ADD_EMITTER_HANDLER:null,REMOVE_EMITTER_HANDLER:null,SET_INTEGRATION_SETTINGS:null,ADD_CHANGE:null,SET_CHANGE_APPLIER:null,REMOVE_ACTION_STATE:null,ANNOUNCE_PENDING_REDIRECT:null,LOAD_REDIRECT_DATA:null,REGISTER_TRACKED_REDIRECT_DATA:null,SET_PENDING_EVENT:null,REMOVE_PENDING_EVENT:null,LOAD_PENDING_EVENTS:null,SANDBOXED_FUNCTIONS_ADDED:null,SET_RUM_DATA:null,RECORD_API_USAGE:null,INITIALIZE_CHANGE_METRICS:null,RECORD_ACTIVATION_TYPE_USAGE:null,RECORD_AUDIENCE_USAGE:null,RECORD_CHANGE_MACROTASK_RATE:null,RECORD_CHANGE_OVERHEATED:null,RECORD_CHANGE_TYPE_USAGE:null,RECORD_DOM_OBSERVATION_OCCURENCE:null,RECORD_INTEGRATION_USAGE:null,RECORD_LAYER_FEATURE_USAGE:null,RECORD_LAYER_POLICY_USAGE:null,RECORD_RECOMMENDATIONS_USAGE:null,RECORD_VIEW_FEATURE_USAGE:null,RECORD_VIEWS_INITIALLY_ACTIVATED_COUNT:null,RECORD_VISITOR_ID_LOCATOR_USAGE:null,RECORD_VISITOR_ID_ERROR:null,RECORD_STICKY_BUCKETING_FEATURE:null,SET_PERFORMANCE_MARKS_DATA:null,FINALIZE_BATCH_SNAPSHOT:null,REGISTER_PREVIOUS_BATCH:null,REGISTER_TRACKER_VISITOR:null,REGISTER_TRACKER_EVENT:null,REGISTER_TRACKER_DECISION:null,RESET_TRACKER_EVENTS:null,RESET_TRACKER_PREVIOUS_BATCHES:null,RESET_TRACKER_STORE:null,SET_TRACKER_POLLING:null,SET_TRACKER_BATCHING:null,SET_TRACKER_USE_BEACON:null,SET_TRACKER_SEND_EVENTS:null,SET_TRACKER_PERSISTABLE_STATE:null,SET_TRACKER_DIRTY:null,UPDATE_TRACKER_VISITOR_ATTRIBUTES:null,SET_UA_DATA:null})},6592:function(t,n,e){var i=e(3826);n.COOKIES={OPT_OUT:"optimizelyOptOut",PREVIEW:"optimizelyPreview",REDIRECT:"optimizelyRedirectData",SESSION_STATE:"optimizelySessionState",OPTIMIZELY_SESSION:"optimizelySession",TOKEN:"optimizelyToken",VISITOR_ID:"optimizelyEndUserId",VISITOR_UUID:"optimizelyPPID"},n.LayerActivationTypes={CONDITIONAL:"conditional",IMMEDIATE:"immediate",MANUAL:"manual",READY:"ready",TIMEOUT:"timeout"},n.LogLevel={OFF:0,ERROR:1,WARN:2,INFO:3,DEBUG:4},n.Lifecycle=i({preActivate:null,postVisitorProfileLoad:null,postViewsActivated:null,postActivate:null}),n.ViewActivationTypes={immediate:"immediate",manual:"manual",callback:"callback",polling:"polling",URLChanged:"url_changed",DOMChanged:"dom_changed"},n.StorageKeys={PENDING_EVENTS:"pending_events",RELAYED_EVENTS:"relayed_events"},n.PluginTypes=i({visitorProfileProviders:null,viewProviders:null,audienceMatchers:null,viewMatchers:null,analyticsTrackers:null,viewTagLocators:null,userFeatureDefs:null,apiModules:null,changeAppliers:null,deciders:null,eventImplementations:null,viewTriggers:null}),n.ResourceTimingAttributes=i({connectStart:null,connectEnd:null,decodedBodySize:null,domainLookupStart:null,domainLookupEnd:null,duration:null,encodedBodySize:null,fetchStart:null,requestStart:null,responseStart:null,responseEnd:null,secureConnectionStart:null,startTime:null,transferSize:null,serverTiming:null}),n.RUMPerformanceTimingAttributes=i({blockTime:null}),n.AttributionTypes=i({FIRST_TOUCH:null,LAST_TOUCH:null}),n.SandboxedFunctions=i({XMLHttpRequest:null}),n.PerformanceData=i({performance_marks:null,resource_timing:null,performance_timing:null}),n.PerformanceCounters=i({mutation_observer_invocation:null,polling_invocation:null,match_selector_invocation:null}),n.VisitorStorageKeys={EVENTS:"events",EVENT_QUEUE:"event_queue",LAYER_MAP:"layer_map",LAYER_STATES:"layer_states",SESSION_STATE:"session_state",VISITOR_PROFILE:"visitor_profile",VARIATION_MAP:"variation_map",TRACKER_OPTIMIZELY:"tracker_optimizely",CONTEXTUAL_MAB:"contextual_mab",ODP_SEGMENTS:"odp_segments"},n.AllStorageKeys=Object.assign({},n.StorageKeys,n.VisitorStorageKeys),n.ListTargetingKeyTypes={COOKIE:"c",QUERY:"q",JS_VARIABLE:"j"},n.VisitorIdLocatorType={COOKIE:"cookie",JS_VARIABLE:"js",LOCALSTORAGE:"localStorage",QUERY:"query"},n.AllocationPolicyEnum={CMAB:"contextual-multi-arm-bandit",MIN_REGRET:"min-regret",MIN_TIME:"min-time",MANUAL:"manual"}},5225:function(t){t.exports={OTHER:"other"}},3111:function(t,n){n.TYPES={ACTION:"action",ANALYTICS:"analytics",EDITOR:"editor",LIFECYCLE:"lifecycle"}},1320:function(t){t.exports={CLICK:"click",CUSTOM:"custom",ENGAGEMENT:"engagement",PAGEVIEW:"pageview"}},6938:function(t,n,e){var i=e(3826);n.TrackLayerDecisionTimingFlags=i({preRedirectPolicy:null,postRedirectPolicy:null,nonRedirectPolicy:null}),n.PreRedirectPolicies=i({PERSIST_BEFORE_AND_TRACK_DURING_REDIRECT:null,PERSIST_BEFORE_REDIRECT:null}),n.PostRedirectPolicies=i({TRACK_IMMEDIATELY:null,TRACK_AFTER_SYNC:null}),n.NonRedirectPolicies=i({TRACK_IMMEDIATELY:null}),n.RedirectRelayMedia=i({COOKIE:null})},9249:function(t,n,e){var i=e(1691),r=n.TOTAL_POINTS=1e4;n.bucketingNumber=function(t,n,e){return i.hashToInt(t+n,e,r)},n.isHoldback=function(t,e){return n.bucketingNumber(t,e.id,i.Seed.IGNORING)<(e.holdback||0)},n.chooseWeightedCandidate=function(t,e,r){for(var o=n.bucketingNumber(t,e,i.Seed.BUCKETING),a=0;a<r.length;a++)if(r[a].endOfRange>o)return r[a].entityId;throw new Error("Unable to choose candidate")}},571:function(t,n,e){var i=e(8275).isEmpty,r=e(136),o=e(9249),a=e(5421),u=e(7353).b,c=e(409),s=e(7852),f=e(2855);n.isValidExperiment=function(t,n){var e;return s.groupCollapsed("Decision / Evaluating audiences for experiment:",n,t),e=!n.audienceIds||a.evaluate(n.audienceIds,(function(n){return t.includes(n)})),s.groupEnd(),s.debug("Decision / Experiment",n,"is valid?",e),e},n.selectVariation=function(t,n,e,i,a){if(s.debug("Decision / Selecting variation for experiment:",t.id),!t.variations||0===t.variations.length)throw new u('No variations in selected experiment "'+t.id+'"');if(!t.weightDistributions&&t.variations.length>1)throw new u('On selected experiment "'+t.id+'", weightDistributions must be defined if # variations > 1');var l;if(t.bucketingStrategy&&"impression"===t.bucketingStrategy)if(1===t.variations.length)l=t.variations[0].id;else{var d=i;l=o.chooseWeightedCandidate(e+d,t.id,t.weightDistributions)}else if(l=1===t.variations.length?t.variations[0].id:o.chooseWeightedCandidate(e,t.id,t.weightDistributions),null==t?void 0:t.deployed)s.debug("Decision / Experiment is deployed. Skipping bucketing.");else if(a&&a[t.id]){s.debug("Decision / Using preferredVariationMap to select variation for experiment:",t.id);var v=a[t.id];if(!t.variations.find((function(t){return t.id===v})))return c.dispatch(r.RECORD_STICKY_BUCKETING_FEATURE,{feature:"stoppedVariation",id:t.id}),s.debug("Decision / Preferred variation:",v,"not found on experiment:",t.id,". Visitor not bucketed."),null;v!==l&&(c.dispatch(r.RECORD_STICKY_BUCKETING_FEATURE,{feature:"preferredVariation",id:t.id}),l=v)}var h=f.processCmabExperiment(t,l);h&&(l=h);var p=t.variations.find((function(t){return t.id===l}));if(p)return s.debug("Decision / Selected variation:",p),p;throw new u('Unable to find selected variation: "'+l+'".')},n.getExperimentById=function(t,n){var e=t.experiments.find((function(t){return t.id===n}));if(e)return e;throw new u("Unable to find selected experiment.")},n.hasVariationActionsOnView=function(t,n){return s.debug("Decision / Checking variation:",t,"for actions on pageId:",n),!!(t.actions||[]).find((function(t){return t.pageId===n&&!i(t.changes)}))}},7353:function(t,n){function e(t){this.message=t}e.prototype=new Error,n.b=e},1035:function(t,n,e){var i=e(8275),r=i.isEmpty,o=i.pick,a=(e(136),e(8841)),u=e(7595),c=e(9249),s=e(571),f=e(7353).b,l=e(2025),d=e(6592),v=(e(409),e(3672),e(2042)),h=e(7852),p=(e(5010),e(5686)),g=l.get("stores/plugins"),m=l.get("stores/global"),b=l.get("stores/layer_data");function _(t){var n=g.getPlugin(d.PluginTypes.deciders,t);if(r(n))throw new Error("No deciders found for policy: "+t);return n}n.isPageIdRelevant=function(t){if(!t)return!1;var n=_(t.policy);return"function"==typeof n.includePageIdInDecisionTicket?n.includePageIdInDecisionTicket(t):!0===n.includePageIdInDecisionTicket},n.createTicket=function(t){var n,e,i,r=o(t,["bucketingId","globalHoldback","preferredVariationMap","pageId"]);return Object.assign(r,{audienceIds:(n=t.visitorProfile,e=t.audiences,i=g.getAllPlugins(d.PluginTypes.audienceMatchers),e.reduce((function(t,e){return u.isInAudience(n,e,i)&&t.push(e.id),t}),[])),activationId:m.getActivationId()}),r},n.decideGlobal=function(t){return{isGlobalHoldback:c.isHoldback(t.bucketingId,{id:null,holdback:t.globalHoldback})}},n.decideLayer=function(t,n){var e,i;h.debug("Deciding: ",t,n);var o,u,l=_(t.policy),d={layerId:t.id,experimentId:null,variationId:null,isLayerHoldback:c.isHoldback(n.bucketingId,t),isLayerConcluded:!!t.concluded};if(r(t.experiments))throw new f("No experiments in layer.");try{if(l.decideLayer){h.debug("Decision / Using decider's custom decideLayer.");var v=l.decideLayer(t,n);e=v.experiment,i=v.variation}else h.debug("Decision / Using default decideLayer behavior."),e=l.selectExperiment(t,n.audienceIds,n.bucketingId),i=s.selectVariation(e,n.audienceIds,n.bucketingId,n.activationId,n.preferredVariationMap)}catch(t){o=t,(null!=(u=f)&&"undefined"!=typeof Symbol&&u[Symbol.hasInstance]?u[Symbol.hasInstance](o):o instanceof u)?d.reason=t.message:d.error=t}return d.experimentId=e?e.id:null,d.variationId=i?i.id:null,d.error&&(d.error.name="DecisionEngineError",a.emitError(d.error)),d},n.getDummyLayerDecision=function(t,n){var e,i=function(t,n){for(var e=0;e<t.experiments.length;e++)for(var i=0;i<t.experiments[e].variations.length;i++)if(n.indexOf(t.experiments[e].variations[i].id)>-1)return{experimentId:t.experiments[e].id,variationId:t.experiments[e].variations[i].id};return null}(t,n);return i?(h.log("Decision / Applying force variation:",i.variationId,"to Campaign",v.description(t)),e={layerId:t.id,variationId:i.variationId,experimentId:i.experimentId,isLayerHoldback:!1,isLayerConcluded:!1,reason:"force"}):(h.log("No variation matches ids:",n,"in Campaign",v.description(t)),e={layerId:t.id,variationId:null,experimentId:null,isLayerHoldback:!1,isLayerConcluded:!1,reason:"force"}),e},n.isInCohort=function(t){if(!t.experimentId||!t.variationId)return!1;var n=b.get(t.layerId);return!(p.isSingleExperimentPolicy(n.policy)&&t.isLayerHoldback)}},2025:function(t,n,e){var i=e(2328),r=e(409),o=e(3822),a=i.create(),u={action_data:e(5628),async_request:e(9021),audience_data:e(2500),change_data:e(7090),cleanup:e(2587),client_metadata:e(2814),cookie_options:e(6108),event_data:e(9034),event_emitter:e(4338),dimension_data:e(1862),directive:e(5798),global:e(2940),history:e(1459),integration_settings:e(4453),layer:e(2734),layer_data:e(9057),log:e(9809),observed_redirect:e(8338),pending_events:e(9738),performance:e(5501),plugins:e(4715),provider_status:e(8515),pending_redirect:e(6067),rum:e(4999),sandbox:e(9292),session:e(3799),tracker_optimizely:e(8950),ua_data:e(4184),view:e(90),view_data:e(749),visitor:e(2857),visitor_attribute_entity:e(6658),visitor_events:e(2725),visitor_events_manager:e(977),visitor_id:e(241),visitor_bucketing:e(7016),xdomain:e(227)};r.registerStores(u),Object.keys(u).forEach((function(t){a.register("stores/"+t,r.getStore(t))})),a.register("core/plugins/matchers/key_value",o),t.exports=a},4214:function(t,n,e){var i=e(136),r=e(8841),o=e(6278),a=e(8130).v,u=e(6592),c=e(409),s=e(7852),f=n.JSONParseError=a("JSONParseError"),l=e(6022),d=e(192),v=e(9454),h="optimizely_show_preview",p="optimizely_disable",g="optimizely_editor",m="optimizely_p13n",b="optimizely_x_audiences",_="optimizely_x",y="optimizely_show_preview",w="optimizely_opt_out",E="optimizely_token",I="optimizely_force_tracking",A="optimizely_embed_editor";n.populateDirectiveData=function(){var t,n,e,a,S,T,O,k,R;!function(){var t="OFF",n=l.getQueryParamValue("optimizely_log");if(n){var e=n.split(":");""!==e[0]&&(t=String(e[0]).toUpperCase()),void 0!==e[1]&&s.setLogMatch(e[1])}s.setLogLevel(t)}(),function(){var t=v.getUserAgent()||"";if("string"!=typeof t)return void s.warn("Directive / userAgent not a string");t=t.toLowerCase(),["googlebot","yahoo! slurp","bingbot","bingpreview","msnbot","keynote","ktxn","khte","gomezagent","alertsite","yottaamonitor","pingdom.com_bot","aihitbot","baiduspider","adsbot-google","mediapartners-google","applebot","catchpoint","phantomjs","moatbot","facebookexternalhit"].some((function(n){if(t.includes(n))return s.warn("Directive / Matches bot:",n),!0}))&&(s.log("Directive / Disabling tracking"),c.dispatch(i.LOAD_DIRECTIVE,{trackingDisabled:!0}))}(),t=window.optimizely?window.optimizely.initialized:void 0,n=Boolean("function"==typeof t?t():t),c.dispatch(i.LOAD_DIRECTIVE,{alreadyInitialized:n}),c.dispatch(i.LOAD_DIRECTIVE,{mutationObserverAPISupported:v.isMutationObserverAPISupported()}),function(){var t=o.get(u.COOKIES.OPT_OUT),n=l.getQueryParamValue(w),e="You have successfully opted out of Optimizely for this domain.",r="You are NOT opted out of Optimizely for this domain.";if("true"===n||"false"===n){var a="true"===n;c.dispatch(i.LOAD_DIRECTIVE,{shouldOptOut:a}),v.alert(a?e:r)}else t&&c.dispatch(i.LOAD_DIRECTIVE,{shouldOptOut:"true"===t})}(),function(){var t=!1,n=[h,p];n.push(g);for(var e=0;e<n.length;e++)if("true"===l.getQueryParamValue(n[e])){s.warn("Directive / Not activating because "+n[e]+" is set."),t=!0;break}c.dispatch(i.LOAD_DIRECTIVE,{disabled:t})}(),c.dispatch(i.LOAD_DIRECTIVE,{isEditor:!1}),c.dispatch(i.LOAD_DIRECTIVE,{isPreview:!1}),(e=l.getQueryParamValue(y))&&s.log("Directive / Is legacy preview mode"),c.dispatch(i.LOAD_DIRECTIVE,{isLegacyPreview:!!e}),c.dispatch(i.LOAD_DIRECTIVE,{isSlave:!1}),a=v.getGlobal("optlyDesktop"),(S=!(!a||void 0===a.p13nInner))&&s.log("Directive / Is running in desktop app editor"),c.dispatch(i.LOAD_DIRECTIVE,{isRunningInDesktopApp:S}),(T="true"===l.getQueryParamValue(m))&&s.log("Directive / Is running in editor"),c.dispatch(i.LOAD_DIRECTIVE,{isRunningInV2Editor:T}),function(){var t=!1,n=v.getGlobal("sessionStorage"),e=l.getQueryParamValue(A);t="true"===e,e&&n&&("true"===e?n.setItem(A,"true"):n.removeItem(A)),n&&"true"===n.getItem(A)&&(t=!0,s.log("Directive / Should mount embedded editor"));c.dispatch(i.LOAD_DIRECTIVE,{requestedEmbeddedEditor:t})}(),O=o.get(u.COOKIES.TOKEN)||null,k=l.getQueryParamValue(E)||O,c.dispatch(i.LOAD_DIRECTIVE,{projectToken:k}),function(){var t=o.get(u.COOKIES.PREVIEW),n=[],e=l.getQueryParamValue(b);if(e)n=o.safeDecodeURIComponent(e).split(",");else if(t)try{n=d.parse(t).forceAudienceIds}catch(n){var i=new f("Failed to parse previewCookie in registerForceAudienceIds: "+t),a={originalMessage:n.message,userError:!0};r.emitError(i,a)}n.length&&s.warn("Directive / Force parameters disabled - ignoring force audience IDs.")}(),function(){var t=o.get(u.COOKIES.PREVIEW),n=[],e=l.getQueryParamValue(_);if(e)n=o.safeDecodeURIComponent(e).split(",");else if(t)try{n=d.parse(t).forceVariationIds}catch(n){var i=new f("Failed to parse previewCookie in registerForceVariationIds: "+t),a={originalMessage:n.message,userError:!0};r.emitError(i,a)}n.length&&s.warn("Directive / Force parameters disabled - ignoring force variation IDs.")}(),(R=l.getQueryParamValue(I))&&c.dispatch(i.LOAD_DIRECTIVE,{forceTracking:R})};n.setOptOut=function(t){t?(s.warn("Directive / Opting out"),o.set(u.COOKIES.OPT_OUT,"true",{maxAge:31536e4},!0)):o.remove(u.COOKIES.OPT_OUT),c.dispatch(i.LOAD_DIRECTIVE,{shouldOptOut:t})}},8298:function(t,n){n.now=function(){return+new Date}},7871:function(t,n){n.VERSION="0.261.0",n.NAME="js"},1019:function(t,n,e){var i=e(2025).get("stores/global");n.getDocumentElement=function(){return document.documentElement},n.getCookieString=function(){return document.cookie||""},n.setCookie=function(t){document.cookie=t},n.querySelector=function(t){return document.querySelector(t)},n.querySelectorAll=function(t){return document.querySelectorAll(t)},n.parseUri=function(t){var e=n.createElement("a");return e.href=t,e},n.childrenOf=function(t){return Array.prototype.slice.call(t.querySelectorAll("*"))},n.createElement=function(t){return document.createElement(t)},n.isReady=function(){return i.domContentLoadedHasFired()||"interactive"===document.readyState||"complete"===document.readyState},n.isLoaded=function(){return"complete"===document.readyState},n.addReadyHandler=function(t){return document.addEventListener("DOMContentLoaded",t),function(){n.removeReadyHandler(t)}},n.removeReadyHandler=function(t){return function(){document.removeEventListener("DOMContentLoaded",t)}},n.getReferrer=function(){return document.referrer},n.getReadyState=function(){return document.readyState},n.write=function(t){if("loading"!==n.getReadyState())throw new Error("Aborting attempt to write to already-loaded document");document.write(t)},n.appendToHead=function(t){return n.appendTo(document.head,t)},n.appendTo=function(t,n){t.appendChild(n)},n.addEventListener=function(t,n,e){return document.addEventListener(t,n,e),function(){document.removeEventListener(t,n,e)}},n.getCurrentScript=function(){if(document.currentScript)return document.currentScript},n.parentElement=function(t){for(var n=t.parentNode;n.nodeType!==Node.ELEMENT_NODE;)n=n.parentNode;return n}},1353:function(t,n,e){var i,r,o="optimizely_data",a=e(8130).v,u=e(3908),c=e(9454),s=a("StorageError");try{r=c.getGlobal("localStorage")}catch(t){throw new s("Unable to read localStorage: "+t.toString())}if(!r)throw new s("localStorage is undefined");i=u.create(r,o),n.DT=i},4970:function(t,n,e){var i=e(318);n.create=function(t){return new(i.get("MutationObserver",MutationObserver))(t)},n.observe=function(t,n,e){t.observe(n,e)}},4049:function(t,n,e){var i=e(6761).Promise,r=e(9454);n.estimateStorage=function(){var t=r.getGlobal("navigator");try{return t.storage.estimate()}catch(t){return i.resolve({usage:null,quota:null})}}},5010:function(t,n,e){var i=e(136),r=e(8130).v,o=e(8298),a=e(409),u=e(9454),c=e(2025).get("stores/rum"),s="optimizely:",f=n.Error=r("PerformanceError");function l(){return u.getGlobal("performance")}n.time=function(t){if(c.getSampleRum()){var n=l();if(n&&n.mark){var e=s+t;n.clearMarks(e+"Begin"),n.mark(e+"Begin")}}},n.timeEnd=function(t){if(c.getSampleRum()){var n=l();if(n&&n.mark){var e=s+t,r=n.getEntriesByName(e+"Begin");if(0===r.length)throw new f("Called timeEnd without matching time: "+t);n.clearMarks(e+"End"),n.mark(e+"End");var o=t+"Time",u=n.getEntriesByName(e+"End")[0].startTime-r[0].startTime;a.dispatch(i.SET_PERFORMANCE_MARKS_DATA,{name:o,data:{startTime:Math.round(1e3*r[0].startTime)/1e3,duration:Math.round(1e3*u)/1e3}})}}},n.setMark=function(t,n,e){if(c.getSampleRum()){var r=l();if(r&&r.mark){var o=s+t;r.mark(o),a.dispatch(i.SET_PERFORMANCE_MARKS_DATA,{name:t,data:{startTime:Math.round(1e3*n)/1e3,duration:Math.round(1e3*e)/1e3}})}}},n.now=function(){var t=l();return t?t.now():o.now()}},318:function(t,n){n.get=function(t,n){try{var e=window.Zone;if(e&&"function"==typeof e.V){var i=window[e.V(t)];if("function"==typeof i)return i}}catch(t){}return n}},9454:function(t,n,e){var i=e(7852);n.getUserAgent=function(){return window.navigator.userAgent},n.getLocationSearch=function(){return window.location.search},n.getNavigatorLanguage=function(){return window.navigator.language||window.navigator.userLanguage},n.getHref=function(){return window.location.href},n.getLocation=function(){return window.location},n.setLocation=function(t){window.location.replace(t)},n.setGlobal=function(t,n){window[t]=n},n.getGlobal=function(t){return window[t]},n.getGlobalByPath=function(t){for(var n=t.split("."),e=window;n.length;)try{e=e[n.shift()]}catch(n){throw i.error("Attempted to access nonexistent property. Path ",t),new Error("Attempted to access nonexistent property. Path "+t)}return e},n.addEventListener=function(){return window.addEventListener.apply(window,arguments)},n.removeEventListener=function(){return window.removeEventListener.apply(window,arguments)},n.isMutationObserverAPISupported=function(){return void 0!==window.MutationObserver},n.alert=function(t){alert(t)},n.setTimeout=function(t,n){return setTimeout((function(){try{t()}catch(t){i.warn("Deferred function threw error:",t)}}),n)},n.setInterval=function(t,n){return setInterval((function(){try{t()}catch(t){i.warn("Polling function threw error:",t)}}),n)}},8851:function(t,n){n.create=function(t,n,e,i){return Object.assign({category:"other"},i,{id:t,apiName:n,eventType:e})}},7566:function(t,n,e){var i=e(9899),r=e(136),o=e(8841),a=e(2025),u=e(409),c=e(7852),s=a.get("stores/event_emitter");n.on=function(t){return t.token||(t.token=i.generate()),u.dispatch(r.ADD_EMITTER_HANDLER,t),t.token},n.off=function(t){u.dispatch(r.REMOVE_EMITTER_HANDLER,{token:t})},n.emit=function(t,n,e){s.getHandlers(t,n).forEach((function(i){try{i.handler.call({$di:a},t)}catch(r){!e&&i.emitErrors?(c.error("Error in handler for event:",t,r),o.emitError(r,null,n)):c.warn("Suppressed error in handler for event:",t,r)}}))}},5547:function(t,n,e){var i=e(7566);n.on=function(t){return t.publicOnly=!0,i.on(t)},n.off=i.off,n.emit=function(t){i.emit(t)}},8484:function(__unused_webpack_module,exports,__webpack_require__){var createError=__webpack_require__(3958),di=__webpack_require__(2025),Logger=__webpack_require__(7852),CSP_MODE=!1,EXEC_WITH_JQUERY=!0,ExecError=exports.Error=createError("ExecError");exports.apply=function(t,n){n=(n=n||[]).concat(di.get("env/jquery"));try{return t.apply(void 0,n)}catch(e){throw Logger.warn("Error applying function",t,"with args:",n,e),new ExecError(e)}},exports.eval=function(str){try{return str="var $ = optimizely.get('jquery');"+str,eval(str)}catch(t){throw Logger.warn("Error executing JS:",str,t),new ExecError(t)}}},409:function(t,n,e){var i=e(3191);t.exports=i.create()},3672:function(t,n){n.description=function(t){var n=!!t.name?'"'+t.name+'" ':"",e=function(t){return(t.weightDistributions||[]).map((function(t){return t.entityId}))}(t).join(", ");return n+"(id "+t.id+", campaigns: "+e+")"}},2042:function(t,n,e){var i=e(8275).flattenDeep,r=e(136),o=e(8298),a=e(2025),u=e(409),c=a.get("stores/global"),s=a.get("stores/session");n.recordLayerDecision=function(t,n,e){return u.dispatch(r.RECORD_LAYER_DECISION,{layerId:t,decision:e,decisionTicket:n,sessionId:s.getSessionId(),activationId:c.getActivationId(),timestamp:o.now(),revision:c.getRevision(),namespace:c.getNamespace(),pageId:n.pageId}),e},n.relatedAudienceIds=function(t){var n={},e=["and","or","not"];return(t.experiments||[]).forEach((function(t){i(t.audienceIds).forEach((function(t){e.includes(t)||(n[t]=!0)}))})),Object.keys(n)},n.getActivationTimeout=function(t){var n=t.activation;return n&&null!==n.timeout&&void 0!==n.timeout?n.timeout:2e3},n.description=function(t){return(t.name?'"'+t.name+'" ':"")+"("+t.id+")"},n.createSingle=function(t,n,e){return{id:t,policy:"single_experiment",holdback:0,experiments:[{id:n||"",variations:[{id:e||"",actions:[]}],audienceIds:[]}],integrationStringVersion:1}},n.createLayerState=function(t,n,e,i,r){return void 0===i&&(i=!1),void 0===r&&(r=!1),{layerId:t,decision:{layerId:t,experimentId:n,variationId:e,isLayerHoldback:i||!1,isLayerConcluded:r||!1},decisionTicket:{audienceIds:[]}}},n.getIntegrationTypes=function(t){return Object.keys(Object.keys(t.integrationSettings).reduce((function(t,n){return Number.isNaN(Number(n))||(n="custom"),t[n]=1,t}),{}))}},2424:function(t,n){n.G=function(t,n){if(!n)return 0;for(var e=n.toString().split("."),i=t.toString().split("."),r=0;r<e.length;r++){if(void 0===i[r])return-1;if(isNaN(Number(i[r]))){if(i[r]!==e[r])return-1}else{if(Number(i[r])<Number(e[r]))return-1;if(Number(i[r])>Number(e[r]))return 1}}return 0}},5421:function(t,n,e){var i=e(192),r=e(7852),o="or",a="not";var u={};function c(t,n){var e;if(Array.isArray(t)){var a,c;"string"==typeof t[0]&&t[0]in u?(a=t[0],c=t.slice(1)):(a=o,c=t),r.groupCollapsed('Condition / Applying operator "'+a+'" with args',i.stringify(c));try{e=u[a](c,n),r.debug("Condition / Result:",e)}finally{r.groupEnd()}return e}return e=n(t),r.debug("Condition / Evaluated:",i.stringify(t),":",e),e}u["and"]=function(t,n){for(var e,i,r=0;r<t.length;r++){if(!1===(e=c(t[r],n)))return!1;void 0===e&&(i=!0)}if(!i)return!0},u[o]=function(t,n){for(var e,i=!1,r=0;r<t.length;r++){if(!0===(e=c(t[r],n)))return!0;void 0===e&&(i=!0)}if(!i)return!1},u[a]=function(t,n){if(1!==t.length)return!1;var e=c(t[0],n);return void 0!==e?!e:void 0},t.exports={evaluate:c}},4861:function(t,n,e){var i=e(6179);function r(t){return(t=(t||"").toLowerCase())in u?t:Object.keys(u).find((function(n){return u[n].includes(t)}))||"unknown"}function o(t,n,e){return n||("unknown"===t?"unknown":e?"mobile":"desktop_laptop")}n.parseUA=function(t){var n=new i(t),e=n.getBrowser(),u=n.getOS(),s=n.getDevice(),f=(u.name||"unknown").toLowerCase(),l=(e.name||"unknown").toLowerCase(),d=function(t){var n=/\b(iPad|iPhone)\d+,\d+/i.exec(t);return n?n[1].toLowerCase():null}(t),v="ipad"===d?"tablet":s.type,h=a(v,l,f);return{browser:{id:r(e.name),version:e.version},platform:{name:f,version:u.version},device:{model:c[s.model]||d||"unknown",type:o(l,v,h),isMobile:h}}};var a=function(t,n,e){if(["mobile","tablet"].includes(t)||["opera mini"].includes(n))return!0;return!!["android","blackberry","ios","windows phone"].includes(e)},u={gc:["chrome","chromium","silk","yandex","maxthon","chrome webview"],edge:["edge"],ie:["internet explorer","iemobile"],ff:["firefox","iceweasel"],opera:["opera","opera mini","opera tablet"],safari:["safari","mobile safari","webkit"],ucbrowser:["uc browser"]},c={iPhone:"iphone",iPad:"ipad"}},2328:function(t){function n(){this.B={}}n.prototype.register=function(t,n){if(1!==arguments.length){if(this.B[t])throw new Error("Module already registered for: "+t);this.B[t]=n}else{var e=this;Object.keys(t).forEach((function(n){var i=t[n];e.register(n,i)}))}},n.prototype.get=function(t){return this.B[t]},n.prototype.getModuleKeys=function(){var t=this.B;return Object.keys(t)},n.prototype.evaluate=function(t){var n=t.length,e=t.slice(0,n-1),i=t[n-1];if("function"!=typeof i)throw new Error("Evaluate must take a function as last element in array");var r=e.map(this.get,this);return i.apply(null,r)},n.prototype.reset=function(){this.B={}},t.exports={create:function(){return new n}}},4544:function(t,n,e){var i=e(8275).cloneDeep;function r(t,n,e){this.q=t,this.H=n,this.Y=0,this.K=!1,this.$={},Object.assign(this,e),this.W={},this.initialize&&this.initialize()}r.prototype.X=function(t,n){var e=this.$[t];e&&"function"==typeof e&&e.call(this,n,t)},r.prototype.Z=function(){return i(this.W)},r.prototype.on=function(t,n){this.$[t]=n.bind(this)},r.prototype.observe=function(t){return this.H.tt(this.q,t)},r.prototype.emitChange=function(){this.K=!0,this.Y++},r.prototype.hasChanges=function(){return this.K},r.prototype.resetChange=function(){this.K=!1},r.prototype.getStateId=function(){return this.Y},r.prototype.nt=function(){this.reset&&"function"==typeof this.reset&&this.reset(),this.initialize()},t.exports=r},3191:function(t,n,e){var i=e(4544);function r(t){t=t||{},this.et={},this.it={},this.rt=0,this.ot=[],this.ut=[]}function o(t,n){return function(){var e=t.indexOf(n);-1!==e&&t.splice(e,1)}}r.prototype.registerStores=function(t){Object.keys(t).forEach((function(n){this.et[n]=new i(n,this,t[n])}),this)},r.prototype.getStore=function(t){return this.et[t]},r.prototype.dispatch=function(t,n){this.dispatchId++;var e=this;this.ot.forEach((function(i){i.call(e,t,n)}));var i=this.et;Object.keys(i).forEach((function(e){i[e].X(t,n)})),this.ut.forEach((function(i){i.call(e,t,n)})),Object.keys(i).forEach((function(t){var n=i[t];n.hasChanges()&&this.it[t]&&(n.resetChange(),this.it[t].forEach((function(t){t(n)})))}),this)},r.prototype.reset=function(){this.it={};var t=this.et;Object.keys(t).forEach((function(n){t[n].nt()}))},r.prototype.getState=function(){var t={},n=this.et;return Object.keys(n).forEach((function(e){t[e]=n[e].Z()})),t},r.prototype.onPreAction=function(t){var n=this.ot;return n.push(t),o(n,t)},r.prototype.onPostAction=function(t){var n=this.ut;return n.push(t),o(n,t)},r.prototype.tt=function(t,n){return this.it[t]||(this.it[t]=[]),this.it[t].push(n),o(this.it[t],n)},t.exports={create:function(t){return new r(t)}}},192:function(t,n){n.stringify=function(){var t=arguments;return function(t){var n,e,i=[Array.prototype],r=[];i.forEach((function(t){void 0!==t.toJSON&&(r.push(t.toJSON),delete t.toJSON)}));try{n=t()}catch(t){e=t}finally{r.forEach((function(t,n){i[n].toJSON=t}))}if(e)throw e;return n}((function(){return JSON.stringify.apply(null,t)}))},n.parse=JSON.parse},2973:function(t,n){n.hasMatch=function(t,n,e){var i=null!=e,r=null!=t;switch(n||(r?"exact":"exists")){case"exists":return i;case"exact":return i&&String(e)===t;case"substring":return i&&String(e).indexOf(t)>-1;case"regex":try{return!(!r||!i)&&new RegExp(t).test(String(e))}catch(t){}return!1;case"range":var o=t.split(":"),a=parseFloat(o[0]),u=parseFloat(o[1]),c=parseFloat(e);return c>=a&&c<=u;default:return!1}}},6761:function(t,n,e){t.exports=e(1375)},3908:function(t,n,e){var i=e(7852);function r(t,n){this.ct=t,this.st=n}r.prototype.ft=function(t){return[this.st,t].join("$$")},r.prototype.dt=function(t){return t.replace(this.st+"$$","")},r.prototype.setItem=function(t,n){try{this.ct.setItem(this.ft(t),n)}catch(n){i.warn("Failed to save",t,"to localStorage:",n)}},r.prototype.removeItem=function(t){this.ct.removeItem(this.ft(t))},r.prototype.getItem=function(t){var n=null;try{n=this.ct.getItem(this.ft(t))}catch(t){}return n},r.prototype.keys=function(){var t=this;return Object.keys(this.ct).filter((function(n){return n.includes(t.st)})).map((function(n){return t.dt(n)}))},r.prototype.allKeys=function(){return Object.keys(this.ct)},r.prototype.allValues=function(){return Object.values(this.ct)},t.exports={create:function(t,n){return new r(t,n)},mockStorage:{keys:function(){},getItem:function(t){},removeItem:function(t){},setItem:function(t,n){}}}},5975:function(t,n,e){var i=e(1019),r=e(7566),o=e(4970);n.createDOMChangedObserver=function(){var t=i.getDocumentElement(),n={type:"viewTrigger",name:"DOMChanged"},e=o.create((function(){r.emit(n,!0)}));o.observe(e,t,{attributes:!0,childList:!0,subtree:!0,characterData:!0})}},3224:function(t,n,e){var i=e(8275).isEmpty,r=e(8841),o=e(6592),a=e(192),u=e(1353).DT,c=e(7852),s=e(6761),f=e(8260),l=e(2025).get("stores/pending_events"),d=o.StorageKeys.PENDING_EVENTS,v=!1;n.persistPendingEvents=function(){try{var t=l.getEventsString();u.setItem(d,t),e(5292).setItem(d,t)}catch(t){c.warn("PendingEvents / Unable to set localStorage key, error was: ",t),r.emitInternalError(t)}},n.flushPersistPendingEvents=function(){v&&(v=!1,n.persistPendingEvents())},n.schedulePersistPendingEvents=function(){v||(v=!0,s.resolve().then(n.flushPersistPendingEvents).catch((function(t){c.warn("PendingEvents / Unable to persist pending events, error was: ",t)})))},n.getPendingEvents=function(){try{return a.parse(u.getItem(d))}catch(t){return null}},n.retryPendingEvents=function(t){Object.keys(t).forEach((function(n){var e=t[n];f.retryableRequest(e.data,n,e.retryCount)})),i(t)||c.log("Retried pending events: ",t)}},9937:function(t,n,e){var i=e(8275).cloneDeep,r=e(136),o=e(2025),a=e(6592),u=e(7566),c=e(409);n.registerApiModule=function(t,n){Array.isArray(n)&&(n=o.evaluate(n)),c.dispatch(r.REGISTER_PLUGIN,{type:a.PluginTypes.apiModules,name:t,plugin:n})},n.registerDependency=function(t,n){o.get(t)||o.register(t,n)},n.registerVisitorProfileProvider=function(t){c.dispatch(r.REGISTER_PLUGIN,{type:a.PluginTypes.visitorProfileProviders,name:t.provides,plugin:t})},n.registerViewProvider=function(t){c.dispatch(r.REGISTER_PLUGIN,{type:a.PluginTypes.viewProviders,name:t.provides,plugin:t})},n.registerAudienceMatcher=function(t,n){c.dispatch(r.REGISTER_PLUGIN,{type:a.PluginTypes.audienceMatchers,name:t,plugin:n})},n.registerViewMatcher=function(t,n){c.dispatch(r.REGISTER_PLUGIN,{type:a.PluginTypes.viewMatchers,name:t,plugin:n})},n.registerAnalyticsTracker=function(t,n){c.dispatch(r.REGISTER_PLUGIN,{type:a.PluginTypes.analyticsTrackers,name:t,plugin:n})},n.registerViewTagLocator=function(t,n){c.dispatch(r.REGISTER_PLUGIN,{type:a.PluginTypes.viewTagLocators,name:t,plugin:n})},n.registerAudiencePlugin=function(t){t.dependencies&&Object.keys(t.dependencies).forEach((function(e){var i=t.dependencies[e];n.registerDependency(e,i)}));var e,r,a="vendor."+t.vendor;e="string"==typeof t.provider?o.get(t.provider)(t.vendor):"function"==typeof t.provider?t.provider(t.vendor):i(t.provider),n.registerVisitorProfileProvider(Object.assign(e,{provides:a})),r="string"==typeof t.matcher?o.get(t.matcher):t.matcher;var u={fieldsNeeded:[a],match:function(t,n){return r(t[a],n)}};n.registerAudienceMatcher(a,u)};var s={};n.registerWidget=function(t){Array.isArray(t)&&(t=o.evaluate(t));var n=t.widgetId,e=s[n];e&&(u.off(e.showToken),u.off(e.hideToken));var i=u.on({filter:{type:"showWidget",name:n},handler:t.showFn}),r=u.on({filter:{type:"hideWidget",name:n},handler:t.hideFn});return s[n]={showToken:i,hideToken:r},s[n]},n.hasWidget=function(t){return Object.prototype.hasOwnProperty.call(s,t)},n.registerChangeApplier=function(t,n){c.dispatch(r.REGISTER_PLUGIN,{type:a.PluginTypes.changeAppliers,name:t,plugin:n})},n.registerDecider=function(t,n){c.dispatch(r.REGISTER_PLUGIN,{type:a.PluginTypes.deciders,name:t,plugin:n})},n.registerEventImplementation=function(t,n){c.dispatch(r.REGISTER_PLUGIN,{type:a.PluginTypes.eventImplementations,name:t,plugin:n})},n.registerViewTrigger=function(t,n){c.dispatch(r.REGISTER_PLUGIN,{type:a.PluginTypes.viewTriggers,name:t,plugin:n})}},9207:function(t,n,e){var i=e(8275),r=i.isEmpty,o=i.mapValues,a=e(2025),u=":",c="holdback",s="treatment",f="",l=e(7852),d=e(5686);function v(t){return t.replace(/[^a-zA-Z0-9\.\~\!\*\(\)\']+/g,"_")}n.formatNamesAndIdsForAnalytics=function(t,n,e,i){var u={layer:t.name||f,experiment:n.name||f,variation:e.name||f};i&&(u=o(u,v));var c,s=!t.integrationStringVersion||1===t.integrationStringVersion;if(u.experiment===f&&s)if(c=n.audienceIds,r(c)||-1===["and","or","not"].indexOf(c[0])){var l=a.get("stores/audience_data");u.experiment=function(t,n){return r(n)?"everyone_else":n.reduce((function(n,e){var i=t.get(e);return i?n+v(i.name?i.name:i.id)+",":n}),"").slice(0,-1)}(l,n.audienceIds)}else u.experiment="Exp";return{names:u,idStrings:{layer:"("+v(t.id)+")",experiment:"("+v(n.id)+")",variation:"("+v(e.id)+")"}}},n.combineAndTruncateIdAndName=function(t,n,e){var i=e-n.length;if(i<0&&(l.warn("maxLength must be at least long enough to fit the entity ID, which is length"+n.length+". Defaulting to only use entity ID as name."),t=f),t===f)return n;if(t.length>i){var r=Math.min(t.length,i);return(t=t.substring(0,r))+n}return t+" "+n},n.generateAnalyticsString=function(t,e,i,r,o,a){return t.integrationStringVersion&&2===t.integrationStringVersion?function(t,e,i,r,o,a){if(d.isSingleExperimentPolicy(t.policy)&&r)return;var s=!d.isSingleExperimentPolicy(t.policy)&&r,f=n.formatNamesAndIdsForAnalytics(t,e,i,a),l=[f.names.experiment,f.names.variation],v=[f.idStrings.experiment,f.idStrings.variation];d.isSingleExperimentPolicy(t.policy)||(l.unshift(f.names.layer),v.unshift(f.idStrings.layer));var h=v.reduce((function(t,n){return t+n.length}),0),p=l.length-1+(s?1:0),g=h+1*p;if(s&&(g+=8),g>o)throw new Error("The analytics string size is too low to send the entity IDs.");for(var m=o-g,b=l.length,_=[],y=l.length-1;y>=0;y--){var w=l[y],E=Math.min(w.length,Math.floor(m/b));m-=E,b--,_.unshift(w.substring(0,E))}var I=_.map((function(t,n){return t+v[n]}));return s&&I.push(c),I.join(u)}(t,e,i,r,o,a):function(t,e,i,r,o,a){var f=r?c:s,l=3,v=n.formatNamesAndIdsForAnalytics(t,e,i,a),h=v.names,p=v.idStrings,g=Object.values(p).reduce((function(t,n){return t+n.length}),0);if(g+l+f.length>o)throw new Error("The analytics string size is too low to send the campaign, experiment, and variation IDs.");var m=o-g-l-f.length,b={};b.variation=Math.min(h.variation.length,Math.floor(m/3)),m-=b.variation,b.experiment=Math.min(h.experiment.length,Math.floor(m/2)),m-=b.experiment,b.layer=m;var _={};Object.keys(h).forEach((function(t){var n=h[t];_[t]=n.substring(0,b[t])}));var y=[];return d.isSingleExperimentPolicy(t.policy)||y.push(_.layer+p.layer),(y=y.concat([_.experiment+p.experiment,_.variation+p.variation,f])).join(u)}(t,e,i,r,o,a)}},6582:function(t){t.exports=function(t,n){t=function(t){var n=t.split("?");if(n[1]){var i=n[1].split("#"),r=i[0],o=i.slice(1).join("#"),a=r.split("&"),u=[];return a.forEach((function(t){0!==t.indexOf(e)&&u.push(t)})),n[1]="",u.length>0&&(n[1]="?"+u.join("&")),o&&(n[1]+="#"+o),n.join("")}return t}(t);var i=n.value;switch(n.match){case"exact":return(t=o(t))===o(i);case"regex":try{return Boolean(t.match(i))}catch(t){}return!1;case"simple":return(t=r(t))===(i=r(i));case"substring":return t=o(t,!0),i=o(i,!0),-1!==t.indexOf(i);default:return!1}};var n=["www."],e="optimizely_",i=["https?://.*?.?optimizelyedit.(com|test)/","https?://.*.?optimizelypreview.(com|test)/","https?://(edit|preview)(-hrd|-devel)?.optimizely.(com|test)/","https?://.*?.?optimizelyedit(-hrd)?.appspot.com/","https?://"];function r(t){return o(function(t){var n=t.indexOf("?");return-1!==n&&(t=t.substring(0,n)),-1!==(n=t.indexOf("#"))&&(t=t.substring(0,n)),t}(t))}function o(t,e){t=(t=t.replace("/?","?")).toLowerCase().replace(/[/&?]+$/,"");var r=i.slice(0);e||(r=r.concat(n));for(var o=r.length,a=0;a<o;a++){var u=r[a],c=new RegExp("^"+u);t=t.replace(c,"")}return t}},3822:function(t,n,e){var i=e(8859).getFieldValue,r=e(2973);t.exports=function(t,n){var e=i(t,n.name.split("."));return Array.isArray(e)?e.some((function(t){return r.hasMatch(n.value,n.match,t)})):r.hasMatch(n.value,n.match,e)}},131:function(t,n,e){var i=e(5192),r=e(7219),o="cdn3";n.getIP=function(){return i.makeAsyncRequest(o,u).then((function(t){return t.ip}))},n.getIPDerivedGeolocation=function(){return i.makeAsyncRequest(o,u).then((function(t){return t.location}))};var a="//cdn3.optimizely.com/js/geo4.js";function u(){r.addScriptAsync(a,void 0,"script")}},5628:function(t,n,e){var i=e(136),r=e(3019),o=e(7852),a=e(8275).isEmpty;t.exports={initialize:function(){this.W={actions:{},actionState:{}},this.on(i.DATA_LOADED,this.vt),this.on(i.ACTION_EXECUTED,this.ht),this.on(i.SET_CHANGE_APPLIER,this.bt),this.on(i.REMOVE_ACTION_STATE,this._t)},vt:function(t){var n=this;a(t.data.layers)||(t.data.layers.forEach((function(t){var e;if(t.changes){var i="layerId:"+t.id;e={id:i,layerId:t.id,changeSet:t.changes,type:"layer"},r.deepFreeze(e),n.W.actions[i]=e}(t.experiments||[]).forEach((function(i){if(i.changes){var o="experimentId:"+i.id;e={id:o,layerId:t.id,experimentId:i.id,changeSet:i.changes,type:"experiment"},r.deepFreeze(e),n.W.actions[o]=e}(i.variations||[]).forEach((function(o){(o.actions||[]).forEach((function(a){var u=a.pageId||a.viewId,c=i.id+":"+o.id+":"+u;e={id:c,layerId:t.id,experimentId:i.id,variationId:o.id,pageId:u,changeSet:a.changes,type:"variation"},r.deepFreeze(e),n.W.actions[c]=e}))}))}))})),this.emitChange())},ht:function(t){var n=t.actionId;void 0===n||this.W.actionState[n]||(this.W.actionState[n]={})},bt:function(t){var n=t.actionId,e=t.changeId;this.W.actionState[n]?this.W.actionState[n][e]=t.changeApplier:o.warn("Action Data / Attempted to set changeApplier for inactive action: ",n)},_t:function(t){delete this.W.actionState[t.actionId]},get:function(t){return r.safeReference(this.W.actions[t])},getActionState:function(t){return r.safeReference(this.W.actionState[t])},getByChangeId:function(t){return Object.values(this.W.actions).find((function(n){return n.changeSet&&n.changeSet.some((function(n){return n.id===t}))}))},getAllActionIdsByPageId:function(t){return Object.values(this.W.actions).filter((function(n){return n.pageId===t})).map((function(t){return t.id}))},getChangeApplier:function(t,n){var e=this.W.actionState[n];if(e)return e[t]},getExperimentVariationActions:function(t,n){return r.safeReference(Object.values(this.W.actions).filter((function(e){return e.experimentId===t&&e.variationId===n})))},getLayerActions:function(t){return r.safeReference(Object.values(this.W.actions).filter((function(n){return n.id==="layerId:"+t})))},getExperimentActions:function(t){return r.safeReference(Object.values(this.W.actions).filter((function(n){return n.id==="experimentId:"+t})))},getAll:function(){return r.safeReference(Object.values(this.W.actions))}}},9021:function(t,n,e){var i=e(136);t.exports={initialize:function(){this.W={},this.on(i.REGISTER_ASYNC_DEFERRED,this.yt),this.on(i.RESOLVE_DEFERRED,this.wt),this.on(i.REJECT_DEFERRED,this.Et)},getRequest:function(t){return this.W[t]},getPromise:function(t){var n=this.getRequest(t);if(n)return n.promise},yt:function(t){this.W[t.source]={promise:t.promise,resolver:t.resolver,rejecter:t.rejecter}},wt:function(t){var n=this.getRequest(t.source);if(!n)throw new Error("No request registered for source: "+t.source);n.resolver(t.resolveWith)},Et:function(t){var n=this.getRequest(t.source);if(!n)throw new Error("No request registered for source: "+t.source);if(!n.rejecter)throw new Error("No rejecter registered for source: "+t.source);n.rejecter(t.rejectWith)}}},2500:function(t,n,e){var i=e(8275),r=i.isEmpty,o=i.merge,a=e(136),u=e(3019);function c(t,n){return n||(n={}),t?(t.forEach((function(t){if("string"!=typeof t){if("object"==typeof t&&null!==t&&!Array.isArray(t)){var e=t.type,i=t.name||"_";n[e]||(n[e]={}),n[e][i]=!0}Array.isArray(t)&&c(t,n)}})),n):n}t.exports={initialize:function(){this.W={audiences:{},featuresNeeded:{}},this.on(a.DATA_LOADED,this.vt)},vt:function(t){if(!r(t.data.audiences)){var n=this;t.data.audiences.forEach((function(t){u.deepFreeze(t),o(n.W.featuresNeeded,c(t.conditions)),n.W.audiences[t.id]=t})),this.emitChange()}},getAll:function(){return u.safeReference(Object.values(this.W.audiences))},getFeaturesNeeded:function(t){return u.safeReference(this.W.featuresNeeded[t]||{})},getAudiencesMap:function(){return u.safeReference(this.W.audiences)},get:function(t){return u.safeReference(this.W.audiences[t])},getAudienceName:function(t){return Object.values(this.W.audiences).find((function(n){return n.id===t})).name||"Aud "+t}}},7090:function(t,n,e){var i=e(8275).isEmpty,r=e(136),o=e(3019);t.exports={initialize:function(){this.W={},this.on(r.ADD_CHANGE,this.It),this.on(r.DATA_LOADED,this.vt)},getChange:function(t){return this.W[t]},vt:function(t){if(!i(t.data.changes)){var n=this;t.data.changes.forEach((function(t){n.It(t)}))}},It:function(t){o.deepFreeze(t),this.W[t.id]=t,this.emitChange()}}},2587:function(t,n,e){var i=e(8275).cloneDeep,r=e(136),o=e(6592);t.exports={initialize:function(){this.W={};var t=this;Object.keys(o.Lifecycle).forEach((function(n){var e=o.Lifecycle[n];t.W[e]=[]})),this.on(r.ADD_CLEANUP_FN,this.At),this.on(r.CLEAR_CLEANUP_FN,this.St)},getCleanupFns:function(t){return i(this.W[t])},At:function(t){this.W[t.lifecycle].push(t.cleanupFn),this.emitChange()},St:function(t){var n=this.W[t.lifecycle];if(t.cleanupFn){var e=n.indexOf(t.cleanupFn);e>-1&&(n.splice(e,1),this.emitChange())}else this.W[t.lifecycle]=[],this.emitChange()}}},2814:function(t,n,e){var i=e(136),r=e(7871);t.exports={initialize:function(){this.W={name:r.NAME,version:r.VERSION},this.on(i.SET_CLIENT_NAME,this.Tt),this.on(i.SET_CLIENT_VERSION,this.Ot)},getClientName:function(){return this.W.name},getClientVersion:function(){return this.W.version},Tt:function(t){t&&(this.W.name=t),this.emitChange()},Ot:function(t){t&&(this.W.version=t),this.emitChange()}}},6108:function(t,n,e){var i=e(136);t.exports={initialize:function(){this.W={currentDomain:null,defaultAgeSeconds:15552e3,autoRefresh:true},this.on(i.SET_COOKIE_DOMAIN,this.kt),this.on(i.SET_COOKIE_AGE,this.Rt),this.on(i.SET_COOKIE_AUTO_REFRESH,this.Ct)},getCurrentDomain:function(){return this.W.currentDomain},getDefaultAgeInSeconds:function(){return this.W.defaultAgeSeconds},getAutoRefresh:function(){return this.W.autoRefresh},kt:function(t){this.W.currentDomain=t,this.emitChange()},Rt:function(t){this.W.defaultAgeSeconds=t,this.emitChange()},Ct:function(t){this.W.autoRefresh=t,this.emitChange()}}},1862:function(t,n,e){var i=e(136),r=e(3019),o=e(8275).isEmpty;t.exports={initialize:function(){this.W={},this.on(i.DATA_LOADED,this.vt)},vt:function(t){if(!o(t.data.dimensions)){var n=this;t.data.dimensions.forEach((function(t){r.deepFreeze(t),n.W[t.id]=t})),this.emitChange()}},getAll:function(){return r.safeReference(Object.values(this.W))},getById:function(t){return r.safeReference(this.W[t])},getByApiName:function(t){var n=Object.values(this.W);return r.safeReference(n.find((function(n){return n.apiName===t})))}}},5798:function(t,n,e){var i=e(8275),r=i.cloneDeep,o=i.isEmpty,a=e(136);t.exports={initialize:function(){this.W={disabled:!1,forceAudienceIds:[],forceVariationIds:[],alreadyInitialized:!1,mutationObserverAPISupported:!1,isEditor:!1,isPreview:!1,isLegacyPreview:!1,isSlave:!1,previewLayerIds:[],projectToken:null,shouldOptOut:!1,trackingDisabled:!1,isRunningInV2Editor:!1,isRunningInDesktopApp:!1,forceTracking:!1,requestedEmbeddedEditor:!1},this.on(a.LOAD_DIRECTIVE,this.Nt)},getAll:function(){return r(this.W)},conflictInObservingChanges:function(){return!this.W.mutationObserverAPISupported},isDisabled:function(){return this.W.disabled},isEditor:function(){return this.W.isEditor},clientHasAlreadyInitialized:function(){return this.W.alreadyInitialized},getForceAudienceIds:function(){return this.W.forceAudienceIds},getForceVariationIds:function(){return this.W.forceVariationIds},getPreviewLayerIds:function(){return this.W.previewLayerIds},getProjectToken:function(){return this.W.projectToken},getForceTracking:function(){return this.W.forceTracking},shouldActivate:function(){return!this.W.isEditor&&!this.isDisabled()},shouldBootstrapDataForPreview:function(){return this.W.isPreview},shouldBootstrapDataForEditor:function(){return this.W.isEditor},shouldInitialize:function(){return!(this.shouldLoadPreview()||this.isDisabled()||this.getProjectToken())},shouldLoadPreview:function(){return!(this.W.isPreview||this.W.isLegacyPreview||!this.getProjectToken()||this.W.isEditor)},shouldLoadEmbeddedEditor:function(){return this.W.requestedEmbeddedEditor&&!this.W.isEditor},shouldBailForDesktopApp:function(){return!this.W.isEditor&&this.W.isRunningInDesktopApp},shouldLoadInnie:function(){return!this.W.isSlave&&!this.W.isEditor&&this.W.isRunningInV2Editor},shouldObserveChangesIndefinitely:function(){return this.W.mutationObserverAPISupported},shouldObserveChangesUntilTimeout:function(){return!this.shouldObserveChangesIndefinitely()},shouldOptOut:function(){return this.W.shouldOptOut},shouldSendTrackingData:function(){return!this.W.trackingDisabled&&(!!this.W.forceTracking||!this.W.isPreview&&o(this.getForceVariationIds())&&o(this.getForceAudienceIds()))},isSlave:function(){return this.W.isSlave},isRunningInDesktopApp:function(){return this.W.isRunningInDesktopApp},isRunningInV2Editor:function(){return this.W.isRunningInV2Editor},Nt:function(t){Object.assign(this.W,t),this.emitChange()}}},9034:function(t,n,e){var i=e(136),r=e(3019),o=e(8275).isEmpty;t.exports={initialize:function(){this.W={},this.on(i.DATA_LOADED,this.vt)},getAll:function(){return r.safeReference(Object.values(this.W))},getEventsMap:function(){return r.safeReference(this.W)},get:function(t){return r.safeReference(this.W[t])},getByApiName:function(t){var n=Object.values(this.W);return r.safeReference(n.find((function(n){return n.apiName===t})))},getByPageId:function(t){var n=Object.values(this.W);return r.safeReference(n.filter((function(n){return n.pageId===t})))},vt:function(t){if(!o(t.data.events)){var n=this;t.data.events.forEach((function(t){t.pageId||(t.pageId=t.viewId),r.deepFreeze(t),n.W[t.id]=t})),this.emitChange()}}}},4338:function(t,n,e){var i=e(136);function r(t){var n=[];return t&&"object"==typeof t&&null!==t?(t.type&&n.push(t.type),n.push("|"),t.type&&t.name&&n.push(t.name),n.join("")):"|"}t.exports={initialize:function(){this.W={handlers:{}},this.on(i.ADD_EMITTER_HANDLER,this.Dt),this.on(i.REMOVE_EMITTER_HANDLER,this.xt)},getHandlers:function(t,n){var e=[null,{type:t.type},{type:t.type,name:t.name}],i=[],o=this;return e.forEach((function(t){var n=r(t),e=o.W.handlers[n];e&&(i=i.concat(e))})),n&&(i=i.filter((function(t){return!t.publicOnly}))),i},Dt:function(t){var n=r(t.filter);this.W.handlers[n]||(this.W.handlers[n]=[]),this.W.handlers[n].push({handler:t.handler,token:t.token,publicOnly:!!t.publicOnly,emitErrors:!!t.emitErrors}),this.emitChange()},xt:function(t){var n=!1,e=t.token;Object.keys(this.W.handlers).forEach(function(t){var i=this.W.handlers[t],r=i.filter((function(t){return t.token!==e}));r.length!==i.length&&(n=!0,this.W.handlers[t]=r)}.bind(this)),n&&this.emitChange()}}},2940:function(t,n,e){var i=e(136),r=e(3019);t.exports={initialize:function(){this.W={holdback:0,isGlobalHoldback:null,listTargetingKeys:[],revision:null,projectId:null,accountId:null,namespace:null,activationId:null,activationTimestamp:null,dcpServiceId:null,dcpKeyfieldLocators:[],recommenderServices:[],anonymizeIP:null,projectJS:null,snippetId:null,plugins:[],domContentLoaded:!1,experimental:{},ga4UserId:null,trafficExclusion:null},this.on(i.DATA_LOADED,this.jt),this.on(i.ACTIVATE,this.Mt),this.on(i.RECORD_GLOBAL_DECISION,this.Pt),this.on(i.SET_DOMCONTENTLOADED,this.Lt),this.on(i.SET_GA4_USER_ID,this.Ut)},getRevision:function(){return this.W.revision},getGlobalHoldbackThreshold:function(){return this.W.holdback},getProjectId:function(){return this.W.projectId},getSnippetId:function(){return this.W.snippetId},getAccountId:function(){return this.W.accountId},getNamespace:function(){return this.W.namespace},getActivationId:function(){return this.W.activationId},getActivationTimestamp:function(){return this.W.activationTimestamp},getAnonymizeIP:function(){return this.W.anonymizeIP},getTrafficExclusion:function(){return this.W.trafficExclusion},isGlobalHoldback:function(){return!!this.W.isGlobalHoldback},getListTargetingKeys:function(){return this.W.listTargetingKeys.slice()},getDCPServiceId:function(){return this.W.dcpServiceId},getDCPKeyfieldLocators:function(){return this.W.dcpKeyfieldLocators},getRecommenderServices:function(){return this.W.recommenderServices},getProjectJS:function(){return this.W.projectJS},getPlugins:function(){return this.W.plugins},getExperimental:function(){return r.safeReference(this.W.experimental)},getGA4UserId:function(){return this.W.ga4UserId},domContentLoadedHasFired:function(){return this.W.domContentLoaded},Mt:function(t){this.W.activationId=t.activationId,this.W.activationTimestamp=t.activationTimestamp,this.W.isGlobalHoldback=null},Pt:function(t){var n=t.isGlobalHoldback;if(null!==this.W.isGlobalHoldback&&this.W.isGlobalHoldback!==n)throw new Error("Attempted to change already set global holdback!");this.W.isGlobalHoldback=n,this.emitChange()},Ut:function(t){var n=t.ga4UserId;if(!n)throw new Error('Argument "payload.ga4UserId" is missing');this.W.ga4UserId=n,this.emitChange()},jt:function(t){var n=t.data,e={};if(["holdback","accountId","projectId","snippetId","namespace","revision","listTargetingKeys","dcpServiceId","dcpKeyfieldLocators","recommenderServices","anonymizeIP","plugins","projectJS","experimental","ga4UserId","trafficExclusion"].forEach((function(t){t in n&&(e[t]=n[t])})),0!==Object.keys(e).length){Object.assign(this.W,{listTargetingKeys:[],dcpServiceId:null,dcpKeyfieldLocators:[]},e),this.emitChange()}},Lt:function(){this.W.domContentLoaded=!0,this.emitChange()}}},1459:function(t,n,e){var i=e(136),r=e(9454);t.exports={initialize:function(){this.W={originalPushState:null,originalReplaceState:null},this.on(i.ENSURE_ORIGINAL_PUSHSTATE,this.Vt),this.on(i.ENSURE_ORIGINAL_REPLACESTATE,this.Bt)},getOriginalPushState:function(){return this.W.originalPushState},getOriginalReplaceState:function(){return this.W.originalReplaceState},Vt:function(){this.W.originalPushState||(this.W.originalPushState=r.getGlobal("history").pushState.bind(r.getGlobal("history")))},Bt:function(){this.W.originalReplaceState||(this.W.originalReplaceState=r.getGlobal("history").replaceState.bind(r.getGlobal("history")))}}},4453:function(t,n,e){var i=e(8275),r=i.cloneDeep,o=i.isEmpty,a=e(136);t.exports={initialize:function(){this.W={},this.on(a.DATA_LOADED,this.vt),this.on(a.SET_INTEGRATION_SETTINGS,this.zt)},vt:function(t){if(!o(t.data.integrationSettings)){var n=this;t.data.integrationSettings.forEach((function(t){n.W[t.id]=t})),this.emitChange()}},zt:function(t){var n=this.W[t.id];n?Object.assign(n,t):this.W[t.id]=t},getAll:function(){return r(Object.values(this.W))},get:function(t){return r(this.W[t])},getReference:function(t){return this.W[t]}}},2734:function(t,n,e){var i=e(8275).cloneDeep,r=e(136),o=e(7852),a="*";t.exports={initialize:function(){this.W={},this.on(r.LOAD_PERSISTED_LAYER_STATES,this.Ft),this.on(r.RECORD_LAYER_DECISION,this.Gt),this.on(r.RECORD_LAYER_DECISION_EVENT_ID,this.qt)},getLayerState:function(t,n){if(this.W[t]){var e=this.W[t];if(Object.keys(e).length>1&&!n)throw new Error("View Id must be specified when more than one layerState for layer.");return i(n?e[n]:e[a])}},getLayerStates:function(t){var n=this,e=function(e){var o=n.W[e];Object.keys(o).forEach((function(n){var e=o[n];(void 0===t||e.namespace===t)&&r.push(i(e))}))},r=[];for(var o in this.W)e(o);return r},getLayerStatesForAnalytics:function(){var t=this,n=function(n){var i=t.W[n];Object.keys(i).forEach((function(t){var n=i[t];e.push({layerId:n.layerId,decision:n.decision,decisionEventId:n.decisionEventId})}))},e=[];for(var i in this.W)n(i);return e},Ft:function(t){t.merge||(this.W={});var n=this;t.layerStates.forEach((function(t){var e=t.layerId;t.pageId||(t.pageId=t.viewId);var i=t.pageId||a,r=n.W[e];if(void 0===r)n.W[e]={},n.W[e][i]=t;else{var o=r[i];(!o||t.decisionTimestamp>(o.decisionTimestamp||0))&&(n.W[e][i]=t)}})),this.emitChange()},Gt:function(t){var n={layerId:t.layerId,revision:t.revision,namespace:t.namespace,pageId:t.pageId,decisionTicket:t.decisionTicket,decision:t.decision,decisionActivationId:t.activationId,decisionTimestamp:t.timestamp,decisionEventId:null},e=this.W[t.layerId]||{};t.pageId?(delete e[a],e[t.pageId]=n):(e={})[a]=n,this.W[t.layerId]=e,this.emitChange()},qt:function(t){var n=t.layerId,e=t.pageId||a;this.W[n]?this.W[n][e]?(this.W[n][e].decisionEventId=t.decisionId,this.emitChange()):o.warn("Not recording decision event: Layer state not found for view",e):o.warn("Not recording decision event: Campaign not registered",n)}}},9057:function(t,n,e){var i=e(136),r=e(3019),o=e(5686),a=e(8275).isEmpty;t.exports={initialize:function(){this.W={layers:{},experiments:{},variations:{}},this.on(i.DATA_LOADED,this.vt)},vt:function(t){if(!a(t.data.layers)){var n=this;(t.data.layers||[]).forEach((function(t){(t.experiments||[]).forEach((function(e){t.pageIds||(t.pageIds=t.viewIds),e.campaignName||o.isSingleExperimentPolicy(t.policy)?o.isSingleExperimentPolicy(t.policy):e.campaignName=t.name,(e.variations||[]).forEach((function(t){(t.actions||[]).forEach((function(t){t.pageId||(t.pageId=t.viewId)})),n.W.variations[t.id]=t})),n.W.experiments[e.id]=e})),r.deepFreeze(t),n.W.layers[t.id]=t})),this.emitChange()}},getAll:function(){return r.safeReference(Object.values(this.W.layers))},getCampaignsMap:function(){return r.safeReference(this.W.layers)},getExperimentsMap:function(){return r.safeReference(this.W.experiments)},getVariationsMap:function(){return r.safeReference(this.W.variations)},getCount:function(){return Object.keys(this.W.layers).length},getAllByPageIds:function(t){var n=this.W.layers;return r.safeReference(Object.keys(n).reduce((function(e,i){var r=n[i];return t.some((function(t){return(r.pageIds||[]).includes(t)}))&&e.push(r),e}),[]))},get:function(t){return r.safeReference(this.W.layers[t])},getLayerByExperimentId:function(t){var n,e=this.W.layers;return Object.keys(e).some((function(i){var r=e[i];return!!(r.experiments||[]).find((function(n){return n.id===t}))&&(n=r,!0)})),r.safeReference(n)},getExperimentByVariationId:function(t){var n,e=this.W.layers;return Object.keys(e).some((function(i){return(e[i].experiments||[]).some((function(e){return(e.variations||[]).find((function(n){return n.id===t}))&&(n=e),!!n}))})),r.safeReference(n)}}},9809:function(t,n,e){var i=e(136);t.exports={initialize:function(){this.W={logs:[]},this.on(i.LOG,this.Ht)},getLogs:function(){return this.W.logs},Ht:function(t){this.W.logs.push(t),this.emitChange()},Z:function(){return this.W.logs.slice()}}},8338:function(t,n,e){var i=e(136),r=e(3019);t.exports={initialize:function(){this.W={data:null,hasTracked:null},this.on(i.LOAD_REDIRECT_DATA,this.Yt),this.on(i.REGISTER_TRACKED_REDIRECT_DATA,this.Kt)},get:function(){return r.safeReference(this.W.data)},hasTracked:function(){return this.W.hasTracked},Yt:function(t){r.deepFreeze(t),this.W.data=t,this.W.hasTracked=!1,this.emitChange()},Kt:function(){this.W.hasTracked=!0}}},9738:function(t,n,e){var i=e(136),r=e(192);t.exports={initialize:function(){this.W={},this.on(i.SET_PENDING_EVENT,this.$t),this.on(i.REMOVE_PENDING_EVENT,this.Wt),this.on(i.LOAD_PENDING_EVENTS,this.Xt)},getEvents:function(){return this.W},getEventsString:function(){return r.stringify(this.W)},$t:function(t){Object.keys(this.W).length>=1e3&&this.Jt();var n=t.id,e=t.retryCount;this.W[n]&&this.W[n].retryCount===e||(this.W[n]={id:n,timeStamp:t.timeStamp,data:t.data,retryCount:e},this.emitChange())},Wt:function(t){delete this.W[t.id],this.emitChange()},Xt:function(t){this.W=t.events,this.Jt(),this.emitChange()},Jt:function(){for(var t=Object.values(this.W).sort((function(t,n){return t.timeStamp-n.timeStamp})),n=0;n<=t.length-1e3;n++)delete this.W[t[n].id];this.emitChange()}}},6067:function(t,n,e){var i=e(136);t.exports={initialize:function(){this.W={layerId:null},this.on(i.ANNOUNCE_PENDING_REDIRECT,this.Yt)},isExpectingRedirect:function(){return"string"==typeof this.W.layerId},getLayerId:function(){return this.W.layerId},Yt:function(t){this.isExpectingRedirect()||(this.W.layerId=t.layerId,this.emitChange())}}},5501:function(t,n,e){var i=e(8275).mapValues,r=e(136),o=e(6592);t.exports={initialize:function(){this.W={},this.W[o.PerformanceData.performance_marks]={},this.on(r.SET_PERFORMANCE_MARKS_DATA,this.Qt)},Qt:function(t){void 0===this.W[o.PerformanceData.performance_marks][t.name]&&(this.W[o.PerformanceData.performance_marks][t.name]=[]),this.W[o.PerformanceData.performance_marks][t.name].push(t.data),this.emitChange()},getMarks:function(){return i(this.W[o.PerformanceData.performance_marks],(function(t){return t.map((function(t){return[t.startTime,t.duration]}))}))},getDurationsFor:function(t){var n=this;return t.reduce((function(t,e){var i=n.W[o.PerformanceData.performance_marks][e];return i&&(t[e]=Math.round(i.reduce((function(t,n){return t+n.duration}),0))),t}),{})}}},4715:function(t,n,e){var i=e(8275).mapValues,r=e(136),o=e(6592),a=e(7852);t.exports={initialize:function(){this.W=i(o.PluginTypes,(function(){return{}})),this.on(r.REGISTER_PLUGIN,this.Zt)},Zt:function(t){var n=t.type,e=t.name,i=t.plugin;if(!n||!e)throw new Error("Missing information needed to register plugins: "+n+":"+e);if(!this.W[n])throw new Error("Invalid plugin type specified: "+n);this.W[n][e]=i,a.debug("Plugin Store: Registering Plugin :",t)},getAllPlugins:function(t){if(!t)return this.W;if(this.W[t])return this.W[t];throw new Error("Invalid plugin type: "+t)},getPlugin:function(t,n){if(!n||!t)throw new Error("Missing plugin parameters");return this.getAllPlugins(t)[n]||null}}},8515:function(t,n,e){var i=e(136),r=e(8859);t.exports={initialize:function(){this.W={},this.on(i.SET_VISITOR_ATTRIBUTE_PENDING,this.tn)},getPendingAttributeValue:function(t){return t=Array.isArray(t)?t.concat("pending"):[t,"pending"],r.getFieldValue(this.W,t)},tn:function(t){r.setFieldValue(this.W,t.key,{pending:t.pending}),this.emitChange()}}},4999:function(t,n,e){var i=e(8275),r=i.cloneDeep,o=i.isEmpty,a=i.merge,u=e(136);t.exports={initialize:function(){this.W={inRumSample:!1,id:null,src:null,RumHost:null,data:{extras:{}},apis:{},DOMObservation:{},featuresNeeded:{}},this.on(u.SET_RUM_DATA,this.nn),this.on(u.RECORD_API_USAGE,this.en),this.on(u.INITIALIZE_CHANGE_METRICS,this.rn),this.on(u.RECORD_ACTIVATION_TYPE_USAGE,this.an),this.on(u.RECORD_AUDIENCE_USAGE,this.un),this.on(u.RECORD_CHANGE_MACROTASK_RATE,this.cn),this.on(u.RECORD_CHANGE_OVERHEATED,this.sn),this.on(u.RECORD_CHANGE_TYPE_USAGE,this.fn),this.on(u.RECORD_DOM_OBSERVATION_OCCURENCE,this.ln),this.on(u.RECORD_INTEGRATION_USAGE,this.dn),this.on(u.RECORD_LAYER_FEATURE_USAGE,this.vn),this.on(u.RECORD_LAYER_POLICY_USAGE,this.hn),this.on(u.RECORD_VIEW_FEATURE_USAGE,this.pn),this.on(u.RECORD_VIEWS_INITIALLY_ACTIVATED_COUNT,this.gn),this.on(u.RECORD_VISITOR_ID_LOCATOR_USAGE,this.mn),this.on(u.RECORD_VISITOR_ID_ERROR,this.bn),this.on(u.RECORD_STICKY_BUCKETING_FEATURE,this._n)},nn:function(t){a(this.W,t),this.emitChange()},en:function(t){this.W.apis[t.methodName]||(this.W.apis[t.methodName]=0),this.W.apis[t.methodName]++,this.emitChange()},rn:function(){void 0===this.W.data.extras.changeMacrotaskRate&&(this.W.data.extras.changeMacrotaskRate=0),void 0===this.W.data.extras.numOverheatedChanges&&(this.W.data.extras.numOverheatedChanges=0)},cn:function(t){void 0===this.W.data.extras.changeMacrotaskRate&&(this.W.data.extras.changeMacrotaskRate=0),t.changeMacrotaskRate>this.W.data.extras.changeMacrotaskRate&&(this.W.data.extras.changeMacrotaskRate=t.changeMacrotaskRate),this.emitChange()},sn:function(){void 0===this.W.data.extras.numOverheatedChanges&&(this.W.data.extras.numOverheatedChanges=0),this.W.data.extras.numOverheatedChanges++,this.emitChange()},ln:function(t){this.W.DOMObservation[t.counterName]||(this.W.DOMObservation[t.counterName]=0),this.W.DOMObservation[t.counterName]++,this.emitChange()},yn:function(t,n,e){void 0===this.W.featuresNeeded[t]&&(this.W.featuresNeeded[t]={});var i=this.W.featuresNeeded[t];n.forEach((function(t){i[t]||(i[t]={}),i[t][e]||(i[t][e]=!0)}))},dn:function(t){this.yn("integrations",t.integrations,t.layerId)},fn:function(t){this.yn("changeTypes",t.changeTypes,t.layerId)},an:function(t){this.yn("activationTypes",[t.activationType],t.entityId),this.emitChange()},pn:function(t){this.yn("viewFeatures",t.featuresUsed,t.entityId),this.emitChange()},vn:function(t){this.yn("layerFeatures",[t.feature],t.entityId),this.emitChange()},hn:function(t){this.yn("policy",[t.policy],t.layerId),this.emitChange()},un:function(t){this.yn("audiences",t.audienceTypes,t.layerId),this.emitChange()},gn:function(t){this.W.data.extras.viewsInitiallyActivatedCount=t.viewsInitiallyActivatedCount,this.emitChange()},mn:function(t){this.yn("visitorIdLocatorType",[t.visitorIdLocatorType],t.entityId),this.emitChange()},bn:function(t){this.W.data.extras.errorCustomVisitorId=t.isError,this.emitChange()},_n:function(t){this.yn("stickyBucketing",[t.feature],t.id)},getSampleRum:function(){return this.W.inRumSample},getRumId:function(){return this.W.id},getRumHost:function(){return this.W.RumHost},getApiData:function(){return this.W.apis},getDOMObservationData:function(){return this.W.DOMObservation},getRumData:function(){return r(this.W.data)},getScriptSrc:function(){return this.W.src},getFeaturesNeededData:function(){var t=this.W.featuresNeeded,n={};return Object.keys(t).forEach((function(e){var i=t[e],r=Object.keys(i);o(r)||(n[e]={}),r.forEach((function(t){n[e][t]=Object.keys(i[t]).length}))})),n}}},9292:function(t,n,e){var i=e(136);t.exports={initialize:function(){this.W={initialized:!1,natives:{}},this.on(i.SANDBOXED_FUNCTIONS_ADDED,this.wn)},wn:function(t){if(!t.sandboxedFunctions)throw new Error("No sandboxedFunctions found in payload");this.W.natives=t.sandboxedFunctions,this.W.initialized=!0,this.emitChange()},getAll:function(){return this.W.natives},get:function(t){if(!t)throw new Error("Missing name parameter");return this.W.natives[t]||null},isInitialized:function(){return this.W.initialized}}},3799:function(t,n,e){var i=e(8275).cloneDeep,r=e(136),o=e(8298),a=e(9899);t.exports={initialize:function(){this.W={lastSessionTimestamp:0,sessionId:null},this.on(r.REFRESH_SESSION,this.En),this.on(r.LOAD_SESSION_STATE,this.In)},getState:function(){return i(this.W)},getSessionId:function(){return this.W.sessionId},In:function(t){this.W.sessionId=t.sessionId,this.W.lastSessionTimestamp=t.lastSessionTimestamp,this.emitChange()},En:function(){var t=o.now(),n=this.W.lastSessionTimestamp;(!this.W.sessionId||t-n>18e5)&&(this.W.sessionId=a.generate()),this.W.lastSessionTimestamp=t,this.emitChange()}}},8950:function(t,n,e){var i=e(8275),r=i.cloneDeep,o=i.isEmpty,a=e(136);t.exports={initialize:function(){this.An(),this.on(a.FINALIZE_BATCH_SNAPSHOT,this.Sn),this.on(a.REGISTER_PREVIOUS_BATCH,this.Tn),this.on(a.REGISTER_TRACKER_VISITOR,this.On),this.on(a.REGISTER_TRACKER_EVENT,this.kn),this.on(a.REGISTER_TRACKER_DECISION,this.Rn),this.on(a.RESET_TRACKER_EVENTS,this.Cn),this.on(a.RESET_TRACKER_STORE,this.An),this.on(a.RESET_TRACKER_PREVIOUS_BATCHES,this.Nn),this.on(a.SET_TRACKER_POLLING,this.Dn),this.on(a.SET_TRACKER_BATCHING,this.xn),this.on(a.SET_TRACKER_USE_BEACON,this.jn),this.on(a.SET_TRACKER_SEND_EVENTS,this.Mn),this.on(a.SET_TRACKER_PERSISTABLE_STATE,this.Pn),this.on(a.SET_TRACKER_DIRTY,this.Ln),this.on(a.UPDATE_TRACKER_VISITOR_ATTRIBUTES,this.Un)},getPersistableState:function(){return this.W.isDirty?this.hasEventsToSend()||this.hasPreviousBatchesToSend()?{data:this.W.data,decisions:this.W.decisions,decisionEvents:this.W.decisionEvents,previousBatches:this.W.previousBatches}:{}:null},Pn:function(t){o(this.W.data)||o(t.data)||(this.Sn(),this.W.previousBatches.push(this.getEventBatch())),this.W.data=t.data||{},this.W.decisions=t.decisions||[],this.W.decisionEvents=t.decisionEvents||[],o(this.W.previousBatches)||o(t.previousBatches)?this.W.previousBatches=t.previousBatches||[]:this.W.previousBatches=this.W.previousBatches.concat(t.previousBatches),this.emitChange()},Ln:function(t){this.W.isDirty=t,this.emitChange()},kn:function(t){var n=this.Vn();(o(n.snapshots)||!o(this.W.decisionEvents))&&this.Bn(),this.zn().events.push(t.event),this.W.decisions=t.decisions,this.Ln(!0)},Rn:function(t){this.W.decisionEvents.push(t.decisionEvent),this.W.decisions=t.decisions,this.Ln(!0)},On:function(t){o(this.W.data)?this.W.data=t.data:this.Sn(),this.W.data.visitors.push(t.visitor),this.W.decisions=t.decisions,this.W.decisionEvents=[],this.Ln(!0)},Tn:function(t){this.W.previousBatches.push(t),this.Ln(!0)},An:function(){this.W={polling:!1,shouldBatch:!0,data:{},decisions:[],decisionEvents:[],canSend:!1,isDirty:!1,previousBatches:[]},this.emitChange()},Cn:function(){var t=this.Vn();this.W.data.visitors=[t],t.snapshots=[],this.Ln(!0)},Nn:function(){this.W.previousBatches=[],this.Ln(!0)},Dn:function(t){this.W.polling=t,this.emitChange()},xn:function(t){this.W.shouldBatch=t,this.emitChange()},jn:function(t){this.W.shouldUseBeacon=t,this.emitChange()},Mn:function(t){this.W.canSend=t,this.emitChange()},getEventBatch:function(){return r(this.W.data)},getPreviousBatches:function(){return r(this.W.previousBatches)},Fn:function(){return this.W.decisionEvents.slice()},Gn:function(){this.W.decisionEvents=[]},qn:function(){return this.W.decisions.slice()},isPolling:function(){return this.W.polling},shouldBatch:function(){return this.W.shouldBatch},shouldUseBeacon:function(){return this.W.shouldUseBeacon},zn:function(){var t=this.Vn(),n=t&&t.snapshots;return n&&n[n.length-1]},Vn:function(){var t=this.W.data.visitors;return t&&t[t.length-1]},Bn:function(){var t=this.Fn();this.Vn().snapshots.push({decisions:this.qn(),events:t}),this.Gn(),this.Ln(!0)},Sn:function(){this.W.decisionEvents.length>0&&this.Bn()},hasEventsToSend:function(){if(!o(this.W.decisionEvents))return!0;if(!o(this.W.data)&&(this.W.data.visitors||[]).some((function(t){return t.snapshots.length>0})))return!0;return!1},hasPreviousBatchesToSend:function(){return!o(this.W.previousBatches)},canSend:function(){return this.W.canSend},Un:function(t){var n=this.Vn();n&&(n.attributes=t.attributes)}}},4184:function(t,n,e){var i=e(8275),r=i.cloneDeep,o=i.isEmpty,a=e(136);t.exports={initialize:function(){this.W={},this.on(a.SET_UA_DATA,this.vt)},vt:function(t){o(this.W)&&(this.W=t.data)},get:function(){return r(this.W)}}},90:function(t,n,e){var i=e(8275).cloneDeep,r=e(136),o=e(7852),a={globalTags:{},viewStates:{},shouldBatch:!1};t.exports={initialize:function(){this.W=i(a),this.on(r.REGISTER_VIEWS,this.Hn),this.on(r.SET_VIEW_ACTIVE_STATE,this.Yn),this.on(r.UPDATE_PARSED_VIEW_METADATA,this.Kn),this.on(r.UPDATE_USER_SUPPLIED_METADATA,this.$n),this.on(r.TRACK_VIEW_ACTIVATED_EVENT,this.Wn),this.on(r.SET_GLOBAL_TAGS,this.Xn),this.on(r.RESET_VIEW_STATES,this.Jn),this.on(r.SET_VIEW_BATCHING,this.xn)},getAll:function(){var t={};for(var n in this.W.viewStates)t[n]=this.getViewState(n);return t},getActiveViewIds:function(){var t=this,n=this.W.viewStates;return Object.keys(n).reduce((function(n,e){return t.isViewActive(e)&&n.push(e),n}),[])},shouldBatch:function(){return this.W.shouldBatch},getViewState:function(t){var n=i(this.W.viewStates[t]),e=this.W.globalTags;return n.metadata=Object.assign({},n.parsedMetadata,e,n.userSuppliedMetadata),n},getActiveViewTags:function(){var t=this.getActiveViewStates().map((function(t){return t.metadata})),n=[{}].concat(t);return Object.assign.apply(Object,n)},getActivationEventId:function(t){return this.W.viewStates[t]?this.W.viewStates[t].activationEventId:null},getActiveViewStates:function(){var t=this,n=this.W.viewStates;return Object.keys(n).reduce((function(n,e){return t.isViewActive(e)&&n.push(t.getViewState(e)),n}),[])},isViewActive:function(t){var n=this.W.viewStates[t];return n||o.warn("No Page registered with id",t),!!n.isActive},getGlobalTags:function(){return i(this.W.globalTags)},Jn:function(){this.W.viewStates={},this.emitChange()},Hn:function(t){var n=t.forceClean||!1,e=this;t.views.forEach((function(t){var i=t.id;e.W.viewStates[i]={id:i,isActive:"boolean"!=typeof t.isActive||n?null:t.isActive,activatedTimestamp:null,activationEventId:null,parsedMetadata:{},userSuppliedMetadata:{}}})),this.emitChange()},Yn:function(t){var n=t.view.id;if(!this.W.viewStates[n])throw new Error("No view exists with id "+n);this.W.viewStates[n].isActive=t.isActive,t.isActive?this.W.viewStates[n].activatedTimestamp=t.timestamp:(this.W.viewStates[n].parsedMetadata={},this.W.viewStates[n].userSuppliedMetadata={}),this.emitChange()},Kn:function(t){var n=t.pageId;if(!this.W.viewStates[n])throw new Error("No view exists with id "+n);Object.assign(this.W.viewStates[n].parsedMetadata,t.metadata),this.emitChange()},$n:function(t){var n=t.pageId;if(!this.W.viewStates[n])throw new Error("No view exists with id "+n);Object.assign(this.W.viewStates[n].userSuppliedMetadata,t.metadata),this.emitChange()},Wn:function(t){var n=t.pageId;this.W.viewStates[n]&&(this.W.viewStates[n].activationEventId=t.eventData.eventId,this.emitChange())},Xn:function(t){Object.assign(this.W.globalTags,t),this.emitChange()},xn:function(t){this.W.shouldBatch=t,this.emitChange()}}},749:function(t,n,e){var i=e(136),r=e(3019),o=e(8275).isEmpty;t.exports={initialize:function(){this.W={views:{},apiNamesToViews:{}},this.on(i.DATA_LOADED,this.vt)},getAll:function(){return r.safeReference(Object.values(this.W.views))},getPagesMap:function(){return r.safeReference(this.W.views)},get:function(t){return r.safeReference(this.W.views[t])},getByApiName:function(t){return r.safeReference(this.W.apiNamesToViews[t])},apiNameToId:function(t){var n=this.W.apiNamesToViews[t];if(n)return n.id},idToApiName:function(t){var n=this.W.views[t];if(n)return n.apiName},getNumberOfPages:function(){return Object.keys(this.W.views).length},getAllViewsForActivationType:function(t){var n=this.W.views;return Object.keys(n).map((function(t){return n[t]})).filter((function(n){return n.activationType===t}))},vt:function(t){if(!o(t.data.views)){var n=this;t.data.views.forEach((function(t){r.deepFreeze(t),n.W.views[t.id]=t,n.W.apiNamesToViews[t.apiName]=t})),this.emitChange()}}}},2857:function(t,n,e){var i=e(8275).cloneDeep,r=e(136),o=e(8859);t.exports={initialize:function(){this.W={profile:{},metadata:{},visitorId:null},this.on(r.SET_VISITOR_ID_VIA_API,this.Qn),this.on(r.SET_VISITOR_ATTRIBUTES,this.Zn),this.on(r.LOAD_EXISTING_VISITOR_PROFILE,this.te)},getVisitorProfile:function(){return this.W.profile},getVisitorProfileMetadata:function(){return this.W.metadata},getAttribute:function(t){var n=this.W.profile;return i(o.getFieldValue(n,t))},getAttributeMetadata:function(t){return i(this.W.metadata[t])},getVisitorIdFromAPI:function(){return this.W.visitorId},te:function(t){this.W.profile=t.profile,this.W.metadata=t.metadata,this.emitChange()},Zn:function(t){var n=this;t.attributes.forEach((function(t){var e=t.key;o.setFieldValue(n.W.profile,e,t.value),t.metadata&&Object.keys(t.metadata).forEach((function(i){var r=t.metadata[i];o.setFieldValue(n.W.metadata,e.concat(i),r)}))})),this.emitChange()},Qn:function(t){this.W.visitorId=t,this.emitChange()}}},6658:function(t,n,e){var i=e(136),r=e(8275).isEmpty;t.exports={initialize:function(){this.W={},this.on(i.DATA_LOADED,this.ne)},getCustomBehavioralAttributes:function(){var t=this.W;return Object.keys(t).reduce((function(n,e){var i=t[e];return i.rule_json&&n.push(i),n}),[])},getVisitorAttribute:function(t){var n=Object.values(this.W);if(t.datasourceId&&(n=n.filter((function(n){return n.dcp_datasource_id===String(t.datasourceId)}))),t.attributeName&&t.attributeId)throw new Error("Must not specify both attribute name and attribute ID");if(t.attributeId){var e=this.W[t.attributeId];if(!e)throw new Error("Unrecognized attribute ID: "+t.attributeId);return e}if(t.attributeName){var i=n.filter((function(n){return n.name===t.attributeName}));if(!i.length)throw new Error("Unrecognized attribute name: "+t.attributeName);if(i.length>1)throw new Error("Too many attributes with name: "+t.attributeName);return i[0]}throw new Error("Must specify attribute name or attribute ID")},ne:function(t){if(!r(t.data.visitorAttributes)){var n=this;t.data.visitorAttributes.forEach((function(t){n.W[t.id]=t})),this.emitChange()}}}},7016:function(t,n,e){Object.defineProperty(n,"u",{value:!0});var i=e(8275),r=i.cloneDeep,o=i.isEqual,a=e(136),u=e(192);t.exports={initialize:function(){this.W={variationIdMap:{},preferredLayerMap:{},contextualMabMap:{},odpSegments:{}},this.on(a.UPDATE_VARIATION_ID_MAP,this.ee),this.on(a.MERGE_VARIATION_ID_MAP,this.re),this.on(a.UPDATE_PREFERRED_LAYER_MAP,this.oe),this.on(a.MERGE_PREFERRED_LAYER_MAP,this.ae),this.on(a.UPDATE_CONTEXTUAL_MAB_MAP,this.ue),this.on(a.MERGE_CONTEXTUAL_MAB_MAP,this.ce),this.on(a.SET_ODP_SEGMENTS,this.se)},se:function(t){this.W.odpSegments=t,this.emitChange()},getOdpSegments:function(){return this.W.odpSegments},getContextualMabMap:function(){return r(this.W.contextualMabMap)},getContextualMabMapString:function(){return u.stringify(this.W.contextualMabMap)},ue:function(t){var n=this.W.contextualMabMap[t.layerId]||{};o(n[t.experimentId],t.variationData)||(n[t.experimentId]=t.variationData,this.W.contextualMabMap[t.layerId]=n,this.emitChange())},ce:function(t){var n=this.W.contextualMabMap;Object.keys(t.contextualMabMap).forEach((function(e){var i=t.contextualMabMap[e];n[e]||(n[e]={}),Object.keys(i).forEach((function(t){var r=i[t];n[e][t]||(n[e][t]=r)}))})),this.W.contextualMabMap=n,this.emitChange()},getVariationIdMap:function(){return r(this.W.variationIdMap)},getVariationIdMapString:function(){return u.stringify(this.W.variationIdMap)},ee:function(t){var n=this.W.variationIdMap[t.layerId]||{};n[t.experimentId]!==t.variationId&&(n[t.experimentId]=t.variationId,this.W.variationIdMap[t.layerId]=n,this.emitChange())},re:function(t){var n=this.getVariationIdMap(),e=t.variationIdMap;Object.keys(n||{}).forEach((function(t){var i=(n||{})[t];e[t]?Object.assign(e[t],i):e[t]=i})),this.W.variationIdMap=e,this.emitChange()},getPreferredLayerMap:function(){return r(this.W.preferredLayerMap)},getPreferredLayerMapString:function(){return u.stringify(this.W.preferredLayerMap)},getPreferredLayerId:function(t){return this.W.preferredLayerMap[t]},oe:function(t){this.W.preferredLayerMap[t.groupId]!==t.layerId&&(this.W.preferredLayerMap[t.groupId]=t.layerId,this.emitChange())},ae:function(t){var n=this.getPreferredLayerMap(),e=t.preferredLayerMap;Object.assign(e,n),this.W.preferredLayerMap=e,this.emitChange()}}},2725:function(t,n,e){var i=e(136);e(8487).J;t.exports={initialize:function(){this.W={events:[],foreignEvents:{},foreignEventQueues:{}},this.on(i.SET_VISITOR_EVENTS,this.vt),this.on(i.SET_FOREIGN_VISITOR_EVENTS,this.fe),this.on(i.SET_FOREIGN_VISITOR_EVENT_QUEUE,this.le)},getEvents:function(){return this.W.events},getForeignEvents:function(){return this.W.foreignEvents},getForeignEventQueues:function(){return this.W.foreignEventQueues},vt:function(t){this.W.events=t,this.emitChange()},fe:function(t){this.W.foreignEvents[t.key]=t.value},le:function(t){this.W.foreignEventQueues[t.key]=t.value}}},977:function(t,n,e){var i=e(136);t.exports={initialize:function(){this.W={baseMap:{},eventQueue:[],lastEvent:null,initialized:!1,cleared:!1},this.on(i.UPDATE_BEHAVIOR_STORE,this.de)},getBaseMap:function(){return this.W.baseMap},getEventQueue:function(){return this.W.eventQueue},getLastEvent:function(){return this.W.lastEvent},getCleared:function(){return this.W.cleared},getInitialized:function(){return this.W.initialized},de:function(t){this.W[t.key]=t.value}}},241:function(t,n,e){var i=e(8275).isEmpty,r=e(136);t.exports={initialize:function(){this.W={randomId:null,visitorIdLocator:null},this.on(r.SET_VISITOR_ID,this.vt),this.on(r.DATA_LOADED,this.ve)},getBucketingId:function(){return this.getRandomId()},getRandomId:function(){return this.W.randomId},getVisitorIdLocator:function(){return this.W.visitorIdLocator},vt:function(t){Object.assign(this.W,t),this.emitChange()},ve:function(t){i(t.data.visitorIdLocator)||(this.W.visitorIdLocator=t.data.visitorIdLocator,this.emitChange())}}},227:function(t,n,e){var i=e(8275).cloneDeep,r=e(7852),o=e(136);t.exports={initialize:function(){this.W={frames:[],defaultFrame:null,messages:[],subscribers:[],canonicalOrigins:null,disabled:!1},this.on(o.XDOMAIN_SET_DEFAULT_FRAME,this.he),this.on(o.XDOMAIN_ADD_FRAME,this.pe),this.on(o.XDOMAIN_SET_MESSAGE,this.ge),this.on(o.XDOMAIN_ADD_SUBSCRIBER,this.me),this.on(o.XDOMAIN_SET_CANONICAL_ORIGINS,this.be),this.on(o.XDOMAIN_SET_DISABLED,this._e)},getMessages:function(){return i(this.W.messages)},getOffset:function(){return 0===this.W.messages.length?0:this.W.messages[0].data.id},getNextMessageId:function(){return this.W.messages.length+this.getOffset()},getMessageById:function(t){return this.W.messages[t-this.getOffset()]},getSubscribers:function(){return this.W.subscribers},getFrames:function(){return this.W.frames},getNextFrameId:function(){return this.W.frames.length},getDefaultFrame:function(){return this.W.defaultFrame},getCanonicalOrigins:function(){return i(this.W.canonicalOrigins)},isDisabled:function(){return this.W.disabled},he:function(t){this.W.defaultFrame=t},pe:function(t){this.W.frames.push(t)},ge:function(t){for(this.W.messages[t.messageId-this.getOffset()]=t.message;this.W.messages.length>1e3;){var n=this.W.messages.shift();r.debug("XDomainStorage: Cleared old message: "+n.data.id)}},me:function(t){this.W.subscribers.push(t.subscriber)},be:function(t){this.W.canonicalOrigins=t.canonicalOrigins},_e:function(t){this.W.disabled=t.disabled}}},9262:function(t,n){n.locatorType={CSS_SELECTOR:"css_selector",JAVASCRIPT:"javascript",URL_REGEX:"url_regex"},n.valueType={STRING:"string",NUMBER:"number",CURRENCY:"currency"},n.nodeNames={INPUT:"INPUT",SELECT:"SELECT"}},9326:function(t,n,e){var i=e(8130).v;n.Error=i("TagError")},8612:function(t,n,e){var i=e(6592).PluginTypes,r=e(2025).get("stores/plugins");n.getTagValue=function(t){var e=r.getPlugin(i.viewTagLocators,t.locatorType);if(!e)throw new n.Error("No locator registered for tag locatorType: "+t.locatorType);return e(t)},n.enums=e(9262),n.Error=e(9326).Error},5192:function(t,n,e){var i=e(136),r=e(409),o=e(6761).Promise,a=e(2025).get("stores/async_request");n.makeAsyncRequest=function(t,n){var e,u,c=a.getPromise(t);if(c)return c;var s=new o((function(t,n){e=t,u=n}));return r.dispatch(i.REGISTER_ASYNC_DEFERRED,{source:t,promise:s,resolver:e,rejecter:u}),n&&n(),s},n.resolveRequest=function(t,n){r.dispatch(i.RESOLVE_DEFERRED,{source:t,resolveWith:n})},n.rejectRequest=function(t,n){r.dispatch(i.REJECT_DEFERRED,{source:t,rejectWith:n})}},6022:function(t,n,e){var i=e(4618),r=e(9454);n.getLanguage=function(){return r.getNavigatorLanguage()},n.getQueryParams=i.getQueryParams,n.getQueryParamValue=i.getQueryParamValue,n.getUrl=function(){return r.getHref()}},6278:function(t,n,e){var i=e(8130).v,r=e(8298),o=e(1019),a=e(9454),u=e(136),c=e(2025),s=e(409),f=c.get("stores/cookie_options"),l=n.SetError=i("CookieSetError"),d=n.MismatchError=i("CookieMismatchError"),v=["co","com","net","org","edu","gov","mil","int","ac","com","net","org"];n.getAll=function(t){var e,i,r,a,u;void 0===t&&(t=!0),e=o.getCookieString().split(/\s*;\s*/);var c={};for(r=0;r<e.length;r++)if((a=(i=e[r]).indexOf("="))>0&&void 0===c[u=n.safeDecodeURIComponent(i.substring(0,a))]){var s=i.substring(a+1);t&&(s=n.safeDecodeURIComponent(s)),c[u]=s}return c},n.safeDecodeURIComponent=function(t){try{return decodeURIComponent(t)}catch(n){return t}},n.get=function(t,e){return n.getAll(e)[t]},n.set=function(t,e,i,c){!1!==c&&(c=!0);var g=[];if(void 0===(i=Object.assign({encodeValue:!0},i)).domain){var m=f.getCurrentDomain();m||(m=function(t,e){!1!==e&&(e=!0);for(var i,r,o=t.hostname.split("."),a=[],c=null,f=o.length-1;f>=0;f--)if(a.unshift(o[f]),i=a.join("."),!(o.length>1&&(1===a.length||2===a.length&&v.includes(a[0]))||h.includes(i))){r={domain:e?"."+i:i};try{n.set(p,Math.random().toString(),r),n.remove(p,r),c=r.domain;break}catch(t){}}return s.dispatch(u.SET_COOKIE_DOMAIN,c),c}(a.getLocation(),!0)),i.domain=m}if(i.domain&&g.push("domain="+i.domain),void 0===i.path&&(i.path="/"),i.path&&g.push("path="+i.path),void 0===i.expires){var b=void 0===i.maxAge?f.getDefaultAgeInSeconds():i.maxAge;i.expires=new Date(r.now()+1e3*b)}if(void 0!==i.expires&&g.push("expires="+i.expires.toUTCString()),i.secure&&g.push("secure"),o.setCookie(t+"="+(i.encodeValue?encodeURIComponent(e):e)+";"+g.join(";")),c){var _=i.encodeValue,y=n.get(t,_);if(y!==e){if(!y)throw new l('Failed to set cookie "'+t+'"');throw new d('Expected "'+e+'" for "'+t+'", got "'+y+'"')}}},n.remove=function(t,e){for(var i=a.getLocation().hostname.split("."),r=1===i.length?0:1;i.length>r&&(2!==i.length||!v.includes(i[0]));)n.set(t,null,Object.assign({},e,{domain:"."+i.join("."),expires:new Date(0)}),!1),i.shift()};var h=["optimizely.test"],p="optimizelyDomainTestCookie"},8130:function(t,n,e){var i=e(3958),r=i("InternalError");n.C=r,n.v=function(t){return i(t,r)}},8339:function(t,n,e){var i=e(6761).Promise;t.exports=function(){var t,n,e=new i((function(e,i){t=e,n=i}));return e.resolve=function(){return t.apply(null,Array.from(arguments)),e},e.reject=function(){return n.apply(null,Array.from(arguments)),e},e}},587:function(t,n,e){Object.defineProperty(n,"u",{value:!0}),n.getEditorConfig=d,n.getEditorScriptUrl=v,n.persistEditorParams=p,n.loadEmbeddedEditor=function(t){"function"!=typeof(null==window.optimizely?void 0:window.optimizely.push)&&(u.warn("EditorLoader / window.optimizely does not have a push method; it may have been overridden by page code. Resetting to ensure embedded editor compatibility."),window.optimizely=[]);p(),i.registerFunction("getAccountId",(function(){return o.get("stores/global").getAccountId()})),a.setOptOut(!1);var n=d(t),e=v(n);n.pullRequestId&&!isNaN(Number(n.pullRequestId))&&u.debug("Main / Loading editor pull request ID: "+n.pullRequestId),c.addScriptAsync(e)};var i=e(9445),r=e(6278),o=e(2025),a=e(4214),u=e(7852),c=e(7219),s=e(9454),f=["optimizely_project_id","optimizely_experiment_id","optimizely_section_id","optimizely_variation_id","optimizely_embed_editor","optimizely_use_shadow_dom","optimizely_page_id","optimizely_device_mode","optimizely_events_mode"],l=["optimizely_oauth_token","optimizely_token_expires_in"];function d(t){var n,e={true:"http://localhost:9888/main.js",http:"http://localhost:9888/main.js",https:"https://localhost:9888/main.js"},i=null==(n=r.get("useLocalBundle"))?void 0:n.toLowerCase(),o=r.get("optimizelyVePr");return{useLocalBundle:!!e[i],pullRequestId:o,mfeEntrypoint:e[i]?e[i]:t}}function v(t){var n=t.pullRequestId;return n&&!isNaN(Number(n))?"https://develrc-app.optimizely.com/dist/visual-editor/pull-request/"+n+"/main.js":t.mfeEntrypoint}function h(t){var n={};if(!t)return n;for(var e=t.split("&"),i=0;i<e.length;i++){var r=e[i].indexOf("=");if(-1!==r){var o=e[i].substring(0,r),a=e[i].substring(r+1);try{n[o]=decodeURIComponent(a)}catch(t){n[o]=a}}}return n}function p(){var t=s.getGlobal("sessionStorage");if(t){var n=s.getHref()||"",e=n.indexOf("?"),i=n.indexOf("#"),r=-1!==e?n.substring(e+1,-1!==i?i:void 0):"",o=-1!==i?n.substring(i+1):"";o=o.replace(/^#?\/*/,"");var a=h(r),c=h(o);f.forEach((function(n){a[n]&&t.setItem(n,a[n])})),l.forEach((function(n){c[n]&&t.setItem(n,c[n])})),u.log("EditorLoader / Persisted visual editor params to sessionStorage")}}},3019:function(t,n,e){var i=e(8275).cloneDeep;n.deepFreeze=function(t){},n.safeReference=function(t){return i(t)}},8275:function(t,n){function e(t,n){return null!=n&&"undefined"!=typeof Symbol&&n[Symbol.hasInstance]?!!n[Symbol.hasInstance](t):t instanceof n}Object.defineProperty(n,"u",{value:!0}),n.cloneDeep=function t(n,r,o){if(void 0===r&&(r=0),null==n)return n;if("object"!==(void 0===n?"undefined":i(n)))return n;if(r>100)throw new Error("cloneDeep: Maximum recursion depth exceeded");if(o||(o=new Map),o.has(n))return o.get(n);var a=Date,u=RegExp,c=Array;if(e(n,a)){return new a(n.getTime())}if(e(n,u)){var s=n,f="";return s.global&&(f+="g"),s.ignoreCase&&(f+="i"),s.multiline&&(f+="m"),s.unicode&&(f+="u"),s.sticky&&(f+="y"),new u(s.source,f)}if(c.isArray(n)){var l=n,d=[];o.set(n,d);for(var v=l.length,h=0;h<v;h++)d[h]=t(l[h],r+1,o);return d}var p=Object.getPrototypeOf(n),g=p&&p!==Object.prototype?Object.create(p):{};for(var m in o.set(n,g),n)Object.prototype.hasOwnProperty.call(n,m)&&(g[m]=t(n[m],r+1,o));return g},n.isEmpty=function(t){return null==t||("string"==typeof t||Array.isArray(t)?0===t.length:"object"==typeof t&&0===Object.keys(t).length)},n.isEqual=function t(n,r){if(n===r)return!0;if(null==n||null==r)return n===r;if((void 0===n?"undefined":i(n))!==(void 0===r?"undefined":i(r)))return!1;if("object"!=typeof n)return n===r;if(Array.isArray(n)&&Array.isArray(r)){if(n.length!==r.length)return!1;for(var o=0;o<n.length;o++)if(!t(n[o],r[o]))return!1;return!0}if(Array.isArray(n)!==Array.isArray(r))return!1;if(e(n,Date)&&e(r,Date))return n.getTime()===r.getTime();if(e(n,RegExp)&&e(r,RegExp))return n.source===r.source&&n.global===r.global&&n.ignoreCase===r.ignoreCase&&n.multiline===r.multiline&&n.sticky===r.sticky&&n.unicode===r.unicode;var a=Object.keys(n),u=Object.keys(r);if(a.length!==u.length)return!1;for(var c=0;c<a.length;c++){var s=a[c];if(!Object.prototype.hasOwnProperty.call(r,s)||!t(n[s],r[s]))return!1}return!0},n.isObject=r,n.pick=function(t,n){var e={};if(null==t)return e;for(var i=0;i<n.length;i++){var r=n[i];Object.prototype.hasOwnProperty.call(t,r)&&(e[r]=t[r])}return e},n.omit=function(t,n){var e={};if(null==t)return e;var i=new Set(n);for(var r in t)Object.prototype.hasOwnProperty.call(t,r)&&!i.has(r)&&(e[r]=t[r]);return e},n.merge=function t(n){for(var e=arguments.length,i=new Array(e>1?e-1:0),o=1;o<e;o++)i[o-1]=arguments[o];if(!r(n))throw new TypeError("Target must be an object");for(var a=0;a<i.length;a++){var u=i[a];if(r(u))for(var c in u)if(Object.prototype.hasOwnProperty.call(u,c)){var s=u[c],f=n[c];if(void 0===s)continue;r(s)&&r(f)?n[c]=t({},f,s):n[c]=s}}return n},n.mapValues=function(t,n){var e={};for(var i in t)Object.prototype.hasOwnProperty.call(t,i)&&(e[i]=n(t[i],i,t));return e},n.flatten=function(t){for(var n=[],e=0;e<t.length;e++){var i=t[e];if(Array.isArray(i))for(var r=0;r<i.length;r++)n.push(i[r]);else n.push(i)}return n},n.flattenDeep=function t(n){var e=[];if(null==n)return e;for(var i=0;i<n.length;i++){var r=n[i];if(Array.isArray(r))for(var o=t(r),a=0;a<o.length;a++)e.push(o[a]);else e.push(r)}return e},n.pickBy=o,n.omitBy=function(t,n){var e="function"==typeof n;return o(t,(function(t,i){return!(e?n(t,i):r(t)&&Object.keys(n).every((function(e){return t[e]===n[e]})))}))};var i=function(t){return t&&"undefined"!=typeof Symbol&&t.constructor===Symbol?"symbol":typeof t};function r(t){var n=void 0===t?"undefined":i(t);return null!=t&&("object"===n||"function"===n)}function o(t,n){var e=function(e){if(!Object.prototype.hasOwnProperty.call(t,e))return"continue";var a=t[e];(i?n(a,e):r(a)&&Object.keys(n).every((function(t){return a[t]===n[t]})))&&(o[e]=a)},i="function"==typeof n,o={};for(var a in t)e(a);return o}},8859:function(t,n,e){var i=e(8275),r=i.isEmpty,o=i.isObject;n.getFieldValue=function(t,n){Array.isArray(n)||(n=[n]);for(var e=t,i=0;i<n.length;i++){var r=n[i];if(!o(e)||!e.hasOwnProperty(r))return;e=e[r]}return e},n.setFieldValue=function(t,n,e){if(!Array.isArray(n)||r(n))throw new Error("Attempted to set an invalid key path: "+n);for(var i=t,a=0;a<n.length-1;a++){var u=n[a];o(i[u])||(i[u]={}),i=i[u]}i[n[n.length-1]]=e}},7852:function(t,n,e){var i=e(136),r=e(8298),o=e(6592),a=e(409),u=e(192);function c(){this.logLevel=null,this.logMatch=null,this.logs=[],this.timebase=r.now()}c.prototype.ye=function(){return null!==this.logLevel},c.prototype.setLogLevel=function(t){var n=this.we(t);null===n?console.error("Unknown log level: "+t):this.logLevel!==n&&(this.log("Setting log level to "+n),this.logLevel=n,this.flush())},c.prototype.setLogMatcher=function(t){this.logMatcher="string"==typeof t?t:"",this.logGroup=0},c.prototype.shouldLog=function(t){return this.ye()&&this.logLevel>=t},c.prototype.matchesLogMessage=function(t,n){var e=this.logMatcher;if(!this.logMatcher)return!0;if(this.logGroup)return"GROUPSTART"===t?this.logGroup++:"GROUPEND"===t&&this.logGroup--,!0;var i=n.some((function(t){if("string"!=typeof t)try{t=u.stringify(t)}catch(t){}return"string"==typeof t&&t.includes(e)}));return i&&"GROUPSTART"===t&&this.logGroup++,i},c.prototype.storeLog=function(t,n){var e={logLevel:t,logMessage:n};a.dispatch(i.LOG,e)},c.prototype.flush=function(){var t=e(2025).get("stores/log");this.logGroup=0;var n=t.getLogs(),i=this;n.forEach((function(t){i.Ee(t.logLevel,t.logMessage,!0)}))},c.prototype.Ee=function(t,n,e){var i,r=t;if(console)switch(t){case"GROUPSTART":i=console.groupCollapsed,r=o.LogLevel.DEBUG;break;case"GROUPEND":i=console.groupEnd,r=o.LogLevel.DEBUG;break;case o.LogLevel.ERROR:i=console.error;break;case o.LogLevel.WARN:i=console.warn;break;case o.LogLevel.DEBUG:i=console.debug;break;default:i=console.log}try{e||this.ye()&&!this.shouldLog(r)||(Array.isArray(n)&&"string"==typeof n[0]&&(n=this.Ie(n)),this.storeLog(t,n)),i&&this.shouldLog(r)&&this.matchesLogMessage(t,n)&&i.apply(console,n)}catch(t){console&&(console.error?console.error(t):console.log(t))}},c.prototype.debug=function(){this.Ee(o.LogLevel.DEBUG,[].slice.call(arguments))},c.prototype.log=function(){this.Ee(o.LogLevel.INFO,[].slice.call(arguments))},c.prototype.logAlways=function(){var t=this.Ie([].slice.call(arguments));console&&console.log&&console.log.apply&&console.log.apply(console,t),this.storeLog(o.LogLevel.INFO,t)},c.prototype.warn=function(){this.Ee(o.LogLevel.WARN,[].slice.call(arguments))},c.prototype.error=function(t){var n=[].slice.call(arguments);1===n.length&&t.stack?(this.Ee(o.LogLevel.ERROR,[this.Ae(),t]),this.Ee(o.LogLevel.INFO,[t.stack])):this.Ee(o.LogLevel.ERROR,n)},c.prototype.groupCollapsed=function(){this.Ee("GROUPSTART",[].slice.call(arguments))},c.prototype.groupEnd=function(){this.Ee("GROUPEND",[].slice.call(arguments))},c.prototype.Ie=function(t){var n=this.Ae().toString();return n.length<6&&(n=("     "+n).slice(-6)),[n+"| Optly / "+t[0]].concat(t.slice(1))},c.prototype.Ae=function(){return this.timebase?r.now()-this.timebase:0},c.prototype.we=function(t){return t&&("TRUE"===(t=t.toUpperCase())&&(t="INFO"),"FALSE"===t&&(t="OFF"),"ALL"===t&&(t="DEBUG"),void 0!==o.LogLevel[t])?o.LogLevel[t]:null},t.exports=new c},6907:function(t,n,e){var i;i=e(9891),t.exports=i},5686:function(t,n){n.isSingleExperimentPolicy=function(t){return"single_experiment"===t||"multivariate"===t}},5385:function(t,n,e){var i=e(6761).Promise,r=e(9454);n.pollFor=function(t,n,e){var o,a;return"function"==typeof e?a=e:(o=e||100,a=function(){return--o<-1}),n=n||50,new i((function(e,i){!function o(){var u;if(!a()){try{var c=t();if(c)return e(c)}catch(t){u=t}return r.setTimeout(o,n)}i(u||new Error("Poll timed out"))}()}))}},5467:function(t,n,e){var i=e(6761).Promise;n.firstToResolve=function(t){return new i((function(n){t.forEach((function(t){i.resolve(t).then(n,(function(){}))}))}))}},4618:function(t,n,e){var i=e(9454);n.getQueryParams=function(){var t=i.getLocationSearch()||"";if(0===t.indexOf("?")&&(t=t.substring(1)),0===t.length)return[];for(var n=t.split("&"),e=[],r=0;r<n.length;r++){var o="",a="",u=n[r].split("=");u.length>0&&(o=u[0]),u.length>1&&(a=u[1]),e.push([o,a])}return e},n.getQueryParamValue=function(t){for(var e=n.getQueryParams(),i=0;i<e.length;i++)if(e[i][0]===t)return e[i][1]},n.queryStringFromMap=function(t){return Object.keys(t).map((function(n){return n+"="+t[n]})).join("&")}},1760:function(t,n,e){var i=e(7852),r=e(9454);function o(t){this.windowLength=t,this.count=0,this.listeners={},this.isIncrementingTick=!1}o.prototype.countCurrentTick=function(){this.isIncrementingTick||(this.isIncrementingTick=!0,this.increment(),r.setTimeout(function(){this.isIncrementingTick=!1}.bind(this),0))},o.prototype.increment=function(){this.count+=1,(this.listeners[String(this.count)]||[]).forEach((function(t){t()})),r.setTimeout(this.decrement.bind(this),this.windowLength)},o.prototype.decrement=function(){this.count-=1,this.count<0&&(i.warn("Decremented down to negative count: ",this.count),this.count=0)},o.prototype.addListener=function(t,n){this.listeners[t]||(this.listeners[t]=[]),this.listeners[t].push(n)},t.exports=o},3272:function(t,n,e){var i=e(8275).pick,r=e(2025).get("stores/observed_redirect");n.getReferrer=function(){var t=r.get();return t?t.referrer:null},n.getExperimentAndVariation=function(){var t=r.get();return t&&"string"==typeof t.variationId?i(t,["experimentId","variationId"]):null}},9670:function(t,n,e){var i=e(8275).mapValues,r=e(136),o=e(8298),a=e(2025),u=e(1019),c=e(6592),s=e(409),f=e(7852),l=a.get("stores/sandbox"),d=e(9454);n.shouldSandbox=function(){return!1},n.get=function(t){if(!t)throw new Error("Name is required");if(n.shouldSandbox()){l.isInitialized()||v();var e=l.get(t);if(e)return e}return d.getGlobal(t)};var v=function(){try{var t="optimizely_"+o.now(),n=u.createElement("iframe");n.name=t,n.style.display="none",u.appendToHead(n);var e=n.contentWindow,a=n.contentDocument;a.write("<scr"),a.write("ipt></scr"),a.write("ipt>"),a.close();var l=i(c.SandboxedFunctions,(function(t){return e[t]}));s.dispatch(r.SANDBOXED_FUNCTIONS_ADDED,{sandboxedFunctions:l})}catch(t){f.warn("Unable to create a sandbox: ",t)}}},7219:function(t,n,e){var i=e(1019),r=e(7852),o=e(8260);n.addScriptAsync=function(t,n,e){var o,a=i.querySelector("head"),u=e?i.querySelector(e):null,c=i.createElement("script");(c.type="text/javascript",c.async=!0,c.src=t,n&&(c.onload=n),u)?(r.debug("Target element found for selector: "+e+", adding script before it."),null==(o=u.parentNode)||o.insertBefore(c,u)):(r.debug("Target element not found for selector: "+e+", adding script to HEAD instead."),a.insertBefore(c,a.firstChild));r.debug("Asynchronously requesting "+t)},n.addScriptSync=function(t,e){try{var a="optimizely_synchronous_script_"+Math.floor(1e5*Math.random());if(-1!==t.indexOf('"'))return void r.error("Blocked attempt to load unsafe script: "+t);i.write("<scr"),i.write('ipt id="'+a+'" src="'+t+'"></scr'),i.write("ipt>");var u=i.querySelector("#"+a);if(!u)throw new Error("DocumentEnv.write failed to append script");u.onload=e,u.onerror=function(i){r.warn("Failed to load script ("+t+") synchronously:",i),n.addScriptAsync(t,e)}}catch(i){r.debug("DocumentEnv.write failed for "+t+": "+i.message);return o.request({url:t,async:!1,contentType:"text/plain",success:function(t){new Function(t.responseText)(),e&&e()}}).catch((function(i){r.error("Failed to load "+t+" via synchronous XHR: "+i.message),n.addScriptAsync(t,e)}))}}},249:function(t,n,e){var i=e(6761).Promise,r=e(9454);n.makeTimeoutPromise=function(t){return new i((function(n,e){r.setTimeout((function(){e(new Error("Timed out after "+t+" ms"))}),t)}))}},3498:function(t,n,e){var i=e(8275).isEmpty,r=e(4861),o=e(9454),a=e(136),u=e(2025),c=e(409),s=u.get("stores/ua_data");n.get=function(){var t=s.get();return i(t)&&(t=r.parseUA(o.getUserAgent()),c.dispatch(a.SET_UA_DATA,{data:t})),t}},327:function(t,n){n.guessDomain=function(t,n){if(!t)return"";try{return n?t.match(/:\/\/(.[^/]+)/)[1]:t.match(/:\/\/(?:www[0-9]?\.)?(.[^/:]+)/)[1]}catch(t){return""}}},9899:function(t,n){n.generate=function(){var t=new Uint8Array(16);crypto.getRandomValues(t),t[6]=15&t[6]|64,t[8]=63&t[8]|128;var n=Array.prototype.map.call(t,(function(t){return("0"+t.toString(16)).slice(-2)})).join("");return n.slice(0,8)+"-"+n.slice(8,12)+"-"+n.slice(12,16)+"-"+n.slice(16,20)+"-"+n.slice(20)}},5292:function(t,n,e){var i=e(6761).Promise,r=e(136),o=e(2025),a=e(409),u=e(8841),c=e(8130).v,s=e(8298),f=e(1019),l=e(192),d=e(5385),v=e(4285),h=e(9454),p=e(6592).VisitorStorageKeys,g=e(7852),m=o.get("stores/xdomain"),b=n.Error=c("XDomainStorageError");function _(t){var n;if(m.getFrames().find((function(n){return n.origin===t.origin}))){try{n=l.parse(t.data)}catch(n){return void g.debug("XDomain","Ignoring malformed message event:",t)}if("ERROR"===n.type)a.dispatch(r.XDOMAIN_SET_DISABLED,{disabled:!0}),u.emitInternalError(new b("Xdomain Error: "+n.response));else if("SYNC"===n.type)m.getSubscribers().forEach((function(t){t(n.response.key,n.response.value)}));else{var e=m.getMessageById(n.id);if(!e){if(g.warn("XDomain","No stored message found for ID",n.id),"number"!=typeof n.id)u.emitInternalError(new b("Message ID is not a number: "+n.id));else{var i=m.getNextMessageId();n.id>=i?u.emitInternalError(new b("Message ID is greater than expected maximum ID ("+n.id+">"+i+")")):n.id<0?u.emitInternalError(new b("Message ID is < 0: "+n.id)):u.emitInternalError(new b("No stored message found for message ID: "+n.id))}return}if(!e.resolver)return void g.warn("XDomain","Message already resolved, ignoring:",n.id);e.resolver(n.response),a.dispatch(r.XDOMAIN_SET_MESSAGE,{messageId:n.id,message:{data:{id:n.id,type:e.data.type,key:e.data.key},startTime:e.startTime,endTime:s.now()}})}}else g.debug("XDomain","No frame found for origin: "+t.origin)}function y(t){return!(["GET","PUT"].includes(t.type)&&!t.key.includes(p.SESSION_STATE))}function w(t,n){return n||(n=m.getDefaultFrame()),new i((function(e){var i={data:Object.assign({},t,{id:m.getNextMessageId(),use_cookie:y(t)}),resolver:e};n?m.isDisabled()||E(i,n):a.dispatch(r.XDOMAIN_SET_MESSAGE,{messageId:i.data.id,message:i})}))}function E(t,n){var e=t.data;a.dispatch(r.XDOMAIN_SET_MESSAGE,{messageId:t.data.id,message:Object.assign({},t,{startTime:s.now()})}),n.target.postMessage(l.stringify(e),n.origin)}n.setItem=function(t,n,e){return w({type:"PUT",key:t,value:n},e)},n.getItem=function(t,n){return w({type:"GET",key:t},n)},n.fetchAll=function(t){return w({type:"GETALL"},t)},n.deleteData=function(t,n){return w({type:"DELETE",visitorId:t},n)},n.subscribe=function(t){a.dispatch(r.XDOMAIN_ADD_SUBSCRIBER,{subscriber:t})},n.loadIframe=function(t,n){return new i((function(e){var i=f.createElement("iframe");i.src=t+n,i.hidden=!0,i.setAttribute("tabindex","-1"),i.setAttribute("title","Optimizely Internal Frame"),i.style.display="none",i.height=0,i.width=0,i.onload=function(){var o={id:m.getNextFrameId(),target:i.contentWindow,origin:t,path:n};a.dispatch(r.XDOMAIN_ADD_FRAME,o),e(o)},f.appendTo(f.querySelector("body"),i)}))},n.getXDomainUserId=function(t,n){var e,i={},r=Object.keys(t);return n.forEach((function(t){i[t]=[],r.forEach((function(n){var r=v.getUserIdFromKey(n,t);!e&&r&&(e=r),r&&!i[t].includes(r)&&i[t].push(r)}))})),g.debug("XDomain: Found userIds:",i),e},n.load=function(t,e){h.addEventListener("message",_);return d.pollFor((function(){return!!f.querySelector("body")})).then((function(){return n.loadIframe(t,e)})).then((function(t){a.dispatch(r.XDOMAIN_SET_DEFAULT_FRAME,t),m.isDisabled()||m.getMessages().forEach((function(n){n.startTime||E(n,t)}))}))}},8260:function(t,n,e){var i=e(8275).isObject,r=e(136),o=e(8298),a=e(409),u=e(192),c=e(7852),s=e(6761).Promise,f=e(9670);n.isCORSSupported=function(){return"withCredentials"in new(f.get("XMLHttpRequest"))},n.request=function(t){return t=Object.assign({method:"GET",async:!0,contentType:"text/plain;charset=UTF-8"},t),new s((function(e,r){if(!n.isCORSSupported())return r("CORS is not supported");var o=new(f.get("XMLHttpRequest"));o.onload=function(){t.success&&t.success(o),e(o)},o.onerror=function(){t.error&&t.error(o),r(o)},i(t.data)&&(t.data=u.stringify(t.data)),o.open(t.method,t.url,t.async),t.withCredentials&&(o.withCredentials=t.withCredentials),o.setRequestHeader("Content-Type",t.contentType),i(t.headers)&&Object.keys(t.headers).forEach((function(n){o.setRequestHeader(n,t.headers[n])})),o.send(t.data)}))},n.retryableRequest=function(t,e,i,u){if(!e)return s.reject(new Error("No id specified for request."));if(!n.isCORSSupported())return s.reject(new Error("CORS is not supported."));void 0===u&&(u=3),void 0===i&&(i=0);var f={id:e,timeStamp:o.now(),data:t,retryCount:i};return a.dispatch(r.SET_PENDING_EVENT,f),c.debug("Sending event ",e),n.request(t).then((function(t){return a.dispatch(r.REMOVE_PENDING_EVENT,{id:e}),t}),(function(t){throw f.retryCount>=u?(a.dispatch(r.REMOVE_PENDING_EVENT,{id:e}),c.warn("Event ",f," could not be sent after ",u," attempts.")):(f.retryCount++,a.dispatch(r.SET_PENDING_EVENT,f),c.debug("Event ",f," failed to send, with error ",t," It will be retried ",u-i," times.")),t}))},n.sendBeacon=function(t,e){if(!t.url||!t.data)return s.reject(new Error("Must provide required options"));if(navigator&&navigator.sendBeacon)try{var r=i(t.data)?u.stringify(t.data):t.data;if(navigator.sendBeacon(t.url,r))return s.resolve();throw new Error("Unable to sendBeacon")}catch(t){c.warn("sendBeacon failed: ",t)}return t=Object.assign({method:"POST"},t),n.request(t,e)}},2348:function(t,n,e){var i=e(8275).isEmpty,r=e(136),o=e(8674),a=e(5421),u=e(8298),c=e(2025),s=e(6592),f=e(1320),l=e(409),d=e(7852),v=e(8612),h=c.get("stores/event_data"),p=c.get("stores/plugins"),g=c.get("stores/rum"),m=c.get("stores/view"),b=c.get("stores/view_data");n.parseViewTags=function(t){var e=n.evaluateViewTags(t);n.setParsedViewTags(t.id,e)},n.updateAllViewTags=function(){m.getActiveViewStates().forEach((function(t){var e=b.get(t.id);n.parseViewTags(e)}))},n.evaluateViewTags=function(t){return t.tags?t.tags.reduce((function(t,n){try{t[n.apiName]=v.getTagValue(n)}catch(t){e=t,(null!=(i=v.Error)&&"undefined"!=typeof Symbol&&i[Symbol.hasInstance]?i[Symbol.hasInstance](e):e instanceof i)?d.warn("Page / Ignoring unparseable tag",n,t):d.error(t)}var e,i;return t}),{}):{}},n.createViewTicket=function(){var t={},n=p.getAllPlugins(s.PluginTypes.viewProviders);return Object.keys(n).forEach((function(e){var i=n[e];t[i.provides]=c.evaluate(i.getter)})),t},n.registerViews=function(t,n){l.dispatch(r.REGISTER_VIEWS,{views:t,forceClean:n})},n.activateViaAPI=function(t,e){e&&n.setUserSuppliedViewTags(t.id,e),n.activateMultiple([t],e)},n.getViewsAndActivate=function(t){var e=b.getAllViewsForActivationType(t);n.activateMultiple(e)},n.activateMultiple=function(t,e){var a=[];return t.forEach((function(t){var i=m.getViewState(t.id),u=n.createViewTicket();if(i.isActive)if(t.deactivationEnabled)try{n.hasValidStaticConditions(t,u)||n.deactivate(t)}catch(e){d.error("Page / Error evaluating whether to deactivate page ",n.description(t),e)}else d.log("Not activating Page, already active ",n.description(t));else{try{if(!n.hasValidStaticConditions(t,u))return"boolean"!=typeof i.isActive&&n.setViewActiveState(t,!1),void d.log("Page / Failed to match page conditions for "+n.description(t),t.staticConditions)}catch(e){return"boolean"!=typeof i.isActive&&n.setViewActiveState(t,!1),void d.error("Page / Error evaluating whether to activate page ",n.description(t),e)}if(a.push(t),n.setViewActiveState(t,!0),d.log("Activated Page",n.description(t)),o.emitViewActivated({view:t,metadata:e}),g.getSampleRum()){var c=t.activationType||s.ViewActivationTypes.immediate;l.dispatch(r.RECORD_ACTIVATION_TYPE_USAGE,{activationType:c,entityId:t.id})}var f=h.getByPageId(t.id);n.toggleEventImplementations(f,!0)}})),i(a)||o.emitViewsActivated({views:a}),a},n.deactivate=function(t){if(m.getViewState(t.id).isActive){n.setViewActiveState(t,!1),d.log("Deactivated Page",n.description(t)),o.emitPageDeactivated({page:t});var e=h.getByPageId(t.id);n.toggleEventImplementations(e,!1)}else d.log("Not deactivating Page, already inactive ",n.description(t))},n.setViewActiveState=function(t,n){l.dispatch(r.SET_VIEW_ACTIVE_STATE,{view:t,timestamp:u.now(),isActive:n})},n.setGlobalTags=function(t){l.dispatch(r.SET_GLOBAL_TAGS,t)},n.setParsedViewTags=function(t,n){l.dispatch(r.UPDATE_PARSED_VIEW_METADATA,{pageId:t,metadata:n})},n.setUserSuppliedViewTags=function(t,n){l.dispatch(r.UPDATE_USER_SUPPLIED_METADATA,{pageId:t,metadata:n})},n.hasValidStaticConditions=function(t,n){var e={};if(i(t.staticConditions))return!0;var o=p.getAllPlugins(s.PluginTypes.viewMatchers);d.groupCollapsed("Page / Evaluating staticConditions:",t.staticConditions),d.debug("Matching to current value:",n);var u=a.evaluate(t.staticConditions,(function(t){var i=t.type,r=o[i];if(!r)throw new Error("Page / No matcher found for type="+i);return r&&(e[t.type]||(e[t.type]=!0)),r.match(n,t)}));return d.groupEnd(),g.getSampleRum()&&u&&l.dispatch(r.RECORD_VIEW_FEATURE_USAGE,{featuresUsed:Object.keys(e),entityId:t.id}),u},n.description=function(t){return'"'+t.name+'" ('+t.id+")"},n.toggleEventImplementations=function(t,n){t.forEach((function(t){if(t.eventType!==f.CUSTOM){var e=p.getPlugin(s.PluginTypes.eventImplementations,t.eventType);e?n?e.attach(t):e.detach(t):d.warn("No implementation found for event type:",t.eventType,"needed for event:",t)}}))},n.isActivationTypeImmediate=function(t){return t===s.ViewActivationTypes.immediate||!t},n.shouldTriggerImmediately=function(t){return t===s.ViewActivationTypes.DOMChanged||t===s.ViewActivationTypes.URLChanged||t===s.ViewActivationTypes.immediate||!t},n.create=function(t,n){return{id:t,apiName:n,category:"other"}},n.createState=function(t){return{id:t,isActive:!0,metadata:{},parsedMetadata:{},userSuppliedMetadata:{}}}},4285:function(t,n,e){Object.defineProperty(n,"u",{value:!0});var i,r=e(8275),o=(r.flattenDeep,r.isEmpty),a=r.omit,u=r.omitBy,c=e(409),s=e(136),f=e(2575),l=e(4938),d=e(6278),v=e(8298),h=e(2025),p=e(6592),g=e(192),m=e(8859),b=e(1353).DT,_=e(7852),y=e(6761).Promise,w=e(4618),E=e(6592).VisitorStorageKeys,I=e(9454);i=e(5292);var A=h.get("stores/cookie_options"),S=h.get("stores/global"),T=h.get("stores/layer"),O=h.get("stores/plugins"),k=h.get("stores/rum"),R=h.get("stores/session"),C=h.get("stores/visitor_id"),N=h.get("stores/visitor_bucketing"),D=h.get("stores/visitor"),x=h.get("stores/provider_status");function j(t){var n=L(t),e=b.getItem(n);return"string"==typeof e&&(e=B(e)),e}function M(t){var n;if(t.layerId)n=t;else{var e=t;n={layerId:e.i,pageId:e.p,decisionTimestamp:e.t,decisionTicket:{audienceIds:e.a||[]},decision:{layerId:e.i,experimentId:e.x||null,variationId:e.v||null,isLayerHoldback:e.h||!1}}}return n}function P(t,n,e){try{var r=L(t);e||(n=g.stringify(n));try{b.setItem(r,n)}catch(t){throw _.warn("Visitor / Unable to set localStorage key, error was:",t),new Error("Unable to set localStorage")}i.setItem(r,n)}catch(t){_.warn("Unable to persist visitor data:",t.message)}}function L(t){var e=C.getBucketingId();if(!e)throw new Error("Visitor bucketingId not set");var i=n.getNamespace();if(!i)throw new Error("Namespace is not set");return[e,i,t].join("$$")}function U(t,e){if(!C.getBucketingId())throw new Error("Cannot update local store because bucketingId not set");if(V(t)){var i=n.getStorageKeyFromKey(t);if(Object.keys(E).some((function(t){return E[t]===i}))){var r=L(i);if(!(t.indexOf(r)<=0)&&(e=B(e)))if(i===E.EVENT_QUEUE)c.dispatch(s.SET_FOREIGN_VISITOR_EVENT_QUEUE,{key:t,value:l.deserialize(e)});else if(i===E.EVENTS)c.dispatch(s.SET_FOREIGN_VISITOR_EVENTS,{key:t,value:l.deserialize(e)});else if(i===E.LAYER_STATES)c.dispatch(s.LOAD_PERSISTED_LAYER_STATES,{layerStates:e.map(M),merge:!0});else if(i===E.VARIATION_MAP)c.dispatch(s.MERGE_VARIATION_ID_MAP,{variationIdMap:e});else if(i===E.CONTEXTUAL_MAB)c.dispatch(s.MERGE_CONTEXTUAL_MAB_MAP,{contextualMabMap:e});else if(i===E.VISITOR_PROFILE){var a=e;["custom"].forEach((function(t){var n=O.getPlugin(p.PluginTypes.visitorProfileProviders,t);if(n){if(a.profile&&a.metadata){var e=function(t,n,e){var i=D.getAttribute(n),r=D.getAttributeMetadata(n),a=t.profile[n],u=t.metadata[n];if(o(i))return{data:a,metadata:u};var c={};return Object.keys(a).forEach((function(t){var n,i,o=a[t];r&&r[t]&&(n=r[t].lastModified),u&&u[t]&&(i=u[t].lastModified),(e===p.AttributionTypes.FIRST_TOUCH&&n>=i||e===p.AttributionTypes.LAST_TOUCH&&i>=n||void 0===n&&i)&&(c.data=c.data||{},c.data[t]=o,i&&(c.metadata=c.metadata||{},c.metadata[t]=c.metadata[t]||{},c.metadata[t].lastModified=i))})),c}(a,t,n.attributionType);if(!o(e)){var i=[];Object.keys(e.data||{}).forEach((function(n){var r=e.data[n],o=e.metadata[n],a={key:[t,n],value:r,metadata:o};i.push(a)})),c.dispatch(s.SET_VISITOR_ATTRIBUTES,{attributes:i})}}}else _.debug("Attribute type",t,"not used by any audiences")}))}}}}function V(t){return t.split("$$")[0].indexOf("://")>0}function B(t){try{return g.parse(t)}catch(n){return _.debug("Failed to parse: ",t,n),null}}n.getOrGenerateId=function(){return{randomId:n.getCurrentId()||"oeu"+v.now()+"r"+Math.random()}},n.getCurrentId=function(){var t=C.getVisitorIdLocator();return D.getVisitorIdFromAPI()||(t?function(t){var n,e=t.name;switch(t.type){case p.VisitorIdLocatorType.COOKIE:n=d.get(e);break;case p.VisitorIdLocatorType.JS_VARIABLE:n=I.getGlobalByPath(e);break;case p.VisitorIdLocatorType.LOCALSTORAGE:try{n=I.getGlobal("localStorage").getItem(e)}catch(t){throw new Error("Unable to read localStorage: "+t.toString())}break;case p.VisitorIdLocatorType.QUERY:n=w.getQueryParamValue(e)}try{if(!n)throw _.error("Visitor / Customer provided visitor id cannot be found. Type:",t.type," Name:",e),new Error("Failure to obtain visitor id from "+t.type);if("string"!=typeof n&&"number"!=typeof n)throw _.error("Visitor / Customer provided visitor id is not a string or number. Type:",t.type," Name:",e," Id Type:",(i=n)&&"undefined"!=typeof Symbol&&i.constructor===Symbol?"symbol":typeof i),new Error("Customer provided visitor id is not a string or number")}catch(t){throw k.getSampleRum()&&c.dispatch(s.RECORD_VISITOR_ID_ERROR,{isError:!0}),t}var i;k.getSampleRum()&&(c.dispatch(s.RECORD_VISITOR_ID_ERROR,{isError:!1}),c.dispatch(s.RECORD_VISITOR_ID_LOCATOR_USAGE,{visitorIdLocatorType:t.type,entityId:n}));return String(n)}(t):d.get(p.COOKIES.VISITOR_ID))},n.hasSomeData=function(){return b.keys().length>0},n.setId=function(t){var e,r,o=C.getBucketingId();c.dispatch(s.SET_VISITOR_ID,t),C.getBucketingId()!==o&&(!function(){!function(t,n){0;f.initializeStore(t,n)}(j(E.EVENTS)||[],j(E.EVENT_QUEUE)||[]);var t=(e=E.LAYER_STATES,i=C.getBucketingId(),r=[],o=new RegExp(i+"\\$\\$([^$]+?)\\$\\$"+e),b.keys().forEach((function(t){var n=t.match(o);if(n){var e={namespace:n[1],userId:i,item:B(b.getItem(t))};r.push(e)}})),r);var e,i,r,o;t.forEach((function(t){t.item=(t.item||[]).map(M)})),u=t,l=[],u.forEach((function(t){t.item.forEach((function(n){n.namespace=t.namespace,l.push(n)}))})),v=l,c.dispatch(s.LOAD_PERSISTED_LAYER_STATES,{layerStates:v.filter((function(t){return!!t.decision}))}),d=j(E.SESSION_STATE)||{},d=Object.assign({lastSessionTimestamp:0,sessionId:null},d),c.dispatch(s.LOAD_SESSION_STATE,d),function(t){var n,e,i=O.getAllPlugins(p.PluginTypes.visitorProfileProviders),r=Object.keys(i||{}).map((function(t){return i[t]})).filter((function(t){return"function"==typeof t.restorer}));t.profile&&t.metadata?(n=t.profile,e=t.metadata):(n=t,e={});n=Object.keys(n||{}).reduce((function(t,e){var i=n[e],o=i,a=r.find((function(t){return t.provides===e}));return a&&(o=a.restorer(i)),t[e]=o,t}),{}),c.dispatch(s.LOAD_EXISTING_VISITOR_PROFILE,{profile:n,metadata:e})}(j(E.VISITOR_PROFILE)||{});var a=j(E.TRACKER_OPTIMIZELY);a&&(h=a,c.dispatch(s.SET_TRACKER_PERSISTABLE_STATE,h));var u,l;var d;var v;var h;n.loadForeignData(),n.removeLegacySessionStateCookies()}(),n.deleteOldLocalData(),i.deleteData(t));try{C.getVisitorIdLocator()||n.maybePersistVisitorId(t)}catch(t){if(_.error("Visitor / Unable to persist visitorId, disabling tracking"),c.dispatch(s.LOAD_DIRECTIVE,{trackingDisabled:!0}),e=t,null!=(r=d.MismatchError)&&"undefined"!=typeof Symbol&&r[Symbol.hasInstance]?r[Symbol.hasInstance](e):e instanceof r)throw _.error("Visitor / Cookie not set to correct value:",t),new Error("Cookie mismatch error while persisting visitorId");throw t}n.refreshSession()},n.getVariationIdMap=function(){return j(E.VARIATION_MAP)||{}},n.updateVariationIdMap=function(t,n,e){c.dispatch(s.UPDATE_VARIATION_ID_MAP,{layerId:t,experimentId:n,variationId:e})},n.persistVariationIdMap=function(){var t=N.getVariationIdMapString();P(E.VARIATION_MAP,t,!0)},n.getContextualMabMap=function(){return j(E.CONTEXTUAL_MAB)||{}},n.updateContextualMabMap=function(t,n,e){c.dispatch(s.UPDATE_CONTEXTUAL_MAB_MAP,{layerId:t,experimentId:n,variationData:e})},n.persistContextualMabMap=function(){var t=N.getContextualMabMapString();P(E.CONTEXTUAL_MAB,t,!0)},n.getOdpSegments=function(){return j(E.ODP_SEGMENTS)||{}},n.persistOdpSegments=function(t){P(E.ODP_SEGMENTS,t,!1)},n.persistTrackerOptimizelyData=function(t){P(E.TRACKER_OPTIMIZELY,t)},n.refreshSession=function(){c.dispatch(s.REFRESH_SESSION)},n.populateEagerVisitorData=function(t,e){var i=Object.keys(t||{}).reduce((function(n,e){var i=t[e];return i.isLazy||n.push(i),n}),[]);return n.populateVisitorData(i,e)},n.populateLazyVisitorData=function(t,e,i){_.debug("Populating lazy visitor. List of all providers",t);var r=Object.keys(t||{}).reduce((function(n,e){var r=t[e];return r.isLazy&&i.has(r.provides)&&n.push(r),n}),[]);return _.debug("Filtered list of providers that are lazy and present in audiences",r),n.populateVisitorData(r,e)},n.populateVisitorData=function(t,n){n=n||{};var e=function(t){return function(t,n){var e=function(t,e){var i;n.attributionType&&(i=v.now()),c.dispatch(s.SET_VISITOR_ATTRIBUTES,{attributes:[{key:t,value:e,metadata:{lastModified:i}}]})};if(!n.getter)return;var i=n.provides;Array.isArray(i)||(i=[i]),!1;var r,o=n.isSticky&&void 0!==m.getFieldValue(t,i);if(o)return;try{var a=h.evaluate(n.getter);"function"==typeof a&&(a=a((function(){return m.getFieldValue(t,i)}),(function(t){e(i,t)}))),void 0!==a&&(n.isAsync?(r=a.then((function(t){e(i,t)}),(function(t){_.warn('Failed to evaluate provider for "'+n.provides+'"; error was:',t)})),c.dispatch(s.SET_VISITOR_ATTRIBUTE_PENDING,{key:i,pending:r})):e(i,a))}catch(t){_.warn('Failed to evaluate getter for provider for "'+n.provides+'"; error was: '+t.message)}return r}(n,t)},i=t.filter((function(t){return!0===t.isAsync})).map(e).filter(Boolean);return t.filter((function(t){return!t.isAsync})).forEach(e),i.length>0?y.all(i):y.resolve()},n.persistBehaviorEvents=function(t){P(E.EVENTS,t)},n.persistBehaviorEventQueue=function(t){P(E.EVENT_QUEUE,t)},n.getPersistedBehaviorEventCount=function(){var t=j(E.EVENTS)||[],n=j(E.EVENT_QUEUE)||[];return l.deserialize(t).length+l.deserialize(n).length},n.persistLayerStates=function(){var t=T.getLayerStates(n.getNamespace());t=t.map((function(t){return a(t,["namespace"])})),P(E.LAYER_STATES,t)},n.persistSessionState=function(){P(E.SESSION_STATE,R.getState())},n.persistVisitorProfile=function(){var t=function(){var t=D.getVisitorProfile(),n=D.getVisitorProfileMetadata(),e=O.getAllPlugins(p.PluginTypes.visitorProfileProviders);if(e){var i=Object.keys(e).reduce((function(t,n){var i=e[n];return i.provides&&(t[i.provides]=i),t}),{});t=u(t,(function(t,n){var e=i[n];return e&&e.isTransient}))}return{profile:t,metadata:n}}();P(E.VISITOR_PROFILE,t)},n.persistVisitorBucketingStore=function(){n.persistVariationIdMap(),n.persistContextualMabMap()},n.getUserIdFromKey=function(t,e){var i;return t.includes(e)&&t.includes("_")&&t.includes("$$")&&t.slice(t.indexOf("$$")).includes(n.getNamespace())&&(i=t.slice(t.indexOf("_")+1,t.indexOf("$$"))),i},n.maybePersistVisitorId=function(t){t.randomId&&(A.getAutoRefresh()||n.getCurrentId()!==t.randomId?(d.set(p.COOKIES.VISITOR_ID,t.randomId),_.log("Persisting visitorId:",t.randomId)):_.log("Not persisting visitorId: value is not changed and also auto-refresh is disabled"))},n.getAttribute=function(t){return D.getAttribute(t)},n.getPendingAttributeValue=function(t){return x.getPendingAttributeValue(t)},n.isForeignKey=V,n.checkKeyForVisitorId=function(t){var e=C.getBucketingId()||n.getCurrentId(),i=n.getIdFromKey(t);return!i||i===e},n.getIdFromKey=function(t){var e=t.split("$$")[0],i=n.getStorageKeyFromKey(t);if(Object.keys(p.StorageKeys).some((function(t){return p.StorageKeys[t]===i})))return null;var r=e.indexOf("_");return-1===r?e:e.substring(r+1)},n.getStorageKeyFromKey=function(t){var n,e=t.split("$$").pop();if(e.indexOf("://")>-1){var i=e.indexOf("_");n=e.substring(i+1)}else n=e;return Object.keys(p.AllStorageKeys).some((function(t){return p.AllStorageKeys[t]===n}))?n:null},n.deleteOldLocalData=function(){b.keys().forEach((function(t){n.isForeignKey(t)||n.checkKeyForVisitorId(t)||b.removeItem(t)}))},n.deleteOldForeignData=function(){b.keys().forEach((function(t){n.isForeignKey(t)&&b.removeItem(t)}))},n.loadForeignData=function(){b.keys().forEach((function(t){var n=b.getItem(t);n&&U(t,n)}))},n.getNamespace=function(){return S.getNamespace()},n.serializeFieldKey=function(t){return Array.isArray(t)?t.join("$$"):t},n.removeLegacySessionStateCookies=function(){var t=d.getAll();Object.keys(t).forEach((function(t){0===t.indexOf(p.COOKIES.SESSION_STATE+"$$")&&d.remove(t)}))}},9480:function(t,n,e){var i=e(6592);n.normalizeClientData=function(t){!t.listTargetingKeys&&t.listTargetingCookies&&(t.listTargetingKeys=t.listTargetingCookies.map((function(t){return{type:i.ListTargetingKeyTypes.COOKIE,key:t}})),delete t.listTargetingCookies)}},7786:function(t,n,e){e(2025).register("env/jquery",e(8138))},8138:function(t,n,e){var i,r=e(9454);try{i=$}catch(t){}var o=r.getGlobal("$");t.exports=i&&i!==o?i:o},673:function(t,n,e){e(8275).isEmpty,e(8130).C,e(8298);var i=e(2025),r=(e(1019),e(7852));e(9454),e(8260),i.get("stores/client_metadata"),i.get("stores/global");n.handleError=function(t,n){n?r.error("Uncaught error:",t,n):r.error("Uncaught error:",t)}},4439:function(t,n,e){var i=e(136),r=e(8841),o=e(8486),a=e(8130).v,u=e(9114),c=e(8339),s=e(2025).get("stores/directive"),f=e(1019),l=e(8421),d=e(409),v=e(7852),h=e(1760),p=e(123),g=e(2671).create(),m=1e3,b=10,_=a("ChangeOverheatError");function y(t,n){if(this.change=t,this.identifier=n.identifier,this.startTime=n.startTime,s.shouldObserveChangesIndefinitely()){d.dispatch(i.INITIALIZE_CHANGE_METRICS),this.rateMeter=new h(m);var e=null===b?Number.POSITIVE_INFINITY:b;this.rateMeter.addListener(e,function(){v.warn("AppendChange",this,"has overheated and will no longer apply or reapply"),this.cancel(),d.dispatch(i.RECORD_CHANGE_OVERHEATED),r.emitError(new _("Change "+this.identifier+" has overheated"),{layerId:n.action&&n.action.layerId,experimentId:n.action&&n.action.experimentId,variationId:n.action&&n.action.variationId,changeId:t.id,changeType:t.type,movingWindowMilliseconds:m,maxMacroTasksInMovingWindow:e})}.bind(this));for(var o=Math.min(e,50),a=0;a<=o;a++)this.rateMeter.addListener(a,function(t){return function(){d.dispatch(i.RECORD_CHANGE_MACROTASK_RATE,{changeMacrotaskRate:t})}}(a))}}y.prototype.numberOfRootNodes=function(t){var n=document.createElement("div");return n.innerHTML=t,n.childNodes.length},y.prototype.getSiblingElements=function(t,n,e){for(var i=t,r=[],o=0;o<n;o++)e?(r.push(i.nextSibling),i=i.nextSibling):(r.push(i.previousSibling),i=i.previousSibling);return r},y.prototype.apply=function(){this.applyDeferred=c();try{if(!this.numberOfRootNodes(this.change.value))throw new Error("No DOM elements to be created for this change: "+this.change.value);var t=this.applyDeferred.reject.bind(this.applyDeferred,new Error("Unable to find selector.")),n={};s.shouldObserveChangesUntilTimeout()?n={timeout:p.isTimedOut.bind(null,this.startTime),onTimeout:t}:s.isEditor()&&g.waitUntil(p.isTimedOut.bind(null,this.startTime)).then(t,t),this.unobserveSelector=g.observeSelector(this.change.selector,this.maybeApplyToElement.bind(this),n);var e=f.querySelectorAll(this.change.selector),i=this;e.forEach((function(t){i.maybeApplyToElement(t)}))}catch(t){this.applyDeferred.reject(t)}return this.applyDeferred},y.prototype.maybeApplyToElement=function(t){var n=o.CHANGE_ID_ATTRIBUTE_PREFIX+this.change.id;if(t.hasAttribute(n))return v.debug("Not applying AppendChange to element",t,"because it was inserted by this change"),void this.applyDeferred.resolve();this.rateMeter&&this.rateMeter.countCurrentTick(),this.applyOrReapplyToElement.bind(this,t,n)(),this.applyDeferred.resolve()},y.prototype.applyOrReapplyToElement=function(t,n){var e;switch(this.change.operator){case l.DOMInsertionType.AFTER:e=l.insertAdjacentHTMLType.AFTER_END;break;case l.DOMInsertionType.APPEND:e=l.insertAdjacentHTMLType.BEFORE_END;break;case l.DOMInsertionType.BEFORE:e=l.insertAdjacentHTMLType.BEFORE_BEGIN;break;case l.DOMInsertionType.PREPEND:e=l.insertAdjacentHTMLType.AFTER_BEGIN;break;default:e=l.insertAdjacentHTMLType.BEFORE_END}t.insertAdjacentHTML(e,this.change.value),t.setAttribute(n,""),u.setData(t,this.change.id,this.identifier,[]);var i,r,o=this.numberOfRootNodes(this.change.value)-1;e===l.insertAdjacentHTMLType.BEFORE_END?(i=t.lastChild,r=this.getSiblingElements(i,o,!1)):e===l.insertAdjacentHTMLType.AFTER_BEGIN?(i=t.firstChild,r=this.getSiblingElements(i,o,!0)):e===l.insertAdjacentHTMLType.BEFORE_BEGIN?(i=t.previousSibling,r=this.getSiblingElements(i,o,!1)):e===l.insertAdjacentHTMLType.AFTER_END&&(i=t.nextSibling,r=this.getSiblingElements(i,o,!0)),r.unshift(i);var a=this;r.forEach((function(t){var e=t.nodeType===Node.ELEMENT_NODE?t:f.parentElement(t);e.setAttribute(n,"");var i=u.getData(e,a.change.id,a.identifier)||[];i.push(t),u.setData(e,a.change.id,a.identifier,i),f.childrenOf(e).forEach((function(t){t.setAttribute(n,"")}))}))},y.prototype.cancel=function(){this.unobserveSelector&&this.unobserveSelector()},y.prototype.undo=function(){var t=o.CHANGE_ID_ATTRIBUTE_PREFIX+this.change.id,n=f.querySelectorAll("["+t+"]"),e=this;return n.forEach((function(n){(u.getData(n,e.change.id,e.identifier)||[]).forEach((function(t){t.parentNode.removeChild(t)})),n.removeAttribute(t),u.removeData(n,e.change.id,e.identifier),f.childrenOf(n).forEach((function(n){n.removeAttribute(t)}))})),c().resolve(l.changeState.UNAPPLIED)},t.exports=function(t){t.registerChangeApplier(l.changeType.APPEND,y)}},2636:function(t,n,e){var i=e(8339),r=e(8421),o=e(8484);function a(t,n){if("function"!=typeof t.value)throw new Error("Custom code must be a function");this.change=t}a.prototype.apply=function(){var t=i();try{o.apply(this.change.value),t.resolve()}catch(n){t.reject(n)}return t},a.prototype.undo=function(){return i().resolve(r.changeState.IGNORED)},t.exports=function(t){t.registerChangeApplier(r.changeType.CUSTOM_CODE,a)}},9659:function(t,n,e){var i=e(8339),r=e(8421),o=e(5547);e(9937);function a(t,n){this.change=Object.assign({},t),this.identifier=n.identifier}a.prototype.apply=function(){var t={type:"showWidget",name:this.change.widget_id,data:this.change};return o.emit(t),i().resolve(r.changeState.APPLIED)},a.prototype.undo=function(){return o.emit({type:"hideWidget",name:this.change.widget_id,data:this.change}),i().resolve(r.changeState.UNAPPLIED)},t.exports=function(t){t.registerChangeApplier(r.changeType.WIDGET,a)}},3037:function(t,n,e){var i=e(571),r=e(7353).b,o={selectExperiment:function(t,n,e){if(t.experiments.length<1)throw new r("Unable to find experiment to bucket user into");var o=t.experiments[0];if(!i.isValidExperiment(n,o))throw new r('Audience conditions failed for experiment: "'+o.id+'".');return o}};t.exports=function(t){t.registerDecider("single_experiment",o),t.registerDecider("multivariate",o)}},7544:function(t,n,e){var i=function(t){return t&&"undefined"!=typeof Symbol&&t.constructor===Symbol?"symbol":typeof t},r=e(8841),o=e(8130).v,a=e(1019),u=e(6907),c=n.Error=o("ClickDelegateError");function s(t){this.handler=t,this.events=[],this.unlistenFn=null,this.clickHandler=function(t){var n=this;this.events.forEach((function(e){try{var o=e.config&&e.config.selector?e.config.selector:e.eventFilter.selector;(function(t,n,e){var o=t.target,a=0;for(;o;){var s;try{s=u(o,n)}catch(u){var f={typeofElementValue:void 0===o?"undefined":i(o),nodeName:o?o.nodeName:null,nodeType:o?o.nodeType:null,targetName:t&&t.target?t.target.nodeName:null,targetType:t&&t.target?t.target.nodeType:null,numParentsTraversed:a,selector:n,errorMessage:u.message,eventId:e.id};return r.emitError(new c("Unable to evaluate match for element"),f),!1}if(s)return!0;o=o.parentElement,a++}return!1})(t,o,e)&&n.handler(e)}catch(t){r.emitError(new c("Unable to handle click for selector"+o+":"+t.message))}}))}.bind(this)}s.prototype.listen=function(){this.unlistenFn=a.addEventListener("click",this.clickHandler,!0)},s.prototype.unlisten=function(){this.unlistenFn&&(this.unlistenFn(),this.unlistenFn=null)},s.prototype.hasEvents=function(){return this.events.length>0},s.prototype.addEvent=function(t){this.events.push(t)},s.prototype.removeEvent=function(t){this.events=this.events.filter((function(n){return n.apiName!==t.apiName}))},t.exports=s},4680:function(t,n,e){var i=e(8131),r=e(7544),o=e(7852),a=e(2348);function u(t){return"apiName: "+t.apiName+", selector: "+t.eventFilter.selector}t.exports=function(t){var n=new r((function(t){a.updateAllViewTags(),i.trackClickEvent(t)?o.log("Tracking click event:",t):o.log("Not tracking click event:",t)}));t.registerEventImplementation("click",{attach:function(t){n.hasEvents()||n.listen(),n.addEvent(t),o.debug("Started listening for click event ("+u(t)+"):",t)},detach:function(t){n.removeEvent(t),n.hasEvents()||n.unlisten(),o.debug("Stopped listening for click event ("+u(t)+"):",t)}})}},6092:function(t,n,e){var i=e(8275),r=i.cloneDeep,o=i.flatten,a=e(8620),u=e(2599),c=e(986);function s(t,n){var e=u.buildFromSpecV0_1(n);if(1!==e.length)throw new Error("Invalid query descriptor; verify that no aggregators are specified");return c.execute(e[0],t)}function f(t,n){return t.map((function(t){return"function"==typeof t.toObject?t.toObject(n):t}))}function l(t,n){if(!t)return["Descriptor not defined"];var e=[];return t.count&&e.push('Unexpected "count" clause specified'),t.pick&&t.pick.modifier&&-1===n.indexOf(t.pick.modifier)&&e.push('Invalid "pick" modifier "'+t.pick.modifier+'"'),(t.filters||[]).forEach((function(t){void 0!==t.modifier&&e.push('Unexpected "filter" modifier "'+t.modifier+'"')})),e.length>0?e:void 0}function d(t,n){var e={revenueAsTag:!1,timeAsTimestamp:!0};if(void 0===n)return f(a.getEvents(t),e);if("number"==typeof n){if(n<=0)throw new Error("Count must be a positive integer, got "+n);return f(a.getEvents(t).slice(-n),e)}var i=l(n,Object.values(u.RECENCY_FILTERS));if(i)throw new Error(i.join("\n"));return f(s(a.getEvents(t),n),e)}function v(t,n){if(!(n=r(n)||{}).pick)throw new Error('No "pick" clause provided in query descriptor');if(!n.pick.name)throw new Error('No field name provided in "pick" clause');n.pick.modifier=n.pick.modifier||u.FREQUENCY_FILTERS.MOST_FREQUENT;var e=l(n,Object.values(u.FREQUENCY_FILTERS));if(e)throw new Error(e.join("\n"));return s(a.getEvents(t),n)}function h(t,n){var e=u.buildFromSpecV0_2(n),i=a.getEvents(t),r=f(c.execute(e,i),{revenueAsTag:!0,timeAsTimestamp:!1});return(n.pick||n.reduce&&"count"===n.reduce.aggregator)&&(r=o(r)),n.reduce&&(r=r[0]),r}t.exports=["stores/visitor_events",function(t){return{getEvents:d.bind(null,t),getByFrequency:v.bind(null,t),query:h.bind(null,t)}}]},6988:function(t,n,e){t.exports=function(t){t.registerApiModule("behavior",e(6092))}},1982:function(t,n,e){t.exports=function(t){t.registerVisitorProfileProvider(e(5937)),t.registerAudienceMatcher("behavior",e(2816))}},2816:function(t,n,e){var i=e(192),r=e(2599),o=e(986);t.exports={fieldsNeeded:["events"],match:function(t,n){var e=i.parse(n.value);return(void 0===e.version?[e]:r.buildFromSpecV0_1(e)).every((function(n){return o.isSatisfied(n,t.events)}))}}},5937:function(t,n,e){var i=e(8620);t.exports={provides:"events",isTransient:!0,getter:[function(){return i.getEvents()}]}},9202:function(t,n,e){t.exports=function(t){t.registerVisitorProfileProvider(e(3377))}},3377:function(t,n,e){var i=e(4519),r=e(8620),o=e(192),a=e(2599);t.exports={provides:"customBehavior",shouldTrack:!0,isLazy:!1,getter:["stores/global","stores/visitor_attribute_entity",function(t,n){var e=t.getProjectId(),u=n.getCustomBehavioralAttributes(e).map((function(t){try{return{id:t.id,granularity:i.GRANULARITY.ALL,rule:a.buildFromSpecV0_2(o.parse(t.rule_json))}}catch(t){return}})).filter((function(t){return t})),c=r.getEvents();return i.evaluate(u,c)}]}},9401:function(t,n,e){t.exports=function(t){t.registerVisitorProfileProvider(e(725)),t.registerAudienceMatcher("first_session",e(2388))}},2388:function(t){t.exports={fieldsNeeded:["first_session"],match:function(t){return!!t.first_session}}},725:function(t,n,e){var i=e(1489),r=e(8620),o=e(8859).getFieldValue,a=e(7269).CURRENT_SESSION_INDEX;t.exports={provides:"first_session",shouldTrack:!0,getter:[function(){var t=r.getEvents();if(t&&t.length>0){var n=t[0];return o(n,[i.FIELDS.SESSION_INDEX])===a}return!0}]}},4519:function(t,n,e){var i=e(7852),r={FIELDS:e(1489).FIELDS},o=e(2599),a=e(986);n.GRANULARITY={ALL:"all",CURRENT_SESSION:"current_session",LAST_30_DAYS:"last_30_days",LAST_60_DAYS:"last_60_days"},n.evaluate=function(t,e){var u={};if(0===e.length){for(var c=0;c<t.length;c++)u[t[c].id]=t[c].defaultValue;return u}var s=function(t){if(0===t.length)return[];for(var n=t.length-1,e=r.FIELDS.SESSION_ID,i=t[n][e];n>0&&i===t[n-1][e];)n--;return t.slice(n)}(e),f=function(t,n){if(0===t.length||n<=0)return[];var e=+new Date-n*o.MILLIS_IN_A_DAY;e-=e%o.MILLIS_IN_A_DAY;for(var i=t.length;i>0&&e<=t[i-1][r.FIELDS.TIME];)i--;return t.slice(i)}(e,60);for(c=0;c<t.length;c++){var l=t[c],d=e;l.granularity===n.GRANULARITY.CURRENT_SESSION?d=s:l.granularity===n.GRANULARITY.LAST_60_DAYS&&(d=f);try{var v=d;l.rule&&(v=a.execute(l.rule,d)),u[l.id]=l.defaultValue,1===v.length?u[l.id]=v[0][0]||l.defaultValue:i.debug("Behavior / Rule for",l.id,"returned",v.length,"results, expected 1")}catch(t){i.error("Behavior / Rule for",l.id,"failed with",t.message||"")}}return u}},8620:function(t,n,e){var i=e(4938),r=e(2025).get("stores/visitor_events");n.getEvents=function(){var t=i.getEvents(),n=[].concat.apply([],Object.values(r.getForeignEvents())),e=[].concat.apply([],Object.values(r.getForeignEventQueues())),o=i.mergeAllEvents([t,n,e]);return o.slice(o.length-1e3)}},2599:function(t,n,e){var i=n,r={FIELDS:e(1489).FIELDS,FIELDS_V0_2:e(1489).FIELDS_V0_2},o=e(192),a=e(7852),u=e(986);i.MILLIS_IN_A_DAY=864e5,i.aggregateField=function(t,n){return"string"==typeof n&&(n=[n]),n=n||u.DEFAULT_FIELD,[u.generateAlias(t,n)]},i.groupField=function(t){return"string"==typeof t&&(t=[t]),[(t=t||u.DEFAULT_FIELD).join(".")]};var c={"<":"lt","<=":"lte",">":"gt",">=":"gte","=":"eq","==":"eq"};function s(t){return t=(t||"").toString().trim(),c[t]||t}function f(t,n,e){var o={where:n};if(t.count&&(o.limit=t.count),t.modifier===i.FREQUENCY_FILTERS.MOST_FREQUENT){var a=i.getFieldKeyPathForSource(t.name,e),u=i.aggregate("count"),c=i.aggregateField("count"),s=i.groupField(a);return Object.assign(o,{select:[{field:s}],groupBy:i.groupBy([a]),aggregate:[u],orderBy:[{field:c,direction:"DESC"}]})}return Object.assign(o,{orderBy:[{field:[r.FIELDS.TIME],direction:"DESC"}]})}i.fieldComparison=function(t,n,e){return"string"==typeof n&&(n=[n]),"exists"===(t=s(t))?{op:t,args:[{field:n}]}:{op:t,args:[{field:n},{value:e}]}},i.relativeTimeComparison=function(t,n){return{op:s(t),args:[{op:"-",args:[{eval:"now"},{field:[r.FIELDS.TIME]}]},{value:n*i.MILLIS_IN_A_DAY}]}},i.rangeTimeComparison=function(t){return Array.isArray(t)?{op:"between",args:[{field:[r.FIELDS.TIME]},{value:[t[0]||+new Date(0),t[1]||+new Date]}]}:(a.error("Rule builder","rangeTimeComparison passed invalid range",t),null)},i.groupBy=function(t){for(var n=[],e=0;e<t.length;e++)n[e]={field:t[e]};return n},i.aggregate=function(t,n){return"string"==typeof n&&(n=[n]),{op:t,args:[{field:n=n||u.DEFAULT_FIELD}]}},i.SOURCE_TYPES={BEHAVIOR:"events",CUSTOM_BEHAVIOR:"custom_behavior",DCP:"dcp"},i.FREQUENCY_FILTERS={MOST_FREQUENT:"most_frequent",LEAST_FREQUENT:"least_frequent"},i.RECENCY_FILTERS={MOST_RECENT:"most_recent",LEAST_RECENT:"least_recent"},i.getFieldKeyPathForSource=function(t,n){n=n||i.SOURCE_TYPES.BEHAVIOR;var e=[];return"string"==typeof t?(e=[t],n!==i.SOURCE_TYPES.BEHAVIOR||Object.values(r.FIELDS).includes(t)||(e=[r.FIELDS.OPTIONS,t])):e=t,e},i.buildFromSpecV0_1=function(t){if(!(t.action||t.filters&&0!==t.filters.length))throw new Error('Audience spec must have an "action" field or at least one "filter" '+o.stringify(t));var n=i.fieldComparison("gt",r.FIELDS.TIME,0),e=[],u=[];if(t.action&&(u.push(i.fieldComparison("eq",r.FIELDS.NAME,t.action.value)),t.action.type&&u.push(i.fieldComparison("eq",r.FIELDS.TYPE,t.action.type))),t.time)if("last_days"===t.time.type)u.push(i.relativeTimeComparison("lte",t.time.days));else if("range"===t.time.type){var c=i.rangeTimeComparison([t.time.start,t.time.stop]);c&&u.push(c)}else a.error("Rule builder",'Audience spec has bad "time" type',t.time.type);if(n={op:"and",args:u},t.count&&e.push({where:i.fieldComparison(t.count.comparator,"0",t.count.value),from:{select:[{field:i.aggregateField("count")}],where:n,aggregate:[i.aggregate("count")]}}),t.filters&&t.filters.forEach((function(o){var a,c,s=i.getFieldKeyPathForSource(o.name,t.source);if(o.modifier===i.FREQUENCY_FILTERS.MOST_FREQUENT?(a=i.aggregate("count"),c=i.aggregateField("count")):o.modifier===i.RECENCY_FILTERS.MOST_RECENT&&(a=i.aggregate("max",r.FIELDS.TIME),c=i.aggregateField("max",r.FIELDS.TIME)),a){var f=s,l=i.groupField(f);e.push({where:i.fieldComparison(o.comparator,"0",o.value),from:{select:[{field:l}],where:n,groupBy:i.groupBy([f]),aggregate:[a],orderBy:[{field:c,direction:"DESC"}],limit:1}})}else u.push(i.fieldComparison(o.comparator,s,o.value))})),t.pick){if(e.length>0)throw new Error('A "pick" clause must not be specified with "count" or "most_recent", "most_frequent" modifiers'+o.stringify(t));return[f(t.pick,n,t.source)]}return e.length>0?e:[{where:n}]},i.buildFromSpecV0_2=function(t){!function(t){var n=[];if(void 0===t)throw new Error("rule is undefined");if("object"!=typeof t||null===t)throw new Error("rule is not an Object");"0.2"!==t.version&&n.push('version: not "0.2"'),t.filter&&(Array.isArray(t.filter)?t.filter.forEach((function(t,e){var r=i.validateFieldKeyPathV0_2(t.field,i.FieldPurpose.FILTER);r&&n.push("filter["+e+"]: "+r);var o=i.validateComparatorAndValue(t.comparator,t.value);o&&n.push("filter["+e+"]: "+o)})):n.push("filter: not an array"));var e=[],r=[];t.sort&&(t.reduce&&t.reduce.aggregator&&"nth"!==t.reduce.aggregator&&n.push("sort: superfluous because we can apply aggregator "+o.stringify(t.reduce.aggregator)+" to unsorted items"),Array.isArray(t.sort)?t.sort.forEach((function(t,a){var u=i.validateFieldKeyPathV0_2(t.field,i.FieldPurpose.SORT);u&&n.push("sort["+a+"]: "+u),t.field&&"frequency"===t.field[0]?e.push(t):r.push(t);var c=function(t){var n="direction "+(o.stringify(t)||String(t));if(!["ascending","descending"].includes(t))return n+' is not "ascending" or "descending"'}(t.direction);c&&n.push("sort["+a+"]: "+c)})):n.push("sort: not an array"),e.length&&r.length&&n.push('sort: sorting by non-["frequency"] field is pointless because we are going to sort the picked values by ["frequency"]'),e.length&&!t.pick&&n.push('sort: sorting by ["frequency"] is impossible because no values have been picked'));if(t.pick){t.reduce&&"count"===t.reduce.aggregator&&n.push('pick: superfluous because we can apply aggregator "count" to raw events');var a=i.validateFieldKeyPathV0_2(t.pick.field);a&&n.push("pick: "+a)}if(t.reduce){var u=t.reduce.aggregator,c="aggregator "+(o.stringify(u)||String(u)),s=t.reduce.n,f="index "+(o.stringify(s)||String(s));["sum","avg","max","min","count","nth"].includes(u)||n.push("reduce: "+c+" is unknown"),["sum","avg","max","min"].includes(u)&&(t.pick||n.push("reduce: "+c+" is impossible to use because no values have been picked")),"nth"===u?(("number"!=typeof s||isNaN(s)||Math.floor(s)!==s||s<0)&&n.push("reduce: "+f+" is not a non-negative integer (mandated by "+c+")"),t.sort||n.push('reduce: aggregator "nth" is meaningless without a specific sort order')):void 0!==s&&n.push("reduce: "+f+" is defined (not mandated by "+c+")")}if(n.length)throw new Error(n.join("\n"))}(t);var n={where:{op:"and",args:(t.filter||[]).map((function(t){return"age"===t.field[0]?i.relativeTimeComparison(t.comparator||"eq",t.value/i.MILLIS_IN_A_DAY):i.fieldComparison(t.comparator||"eq",i.convertFieldKeyPathFromSpecV0_2(t.field),t.value)}))}};if(t.reduce&&"count"===t.reduce.aggregator)return Object.assign(n,{aggregate:[{op:"count",args:[{field:["*"]}]}],select:[{field:["_count_*"]}]});var e=[],r=[];if(t.sort&&(t.sort.forEach((function(t){["ascending","descending"].includes(t.direction)&&(["time","age"].includes(t.field[0])&&r.push(t),"frequency"===t.field[0]&&e.push(t))})),r.length&&!e.length&&(n.orderBy=r.map((function(t){return"time"===t.field[0]?{field:i.convertFieldKeyPathFromSpecV0_2(["time"]),direction:"ascending"===t.direction?"ASC":"DESC"}:"age"===t.field[0]?{field:i.convertFieldKeyPathFromSpecV0_2(["time"]),direction:"ascending"===t.direction?"DESC":"ASC"}:void 0})).filter((function(t){return t})))),t.pick&&t.pick.field){var a=i.convertFieldKeyPathFromSpecV0_2(t.pick.field);if(t.reduce&&["avg","max","min","sum"].includes(t.reduce.aggregator))return Object.assign(n,{aggregate:[{op:t.reduce.aggregator,args:[{field:a}]}],select:[{field:[u.generateAlias(t.reduce.aggregator,a)]}]});n=e.length?Object.assign(n,{groupBy:[{field:a}],aggregate:[{op:"count",args:[{field:["*"]}]}],orderBy:[{field:["_count_*"],direction:"ascending"===e[0].direction?"ASC":"DESC"}],select:[{field:[a.join(".")]}]}):Object.assign(n,{select:[{field:a}]})}if(t.reduce&&"nth"===t.reduce.aggregator){var c=t.reduce.n;if("number"==typeof c&&c>=0&&Number(c)===Math.floor(Number(c)))return Object.assign(n,{offset:c,limit:1})}return n},i.convertFieldKeyPathFromSpecV0_2=function(t){return"tags"===t[0]&&"revenue"===t[1]?["r"]:[r.FIELDS_V0_2[t[0]]].concat(t.slice(1))},i.FieldPurpose={FILTER:"filter",SORT:"sort",PICK:"pick"},i.validateFieldKeyPathV0_2=function(t,n){var e="field "+(o.stringify(t)||String(t));if(!Array.isArray(t)||!t.every((function(t){return"string"==typeof t})))return e+" is not an array of strings";if("tags"===t[0]&&t.length>2||"tags"!==t[0]&&t.length>1)return e+" includes too many strings";if("tags"===t[0]&&t.length<2)return e+" does not specify an exact tag";if(t.length<1)return e+" does not specify a top-level field";var a=Object.keys(r.FIELDS_V0_2),u=["age","frequency"];return n===i.FieldPurpose.FILTER&&(a.push("age"),u=["frequency"]),n===i.FieldPurpose.SORT&&(a=["time","age","frequency"],u=["name","type","category","tags"]),u.includes(t[0])?e+" is not supported here":a.includes(t[0])?void 0:e+" is unknown"},i.validateComparatorAndValue=function(t,n){var e="comparator "+(o.stringify(t)||String(t)),i="value "+(o.stringify(n)||String(n));if("string"!=typeof t&&void 0!==t)return e+" is not a string";switch(t){case void 0:case"eq":case"is":case"contains":break;case"lt":case"gt":case"lte":case"gte":if("number"!=typeof n)return i+" is not a number (mandated by "+e+")";break;case"in":if(!Array.isArray(n))return i+" is not an array (mandated by "+e+")";break;case"between":if(!(Array.isArray(n)&&2===n.length&&"number"==typeof n[0]&&"number"==typeof n[1]&&n[0]<=n[1]))return i+" is not a pair of increasing numbers (mandated by "+e+")";break;case"regex":if(!("string"==typeof n||Array.isArray(n)&&2===n.length&&"string"==typeof n[0]&&"string"==typeof n[1]))return i+" is not a pattern string or a [pattern string, flags string] array (mandated by "+e+")";break;case"exists":if(void 0!==n)return i+" is not undefined (mandated by "+e+")";break;default:return e+" is unknown"}}},986:function(t,n,e){var i=e(6592),r=e(7852),o=r.log.bind(r),a=e(8298),u=e(8859).getFieldValue,c=e(192),s=function(t,n,e){if(t.getValueOrDefault)return t.getValueOrDefault(n,e);if(!Array.isArray(n))return e;var i=u(t,n);return void 0===i&&(i=e),i},f=function(t){return"string"==typeof t?t.trim().toLowerCase():t};n.clause={WHERE:"where",GROUP_BY:"groupBy",AGGREGATE:"aggregate",HAVING:"having",ORDER_BY:"orderBy",SELECT:"select",OFFSET:"offset",LIMIT:"limit",FROM:"from"},n.DEFAULT_FIELD=["*"],n.booleanOperators={eq:function(t){var n=t.map(f);return n[0]==n[1]},is:function(t){return t[0]===t[1]},gt:function(t){return t[0]>t[1]},lt:function(t){return t[0]<t[1]},gte:function(t){return t[0]>=t[1]},lte:function(t){return t[0]<=t[1]},in:function(t){return(t[1]||[]).map(f).includes(f(t[0]))},between:function(t){return t[1][0]<=t[0]&&t[0]<=t[1][1]},contains:function(t){var n=t.map((function(t){return"string"==typeof t?t.toLowerCase():t}));return-1!==(n[0]||"").indexOf(n[1])},regex:function(t){try{var n,e;return"string"==typeof t[1]?(n=t[1],e="i"):(n=t[1][0]||"",e=t[1][1]||""),new RegExp(n,e).test(t[0])}catch(t){return r.error("Rules",'In operator "regex", error: '+(t.message||"invalid RegExp /"+[n,e].join("/"))),!1}},exists:function(t){return void 0!==t[0]},and:function(t){return t.every((function(t){return t}))},or:function(t){return t.some((function(t){return t}))},not:function(t){return!t[0]}},n.arithmeticOperators={"+":function(t){return(t[0]||0)+(t[1]||0)},"-":function(t){return(t[0]||0)-(t[1]||0)},"/":function(t){return(t[0]||0)/(t[1]||1)},"%":function(t){return(t[0]||0)%(t[1]||1)}},n.aggregateOperators={sum:function(t,e){for(var i=t[0]||n.DEFAULT_FIELD,r=0,o=0;o<e.length;o++)r+=s(e[o],i,0);return r},avg:function(t,e){if(0===e.length)return 0;for(var i=t[0]||n.DEFAULT_FIELD,r=0,o=0;o<e.length;o++)r+=s(e[o],i,0);return r/e.length},max:function(t,e){for(var i=t[0]||n.DEFAULT_FIELD,r=Number.NEGATIVE_INFINITY,o=0;o<e.length;o++)r=Math.max(r,s(e[o],i,Number.NEGATIVE_INFINITY));return r},min:function(t,e){for(var i=t[0]||n.DEFAULT_FIELD,r=Number.POSITIVE_INFINITY,o=0;o<e.length;o++)r=Math.min(r,s(e[o],i,Number.POSITIVE_INFINITY));return r},count:function(t,n){return n.length}};var l={now:function(){return a.now()}},d=function(t,e){if(e.hasOwnProperty("value"))return e.value;if(e.hasOwnProperty("field"))return s(t,e.field);if(e.hasOwnProperty("eval"))return e.eval in l?l[e.eval]():void r.error("Rules","Unknown function: "+e.eval);if(e.op){var i,o=(i=e.op)in n.booleanOperators?n.booleanOperators[i]:i in n.arithmeticOperators?n.arithmeticOperators[i]:null;if(o){var a=d.bind(null,t);return o((e.args||[]).map((function(t){return a(t)})),t)}r.error("Rules","Unknown operator: "+e.op)}else r.error("Rules","No operator specified: "+c.stringify(e))};n.generateAlias=function(t,n){return"_"+t+"_"+n.join(".")};n.rewrite=function(t){var e=[],i={};function o(t,a){if(Array.isArray(t)&&("and"!==t[0]&&"or"!==t[0]&&"not"!==t[0]&&r.error("Rules","Unexpected operation "+t[0]+". Continuing optimistically."),t={op:t[0],args:t.slice(1)}),t.hasOwnProperty("field")||t.hasOwnProperty("value")||t.hasOwnProperty("eval"))return t;if(a&&t.op in n.aggregateOperators){var u=(t.args&&t.args[0]||{}).field||n.DEFAULT_FIELD,c=n.generateAlias(t.op,u);return c in i||(e.push({op:t.op,args:t.args}),i[c]=!0),{field:[c]}}for(var s=[],f=t.args||[],l=0;l<f.length;l++)s[l]=o(f[l],a);return{op:t.op,args:s}}var a={};t.hasOwnProperty(n.clause.WHERE)&&(a[n.clause.WHERE]=o(t[n.clause.WHERE],!1)),t.hasOwnProperty(n.clause.HAVING)&&(a[n.clause.HAVING]=o(t[n.clause.HAVING],!0)),(t.hasOwnProperty(n.clause.AGGREGATE)||e.length>0)&&(a[n.clause.AGGREGATE]=(t[n.clause.AGGREGATE]||[]).concat(e));for(var u=[n.clause.GROUP_BY,n.clause.ORDER_BY,n.clause.SELECT,n.clause.OFFSET,n.clause.LIMIT],c=0;c<u.length;c++)t.hasOwnProperty(u[c])&&(a[u[c]]=t[u[c]]);return t.hasOwnProperty(n.clause.FROM)&&(a[n.clause.FROM]=n.rewrite(t[n.clause.FROM])),a};var v=function(t,e){e=e||0;var i=[];if(t.hasOwnProperty(n.clause.WHERE)?t[n.clause.WHERE].op?t[n.clause.WHERE].op in n.booleanOperators||i.push("Non-boolean WHERE clause operator"):i.push("Missing WHERE clause operator"):i.push("Missing WHERE clause"),!t.hasOwnProperty(n.clause.HAVING)||(t[n.clause.HAVING].op?t[n.clause.HAVING].op in n.booleanOperators||i.push("Non-boolean HAVING clause operator"):i.push("Missing HAVING clause operator")),t.hasOwnProperty(n.clause.GROUP_BY)&&!t.hasOwnProperty(n.clause.AGGREGATE)&&i.push("No AGGREGATE clause specified with GROUP_BY clause"),t.hasOwnProperty(n.clause.SELECT)){var r=t[n.clause.SELECT];if(Array.isArray(r))for(var o=0;o<r.length;o++)r[o].op&&r[o].op in n.aggregateOperators&&i.push('In SELECT clause, aggregate operator "'+r[o].op+'" specified in selector at index '+o);else i.push("SELECT clause must be an array")}if(t.hasOwnProperty(n.clause.OFFSET)){var a=t[n.clause.OFFSET];("number"!=typeof a||Number(a)<0||Number(a)!==Math.floor(Number(a)))&&i.push("OFFSET must be a non-negative integer")}if(t.hasOwnProperty(n.clause.LIMIT)){var u=t[n.clause.LIMIT];("number"!=typeof u||Number(u)<0||Number(u)!==Math.floor(Number(u)))&&i.push("LIMIT must be a non-negative integer")}return e>0&&(i=i.map((function(t){return"Sub-rule "+e+": "+t}))),t.hasOwnProperty(n.clause.FROM)&&(i=i.concat(v(t[n.clause.FROM],e+1))),i},h=function(t,e){var i,a,u,f=e;if(t.hasOwnProperty(n.clause.FROM)&&(r.debug("Evaluating FROM clause:",t[n.clause.FROM]),f=h(t[n.clause.FROM],f),r.debug("Results after FROM:",f)),r.debug("Evaluating WHERE clause:",t[n.clause.WHERE]),f=f.filter((function(e){return d(e,t[n.clause.WHERE])})),r.debug("Results after WHERE:",f),t.hasOwnProperty(n.clause.AGGREGATE)){r.debug("Evaluating AGGREGATE clause:",t[n.clause.AGGREGATE]);var l=function(t,n){var e={};if(void 0===t||!Array.isArray(t)||0===t.length)return e["*"]={fieldValues:{},events:n},e;for(var i=t.map((function(t){return t.field})),r=0;r<n.length;r++){for(var o=n[r],a=[],u={},f=0;f<i.length;f++){var l=i[f],d=s(o,l),v=l.join(".");u[v]=d,a.push(encodeURIComponent(v)+"="+encodeURIComponent(c.stringify(d)))}var h=a.join("&");e.hasOwnProperty(h)||(e[h]={fieldValues:u,events:[]}),e[h].events.push(o)}return e}(t[n.clause.GROUP_BY],f);f=function(t,n){var e=[];return Object.keys(t).forEach((function(i){var r=t[i],o=Object.assign({},r.fieldValues),a=n[i]||{};Object.assign(o,a),e.push(o)})),e}(l,(i=t[n.clause.AGGREGATE],a=l,u={},Object.keys(a).forEach((function(t){var e=a[t];u[t]={};for(var o=0;o<i.length;o++){var c=i[o],s=c.op;if(s in n.aggregateOperators){var f=(c.args&&c.args[0]||{}).field||n.DEFAULT_FIELD,l=n.generateAlias(s,f),d=n.aggregateOperators[s]([f],e.events);u[t][l]=d}else r.error("Rules","Unknown aggregate operator "+s)}})),u)),r.debug("Results after AGGREGATE:",f)}t.hasOwnProperty(n.clause.HAVING)&&(r.debug("Evaluating HAVING clause:",t[n.clause.HAVING]),f=f.filter((function(e){return d(e,t[n.clause.HAVING])})),r.debug("Results after HAVING:",f)),t.hasOwnProperty(n.clause.ORDER_BY)&&(r.debug("Evaluating ORDER_BY clause:",t[n.clause.ORDER_BY]),f=function(t,n){return Array.isArray(t)?0===t.length?n:n.sort((function(n,e){for(var i=0;i<t.length;i++){var r=t[i],o="ASC"===(r.direction||"ASC")?1:-1,a=r.field,u=s(n,a,0),c=s(e,a,0);if(u<c)return-o;if(u>c)return o}return 0})):(o("Rules","groupBy rule must be an array"),n)}(t[n.clause.ORDER_BY],f),r.debug("Results after ORDER_BY:",f));var v,p=0;return t.hasOwnProperty(n.clause.OFFSET)&&(r.debug("Evaluating OFFSET clause:",t[n.clause.OFFSET]),p=Number(t[n.clause.OFFSET])),t.hasOwnProperty(n.clause.LIMIT)&&(r.debug("Evaluating LIMIT clause:",t[n.clause.LIMIT]),v=p+Number(t[n.clause.LIMIT])),(p>0||void 0!==v)&&(f=f.slice(p,v),r.debug("Results after OFFSET/LIMIT:",f)),t.hasOwnProperty(n.clause.SELECT)&&(r.debug("Evaluating SELECT clause:",t[n.clause.SELECT]),f=function(t,n){return n.map((function(n){return t.map((function(t){return d(n,t)}))}))}(t[n.clause.SELECT],f),r.debug("Results after SELECT:",f)),f};n.execute=function(t,e){t=n.rewrite(t),r.shouldLog(i.LogLevel.DEBUG)&&r.groupCollapsed("Evaluating Behavioral Rule"),r.debug("Rule:",t,c.stringify(t)),r.debug("Events:",e);var o=v(t);if(o.length>0)throw new Error("Rule "+c.stringify(t)+" has violations: "+o.join("\n"));var a=h(t,e);return r.debug("Rule result:",a),r.shouldLog(i.LogLevel.DEBUG)&&r.groupEnd(),a},n.isSatisfied=function(t,e){try{return n.execute(t,e).length>0}catch(n){return r.error("Rules","Error "+n.toString()+" while evaluating rule "+c.stringify(t)),!1}}},9728:function(t,n,e){t.exports=function(t){t.registerDependency("sources/browser_id",e(4977)),t.registerVisitorProfileProvider(e(381)),t.registerVisitorProfileProvider(e(4138)),t.registerAudienceMatcher("browser_version",e(5374))}},5374:function(t,n,e){var i=e(2424).G;t.exports={fieldsNeeded:["browserVersion","browserId"],match:function(t,n){var e=n.value,r=t.browserId,o=t.browserVersion;if(0===e.indexOf(r)){var a=e.substr(r.length);return 0===i(o,a)}return!1}}},381:function(t){t.exports={provides:"browserId",shouldTrack:!0,isSticky:!0,getter:["sources/browser_id",function(t){return t.getId()}]}},4138:function(t){t.exports={provides:"browserVersion",getter:["sources/browser_id",function(t){return t.getVersion()}]}},4977:function(t,n,e){var i=e(3498);n.getId=function(){return i.get().browser.id},n.getVersion=function(){return i.get().browser.version}},2163:function(t,n,e){t.exports=function(t){t.registerVisitorProfileProvider(e(9298)),t.registerAudienceMatcher("campaign",e(7701))}},7701:function(t,n,e){var i=e(2973);t.exports={fieldsNeeded:["campaign"],match:function(t,n){return i.hasMatch(n.value,n.match,t.campaign)}}},9298:function(t,n,e){var i=e(6022);t.exports={provides:"campaign",shouldTrack:!0,isSticky:!0,getter:[function(){return i.getQueryParamValue("utm_campaign")}]}},8983:function(t,n,e){var i=e(192),r=e(8260),o=e(7852),a=e(4285),u=e(8264);n.getCmabPredictionUrl=function(){return"https://prediction.cmab.optimizely.com/predict"},n.getCmabPredictionUrlForExperiment=function(t){return t?n.getCmabPredictionUrl()+"/"+t:""},n.createPayload=function(t,n){var e=t.variations.map((function(t){return t.id})),i=u.getVisitorCmabAttributesForExperiment(t),r=u.getDcpCustomerIds(),o=u.getDcpServiceId();return{instances:[{visitorId:a.getCurrentId(),experimentId:t.id,cmabUUID:n,variationIds:e,attributes:i,dcpCustomerIds:r,dcpServiceId:o}]}},n.parseApiResponse=function(t){var n=null;try{n=i.parse(t)}catch(t){return o.error("CMAB API / Error parsing response:",t),null}return n&&n.predictions&&0!==n.predictions.length?n.predictions[0].variation_id.toString():(o.debug("CMAB API / No predictions found in API response",n),null)},n.validateVariationId=function(t,n){return t&&n.variations.find((function(n){return n.id===t}))?(o.debug("CMAB API / Variation ID:",t,"from API response found in experiment:",n.id),t):(o.debug("CMAB API / Variation ID:",t,"from API response not found in experiment:",n.id),null)},n.handleCmabApiResponse=function(t,e){if(200!==t.status)return o.error("CMAB API / API call failed with status:",t.status,t.statusText),null;o.debug("CMAB API / API call successful:",t.responseText);var i=n.parseApiResponse(t.responseText);return n.validateVariationId(i,e)},n.makeSyncApiCallWithXHR=function(t,e){o.debug("CMAB API / SYNC / Making a synchronous API call to get variation.");try{var r=n.createPayload(t,e),a=n.getCmabPredictionUrlForExperiment(t.id),u=new XMLHttpRequest;return u.open("POST",a,!1),u.send(i.stringify(r)),n.handleCmabApiResponse(u,t)}catch(t){return o.error("CMAB API / SYNC / API call encountered an error:",t),null}},n.makeAsyncApiCall=function(t,e){o.debug("CMAB API / ASYNC / Making an asynchronous API call to get variation.");var i=n.createPayload(t,e),a=n.getCmabPredictionUrlForExperiment(t.id);return r.request({url:a,contentType:"application/json",method:"POST",data:i})}},2855:function(t,n,e){var i=e(7852),r=e(8264),o=e(8983),a=e(4855);n.isCmabEnabled=function(){return!0},n.isExperimentSyncApiEnabled=function(t){return!0},n.defaultToSnippetBucketing=function(t,n,e){i.debug("CMAB / Defaulting to snippet bucketing with variation:",n,"for experiment:",t.id),r.setCmabVariationDataInVisitorStore(t,n,e)},n.processCmabExperiment=function(t,e){if(!n.isCmabEnabled())return i.debug("CMAB / Feature flag is disabled. Defaulting to snippet bucketing with variation:",e,"for experiment:",t.id),e;if(i.debug("CMAB / Feature flag is enabled. Processing CMAB for experiment:",t.id),r.activateTimeoutForNonBucketedCmabExperiments(t),!r.isCmabExperiment(t))return e;var u=r.getCmabVariationDataFromVisitorStore(t);if(!r.isCmabTimeout(t,u))return u.variationId;a.startCmabApiCallPerformanceTimer(t.id);var c=null,s=r.generateCmabUUID();if(n.isExperimentSyncApiEnabled(t))try{return(c=o.makeSyncApiCallWithXHR(t,s))?(r.setCmabVariationDataInVisitorStore(t,c,s),a.endCmabApiCallPerformanceTimer(t.id),c):(n.defaultToSnippetBucketing(t,e,s),a.endCmabApiCallPerformanceTimer(t.id),e)}catch(r){return i.error("CMAB API / SYNC / API call failed with error:",r),n.defaultToSnippetBucketing(t,e,s),a.endCmabApiCallPerformanceTimer(t.id),null}return o.makeAsyncApiCall(t,s).then((function(u){return(c=o.handleCmabApiResponse(u,t))?(i.debug("CMAB API / ASYNC / Variation:",c,"for experiment:",t.id),r.setCmabVariationDataInVisitorStore(t,c,s),a.endCmabApiCallPerformanceTimer(t.id),c):(n.defaultToSnippetBucketing(t,e,s),a.endCmabApiCallPerformanceTimer(t.id),e)}),(function(r){return i.error("CMAB API / ASYNC / API call failed with error:",r),n.defaultToSnippetBucketing(t,e,s),a.endCmabApiCallPerformanceTimer(t.id),null})),n.defaultToSnippetBucketing(t,e,s),a.endCmabApiCallPerformanceTimer(t.id),e},n.getCmabUUIDAndUpdateSessionTimeout=function(t,n){var e=r.getCmabUUIDFromVisitorStore(t,n);return r.updateCmabTimeoutInVisitorStore(t,n),e}},4855:function(t,n,e){e(5010),e(7852);n.startCmabApiCallPerformanceTimer=function(t){0},n.endCmabApiCallPerformanceTimer=function(t){0}},8264:function(t,n,e){var i=e(8275),r=i.omit,o=i.omitBy,a=e(1691),u=e(192),c=e(2025),s=e(9899),f=e(4285),l=e(7852),d=e(6592),v=e(5914),h=c.get("stores/visitor"),p=c.get("stores/plugins"),g=c.get("stores/global"),m=c.get("stores/layer");n.generateCmabUUID=function(){return s.generate()},n.getCmabLayerIdFromExperiment=function(t){return t.experimentMetadata&&t.experimentMetadata.layerId||t.id},n.isCmabExperiment=function(t){var n=t.experimentMetadata&&t.experimentMetadata.allocationPolicy;return n?n===d.AllocationPolicyEnum.CMAB:(l.debug("No allocation policy found in metadata for experiment:",t.id),!1)},n.isVisitorInHoldback=function(t){if(g.isGlobalHoldback())return l.debug("CMAB / Visitor is in global holdback, no timeout"),!0;var e=n.getCmabLayerIdFromExperiment(t),i=m.getLayerState(e);return!!(i&&i.decision&&i.decision.isLayerHoldback)&&(l.debug("CMAB / Visitor is in layer holdback, no timeout"),!0)},n.isCmabTimeout=function(t,e){if(!n.isCmabVariationStorageDataValid(e))return l.debug("CMAB / Timeout CMAB Storage Variation Data is invalid"),!0;if(n.isVisitorInHoldback(t))return!1;var i=e.variationId;return t.variations.find((function(t){return t.id===i}))?n.hasSessionOrAbsoluteTimeoutOccurred(e)?(l.debug("CMAB / Timeout Session or absolute timeout occurred:",e.cmabUUID),!0):(l.debug("CMAB / No timeout happened for:",e.cmabUUID),!1):(l.debug("CMAB / Timeout Variation ID:",i,"not found in experiment:",t.id),!0)},n.hasSessionOrAbsoluteTimeoutOccurred=function(t){if(!n.isCmabVariationStorageDataValid(t))return l.debug("CMAB / Timeout CMAB Storage Variation Data is invalid"),!0;var e=(new Date).getTime();new Date(t.stSessionTimeout).getTime();return e-new Date(t.stAbsoluteTimeout).getTime()>864e5},n.isCmabVariationStorageDataValid=function(t){if(!t)return!1;for(var n=["variationId","visitorId","cmabUUID","stSessionTimeout","stAbsoluteTimeout","userAttributeHash"],e=0;e<n.length;e++){var i=n[e];if(!t[i])return l.debug("CMAB / Storage data not found: "+i+" is missing"),!1}return!0},n.activateTimeoutForNonBucketedCmabExperiments=function(t){var e=n.getCmabLayerIdFromExperiment(t),i=t.id;l.debug("CMAB / Visitor is bucketed into experiment id:",i+" from layer id:",e);var a=f.getContextualMabMap();if(a&&a[e]){var u=a[e];l.debug("CMAB / All CMAB experiments found for the layer id:",e,"are:",u),l.debug("CMAB / Excluding the currently bucketed experiment id: ",i," from all CMAB experiments found for the current layer id: ",e);var c=r(u,[i]);c=o(c,(function(t){return t.isTimeout})),l.debug("CMAB / Non-bucketed CMAB experiments which will be timed out:",c),Object.keys(c).forEach((function(t){var n=c[t];n.isTimeout=!0,f.updateContextualMabMap(e,t,n)})),f.persistContextualMabMap()}else l.debug("CMAB / No CMAB experiments found for the current layer id:",e)},n.getCmabUUIDFromVisitorStore=function(t,n){if(!n||!t)return null;var e=f.getContextualMabMap();return e&&e[t]&&e[t][n]?e[t][n].cmabUUID:null},n.updateCmabTimeoutInVisitorStore=function(t,e){var i;if(!e||!t)return null;var r=f.getContextualMabMap();if(null==r||null==(i=r[t])?void 0:i[e]){var o=r[t][e];o.isTimeout||n.hasSessionOrAbsoluteTimeoutOccurred(o)||(o.stSessionTimeout=(new Date).toISOString(),f.updateContextualMabMap(t,e,o),f.persistContextualMabMap())}},n.getCmabVariationDataFromVisitorStore=function(t){var e,i=n.getCmabLayerIdFromExperiment(t),r=f.getContextualMabMap();if(!(null==r||null==(e=r[i])?void 0:e[t.id]))return l.debug("CMAB / No CMAB store found for experiment:",t.id),null;l.debug("CMAB / CMAB store found for experiment:",t.id);var o=r[i][t.id];return l.debug("CMAB / Contextual MAB Variation Data:",o),o},n.setCmabVariationDataInVisitorStore=function(t,e,i){l.debug("CMAB / Setting CMAB store for experiment:",t.id+" with variation:",e+" and cmabUUID:",i);var r=(new Date).toISOString(),o=n.getCmabLayerIdFromExperiment(t),a=n.getVisitorAttributesHash(t),u={variationId:e,visitorId:f.getCurrentId(),cmabUUID:i,stSessionTimeout:r,stAbsoluteTimeout:r,userAttributeHash:a,isTimeout:!1};f.updateContextualMabMap(o,t.id,u),f.persistContextualMabMap()},n.getStringifiedValue=function(t){if("string"==typeof t)return t;var n="";try{n=u.stringify(t)}catch(n){l.error("CMAB / Failed to stringify value for attributes:",t,n)}return n},n.getVisitorCmabAttributesForExperiment=function(t,i){var r;void 0===i&&(i=!0);var o=[],a=p.getAllPlugins(d.PluginTypes.audienceMatchers);if(!(null==t||null==(r=t.experimentMetadata)?void 0:r.cmabAttributes))return o;var u=t.experimentMetadata.cmabAttributes,c=u.customAttributes,s=u.standardAttributes;if(c.forEach((function(t){var e,i=(null==(e=h.getAttribute(["custom",t.id]))?void 0:e.value)||"";i=n.getStringifiedValue(i),o.push({id:t.id,type:t.type,value:i,client_api_name:t.clientApiName})})),s.forEach((function(t){var e,i,r=(null==(e=a[t.id])||null==(i=e.fieldsNeeded)?void 0:i[0])||t.id,u=h.getAttribute(r)||"";u=n.getStringifiedValue(u),o.push({id:t.id,type:t.type,value:u})})),i){var f=e(5560),v=t.experimentMetadata.cmabAttributes.vbaAttributes;if(v&&v.length)try{var g=e(8620).getEvents();g.length>=e(4938).MAX_EVENTS&&l.warn("CMAB / VBA / Behavior store is full; counts may miss evicted events"),o=o.concat(f.buildVbaFeatures(v,g,e(8298).now()))}catch(t){l.warn("CMAB / VBA / Error building visitor behavior attributes",t)}}return l.debug("CMAB / Current Visitor CMAB Attributes for Experiment:",t.id,"are:",o),o},n.generateAttributesHash=function(t){return a.hashToHex(a.toByteString(u.stringify(t)),a.Seed.BEHAVIOR_EVENT)},n.getVisitorAttributesHash=function(t){var e=n.getVisitorCmabAttributesForExperiment(t,!1);return n.generateAttributesHash(e)},n.hasAttributesChanged=function(t,e){var i=n.getVisitorAttributesHash(t);return i!==e.userAttributeHash&&(l.debug("CMAB / User attributes hash has changed from:",e.userAttributeHash," to ",i),!0)},n.getDcpCustomerIds=function(){var t=g.getDCPKeyfieldLocators(),n=f.getCurrentId();return v.getCurrentAliases(t,n)},n.getDcpServiceId=function(){return g.getDCPServiceId()}},5560:function(t,n,e){var i=e(1489),r=e(7852),o=Object.freeze([]);function a(t,n){return t&&"function"==typeof t.getValueOrDefault?t.getValueOrDefault([n]):t&&t[n]}function u(t){return a(t,i.FIELDS.TYPE)}function c(t){return a(t,i.FIELDS.TIME)}function s(t,n){return(t||"")+"\n"+n}n.buildVbaFeatures=function(t,n,e){for(var f=function(t){for(var n=Object.create(null),e=0;e<t.length;e++){var r=a(t[e],i.FIELDS.NAME),o=c(t[e]);if("string"==typeof r&&"number"==typeof o)for(var f=u(t[e]),l=f?[s("",r),s(f,r)]:[s("",r)],d=0;d<l.length;d++)n[l[d]]||(n[l[d]]=[]),n[l[d]].push(o)}return n}(n||[]),l=[],d=0;d<t.length;d++){var v=t[d];if(v&&"string"==typeof v.featureName&&v.featureName){var h=v.vbaWindow;if("number"!=typeof h||!isFinite(h)||h%1!=0||h<=0)r.warn("CMAB / VBA / skipping",v.featureName,"with window:",v.vbaWindow);else{for(var p=e-864e5*h,g=f[s(v.vbaKind,v.id)]||o,m=0,b=0;b<g.length;b++)g[b]>p&&g[b]<=e&&m++;l.push({id:v.featureName,type:"visitor_behavior_attribute",value:m})}}else r.warn("CMAB / VBA / skipping attribute with no featureName:",v)}return l}},9004:function(t,n,e){t.exports=function(t){t.registerAudienceMatcher("code",e(8937))}},8937:function(t,n,e){var i=e(8484);n.fieldsNeeded=[],n.match=function(t,n){if(void 0===n.value)return!0;if("function"==typeof n.value)try{return Boolean(i.apply(n.value))}catch(t){return!1}else try{return Boolean(i.eval(n.value))}catch(t){return!1}}},8252:function(t,n,e){t.exports=function(t){t.registerVisitorProfileProvider(e(9102)),t.registerAudienceMatcher("cookies",e(2145))}},2145:function(t,n,e){var i=e(2973);t.exports={fieldsNeeded:["cookies"],match:function(t,n){var e=n.name,r=n.value,o=n.match,a=t.cookies[e];return i.hasMatch(r,o,a)}}},9102:function(t,n,e){var i=e(6278),r=e(2025).get("stores/audience_data");t.exports={provides:"cookies",isLazy:!0,getter:[function(){var t=i.getAll(),n=r.getFeaturesNeeded("cookies");return Object.keys(t).reduce((function(e,i){var r=t[i];return Object.prototype.hasOwnProperty.call(n,i)&&(e[i]=r),e}),{})}]}},2085:function(t,n,e){t.exports=function(t){t.registerVisitorProfileProvider(e(5532));var n=e(4417);t.registerAudienceMatcher("custom_attribute",n),t.registerAudienceMatcher("custom_dimension",n)}},4417:function(t,n,e){var i=e(2973);n.match=function(t,n){var e;return t.custom&&(e=t.custom[n.name]),"object"==typeof e&&null!==e&&(e=e.value),i.hasMatch(n.value,n.match,e)}},5532:function(t,n,e){var i=e(6592),r=e(7852),o=e(2025).get("stores/dimension_data");t.exports={provides:"custom",attributionType:i.AttributionTypes.LAST_TOUCH,restorer:function(t){return Object.keys(t).reduce((function(n,e){var i=t[e],a=e,u=o.getByApiName(e),c=o.getById(e);return"object"!=typeof i||null===i?(r.error('Unable to restore custom attribute "'+e+'" because value is not an object'),n):(!i.id&&u&&(c=u,a=u.id,Object.assign(i,{id:c.segmentId||c.id})),!i.name&&c&&c.apiName&&(i.name=c.apiName),i.id||c||r.warn("Unable to determine ID for custom attribute:",e,"; segmentation is disabled."),n[a]=i,n)}),{})},shouldTrack:!0}},5914:function(t,n,e){var i=e(6022),r=e(6278),o=e(7852),a=e(9454),u="cookie",c="js_variable",s="query_param",f="uid";n.getCurrentAliases=function(t,n){var e={};return t.forEach((function(t){if(!t.is_optimizely){var l=t.dcp_datasource_id,d=t.type,v=t.name||"";if(l){var h=null;switch(d){case u:h=r.get(v);break;case c:try{h=a.getGlobal(v)}catch(t){o.warn("Failed getting global DCP keyfieldLocator:",v)}break;case s:h=i.getQueryParamValue(v);break;case f:h=n}("number"==typeof h||"string"==typeof h)&&(e[l]=h)}else o.error("DCP / No DCP datasource id specified")}})),e}},6591:function(t,n,e){t.exports=function(t){t.registerDependency("sources/device",e(8822)),t.registerVisitorProfileProvider(e(2422)),t.registerAudienceMatcher("device",e(1125))}},1125:function(t){t.exports={fieldsNeeded:["device"],match:function(t,n){return t.device===n.value}}},2422:function(t){t.exports={provides:"device",shouldTrack:!0,isSticky:!0,getter:["sources/device",function(t){return t.getDevice()}]}},8822:function(t,n,e){var i=e(3498);n.getDevice=function(){var t=i.get().device;return"unknown"!==t.model?t.model:"tablet"===t.type?"tablet":t.isMobile?"mobile":"desktop"}},2452:function(t,n,e){t.exports=function(t){t.registerVisitorProfileProvider(e(7726)),t.registerAudienceMatcher("device_type",e(9857))}},9857:function(t){t.exports={fieldsNeeded:["device_type"],match:function(t,n){return t.device_type===n.value}}},7726:function(t,n,e){var i=e(3498);t.exports={provides:"device_type",shouldTrack:!0,isSticky:!0,getter:[function(){var t=i.get().device;switch(t.type){case"mobile":return"phone";case"tablet":case"desktop_laptop":return t.type;default:return"other"}}]}},6917:function(t,n,e){t.exports=function(t){t.registerVisitorProfileProvider(e(9732)),t.registerAudienceMatcher("referrer",e(8881))}},8881:function(t,n,e){var i=e(6582);n.fieldsNeeded=["referrer"],n.match=function(t,n){return null!==t.referrer&&i(t.referrer,n)}},9732:function(t,n,e){var i=e(1019),r=e(3272);t.exports={provides:"referrer",shouldTrack:!0,isSticky:!0,getter:[function(){var t=r.getReferrer()||i.getReferrer();return""===t&&(t=null),t}]}},945:function(t,n,e){t.exports=function(t){t.registerVisitorProfileProvider(e(3474)),t.registerAudienceMatcher("source_type",e(9007))}},9007:function(t,n,e){var i=e(2973);n.fieldsNeeded=["source_type"],n.match=function(t,n){return i.hasMatch(n.value,n.match,t.source_type)}},3474:function(t,n,e){var i=e(6022),r=e(1019),o=e(3272),a=e(327),u=["google\\.\\w{2,3}(\\.\\w{2,3})?/(search|url)","bing\\.\\w{2,3}(\\.\\w{2,3})?/(search|url)","yahoo\\.\\w{2,3}(\\.\\w{2,3})?/search","baidu\\.\\w{2,3}(\\.\\w{2,3})?/","https://(www)?\\.google\\..*?/?$","https://search\\.yahoo\\..*?/?$","https://(www)?\\.bing\\..*?/?$"];t.exports={provides:"source_type",shouldTrack:!0,isSticky:!1,getter:[function(){return function(t,n){var e,c=t(),s=function(){if(i.getQueryParamValue("utm_source")||i.getQueryParamValue("utm_campaign")||i.getQueryParamValue("gclid")||i.getQueryParamValue("otm_source"))return"campaign";for(var t=o.getReferrer()||r.getReferrer(),n=0;n<u.length;n++){var e=u[n];if(t.match(e))return"search"}return t&&a.guessDomain(t)!==a.guessDomain(i.getUrl())?"referral":"direct"}();e=s,(!c||"direct"!==e)&&n(s)}}]}},2819:function(t,n,e){t.exports=function(t){t.registerVisitorProfileProvider(e(1708)),t.registerVisitorProfileProvider(e(5435)),t.registerAudienceMatcher("time_and_day",e(2117))}},2117:function(t,n,e){var i=e(9665);n.fieldsNeeded=["currentTimestamp"],n.match=function(t,n){return i.test(n.value,new Date(t.currentTimestamp))}},1708:function(t,n,e){var i=e(8298);t.exports={provides:"currentTimestamp",shouldTrack:!0,isLazy:!0,getter:[function(){return i.now()}]}},5435:function(t){t.exports={provides:"offset",shouldTrack:!0,isLazy:!0,getter:[function(){return(new Date).getTimezoneOffset()}]}},9665:function(t,n){function e(t){var n=t.split(":");if(2!==n.length)throw new Error("optly.timeAndDayInterval.timeStringToMinutes: Invalid time string "+t);return 60*parseInt(n[0],10)+parseInt(n[1],10)}n.test=function(t,n){var i=function(t){var n=t.split("_");if(3!==n.length)throw new Error("Invalid time and day string "+t);var e=n[2].split(",");return{start_time:n[0],end_time:n[1],days:e}}(t),r=e(i.start_time),o=e(i.end_time),a=60*n.getHours()+n.getMinutes(),u=["sunday","monday","tuesday","wednesday","thursday","friday","saturday"][n.getDay()];return a>=r&&a<=o&&i.days.includes(u)}},1823:function(t,n,e){t.exports=function(t){t.registerVisitorProfileProvider(e(9078))}},9078:function(t){t.exports={provides:"visitorId",getter:["stores/visitor_id",function(t){return t.getRandomId()}]}},1592:function(t,n,e){var i,r=e(192),o=e(7852),a=e(5010),u=e(5385),c=e(6938),s=e(9454),f=e(7566),l=e(3111),d=e(6761),v=e(409),h=e(2025),p=e(136),g=h.get("stores/tracker_optimizely"),m=h.get("stores/rum"),b=h.get("stores/integration_settings"),_="google_analytics_4",y="gtag",w="dataLayer",E="optimizely_decision",I="experience_impression",A=[],S=function(){var t=g.canSend();if(o.debug("GA4 Integration: Got canSend:",t),t){for(var n=[];A.length>0;){o.debug("GA4 Integration: decisionEventQueue length:",A.length);var e=A.shift(),r=e.firstPartyData,a=e.customEventData;o.debug("GA4 Integration: calling track with decision data:",{firstPartyData:r,customEventData:a}),i?n.push(O(r,a).catch((function(t){o.warn("Tracker for GTM ",_,"failed:",t)}))):n.push(T(r,a).catch((function(t){o.warn("Tracker for ",_,"failed:",t)})))}return Promise.all(n)}return o.debug("GA4 Integration: Not sending events (holding)"),Promise.resolve()},T=function(t,n){return u.pollFor((function(){return function(t){var n=t.getGlobal(y);return n||null}(s)}),200,50).then((function(e){o.log("GA4 Integration: gtag finally exists, sending now."),m.getSampleRum()&&a.timeEnd("gtagReady"),o.debug("GA4 Integration: calling ga4 with data: "+r.stringify(t)),e("event",I,t),o.debug("GA4 Integration: calling ga4 with custom event data: "+r.stringify(n)),e("event",E,n)}))};var O=function(t,n){var e=s.getGlobal(w);o.debug("GA4 Integration: found dataLayer object "+e),e||(o.debug("GA4 Integration: dataLayer object "+w+" is empty, initializing it"),s.setGlobal(w,[]),e=s.getGlobal(w)),o.log("GA4 Integration: attempting push to "+w);try{var i=Object.assign({event:I},t);o.debug("GA4 Integration: pushing data to GTM: "+r.stringify(i)),e.push(i);var a=Object.assign({event:E},n);o.debug("GA4 Integration: pushing custom data to GTM: "+r.stringify(a)),e.push(a)}catch(t){o.warn("GA4 Integration: Push to "+w+" failed: "+t)}return Promise.resolve()},k={preRedirectPolicy:c.PreRedirectPolicies.PERSIST_BEFORE_REDIRECT,postRedirectPolicy:c.PostRedirectPolicies.TRACK_IMMEDIATELY,nonRedirectPolicy:c.NonRedirectPolicies.TRACK_IMMEDIATELY,trackLayerDecision:function(t){var n=t.integrationSettings;if(!n||!n[_])return o.debug("GA4 Integration: did not find vendor "+_+" in integration settings, exiting"),d.resolve();if(!t.experimentId||!t.variationId)return o.debug("GA4 Integration: empty experiment or variation ID, exiting"),d.resolve();var e=b.get(_)||{};i="on"===e.global_is_use_gtm||"on"===n[_].is_using_gtm,o.debug("GA4 Integration: is using GTM: "+i);var r,a,u,c="equal_priority"===t.layerPolicy;return o.debug("GA4 Integration: is personalization campaign: "+c),c?(u="OPT-"+t.layerId+"("+t.layerName+")-"+t.experimentId+"("+t.experimentName+")-"+t.variationId+"("+t.variationName+")",a={Campaign:t.layerName+" ("+t.layerId+")",Variation:t.variationName+" ("+t.variationId+")",Holdback:t.isLayerHoldback}):(u="OPT-"+t.experimentId+"("+t.experimentName+")-"+t.variationId+"("+t.variationName+")",a={Experiment:t.experimentName+" ("+t.experimentId+")",Variation:t.variationName+" ("+t.variationId+")",Holdback:t.isLayerHoldback}),r={exp_variant_string:u,Holdback:t.isLayerHoldback},o.debug("GA4 Integration: pushing decision data to queue:",{firstPartyData:r,customEventData:a}),A.push({firstPartyData:r,customEventData:a}),S()},serializeSettings:r.stringify,deserializeSettings:r.parse};t.exports=function(t){t.registerAnalyticsTracker("google_analytics_4",k),f.on({filter:{type:l.TYPES.ANALYTICS,name:"sendEvents"},handler:function(){v.dispatch(p.SET_TRACKER_SEND_EVENTS,!0),S()}}),f.on({filter:{type:l.TYPES.ANALYTICS,name:"maybeSendEvents"},handler:function(){S()}})}},2153:function(t,n,e){var i=e(192),r=e(7852),o=e(5385),a=e(3272),u=e(6938),c=e(9454),s="google_universal_analytics",f=e(9207);var l=function(t,n){return o.pollFor((function(){return function(t){var n=t.getGlobal("GoogleAnalyticsObject");return n?t.getGlobal(n):null}(c)}),200,50).then((function(e){var i=n.universal_analytics_tracker,r=i?i+".":"",o=n.universal_analytics_slot,u=a.getReferrer();u&&e(r+"set","referrer",u);var c={nonInteraction:!0};c["dimension"+o]=t,e(r+"send","event","Optimizely","Assigned To Campaign",c)}))},d={preRedirectPolicy:u.PreRedirectPolicies.PERSIST_BEFORE_REDIRECT,postRedirectPolicy:u.PostRedirectPolicies.TRACK_IMMEDIATELY,nonRedirectPolicy:u.NonRedirectPolicies.TRACK_IMMEDIATELY,trackLayerDecision:function(t){var n=t.integrationSettings;if(n&&n[s]&&t.experimentId&&t.variationId){var e={id:t.layerId,name:t.layerName,policy:t.layerPolicy,integrationStringVersion:t.integrationStringVersion},i={id:t.experimentId,name:t.experimentName},o={id:t.variationId,name:t.variationName},a=t.isLayerHoldback,u=f.generateAnalyticsString(e,i,o,a,150,!0);if(u)return l(u,n[s]).catch((function(t){r.warn("Tracker for",s,"failed:",t)}))}},serializeSettings:i.stringify,deserializeSettings:i.parse};t.exports=function(t){t.registerAnalyticsTracker("google_universal_analytics",d)}},9807:function(t,n,e){var i=e(8275),r=i.isEmpty,o=i.omit,a=i.pick,u=e(8841),c=e(9899),s=e(136),f=e(8130).v,l=e(192),d=e(7852),v=e(6938),h=e(4285),p=e(9454),g=e(8260),m=e(2025),b=(e(1019),e(7566)),_=e(3111),y=e(409),w=m.get("stores/global"),E=m.get("stores/tracker_optimizely"),I=e(2855),A=n.Error=f("OptimizelyTrackerError"),S="client_activation",T="campaign_activated",O="view_activated",k={revenue:{validate:L,sanitize:Math.floor,excludeFeature:!0},quantity:{validate:L,sanitize:Math.floor,excludeFeature:!0},value:{validate:L,sanitize:function(t){return t}}},R="AUTO",C=[function(){return function(t){V(function(t){var n=Object.assign({entity_id:t.pageId,key:t.pageApiName,timestamp:t.timestamp,uuid:t.eventId,type:O},j(t.eventTags));return n}(t),t.userFeatures,Q(t.layerStates))}}],N=[function(){return function(t){!function(t){var n=null!==w.getAnonymizeIP()?w.getAnonymizeIP():void 0,e={account_id:t.accountId,anonymize_ip:n,client_name:t.clientName,client_version:t.clientVersion,project_id:t.projectId,visitors:[]};e.revision=t.revision,e.enrich_decisions=!0;var i={session_id:z(t.sessionId),visitor_id:t.visitorId,attributes:[],snapshots:[]},r=Q(t.layerStates);y.dispatch(s.REGISTER_TRACKER_VISITOR,{data:e,visitor:i,decisions:r}),J()}(t),V(function(t){return{entity_id:null,type:S,uuid:t.eventId,timestamp:t.timestamp}}(t),t.userFeatures,Q(t.layerStates))}}],D=[function(){return function(t){var n;V((n=t,Object.assign({entity_id:n.eventEntityId,key:n.eventApiName,timestamp:n.timestamp,uuid:n.eventId,type:n.eventCategory,properties:M(n.eventProperties)},j(n.eventTags))),t.userFeatures,Q(t.layerStates))}}],x=[function(){return function(t){var n;V((n=t,Object.assign({entity_id:n.eventEntityId,key:n.eventApiName,timestamp:n.timestamp,uuid:n.eventId,type:n.eventCategory},j(n.eventTags))),t.userFeatures,Q(t.layerStates))}}];function j(t){var n=function(t,n,e){try{P(e),t[n]=e}catch(t){u.emitError(new A("Bad value for eventTags["+n+"]: "+t.message))}return t},e=Object.keys(k),i=o(t,e),r=a(t,e),c=Object.keys(i).reduce((function(t,e){return n(t,e,i[e])}),{}),s=Object.keys(r).reduce((function(t,e){var i=r[e],o=k[e];o.excludeFeature||n(c,e,i);try{o.validate(i),t[e]=o.sanitize(i),c[e]=t[e]}catch(t){u.emitError(new A("Bad value for eventMetrics["+e+"]: "+t.message))}return t}),{});return s.tags=c,s}function M(t){var n={},e={},i=0;for(var r in t){var o=t[r];"object"==typeof o&&null!==o?e[r]=o:i<15?(n[r]=o,i++):e[r]=o}return Object.keys(e).length>0&&d.log("Custom event properties dropped (complex values, or over the 15-property limit). The following properties were not pushed",e),n}function P(t){if(null==t)throw new Error("Feature value is null");if("object"==typeof t){var n;try{n=l.stringify(t)}catch(t){}throw new Error('Feature value is complex: "'+n)}}function L(t){if(null==t)throw new Error("Metric value is null");if("number"!=typeof t)throw new Error("Metric value is not numeric")}function U(t){return(t||[]).reduce((function(t,n){try{P(n.value),t.push({entity_id:n.id||null,key:n.name,type:n.type,value:n.value})}catch(t){d.warn("Error evaluating user feature",n,t)}return t}),[])}function V(t,n,e){y.dispatch(s.REGISTER_TRACKER_EVENT,{event:t,decisions:e}),B(n),J()}function B(t){var n=U(t);y.dispatch(s.UPDATE_TRACKER_VISITOR_ATTRIBUTES,{attributes:n})}function z(t){return R}function F(){if(E.canSend()){var t=E.hasEventsToSend(),n=E.hasPreviousBatchesToSend();t||n?(n&&(E.getPreviousBatches().forEach(G),y.dispatch(s.RESET_TRACKER_PREVIOUS_BATCHES)),t&&(y.dispatch(s.FINALIZE_BATCH_SNAPSHOT),G(E.getEventBatch()),y.dispatch(s.RESET_TRACKER_EVENTS))):d.debug("Not sending events because there are no events to send")}else d.debug("Not sending events (holding)")}function G(t){d.debug("Sending ticket:",t);var n=c.generate(),e={url:"https://logx.optimizely.com/v1/events",method:"POST",data:q(t)};E.shouldUseBeacon()?g.sendBeacon(e,n):g.retryableRequest(e,n)}function q(t){return Object.assign({},a(t,["account_id","anonymize_ip","client_name","client_version","enrich_decisions","project_id","revision"]),{visitors:t.visitors.map(H)})}function H(t){return{visitor_id:t.visitor_id,session_id:R,attributes:t.attributes.map(Y),snapshots:t.snapshots.map(K)}}function Y(t){return X(t,{entity_id:"e",key:"k",type:"t",value:"v"})}function K(t){var n=t.events;return n=function(t){var n=t.reduce((function(t,n){var e;if(t[e=n.type===O&&r(n.tags)&&r(a(n,Object.keys(k)))?n.type:n.uuid]){var i=t[e].timestamp;n.timestamp>i&&(i=n.timestamp),t[e]=Object.assign({},t[e],{key:t[e].key+"-"+(n.key||""),entity_id:t[e].entity_id+"-"+n.entity_id,timestamp:i})}else t[e]=n;return t}),{});return Object.values(n)}(n),{activationTimestamp:w.getActivationTimestamp(),decisions:t.decisions.map($),events:n.map(W)}}function $(t){var n=X(t,{campaign_id:"c",experiment_id:"x",is_campaign_holdback:"h",variation_id:"v"});return n.m=t.metadata?X(t.metadata,{cmab_uuid:"cmab_uuid"}):{},n}function W(t){return t.key===T&&(t.type=T,delete t.key),X(t,{entity_id:"e",key:"k",quantity:"q",revenue:"$",tags:"a",properties:"p",timestamp:"t",uuid:"u",value:"v",type:"y"})}function X(t,n){return Object.keys(t).reduce((function(e,i){var r=t[i];return i in n&&(e[n[i]||i]=r),e}),{})}function J(){if(E.shouldBatch()){if(!E.isPolling()){p.setTimeout((function t(){F(),E.isPolling()&&p.setTimeout(t,1e3)}),1e3),y.dispatch(s.SET_TRACKER_POLLING,!0),p.setTimeout((function(){y.dispatch(s.SET_TRACKER_BATCHING,!1),y.dispatch(s.SET_TRACKER_POLLING,!1)}),1e4)}}else F()}function Q(t){return t.map((function(t){var n=I.getCmabUUIDAndUpdateSessionTimeout(t.layerId,t.decision.experimentId),e=n?{cmab_uuid:n}:{};return{campaign_id:t.layerId,experiment_id:t.decision.experimentId,variation_id:t.decision.variationId,is_campaign_holdback:t.decision.isLayerHoldback,metadata:e}}))}function Z(){var t=E.getPersistableState();if(t)try{d.debug("Persisting pending batch:",t),h.persistTrackerOptimizelyData(t),y.dispatch(s.SET_TRACKER_DIRTY,!1)}catch(t){d.debug("Failed to persist pending batch:",t)}}var tt={trackLayerDecision:function(t){t.isLayerConcluded?d.debug("Layer is already concluded, skipping decision tracking"):t.timing===v.TrackLayerDecisionTimingFlags.postRedirectPolicy?function(t){var n=U(t.userFeatures),e={account_id:t.accountId,anonymize_ip:t.anonymizeIP,client_name:t.clientName,client_version:t.clientVersion,project_id:t.projectId,visitors:[{session_id:z(t.sessionId),visitor_id:t.visitorId,attributes:n,snapshots:[{decisions:[{campaign_id:t.layerId,experiment_id:t.experimentId,variation_id:t.variationId,is_campaign_holdback:t.isLayerHoldback}],events:[{uuid:t.decisionId,entity_id:t.layerId,timestamp:t.timestamp,type:T}]}]}]};y.dispatch(s.REGISTER_PREVIOUS_BATCH,e),J()}(t):function(t){var n={entity_id:t.layerId,type:T,uuid:t.decisionId,timestamp:t.timestamp};y.dispatch(s.REGISTER_TRACKER_DECISION,{decisionEvent:n,decisions:Q(t.layerStates)}),B(t.userFeatures),J()}(t)},preRedirectPolicy:v.PreRedirectPolicies.PERSIST_BEFORE_AND_TRACK_DURING_REDIRECT,postRedirectPolicy:v.PostRedirectPolicies.TRACK_AFTER_SYNC,nonRedirectPolicy:v.NonRedirectPolicies.TRACK_IMMEDIATELY,onPageActivated:C,onClientActivation:N,onClickEvent:x,onCustomEvent:D};t.exports=function(t){t.registerAnalyticsTracker("optimizely",tt),b.on({filter:{type:_.TYPES.ANALYTICS,name:"sendEvents"},handler:function(){y.dispatch(s.SET_TRACKER_SEND_EVENTS,!0),F()}}),b.on({filter:{type:_.TYPES.ANALYTICS,name:"maybeSendEvents"},handler:function(){F()}}),b.on({filter:{type:_.TYPES.ANALYTICS,name:"holdEvents"},handler:function(){y.dispatch(s.SET_TRACKER_SEND_EVENTS,!1)}}),y.dispatch(s.SET_TRACKER_SEND_EVENTS,!0);var n=b.on({filter:{type:"lifecycle",name:"activated"},handler:function(){E.observe(Z),b.off(n)}})}},7763:function(t,n,e){var i=e(4886),r=e(5473);function o(t){if(!t||"string"!=typeof t.value)return{configured:!1,valid:!1,leg:null};var n=t.value.replace(/^\s+|\s+$/g,"");if(""===n||n.length<3)return{configured:!0,valid:!1,leg:null};var e=i.makeUaTest(n);return e?{configured:!0,valid:!0,leg:{value:n,test:e}}:{configured:!0,valid:!1,leg:null}}function a(t){if(!t)return{configured:!1,legs:[]};if("string"!=typeof t.value||""===t.value.replace(/^\s+|\s+$/g,""))return{configured:!0,legs:[]};for(var n=t.value.split(","),e=[],i=0;i<n.length;i++){var o=n[i].replace(/^\s+|\s+$/g,"");if(""!==o){var a=r.makeIpTest(o);a&&e.push({value:o,test:a})}}return{configured:!0,legs:e}}n.compile=function(t){var n=[];if(!t||!t.rules||!Array.isArray(t.rules))return n;for(var e=0;e<t.rules.length;e++){var i=t.rules[e];if(i){var r=String(e),u=o(i.user_agent),c=a(i.ip);if((u.configured||c.configured)&&(!u.configured||u.valid)){var s=u.configured?u.leg:null;if(c.configured){if(0===c.legs.length)continue;for(var f=0;f<c.legs.length;f++)n.push({id:r,ua:s,ip:c.legs[f]})}else n.push({id:r,ua:s,ip:null})}}}return n}},4308:function(t,n,e){var i=e(7763),r=e(4483),o=e(9454),a=e(2025),u=e(7566),c=e(3111),s=a.get("stores/directive"),f=a.get("stores/global"),l=null,d=!1,v=void 0,h=!1,p=!1;function g(){p&&(p=!1,u.emit({type:c.TYPES.ANALYTICS,name:"sendEvents"}))}function m(){return{enabled:!1,mode:"monitor",compiledRules:[],hasIpRules:!1,hasUaRules:!1,stats:r.createStats()}}function b(){return!!(s&&s.shouldBootstrapDataForPreview&&s.shouldBootstrapDataForPreview())}function _(){if(!d){try{var t=function(){try{return f&&f.getTrafficExclusion?f.getTrafficExclusion():void 0}catch(t){return}}();if(!t)return;d=!0,l=function(t){if(!t||"object"!=typeof t||!t.enabled)return m();for(var n="enforce"===t.mode?"enforce":"monitor",e=i.compile(t),o=!1,a=!1,u=0;u<e.length;u++)e[u].ip&&(o=!0),e[u].ua&&(a=!0);return{enabled:!0,mode:n,compiledRules:e,hasIpRules:o,hasUaRules:a,stats:r.createStats()}}(t)}catch(t){return d=!0,void(l=m())}try{l.enabled&&l.hasIpRules&&!b()&&function(){if(!p){p=!0,u.emit({type:c.TYPES.ANALYTICS,name:"holdEvents"});var t=y;o.setTimeout((function(){y===t&&g()}),2e3)}}()}catch(t){}}}n.evaluate=function(t,n){if(!l||!l.compiledRules)return{matched:!1,ruleId:void 0};for(var e=l.compiledRules,i=null!=n,r=0;r<e.length;r++){var o=e[r];if(o.ua||o.ip){var a=!o.ua||!!o.ua.test(t),u=!o.ip||i&&!!o.ip.test(n);if(a&&u)return{matched:!0,ruleId:o.id}}}return{matched:!1,ruleId:void 0}},n.shouldDrop=function(){try{if(_(),!l||!l.enabled||b()||!l.compiledRules.length)return!1;var t=o.getUserAgent();l.hasIpRules&&function(){if(h)return;h=!0;var t=y;try{var i=e(131).getIP();i&&"function"==typeof i.then&&i.then((function(i){if(y===t&&"string"==typeof i&&i&&(v=i,l&&l.enabled&&"enforce"===l.mode)){var a=o.getUserAgent(),u=n.evaluate(a,i);if(u.matched){r.recordMatch(l.stats,u.ruleId);try{var c=e(409),s=e(136);c.dispatch(s.RESET_TRACKER_EVENTS),c.dispatch(s.RESET_TRACKER_PREVIOUS_BATCHES)}catch(t){}}}g()}),(function(){g()}))}catch(t){}}();var i=l.hasIpRules?v:void 0;r.recordEvaluation(l.stats),l.hasUaRules&&("string"!=typeof t||!t)&&r.recordUnusableUa(l.stats),l.hasIpRules&&("string"!=typeof i||!i)&&r.recordUnresolvedIp(l.stats);var a=n.evaluate(t,i);return!!a.matched&&(r.recordMatch(l.stats,a.ruleId),"enforce"===l.mode)}catch(t){try{l&&r.recordThrew(l.stats)}catch(t){}return!1}};var y=0;n.config=function(){return _(),l},n.getStats=function(){if(_(),!l||!l.enabled)return null;var t=l.stats,n={};for(var e in t.perRuleHits)Object.prototype.hasOwnProperty.call(t.perRuleHits,e)&&(n[e]=t.perRuleHits[e]);for(var i=[],r=l.compiledRules,o=0;o<r.length;o++){var a=r[o];n[a.id]&&i.push({id:a.id,type:a.ua&&a.ip?"ua+ip":a.ua?"ua":"ip",ua:a.ua?a.ua.value:null,ip:a.ip?a.ip.value:null,drops:n[a.id]})}return{enabled:!0,mode:l.mode,evaluated:t.evaluated,matched:t.matched,unusableUa:t.unusableUa,unresolvedIp:t.unresolvedIp,threw:t.threw,perRuleHits:n,matchedRules:i}}},5473:function(t,n){function e(t){if(!/^\d{1,3}$/.test(t))return!1;var n=Number(t);return!(n>255||String(n)!==t)}n.anonymizeIp=function(t){if("string"==typeof t&&""!==t){var n=t.split(".");if(4===n.length){for(var i=0;i<4;i++)if(!e(n[i]))return;return n[0]+"."+n[1]+"."+n[2]+".0"}}},n.makeIpTest=function(t){if(!t||"string"!=typeof t)return null;var e=n.anonymizeIp(t);return void 0===e||e!==t?null:function(e){var i=n.anonymizeIp(e);return void 0!==i&&i===t}}},4886:function(t,n){n.makeUaTest=function(t){if(!t||"string"!=typeof t)return null;var n=t.toLowerCase();return function(t){return"string"==typeof t&&-1!==t.toLowerCase().indexOf(n)}}},4483:function(t,n){n.createStats=function(){return{evaluated:0,matched:0,unusableUa:0,unresolvedIp:0,threw:0,perRuleHits:{}}},n.recordEvaluation=function(t){t&&t.evaluated++},n.recordUnusableUa=function(t){t&&t.unusableUa++},n.recordUnresolvedIp=function(t){t&&t.unresolvedIp++},n.recordThrew=function(t){t&&t.threw++},n.recordMatch=function(t,n){t&&(t.matched++,t.perRuleHits[n]=(t.perRuleHits[n]||0)+1)}},9016:function(t,n,e){var i=e(8484),r={match:function(t,n){return i.apply(n.value)}};t.exports=function(t){t.registerViewMatcher("custom_code",r)}},4093:function(t,n,e){var i=e(1019),r={match:function(t,n){return!!i.querySelector(n.value)}};t.exports=function(t){t.registerViewMatcher("element_present",r)}},9820:function(t,n,e){t.exports=function(t){t.registerViewProvider(e(7568)),t.registerViewMatcher("url",e(683))}},683:function(t,n,e){var i=e(6582);t.exports={fieldsNeeded:["url"],match:function(t,n){return i(t.url,n)}}},7568:function(t,n,e){var i=e(6022);t.exports={provides:"url",getter:[function(){return i.getUrl()}]}},9721:function(t,n,e){var i=e(1019),r=e(6592),o=e(7566),a=e(5975),u=e(2348),c={token:void 0,setUpObserver:function(){a.createDOMChangedObserver(),this.token=o.on({filter:{type:"viewTrigger",name:"DOMChanged"},handler:function(){u.getViewsAndActivate(r.ViewActivationTypes.DOMChanged)}})},turnOffObserver:function(){o.off(this.token)}};t.exports=function(t){i.isReady()?c.setUpObserver():i.addReadyHandler(c.setUpObserver),t.registerViewTrigger("DOMChanged",c)}},8326:function(t,n,e){var i=e(136),r=e(2025),o=e(6592),a=e(7566),u=e(409),c=r.get("stores/history"),s=e(7852),f=e(6761).Promise,l=e(2348),d=e(9454);function v(t){a.emit({type:"viewTrigger",name:"URLChanged",data:{source:t,newURL:d.getHref()}},!0)}t.exports=function(t){var n;n=function(){var t=c.getOriginalPushState().apply(this,arguments);return f.resolve().then((function(){v("pushState")})).catch((function(t){s.error("Error while wrapPushState: ",t)})),t},u.dispatch(i.ENSURE_ORIGINAL_PUSHSTATE),d.getGlobal("history").pushState=n,function(){var t=function(){var t=c.getOriginalReplaceState().apply(this,arguments);return f.resolve().then((function(){v("replaceState")})).catch((function(t){s.error("Error while wrapReplaceState: ",t)})),t};u.dispatch(i.ENSURE_ORIGINAL_REPLACESTATE),d.getGlobal("history").replaceState=t}(),d.addEventListener("popstate",h,!1),d.addEventListener("hashchange",p,!1),a.on({filter:{type:"viewTrigger",name:"URLChanged"},handler:function(){l.getViewsAndActivate(o.ViewActivationTypes.URLChanged)}}),t.registerViewTrigger("URLChanged")};var h=v.bind(null,"popstate"),p=v.bind(null,"hashchange")},9647:function(t,n,e){var i=e(2025),r=e(7566),o=e(3111),a=e(9454),u=i.get("stores/directive"),c="optimizelyPreview",s=function(t){a.getGlobal(c).push(t)};n.initialize=function(t){u.isSlave()&&function(t){var n=!1;if(Array.isArray(window.optimizely)&&window.optimizely.forEach((function(e){Array.isArray(e)&&"verifyPreviewProject"===e[0]&&String(e[1])===t&&(n=!0)})),!n)throw new Error("Preview projectId: "+t+" does not match expected")}(t),r.on({filter:{type:o.TYPES.ANALYTICS,name:"trackEvent"},handler:s}),r.on({filter:{type:o.TYPES.LIFECYCLE,name:"viewActivated"},handler:s}),r.on({filter:{type:o.TYPES.LIFECYCLE,name:"layerDecided"},handler:s}),r.on({filter:{type:"error"},publicOnly:!0,handler:s})},n.setupPreviewGlobal=function(){a.getGlobal(c)||a.setGlobal(c,[])},n.pushToPreviewGlobal=function(t){s(t)}},2594:function(t,n,e){var i=e(8275),r=i.isEmpty,o=i.mapValues,a=i.pick,u=i.pickBy,c=e(9899),s=e(5192),f=e(2575),l=e(8298),d=e(1019),v=e(409),h=e(1353).DT,p=e(7852),g=e(4049),m=e(6761).Promise,b=e(4285),_=e(9454),y=e(8260),w=e(136),E=e(6592),I=e(2025),A=I.get("stores/async_request"),S=I.get("stores/client_metadata"),T=I.get("stores/global"),O=I.get("stores/rum"),k=I.get("stores/performance"),R=I.get("stores/xdomain"),C=I.get("stores/view_data"),N=e(3737),D="https://rum.optimizely.com/rum",x="1.0";function j(t){return r(t)?m.resolve():(n=function(){return y.request({url:D,method:"POST",data:t,withCredentials:!0}).then((function(t){return s.resolveRequest("RUM_FIRST_BEACON",t),t})).catch((function(t){throw p.error("POST to client-rum failed:",t),s.rejectRequest("RUM_FIRST_BEACON",t),t}))},(e=A.getPromise("RUM_FIRST_BEACON"))?e.then(n):s.makeAsyncRequest("RUM_FIRST_BEACON",n));var n,e}function M(){try{return!d.querySelector("body")}catch(t){return null}}function P(){var t=_.getGlobal("performance"),n=t?t.timing:{},e=k.getMarks()||{},i=O.getApiData(),r=O.getDOMObservationData(),o=N.get("state").getActiveExperimentIds(),a=O.getFeaturesNeededData(),u=d.parseUri(O.getScriptSrc()),c=O.getRumData()||{},s=c.extras||{};Object.assign(s,{apiCalls:i,DOMObservationData:r,paintTimings:U(),activeExperimentIds:o,numPages:C.getNumberOfPages(),snippet:{scheme:u.protocol.slice(0,-1),host:u.host,path:u.pathname},networkInfo:L(),experimental:T.getExperimental(),featuresNeeded:a,beacon:{cjsOnload:!0}});var f=_.getGlobal("Prototype");f&&void 0!==f.Version&&(s.prototypeJS=f.Version);var l=!1;l=!0;var v=R.getFrames();v.length&&(s.xdFramesLoaded=v.length);var m={id:O.getRumId(),v:x,project:T.getSnippetId()||T.getProjectId(),navigationTimings:n,userTimings:e,xd:l,apis:Object.keys(i),extras:s,sampleRate:c.sampleRate};(function(){var t=h.keys().map((function(t){var n=b.getStorageKeyFromKey(t);return n?{key:t,isForeign:b.isForeignKey(t),category:n,size:t.length+h.getItem(t).length}:null})).filter(Boolean),n=t.reduce((function(t,n){var e=n.key,i=b.getIdFromKey(e);return i?((n.isForeign?t.foreign:t.local)[i]=!0,t):t}),{local:{},foreign:{}}),e=t.filter((function(t){return!0===t.isForeign})).reduce((function(t,n){return t[n.key.split("_")[0]]=!0,t}),{}),i={local:0,foreign:0},r={local:{},foreign:{}};t.forEach((function(t){var n=t.isForeign?"foreign":"local";i[n]+=t.size,r[n][t.category]||(r[n][t.category]=0),r[n][t.category]+=t.size}));var o={numKeys:h.allKeys().length,sizeKeys:h.allKeys().toString().length,sizeValues:h.allValues().toString().length,idCounts:{local:Object.keys(n.local).length,foreign:Object.keys(n.foreign).length},foreignOriginCount:Object.keys(e).length,byteTotals:i,byteTotalsByCategory:r};return g.estimateStorage().then((function(t){return Object.assign(o,{storageEstimate:t})}))})().then((function(t){return j(Object.assign(m,{lsMetrics:t}))})).catch((function(t){p.warn("RUM / Error sending onload beacon:",t)}))}function L(){var t=_.getGlobal("navigator");if(t&&t.connection)return a(t.connection,["downlink","rtt","effectiveType"])}function U(){var t=_.getGlobal("performance");if(t)try{var n=t.getEntriesByType("paint");if(r(n))return;return n.reduce((function(t,n){return t[n.name]=Math.round(n.startTime),t}),{})}catch(t){return}}n.initialize=function(){var t,n=c.generate().replace(/-/g,"");t=Math.random()<.01;var e=function(){var t=d.getCurrentScript();if(t)return t.src}();v.dispatch(w.SET_RUM_DATA,{id:n,RumHost:D,inRumSample:t,src:e,data:{id:n,sync:M(),timebase:l.now(),sampleRate:.01,url:e,extras:{initialDOMState:d.getReadyState()}}})},n.queueBeacons=function(){return O.getSampleRum()?(function(){try{_.getGlobal("requestAnimationFrame")((function(){var t=O.getRumData().timebase;v.dispatch(w.SET_RUM_DATA,{data:{render:l.now()-(t||0)}})}))}catch(t){return}}(),d.isLoaded()?_.setTimeout(P,3e3):_.addEventListener("load",P),new m((function(t,n){_.setTimeout((function(){(function(){!function(){var t={id:O.getRumId(),v:x,account:T.getAccountId(),project:T.getSnippetId()||T.getProjectId(),snippet:T.getSnippetId(),revision:T.getRevision(),clientVersion:S.getClientVersion(),hasSlave:!1,wxhr:!0,extras:{}},n=b.getPersistedBehaviorEventCount(),e=f.getEventCount();t.numBehaviorEvents=e;var i=e-n;Object.assign(t.extras,{behaviorEventCountDiff:i,behaviorEventCountDecreased:i<0}),Object.assign(t,function(){var t=_.getGlobal("performance");if(!t)return;var n,e=O.getScriptSrc();try{if(e){p.debug("Using derived script src: ",e);var i=t.getEntriesByName(e);i.length>0&&(n=i[0])}if(!n){var r=/\/\/[^.]+\.optimizely\.(com|test)\/(js|api\/client)\/[\d]+\.js/gi;p.debug("Scanning resource timing entries with regex");var a=t.getEntriesByType("resource");n=a.find((function(t){return r.test(t.name)}))}if(n)return o(E.ResourceTimingAttributes,(function(t,e){var i=n[e];return"number"==typeof i?Math.round(1e3*(i||0))/1e3:"serverTiming"===e?function(t){if(!t||!t.length)return[];for(var n=[],e=0;e<t.length;e++)try{var i=t[e];n.push({name:i.name,duration:i.duration,description:i.description})}catch(t){}return n}(i):void 0}))}catch(t){return}}(),k.getDurationsFor(Object.values(E.RUMPerformanceTimingAttributes))),v.dispatch(w.SET_RUM_DATA,{data:t})}();var t=O.getRumData(),n=k.getMarks()||{};return t.extras=t.extras||{},t.extras.beacon={cjsTimeout:!0},t.userTimings=n,j(t=u(t,(function(t){return void 0!==t})))})().then(t,n)}),3e3)})).catch((function(t){p.warn("RUM / Error sending data:",t)}))):m.resolve()}},6179:function(t,n,e){var i;!function(r,o){"use strict";var a="function",u="undefined",c="object",s="string",f="major",l="model",d="name",v="type",h="vendor",p="version",g="architecture",m="console",b="mobile",_="tablet",y="smarttv",w="wearable",E="embedded",I="Amazon",A="Apple",S="ASUS",T="BlackBerry",O="Browser",k="Chrome",R="Firefox",C="Google",N="Honor",D="Huawei",x="LG",j="Microsoft",M="Motorola",P="Nvidia",L="OnePlus",U="Opera",V="OPPO",B="Samsung",z="Sharp",F="Sony",G="Xiaomi",q="Zebra",H="Facebook",Y="Chromium OS",K="Mac OS",$=" Browser",W=function(t){for(var n={},e=0;e<t.length;e++)n[t[e].toUpperCase()]=t[e];return n},X=function(t,n){return typeof t===s&&-1!==J(n).indexOf(J(t))},J=function(t){return t.toLowerCase()},Q=function(t,n){if(typeof t===s)return t=t.replace(/^\s\s*/,""),typeof n===u?t:t.substring(0,500)},Z=function(t,n){for(var e,i,r,u,s,f,l=0;l<n.length&&!s;){var d=n[l],v=n[l+1];for(e=i=0;e<d.length&&!s&&d[e];)if(s=d[e++].exec(t))for(r=0;r<v.length;r++)f=s[++i],typeof(u=v[r])===c&&u.length>0?2===u.length?typeof u[1]==a?this[u[0]]=u[1].call(this,f):this[u[0]]=u[1]:3===u.length?typeof u[1]!==a||u[1].exec&&u[1].test?this[u[0]]=f?f.replace(u[1],u[2]):o:this[u[0]]=f?u[1].call(this,f,u[2]):o:4===u.length&&(this[u[0]]=f?u[3].call(this,f.replace(u[1],u[2])):o):this[u]=f||o;l+=2}},tt=function(t,n){for(var e in n)if(typeof n[e]===c&&n[e].length>0){for(var i=0;i<n[e].length;i++)if(X(n[e][i],t))return"?"===e?o:e}else if(X(n[e],t))return"?"===e?o:e;return n.hasOwnProperty("*")?n["*"]:t},nt={ME:"4.90","NT 3.11":"NT3.51","NT 4.0":"NT4.0",2e3:"NT 5.0",XP:["NT 5.1","NT 5.2"],Vista:"NT 6.0",7:"NT 6.1",8:"NT 6.2",8.1:"NT 6.3",10:["NT 6.4","NT 10.0"],RT:"ARM"},et={browser:[[/\b(?:crmo|crios)\/([\w\.]+)/i],[p,[d,"Chrome"]],[/edg(?:e|ios|a)?\/([\w\.]+)/i],[p,[d,"Edge"]],[/(opera mini)\/([-\w\.]+)/i,/(opera [mobiletab]{3,6})\b.+version\/([-\w\.]+)/i,/(opera)(?:.+version\/|[\/ ]+)([\w\.]+)/i],[d,p],[/opios[\/ ]+([\w\.]+)/i],[p,[d,U+" Mini"]],[/\bop(?:rg)?x\/([\w\.]+)/i],[p,[d,U+" GX"]],[/\bopr\/([\w\.]+)/i],[p,[d,U]],[/\bb[ai]*d(?:uhd|[ub]*[aekoprswx]{5,6})[\/ ]?([\w\.]+)/i],[p,[d,"Baidu"]],[/\b(?:mxbrowser|mxios|myie2)\/?([-\w\.]*)\b/i],[p,[d,"Maxthon"]],[/(kindle)\/([\w\.]+)/i,/(lunascape|maxthon|netfront|jasmine|blazer|sleipnir)[\/ ]?([\w\.]*)/i,/(avant|iemobile|slim(?:browser|boat|jet))[\/ ]?([\d\.]*)/i,/(?:ms|\()(ie) ([\w\.]+)/i,/(flock|rockmelt|midori|epiphany|silk|skyfire|ovibrowser|bolt|iron|vivaldi|iridium|phantomjs|bowser|qupzilla|falkon|rekonq|puffin|brave|whale(?!.+naver)|qqbrowserlite|duckduckgo|klar|helio|(?=comodo_)?dragon)\/([-\w\.]+)/i,/(heytap|ovi|115)browser\/([\d\.]+)/i,/(weibo)__([\d\.]+)/i],[d,p],[/quark(?:pc)?\/([-\w\.]+)/i],[p,[d,"Quark"]],[/\bddg\/([\w\.]+)/i],[p,[d,"DuckDuckGo"]],[/(?:\buc? ?browser|(?:juc.+)ucweb)[\/ ]?([\w\.]+)/i],[p,[d,"UC"+O]],[/microm.+\bqbcore\/([\w\.]+)/i,/\bqbcore\/([\w\.]+).+microm/i,/micromessenger\/([\w\.]+)/i],[p,[d,"WeChat"]],[/konqueror\/([\w\.]+)/i],[p,[d,"Konqueror"]],[/trident.+rv[: ]([\w\.]{1,9})\b.+like gecko/i],[p,[d,"IE"]],[/ya(?:search)?browser\/([\w\.]+)/i],[p,[d,"Yandex"]],[/slbrowser\/([\w\.]+)/i],[p,[d,"Smart Lenovo "+O]],[/(avast|avg)\/([\w\.]+)/i],[[d,/(.+)/,"$1 Secure "+O],p],[/\bfocus\/([\w\.]+)/i],[p,[d,R+" Focus"]],[/\bopt\/([\w\.]+)/i],[p,[d,U+" Touch"]],[/coc_coc\w+\/([\w\.]+)/i],[p,[d,"Coc Coc"]],[/dolfin\/([\w\.]+)/i],[p,[d,"Dolphin"]],[/coast\/([\w\.]+)/i],[p,[d,U+" Coast"]],[/miuibrowser\/([\w\.]+)/i],[p,[d,"MIUI"+$]],[/fxios\/([\w\.-]+)/i],[p,[d,R]],[/\bqihoobrowser\/?([\w\.]*)/i],[p,[d,"360"]],[/\b(qq)\/([\w\.]+)/i],[[d,/(.+)/,"$1Browser"],p],[/(oculus|sailfish|huawei|vivo|pico)browser\/([\w\.]+)/i],[[d,/(.+)/,"$1"+$],p],[/samsungbrowser\/([\w\.]+)/i],[p,[d,B+" Internet"]],[/metasr[\/ ]?([\d\.]+)/i],[p,[d,"Sogou Explorer"]],[/(sogou)mo\w+\/([\d\.]+)/i],[[d,"Sogou Mobile"],p],[/(electron)\/([\w\.]+) safari/i,/(tesla)(?: qtcarbrowser|\/(20\d\d\.[-\w\.]+))/i,/m?(qqbrowser|2345(?=browser|chrome|explorer))\w*[\/ ]?v?([\w\.]+)/i],[d,p],[/(lbbrowser|rekonq)/i,/\[(linkedin)app\]/i],[d],[/ome\/([\w\.]+) \w* ?(iron) saf/i,/ome\/([\w\.]+).+qihu (360)[es]e/i],[p,d],[/((?:fban\/fbios|fb_iab\/fb4a)(?!.+fbav)|;fbav\/([\w\.]+);)/i],[[d,H],p],[/(Klarna)\/([\w\.]+)/i,/(kakao(?:talk|story))[\/ ]([\w\.]+)/i,/(naver)\(.*?(\d+\.[\w\.]+).*\)/i,/(daum)apps[\/ ]([\w\.]+)/i,/safari (line)\/([\w\.]+)/i,/\b(line)\/([\w\.]+)\/iab/i,/(alipay)client\/([\w\.]+)/i,/(twitter)(?:and| f.+e\/([\w\.]+))/i,/(chromium|instagram|snapchat)[\/ ]([-\w\.]+)/i],[d,p],[/\bgsa\/([\w\.]+) .*safari\//i],[p,[d,"GSA"]],[/musical_ly(?:.+app_?version\/|_)([\w\.]+)/i],[p,[d,"TikTok"]],[/headlesschrome(?:\/([\w\.]+)| )/i],[p,[d,k+" Headless"]],[/ wv\).+(chrome)\/([\w\.]+)/i],[[d,k+" WebView"],p],[/droid.+ version\/([\w\.]+)\b.+(?:mobile safari|safari)/i],[p,[d,"Android "+O]],[/(chrome|omniweb|arora|[tizenoka]{5} ?browser)\/v?([\w\.]+)/i],[d,p],[/version\/([\w\.\,]+) .*mobile\/\w+ (safari)/i],[p,[d,"Mobile Safari"]],[/version\/([\w(\.|\,)]+) .*(mobile ?safari|safari)/i],[p,d],[/webkit.+?(mobile ?safari|safari)(\/[\w\.]+)/i],[d,[p,tt,{"1.0":"/8",1.2:"/1",1.3:"/3","2.0":"/412","2.0.2":"/416","2.0.3":"/417","2.0.4":"/419","?":"/"}]],[/(webkit|khtml)\/([\w\.]+)/i],[d,p],[/(navigator|netscape\d?)\/([-\w\.]+)/i],[[d,"Netscape"],p],[/(wolvic|librewolf)\/([\w\.]+)/i],[d,p],[/mobile vr; rv:([\w\.]+)\).+firefox/i],[p,[d,R+" Reality"]],[/ekiohf.+(flow)\/([\w\.]+)/i,/(swiftfox)/i,/(icedragon|iceweasel|camino|chimera|fennec|maemo browser|minimo|conkeror)[\/ ]?([\w\.\+]+)/i,/(seamonkey|k-meleon|icecat|iceape|firebird|phoenix|palemoon|basilisk|waterfox)\/([-\w\.]+)$/i,/(firefox)\/([\w\.]+)/i,/(mozilla)\/([\w\.]+) .+rv\:.+gecko\/\d+/i,/(amaya|dillo|doris|icab|ladybird|lynx|mosaic|netsurf|obigo|polaris|w3m|(?:go|ice|up)[\. ]?browser)[-\/ ]?v?([\w\.]+)/i,/\b(links) \(([\w\.]+)/i],[d,[p,/_/g,"."]],[/(cobalt)\/([\w\.]+)/i],[d,[p,/master.|lts./,""]]],cpu:[[/\b((amd|x|x86[-_]?|wow|win)64)\b/i],[[g,"amd64"]],[/(ia32(?=;))/i,/\b((i[346]|x)86)(pc)?\b/i],[[g,"ia32"]],[/\b(aarch64|arm(v?[89]e?l?|_?64))\b/i],[[g,"arm64"]],[/\b(arm(v[67])?ht?n?[fl]p?)\b/i],[[g,"armhf"]],[/( (ce|mobile); ppc;|\/[\w\.]+arm\b)/i],[[g,"arm"]],[/((ppc|powerpc)(64)?)( mac|;|\))/i],[[g,/ower/,"",J]],[/ sun4\w[;\)]/i],[[g,"sparc"]],[/\b(avr32|ia64(?=;)|68k(?=\))|\barm(?=v([1-7]|[5-7]1)l?|;|eabi)|(irix|mips|sparc)(64)?\b|pa-risc)/i],[[g,J]]],device:[[/\b(sch-i[89]0\d|shw-m380s|sm-[ptx]\w{2,4}|gt-[pn]\d{2,4}|sgh-t8[56]9|nexus 10)/i],[l,[h,B],[v,_]],[/\b((?:s[cgp]h|gt|sm)-(?![lr])\w+|sc[g-]?[\d]+a?|galaxy nexus)/i,/samsung[- ]((?!sm-[lr])[-\w]+)/i,/sec-(sgh\w+)/i],[l,[h,B],[v,b]],[/(?:\/|\()(ip(?:hone|od)[\w, ]*)(?:\/|;)/i],[l,[h,A],[v,b]],[/\((ipad);[-\w\),; ]+apple/i,/applecoremedia\/[\w\.]+ \((ipad)/i,/\b(ipad)\d\d?,\d\d?[;\]].+ios/i],[l,[h,A],[v,_]],[/(macintosh);/i],[l,[h,A]],[/\b(sh-?[altvz]?\d\d[a-ekm]?)/i],[l,[h,z],[v,b]],[/\b((?:brt|eln|hey2?|gdi|jdn)-a?[lnw]09|(?:ag[rm]3?|jdn2|kob2)-a?[lw]0[09]hn)(?: bui|\)|;)/i],[l,[h,N],[v,_]],[/honor([-\w ]+)[;\)]/i],[l,[h,N],[v,b]],[/\b((?:ag[rs][2356]?k?|bah[234]?|bg[2o]|bt[kv]|cmr|cpn|db[ry]2?|jdn2|got|kob2?k?|mon|pce|scm|sht?|[tw]gr|vrd)-[ad]?[lw][0125][09]b?|605hw|bg2-u03|(?:gem|fdr|m2|ple|t1)-[7a]0[1-4][lu]|t1-a2[13][lw]|mediapad[\w\. ]*(?= bui|\)))\b(?!.+d\/s)/i],[l,[h,D],[v,_]],[/(?:huawei)([-\w ]+)[;\)]/i,/\b(nexus 6p|\w{2,4}e?-[atu]?[ln][\dx][012359c][adn]?)\b(?!.+d\/s)/i],[l,[h,D],[v,b]],[/oid[^\)]+; (2[\dbc]{4}(182|283|rp\w{2})[cgl]|m2105k81a?c)(?: bui|\))/i,/\b((?:red)?mi[-_ ]?pad[\w- ]*)(?: bui|\))/i],[[l,/_/g," "],[h,G],[v,_]],[/\b(poco[\w ]+|m2\d{3}j\d\d[a-z]{2})(?: bui|\))/i,/\b; (\w+) build\/hm\1/i,/\b(hm[-_ ]?note?[_ ]?(?:\d\w)?) bui/i,/\b(redmi[\-_ ]?(?:note|k)?[\w_ ]+)(?: bui|\))/i,/oid[^\)]+; (m?[12][0-389][01]\w{3,6}[c-y])( bui|; wv|\))/i,/\b(mi[-_ ]?(?:a\d|one|one[_ ]plus|note lte|max|cc)?[_ ]?(?:\d?\w?)[_ ]?(?:plus|se|lite|pro)?)(?: bui|\))/i,/ ([\w ]+) miui\/v?\d/i],[[l,/_/g," "],[h,G],[v,b]],[/; (\w+) bui.+ oppo/i,/\b(cph[12]\d{3}|p(?:af|c[al]|d\w|e[ar])[mt]\d0|x9007|a101op)\b/i],[l,[h,V],[v,b]],[/\b(opd2(\d{3}a?))(?: bui|\))/i],[l,[h,tt,{OnePlus:["304","403","203"],"*":V}],[v,_]],[/vivo (\w+)(?: bui|\))/i,/\b(v[12]\d{3}\w?[at])(?: bui|;)/i],[l,[h,"Vivo"],[v,b]],[/\b(rmx[1-3]\d{3})(?: bui|;|\))/i],[l,[h,"Realme"],[v,b]],[/\b(milestone|droid(?:[2-4x]| (?:bionic|x2|pro|razr))?:?( 4g)?)\b[\w ]+build\//i,/\bmot(?:orola)?[- ](\w*)/i,/((?:moto(?! 360)[\w\(\) ]+|xt\d{3,4}|nexus 6)(?= bui|\)))/i],[l,[h,M],[v,b]],[/\b(mz60\d|xoom[2 ]{0,2}) build\//i],[l,[h,M],[v,_]],[/((?=lg)?[vl]k\-?\d{3}) bui| 3\.[-\w; ]{10}lg?-([06cv9]{3,4})/i],[l,[h,x],[v,_]],[/(lm(?:-?f100[nv]?|-[\w\.]+)(?= bui|\))|nexus [45])/i,/\blg[-e;\/ ]+((?!browser|netcast|android tv|watch)\w+)/i,/\blg-?([\d\w]+) bui/i],[l,[h,x],[v,b]],[/(ideatab[-\w ]+|602lv|d-42a|a101lv|a2109a|a3500-hv|s[56]000|pb-6505[my]|tb-?x?\d{3,4}(?:f[cu]|xu|[av])|yt\d?-[jx]?\d+[lfmx])( bui|;|\)|\/)/i,/lenovo ?(b[68]0[08]0-?[hf]?|tab(?:[\w- ]+?)|tb[\w-]{6,7})( bui|;|\)|\/)/i],[l,[h,"Lenovo"],[v,_]],[/(nokia) (t[12][01])/i],[h,l,[v,_]],[/(?:maemo|nokia).*(n900|lumia \d+|rm-\d+)/i,/nokia[-_ ]?(([-\w\. ]*))/i],[[l,/_/g," "],[v,b],[h,"Nokia"]],[/(pixel (c|tablet))\b/i],[l,[h,C],[v,_]],[/droid.+; (pixel[\daxl ]{0,6})(?: bui|\))/i],[l,[h,C],[v,b]],[/droid.+; (a?\d[0-2]{2}so|[c-g]\d{4}|so[-gl]\w+|xq-a\w[4-7][12])(?= bui|\).+chrome\/(?![1-6]{0,1}\d\.))/i],[l,[h,F],[v,b]],[/sony tablet [ps]/i,/\b(?:sony)?sgp\w+(?: bui|\))/i],[[l,"Xperia Tablet"],[h,F],[v,_]],[/ (kb2005|in20[12]5|be20[12][59])\b/i,/(?:one)?(?:plus)? (a\d0\d\d)(?: b|\))/i],[l,[h,L],[v,b]],[/(alexa)webm/i,/(kf[a-z]{2}wi|aeo(?!bc)\w\w)( bui|\))/i,/(kf[a-z]+)( bui|\)).+silk\//i],[l,[h,I],[v,_]],[/((?:sd|kf)[0349hijorstuw]+)( bui|\)).+silk\//i],[[l,/(.+)/g,"Fire Phone $1"],[h,I],[v,b]],[/(playbook);[-\w\),; ]+(rim)/i],[l,h,[v,_]],[/\b((?:bb[a-f]|st[hv])100-\d)/i,/\(bb10; (\w+)/i],[l,[h,T],[v,b]],[/(?:\b|asus_)(transfo[prime ]{4,10} \w+|eeepc|slider \w+|nexus 7|padfone|p00[cj])/i],[l,[h,S],[v,_]],[/ (z[bes]6[027][012][km][ls]|zenfone \d\w?)\b/i],[l,[h,S],[v,b]],[/(nexus 9)/i],[l,[h,"HTC"],[v,_]],[/(htc)[-;_ ]{1,2}([\w ]+(?=\)| bui)|\w+)/i,/(zte)[- ]([\w ]+?)(?: bui|\/|\))/i,/(alcatel|geeksphone|nexian|panasonic(?!(?:;|\.))|sony(?!-bra))[-_ ]?([-\w]*)/i],[h,[l,/_/g," "],[v,b]],[/droid [\w\.]+; ((?:8[14]9[16]|9(?:0(?:48|60|8[01])|1(?:3[27]|66)|2(?:6[69]|9[56])|466))[gqswx])\w*(\)| bui)/i],[l,[h,"TCL"],[v,_]],[/(itel) ((\w+))/i],[[h,J],l,[v,tt,{tablet:["p10001l","w7001"],"*":"mobile"}]],[/droid.+; ([ab][1-7]-?[0178a]\d\d?)/i],[l,[h,"Acer"],[v,_]],[/droid.+; (m[1-5] note) bui/i,/\bmz-([-\w]{2,})/i],[l,[h,"Meizu"],[v,b]],[/; ((?:power )?armor(?:[\w ]{0,8}))(?: bui|\))/i],[l,[h,"Ulefone"],[v,b]],[/; (energy ?\w+)(?: bui|\))/i,/; energizer ([\w ]+)(?: bui|\))/i],[l,[h,"Energizer"],[v,b]],[/; cat (b35);/i,/; (b15q?|s22 flip|s48c|s62 pro)(?: bui|\))/i],[l,[h,"Cat"],[v,b]],[/((?:new )?andromax[\w- ]+)(?: bui|\))/i],[l,[h,"Smartfren"],[v,b]],[/droid.+; (a(?:015|06[35]|142p?))/i],[l,[h,"Nothing"],[v,b]],[/; (x67 5g|tikeasy \w+|ac[1789]\d\w+)( b|\))/i,/archos ?(5|gamepad2?|([\w ]*[t1789]|hello) ?\d+[\w ]*)( b|\))/i],[l,[h,"Archos"],[v,_]],[/archos ([\w ]+)( b|\))/i,/; (ac[3-6]\d\w{2,8})( b|\))/i],[l,[h,"Archos"],[v,b]],[/(imo) (tab \w+)/i,/(infinix) (x1101b?)/i],[h,l,[v,_]],[/(blackberry|benq|palm(?=\-)|sonyericsson|acer|asus(?! zenw)|dell|jolla|meizu|motorola|polytron|infinix|tecno|micromax|advan)[-_ ]?([-\w]*)/i,/; (hmd|imo) ([\w ]+?)(?: bui|\))/i,/(hp) ([\w ]+\w)/i,/(microsoft); (lumia[\w ]+)/i,/(lenovo)[-_ ]?([-\w ]+?)(?: bui|\)|\/)/i,/(oppo) ?([\w ]+) bui/i],[h,l,[v,b]],[/(kobo)\s(ereader|touch)/i,/(hp).+(touchpad(?!.+tablet)|tablet)/i,/(kindle)\/([\w\.]+)/i,/(nook)[\w ]+build\/(\w+)/i,/(dell) (strea[kpr\d ]*[\dko])/i,/(le[- ]+pan)[- ]+(\w{1,9}) bui/i,/(trinity)[- ]*(t\d{3}) bui/i,/(gigaset)[- ]+(q\w{1,9}) bui/i,/(vodafone) ([\w ]+)(?:\)| bui)/i],[h,l,[v,_]],[/(surface duo)/i],[l,[h,j],[v,_]],[/droid [\d\.]+; (fp\du?)(?: b|\))/i],[l,[h,"Fairphone"],[v,b]],[/(u304aa)/i],[l,[h,"AT&T"],[v,b]],[/\bsie-(\w*)/i],[l,[h,"Siemens"],[v,b]],[/\b(rct\w+) b/i],[l,[h,"RCA"],[v,_]],[/\b(venue[\d ]{2,7}) b/i],[l,[h,"Dell"],[v,_]],[/\b(q(?:mv|ta)\w+) b/i],[l,[h,"Verizon"],[v,_]],[/\b(?:barnes[& ]+noble |bn[rt])([\w\+ ]*) b/i],[l,[h,"Barnes & Noble"],[v,_]],[/\b(tm\d{3}\w+) b/i],[l,[h,"NuVision"],[v,_]],[/\b(k88) b/i],[l,[h,"ZTE"],[v,_]],[/\b(nx\d{3}j) b/i],[l,[h,"ZTE"],[v,b]],[/\b(gen\d{3}) b.+49h/i],[l,[h,"Swiss"],[v,b]],[/\b(zur\d{3}) b/i],[l,[h,"Swiss"],[v,_]],[/\b((zeki)?tb.*\b) b/i],[l,[h,"Zeki"],[v,_]],[/\b([yr]\d{2}) b/i,/\b(dragon[- ]+touch |dt)(\w{5}) b/i],[[h,"Dragon Touch"],l,[v,_]],[/\b(ns-?\w{0,9}) b/i],[l,[h,"Insignia"],[v,_]],[/\b((nxa|next)-?\w{0,9}) b/i],[l,[h,"NextBook"],[v,_]],[/\b(xtreme\_)?(v(1[045]|2[015]|[3469]0|7[05])) b/i],[[h,"Voice"],l,[v,b]],[/\b(lvtel\-)?(v1[12]) b/i],[[h,"LvTel"],l,[v,b]],[/\b(ph-1) /i],[l,[h,"Essential"],[v,b]],[/\b(v(100md|700na|7011|917g).*\b) b/i],[l,[h,"Envizen"],[v,_]],[/\b(trio[-\w\. ]+) b/i],[l,[h,"MachSpeed"],[v,_]],[/\btu_(1491) b/i],[l,[h,"Rotor"],[v,_]],[/((?:tegranote|shield t(?!.+d tv))[\w- ]*?)(?: b|\))/i],[l,[h,P],[v,_]],[/(sprint) (\w+)/i],[h,l,[v,b]],[/(kin\.[onetw]{3})/i],[[l,/\./g," "],[h,j],[v,b]],[/droid.+; (cc6666?|et5[16]|mc[239][23]x?|vc8[03]x?)\)/i],[l,[h,q],[v,_]],[/droid.+; (ec30|ps20|tc[2-8]\d[kx])\)/i],[l,[h,q],[v,b]],[/smart-tv.+(samsung)/i],[h,[v,y]],[/hbbtv.+maple;(\d+)/i],[[l,/^/,"SmartTV"],[h,B],[v,y]],[/(nux; netcast.+smarttv|lg (netcast\.tv-201\d|android tv))/i],[[h,x],[v,y]],[/(apple) ?tv/i],[h,[l,A+" TV"],[v,y]],[/crkey/i],[[l,k+"cast"],[h,C],[v,y]],[/droid.+aft(\w+)( bui|\))/i],[l,[h,I],[v,y]],[/(shield \w+ tv)/i],[l,[h,P],[v,y]],[/\(dtv[\);].+(aquos)/i,/(aquos-tv[\w ]+)\)/i],[l,[h,z],[v,y]],[/(bravia[\w ]+)( bui|\))/i],[l,[h,F],[v,y]],[/(mi(tv|box)-?\w+) bui/i],[l,[h,G],[v,y]],[/Hbbtv.*(technisat) (.*);/i],[h,l,[v,y]],[/\b(roku)[\dx]*[\)\/]((?:dvp-)?[\d\.]*)/i,/hbbtv\/\d+\.\d+\.\d+ +\([\w\+ ]*; *([\w\d][^;]*);([^;]*)/i],[[h,Q],[l,Q],[v,y]],[/droid.+; ([\w- ]+) (?:android tv|smart[- ]?tv)/i],[l,[v,y]],[/\b(android tv|smart[- ]?tv|opera tv|tv; rv:)\b/i],[[v,y]],[/(ouya)/i,/(nintendo) ([wids3utch]+)/i],[h,l,[v,m]],[/droid.+; (shield)( bui|\))/i],[l,[h,P],[v,m]],[/(playstation \w+)/i],[l,[h,F],[v,m]],[/\b(xbox(?: one)?(?!; xbox))[\); ]/i],[l,[h,j],[v,m]],[/\b(sm-[lr]\d\d[0156][fnuw]?s?|gear live)\b/i],[l,[h,B],[v,w]],[/((pebble))app/i,/(asus|google|lg|oppo) ((pixel |zen)?watch[\w ]*)( bui|\))/i],[h,l,[v,w]],[/(ow(?:19|20)?we?[1-3]{1,3})/i],[l,[h,V],[v,w]],[/(watch)(?: ?os[,\/]|\d,\d\/)[\d\.]+/i],[l,[h,A],[v,w]],[/(opwwe\d{3})/i],[l,[h,L],[v,w]],[/(moto 360)/i],[l,[h,M],[v,w]],[/(smartwatch 3)/i],[l,[h,F],[v,w]],[/(g watch r)/i],[l,[h,x],[v,w]],[/droid.+; (wt63?0{2,3})\)/i],[l,[h,q],[v,w]],[/droid.+; (glass) \d/i],[l,[h,C],[v,w]],[/(pico) (4|neo3(?: link|pro)?)/i],[h,l,[v,w]],[/; (quest( \d| pro)?)/i],[l,[h,H],[v,w]],[/(tesla)(?: qtcarbrowser|\/[-\w\.]+)/i],[h,[v,E]],[/(aeobc)\b/i],[l,[h,I],[v,E]],[/(homepod).+mac os/i],[l,[h,A],[v,E]],[/windows iot/i],[[v,E]],[/droid .+?; ([^;]+?)(?: bui|; wv\)|\) applew).+? mobile safari/i],[l,[v,b]],[/droid .+?; ([^;]+?)(?: bui|\) applew).+?(?! mobile) safari/i],[l,[v,_]],[/\b((tablet|tab)[;\/]|focus\/\d(?!.+mobile))/i],[[v,_]],[/(phone|mobile(?:[;\/]| [ \w\/\.]*safari)|pda(?=.+windows ce))/i],[[v,b]],[/droid .+?; ([\w\. -]+)( bui|\))/i],[l,[h,"Generic"]]],engine:[[/windows.+ edge\/([\w\.]+)/i],[p,[d,"EdgeHTML"]],[/(arkweb)\/([\w\.]+)/i],[d,p],[/webkit\/537\.36.+chrome\/(?!27)([\w\.]+)/i],[p,[d,"Blink"]],[/(presto)\/([\w\.]+)/i,/(webkit|trident|netfront|netsurf|amaya|lynx|w3m|goanna|servo)\/([\w\.]+)/i,/ekioh(flow)\/([\w\.]+)/i,/(khtml|tasman|links)[\/ ]\(?([\w\.]+)/i,/(icab)[\/ ]([23]\.[\d\.]+)/i,/\b(libweb)/i],[d,p],[/ladybird\//i],[[d,"LibWeb"]],[/rv\:([\w\.]{1,9})\b.+(gecko)/i],[p,d]],os:[[/microsoft (windows) (vista|xp)/i],[d,p],[/(windows (?:phone(?: os)?|mobile|iot))[\/ ]?([\d\.\w ]*)/i],[d,[p,tt,nt]],[/windows nt 6\.2; (arm)/i,/windows[\/ ]([ntce\d\. ]+\w)(?!.+xbox)/i,/(?:win(?=3|9|n)|win 9x )([nt\d\.]+)/i],[[p,tt,nt],[d,"Windows"]],[/[adehimnop]{4,7}\b(?:.*os ([\w]+) like mac|; opera)/i,/(?:ios;fbsv\/|iphone.+ios[\/ ])([\d\.]+)/i,/cfnetwork\/.+darwin/i],[[p,/_/g,"."],[d,"iOS"]],[/(mac os x) ?([\w\. ]*)/i,/(macintosh|mac_powerpc\b)(?!.+haiku)/i],[[d,K],[p,/_/g,"."]],[/droid ([\w\.]+)\b.+(android[- ]x86|harmonyos)/i],[p,d],[/(ubuntu) ([\w\.]+) like android/i],[[d,/(.+)/,"$1 Touch"],p],[/(android|bada|blackberry|kaios|maemo|meego|openharmony|qnx|rim tablet os|sailfish|series40|symbian|tizen|webos)\w*[-\/; ]?([\d\.]*)/i],[d,p],[/\(bb(10);/i],[p,[d,T]],[/(?:symbian ?os|symbos|s60(?=;)|series ?60)[-\/ ]?([\w\.]*)/i],[p,[d,"Symbian"]],[/mozilla\/[\d\.]+ \((?:mobile|tablet|tv|mobile; [\w ]+); rv:.+ gecko\/([\w\.]+)/i],[p,[d,R+" OS"]],[/web0s;.+rt(tv)/i,/\b(?:hp)?wos(?:browser)?\/([\w\.]+)/i],[p,[d,"webOS"]],[/watch(?: ?os[,\/]|\d,\d\/)([\d\.]+)/i],[p,[d,"watchOS"]],[/crkey\/([\d\.]+)/i],[p,[d,k+"cast"]],[/(cros) [\w]+(?:\)| ([\w\.]+)\b)/i],[[d,Y],p],[/panasonic;(viera)/i,/(netrange)mmh/i,/(nettv)\/(\d+\.[\w\.]+)/i,/(nintendo|playstation) ([wids345portablevuch]+)/i,/(xbox); +xbox ([^\);]+)/i,/\b(joli|palm)\b ?(?:os)?\/?([\w\.]*)/i,/(mint)[\/\(\) ]?(\w*)/i,/(mageia|vectorlinux)[; ]/i,/([kxln]?ubuntu|debian|suse|opensuse|gentoo|arch(?= linux)|slackware|fedora|mandriva|centos|pclinuxos|red ?hat|zenwalk|linpus|raspbian|plan 9|minix|risc os|contiki|deepin|manjaro|elementary os|sabayon|linspire)(?: gnu\/linux)?(?: enterprise)?(?:[- ]linux)?(?:-gnu)?[-\/ ]?(?!chrom|package)([-\w\.]*)/i,/(hurd|linux)(?: arm\w*| x86\w*| ?)([\w\.]*)/i,/(gnu) ?([\w\.]*)/i,/\b([-frentopcghs]{0,5}bsd|dragonfly)[\/ ]?(?!amd|[ix346]{1,2}86)([\w\.]*)/i,/(haiku) (\w+)/i],[d,p],[/(sunos) ?([\w\.\d]*)/i],[[d,"Solaris"],p],[/((?:open)?solaris)[-\/ ]?([\w\.]*)/i,/(aix) ((\d)(?=\.|\)| )[\w\.])*/i,/\b(beos|os\/2|amigaos|morphos|openvms|fuchsia|hp-ux|serenityos)/i,/(unix) ?([\w\.]*)/i],[d,p]]},it=function(t,n){if(typeof t===c&&(n=t,t=o),!(this instanceof it))return new it(t,n).getResult();var e=typeof r!==u&&r.navigator?r.navigator:o,i=t||(e&&e.userAgent?e.userAgent:""),m=e&&e.userAgentData?e.userAgentData:o,y=n?function(t,n){var e={};for(var i in t)n[i]&&n[i].length%2==0?e[i]=n[i].concat(t[i]):e[i]=t[i];return e}(et,n):et,w=e&&e.userAgent==i;return this.getBrowser=function(){var t,n={};return n[d]=o,n[p]=o,Z.call(n,i,y.browser),n[f]=typeof(t=n[p])===s?t.replace(/[^\d\.]/g,"").split(".")[0]:o,w&&e&&e.brave&&typeof e.brave.isBrave==a&&(n[d]="Brave"),n},this.getCPU=function(){var t={};return t[g]=o,Z.call(t,i,y.cpu),t},this.getDevice=function(){var t={};return t[h]=o,t[l]=o,t[v]=o,Z.call(t,i,y.device),w&&!t[v]&&m&&m.mobile&&(t[v]=b),w&&"Macintosh"==t[l]&&e&&typeof e.standalone!==u&&e.maxTouchPoints&&e.maxTouchPoints>2&&(t[l]="iPad",t[v]=_),t},this.getEngine=function(){var t={};return t[d]=o,t[p]=o,Z.call(t,i,y.engine),t},this.getOS=function(){var t={};return t[d]=o,t[p]=o,Z.call(t,i,y.os),w&&!t[d]&&m&&m.platform&&"Unknown"!=m.platform&&(t[d]=m.platform.replace(/chrome os/i,Y).replace(/macos/i,K)),t},this.getResult=function(){return{ua:this.getUA(),browser:this.getBrowser(),engine:this.getEngine(),os:this.getOS(),device:this.getDevice(),cpu:this.getCPU()}},this.getUA=function(){return i},this.setUA=function(t){return i=typeof t===s&&t.length>500?Q(t,500):t,this},this.setUA(i),this};it.VERSION="1.0.41",it.BROWSER=W([d,p,f]),it.CPU=W([g]),it.DEVICE=W([l,h,v,m,b,y,_,w,E]),it.ENGINE=it.OS=W([d,p]),typeof n!==u?(t.exports&&(n=t.exports=it),n.UAParser=it):e.amdO?(i=function(){return it}.call(n,e,n,t))===o||(t.exports=i):typeof r!==u&&(r.UAParser=it);var rt=typeof r!==u&&(r.jQuery||r.Zepto);if(rt&&!rt.ua){var ot=new it;rt.ua=ot.getResult(),rt.ua.get=function(){return ot.getUA()},rt.ua.set=function(t){ot.setUA(t);var n=ot.getResult();for(var e in n)rt.ua[e]=n[e]}}}("object"==typeof window?window:this)},4118:function(){}},__webpack_module_cache__={};function __webpack_require__(t){var n=__webpack_module_cache__[t];if(void 0!==n)return n.exports;var e=__webpack_module_cache__[t]={exports:{}};return __webpack_modules__[t].call(e.exports,e,e.exports,__webpack_require__),e.exports}__webpack_require__.amdO={},__webpack_require__.g=function(){if("object"==typeof globalThis)return globalThis;try{return this||new Function("return this")()}catch(t){if("object"==typeof window)return window}}();var __webpack_exports__={};function main(){var t=function(t){var n=[__webpack_require__(1823)];n.push(__webpack_require__(1982)),n.push(__webpack_require__(9202)),n.push(__webpack_require__(9401)),n.push(__webpack_require__(6988)),n.push(__webpack_require__(9728)),n.push(__webpack_require__(2163)),n.push(__webpack_require__(9004)),n.push(__webpack_require__(8252)),n.push(__webpack_require__(2085)),n.push(__webpack_require__(6591)),n.push(__webpack_require__(2452)),n.push(__webpack_require__(6917)),n.push(__webpack_require__(945)),n.push(__webpack_require__(2819)),n.push(__webpack_require__(2153)),n.push(__webpack_require__(1592)),n.push(__webpack_require__(9807)),n.push(__webpack_require__(9820)),n.push(__webpack_require__(9016)),n.push(__webpack_require__(4093)),n.push(__webpack_require__(9721)),n.push(__webpack_require__(8326)),n.push(__webpack_require__(4680)),n.push(__webpack_require__(4439)),n.push(__webpack_require__(2636)),n.push(__webpack_require__(9659)),n.push(__webpack_require__(3037)),l.initializePlugins(n)};window.performance&&window.performance.mark&&window.performance.mark("optimizely:blockBegin"),__webpack_require__(2594).initialize();var n=__webpack_require__(5010);n.time("gtagReady");var e=__webpack_require__(7852),i=__webpack_require__(2025);__webpack_require__(7786);var r=i.get("stores/directive");i.get("stores/tracker_optimizely");if(!__webpack_require__(8260).isCORSSupported())throw new Error("CORS is not supported on this browser, aborting.");var o,a=__webpack_require__(9445),u=__webpack_require__(4214),c=__webpack_require__(7219),s=__webpack_require__(587),f={"accountId": "25408250069", "namespace": "25683290527", "revision": "11937", "anonymizeIP": true, "enableForceParameters": false, "experimental": {"trimPages": true}, "projectId": "25683290527", "layers": [{"changes": [{"id": "973021eaa803493baddd5a5241812579", "type": "custom_code", "value": function($){// This function fires custom events at different scroll depth milestones.
+// Variables to prevent continuous firing of custom events
+let hasFiredScroll25Event = false;
+let hasFiredScroll50Event = false;
+let hasFiredScroll75Event = false;
+let hasFiredScroll100Event = false;
+
+// Function to handle scroll event
+function handleScrollEvent() {
+  // DOM queries
+  const windowHeight = window.innerHeight;
+  const bodyHeight = document.body.scrollHeight;
+  // Calculate scroll percentage
+  const scrollPercent = (window.scrollY / (bodyHeight - windowHeight)) * 100;
+  console.log(scrollPercent);
+  window.optimizely = window.optimizely || [];
+  // Conditional code we'll use to fire events based on scrollPercentage.
+  if (scrollPercent >= 25 && !hasFiredScroll25Event) {
+    // Push an event to the Optimizely data layer
+    window.optimizely.push({type: "event", eventName: "scroll25"});
+    hasFiredScroll25Event = true;
+  }
+  if (scrollPercent >= 50 && !hasFiredScroll50Event) {
+    window.optimizely.push({type: "event", eventName: "scroll50"});
+    hasFiredScroll50Event = true;
+  }
+  if (scrollPercent >= 75 && !hasFiredScroll75Event) {
+    window.optimizely.push({type: "event", eventName: "scroll75"});
+    hasFiredScroll75Event = true;
+  }
+  if (scrollPercent >= 100 && !hasFiredScroll100Event) {
+    window.optimizely.push({type: "event", eventName: "scroll100"});
+    hasFiredScroll100Event = true;
+  }
+}
+// Add event listener outside the function
+window.addEventListener('scroll', handleScrollEvent);
+
+(function() {
+
+  var dmpgFuncFired = 0;
+  var dmpgInterval = setInterval(dmpgPollFunc, 100);
+
+  function dmpgPollFunc() {
+    dmpgFuncFired += 1;
+
+    if (dmpgFuncFired >= 50) {
+      clearInterval(dmpgInterval);
+    }
+
+    if (dataLayer.find(o => o.event === "PO1-env")) {
+      clearInterval(dmpgInterval);   
+
+      //window.addEventListener('scroll', handleScrollEvent);
+      
+    }
+  }
+
+})();
+}, "dependencies": []}], "id": "30537190177", "name": "TDP | Women Only Tours Push", "commitId": "6363624260763648", "groupId": null, "holdback": 0, "activation": {}, "integrationSettings": {"google_analytics_4": {"is_using_gtm": "on"}}, "integrationStringVersion": 2, "experiments": [{"audienceIds": ["and", "27113660032"], "audienceName": "User Type - \"Customer\"", "changes": null, "id": "30504420057", "integrationSettings": null, "variations": [{"id": "30510630107", "name": "Original - No additional linking", "actions": []}, {"id": "30531040109", "name": "Variation #1 - Women-only tour links added", "actions": [{"viewId": "30242601019", "changes": [{"id": "2778de10257844cda553685091c15328", "type": "custom_code", "value": function($){(function() {
+ 
+  var pollElementsBySelector = function (selector, func, foundIndex, suggestedTimeOut) { var elapsed = 0; var interval = 100; var timeOut = suggestedTimeOut || 5000; if (!foundIndex && foundIndex != 0) { foundIndex = 'all'; } var foundElems = document.querySelectorAll(selector); if (foundElems.length) { if (foundIndex === 'all') { func(foundElems); } else { func(foundElems[foundIndex]); } } else { (function () { var elemInterval = window.setInterval(function () { elapsed += interval; foundElems = document.querySelectorAll(selector); if (foundElems.length || elapsed >= timeOut) { window.clearInterval(elemInterval); if (foundElems.length) { if (foundIndex === 'all') { func(foundElems); } else { func(foundElems[foundIndex]); } } else { console.log('Could not find selector: "' + selector + '", timeout after ' + (timeOut / 1000) + ' second/s'); } } }, interval); })(); } };
+  
+  var dmpgFuncFired = 0;
+  var dmpgInterval = setInterval(dmpgPollFunc, 200);
+
+  var html = '<a href="" target="_blank" class="dmpg-variation-card variation-card variation-card--layout1"><p class="variation-card__selected variation-card__selected--hidden text-label-el" data-testid="genericText">Women-Only Version</p><div class="variation-card__card dmpg-womens-banner"><div class="dmpg-womens-banner-copy text-title-s">Available as a <span class="dmpg-link">Women-Only Tour</span>. Tours for women by women with up to 10% off*.</div></div></a>';
+  
+  var banner = '<div class="dmpg-women-only-banner-wrap component-wrapper component-wrapper__bannerwithmask component-padding-top component-carousel-arrows with-padding"><a href="" target="_blank" class="dmpg-women-only-banner banner-with-mask-wrapper"><div class="banner-with-mask" style="background: #fff;border: 1px solid rgb(9, 31, 64);"><div class="banner-with-mask__content-box banner-with-mask__content-box--no-image banner-with-mask__content-box--no-icon"><div class="banner-with-mask__desc-wrapper"><div class="banner-with-mask__content"><header data-testid="title-section" class="title-section banner-with-mask__desc banner-with-mask__desc--no-title title-section--aligned-center"><p class="title-section__description-text title-section--aligned-center title-section__description--alone rich-text text-paragraph-m" data-testid="genericText" id="title-section__description-textundefined" style="color: rgb(9, 31, 64);">Available as a <span class="dmpg-link">Women-Only Tour</span>. Tours for women by women with 10% off*.</p></header></div></div></div></div></a></div>';
+  
+  var alternateURL = window.location.origin + window.location.pathname + '-a-women-only-tour';
+  if (window.location.href.indexOf('https://www.insightvacations.com/en-eu/tours/peru-with-machu-picchu') > -1 && window.location.href.indexOf('a-women-only-tour') === -1) {
+    alternateURL = window.location.origin + window.location.pathname + '-and-nazca-lines-women-only';
+  }
+  
+  function dmpgPollFunc() {
+    dmpgFuncFired += 1;
+
+    //if run for over 4 secs then stop
+    if (dmpgFuncFired >= 20) {
+      clearInterval(dmpgInterval);
+    }
+    //if elements found, exectute changes
+    if (dataLayer.find(o => o.event === "PO1-env")) {
+      clearInterval(dmpgInterval);
+            
+      pollElementsBySelector('.trip-variations-card-layout', function(el) {
+        
+        if (document.querySelector('.trip-variations-card-layout').children.length === 2) {
+          document.querySelector('.trip-variations-card-layout').style.gridTemplateColumns = '1fr 1fr 2fr';
+        } else {
+          document.querySelector('.trip-variations-card-layout').style.gridTemplateColumns = '1fr 1fr 1fr 1fr';
+        }
+        
+        document.querySelector('.trip-variations-card-layout').insertAdjacentHTML('beforeend', html);
+      
+        document.querySelector('.dmpg-variation-card').addEventListener('click', function() {
+          window['optimizely'] = window['optimizely'] || [];
+          window['optimizely'].push({
+            type: "event",
+            eventName: "itinerary_variant_selector_women_only_click"
+          });
+        });
+
+        document.querySelector('.dmpg-variation-card').href = alternateURL;
+      }, 0);
+      
+      var mutationObserver = function(ele, executable, configSettings) {
+        const targetNode = document.querySelector(ele);
+        const config = configSettings;
+        
+        const callback = function(mutationsList, observer) {
+            executable();
+        };
+        
+        const observer = new MutationObserver(callback);
+        observer.observe(targetNode, config);
+      };
+      
+      mutationObserver('body', function() {
+        pollElementsBySelector('.fullscreen-modal ul.trip-variations-list', function(el) {
+          if (document.querySelector('.fullscreen-modal ul.trip-variations-list') && !document.querySelector('.variation-item .dmpg-pop-item')) {
+            //console.log('run!!');
+            document.querySelector('.fullscreen-modal ul.trip-variations-list').insertAdjacentHTML('beforeend', '<li class="variation-item variation-item--layout1"><a class="dmpg-women-only-banner-modal" target="_blank"><div class="variation-item__wrapper"><div class="dmpg-pop-item"><p>Available as a <span class="dmpg-link">Women-Only Tour</span>. Tours for women by women with up to 10% off*.</p></div></div></a></li>');
+            
+            document.querySelector('.dmpg-women-only-banner-modal').href = alternateURL;
+            
+            document.querySelector('.dmpg-women-only-banner-modal').addEventListener('click', function() {
+              window['optimizely'] = window['optimizely'] || [];
+              window['optimizely'].push({
+                type: "event",
+                eventName: "header_variant_selector_women_only_click"
+              });
+            });
+            
+          }
+        }, 0);
+        
+        pollElementsBySelector('.fullscreen-modal .trip-variations-card-layout', function(el) {
+          if (document.querySelector('.fullscreen-modal .trip-variations-card-layout') && !document.querySelector('.variation-item .dmpg-pop-item')) {
+
+            document.querySelector('.fullscreen-modal .trip-variations-card-layout').insertAdjacentHTML('beforeend', '<li class="variation-item variation-item--layout1"><a class="dmpg-women-only-banner-modal" target="_blank"><div class="variation-item__wrapper"><div class="dmpg-pop-item"><p>Available as a <span class="dmpg-link">Women-Only Tour</span>. Tours for women by women with up to 10% off*.</p></div></div></a></li>');
+            
+            document.querySelector('.dmpg-women-only-banner-modal').href = alternateURL;
+            
+            document.querySelector('.dmpg-women-only-banner-modal').addEventListener('click', function() {
+              window['optimizely'] = window['optimizely'] || [];
+              window['optimizely'].push({
+                type: "event",
+                eventName: "header_variant_selector_women_only_click"
+              });
+            });
+            
+          }
+        }, 0);
+      }, {childList: true});
+      
+      /*
+      pollElementsBySelector('.content__section', function(el) {
+        if (!document.querySelector('.dmpg-women-only-banner')) {
+          document.querySelector('.content__section').insertAdjacentHTML('afterbegin', banner);
+          document.querySelector('.dmpg-women-only-banner').href = alternateURL;
+
+          document.querySelector('.dmpg-women-only-banner').addEventListener('click', function() {
+            window['optimizely'] = window['optimizely'] || [];
+            window['optimizely'].push({
+              type: "event",
+              eventName: "banner_click",
+            });
+          });
+        }
+      }, 0);
+      */
+     
+    }
+  }
+
+})();
+}, "dependencies": []}, {"id": "14661cc23c8649849f72dbcca0d6dd00", "type": "append", "selector": "head", "value": "<style>/*\n.dmpg-women-only-banner-wrap {\n  display: block;\n  padding-top: 2rem;\n  padding-bottom: 2rem;\n}\n*/\n\n.dmpg-women-only-banner-wrap {\n  display: none;\n}\n\n.dmpg-link {\n  color: inherit;\n  text-decoration: underline;\n}\n\n.dmpg-pop-item {\n  width: 100%;\n  text-align: center;\n  padding: 1rem;\n  font-weight: 500;\n}\n\n.dmpg-variation-card {\n  color: #081e3f;\n  text-decoration: none;\n}\n\n.variation-card__card.dmpg-womens-banner {\n  justify-content: center;\n  align-items: center;\n  background: #0e6f72;\n  color: #fff;\n}\n\n.dmpg-womens-banner-copy {\n  text-align: center;\n  font-size: 18px;\n}\n\n.dmpg-women-only-banner-modal {\n  text-decoration: none;\n  color: #081e3f;\n}\n\n/*\n@media screen and (min-width: 769px) {\n  .trip-variations-card-layout {\n    grid-template-columns: 1fr 1fr 2fr;\n  }\n}\n*/</style>", "dependencies": []}]}, {"viewId": "30256380944", "changes": [{"id": "188977768e3948e98d6f0ab96eab6dd0", "type": "custom_code", "value": function($){(function() {
+ 
+  var pollElementsBySelector = function (selector, func, foundIndex, suggestedTimeOut) { var elapsed = 0; var interval = 100; var timeOut = suggestedTimeOut || 5000; if (!foundIndex && foundIndex != 0) { foundIndex = 'all'; } var foundElems = document.querySelectorAll(selector); if (foundElems.length) { if (foundIndex === 'all') { func(foundElems); } else { func(foundElems[foundIndex]); } } else { (function () { var elemInterval = window.setInterval(function () { elapsed += interval; foundElems = document.querySelectorAll(selector); if (foundElems.length || elapsed >= timeOut) { window.clearInterval(elemInterval); if (foundElems.length) { if (foundIndex === 'all') { func(foundElems); } else { func(foundElems[foundIndex]); } } else { console.log('Could not find selector: "' + selector + '", timeout after ' + (timeOut / 1000) + ' second/s'); } } }, interval); })(); } };
+  
+  var dmpgFuncFired = 0;
+  var dmpgInterval = setInterval(dmpgPollFunc, 200);
+
+  var banner = '<div class="dmpg-women-only-banner-wrap component-wrapper component-wrapper__bannerwithmask component-padding-top component-carousel-arrows with-padding"><a href="" target="_blank" class="dmpg-women-only-banner banner-with-mask-wrapper"><div class="banner-with-mask" style="background: #fff;"><div class="banner-with-mask__content-box banner-with-mask__content-box--no-image banner-with-mask__content-box--no-icon"><div class="banner-with-mask__desc-wrapper"><div class="banner-with-mask__content"><header data-testid="title-section" class="title-section banner-with-mask__desc banner-with-mask__desc--no-title title-section--aligned-center"><p class="title-section__description-text title-section--aligned-center title-section__description--alone rich-text text-paragraph-m" data-testid="genericText" id="title-section__description-textundefined" style="color: rgb(9, 31, 64); font-weight: 500;">Available as a <span class="dmpg-link">Women-Only Tour</span>. Tours for women by women with up to 10% off*.</p></header></div></div></div></div></a></div>';
+  
+  var alternateURL = window.location.origin + window.location.pathname + '-a-women-only-tour';
+  if (window.location.href.indexOf('https://www.insightvacations.com/en-eu/tours/peru-with-machu-picchu') > -1 && window.location.href.indexOf('a-women-only-tour') === -1) {
+    alternateURL = window.location.origin + window.location.pathname + '-and-nazca-lines-women-only';
+  }
+  
+  function dmpgPollFunc() {
+    dmpgFuncFired += 1;
+
+    if (dmpgFuncFired >= 20) {
+      clearInterval(dmpgInterval);
+    }
+
+    if (dataLayer.find(o => o.event === "PO1-env")) {
+      clearInterval(dmpgInterval);
+            
+      pollElementsBySelector('.content__section', function(el) {
+        if (!document.querySelector('.dmpg-women-only-banner')) {
+          document.querySelector('.content__section').insertAdjacentHTML('afterbegin', banner);
+          document.querySelector('.dmpg-women-only-banner').href = alternateURL;
+
+          document.querySelector('.dmpg-women-only-banner').addEventListener('click', function() {
+            window['optimizely'] = window['optimizely'] || [];
+            window['optimizely'].push({
+              type: "event",
+              eventName: "datesprices_women_only_click"
+            });
+          });
+        }
+      }, 0);
+      
+      var mutationObserver = function(ele, executable, configSettings) {
+        const targetNode = document.querySelector(ele);
+        const config = configSettings;
+        
+        const callback = function(mutationsList, observer) {
+            executable();
+        };
+        
+        const observer = new MutationObserver(callback);
+        observer.observe(targetNode, config);
+      };
+      
+      mutationObserver('body', function() {
+        pollElementsBySelector('.fullscreen-modal ul.trip-variations-list', function(el) {
+          if (document.querySelector('.fullscreen-modal ul.trip-variations-list') && !document.querySelector('.variation-item .dmpg-pop-item')) {
+            //console.log('run!!');
+            document.querySelector('.fullscreen-modal ul.trip-variations-list').insertAdjacentHTML('beforeend', '<li class="variation-item variation-item--layout1"><a class="dmpg-women-only-banner-modal" target="_blank"><div class="variation-item__wrapper"><div class="dmpg-pop-item"><p>Available as a <span class="dmpg-link">Women-Only Tour</span>. Tours for women by women with up to 10% off*.</p></div></div></a></li>');
+            
+            document.querySelector('.dmpg-women-only-banner-modal').href = alternateURL;
+            
+            document.querySelector('.dmpg-women-only-banner-modal').addEventListener('click', function() {
+              window['optimizely'] = window['optimizely'] || [];
+              window['optimizely'].push({
+                type: "event",
+                eventName: "header_variant_selector_women_only_click"
+              });
+            });
+            
+          }
+        }, 0);
+        
+        pollElementsBySelector('.fullscreen-modal .trip-variations-card-layout', function(el) {
+          if (document.querySelector('.fullscreen-modal .trip-variations-card-layout') && !document.querySelector('.variation-item .dmpg-pop-item')) {
+
+            document.querySelector('.fullscreen-modal .trip-variations-card-layout').insertAdjacentHTML('beforeend', '<li class="variation-item variation-item--layout1"><a class="dmpg-women-only-banner-modal" target="_blank"><div class="variation-item__wrapper"><div class="dmpg-pop-item"><p>Available as a <span class="dmpg-link">Women-Only Tour</span>. Tours for women by women with up to 10% off*.</p></div></div></a></li>');
+            
+            document.querySelector('.dmpg-women-only-banner-modal').href = alternateURL;
+            
+            document.querySelector('.dmpg-women-only-banner-modal').addEventListener('click', function() {
+              window['optimizely'] = window['optimizely'] || [];
+              window['optimizely'].push({
+                type: "event",
+                eventName: "header_variant_selector_women_only_click"
+              });
+            });
+            
+          }
+        }, 0);
+      }, {childList: true});
+     
+    }
+  }
+
+})();
+}, "dependencies": []}, {"id": "2cc3ba224df24237a8cd68e0562542fe", "type": "append", "selector": "head", "value": "<style>.component-padding-top>div {\n  padding-top: 2rem;\n}\n\n.dmpg-women-only-banner-wrap {\n  display: block;\n  padding-top: 2rem;\n}\n\n.dmpg-women-only-banner {\n  text-decoration: none;\n}\n\n.dmpg-link {\n  color: inherit;\n  text-decoration: underline;\n}\n\n.dmpg-pop-item {\n  width: 100%;\n  text-align: center;\n  padding: 1rem;\n  font-weight: 500;\n}\n\n.dmpg-women-only-banner-modal {\n  text-decoration: none;\n  color: #081e3f;\n}</style>", "dependencies": []}]}]}], "weightDistributions": [{"entityId": "30531040109", "endOfRange": 10000}], "name": "TDP | Women Only Tours Push", "bucketingStrategy": null, "experimentMetadata": {"allocationPolicy": "manual", "layerId": "30537190177"}, "deployed": false}], "policy": "single_experiment", "viewIds": ["30242601019", "30256380944"], "weightDistributions": null, "decisionMetadata": null, "concluded": false}, {"changes": null, "id": "5172480824836096", "name": "TDP | MCP Similar Tour Recommendations [Project JS for Tours]", "commitId": "5077192730738688", "groupId": null, "holdback": 0, "activation": {}, "integrationSettings": {"google_analytics_4": {}}, "integrationStringVersion": 2, "experiments": [{"audienceIds": null, "audienceName": "Everyone else", "changes": null, "id": "4891005848125440", "integrationSettings": null, "variations": [{"id": "6298380731678720", "name": "Original", "actions": [{"viewId": "5325785964216320", "changes": []}]}, {"id": "5525793474871296", "name": "Variation #1 - MCP Contract", "actions": [{"viewId": "5325785964216320", "changes": [{"id": "DECE7237-9F2E-41B4-8D84-D432DFFC9447", "type": "custom_code", "dependencies": [], "name": "", "isOpalManaged": false, "value": function($){/* ==========================================================================
+   IV - MCP similar tours - ACTIVATOR as PROJECT JAVASCRIPT
+   Paste the whole file into Optimizely > Settings > JavaScript (project
+   25683290527) and publish the snippet. Runs on every page the snippet
+   loads on, no helper experiment / page / bucketing involved; does nothing
+   outside /tours/. Installs once per document (safe even if the helper
+   experiment with the Activator template is still live).
+   Same logic as the Activator template (see below).
+========================================================================== */
+/* ==========================================================================
+   Insight Vacations TDP - MCP similar-tour recommendations A/B test
+   ACTIVATOR - Optimizely TEMPLATE (apply_js), used as the only change of the
+   one variation of the helper experiment
+     page:      helper page covering all IV tour pages (activation rules set
+                in the project: URL contains www.insightvacations.com AND
+                /tours/, trigger "When the URL changes")
+     audience:  Everyone, traffic allocation 100%, ONE variation at 100%
+                (this code) - no Original split, or part of the traffic
+                would never get the activator.
+
+   Runs only once a tour page has been visited (Optimizely executes the
+   variation code on the first activation of the helper page, also after a
+   client-side navigation into /tours/). From then on it stays installed for
+   the rest of the document and follows the SPA itself.
+
+   What it does: activates the TEST page
+   "TDP | MCP Similar Tour Recommendations" (trigger: Manually,
+   API name 25683290527_tdp__mcp_similar_tour_recommendations) only when, on
+   a /tours/* path,
+     (a) MCP has announced the module as ready for this path, and
+     (b) 75% of the block right above the module slot has scrolled into view
+         (the module sits above the We Make Travel Matter section, so this
+         is normally the FAQ block).
+
+   ACTIVATION RESULT: pushing the page is only a REQUEST - Optimizely still
+   evaluates the page conditions (if any are set) and may reject it. The
+   result is read back from Optimizely itself: the page state right after
+   the push (getPageStates) and the "pageActivated" lifecycle event (covers
+   an activation that completes later). Only a confirmed activation is
+   logged as ACTIVATED; a rejected one is logged as NOT activated and is not
+   retried on that path.
+
+   FOOTPRINT once installed:
+     - one wrapper on history.pushState/replaceState (runs only when the app
+       navigates), one popstate listener, one listener for the MCP ready
+       event, one Optimizely "pageActivated" lifecycle listener - no timers,
+       no scroll or resize listeners, no polling, the dataLayer is not
+       modified;
+     - at install time on a tour page: one read of the dataLayer, because
+       this code can run AFTER MCP has already announced the module (the
+       helper experiment activates after the snippet's own decisions, and
+       the Optimizely QA tool can reload with a late snippet);
+     - on a tour page after MCP is ready: ONE IntersectionObserver on the
+       trigger block, disconnected on activation or route change;
+     - every entry point in try/catch: a failure can only mean the test
+       does not activate, never a broken page.
+
+   SPA: a new pathname = new evaluation (the previous activation is
+   deactivated first); query/hash-only changes (?optionId=652,
+   ?tab=datesprices) are ignored.
+
+   Contract (must match the MCP template and the treatment template):
+     MCP -> window CustomEvent "cro-mcpreco-ready",
+            detail { croPath, croPv, croCount }  (also pushed to dataLayer)
+========================================================================== */
+(function () {
+  "use strict";
+
+  /* Template fields (extension.*) - each falls back to the tested default.
+     EXT is {} when this code is pasted outside a template (e.g. into
+     Project JavaScript), so it never dies on a missing "extension". */
+  /* PROJECT JS settings - edit here (there are no template fields in
+     Project JavaScript). Inside a template the template fields win. */
+  var EXT = (typeof extension !== "undefined" && extension) || {
+    console_logs: "on",                     /* "on" / "off"; ?mcpdebug=1 forces on */
+    page_api_name: "25683290527_tdp__mcp_similar_tour_recommendations",
+    trigger_percent: 75,
+    path_match: "/tours/"
+  };
+  var PAGE_API_NAME = String(EXT.page_api_name || "").trim() || "25683290527_tdp__mcp_similar_tour_recommendations";
+
+  var LOG           = "[MCPRECO]_[Optly]";
+  var BUILD         = "iv-2026-10-07-contract-v2-activator-projectjs-1";
+  var PATH_MATCH    = String(EXT.path_match || "").trim() || "/tours/";
+  var SLOT_ID       = "evg-mcpreco-slot";
+  var READY_EVENT   = "cro-mcpreco-ready";
+  var TRIGGER_PCT   = Number(EXT.trigger_percent);
+  var TRIGGER_RATIO = (TRIGGER_PCT > 0 && TRIGGER_PCT <= 100) ? TRIGGER_PCT / 100 : 0.75;
+  var STATE_KEY     = "__mcprecoActivation";
+
+  /* Console logs: template field "Console logs" (on / off); ?mcpdebug=1 in
+     the page URL turns them on for the visit. The switch is also published
+     as window.__mcprecoOptlyLog for any page-condition code, which has no
+     template fields of its own. Set on every run of this template, so a
+     changed field applies from the next page load. */
+  var LOG_ON = String(EXT.console_logs) !== "off" || String(location.search || "").indexOf("mcpdebug=1") !== -1;
+  window.__mcprecoOptlyLog = LOG_ON;
+
+  function log(msg) {
+    if (!LOG_ON) return;
+    try { console.log(LOG + " " + msg); } catch (e) {}
+  }
+
+  if (window[STATE_KEY]) return;   /* installed once per document - re-activations of the helper page are no-ops */
+  log("activator installed (build=" + BUILD + ", page=" + PAGE_API_NAME + ", trigger=" + Math.round(TRIGGER_RATIO * 100) + "%) on " + location.pathname);
+
+  var S = { path: null, isTour: false, active: false, pv: null, io: null, rejected: false, pending: null };
+  window[STATE_KEY] = S;
+
+  function stopWatching() {
+    if (S.io) { S.io.disconnect(); S.io = null; }
+  }
+
+  /* State of the test page as Optimizely sees it: true / false, or null
+     when the state API is not available (result unknown). */
+  function pageIsActive() {
+    try {
+      var o = window.optimizely;
+      if (!o || typeof o.get !== "function") return null;
+      var pages = o.get("state").getPageStates();
+      for (var id in pages) {
+        if (Object.prototype.hasOwnProperty.call(pages, id) && pages[id] && pages[id].apiName === PAGE_API_NAME) return !!pages[id].isActive;
+      }
+    } catch (e) {}
+    return null;
+  }
+
+  function confirmed(via) {
+    var p = S.pending;
+    S.pending = null;
+    S.active = true;
+    log("experiment page ACTIVATED (" + p.how + ", confirmed by Optimizely" + via + ") path=" + S.path + " croPv=" + p.ready.croPv + " cards=" + p.ready.croCount);
+  }
+
+  function activate(ready, how) {
+    stopWatching();
+    S.active = true;      /* optimistic: the variation code can run inside the push below */
+    S.pv = ready.croPv;
+    S.pending = { ready: ready, how: how };
+    log("activation requested (" + how + ") path=" + S.path + " croPv=" + ready.croPv);
+    window.optimizely = window.optimizely || [];
+    window.optimizely.push({ type: "page", pageName: PAGE_API_NAME });
+    if (!S.pending) return;                     /* already confirmed by the pageActivated listener */
+    var state = pageIsActive();
+    if (state === true) { confirmed(", page state"); return; }
+    if (state === false) {
+      /* Rejected by the page conditions. A late pageActivated event would
+         still confirm it (see the listener). */
+      S.active = false;
+      S.rejected = true;
+      log("experiment page NOT activated - Optimizely rejected it (page conditions not met) path=" + S.path + " croPv=" + ready.croPv);
+      return;
+    }
+    log("activation result unknown (Optimizely state API not available) - waiting for the pageActivated event");
+  }
+
+  function deactivate() {
+    stopWatching();
+    S.pending = null;
+    S.rejected = false;
+    if (!S.active) return;
+    window.optimizely = window.optimizely || [];
+    window.optimizely.push({ type: "page", pageName: PAGE_API_NAME, isActive: false });
+    log("experiment page deactivated (route change) for " + S.path);
+    S.active = false;
+  }
+
+  /* Share of the block that has come into view from the bottom of the
+     viewport: 0 = still below the fold, >= 1 = fully scrolled in or past. */
+  function ratioOf(rect, viewportHeight) {
+    return rect.height > 0 ? (viewportHeight - rect.top) / rect.height : 0;
+  }
+
+  /* Called once per render, when MCP announces the module as ready. */
+  function onReady(ready) {
+    try {
+      if (!ready || !S.isTour || S.active || S.rejected) return;
+      if (ready.croPath !== S.path || !(ready.croCount > 0)) return;
+
+      var slot = document.getElementById(SLOT_ID);
+      var block = slot ? slot.previousElementSibling : null;
+      if (!block) { log("ready for " + S.path + " but no trigger block found - not activating"); return; }
+
+      /* Visitor already at or past the trigger point: activate now. One
+         layout read, once per render. */
+      var vh = window.innerHeight || document.documentElement.clientHeight;
+      if (ratioOf(block.getBoundingClientRect(), vh) >= TRIGGER_RATIO) { activate(ready, "already past trigger"); return; }
+
+      if (typeof IntersectionObserver === "undefined") {
+        log("IntersectionObserver not supported - not activating");
+        return;
+      }
+
+      /* Otherwise wait for the browser to report the block's position as
+         it scrolls in - no scroll handler involved. Thresholds every 5% of
+         the block's visible area give enough callbacks to catch 75% of
+         even a block taller than the viewport. */
+      stopWatching();
+      var thresholds = [];
+      for (var t = 0; t <= 20; t++) thresholds.push(t / 20);
+      S.io = new IntersectionObserver(function (entries) {
+        try {
+          for (var i = 0; i < entries.length; i++) {
+            var en = entries[i];
+            var h = en.rootBounds ? en.rootBounds.height : (window.innerHeight || 0);
+            if (ratioOf(en.boundingClientRect, h) >= TRIGGER_RATIO) { activate(ready, "scrolled to " + Math.round(TRIGGER_RATIO * 100) + "% of " + (block.getAttribute("data-testid") || "trigger block")); return; }
+          }
+        } catch (e) { log("observer error: " + e); }
+      }, { threshold: thresholds });
+      S.io.observe(block);
+      log("ready for " + S.path + " (croPv=" + ready.croPv + ") - waiting for the visitor to reach the trigger point");
+    } catch (e) {
+      log("onReady error: " + e);
+    }
+  }
+
+  function onRoute(how) {
+    try {
+      var path = location.pathname;
+      if (path === S.path) return;                    /* query/hash-only change */
+      deactivate();
+      S.path = path;
+      S.isTour = path.indexOf(PATH_MATCH) !== -1;
+      S.pv = null;
+      if (S.isTour) log("route " + path + " (" + how + ") - waiting for MCP ready");
+    } catch (e) {
+      log("onRoute error: " + e);
+    }
+  }
+
+  /* ---- the only things installed on every page ---- */
+  try {
+    /* Optimizely's own confirmation that the test page went active. */
+    window.optimizely = window.optimizely || [];
+    window.optimizely.push({
+      type: "addListener",
+      filter: { type: "lifecycle", name: "pageActivated" },
+      handler: function (event) {
+        try {
+          var page = event && event.data && event.data.page;
+          if (!page || page.apiName !== PAGE_API_NAME || !S.pending) return;
+          if (S.rejected) { S.rejected = false; log("late activation after an earlier NOT activated result"); }
+          confirmed(", pageActivated event");
+        } catch (e) { log("pageActivated listener error: " + e); }
+      }
+    });
+    window.addEventListener(READY_EVENT, function (e) { onReady(e && e.detail); });
+    window.addEventListener("popstate", function () { onRoute("popstate"); });
+    ["pushState", "replaceState"].forEach(function (m) {
+      var orig = window.history[m];
+      if (typeof orig !== "function" || orig.__mcprecoOptlyActivation) return;
+      var wrapped = function () {
+        var r = orig.apply(this, arguments);
+        try { onRoute(m); } catch (e) {}
+        return r;
+      };
+      wrapped.__mcprecoOptlyActivation = true;
+      window.history[m] = wrapped;
+    });
+  } catch (e) {
+    log("setup error: " + e);
+  }
+
+  onRoute("initial");
+  if (S.isTour) {
+    log("project JS build=" + BUILD);
+    /* MCP may have announced readiness before this code ran: pick up the
+       latest announcement for this path from the dataLayer copy. */
+    try {
+      var dl = window.dataLayer || [];
+      for (var i = dl.length - 1; i >= 0; i--) {
+        var o = dl[i];
+        if (o && o.event === READY_EVENT && o.croPath === S.path) {
+          log("MCP was ready before the activator ran (croPv=" + o.croPv + ")");
+          onReady({ croPath: o.croPath, croPv: o.croPv, croCount: o.croCount });
+          break;
+        }
+      }
+    } catch (e) { log("start-up scan error: " + e); }
+  }
+})();
+}}]}]}], "weightDistributions": [{"entityId": "5525793474871296", "endOfRange": 10000}], "name": "TDP | MCP Similar Tour Recommendations [Project JS for Tours]", "bucketingStrategy": null, "experimentMetadata": {"allocationPolicy": "manual", "layerId": "5172480824836096"}, "deployed": false}], "policy": "single_experiment", "viewIds": ["5325785964216320"], "weightDistributions": null, "decisionMetadata": null, "concluded": false}, {"changes": null, "id": "5490648478908416", "name": "Pricing Compliance v2", "commitId": "6563721781182464", "groupId": null, "holdback": 0, "activation": {}, "integrationSettings": {"google_analytics_4": {}}, "integrationStringVersion": 2, "experiments": [{"audienceIds": ["and", "5698456814092288"], "audienceName": "GB only", "changes": null, "id": "5519946061447168", "integrationSettings": null, "variations": [{"id": "6655927732928512", "name": "Original", "actions": [{"viewId": "6698847691341824", "changes": []}]}, {"id": "5879378721112064", "name": "Variation #1", "actions": [{"viewId": "6698847691341824", "changes": [{"id": "f83697422219483eb0eefb2941a5594b", "type": "custom_code", "value": function($){(function() {
+
+    var pollElementsBySelector = function (selector, func, foundIndex, suggestedTimeOut) { var elapsed = 0; var interval = 100; var timeOut = suggestedTimeOut || 5000; if (!foundIndex && foundIndex != 0) { foundIndex = 'all'; } var foundElems = document.querySelectorAll(selector); if (foundElems.length) { if (foundIndex === 'all') { func(foundElems); } else { func(foundElems[foundIndex]); } } else { (function () { var elemInterval = window.setInterval(function () { elapsed += interval; foundElems = document.querySelectorAll(selector); if (foundElems.length || elapsed >= timeOut) { window.clearInterval(elemInterval); if (foundElems.length) { if (foundIndex === 'all') { func(foundElems); } else { func(foundElems[foundIndex]); } } else { console.log('Could not find selector: "' + selector + '", timeout after ' + (timeOut / 1000) + ' second/s'); } } }, interval); })(); } };
+
+
+    var mutationObserver = function(ele, executable, configSettings) {
+        const targetNode = document.querySelector(ele);
+        const config = configSettings;
+
+        const callback = function(mutationsList, observer) {
+            executable();
+        };
+
+        const observer = new MutationObserver(callback);
+        observer.observe(targetNode, config);
+    };
+
+    var getComplianceText = function(className) {
+        return '<div class="dmpg-price-comp' + (className ? ' ' + className : '') + '"><svg width="14" height="14" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" style="flex-shrink: 0;"><path d="m277.332031 384c0 11.78125-9.550781 21.332031-21.332031 21.332031s-21.332031-9.550781-21.332031-21.332031 9.550781-21.332031 21.332031-21.332031 21.332031 9.550781 21.332031 21.332031zm0 0" fill="#6B6B6B"></path><path d="m256 512c-141.164062 0-256-114.835938-256-256s114.835938-256 256-256 256 114.835938 256 256-114.835938 256-256 256zm0-480c-123.519531 0-224 100.480469-224 224s100.480469 224 224 224 224-100.480469 224-224-100.480469-224-224-224zm0 0" fill="#6B6B6B"></path><path d="m256 314.667969c-8.832031 0-16-7.167969-16-16v-21.546875c0-20.308594 12.886719-38.507813 32.042969-45.269532 25.492187-8.980468 42.625-36.140624 42.625-55.851562 0-32.363281-26.304688-58.667969-58.667969-58.667969s-58.667969 26.304688-58.667969 58.667969c0 8.832031-7.167969 16-16 16s-16-7.167969-16-16c0-49.984375 40.664063-90.667969 90.667969-90.667969s90.667969 40.683594 90.667969 90.667969c0 35.585938-28.097657 73.367188-63.980469 86.039062-6.398438 2.238282-10.6875 8.316407-10.6875 15.101563v21.527344c0 8.832031-7.167969 16-16 16zm0 0" fill="#6B6B6B"></path></svg>Based on twin share on limited departures</div>';
+    };
+
+    var insertComplianceText = function() {
+        document.querySelectorAll('[data-testid="trip-card"]').forEach(tripCard => {
+            //remove any existing text first so it can be re-positioned on layout change
+            var existing = tripCard.querySelector('.dmpg-price-comp');
+            if (existing) {
+                existing.remove();
+            }
+
+            if (tripCard.classList.contains('trip-list')) {
+                //list layout
+                var listTarget = tripCard.querySelector('.price-section__left');
+                if (listTarget) {
+                    listTarget.insertAdjacentHTML('afterend', getComplianceText('listcards'));
+                }
+            } else {
+                //grid layout
+                var gridTarget = tripCard.querySelector('.price-section');
+                if (gridTarget) {
+                    gridTarget.insertAdjacentHTML('afterend', getComplianceText('tilecards'));
+                }
+            }
+        })
+    }
+
+    var dmpgFuncFired = 0;
+    var dmpgInterval = setInterval(dmpgPollFunc, 200);
+
+    function dmpgPollFunc() {
+        dmpgFuncFired += 1;
+
+        if (dmpgFuncFired >= 20) {
+            clearInterval(dmpgInterval);
+        }
+
+        if (dataLayer.find(o => o.event === "PO1-env")) {
+            clearInterval(dmpgInterval);
+
+            insertComplianceText();
+
+            window.dmpg = window.dmpg || {};
+            if (!window.dmpg.quickViewObserver) {
+                var quickViewDebounce;
+                window.dmpg.quickViewObserver = new MutationObserver(function() {
+                    clearTimeout(quickViewDebounce);
+                    quickViewDebounce = setTimeout(function() {
+                        var modal = document.querySelector('.popup-modal__wrapper.image-section__quick-view__modal');
+                        if (!modal) return;
+                        var priceSection = modal.querySelector('.price-section');
+                        if (priceSection && !modal.querySelector('.dmpg-price-comp')) {
+                            priceSection.insertAdjacentHTML('afterend', getComplianceText('quick-view-price'));
+                        }
+                    }, 100);
+                });
+                window.dmpg.quickViewObserver.observe(document.body, {childList: true, subtree: true});
+            }
+
+            if (!window.dmpg.bookingModalObserver) {
+                window.dmpg.bookingModalObserver = new MutationObserver(function() {
+                    var modal = document.querySelector('[data-testid="content-WITH_MAP_AND_MONTH_SELECTOR"]');
+                    if (!modal) return;
+                    var radioGroup = modal.querySelector('[data-cc="radio-group-form"]');
+                    if (radioGroup && !modal.querySelector('.dmpg-price-comp')) {
+                        radioGroup.insertAdjacentHTML('afterend', getComplianceText());
+                    }
+                });
+                window.dmpg.bookingModalObserver.observe(document.body, {childList: true, subtree: true});
+            }
+
+            initPriceCompPopup();
+            overrideDLPush();
+            window.addEventListener('dmpg:gtm-event', dataLayerChangeListener);
+
+            mutationObserver('.search-container__results .search-results', function() {
+                console.log('GRID CHANGES');
+                insertComplianceText();
+            }, {attributes: true});
+
+        }
+    }
+
+    function dataLayerChangeListener(e) {
+        const eventName = e.detail.event;
+    
+        if (eventName === 'module.load.auto.dataLayer.load') {
+  
+          waitFor(() => {return Array.from(document.querySelectorAll('.search-results [data-testid="trip-card"]')).some(card => card.querySelector('.price-section') && !card.querySelector('.dmpg-price-comp'))}, 5000)
+            .then(() => {       
+                console.log('inserting compliance text after dataLayer change');      
+                insertComplianceText();
+            }).catch((e) => {
+              //console.log(ticketID + ' basket cta not found', e);
+            });            
+  
+        }
+      }
+  
+      function overrideDLPush() {
+        window.dmpg = window.dmpg || {};
+        window.dmpg.overrides = window.dmpg.overrides || {};
+      
+        if (!window.dmpg.overrides.dataLayerPush) {
+          window.dmpg.overrides.dataLayerPush = true;
+          window.dataLayer.push = (function(fn) {
+            return function() {
+              var args = [].slice.call(arguments);
+              var eventObject = args[0];
+      
+              if (eventObject && !(eventObject.event && eventObject.event.includes('dmpg:'))) {
+                window.dispatchEvent(new CustomEvent('dmpg:gtm-event', {
+                  detail: eventObject
+                }));
+              }
+      
+              return fn.apply(this, args);
+            };
+          })(window.dataLayer.push);
+        }
+      }
+      
+      function waitFor(condition, timeout) {
+        const stopTime = typeof timeout === "number" ? timeout : 7000;
+        let stop = false;
+
+        window.setTimeout(function () {
+          stop = true;
+        }, stopTime);
+
+        // eslint-disable-next-line no-undef
+        return new Promise(function (resolve, reject) {
+          (function _innerWaitFor() {
+          const value = condition();
+
+          if (stop) {
+            reject();
+          } else if (value) {
+            resolve(value);
+          } else {
+            window.setTimeout(_innerWaitFor, 50);
+          }
+          })();
+        });
+      }
+
+    function initPriceCompPopup() {
+        if (document.getElementById('dmpg-comp-popup')) return;
+
+        var styleEl = document.createElement('style');
+        styleEl.textContent = '#dmpg-comp-popup{display:none;position:fixed;z-index:99999;background:#fff;border-radius:12px;padding:16px 20px;width:280px;font-size:14px;line-height:1.5;color:#1a1a1a;box-shadow:0 4px 16px rgba(0,0,0,.1); border: 1px solid #bfbfbf; border-radius: 0;}#dmpg-comp-popup p{margin:0}#dmpg-comp-popup strong{font-weight:700}.dmpg-price-comp{cursor:pointer;color:#4A4B4D}';
+        document.head.appendChild(styleEl);
+
+        var popup = document.createElement('div');
+        popup.id = 'dmpg-comp-popup';
+        popup.innerHTML = '<p>Prices are based on twin-share rooms.</p><p><strong>Prefer your own room?</strong><br>A solo supplement may apply on single occupancy bookings.<br>You will be able to choose this option during checkout.</p>';
+        document.body.appendChild(popup);
+
+        var hideTimer = null;
+
+        var showPopup = function(target) {
+            clearTimeout(hideTimer);
+            popup.style.display = 'block';
+            var rect = target.getBoundingClientRect();
+            var top = rect.top - popup.offsetHeight - 8;
+            if (top < 8) top = rect.bottom + 8;
+            var left = rect.left;
+            if (left + popup.offsetWidth > window.innerWidth - 8) left = window.innerWidth - popup.offsetWidth - 8;
+            if (left < 8) left = 8;
+            popup.style.top = top + 'px';
+            popup.style.left = left + 'px';
+        };
+
+        var hidePopup = function() { popup.style.display = 'none'; };
+        var scheduleHide = function() { hideTimer = setTimeout(hidePopup, 200); };
+
+        if (window.matchMedia('(pointer: fine)').matches) {
+            document.addEventListener('mouseover', function(e) {
+                var comp = e.target.closest && e.target.closest('.dmpg-price-comp');
+                if (comp) showPopup(comp);
+            });
+            document.addEventListener('mouseout', function(e) {
+                var comp = e.target.closest && e.target.closest('.dmpg-price-comp');
+                if (comp) {
+                    var to = e.relatedTarget;
+                    if (!(to && to.closest && (to.closest('.dmpg-price-comp') || to.closest('#dmpg-comp-popup')))) scheduleHide();
+                }
+            });
+            popup.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+            popup.addEventListener('mouseout', function(e) {
+                var to = e.relatedTarget;
+                if (!(to && to.closest && to.closest('.dmpg-price-comp'))) scheduleHide();
+            });
+            document.addEventListener('click', function(e) {
+                if (!(e.target.closest && (e.target.closest('#dmpg-comp-popup') || e.target.closest('.dmpg-price-comp')))) hidePopup();
+            });
+        } else {
+            var touchMoved = false;
+            document.addEventListener('touchstart', function() { touchMoved = false; }, { passive: true });
+            document.addEventListener('touchmove', function() { touchMoved = true; hidePopup(); }, { passive: true });
+            document.addEventListener('touchend', function(e) {
+                if (touchMoved) return;
+                var comp = e.target.closest && e.target.closest('.dmpg-price-comp');
+                if (comp) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    popup.style.display === 'block' ? hidePopup() : showPopup(comp);
+                } else if (!(e.target.closest && e.target.closest('#dmpg-comp-popup'))) {
+                    hidePopup();
+                }
+            }, true);
+        }
+    }
+
+})();
+}, "dependencies": []}, {"id": "542753dd09be4e61a6b3743476abaf64", "type": "append", "selector": "head", "value": "<style>.dmpg-price-comp {\n  color: #707070;\n  text-align: left;\n  font-family: \"effra\",sans-serif;\n  font-size: var(--xs, 12px);\n  font-style: normal;\n  font-weight: var(--normal, 400);\n  line-height: 137.5%; /* 16.5px */\n  letter-spacing: var(--tracking-normal, 0);\n  display: flex;\n  align-items: center;\n  margin-bottom: 8px;\n  padding: 0 16px 8px;\n  gap: 4px;\n}\n\n.dmpg-price-comp.listcards {\n  max-width: 150px;\n}\n\n.dmpg-price-comp.tilecards {\n  padding: 0 16px 8px;\n  gap: 4px;\n}\n\n.quick-view__content .price-section {\n    padding: 1rem 0 0;\n}</style>", "dependencies": []}]}, {"viewId": "6698038912090112", "changes": [{"id": "f6a4bfa0701e440caccb6b83fa6b3c33", "type": "custom_code", "value": function($){(function() {
+
+    var pollElementsBySelector = function (selector, func, foundIndex, suggestedTimeOut) { var elapsed = 0; var interval = 100; var timeOut = suggestedTimeOut || 5000; if (!foundIndex && foundIndex != 0) { foundIndex = 'all'; } var foundElems = document.querySelectorAll(selector); if (foundElems.length) { if (foundIndex === 'all') { func(foundElems); } else { func(foundElems[foundIndex]); } } else { (function () { var elemInterval = window.setInterval(function () { elapsed += interval; foundElems = document.querySelectorAll(selector); if (foundElems.length || elapsed >= timeOut) { window.clearInterval(elemInterval); if (foundElems.length) { if (foundIndex === 'all') { func(foundElems); } else { func(foundElems[foundIndex]); } } else { console.log('Could not find selector: "' + selector + '", timeout after ' + (timeOut / 1000) + ' second/s'); } } }, interval); })(); } };
+
+
+    var mutationObserver = function(ele, executable, configSettings) {
+        const targetNode = document.querySelector(ele);
+        const config = configSettings;
+
+        const callback = function(mutationsList, observer) {
+            executable();
+        };
+
+        const observer = new MutationObserver(callback);
+        observer.observe(targetNode, config);
+    };
+
+    var getTooltipSvg = function() {
+        return '<svg width="14" height="14" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" style="flex-shrink: 0;"><path d="m277.332031 384c0 11.78125-9.550781 21.332031-21.332031 21.332031s-21.332031-9.550781-21.332031-21.332031 9.550781-21.332031 21.332031-21.332031 21.332031 9.550781 21.332031 21.332031zm0 0" fill="#6B6B6B"></path><path d="m256 512c-141.164062 0-256-114.835938-256-256s114.835938-256 256-256 256 114.835938 256 256-114.835938 256-256 256zm0-480c-123.519531 0-224 100.480469-224 224s100.480469 224 224 224 224-100.480469 224-224-100.480469-224-224-224zm0 0" fill="#6B6B6B"></path><path d="m256 314.667969c-8.832031 0-16-7.167969-16-16v-21.546875c0-20.308594 12.886719-38.507813 32.042969-45.269532 25.492187-8.980468 42.625-36.140624 42.625-55.851562 0-32.363281-26.304688-58.667969-58.667969-58.667969s-58.667969 26.304688-58.667969 58.667969c0 8.832031-7.167969 16-16 16s-16-7.167969-16-16c0-49.984375 40.664063-90.667969 90.667969-90.667969s90.667969 40.683594 90.667969 90.667969c0 35.585938-28.097657 73.367188-63.980469 86.039062-6.398438 2.238282-10.6875 8.316407-10.6875 15.101563v21.527344c0 8.832031-7.167969 16-16 16zm0 0" fill="#6B6B6B"></path></svg>';
+    };
+
+    var getComplianceText = function(className) {
+        return '<div class="dmpg-price-comp' + (className ? ' ' + className : '') + '">' + getTooltipSvg() + 'Based on twin share on limited departures</div>';
+    };
+
+    var getComplianceTextShort = function(className) {
+        return '<div class="dmpg-price-comp' + (className ? ' ' + className : '') + '">' + getTooltipSvg() + 'Based on twin share</div>';
+    };
+
+    var dmpgFuncFired = 0;
+    var dmpgInterval = setInterval(dmpgPollFunc, 200);
+
+    function dmpgPollFunc() {
+        dmpgFuncFired += 1;
+
+        if (dmpgFuncFired >= 20) {
+            clearInterval(dmpgInterval);
+        }
+
+        if (dataLayer.find(o => o.event === "PO1-env")) {
+            clearInterval(dmpgInterval);
+
+            //header
+            pollElementsBySelector('[data-testid="trip-header-price"]', function() {
+                if (document.querySelector('[data-testid="trip-header-price"]') && !document.querySelector('[data-testid="trip-header-price"]').parentElement.querySelector('.dmpg-price-comp')) {
+                    document.querySelector('[data-testid="trip-header-price"]').insertAdjacentHTML('afterend', getComplianceText());
+                }
+            }, 0);
+
+            //d&p
+            pollElementsBySelector('.list-header__price', function() {
+                if (document.querySelector('.list-header__price') && !document.querySelector('.list-header__price').querySelector('.dmpg-price-comp')) {
+                    document.querySelector('.list-header__price').insertAdjacentHTML('beforeend', getComplianceTextShort());
+                }
+            }, 0);
+
+            //variation cards
+            pollElementsBySelector('.variation-card-price__price', function(elems) {
+                elems.forEach(function(el) {
+                    if (!(el.nextElementSibling && el.nextElementSibling.classList.contains('dmpg-price-comp'))) {
+                        el.insertAdjacentHTML('afterend', getComplianceTextShort('variation-card'));
+                    }
+                });
+            });
+
+            //sticky header
+            pollElementsBySelector('.sticky-footer__deal', function() {
+                if (document.querySelector('.sticky-footer__deal') && !document.querySelector('.sticky-footer__deal').parentElement.querySelector('.dmpg-price-comp')) {
+                    document.querySelector('.sticky-footer__deal').insertAdjacentHTML('afterend', getComplianceText('sticky'));
+                }
+            }, 0);
+
+            //fullscreen modal - watch for it being added to the body (singleton, survives SPA re-injection)
+            window.dmpg = window.dmpg || {};
+            if (!window.dmpg.modalObserver) {
+                var modalDebounce;
+                window.dmpg.modalObserver = new MutationObserver(function() {
+                    clearTimeout(modalDebounce);
+                    modalDebounce = setTimeout(function() {
+                        var varList = document.querySelector('.modal.fullscreen-modal .trip-variations-list') ||
+                                      document.querySelector('.modal.fullscreen-modal .trip-variations-card-layout');
+                        if (!varList) return;
+                        document.querySelectorAll('.modal.fullscreen-modal .variation-item__price-container').forEach(function(el) {
+                            if (!el.querySelector('.dmpg-price-comp')) {
+                                el.insertAdjacentHTML('beforeend', getComplianceTextShort('variation-modal'));
+                            }
+                        });
+                        if (!(varList.previousElementSibling && varList.previousElementSibling.classList.contains('dmpg-price-comp'))) {
+                            varList.insertAdjacentHTML('beforebegin', getComplianceText('variations-list'));
+                        }
+                    }, 100);
+                });
+                window.dmpg.modalObserver.observe(document.body, {childList: true, subtree: true});
+            }
+
+            if (!window.dmpg.bookingModalObserver) {
+                window.dmpg.bookingModalObserver = new MutationObserver(function() {
+                    var modal = document.querySelector('[data-testid="content-WITH_MAP_AND_MONTH_SELECTOR"]');
+                    if (!modal) return;
+                    var radioGroup = modal.querySelector('[data-cc="radio-group-form"]');
+                    if (radioGroup && !modal.querySelector('.dmpg-price-comp')) {
+                        radioGroup.insertAdjacentHTML('afterend', getComplianceText());
+                    }
+                });
+                window.dmpg.bookingModalObserver.observe(document.body, {childList: true, subtree: true});
+            }
+
+            initPriceCompPopup();
+        }
+    }
+
+    function initPriceCompPopup() {
+        if (document.getElementById('dmpg-comp-popup')) return;
+
+        var styleEl = document.createElement('style');
+        styleEl.textContent = '#dmpg-comp-popup{display:none;position:fixed;z-index:2147483647;background:#fff;border-radius:12px;padding:16px 20px;width:280px;font-size:14px;line-height:1.5;color:#1a1a1a;box-shadow:0 4px 16px rgba(0,0,0,.1);border: 1px solid #bfbfbf; border-radius: 0;}#dmpg-comp-popup p{margin:0}#dmpg-comp-popup strong{font-weight:700}.dmpg-price-comp{cursor:pointer;color:#4A4B4D;pointer-events:auto}';
+        document.head.appendChild(styleEl);
+
+        var popup = document.createElement('div');
+        popup.id = 'dmpg-comp-popup';
+        popup.innerHTML = '<p>Prices are based on twin-share rooms.</p><p><strong>Prefer your own room?</strong><br>A solo supplement may apply on single occupancy bookings.<br>You will be able to choose this option during checkout.</p>';
+        document.body.appendChild(popup);
+
+        var hideTimer = null;
+
+        var showPopup = function(target) {
+            clearTimeout(hideTimer);
+            popup.style.display = 'block';
+            var rect = target.getBoundingClientRect();
+            var top = rect.top - popup.offsetHeight - 8;
+            if (top < 8) top = rect.bottom + 8;
+            var left = rect.left;
+            if (left + popup.offsetWidth > window.innerWidth - 8) left = window.innerWidth - popup.offsetWidth - 8;
+            if (left < 8) left = 8;
+            popup.style.top = top + 'px';
+            popup.style.left = left + 'px';
+        };
+
+        var hidePopup = function() { popup.style.display = 'none'; };
+        var scheduleHide = function() { hideTimer = setTimeout(hidePopup, 200); };
+
+        if (window.matchMedia('(pointer: fine)').matches) {
+            document.addEventListener('mouseover', function(e) {
+                var comp = e.target.closest && e.target.closest('.dmpg-price-comp');
+                if (comp) showPopup(comp);
+            });
+            document.addEventListener('mouseout', function(e) {
+                var comp = e.target.closest && e.target.closest('.dmpg-price-comp');
+                if (comp) {
+                    var to = e.relatedTarget;
+                    if (!(to && to.closest && (to.closest('.dmpg-price-comp') || to.closest('#dmpg-comp-popup')))) scheduleHide();
+                }
+            });
+            popup.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+            popup.addEventListener('mouseout', function(e) {
+                var to = e.relatedTarget;
+                if (!(to && to.closest && to.closest('.dmpg-price-comp'))) scheduleHide();
+            });
+            document.addEventListener('click', function(e) {
+                if (!(e.target.closest && (e.target.closest('#dmpg-comp-popup') || e.target.closest('.dmpg-price-comp')))) hidePopup();
+            });
+        } else {
+            var touchMoved = false;
+            document.addEventListener('touchstart', function() { touchMoved = false; }, { passive: true });
+            document.addEventListener('touchmove', function() { touchMoved = true; hidePopup(); }, { passive: true });
+            document.addEventListener('touchend', function(e) {
+                if (touchMoved) return;
+                var comp = e.target.closest && e.target.closest('.dmpg-price-comp');
+                if (comp) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    popup.style.display === 'block' ? hidePopup() : showPopup(comp);
+                } else if (!(e.target.closest && e.target.closest('#dmpg-comp-popup'))) {
+                    hidePopup();
+                }
+            }, true);
+        }
+    }
+
+})();
+}, "dependencies": []}, {"id": "98c5dbea28d64c6f9e3c3459e235371b", "type": "append", "selector": "head", "value": "<style>.dmpg-price-comp {\n  color: #707070;\n  text-align: center;\n  font-family: \"effra\",sans-serif;\n  font-size: var(--xs, 12px);\n  font-style: normal;\n  font-weight: var(--normal, 400);\n  line-height: 137.5%; /* 16.5px */\n  letter-spacing: var(--tracking-normal, 0);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 4px;\n}\n\n.dmpg-price-comp.sticky, .dmpg-price-comp.variation-card {\n  justify-content: flex-start;\n}\n\n.dmpg-price-comp.variations-list {\n    margin: 0 auto;\n    width: fit-content;\n}\n\n@media (max-width: 768px) {\n    .sticky-header-experiment.sticky-footer, .sticky-header-footer-experiment.sticky-footer {\n        padding: 0 1rem;\n    }\n}</style>", "dependencies": []}]}, {"viewId": "5042595793993728", "changes": [{"id": "8435919b39964629a0828656a2f7f50f", "type": "custom_code", "value": function($){(function() {
+
+    var pollElementsBySelector = function (selector, func, foundIndex, suggestedTimeOut) { var elapsed = 0; var interval = 100; var timeOut = suggestedTimeOut || 5000; if (!foundIndex && foundIndex != 0) { foundIndex = 'all'; } var foundElems = document.querySelectorAll(selector); if (foundElems.length) { if (foundIndex === 'all') { func(foundElems); } else { func(foundElems[foundIndex]); } } else { (function () { var elemInterval = window.setInterval(function () { elapsed += interval; foundElems = document.querySelectorAll(selector); if (foundElems.length || elapsed >= timeOut) { window.clearInterval(elemInterval); if (foundElems.length) { if (foundIndex === 'all') { func(foundElems); } else { func(foundElems[foundIndex]); } } else { console.log('Could not find selector: "' + selector + '", timeout after ' + (timeOut / 1000) + ' second/s'); } } }, interval); })(); } };
+
+    var mutationObserver = function(ele, executable, configSettings) {
+        const targetNode = document.querySelector(ele);
+        const config = configSettings;
+
+        const callback = function(mutationsList, observer) {
+            executable(mutationsList);
+        };
+
+        const observer = new MutationObserver(callback);
+        observer.observe(targetNode, config);
+    };
+
+    var getTooltipSvg = function() {
+        return '<svg width="14" height="14" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" style="flex-shrink: 0;"><path d="m277.332031 384c0 11.78125-9.550781 21.332031-21.332031 21.332031s-21.332031-9.550781-21.332031-21.332031 9.550781-21.332031 21.332031-21.332031 21.332031 9.550781 21.332031 21.332031zm0 0" fill="#6B6B6B"></path><path d="m256 512c-141.164062 0-256-114.835938-256-256s114.835938-256 256-256 256 114.835938 256 256-114.835938 256-256 256zm0-480c-123.519531 0-224 100.480469-224 224s100.480469 224 224 224 224-100.480469 224-224-100.480469-224-224-224zm0 0" fill="#6B6B6B"></path><path d="m256 314.667969c-8.832031 0-16-7.167969-16-16v-21.546875c0-20.308594 12.886719-38.507813 32.042969-45.269532 25.492187-8.980468 42.625-36.140624 42.625-55.851562 0-32.363281-26.304688-58.667969-58.667969-58.667969s-58.667969 26.304688-58.667969 58.667969c0 8.832031-7.167969 16-16 16s-16-7.167969-16-16c0-49.984375 40.664063-90.667969 90.667969-90.667969s90.667969 40.683594 90.667969 90.667969c0 35.585938-28.097657 73.367188-63.980469 86.039062-6.398438 2.238282-10.6875 8.316407-10.6875 15.101563v21.527344c0 8.832031-7.167969 16-16 16zm0 0" fill="#6B6B6B"></path></svg>';
+    };
+
+    var getComplianceText = function(className) {
+        return '<div class="dmpg-price-comp' + (className ? ' ' + className : '') + '">' + getTooltipSvg() + 'Prices based on twin share room</div>';
+    };
+
+    var getComplianceTextShort = function(className) {
+        return '<div class="dmpg-price-comp' + (className ? ' ' + className : '') + '">' + getTooltipSvg() + 'Based on twin share</div>';
+    };
+
+    var dmpgFuncFired = 0;
+    var dmpgInterval = setInterval(dmpgPollFunc, 200);
+
+    function dmpgPollFunc() {
+        dmpgFuncFired += 1;
+
+        if (dmpgFuncFired >= 20) {
+            clearInterval(dmpgInterval);
+        }
+
+        if (dataLayer.find(o => o.event === "PO1-env")) {
+            clearInterval(dmpgInterval);
+
+            //header
+            if (document.querySelector('[data-testid="trip-header-price"]') && !document.querySelector('[data-testid="trip-header-price"]').parentElement.querySelector('.dmpg-price-comp')) {
+              document.querySelector('[data-testid="trip-header-price"]').insertAdjacentHTML('afterend', getComplianceTextShort ());
+            }
+
+            //sticky header
+            pollElementsBySelector('.sticky-footer__deal', function() {
+                if (document.querySelector('.sticky-footer__deal') && !document.querySelector('.sticky-footer__deal').parentElement.querySelector('.dmpg-price-comp')) {
+                    document.querySelector('.sticky-footer__deal').insertAdjacentHTML('afterend', getComplianceTextShort());
+                }
+            }, 0);
+
+            //mobile d&p title at top of departure view
+            pollElementsBySelector('.calendar-view-switch', function() {
+                if (window.matchMedia('(max-width: 767px)').matches && document.querySelector('.calendar-view-switch') && !document.querySelector('.calendar-view-switch').parentElement.querySelector('.dmpg-price-comp')) {
+                    document.querySelector('.calendar-view-switch').insertAdjacentHTML('afterend', getComplianceText('mobile-header'));
+                }
+            }, 0);
+
+            //d&p
+            pollElementsBySelector('.list-header__price', function() {
+                if (document.querySelector('.list-header__price') && !document.querySelector('.list-header__price').querySelector('.dmpg-price-comp')) {
+                    document.querySelector('.list-header__price').insertAdjacentHTML('beforeend', getComplianceTextShort());
+                }
+            }, 0);
+
+            //calendar hover
+            pollElementsBySelector('.calendar-tile__price', function() {
+                if (document.querySelector('.calendar-tile__price') && !document.querySelector('.calendar-tile__price').querySelector('.dmpg-price-comp')) {
+                    document.querySelector('.calendar-tile__price').insertAdjacentHTML('afterend', getComplianceTextShort());
+                }
+            }, 0);
+            
+            mutationObserver('.content__section', function(mutationsList) {
+              //only act when an added node is, or contains, a .calendar-tile__price
+              var calendarPriceAdded = mutationsList.some(function(mutation) {
+                return Array.prototype.some.call(mutation.addedNodes, function(node) {
+                  return node.nodeType === 1 && (node.matches('.calendar-tile__price') || node.querySelector('.calendar-tile__price'));
+                });
+              });
+
+              //calendar hover
+              console.log('calendar list swapper');
+              if (calendarPriceAdded && document.querySelector('.calendar-tile__price') && !document.querySelector('.calendar-tile__price').querySelector('.dmpg-price-comp')) {
+                document.querySelector('.calendar-tile__price').insertAdjacentHTML('afterend', getComplianceTextShort());
+              }
+
+              //only act when an added node is, or contains, a .list-header__price (e.g. switching from calendar view back to list view)
+              var listPriceAdded = mutationsList.some(function(mutation) {
+                return Array.prototype.some.call(mutation.addedNodes, function(node) {
+                  return node.nodeType === 1 && (node.matches('.list-header__price') || node.querySelector('.list-header__price'));
+                });
+              });
+
+              //d&p
+              if (listPriceAdded && document.querySelector('.list-header__price') && !document.querySelector('.list-header__price').querySelector('.dmpg-price-comp')) {
+                document.querySelector('.list-header__price').insertAdjacentHTML('beforeend', getComplianceTextShort());
+              }
+            }, {childList: true, subtree: true});
+
+            //fullscreen modal - watch for it being added to the body (singleton, survives SPA re-injection)
+            window.dmpg = window.dmpg || {};
+            if (!window.dmpg.modalObserver) {
+                window.dmpg.modalObserver = new MutationObserver(function() {
+                    if (document.querySelector('.modal.fullscreen-modal')) {
+                        document.querySelectorAll('.modal .variation-item__price-container').forEach(function(el) {
+                            if (!el.querySelector('.dmpg-price-comp')) {
+                                el.insertAdjacentHTML('beforeend', getComplianceTextShort('variation-modal'));
+                            }
+                        });
+                    }
+                });
+                window.dmpg.modalObserver.observe(document.body, {childList: true, subtree: true});
+            }
+
+        }
+    }
+
+})();
+}, "dependencies": []}, {"id": "2b6b1dad29384854a259c12596c37278", "type": "append", "selector": "head", "value": "<style>.dmpg-price-comp {\n  color: #707070;\n  text-align: center;\n  font-family: \"effra\",sans-serif;\n  font-size: var(--xs, 12px);\n  font-style: normal;\n  font-weight: var(--normal, 400);\n  line-height: 137.5%; /* 16.5px */\n  letter-spacing: var(--tracking-normal, 0);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 4px;\n}\n\n@media screen and (max-width: 767px) {\n  .dmpg-price-comp.mobile-header {\n    margin-top: 12px;\n  }\n}\n\n.calendar-tile:has([data-testid=\"icon-flag4\"]) .calendar-tile__details {\n    top: -2em;\n    bottom: -2em;\n}</style>", "dependencies": []}]}, {"viewId": "29847000968", "changes": [{"id": "d4bdc8d1200e49989b0e5f4fb3c04f94", "type": "custom_code", "value": function($){(function() {
+
+    var pollElementsBySelector = function (selector, func, foundIndex, suggestedTimeOut) { var elapsed = 0; var interval = 100; var timeOut = suggestedTimeOut || 5000; if (!foundIndex && foundIndex != 0) { foundIndex = 'all'; } var foundElems = document.querySelectorAll(selector); if (foundElems.length) { if (foundIndex === 'all') { func(foundElems); } else { func(foundElems[foundIndex]); } } else { (function () { var elemInterval = window.setInterval(function () { elapsed += interval; foundElems = document.querySelectorAll(selector); if (foundElems.length || elapsed >= timeOut) { window.clearInterval(elemInterval); if (foundElems.length) { if (foundIndex === 'all') { func(foundElems); } else { func(foundElems[foundIndex]); } } else { console.log('Could not find selector: "' + selector + '", timeout after ' + (timeOut / 1000) + ' second/s'); } } }, interval); })(); } };
+
+
+    var mutationObserver = function(ele, executable, configSettings) {
+        const targetNode = document.querySelector(ele);
+        const config = configSettings;
+
+        const callback = function(mutationsList, observer) {
+            executable();
+        };
+
+        const observer = new MutationObserver(callback);
+        observer.observe(targetNode, config);
+    };
+
+    var getTooltipSvg = function() {
+        return '<svg width="14" height="14" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" style="flex-shrink: 0;"><path d="m277.332031 384c0 11.78125-9.550781 21.332031-21.332031 21.332031s-21.332031-9.550781-21.332031-21.332031 9.550781-21.332031 21.332031-21.332031 21.332031 9.550781 21.332031 21.332031zm0 0" fill="#6B6B6B"></path><path d="m256 512c-141.164062 0-256-114.835938-256-256s114.835938-256 256-256 256 114.835938 256 256-114.835938 256-256 256zm0-480c-123.519531 0-224 100.480469-224 224s100.480469 224 224 224 224-100.480469 224-224-100.480469-224-224-224zm0 0" fill="#6B6B6B"></path><path d="m256 314.667969c-8.832031 0-16-7.167969-16-16v-21.546875c0-20.308594 12.886719-38.507813 32.042969-45.269532 25.492187-8.980468 42.625-36.140624 42.625-55.851562 0-32.363281-26.304688-58.667969-58.667969-58.667969s-58.667969 26.304688-58.667969 58.667969c0 8.832031-7.167969 16-16 16s-16-7.167969-16-16c0-49.984375 40.664063-90.667969 90.667969-90.667969s90.667969 40.683594 90.667969 90.667969c0 35.585938-28.097657 73.367188-63.980469 86.039062-6.398438 2.238282-10.6875 8.316407-10.6875 15.101563v21.527344c0 8.832031-7.167969 16-16 16zm0 0" fill="#6B6B6B"></path></svg>';
+    };
+
+    var getComplianceText = function(className) {
+        return '<div class="dmpg-price-comp' + (className ? ' ' + className : '') + '">' + getTooltipSvg() + 'Prices based on twin share room</div>';
+    };
+
+    var getComplianceTextShort = function(className) {
+        return '<div class="dmpg-price-comp' + (className ? ' ' + className : '') + '">' + getTooltipSvg() + 'Based on twin share</div>';
+    };
+
+    function insertComplianceText() {
+        pollElementsBySelector('.deals-header__mobile-buttons > a', function(elems) {
+            elems.forEach(function(el) {
+                if (!el.parentElement.querySelector('.dmpg-price-comp')) {
+                    el.insertAdjacentHTML('afterend', getComplianceText('desktop'));
+                }
+            });
+        });
+
+
+        pollElementsBySelector('.deals-header__view-trip .add-to-compare-button.deals-header__compare', function(elems) {
+            elems.forEach(function(el) {
+                if (!el.parentElement.querySelector('.dmpg-price-comp')) {
+                    el.insertAdjacentHTML('afterend', getComplianceText('dt'));
+                }
+            });
+        });
+    }
+
+    var dmpgFuncFired = 0;
+    var dmpgInterval = setInterval(dmpgPollFunc, 200);
+
+    function dmpgPollFunc() {
+        dmpgFuncFired += 1;
+
+        if (dmpgFuncFired >= 20) {
+            clearInterval(dmpgInterval);
+        }
+
+        if (dataLayer.find(o => o.event === "PO1-env")) {
+            clearInterval(dmpgInterval);
+
+            insertComplianceText();
+
+            window.dmpg = window.dmpg || {};
+            if (!window.dmpg.bookingModalObserver) {
+                window.dmpg.bookingModalObserver = new MutationObserver(function() {
+                    var modal = document.querySelector('[data-testid="content-WITH_MAP_AND_MONTH_SELECTOR"]');
+                    if (!modal) return;
+                    var radioGroup = modal.querySelector('[data-cc="radio-group-form"]');
+                    if (radioGroup && !modal.querySelector('.dmpg-price-comp')) {
+                        radioGroup.insertAdjacentHTML('afterend', getComplianceText());
+                    }
+                });
+                window.dmpg.bookingModalObserver.observe(document.body, {childList: true, subtree: true});
+            }
+
+            initPriceCompPopup();
+            overrideDLPush();
+            window.addEventListener('dmpg:gtm-event', dataLayerChangeListener);
+
+        }
+    }
+
+    function dataLayerChangeListener(e) {
+        const eventName = e.detail.event;
+        console.log('dmpg dataLayerChangeListener saw event:', eventName);
+
+        //if (eventName === 'module.load.auto.dataLayer.load') {
+
+          waitFor(() => {
+              var mobileBtns = document.querySelectorAll('.deals-header__mobile-buttons > a');
+              var compareBtns = document.querySelectorAll('.deals-header__view-trip .add-to-compare-button.deals-header__compare');
+              return [].some.call(mobileBtns, function(el) { return !el.parentElement.querySelector('.dmpg-price-comp'); }) ||
+                     [].some.call(compareBtns, function(el) { return !el.parentElement.querySelector('.dmpg-price-comp'); });
+          }, 5000)
+            .then(() => {       
+                console.log('inserting compliance text after dataLayer change');      
+                insertComplianceText();
+            }).catch((e) => {
+              //console.log(ticketID + ' basket cta not found', e);
+            });            
+  
+        //}
+      }
+  
+      function overrideDLPush() {
+        window.dmpg = window.dmpg || {};
+        window.dmpg.overrides = window.dmpg.overrides || {};
+      
+        if (!window.dmpg.overrides.dataLayerPush) {
+          window.dmpg.overrides.dataLayerPush = true;
+          window.dataLayer.push = (function(fn) {
+            return function() {
+              var args = [].slice.call(arguments);
+              var eventObject = args[0];
+      
+              if (eventObject && !(eventObject.event && eventObject.event.includes('dmpg:'))) {
+                window.dispatchEvent(new CustomEvent('dmpg:gtm-event', {
+                  detail: eventObject
+                }));
+              }
+      
+              return fn.apply(this, args);
+            };
+          })(window.dataLayer.push);
+        }
+      }
+      
+      function waitFor(condition, timeout) {
+        const stopTime = typeof timeout === "number" ? timeout : 7000;
+        let stop = false;
+  
+        window.setTimeout(function () {
+          stop = true;
+        }, stopTime);
+  
+        // eslint-disable-next-line no-undef
+        return new Promise(function (resolve, reject) {
+          (function _innerWaitFor() {
+          const value = condition();
+  
+          if (stop) {
+            reject();
+          } else if (value) {
+            resolve(value);
+          } else {
+            window.setTimeout(_innerWaitFor, 50);
+          }
+          })();
+        });
+      }
+
+    function initPriceCompPopup() {
+        if (document.getElementById('dmpg-comp-popup')) return;
+
+        var styleEl = document.createElement('style');
+        styleEl.textContent = '#dmpg-comp-popup{display:none;position:fixed;z-index:99999;background:#fff;border-radius:12px;padding:16px 20px;width:280px;font-size:14px;line-height:1.5;color:#1a1a1a;box-shadow:0 4px 16px rgba(0,0,0,.1);border: 1px solid #bfbfbf; border-radius: 0;}#dmpg-comp-popup p{margin:0}#dmpg-comp-popup strong{font-weight:700}.dmpg-price-comp{cursor:pointer;color:#4A4B4D;pointer-events:auto}';
+        document.head.appendChild(styleEl);
+
+        var popup = document.createElement('div');
+        popup.id = 'dmpg-comp-popup';
+        popup.innerHTML = '<p>Prices are based on twin-share rooms.</p><p><strong>Prefer your own room?</strong><br>A solo supplement may apply on single occupancy bookings.<br>You will be able to choose this option during checkout.</p>';
+        document.body.appendChild(popup);
+
+        var hideTimer = null;
+
+        var showPopup = function(target) {
+            clearTimeout(hideTimer);
+            popup.style.display = 'block';
+            var rect = target.getBoundingClientRect();
+            var top = rect.top - popup.offsetHeight - 8;
+            if (top < 8) top = rect.bottom + 8;
+            var left = rect.left;
+            if (left + popup.offsetWidth > window.innerWidth - 8) left = window.innerWidth - popup.offsetWidth - 8;
+            if (left < 8) left = 8;
+            popup.style.top = top + 'px';
+            popup.style.left = left + 'px';
+        };
+
+        var hidePopup = function() { popup.style.display = 'none'; };
+        var scheduleHide = function() { hideTimer = setTimeout(hidePopup, 200); };
+
+        if (window.matchMedia('(pointer: fine)').matches) {
+            document.addEventListener('mouseover', function(e) {
+                var comp = e.target.closest && e.target.closest('.dmpg-price-comp');
+                if (comp) showPopup(comp);
+            });
+            document.addEventListener('mouseout', function(e) {
+                var comp = e.target.closest && e.target.closest('.dmpg-price-comp');
+                if (comp) {
+                    var to = e.relatedTarget;
+                    if (!(to && to.closest && (to.closest('.dmpg-price-comp') || to.closest('#dmpg-comp-popup')))) scheduleHide();
+                }
+            });
+            popup.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+            popup.addEventListener('mouseout', function(e) {
+                var to = e.relatedTarget;
+                if (!(to && to.closest && to.closest('.dmpg-price-comp'))) scheduleHide();
+            });
+            document.addEventListener('click', function(e) {
+                if (!(e.target.closest && (e.target.closest('#dmpg-comp-popup') || e.target.closest('.dmpg-price-comp')))) hidePopup();
+            });
+        } else {
+            var touchMoved = false;
+            document.addEventListener('touchstart', function() { touchMoved = false; }, { passive: true });
+            document.addEventListener('touchmove', function() { touchMoved = true; hidePopup(); }, { passive: true });
+            document.addEventListener('touchend', function(e) {
+                if (touchMoved) return;
+                var comp = e.target.closest && e.target.closest('.dmpg-price-comp');
+                if (comp) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    popup.style.display === 'block' ? hidePopup() : showPopup(comp);
+                } else if (!(e.target.closest && e.target.closest('#dmpg-comp-popup'))) {
+                    hidePopup();
+                }
+            }, true);
+        }
+    }
+
+})();
+}, "dependencies": []}, {"id": "ab0c64d94c244f9d9995c3e5e9ff7f1a", "type": "append", "selector": "head", "value": "<style>.dmpg-price-comp {\n  color: #707070;\n  text-align: center;\n  font-family: \"effra\",sans-serif;\n  font-size: var(--xs, 12px);\n  font-style: normal;\n  font-weight: var(--normal, 400);\n  line-height: 137.5%; /* 16.5px */\n  letter-spacing: var(--tracking-normal, 0);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  margin-top: 8px;\n  padding: 0 16px 8px;\n  gap: 4px;\n}\n\n.dmpg-price-comp.desktop {\n  padding: 0;\n  gap: 0;\n}\n\n.dmpg-price-comp.dt {\n  margin-top: 12px;\n}</style>", "dependencies": []}]}, {"viewId": "6480070357811200", "changes": [{"id": "ed123c789d8d4b039a9dac5fa1f91294", "type": "custom_code", "value": function($){(function() {
+
+  var pollElementsBySelector = function (selector, func, foundIndex, suggestedTimeOut) { var elapsed = 0; var interval = 100; var timeOut = suggestedTimeOut || 5000; if (!foundIndex && foundIndex != 0) { foundIndex = 'all'; } var foundElems = document.querySelectorAll(selector); if (foundElems.length) { if (foundIndex === 'all') { func(foundElems); } else { func(foundElems[foundIndex]); } } else { (function () { var elemInterval = window.setInterval(function () { elapsed += interval; foundElems = document.querySelectorAll(selector); if (foundElems.length || elapsed >= timeOut) { window.clearInterval(elemInterval); if (foundElems.length) { if (foundIndex === 'all') { func(foundElems); } else { func(foundElems[foundIndex]); } } else { console.log('Could not find selector: "' + selector + '", timeout after ' + (timeOut / 1000) + ' second/s'); } } }, interval); })(); } };
+
+
+  var mutationObserver = function(ele, executable, configSettings) {
+    const targetNode = document.querySelector(ele);
+    const config = configSettings;
+
+    const callback = function(mutationsList, observer) {
+      executable();
+    };
+
+    const observer = new MutationObserver(callback);
+    observer.observe(targetNode, config);
+  };
+
+  var getComplianceText = function(className) {
+    return '<div class="dmpg-price-comp' + (className ? ' ' + className : '') + '"><svg width="14" height="14" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" style="flex-shrink: 0;"><path d="m277.332031 384c0 11.78125-9.550781 21.332031-21.332031 21.332031s-21.332031-9.550781-21.332031-21.332031 9.550781-21.332031 21.332031-21.332031 21.332031 9.550781 21.332031 21.332031zm0 0" fill="#6B6B6B"></path><path d="m256 512c-141.164062 0-256-114.835938-256-256s114.835938-256 256-256 256 114.835938 256 256-114.835938 256-256 256zm0-480c-123.519531 0-224 100.480469-224 224s100.480469 224 224 224 224-100.480469 224-224-100.480469-224-224-224zm0 0" fill="#6B6B6B"></path><path d="m256 314.667969c-8.832031 0-16-7.167969-16-16v-21.546875c0-20.308594 12.886719-38.507813 32.042969-45.269532 25.492187-8.980468 42.625-36.140624 42.625-55.851562 0-32.363281-26.304688-58.667969-58.667969-58.667969s-58.667969 26.304688-58.667969 58.667969c0 8.832031-7.167969 16-16 16s-16-7.167969-16-16c0-49.984375 40.664063-90.667969 90.667969-90.667969s90.667969 40.683594 90.667969 90.667969c0 35.585938-28.097657 73.367188-63.980469 86.039062-6.398438 2.238282-10.6875 8.316407-10.6875 15.101563v21.527344c0 8.832031-7.167969 16-16 16zm0 0" fill="#6B6B6B"></path></svg>Based on twin share on limited departures</div>';
+  };
+
+  var insertComplianceText = function() {
+    document.querySelectorAll('[data-testid="trip-card"]').forEach(tripCard => {
+      //remove any existing text first so it can be re-positioned on layout change
+      var existing = tripCard.querySelector('.dmpg-price-comp');
+      if (existing) {
+        existing.remove();
+      }
+
+      var gridTarget = tripCard.querySelector('.price-section');
+      if (gridTarget) {
+        gridTarget.insertAdjacentHTML('afterend', getComplianceText('tilecards'));
+      }
+    })
+  }
+
+  var dmpgFuncFired = 0;
+  var dmpgInterval = setInterval(dmpgPollFunc, 200);
+
+  function dmpgPollFunc() {
+    dmpgFuncFired += 1;
+
+    if (dmpgFuncFired >= 20) {
+      clearInterval(dmpgInterval);
+    }
+
+    if (dataLayer.find(o => o.event === "PO1-env")) {
+      clearInterval(dmpgInterval);
+
+        pollElementsBySelector('.component-wrapper__recentlyviewedtrips [data-testid="trip-card"] .price-section', function(elems) {
+        insertComplianceText();
+      });
+
+      pollElementsBySelector('.trip-cards-grid__container [data-testid="trip-card"] .price-section', function(elems) {
+        insertComplianceText();
+      });
+
+      pollElementsBySelector('.featured-cards-carousel .featured-card__price', function(elems) {
+        document.querySelectorAll('.featured-cards-carousel .featured-card__price').forEach(el => {
+          if (!el.parentElement.querySelector('.dmpg-price-comp')) {
+            el.insertAdjacentHTML('afterend', getComplianceText('carousel'));
+          }
+        });
+      });
+
+      window.dmpg = window.dmpg || {};
+      if (!window.dmpg.bookingModalObserver) {
+        window.dmpg.bookingModalObserver = new MutationObserver(function() {
+          var modal = document.querySelector('[data-testid="content-WITH_MAP_AND_MONTH_SELECTOR"]');
+          if (!modal) return;
+          var radioGroup = modal.querySelector('[data-cc="radio-group-form"]');
+          if (radioGroup && !modal.querySelector('.dmpg-price-comp')) {
+            radioGroup.insertAdjacentHTML('afterend', getComplianceText());
+          }
+        });
+        window.dmpg.bookingModalObserver.observe(document.body, {childList: true, subtree: true});
+      }
+
+      initPriceCompPopup();
+    }
+  }
+
+  function initPriceCompPopup() {
+    if (document.getElementById('dmpg-comp-popup')) return;
+
+    var styleEl = document.createElement('style');
+    styleEl.textContent = '#dmpg-comp-popup{display:none;position:fixed;z-index:99999;background:#fff;border-radius:12px;padding:16px 20px;width:280px;font-size:14px;line-height:1.5;color:#1a1a1a;box-shadow:0 4px 16px rgba(0,0,0,.1);border: 1px solid #bfbfbf; border-radius: 0;}#dmpg-comp-popup p{margin:0}#dmpg-comp-popup strong{font-weight:700}.dmpg-price-comp{cursor:pointer;color:#4A4B4D;pointer-events:auto}';
+    document.head.appendChild(styleEl);
+
+    var popup = document.createElement('div');
+    popup.id = 'dmpg-comp-popup';
+    popup.innerHTML = '<p>Prices are based on twin-share rooms.</p><p><strong>Prefer your own room?</strong><br>A solo supplement may apply on single occupancy bookings.<br>You will be able to choose this option during checkout.</p>';
+    document.body.appendChild(popup);
+
+    var hideTimer = null;
+
+    var showPopup = function(target) {
+      clearTimeout(hideTimer);
+      popup.style.display = 'block';
+      var rect = target.getBoundingClientRect();
+      var top = rect.top - popup.offsetHeight - 8;
+      if (top < 8) top = rect.bottom + 8;
+      var left = rect.left;
+      if (left + popup.offsetWidth > window.innerWidth - 8) left = window.innerWidth - popup.offsetWidth - 8;
+      if (left < 8) left = 8;
+      popup.style.top = top + 'px';
+      popup.style.left = left + 'px';
+    };
+
+    var hidePopup = function() { popup.style.display = 'none'; };
+    var scheduleHide = function() { hideTimer = setTimeout(hidePopup, 200); };
+
+    if (window.matchMedia('(pointer: fine)').matches) {
+      document.addEventListener('mouseover', function(e) {
+        var comp = e.target.closest && e.target.closest('.dmpg-price-comp');
+        if (comp) showPopup(comp);
+      });
+      document.addEventListener('mouseout', function(e) {
+        var comp = e.target.closest && e.target.closest('.dmpg-price-comp');
+        if (comp) {
+          var to = e.relatedTarget;
+          if (!(to && to.closest && (to.closest('.dmpg-price-comp') || to.closest('#dmpg-comp-popup')))) scheduleHide();
+        }
+      });
+      popup.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+      popup.addEventListener('mouseout', function(e) {
+        var to = e.relatedTarget;
+        if (!(to && to.closest && to.closest('.dmpg-price-comp'))) scheduleHide();
+      });
+      document.addEventListener('click', function(e) {
+        if (!(e.target.closest && (e.target.closest('#dmpg-comp-popup') || e.target.closest('.dmpg-price-comp')))) hidePopup();
+      });
+    } else {
+      var touchMoved = false;
+      document.addEventListener('touchstart', function() { touchMoved = false; }, { passive: true });
+      document.addEventListener('touchmove', function() { touchMoved = true; hidePopup(); }, { passive: true });
+      document.addEventListener('touchend', function(e) {
+        if (touchMoved) return;
+        var comp = e.target.closest && e.target.closest('.dmpg-price-comp');
+        if (comp) {
+          e.preventDefault();
+          e.stopPropagation();
+          popup.style.display === 'block' ? hidePopup() : showPopup(comp);
+        } else if (!(e.target.closest && e.target.closest('#dmpg-comp-popup'))) {
+          hidePopup();
+        }
+      }, true);
+    }
+  }
+
+})();
+}, "dependencies": []}, {"id": "5419796eb2804458883b37c7d62ff5f3", "type": "append", "selector": "head", "value": "<style>.dmpg-price-comp {\n    color: #707070;\n    text-align: center;\n    font-family: \"effra\",sans-serif;\n    font-size: var(--xs, 12px);\n    font-style: normal;\n    font-weight: var(--normal, 400);\n    line-height: 137.5%;\n    letter-spacing: var(--tracking-normal, 0);\n    display: flex;\n    align-items: center;\n    justify-content: flex-start;\n    flex-direction: row;\n    /* padding: 0 16px 8px; */\n    gap: 4px;\n}\n\n.dmpg-price-comp.tilecards {\n  padding: 0 16px 8px;\n  gap: 4px;\n}</style>", "dependencies": []}]}, {"viewId": "5878578785550336", "changes": [{"id": "f336e32cb81d4651b91c7d908e6dea21", "type": "custom_code", "value": function($){(function() {
+
+  var pollElementsBySelector = function (selector, func, foundIndex, suggestedTimeOut) { var elapsed = 0; var interval = 100; var timeOut = suggestedTimeOut || 5000; if (!foundIndex && foundIndex != 0) { foundIndex = 'all'; } var foundElems = document.querySelectorAll(selector); if (foundElems.length) { if (foundIndex === 'all') { func(foundElems); } else { func(foundElems[foundIndex]); } } else { (function () { var elemInterval = window.setInterval(function () { elapsed += interval; foundElems = document.querySelectorAll(selector); if (foundElems.length || elapsed >= timeOut) { window.clearInterval(elemInterval); if (foundElems.length) { if (foundIndex === 'all') { func(foundElems); } else { func(foundElems[foundIndex]); } } else { console.log('Could not find selector: "' + selector + '", timeout after ' + (timeOut / 1000) + ' second/s'); } } }, interval); })(); } };
+
+
+  var mutationObserver = function(ele, executable, configSettings) {
+    const targetNode = document.querySelector(ele);
+    const config = configSettings;
+
+    const callback = function(mutationsList, observer) {
+      executable();
+    };
+
+    const observer = new MutationObserver(callback);
+    observer.observe(targetNode, config);
+  };
+
+  var getComplianceText = function(className) {
+    return '<div class="dmpg-price-comp' + (className ? ' ' + className : '') + '"><svg width="14" height="14" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" style="flex-shrink: 0;"><path d="m277.332031 384c0 11.78125-9.550781 21.332031-21.332031 21.332031s-21.332031-9.550781-21.332031-21.332031 9.550781-21.332031 21.332031-21.332031 21.332031 9.550781 21.332031 21.332031zm0 0" fill="#6B6B6B"></path><path d="m256 512c-141.164062 0-256-114.835938-256-256s114.835938-256 256-256 256 114.835938 256 256-114.835938 256-256 256zm0-480c-123.519531 0-224 100.480469-224 224s100.480469 224 224 224 224-100.480469 224-224-100.480469-224-224-224zm0 0" fill="#6B6B6B"></path><path d="m256 314.667969c-8.832031 0-16-7.167969-16-16v-21.546875c0-20.308594 12.886719-38.507813 32.042969-45.269532 25.492187-8.980468 42.625-36.140624 42.625-55.851562 0-32.363281-26.304688-58.667969-58.667969-58.667969s-58.667969 26.304688-58.667969 58.667969c0 8.832031-7.167969 16-16 16s-16-7.167969-16-16c0-49.984375 40.664063-90.667969 90.667969-90.667969s90.667969 40.683594 90.667969 90.667969c0 35.585938-28.097657 73.367188-63.980469 86.039062-6.398438 2.238282-10.6875 8.316407-10.6875 15.101563v21.527344c0 8.832031-7.167969 16-16 16zm0 0" fill="#6B6B6B"></path></svg>Based on twin share on limited departures</div>';
+  };
+
+  var insertComplianceText = function() {
+    document.querySelectorAll('.comparePage__table-cards [data-name="price"]').forEach(priceCell => {
+      //remove any existing text first so it can be re-positioned on layout change
+      var next = priceCell.nextElementSibling;
+      if (next && next.classList.contains('dmpg-price-comp')) {
+        next.remove();
+      }
+
+      priceCell.insertAdjacentHTML('beforeend', getComplianceText('compare'));
+    });
+
+    document.querySelectorAll('[data-testid="trip-variants-container-cards"] [data-testid="trip-card"]').forEach(function(card) {
+      if (!card.querySelector('.dmpg-price-comp')) {
+        card.insertAdjacentHTML('beforeend', getComplianceText('compare-card'));
+      }
+    });
+  }
+
+  var dmpgFuncFired = 0;
+  var dmpgInterval = setInterval(dmpgPollFunc, 200);
+
+  function dmpgPollFunc() {
+    dmpgFuncFired += 1;
+
+    if (dmpgFuncFired >= 20) {
+      clearInterval(dmpgInterval);
+    }
+
+    if (dataLayer.find(o => o.event === "PO1-env")) {
+      clearInterval(dmpgInterval);
+
+      pollElementsBySelector('.comparePage__table-cards [data-name="price"]', function(elems) {
+        insertComplianceText();
+      });
+
+      pollElementsBySelector('[data-testid="trip-variants-container-cards"] [data-testid="trip-card"]', function() {
+        insertComplianceText();
+      });
+
+      window.dmpg = window.dmpg || {};
+      if (!window.dmpg.modalObserver) {
+        var modalDebounce;
+        window.dmpg.modalObserver = new MutationObserver(function() {
+          clearTimeout(modalDebounce);
+          modalDebounce = setTimeout(function() {
+            if (!document.querySelector('[data-testid="trip-variants-container-cards"]')) return;
+            var varList = document.querySelector('.modal.fullscreen-modal .trip-variations-list') ||
+                          document.querySelector('.modal.fullscreen-modal .trip-variations-card-layout');
+            if (!varList) return;
+            document.querySelectorAll('.modal.fullscreen-modal .variation-item__price-container').forEach(function(el) {
+              if (!el.querySelector('.dmpg-price-comp')) {
+                el.insertAdjacentHTML('beforeend', getComplianceText('variation-modal'));
+              }
+            });
+            if (!(varList.previousElementSibling && varList.previousElementSibling.classList.contains('dmpg-price-comp'))) {
+              varList.insertAdjacentHTML('beforebegin', getComplianceText('variations-list'));
+            }
+          }, 100);
+        });
+        window.dmpg.modalObserver.observe(document.body, {childList: true, subtree: true});
+      }
+
+      if (!window.dmpg.bookingModalObserver) {
+        window.dmpg.bookingModalObserver = new MutationObserver(function() {
+          var modal = document.querySelector('[data-testid="content-WITH_MAP_AND_MONTH_SELECTOR"]');
+          if (!modal) return;
+          var radioGroup = modal.querySelector('[data-cc="radio-group-form"]');
+          if (radioGroup && !modal.querySelector('.dmpg-price-comp')) {
+            radioGroup.insertAdjacentHTML('afterend', getComplianceText());
+          }
+        });
+        window.dmpg.bookingModalObserver.observe(document.body, {childList: true, subtree: true});
+      }
+
+      initPriceCompPopup();
+    }
+  }
+
+  function initPriceCompPopup() {
+    if (document.getElementById('dmpg-comp-popup')) return;
+
+    var styleEl = document.createElement('style');
+    styleEl.textContent = '#dmpg-comp-popup{display:none;position:fixed;z-index:99999;background:#fff;border-radius:12px;padding:16px 20px;width:280px;font-size:14px;line-height:1.5;color:#1a1a1a;box-shadow:0 4px 16px rgba(0,0,0,.1);border: 1px solid #bfbfbf; border-radius: 0;}#dmpg-comp-popup p{margin:0}#dmpg-comp-popup strong{font-weight:700}.dmpg-price-comp{cursor:pointer;color:#4A4B4D;pointer-events:auto}';
+    document.head.appendChild(styleEl);
+
+    var popup = document.createElement('div');
+    popup.id = 'dmpg-comp-popup';
+    popup.innerHTML = '<p>Prices are based on twin-share rooms.</p><p><strong>Prefer your own room?</strong><br>A solo supplement may apply on single occupancy bookings.<br>You will be able to choose this option during checkout.</p>';
+    document.body.appendChild(popup);
+
+    var hideTimer = null;
+
+    var showPopup = function(target) {
+      clearTimeout(hideTimer);
+      popup.style.display = 'block';
+      var rect = target.getBoundingClientRect();
+      var top = rect.top - popup.offsetHeight - 8;
+      if (top < 8) top = rect.bottom + 8;
+      var left = rect.left;
+      if (left + popup.offsetWidth > window.innerWidth - 8) left = window.innerWidth - popup.offsetWidth - 8;
+      if (left < 8) left = 8;
+      popup.style.top = top + 'px';
+      popup.style.left = left + 'px';
+    };
+
+    var hidePopup = function() { popup.style.display = 'none'; };
+    var scheduleHide = function() { hideTimer = setTimeout(hidePopup, 200); };
+
+    if (window.matchMedia('(pointer: fine)').matches) {
+      document.addEventListener('mouseover', function(e) {
+        var comp = e.target.closest && e.target.closest('.dmpg-price-comp');
+        if (comp) showPopup(comp);
+      });
+      document.addEventListener('mouseout', function(e) {
+        var comp = e.target.closest && e.target.closest('.dmpg-price-comp');
+        if (comp) {
+          var to = e.relatedTarget;
+          if (!(to && to.closest && (to.closest('.dmpg-price-comp') || to.closest('#dmpg-comp-popup')))) scheduleHide();
+        }
+      });
+      popup.addEventListener('mouseover', function() { clearTimeout(hideTimer); });
+      popup.addEventListener('mouseout', function(e) {
+        var to = e.relatedTarget;
+        if (!(to && to.closest && to.closest('.dmpg-price-comp'))) scheduleHide();
+      });
+      document.addEventListener('click', function(e) {
+        if (!(e.target.closest && (e.target.closest('#dmpg-comp-popup') || e.target.closest('.dmpg-price-comp')))) hidePopup();
+      });
+    } else {
+      var touchMoved = false;
+      document.addEventListener('touchstart', function() { touchMoved = false; }, { passive: true });
+      document.addEventListener('touchmove', function() { touchMoved = true; hidePopup(); }, { passive: true });
+      document.addEventListener('touchend', function(e) {
+        if (touchMoved) return;
+        var comp = e.target.closest && e.target.closest('.dmpg-price-comp');
+        if (comp) {
+          e.preventDefault();
+          e.stopPropagation();
+          popup.style.display === 'block' ? hidePopup() : showPopup(comp);
+        } else if (!(e.target.closest && e.target.closest('#dmpg-comp-popup'))) {
+          hidePopup();
+        }
+      }, true);
+    }
+  }
+
+})();
+}, "dependencies": []}, {"id": "c52beeaea0984ecd9db7eb00bfdf78c2", "type": "append", "selector": "head", "value": "<style>.dmpg-price-comp {\n    color: #707070;\n    /* text-align: center; */\n    font-family: \"effra\",sans-serif;\n    font-size: var(--xs, 12px);\n    font-style: normal;\n    font-weight: var(--normal, 400);\n    line-height: 137.5%;\n    letter-spacing: var(--tracking-normal, 0);\n    display: flex;\n    align-items: center;\n    /* justify-content: flex-start; */\n    flex-direction: row;\n    /* margin-top: 8px; */\n    /* padding: 0 16px 8px; */\n    gap: 4px;\n}\n\n.dmpg-price-comp.compare-card {\n    padding: 0 16px 16px;\n}</style>", "dependencies": []}]}]}], "weightDistributions": [{"entityId": "5879378721112064", "endOfRange": 10000}], "name": "Pricing Compliance v2", "bucketingStrategy": null, "experimentMetadata": {"allocationPolicy": "manual", "layerId": "5490648478908416"}, "deployed": false}], "policy": "single_experiment", "viewIds": ["29847000968", "5042595793993728", "5878578785550336", "6480070357811200", "6698038912090112", "6698847691341824"], "weightDistributions": null, "decisionMetadata": null, "concluded": false}, {"changes": [], "id": "5913080819875840", "name": "TDP | Group Size Tag | Small Groups", "commitId": "5246730334109696", "groupId": null, "holdback": 0, "activation": {}, "integrationSettings": {"google_analytics_4": {}}, "integrationStringVersion": 2, "experiments": [{"audienceIds": null, "audienceName": "Everyone else", "changes": null, "id": "5124464292134912", "integrationSettings": null, "variations": [{"id": "5612917635153920", "name": "Original", "actions": []}, {"id": "5462491036123136", "name": "Variation #1", "actions": [{"viewId": "4563286616702976", "changes": [{"id": "ED20D787-265A-49FC-B596-960F4A44972C", "src": "/actions/b3e23d24bae9dbf92ab75deb0f8ab0b66dd1466bc0cf918fb1f0519f8c613b40.js", "dependencies": [], "type": "custom_code"}]}]}], "weightDistributions": [{"entityId": "5462491036123136", "endOfRange": 10000}], "name": "TDP | Group Size Tag | Small Groups", "bucketingStrategy": null, "experimentMetadata": {"allocationPolicy": "manual", "layerId": "5913080819875840"}, "deployed": false}], "policy": "single_experiment", "viewIds": ["4563286616702976"], "weightDistributions": null, "decisionMetadata": null, "concluded": false}, {"changes": null, "id": "6264650004692992", "name": "TDP | MCP Similar Tour Recommendations", "commitId": "6474386461425664", "groupId": null, "holdback": 0, "activation": {}, "integrationSettings": {"google_analytics_4": {}}, "integrationStringVersion": 2, "experiments": [{"audienceIds": ["and", "27113660032"], "audienceName": "User Type - \"Customer\"", "changes": null, "id": "6107091528581120", "integrationSettings": null, "variations": [{"id": "6439118220034048", "name": "Original", "actions": [{"viewId": "6506038424240128", "changes": []}]}, {"id": "6522901136932864", "name": "Variation #1 - MCP Reveal", "actions": [{"viewId": "6506038424240128", "changes": [{"id": "56190F2A-7D45-4C7D-8963-29E813EA4A48", "type": "widget", "dependencies": [], "name": "IV TDP | MCP Similar Tours - Treatment (reveal)", "isOpalManaged": false, "config": {"console_logs": "on"}, "widget_id": "4869235648757760"}]}]}], "weightDistributions": [{"entityId": "6439118220034048", "endOfRange": 5000}, {"entityId": "6522901136932864", "endOfRange": 10000}], "name": "TDP | MCP Similar Tour Recommendations", "bucketingStrategy": null, "experimentMetadata": {"allocationPolicy": "manual", "layerId": "6264650004692992"}, "deployed": false}], "policy": "single_experiment", "viewIds": ["6506038424240128"], "weightDistributions": null, "decisionMetadata": null, "concluded": false}, {"changes": null, "id": "6312907084922880", "name": "TDP | Variant Selector D&P [Hotfix]", "commitId": "5628525739245568", "groupId": null, "holdback": 0, "activation": {}, "integrationSettings": {"google_analytics_4": {}}, "integrationStringVersion": 2, "experiments": [{"audienceIds": null, "audienceName": "Everyone else", "changes": null, "id": "5068448900841472", "integrationSettings": null, "variations": [{"id": "4648432036478976", "name": "Original - No banner and Pop-up close", "actions": [{"viewId": "5928402406866944", "changes": []}]}, {"id": "6509896498151424", "name": "Variation #1 - Banner present and Pop-up close applied", "actions": [{"viewId": "5928402406866944", "changes": [{"id": "02E846DB-3C7F-46E0-B8E1-ECF16A4D21E7", "type": "custom_code", "value": function($){(function () {
+  var LOG_PREFIX = 'variant_selector_dp';
+  var STRICT_ENV = true;
+  var MAX_OBS_MS = 30000, ENV_POLL_MS = 200, FIND_POLL_MS = 150;
+  var BANNER_ID = 'vsdp-banner';
+
+  function log() {
+    if (window.console && console.log) {
+      var a = [LOG_PREFIX + ':'];
+      for (var i = 0; i < arguments.length; i++) a.push(arguments[i]);
+      console.log.apply(console, a);
+    }
+  }
+
+  function norm(s) {
+    return (s || '').replace(/\s+/g, ' ').replace(/^\s+|\s+$/g, '').toLowerCase();
+  }
+
+  function fireClick(n) {
+    if (!n) return;
+    try {
+      var e = document.createEvent('MouseEvents');
+      e.initEvent('click', true, true);
+      n.dispatchEvent(e);
+    } catch (_) {
+      try { n.click(); } catch (__){}
+    }
+  }
+
+  function cssApplied(wrap) {
+    try {
+      var el = wrap && wrap.querySelector('.vsdp-banner');
+      if (!el || !window.getComputedStyle) return false;
+      var cs = getComputedStyle(el);
+      return (cs.display && cs.display.indexOf('flex') > -1) &&
+             (cs.backgroundColor && cs.backgroundColor !== 'rgba(0, 0, 0, 0)');
+    } catch (e) { return false; }
+  }
+
+  function isVisible(el) {
+    return !!(el && el.offsetParent !== null && el.offsetWidth > 0 && el.offsetHeight > 0);
+  }
+
+  function envReady() {
+    if (!window.dataLayer || !dataLayer.length) return false;
+    for (var i = 0; i < dataLayer.length; i++) {
+      var it = dataLayer[i];
+      if (it && typeof it.event === 'string' && norm(it.event) === 'po1-env') return true;
+    }
+    return false;
+  }
+
+  function waitForPO1Env(cb) {
+    if (envReady()) { cb(true); return; }
+
+    try {
+      if (window.dataLayer && typeof dataLayer.push === 'function' && !dataLayer.__vsdp_hooked) {
+        var orig = dataLayer.push;
+        dataLayer.push = function () {
+          var r = orig.apply(dataLayer, arguments);
+          try {
+            var p = arguments && arguments[0];
+            if (p && typeof p.event === 'string' && norm(p.event) === 'po1-env') { cb(true); }
+          } catch (e) {}
+          return r;
+        };
+        dataLayer.__vsdp_hooked = true;
+      }
+    } catch (e) {}
+
+    var waited = 0;
+    var iv = setInterval(function () {
+      if (envReady()) { clearInterval(iv); cb(true); }
+      else {
+        waited += ENV_POLL_MS;
+        if (waited >= MAX_OBS_MS) { clearInterval(iv); cb(false); }
+      }
+    }, ENV_POLL_MS);
+  }
+
+  function findOriginalCta() {
+    var selectors = [
+      '.header-variants__button-wrapper button[data-testid="btn"]',
+      'button.header-variants__button',
+      '.header-variants__button-wrapper button'
+    ];
+    for (var s = 0; s < selectors.length; s++) {
+      var els = document.querySelectorAll(selectors[s]);
+      for (var i = 0; i < els.length; i++) { if (isVisible(els[i])) return els[i]; }
+    }
+    var t = document.querySelector('p[data-testid="genericText"]');
+    if (t) {
+      var btn = t.closest ? t.closest('button') : (function (n) {
+        while (n && n !== document) { if (n.tagName === 'BUTTON') return n; n = n.parentNode; }
+        return null;
+      })(t);
+      if (btn && isVisible(btn)) return btn;
+    }
+    return null;
+  }
+
+  function findDatesPricesContainer() {
+    var el = document.querySelector('#datesprices') ||
+             document.querySelector('[id*="dates"][id*="price"]') ||
+             document.querySelector('[data-anchor*="dates"]');
+    if (el) return el;
+
+    var nodes = document.querySelectorAll('h2,h3,nav a,a[href^="#"],button');
+    for (var i = 0; i < nodes.length; i++) {
+      var txt = norm(nodes[i].textContent);
+      if (txt === 'dates & prices' || txt.indexOf('dates & prices') > -1 || txt === 'dates and prices') {
+        var p = nodes[i];
+        while (p && p !== document.documentElement) {
+          if (p.tagName === 'SECTION' || (p.id && p.id.length) ||
+              ((p.className || '').indexOf('dates') > -1 || (p.className || '').indexOf('price') > -1)) return p;
+          p = p.parentNode;
+        }
+      }
+    }
+    return null;
+  }
+
+  function createBanner() {
+    if (document.getElementById(BANNER_ID)) return document.getElementById(BANNER_ID);
+
+    var wrap   = document.createElement('div');
+    wrap.className = 'vsdp-wrap';
+    wrap.id = BANNER_ID;
+
+    var banner = document.createElement('div');
+    banner.className = 'vsdp-banner';
+    banner.setAttribute('data-item-type','Optimizely Hotfix');
+    banner.setAttribute('data-item-name','variant-selector-dp');
+    banner.setAttribute('data-testid','dp-banner');
+
+    var head  = document.createElement('div');
+    head.className  = 'vsdp-head';
+    head.setAttribute('data-item-type','Optimizely Hotfix');
+    head.setAttribute('data-item-name','variant-selector-dp');
+    head.setAttribute('data-testid','dp-banner');
+
+    var icon  = document.createElement('div');
+    icon.className  = 'vsdp-icon';
+
+    var title = document.createElement('div');
+    title.className = 'vsdp-title';
+    title.appendChild(document.createTextNode('Prefer to travel at another time?'));
+
+    icon.innerHTML =
+      '<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">' +
+      '<rect x="0.625" y="0.625" width="18.75" height="18.75" rx="9.375" fill="white"/>' +
+      '<path d="M9.21875 11.5625V10H10.7812V11.5625H9.21875ZM6.09375 11.5625V10H7.65625V11.5625H6.09375ZM12.3438 11.5625V10H13.9062V11.5625H12.3438ZM9.21875 14.6875V13.125H10.7812V14.6875H9.21875ZM6.09375 14.6875V13.125H7.65625V14.6875H6.09375ZM12.3438 14.6875V13.125H13.9062V14.6875H12.3438ZM2.96875 17.8125V3.35938H5.41016V2.1875H6.67969V3.35938H13.3203V2.1875H14.5898V3.35938H17.0312V17.8125H2.96875ZM4.14062 16.6406H15.8594V8.24219H4.14062V16.6406ZM4.14062 7.07031H15.8594V4.53125H4.14062V7.07031ZM4.14062 7.07031V4.53125V7.07031Z" fill="#081E3F"/>' +
+      '</svg>';
+
+    head.appendChild(icon);
+    head.appendChild(title);
+
+    var sub  = document.createElement('div');
+    sub.className  = 'vsdp-sub';
+    sub.appendChild(document.createTextNode('Explore available dates and versions for this tour.'));
+
+    var link = document.createElement('a');
+    link.className = 'vsdp-link vsdp-viewvars';
+    link.href = 'javascript:void(0)';
+    link.setAttribute('role', 'button');
+    link.setAttribute('data-item-type','Optimizely Hotfix');
+    link.setAttribute('data-item-name','variant-selector-dp');
+    link.setAttribute('data-testid','dp-banner');
+    link.appendChild(document.createTextNode('See More'));
+
+    banner.appendChild(head);
+    banner.appendChild(sub);
+    banner.appendChild(link);
+    wrap.appendChild(banner);
+    return wrap;
+  }
+
+  function wireViewVariations(linkEl) {
+    if (!linkEl || linkEl.getAttribute('data-vsdp-wired') === '1') return;
+    linkEl.setAttribute('data-vsdp-wired', '1');
+
+    linkEl.addEventListener('mousedown', function (e) { if (e && e.preventDefault) e.preventDefault(); });
+
+    var isBusy = false;
+    linkEl.addEventListener('click', function (e) {
+      if (e && e.preventDefault) e.preventDefault();
+      if (e && e.stopPropagation) e.stopPropagation();
+      if (isBusy) return false;
+
+      isBusy = true;
+      try { linkEl.style.pointerEvents = 'none'; } catch (_) {}
+      try { linkEl.blur(); } catch (_) {}
+
+      var live = findOriginalCta();
+      if (live && document.contains(live)) fireClick(live);
+
+      setTimeout(function () {
+        isBusy = false;
+        try { linkEl.style.pointerEvents = ''; } catch (_) {}
+      }, 800);
+
+      return false;
+    });
+  }
+
+  function insertBanner() {
+    if (document.getElementById(BANNER_ID)) return document.getElementById(BANNER_ID);
+    var target = findDatesPricesContainer();
+    if (!target || !target.parentNode) return null;
+
+    var wrap = createBanner();
+    target.parentNode.insertBefore(wrap, target);
+    if (!cssApplied(wrap)) wrap.setAttribute('data-vsdp-css-missing', '1');
+    wireViewVariations(wrap.querySelector('.vsdp-viewvars'));
+    return wrap;
+  }
+
+  function startObservers() {
+    var banner = insertBanner();
+
+    var pollMs = 0;
+    var fast = setInterval(function () {
+      if (!banner) { banner = insertBanner(); }
+      var link = banner && banner.querySelector('.vsdp-viewvars');
+      if (link) wireViewVariations(link);
+      pollMs += FIND_POLL_MS;
+      if (pollMs >= 3000) clearInterval(fast);
+    }, FIND_POLL_MS);
+
+    try {
+      var mo = new MutationObserver(function () {
+        if (!document.getElementById(BANNER_ID)) { banner = insertBanner(); }
+        var link = banner && banner.querySelector('.vsdp-viewvars');
+        if (link) wireViewVariations(link);
+      });
+      mo.observe(document.body || document.documentElement, { childList: true, subtree: true });
+      setTimeout(function () { try { mo.disconnect(); } catch (e) {} }, MAX_OBS_MS);
+    } catch (e) {}
+
+    try {
+      (function (H) {
+        var p = H.pushState, r = H.replaceState;
+        function fire() { setTimeout(function () { insertBanner(); }, 0); }
+        H.pushState = function () { var out = p.apply(this, arguments); fire(); return out; };
+        H.replaceState = function () { var out = r.apply(this, arguments); fire(); return out; };
+        window.addEventListener('popstate', fire);
+      })(history);
+    } catch (e) {}
+  }
+
+  function start() {
+    waitForPO1Env(function (ok) {
+      if (!ok && STRICT_ENV) return;
+      startObservers();
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function onReady() {
+      document.removeEventListener('DOMContentLoaded', onReady);
+      start();
+    });
+  } else {
+    start();
+  }
+})();
+
+(function () {
+  var P = 'variant_selector_dp:', closing = false;
+
+  function log() {
+    try {
+      var a = [P];
+      for (var i = 0; i < arguments.length; i++) a.push(arguments[i]);
+      console.log.apply(console, a);
+    } catch (_) {}
+  }
+
+  function clickNoScroll(el) {
+    if (!el) return false;
+    var sx = window.pageXOffset || document.documentElement.scrollLeft || 0;
+    var sy = window.pageYOffset || document.documentElement.scrollTop || 0;
+
+    try { if (el.focus) el.focus(); } catch (_) {}
+    try { el.dispatchEvent(new PointerEvent('pointerdown', { bubbles: true, cancelable: true, view: window, button: 0 })); } catch (_) {}
+
+    try {
+      var opts = { bubbles: true, cancelable: true, view: window, button: 0 };
+      el.dispatchEvent(new MouseEvent('mousedown', opts));
+      el.dispatchEvent(new MouseEvent('mouseup', opts));
+      el.dispatchEvent(new MouseEvent('click', opts));
+    } catch (e) {
+      try { var ev = document.createEvent('MouseEvents'); ev.initEvent('click', true, true); el.dispatchEvent(ev); } catch (__){}
+    }
+
+    setTimeout(function () { try { window.scrollTo(sx, sy); } catch (_) {} }, 0);
+    return true;
+  }
+
+  function findCloseBtn() {
+    var b = document.querySelector('[data-testid="fullscreen-modal-header-close"]');
+    if (b) return b;
+    b = document.querySelector('.modal__close-button');
+    if (b) return b;
+    var dlg = document.querySelector('[data-testid="fullscreen-modal"],[role="dialog"][aria-modal="true"]');
+    if (dlg) {
+      b = dlg.querySelector('[data-testid*="close"], .modal__close-button');
+      if (b) return b;
+    }
+    return null;
+  }
+
+  function modalRoot() { return document.querySelector('[data-testid="fullscreen-modal"]'); }
+
+  function closeModal() {
+    if (closing) return;
+    if (!modalRoot()) return;
+    var btn = findCloseBtn();
+    if (!btn) return;
+    closing = true;
+    clickNoScroll(btn);
+    setTimeout(function () { closing = false; }, 800);
+  }
+
+  try {
+    var moOpen = new MutationObserver(function (muts) {
+      for (var i = 0; i < muts.length; i++) {
+        var nodes = muts[i].addedNodes || [];
+        for (var j = 0; j < nodes.length; j++) {
+          var n = nodes[j];
+          if (n && n.nodeType === 1) {
+            if ((n.getAttribute && n.getAttribute('data-testid') === 'fullscreen-modal') ||
+                (n.querySelector && n.querySelector('[data-testid="fullscreen-modal"]'))) {
+              closing = false;
+              return;
+            }
+          }
+        }
+      }
+    });
+    moOpen.observe(document.documentElement || document.body, { childList: true, subtree: true });
+  } catch (e) {}
+
+  try {
+    if (!window.dataLayer) window.dataLayer = [];
+    if (!window.dataLayer.__vs_dp_close_hooked__) {
+      var _push = window.dataLayer.push;
+      window.dataLayer.push = function () {
+        var r = _push.apply(window.dataLayer, arguments);
+        try {
+          var a = arguments[0] || {};
+          var e = a && (a.event || a['event_name'] || a['gtm.event']);
+          if (e === 'select_item') closeModal();
+        } catch (_) {}
+        return r;
+      };
+      window.dataLayer.__vs_dp_close_hooked__ = true;
+    }
+  } catch (e) {}
+
+  try {
+    if (typeof window.gtag === 'function' && !window.gtag.__vs_dp_close_hooked__) {
+      var _gtag = window.gtag;
+      window.gtag = function () {
+        try { if (arguments[0] === 'event' && arguments[1] === 'select_item') setTimeout(closeModal, 0); } catch (_) {}
+        return _gtag.apply(this, arguments);
+      };
+      window.gtag.__vs_dp_close_hooked__ = true;
+    }
+  } catch (e) {}
+
+  try {
+    var moActive = new MutationObserver(function (muts) {
+      if (!modalRoot()) return;
+      for (var i = 0; i < muts.length; i++) {
+        var t = muts[i].target;
+        if (!t || t.nodeType !== 1) continue;
+        var cn = ('' + t.className);
+        if (cn.indexOf('variation-card-header--active') > -1 ||
+            cn.indexOf('variation-item__wrapper--active') > -1) {
+          setTimeout(closeModal, 120);
+          return;
+        }
+      }
+    });
+    moActive.observe(document.documentElement || document.body, {
+      subtree: true,
+      childList: false,
+      attributes: true,
+      attributeFilter: ['class']
+    });
+    setTimeout(function () { try { moActive.disconnect(); } catch (_) {} }, 20000);
+  } catch (e) {}
+
+  try {
+    document.addEventListener('click', function (ev) {
+      var root = modalRoot();
+      if (!root) return;
+      var t = ev.target, hops = 0, hit = false;
+      while (t && t !== document && hops < 7) {
+        var cn = (t.className || '') + '';
+        if ((t.getAttribute && t.getAttribute('role') === 'radio') ||
+            cn.indexOf('variation-card') > -1 ||
+            cn.indexOf('variation-item__wrapper') > -1 ||
+            cn.indexOf('variation-item__radio') > -1 ||
+            cn.indexOf('variation-item') > -1) { hit = true; break; }
+        t = t.parentNode; hops++;
+      }
+      if (hit) setTimeout(closeModal, 150);
+    }, true);
+  } catch (e) {}
+})();
+}, "dependencies": []}, {"id": "4F568A57-1BFE-4236-A22B-59ABA2E04316", "type": "append", "selector": "head", "value": "<style>#vsdp-banner.vsdp-wrap {\n\tmargin: 0 0 16px 0;\n\twidth: 100%;\n\tgrid-column: 1/-1;\n}\n\n#vsdp-banner .vsdp-banner {\n\tdisplay: flex !important;\n\tflex-direction: column !important;\n\talign-items: center;\n\tjustify-content: center;\n\ttext-align: center;\n\tgap: 8px;\n\tpadding: 24px 16px;\n\tborder-radius: 6px;\n\tmargin: 1.5rem clamp(1.5rem, calc((100vw - 1380px)/2), 100vw) 0.5rem;\n\tbackground: #E4EBF7 !important;\n\tcolor: #081E3F;\n\tborder: none;\n}\n\n#vsdp-banner .vsdp-head {\n\tdisplay: flex;\n\talign-items: center;\n\tgap: 10px;\n\tflex-direction: column;\n}\n\n@media (min-width:379px) {\n\t#vsdp-banner .vsdp-head {\n\t\tflex-direction: row;\n\t}\n}\n\n#vsdp-banner .vsdp-icon {\n\twidth: 30px;\n\theight: 30px;\n\tborder-radius: 9999px;\n\tbackground: #fff;\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: center;\n\tbox-shadow: 0 1px 2px rgba(0, 0, 0, .06);\n}\n\n#vsdp-banner .vsdp-icon svg {\n\twidth: 18px !important;\n\theight: 18px !important;\n\tfill: #081E3F;\n\tflex-shrink: 0;\n}\n\n#vsdp-banner .vsdp-title {\n\tfont-weight: 700;\n\tfont-size: 16px;\n\tline-height: 1.25;\n}\n\n#vsdp-banner .vsdp-sub {\n\tdisplay: block;\n\twidth: 100%;\n\tfont-size: 14px;\n\tcolor: #081E3F;\n\topacity: .9;\n}\n\n#vsdp-banner .vsdp-link {\n\tdisplay: inline-block;\n\tfont-size: 14px;\n\tfont-weight: 700;\n\ttext-decoration: underline;\n\tcolor: #081E3F;\n\tcursor: pointer;\n\tmargin-top: 6px;\n}\n\n#vsdp-banner .vsdp-link:hover,\n#vsdp-banner .vsdp-link:focus {\n\ttext-decoration: none;\n}\n\n@media (max-width:640px) {\n\t#vsdp-banner .vsdp-title {\n\t\tfont-size: 14px;\n\t}\n\n\t#vsdp-banner .vsdp-sub {\n\t\tfont-size: 14px;\n\t}\n}\n\n.dates-and-pricing {\n\tpadding-top: 1rem;\n}</style>", "dependencies": []}]}, {"viewId": "5578560140738560", "changes": [{"id": "27CE3871-F074-4025-B5BA-8AE3EB66CB74", "type": "custom_code", "value": function($){/* === variant_selector_dp – auto-close modal on variation select (mobile + desktop, ES5-safe) === */
+(function(){
+  var P = 'variant_selector_dp:';
+  var closing = false;
+
+  function log(){ try{ var a=[P]; for(var i=0;i<arguments.length;i++) a.push(arguments[i]); console.log.apply(console,a);}catch(_){ } }
+
+  function clickNoScroll(el){
+    if(!el) return false;
+    var sx = window.pageXOffset || document.documentElement.scrollLeft || 0;
+    var sy = window.pageYOffset || document.documentElement.scrollTop  || 0;
+
+    try{ if(el.focus) el.focus(); }catch(_){}
+
+    // Pointer (best-effort)
+    try{ el.dispatchEvent(new PointerEvent('pointerdown',{bubbles:true,cancelable:true,view:window,button:0})); }catch(_){}
+
+    // Mouse sequence with legacy fallback
+    try{
+      var opts = {bubbles:true,cancelable:true,view:window,button:0};
+      el.dispatchEvent(new MouseEvent('mousedown',opts));
+      el.dispatchEvent(new MouseEvent('mouseup',opts));
+      el.dispatchEvent(new MouseEvent('click',opts));
+    }catch(e){
+      try{ var ev=document.createEvent('MouseEvents'); ev.initEvent('click',true,true); el.dispatchEvent(ev); }catch(__){}
+    }
+
+    setTimeout(function(){ try{ window.scrollTo(sx, sy); }catch(_){ } }, 0);
+    return true;
+  }
+
+  function findCloseBtn(){
+    // Primary (same on mobile/desktop)
+    var b = document.querySelector('[data-testid="fullscreen-modal-header-close"]');
+    if(b) return b;
+    // Fallbacks
+    b = document.querySelector('.modal__close-button');
+    if(b) return b;
+    var dlg = document.querySelector('[data-testid="fullscreen-modal"],[role="dialog"][aria-modal="true"]');
+    if(dlg){
+      b = dlg.querySelector('[data-testid*="close"], .modal__close-button');
+      if(b) return b;
+    }
+    return null;
+  }
+
+  function modalRoot(){
+    return document.querySelector('[data-testid="fullscreen-modal"]');
+  }
+
+  function closeModal(reason){
+    if(closing){ log('close skipped (already closing)', reason); return; }
+    var root = modalRoot();
+    if(!root){ log('no modal root to close', reason); return; }
+    var btn = findCloseBtn();
+    if(!btn){ log('close button not found', reason); return; }
+
+    closing = true;
+    log('closing modal', reason);
+    clickNoScroll(btn);
+    setTimeout(function(){ closing = false; }, 800);
+  }
+
+  // Observe modal appearance: reset guard so repeated opens still auto-close
+  try{
+    var moOpen = new MutationObserver(function(muts){
+      for(var i=0;i<muts.length;i++){
+        var nodes = muts[i].addedNodes || [];
+        for(var j=0;j<nodes.length;j++){
+          var n = nodes[j];
+          if(n && n.nodeType===1){
+            if((n.getAttribute && n.getAttribute('data-testid')==='fullscreen-modal') ||
+               (n.querySelector && n.querySelector('[data-testid="fullscreen-modal"]'))){
+              closing = false;
+              log('modal detected → ready to auto-close on selection');
+              return;
+            }
+          }
+        }
+      }
+    });
+    moOpen.observe(document.documentElement || document.body, {childList:true,subtree:true});
+  }catch(e){ log('open observer failed', e); }
+
+  /* ---- Analytics triggers (device-agnostic) ---- */
+  // Hook dataLayer.push for GA4 event('select_item')
+  try{
+    if(!window.dataLayer) window.dataLayer = [];
+    if(!window.dataLayer.__vs_dp_close_hooked__){
+      var _push = window.dataLayer.push;
+      window.dataLayer.push = function(){
+        var r = _push.apply(window.dataLayer, arguments);
+        try{
+          var a = arguments[0] || {};
+          var e  = a && (a.event || a['event_name'] || a['gtm.event']);
+          if(e === 'select_item'){ closeModal('dataLayer.select_item'); }
+        }catch(_){}
+        return r;
+      };
+      window.dataLayer.__vs_dp_close_hooked__ = true;
+      log('hooked dataLayer.push (select_item)');
+    }
+  }catch(e){ log('dataLayer hook error', e); }
+
+  // Hook gtag()
+  try{
+    if(typeof window.gtag==='function' && !window.gtag.__vs_dp_close_hooked__){
+      var _gtag = window.gtag;
+      window.gtag = function(){
+        try{
+          if(arguments[0]==='event' && arguments[1]==='select_item'){
+            setTimeout(function(){ closeModal('gtag.select_item'); }, 0);
+          }
+        }catch(_){}
+        return _gtag.apply(this, arguments);
+      };
+      window.gtag.__vs_dp_close_hooked__ = true;
+      log('hooked gtag() (select_item)');
+    }
+  }catch(e){ log('gtag hook error', e); }
+
+  /* ---- UI triggers (mobile card + desktop list) ---- */
+  // Mutation observer: watch for active selection toggles inside the modal
+  try{
+    var moActive = new MutationObserver(function(muts){
+      if(!modalRoot()) return;
+      for(var i=0;i<muts.length;i++){
+        var t = muts[i].target;
+        if(!t || t.nodeType!==1) continue;
+
+        // Mobile/card layout: header becomes active
+        if((''+t.className).indexOf('variation-card-header--active')>-1){
+          setTimeout(function(){ closeModal('mutation.card-active'); }, 120);
+          return;
+        }
+        // Desktop/list layout: wrapper gets --active
+        if((''+t.className).indexOf('variation-item__wrapper--active')>-1){
+          setTimeout(function(){ closeModal('mutation.list-active'); }, 120);
+          return;
+        }
+      }
+    });
+    moActive.observe(document.documentElement || document.body, {
+      subtree:true,
+      childList:false,
+      attributes:true,
+      attributeFilter:['class']
+    });
+    // Stop after a while to reduce overhead
+    setTimeout(function(){ try{ moActive.disconnect(); log('active observer stopped'); }catch(_){ } }, 20000);
+  }catch(e){ log('active observer error', e); }
+
+  // Click fallback inside modal on any variation row/radio (works both layouts)
+  try{
+    document.addEventListener('click', function(ev){
+      var root = modalRoot();
+      if(!root) return;
+      var t = ev.target, hops = 0, hit = false;
+      while(t && t!==document && hops<7){
+        var cn = (t.className||'')+'';
+        if( (t.getAttribute && t.getAttribute('role')==='radio') ||
+            cn.indexOf('variation-card')>-1 ||
+            cn.indexOf('variation-item__wrapper')>-1 ||
+            cn.indexOf('variation-item__radio')>-1 ||
+            cn.indexOf('variation-item')>-1 ){
+          hit = true; break;
+        }
+        t = t.parentNode; hops++;
+      }
+      if(hit){
+        log('variation clicked → schedule close (fallback)');
+        setTimeout(function(){ closeModal('click.fallback'); }, 150);
+      }
+    }, true);
+  }catch(e){ log('click fallback error', e); }
+
+})();
+}, "dependencies": []}]}]}], "weightDistributions": [{"entityId": "6509896498151424", "endOfRange": 10000}], "name": "TDP | Variant Selector D&P [Hotfix]", "bucketingStrategy": null, "experimentMetadata": {"allocationPolicy": "manual", "layerId": "6312907084922880"}, "deployed": false}], "policy": "single_experiment", "viewIds": ["5578560140738560", "5928402406866944"], "weightDistributions": null, "decisionMetadata": null, "concluded": false}], "groups": [], "audiences": [{"id": "27113660032", "name": "User Type - \"Customer\"", "conditions": ["and", ["or", ["or", {"match": null, "name": null, "type": "code", "value": "dmpgDl.user.type === 'customer'\n"}], ["or", {"match": null, "name": null, "type": "code", "value": "bookingServicesDataLayer.find(o => o.event === 'stage_changed').user.type === 'CD'"}]], ["or", ["not", ["or", {"match": "exists", "name": "agent", "type": "cookies", "value": ""}]]]]}, {"id": "5698456814092288", "name": "GB only", "conditions": ["and", ["or", ["or", {"match": null, "name": null, "type": "code", "value": "window.location.href.includes('/en-gb')"}]]]}], "listTargetingKeys": [], "visitorAttributes": [], "visitorIdLocator": null, "integrationSettings": [{"id": "google_analytics_4", "global_is_use_gtm": "on"}, {"id": "google_universal_analytics"}], "views": [{"id": "28395050678", "category": "other", "apiName": "25683290527_all_tours", "name": "All Tours", "staticConditions": ["and", ["or", {"match": "substring", "type": "url", "value": "/tours/"}]], "deactivationEnabled": false, "undoOnDeactivation": false, "tags": []}, {"id": "28778111313", "category": "other", "apiName": "25683290527_tt_be_step_2__passenger_details", "name": "IV BE Step 2 - Extras", "staticConditions": ["and", ["or", {"match": "regex", "type": "url", "value": "https:\\/\\/bookings\\.insightvacations\\.com\\/.*"}], ["or", {"match": "substring", "type": "url", "value": "tab=extras"}]], "deactivationEnabled": true, "undoOnDeactivation": true, "tags": [], "activationType": "url_changed"}, {"id": "28781800666", "category": "other", "apiName": "25683290527_iv_be_step_2__passengers", "name": "IV BE Step 3 - Passengers", "staticConditions": ["and", ["or", {"match": "regex", "type": "url", "value": "https:\\/\\/bookings\\.insightvacations\\.com\\/.*"}], ["or", {"match": "substring", "type": "url", "value": "tab=passengers"}]], "deactivationEnabled": true, "undoOnDeactivation": true, "tags": [], "activationType": "url_changed"}, {"id": "28890640478", "category": "other", "apiName": "25683290527_iv_be_step_4__bookpayment", "name": "IV BE Step 4 - Book/Payment", "staticConditions": ["and", ["or", {"match": "regex", "type": "url", "value": "https:\\/\\/bookings\\.insightvacations\\.com\\/.*"}], ["or", {"match": "substring", "type": "url", "value": "tab=payment"}]], "deactivationEnabled": false, "undoOnDeactivation": false, "tags": [], "activationType": "url_changed"}, {"id": "29847000968", "category": "other", "apiName": "25683290527_all_lmd", "name": "All LMD", "staticConditions": ["and", ["or", {"match": "substring", "type": "url", "value": "/special-offers/last-minute-deals"}]], "deactivationEnabled": false, "undoOnDeactivation": false, "tags": []}, {"id": "30242601019", "category": "other", "apiName": "25683290527_url_targeting_for_ttc__tdp__women_only_tours_banner", "name": "IV - Women Only Equivalent Tours", "staticConditions": ["and", ["or", {"match": "regex", "type": "url", "value": "https:\\/\\/www\\.insightvacations\\.com\\/en-(.*)\\/tours\\/(best-of-morocco|country-roads-of-portugal|scenic-scotland|northern-capitals|splendours-of-egypt|new-england-s-fall-foliage|peru-with-machu-picchu|boston-cape-cod-and-the-islands|country-roads-of-italy|country-roads-of-the-deep-south|classical-india-with-nepal)"}], ["not", ["or", {"match": "substring", "type": "url", "value": "tab=datesprices"}, {"match": "substring", "type": "url", "value": "tab=highlights"}, {"match": "substring", "type": "url", "value": "tab=reviews"}]], ["not", ["or", {"match": "substring", "type": "url", "value": "women-only"}]]], "deactivationEnabled": true, "undoOnDeactivation": true, "tags": [], "activationType": "dom_changed"}, {"id": "30256380944", "category": "other", "apiName": "25683290527_iv__women_only_equivalent_tours__dates__prices", "name": "IV - Women Only Equivalent Tours - Dates & Prices", "staticConditions": ["and", ["or", {"match": "regex", "type": "url", "value": "https:\\/\\/www\\.insightvacations\\.com\\/en-(.*)\\/tours\\/(best-of-morocco|country-roads-of-portugal|scenic-scotland|northern-capitals|splendours-of-egypt|new-england-s-fall-foliage|peru-with-machu-picchu|boston-cape-cod-and-the-islands|country-roads-of-italy|country-roads-of-the-deep-south|classical-india-with-nepal)"}], ["or", {"match": "substring", "type": "url", "value": "tab=datesprices"}], ["not", ["or", {"match": "substring", "type": "url", "value": "women-only"}]]], "deactivationEnabled": true, "undoOnDeactivation": true, "tags": [], "activationType": "dom_changed"}, {"id": "30516200100", "category": "other", "apiName": "25683290527_iv__women_only_tours", "name": "IV - Women Only Tours", "staticConditions": ["and", ["or", {"match": "regex", "type": "url", "value": "https:\\/\\/www\\.insightvacations\\.com\\/en-(.*)\\/tours\\/(best-of-morocco|country-roads-of-portugal|scenic-scotland|northern-capitals|splendours-of-egypt|new-england-s-fall-foliage|peru-with-machu-picchu|boston-cape-cod-and-the-islands|country-roads-of-italy|country-roads-of-the-deep-south|classical-india-with-nepal)"}], ["or", {"match": "substring", "type": "url", "value": "women-only"}]], "deactivationEnabled": false, "undoOnDeactivation": false, "tags": [], "activationType": "dom_changed"}, {"id": "4563286616702976", "category": "other", "apiName": "25683290527_url_targeting_for_tdp__group_size_tag__small_groups", "name": "URL Targeting for TDP | Group Size Tag | Small Groups", "staticConditions": ["and", ["or", {"match": "regex", "type": "url", "value": "^https:\\/\\/www\\.insightvacations\\.com\\/[a-z]{2}-[a-z]{2}\\/tours\\/(?:best-of-italy\\?(?:[^&#]*(?:&amp;amp;|&amp;|&))*optionId=1287(?:(?:&amp;amp;|&amp;|&)[^#]*)?|best-of-italy-small-group\\?(?:[^&#]*(?:&amp;amp;|&amp;|&))*optionId=1721(?:(?:&amp;amp;|&amp;|&)[^#]*)?|sicily-in-depth-small-group\\?(?:[^&#]*(?:&amp;amp;|&amp;|&))*optionId=1713(?:(?:&amp;amp;|&amp;|&)[^#]*)?|country-roads-of-northern-italy-small-group\\?(?:[^&#]*(?:&amp;amp;|&amp;|&))*optionId=1722(?:(?:&amp;amp;|&amp;|&)[^#]*)?|country-roads-of-scotland-small-group\\?(?:[^&#]*(?:&amp;amp;|&amp;|&))*optionId=1723(?:(?:&amp;amp;|&amp;|&)[^#]*)?|best-of-ireland-scotland-small-group\\?(?:[^&#]*(?:&amp;amp;|&amp;|&))*optionId=1724(?:(?:&amp;amp;|&amp;|&)[^#]*)?|best-of-spain-and-portugal-small-group\\?(?:[^&#]*(?:&amp;amp;|&amp;|&))*optionId=(?:1725|1726)(?:(?:&amp;amp;|&amp;|&)[^#]*)?|country-roads-of-portugal-small-group\\?(?:[^&#]*(?:&amp;amp;|&amp;|&))*optionId=1714(?:(?:&amp;amp;|&amp;|&)[^#]*)?|highlights-of-spain-small-group\\?(?:[^&#]*(?:&amp;amp;|&amp;|&))*optionId=1728(?:(?:&amp;amp;|&amp;|&)[^#]*)?|country-roads-of-croatia-small-group\\?(?:[^&#]*(?:&amp;amp;|&amp;|&))*optionId=1714(?:(?:&amp;amp;|&amp;|&)[^#]*)?|country-roads-of-switzerland-small-group\\?(?:[^&#]*(?:&amp;amp;|&amp;|&))*optionId=1304(?:(?:&amp;amp;|&amp;|&)[^#]*)?|highlights-of-poland-small-group\\?(?:[^&#]*(?:&amp;amp;|&amp;|&))*optionId=1323(?:(?:&amp;amp;|&amp;|&)[^#]*)?|adriatic-escape-small-group\\?(?:[^&#]*(?:&amp;amp;|&amp;|&))*optionId=1691(?:(?:&amp;amp;|&amp;|&)[^#]*)?|spectacular-scandinavia-and-its-fjords-small-group\\?(?:[^&#]*(?:&amp;amp;|&amp;|&))*optionId=1727(?:(?:&amp;amp;|&amp;|&)[^#]*)?|natural-wonders-of-iceland\\?(?:[^&#]*(?:&amp;amp;|&amp;|&))*optionId=297(?:(?:&amp;amp;|&amp;|&)[^#]*)?|natural-wonders-of-iceland-small-group|northern-lights-of-scandinavia-small-group\\?(?:[^&#]*(?:&amp;amp;|&amp;|&))*optionId=1437(?:(?:&amp;amp;|&amp;|&)[^#]*)?|wonders-of-turkey\\?(?:[^&#]*(?:&amp;amp;|&amp;|&))*optionId=1452(?:(?:&amp;amp;|&amp;|&)[^#]*)?|greece-undiscovered\\?(?:[^&#]*(?:&amp;amp;|&amp;|&))*optionId=(?:1733|1735)(?:(?:&amp;amp;|&amp;|&)[^#]*)?|wonders-of-japan-small-group\\?(?:[^&#]*(?:&amp;amp;|&amp;|&))*optionId=1741(?:(?:&amp;amp;|&amp;|&)[^#]*)?|classic-india-with-tiger-reserve\\?(?:[^&#]*(?:&amp;amp;|&amp;|&))*optionId=1718(?:(?:&amp;amp;|&amp;|&)[^#]*)?|wonders-of-sri-lanka\\?(?:[^&#]*(?:&amp;amp;|&amp;|&))*optionId=1692(?:(?:&amp;amp;|&amp;|&)[^#]*)?|classic-thailand-small-group\\?(?:[^&#]*(?:&amp;amp;|&amp;|&))*optionId=1738(?:(?:&amp;amp;|&amp;|&)[^#]*)?|ancient-wonders-of-the-nile-small-group\\?(?:[^&#]*(?:&amp;amp;|&amp;|&))*optionId=1730(?:(?:&amp;amp;|&amp;|&)[^#]*)?|yellowstone-winter-escape-small-group\\?(?:[^&#]*(?:&amp;amp;|&amp;|&))*optionId=1731(?:(?:&amp;amp;|&amp;|&)[^#]*)?|costa-rica-rainforest-small-group\\?(?:[^&#]*(?:&amp;amp;|&amp;|&))*optionId=1729(?:(?:&amp;amp;|&amp;|&)[^#]*)?|enchanting-canyonlands-small-group\\?(?:[^&#]*(?:&amp;amp;|&amp;|&))*optionId=1577(?:(?:&amp;amp;|&amp;|&)[^#]*)?|heart-of-patagonia-small-group\\?(?:[^&#]*(?:&amp;amp;|&amp;|&))*optionId=(?:1698|1699)(?:(?:&amp;amp;|&amp;|&)[^#]*)?|peru-with-machu-picchu\\?(?:[^&#]*(?:&amp;amp;|&amp;|&))*optionId=(?:1106|1597)(?:(?:&amp;amp;|&amp;|&)[^#]*)?|kenya-safari-with-maasai-mara-small-group\\?(?:[^&#]*(?:&amp;amp;|&amp;|&))*optionId=1742(?:(?:&amp;amp;|&amp;|&)[^#]*)?|tanzania-safari-with-serengeti-small-group\\?(?:[^&#]*(?:&amp;amp;|&amp;|&))*optionId=1746(?:(?:&amp;amp;|&amp;|&)[^#]*)?|kenya-and-tanzania-safari-small-group\\?(?:[^&#]*(?:&amp;amp;|&amp;|&))*optionId=1744(?:(?:&amp;amp;|&amp;|&)[^#]*)?)$"}]], "deactivationEnabled": false, "undoOnDeactivation": false, "tags": [], "activationType": "url_changed"}, {"id": "4765758517936128", "category": "other", "apiName": "25683290527_iv_be_step_3__passenger_details_funnel_tracking", "name": "IV BE Step 3 - Passenger Details (Funnel tracking)", "staticConditions": ["and", ["or", {"match": "regex", "type": "url", "value": "https:\\/\\/bookings\\.insightvacations\\.com\\/.*"}], ["or", {"match": "substring", "type": "url", "value": "tab=passengers"}]], "deactivationEnabled": false, "undoOnDeactivation": false, "tags": [], "activationType": "url_changed"}, {"id": "4777902902870016", "category": "other", "apiName": "25683290527_iv_be_step_2__extras_funnel_tracking_defdep", "name": "IV BE Step 2 - Extras (Funnel tracking) [DefDep]", "staticConditions": ["and", ["or", {"match": "regex", "type": "url", "value": "https:\\/\\/bookings\\.insightvacations\\.com\\/.*"}], ["or", {"match": "substring", "type": "url", "value": "tab=extras"}], ["or", {"type": "custom_code", "value": function () {
+  function normalize(v) {
+    if (v === true || v === false) return v;
+    if (v === 'true') return true;
+    if (v === 'false') return false;
+    return !!v;
+  }
+
+  var dl = window.bookingServicesDataLayer;
+  if (!dl || !dl.length) return false;
+
+  for (var i = dl.length - 1; i >= 0; i--) {
+    var item = dl[i];
+    if (
+      item &&
+      item.cart &&
+      Array.isArray(item.cart.lines) &&
+      item.cart.lines.length > 0
+    ) {
+      var line = item.cart.lines[0];
+      if (line.product && typeof line.product.definiteDeparture !== 'undefined') {
+        var v = normalize(line.product.definiteDeparture);
+        return v === true;
+      }
+    }
+  }
+
+  return false;
+}
+}]], "deactivationEnabled": false, "undoOnDeactivation": false, "tags": [], "activationType": "url_changed"}, {"id": "4819611565162496", "category": "other", "apiName": "25683290527_iv_be_step_3__passenger_details_funnel_tracking_defd", "name": "IV BE Step 3 - Passenger Details (Funnel tracking) [DefDep]", "staticConditions": ["and", ["or", {"match": "regex", "type": "url", "value": "https:\\/\\/bookings\\.insightvacations\\.com\\/.*"}], ["or", {"match": "substring", "type": "url", "value": "tab=passengers"}], ["or", {"type": "custom_code", "value": function () {
+  function normalize(v) {
+    if (v === true || v === false) return v;
+    if (v === 'true') return true;
+    if (v === 'false') return false;
+    return !!v;
+  }
+
+  var dl = window.bookingServicesDataLayer;
+  if (!dl || !dl.length) return false;
+
+  for (var i = dl.length - 1; i >= 0; i--) {
+    var item = dl[i];
+    if (
+      item &&
+      item.cart &&
+      Array.isArray(item.cart.lines) &&
+      item.cart.lines.length > 0
+    ) {
+      var line = item.cart.lines[0];
+      if (line.product && typeof line.product.definiteDeparture !== 'undefined') {
+        var v = normalize(line.product.definiteDeparture);
+        return v === true;
+      }
+    }
+  }
+
+  return false;
+}
+}]], "deactivationEnabled": false, "undoOnDeactivation": false, "tags": [], "activationType": "url_changed"}, {"id": "4889363176226816", "category": "other", "apiName": "25683290527_iv_be_step_2__extras_funnel_tracking", "name": "IV BE Step 2 - Extras (Funnel tracking)", "staticConditions": ["and", ["or", {"match": "regex", "type": "url", "value": "https:\\/\\/bookings\\.insightvacations\\.com\\/.*"}], ["or", {"match": "substring", "type": "url", "value": "tab=extras"}]], "deactivationEnabled": false, "undoOnDeactivation": false, "tags": [], "activationType": "url_changed"}, {"id": "5042595793993728", "category": "other", "apiName": "25683290527_prod_tdp__datesprices", "name": "PROD TDP - Dates&Prices", "staticConditions": ["and", ["or", {"match": "substring", "type": "url", "value": "www.insightvacations.com"}], ["or", {"match": "substring", "type": "url", "value": "/tours/"}], ["or", {"match": "substring", "type": "url", "value": "tab=datesprices"}]], "deactivationEnabled": true, "undoOnDeactivation": false, "tags": [], "activationType": "url_changed"}, {"id": "5325785964216320", "category": "other", "apiName": "25683290527_prod__all_tours", "name": "PROD All Tours", "staticConditions": ["and", ["or", {"match": "regex", "type": "url", "value": "https:\\/\\/www\\.insightvacations\\.com\\/en-(us|ca|gb|eu|za|au|nz|sg)"}], ["or", {"match": "substring", "type": "url", "value": "/tours/"}]], "deactivationEnabled": false, "undoOnDeactivation": false, "tags": []}, {"id": "5327282370248704", "category": "other", "apiName": "25683290527_iv_be_step_4__confirmation_funnel_tracking_nondefdep", "name": "IV BE Step 5 - Confirmation (Funnel tracking) [nonDefDep]", "staticConditions": ["and", ["or", {"match": "regex", "type": "url", "value": "https:\\/\\/bookings\\.insightvacations\\.com\\/.*"}], ["or", {"match": "substring", "type": "url", "value": "tab=confirmation"}], ["or", {"type": "custom_code", "value": function () {
+  function normalize(v) {
+    if (v === true || v === false) return v;
+    if (v === 'true') return true;
+    if (v === 'false') return false;
+    return !!v;
+  }
+
+  var dl = window.bookingServicesDataLayer;
+  if (!dl || !dl.length) return false;
+
+  for (var i = dl.length - 1; i >= 0; i--) {
+    var item = dl[i];
+    if (
+      item &&
+      item.cart &&
+      Array.isArray(item.cart.lines) &&
+      item.cart.lines.length > 0
+    ) {
+      var line = item.cart.lines[0];
+      if (line.product && typeof line.product.definiteDeparture !== 'undefined') {
+        var v = normalize(line.product.definiteDeparture);
+        return v === false;
+      }
+    }
+  }
+
+  return false;
+}
+}]], "deactivationEnabled": false, "undoOnDeactivation": false, "tags": [], "activationType": "url_changed"}, {"id": "5399308132941824", "category": "other", "apiName": "25683290527_tt_be_step_3__payment_funnel_tracking_defdep", "name": "IV BE Step 4 - Payment (Funnel tracking) [DefDep]", "staticConditions": ["and", ["or", {"match": "regex", "type": "url", "value": "https:\\/\\/bookings\\.insightvacations\\.com\\/.*"}], ["or", {"match": "substring", "type": "url", "value": "tab=payment"}], ["or", {"type": "custom_code", "value": function () {
+  function normalize(v) {
+    if (v === true || v === false) return v;
+    if (v === 'true') return true;
+    if (v === 'false') return false;
+    return !!v;
+  }
+
+  var dl = window.bookingServicesDataLayer;
+  if (!dl || !dl.length) return false;
+
+  for (var i = dl.length - 1; i >= 0; i--) {
+    var item = dl[i];
+    if (
+      item &&
+      item.cart &&
+      Array.isArray(item.cart.lines) &&
+      item.cart.lines.length > 0
+    ) {
+      var line = item.cart.lines[0];
+      if (line.product && typeof line.product.definiteDeparture !== 'undefined') {
+        var v = normalize(line.product.definiteDeparture);
+        return v === true;
+      }
+    }
+  }
+
+  return false;
+}
+}]], "deactivationEnabled": false, "undoOnDeactivation": false, "tags": [], "activationType": "url_changed"}, {"id": "5455294340268032", "category": "other", "apiName": "25683290527_tt_be_step_3__payment_funnel_tracking_nondefdep", "name": "IV BE Step 4 - Payment (Funnel tracking) [nonDefDep]", "staticConditions": ["and", ["or", {"match": "regex", "type": "url", "value": "https:\\/\\/bookings\\.insightvacations\\.com\\/.*"}], ["or", {"match": "substring", "type": "url", "value": "tab=payment"}], ["or", {"type": "custom_code", "value": function () {
+  function normalize(v) {
+    if (v === true || v === false) return v;
+    if (v === 'true') return true;
+    if (v === 'false') return false;
+    return !!v;
+  }
+
+  var dl = window.bookingServicesDataLayer;
+  if (!dl || !dl.length) return false;
+
+  for (var i = dl.length - 1; i >= 0; i--) {
+    var item = dl[i];
+    if (
+      item &&
+      item.cart &&
+      Array.isArray(item.cart.lines) &&
+      item.cart.lines.length > 0
+    ) {
+      var line = item.cart.lines[0];
+      if (line.product && typeof line.product.definiteDeparture !== 'undefined') {
+        var v = normalize(line.product.definiteDeparture);
+        return v === false;
+      }
+    }
+  }
+
+  return false;
+}
+}]], "deactivationEnabled": false, "undoOnDeactivation": false, "tags": [], "activationType": "url_changed"}, {"id": "5478138801553408", "category": "other", "apiName": "25683290527_iv_be_step_2__extras_funnel_tracking_nondefdep", "name": "IV BE Step 2 - Extras (Funnel tracking) [nonDefDep]", "staticConditions": ["and", ["or", {"match": "regex", "type": "url", "value": "https:\\/\\/bookings\\.insightvacations\\.com\\/.*"}], ["or", {"match": "substring", "type": "url", "value": "tab=extras"}], ["or", {"type": "custom_code", "value": function () {
+  function normalize(v) {
+    if (v === true || v === false) return v;
+    if (v === 'true') return true;
+    if (v === 'false') return false;
+    return !!v;
+  }
+
+  var dl = window.bookingServicesDataLayer;
+  if (!dl || !dl.length) return false;
+
+  for (var i = dl.length - 1; i >= 0; i--) {
+    var item = dl[i];
+    if (
+      item &&
+      item.cart &&
+      Array.isArray(item.cart.lines) &&
+      item.cart.lines.length > 0
+    ) {
+      var line = item.cart.lines[0];
+      if (line.product && typeof line.product.definiteDeparture !== 'undefined') {
+        var v = normalize(line.product.definiteDeparture);
+        return v === false;
+      }
+    }
+  }
+
+  return false;
+}
+}]], "deactivationEnabled": false, "undoOnDeactivation": false, "tags": [], "activationType": "url_changed"}, {"id": "5578560140738560", "category": "other", "apiName": "25683290527_tdp__variant_selector_dp_hotfix__tours", "name": "TDP | Variant Selector D&P [Hotfix] - Tours", "staticConditions": ["and", ["or", {"match": "substring", "type": "url", "value": "https://www.insightvacations.com/"}], ["or", {"match": "substring", "type": "url", "value": "/tours/"}], ["or", {"type": "element_present", "value": "div.header-variants.header-variants--horizontal,.header-variants__button-wrapper"}]], "deactivationEnabled": true, "undoOnDeactivation": false, "tags": [], "activationType": "dom_changed"}, {"id": "5812017177559040", "category": "other", "apiName": "25683290527_tt_be_step_1__trip_overview_funnel_tracking_nondefde", "name": "IV BE Step 1 - Trip Overview (Funnel tracking) [nonDefDep]", "staticConditions": ["and", ["or", {"match": "regex", "type": "url", "value": "https:\\/\\/bookings\\.insightvacations\\.com\\/.*"}], ["not", ["or", {"match": "substring", "type": "url", "value": "tab=passengers"}, {"match": "substring", "type": "url", "value": "tab=payment"}, {"match": "substring", "type": "url", "value": "tab=extras"}, {"match": "substring", "type": "url", "value": "tab=confirmation"}]]], "deactivationEnabled": false, "undoOnDeactivation": false, "tags": [], "activationType": "callback", "activationCode": function(activate, options) {
+  var DESIRED_VALUE = false;
+  var activated = false;
+  var MAX_TIME_MS = 15000;
+  var INTERVAL_MS = 200;
+  var startTime = Date.now();
+
+  function getDefiniteValue() {
+    var dl = window.bookingServicesDataLayer;
+    if (!dl || !dl.length) return null;
+
+    for (var i = 0; i < dl.length; i++) {
+      var item = dl[i];
+      if (
+        item &&
+        item.cart &&
+        Array.isArray(item.cart.lines) &&
+        item.cart.lines.length > 0
+      ) {
+        var line = item.cart.lines[0];
+        if (
+          line.product &&
+          typeof line.product.definiteDeparture !== 'undefined'
+        ) {
+          return !!line.product.definiteDeparture;
+        }
+      }
+    }
+    return null;
+  }
+
+  function check() {
+    if (activated) return;
+
+    var value = getDefiniteValue();
+    if (value === DESIRED_VALUE) {
+      activated = true;
+      activate();
+      clearInterval(timer);
+      return;
+    }
+
+    if (Date.now() - startTime > MAX_TIME_MS) {
+      clearInterval(timer);
+    }
+  }
+
+  var immediateValue = getDefiniteValue();
+  if (immediateValue === DESIRED_VALUE) {
+    activated = true;
+    activate();
+    return;
+  }
+
+  var timer = setInterval(check, INTERVAL_MS);
+}
+}, {"id": "5827750984941568", "category": "other", "apiName": "25683290527_iv_be_step_1__trip_overview_funnel_tracking_defdep", "name": "IV BE Step 1 - Trip Overview (Funnel tracking) [DefDep]", "staticConditions": ["and", ["or", {"match": "regex", "type": "url", "value": "https:\\/\\/bookings\\.insightvacations\\.com\\/.*"}], ["not", ["or", {"match": "substring", "type": "url", "value": "tab=passengers"}, {"match": "substring", "type": "url", "value": "tab=payment"}, {"match": "substring", "type": "url", "value": "tab=extras"}, {"match": "substring", "type": "url", "value": "tab=confirmation"}]]], "deactivationEnabled": false, "undoOnDeactivation": false, "tags": [], "activationType": "callback", "activationCode": function(activate, options) {
+  var DESIRED_VALUE = true;
+  var activated = false;
+  var MAX_TIME_MS = 15000;
+  var INTERVAL_MS = 200;
+  var startTime = Date.now();
+
+  function getDefiniteValue() {
+    var dl = window.bookingServicesDataLayer;
+    if (!dl || !dl.length) return null;
+
+    for (var i = 0; i < dl.length; i++) {
+      var item = dl[i];
+      if (
+        item &&
+        item.cart &&
+        Array.isArray(item.cart.lines) &&
+        item.cart.lines.length > 0
+      ) {
+        var line = item.cart.lines[0];
+        if (
+          line.product &&
+          typeof line.product.definiteDeparture !== 'undefined'
+        ) {
+          return !!line.product.definiteDeparture;
+        }
+      }
+    }
+    return null;
+  }
+
+  function check() {
+    if (activated) return;
+
+    var value = getDefiniteValue();
+    if (value === DESIRED_VALUE) {
+      activated = true;
+      activate();
+      clearInterval(timer);
+      return;
+    }
+
+    if (Date.now() - startTime > MAX_TIME_MS) {
+      clearInterval(timer);
+    }
+  }
+
+  var immediateValue = getDefiniteValue();
+  if (immediateValue === DESIRED_VALUE) {
+    activated = true;
+    activate();
+    return;
+  }
+
+  var timer = setInterval(check, INTERVAL_MS);
+}
+}, {"id": "5878578785550336", "category": "other", "apiName": "25683290527_prod_compare_page", "name": "PROD Compare Page", "staticConditions": ["and", ["or", {"match": "regex", "type": "url", "value": "https:\\/\\/www\\.insightvacations\\.com\\/.*\\/compare.*"}]], "deactivationEnabled": false, "undoOnDeactivation": false, "tags": []}, {"id": "5901023160565760", "category": "other", "apiName": "25683290527_iv_be_step_3__passenger_details_funnel_tracking_nond", "name": "IV BE Step 3 - Passenger Details (Funnel tracking) [nonDefDep]", "staticConditions": ["and", ["or", {"match": "regex", "type": "url", "value": "https:\\/\\/bookings\\.insightvacations\\.com\\/.*"}], ["or", {"match": "substring", "type": "url", "value": "tab=passengers"}], ["or", {"type": "custom_code", "value": function () {
+  function normalize(v) {
+    if (v === true || v === false) return v;
+    if (v === 'true') return true;
+    if (v === 'false') return false;
+    return !!v;
+  }
+
+  var dl = window.bookingServicesDataLayer;
+  if (!dl || !dl.length) return false;
+
+  for (var i = dl.length - 1; i >= 0; i--) {
+    var item = dl[i];
+    if (
+      item &&
+      item.cart &&
+      Array.isArray(item.cart.lines) &&
+      item.cart.lines.length > 0
+    ) {
+      var line = item.cart.lines[0];
+      if (line.product && typeof line.product.definiteDeparture !== 'undefined') {
+        var v = normalize(line.product.definiteDeparture);
+        return v === false;
+      }
+    }
+  }
+
+  return false;
+}
+}]], "deactivationEnabled": false, "undoOnDeactivation": false, "tags": [], "activationType": "url_changed"}, {"id": "5928402406866944", "category": "other", "apiName": "25683290527_tdp__variant_selector_dp_hotfix", "name": "TDP | Variant Selector D&P [Hotfix] - Tours > D&P", "staticConditions": ["and", ["or", {"match": "substring", "type": "url", "value": "https://www.insightvacations.com/"}], ["or", {"match": "substring", "type": "url", "value": "/tours/"}], ["or", {"match": "substring", "type": "url", "value": "tab=datesprices"}], ["or", {"type": "element_present", "value": "div.header-variants.header-variants--horizontal,.header-variants__button-wrapper"}], ["or", {"match": "substring", "type": "url", "value": "optionId=403"}, {"match": "substring", "type": "url", "value": "optionId=409"}, {"match": "substring", "type": "url", "value": "optionId=411"}, {"match": "substring", "type": "url", "value": "optionId=403"}, {"match": "substring", "type": "url", "value": "optionId=1079"}, {"match": "substring", "type": "url", "value": "optionId=1348"}, {"match": "substring", "type": "url", "value": "optionId=1349"}, {"match": "substring", "type": "url", "value": "optionId=1350"}, {"match": "substring", "type": "url", "value": "optionId=1351"}, {"match": "substring", "type": "url", "value": "optionId=1352"}, {"match": "substring", "type": "url", "value": "optionId=1353"}, {"match": "substring", "type": "url", "value": "optionId=1673"}, {"match": "substring", "type": "url", "value": "optionId=1674"}, {"match": "substring", "type": "url", "value": "optionId=245"}, {"match": "substring", "type": "url", "value": "optionId=779"}, {"match": "substring", "type": "url", "value": "optionId=1688"}, {"match": "substring", "type": "url", "value": "optionId=1689"}, {"match": "substring", "type": "url", "value": "optionId=1110"}, {"match": "substring", "type": "url", "value": "optionId=1568"}, {"match": "substring", "type": "url", "value": "optionId=1078"}, {"match": "substring", "type": "url", "value": "optionId=1314"}, {"match": "substring", "type": "url", "value": "optionId=1315"}, {"match": "substring", "type": "url", "value": "optionId=1538"}]], "deactivationEnabled": true, "undoOnDeactivation": false, "tags": [], "activationType": "dom_changed"}, {"id": "6148389889376256", "category": "other", "apiName": "25683290527_iv_be_step_4__payment_funnel_tracking", "name": "IV BE Step 4 - Payment (Funnel tracking)", "staticConditions": ["and", ["or", {"match": "regex", "type": "url", "value": "https:\\/\\/bookings\\.insightvacations\\.com\\/.*"}], ["or", {"match": "substring", "type": "url", "value": "tab=payment"}]], "deactivationEnabled": false, "undoOnDeactivation": false, "tags": [], "activationType": "url_changed"}, {"id": "6176698589249536", "category": "other", "apiName": "25683290527_iv_be_step_4__confirmation_funnel_tracking_defdep", "name": "IV BE Step 5 - Confirmation (Funnel tracking) [DefDep]", "staticConditions": ["and", ["or", {"match": "regex", "type": "url", "value": "https:\\/\\/bookings\\.insightvacations\\.com\\/.*"}], ["or", {"match": "substring", "type": "url", "value": "tab=confirmation"}], ["or", {"type": "custom_code", "value": function () {
+  function normalize(v) {
+    if (v === true || v === false) return v;
+    if (v === 'true') return true;
+    if (v === 'false') return false;
+    return !!v;
+  }
+
+  var dl = window.bookingServicesDataLayer;
+  if (!dl || !dl.length) return false;
+
+  for (var i = dl.length - 1; i >= 0; i--) {
+    var item = dl[i];
+    if (
+      item &&
+      item.cart &&
+      Array.isArray(item.cart.lines) &&
+      item.cart.lines.length > 0
+    ) {
+      var line = item.cart.lines[0];
+      if (line.product && typeof line.product.definiteDeparture !== 'undefined') {
+        var v = normalize(line.product.definiteDeparture);
+        return v === true;
+      }
+    }
+  }
+
+  return false;
+}
+}]], "deactivationEnabled": false, "undoOnDeactivation": false, "tags": [], "activationType": "url_changed"}, {"id": "6390385174380544", "category": "other", "apiName": "25683290527_tt_be_step_4__confirmation_funnel_tracking", "name": "IV BE Step 5 - Confirmation (Funnel tracking)", "staticConditions": ["and", ["or", {"match": "regex", "type": "url", "value": "https:\\/\\/bookings\\.insightvacations\\.com\\/.*"}], ["or", {"match": "substring", "type": "url", "value": "tab=confirmation"}]], "deactivationEnabled": false, "undoOnDeactivation": false, "tags": [], "activationType": "url_changed"}, {"id": "6480070357811200", "category": "other", "apiName": "25683290527_all_pages_except_tours_search_add_to_compare_lmd", "name": "All Pages EXCEPT tours, search, add to compare, LMD", "staticConditions": ["and", ["or", {"match": "regex", "type": "url", "value": "https:\\/\\/www\\.insightvacations\\.com.*"}], ["not", ["or", {"match": "regex", "type": "url", "value": "https:\\/\\/www\\.insightvacations\\.com\\/.*\\/(search|tours|compare|special-offers\\/last-minute-deals).*"}]]], "deactivationEnabled": false, "undoOnDeactivation": false, "tags": []}, {"id": "6506038424240128", "category": "other", "apiName": "25683290527_tdp__mcp_similar_tour_recommendations", "name": "TDP | MCP Similar Tour Recommendations (Codeshare release - Triggered Manually)", "staticConditions": ["and", ["or", {"match": "regex", "type": "url", "value": "https:\\/\\/www\\.insightvacations\\.com\\/en-(us|ca|gb|eu|za|au|nz|sg)"}], ["or", {"match": "substring", "type": "url", "value": "/tours"}]], "deactivationEnabled": false, "undoOnDeactivation": false, "tags": [], "activationType": "manual"}, {"id": "6698038912090112", "category": "other", "apiName": "25683290527_prod_tdp__itinerary", "name": "PROD TDP - Itinerary", "staticConditions": ["and", ["or", {"match": "regex", "type": "url", "value": "https:\\/\\/www\\.insightvacations\\.com\\/en-(.*)\\/tours\\/.*"}], ["not", ["or", {"match": "substring", "type": "url", "value": "tab=datesprices"}, {"match": "substring", "type": "url", "value": "tab=reviews"}]]], "deactivationEnabled": true, "undoOnDeactivation": false, "tags": [], "activationType": "dom_changed"}, {"id": "6698847691341824", "category": "other", "apiName": "25683290527_prod_search_results", "name": "PROD Search Results", "staticConditions": ["and", ["or", {"match": "regex", "type": "url", "value": "https:\\/\\/www\\.insightvacations\\.com\\/en-(.*)\\/search.*"}]], "deactivationEnabled": false, "undoOnDeactivation": false, "tags": []}, {"id": "6707598959837184", "category": "other", "apiName": "25683290527_tt_be_step_1__trip_overview_funnel_tracking", "name": "IV BE Step 1 - Trip Overview (Funnel tracking)", "staticConditions": ["and", ["or", {"match": "regex", "type": "url", "value": "https:\\/\\/bookings\\.insightvacations\\.com\\/.*"}], ["not", ["or", {"match": "substring", "type": "url", "value": "tab=passengers"}, {"match": "substring", "type": "url", "value": "tab=payment"}, {"match": "substring", "type": "url", "value": "tab=extras"}, {"match": "substring", "type": "url", "value": "tab=confirmation"}]]], "deactivationEnabled": false, "undoOnDeactivation": false, "tags": [], "activationType": "url_changed"}], "events": [{"id": "26896661584", "viewId": null, "name": "RAQ Form Load - TDP-DP", "category": "other", "apiName": "raqload-tours-dp", "eventType": "custom", "eventFilter": null}, {"id": "26906441161", "viewId": null, "name": "Transaction", "category": "other", "apiName": "transaction", "eventType": "custom", "eventFilter": null}, {"id": "26914871182", "viewId": null, "name": "RAQ Submission -  ALL", "category": "other", "apiName": "raq-all", "eventType": "custom", "eventFilter": null}, {"id": "26920620644", "viewId": null, "name": "Number of Passengers", "category": "other", "apiName": "pax", "eventType": "custom", "eventFilter": null}, {"id": "26923711104", "viewId": null, "name": "RAQ Form Load - All", "category": "other", "apiName": "raqload-all", "eventType": "custom", "eventFilter": null}, {"id": "26927831221", "viewId": null, "name": "Search autocomplete-suggestion", "category": "other", "apiName": "search-autocomplete-suggestion", "eventType": "custom", "eventFilter": null}, {"id": "26937920682", "viewId": null, "name": "Contact Us Submissions", "category": "other", "apiName": "contact-us", "eventType": "custom", "eventFilter": null}, {"id": "26950000758", "viewId": null, "name": "PF - Tour Page Visits", "category": "other", "apiName": "pf-tour-page", "eventType": "custom", "eventFilter": null}, {"id": "26971740718", "viewId": null, "name": "RAQ Submission -  Dreamers", "category": "other", "apiName": "raq-dreamers", "eventType": "custom", "eventFilter": null}, {"id": "26975401138", "viewId": null, "name": "Search hero-search-date", "category": "other", "apiName": "hero-search-date", "eventType": "custom", "eventFilter": null}, {"id": "27017930590", "viewId": null, "name": "Search hero-search-region", "category": "other", "apiName": "hereo-search-region", "eventType": "custom", "eventFilter": null}, {"id": "27023780536", "viewId": null, "name": "RAQ Submission - Searches", "category": "other", "apiName": "raq-search", "eventType": "custom", "eventFilter": null}, {"id": "27038390021", "viewId": null, "name": "Booking Interest dates-and-prices", "category": "other", "apiName": "bi-dates-and-prices", "eventType": "custom", "eventFilter": null}, {"id": "27051020687", "viewId": null, "name": "RAB - View online", "category": "other", "apiName": "rab-view-online", "eventType": "custom", "eventFilter": null}, {"id": "27051710449", "viewId": null, "name": "Newsletter Sign ups", "category": "other", "apiName": "newsletter--sign-up", "eventType": "custom", "eventFilter": null}, {"id": "27074150380", "viewId": null, "name": "RAQ Form Load - Tour", "category": "other", "apiName": "raqload-tours", "eventType": "custom", "eventFilter": null}, {"id": "27083500340", "viewId": null, "name": "Booking Interest book-now", "category": "other", "apiName": "bi-book-now", "eventType": "custom", "eventFilter": null}, {"id": "27086000268", "viewId": null, "name": "Search hero-search-place", "category": "other", "apiName": "hero-search-place", "eventType": "custom", "eventFilter": null}, {"id": "27086610101", "viewId": null, "name": "RAQ Submission -  Tour", "category": "other", "apiName": "raq-tours", "eventType": "custom", "eventFilter": null}, {"id": "27089950218", "viewId": null, "name": "RAB - Physical", "category": "other", "apiName": "rab-physical", "eventType": "custom", "eventFilter": null}, {"id": "27093940141", "viewId": null, "name": "PF - Add to cart", "category": "other", "apiName": "add-to-cart", "eventType": "custom", "eventFilter": null}, {"id": "27101570125", "viewId": null, "name": "PF - Dates&Prices View", "category": "other", "apiName": "pf-dates-prices", "eventType": "custom", "eventFilter": null}, {"id": "27104260093", "viewId": null, "name": "RAQ Submission - TDP-DP", "category": "other", "apiName": "raq-tours-dp", "eventType": "custom", "eventFilter": null}, {"id": "27109930188", "viewId": null, "name": "PF - Opening Extras", "category": "other", "apiName": "pf-open-extras", "eventType": "custom", "eventFilter": null}, {"id": "27113590058", "viewId": null, "name": "RAB - Download", "category": "other", "apiName": "rab-download", "eventType": "custom", "eventFilter": null}, {"id": "28344220572", "viewId": "28395050678", "name": "All Tours - Dates&Prices Open", "category": "other", "apiName": "25683290527_all_tours__datesprices_open", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": "li:nth-of-type(2) .tab__item-text,.trip-header__button.btn-sec-booking > .text-button-m,div:nth-of-type(2) > .sticky-header__tab-text,.sticky-header__buttons > .btn-sec-booking > .text-button-m,li:nth-of-type(2) .tab__item-text,div:nth-of-type(2) > .sticky-header__tab-text,.btn-sec-booking > .text-button-m"}}, {"id": "28768810462", "viewId": "28395050678", "name": "Expanding Days Panel", "category": "other", "apiName": "25683290527_expanding_days_panel", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".days-container__buttons .btn-text--alternate, .single-day .single-day__header"}}, {"id": "28776570503", "viewId": "28395050678", "name": "Make Travel Matter", "category": "other", "apiName": "25683290527_make_travel_matter", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".content-cards__card-box, .carousel-arrows--left-disabled .icon-wrapper"}}, {"id": "28785710609", "viewId": "28395050678", "name": "Map Interaction", "category": "other", "apiName": "25683290527_map_interaction", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".itinerary-map"}}, {"id": "28790390284", "viewId": "28395050678", "name": "Date Selector Click", "category": "other", "apiName": "25683290527_date_selector_click", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".option-switch-wrapper"}}, {"id": "28792070534", "viewId": "28395050678", "name": "Chat Open", "category": "other", "apiName": "25683290527_chat_open", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".genesys-button-wrapper"}}, {"id": "28795870531", "viewId": "28395050678", "name": "Hero Gallery Interaction", "category": "other", "apiName": "25683290527_hero_gallery_interaction", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".media-gallery img"}}, {"id": "28809760620", "viewId": "28395050678", "name": "Trip Header Feefo", "category": "other", "apiName": "25683290527_trip_header_feefo", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".trip-header__feefo"}}, {"id": "28819340376", "viewId": "28395050678", "name": "Reviews Component Interaction", "category": "other", "apiName": "25683290527_reviews_component_interaction", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".feefo-custom-component-content__rating, .view-reviews-btn"}}, {"id": "29007470685", "viewId": "28395050678", "name": "See Dates Click", "category": "other", "apiName": "25683290527_see_dates_click", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": "[data-item-name='dates-and-prices']"}}, {"id": "29424040038", "viewId": null, "name": "Transaction - On Hold", "category": "other", "apiName": "transaction_onhold", "eventType": "custom", "eventFilter": null}, {"id": "29437790062", "viewId": null, "name": "Transaction - Deposit", "category": "other", "apiName": "transaction_deposit", "eventType": "custom", "eventFilter": null}, {"id": "29441110071", "viewId": null, "name": "Transaction - Payed in Full", "category": "other", "apiName": "transaction_payedfull", "eventType": "custom", "eventFilter": null}, {"id": "29808650466", "viewId": "29847000968", "name": "Load More Click", "category": "other", "apiName": "25683290527_load_more_click", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".load-more-widget"}}, {"id": "29814150202", "viewId": "29847000968", "name": "Selected sort Latest Departure Date", "category": "other", "apiName": "25683290527_selected_sort_latest_departure_date", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".sort-by-filter__container-element:nth-of-type(4)"}}, {"id": "29833480378", "viewId": "29847000968", "name": "Tour Interaction", "category": "other", "apiName": "25683290527_tour_interaction", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".deals-card"}}, {"id": "29837700803", "viewId": "29847000968", "name": "Selected sort Price Low to High", "category": "other", "apiName": "25683290527_selected_sort_price_low_to_high", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".sort-by-filter__container-element:nth-of-type(2)"}}, {"id": "29848190296", "viewId": "29847000968", "name": "Sorting Interaction", "category": "other", "apiName": "25683290527_sorting_interaction", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".sort-by-filter"}}, {"id": "29860640026", "viewId": "29847000968", "name": "Departure Open", "category": "other", "apiName": "25683290527_departure_open", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": "#deals-wrapper .lazyloaded,\n.text-title-xxs ,\n.deals-header__cta-button,\n.quick-view-price__right,\n.deals-departure, .deals-header__mobile-view-trip"}}, {"id": "29873210384", "viewId": "29847000968", "name": "Selected sort Price High to Low", "category": "other", "apiName": "25683290527_selected_sort_price_high_to_low", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".sort-by-filter__container-element:nth-of-type(3)"}}, {"id": "29874970301", "viewId": "28395050678", "name": "LMD Banner: Continue", "category": "other", "apiName": "25683290527_lmd_banner_continue", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".departure-banner .btn-sec-inv"}}, {"id": "29875710037", "viewId": "28395050678", "name": "LMD Departure Banner Click", "category": "other", "apiName": "25683290527_lmd_departure_banner_click", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".departure-banner"}}, {"id": "29882020025", "viewId": "29847000968", "name": "Filters Interaction", "category": "other", "apiName": "25683290527_filters_interaction", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".deals-container__filters, .mobile-filters__btn"}}, {"id": "29882170008", "viewId": "29847000968", "name": "Selected sort Earliest Departure Date", "category": "other", "apiName": "25683290527_selected_sort_earliest_departure_date", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".sort-by-filter__container-element:nth-of-type(1)"}}, {"id": "29887150030", "viewId": "29847000968", "name": "Selected sort Savings Amount", "category": "other", "apiName": "25683290527_selected_sort_savings_amount", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".sort-by-filter__container-element:nth-of-type(5)"}}, {"id": "29889130039", "viewId": "29847000968", "name": "Show more dates Interaction", "category": "other", "apiName": "25683290527_show_more_dates_interaction", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".deals-card__lmd-wrapper"}}, {"id": "30008830099", "viewId": "28395050678", "name": "Opening Variant Selector - Topbar", "category": "other", "apiName": "25683290527_opening_variant_selector__topbar", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".header-variants"}}, {"id": "30022480063", "viewId": "28395050678", "name": "Departure Date Click D&P", "category": "other", "apiName": "25683290527_departure_date_click_dp", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".tour-info,.tour-list .list-item__title[data-item-name=\"departure-expand\"][data-item-departure]"}}, {"id": "30025870025", "viewId": null, "name": "Transaction - On Request", "category": "other", "apiName": "transaction_onrequest", "eventType": "custom", "eventFilter": null}, {"id": "30038000081", "viewId": "28395050678", "name": "Switching Variant", "category": "other", "apiName": "25683290527_switching_variant", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".variation-card--layout1 , .variation-card__card, .variation-card, .trip-variations-list"}}, {"id": "30039900063", "viewId": "28395050678", "name": "Switching Variant - Topbar", "category": "other", "apiName": "25683290527_switching_variant__topbar", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".trip-variations-list"}}, {"id": "30041800261", "viewId": "28395050678", "name": "Load More D&P", "category": "other", "apiName": "25683290527_load_more_dp", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".tour-list__button"}}, {"id": "30063080174", "viewId": "28395050678", "name": "Switching Variant - Itinerary Component", "category": "other", "apiName": "25683290527_switching_variant__itinerary_component", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".variation-card--layout1 , .variation-card__card, .variation-card"}}, {"id": "30376000084", "viewId": null, "name": "Header Variant Selector - Women Only Click", "category": "other", "apiName": "header_variant_selector_women_only_click", "eventType": "custom", "eventFilter": null}, {"id": "30401760480", "viewId": null, "name": "Dates&Prices - Women Only Click", "category": "other", "apiName": "datesprices_women_only_click", "eventType": "custom", "eventFilter": null}, {"id": "30411210641", "viewId": null, "name": "Itinerary Variant Selector - Women Only Click", "category": "other", "apiName": "itinerary_variant_selector_women_only_click", "eventType": "custom", "eventFilter": null}, {"id": "4528377722306560", "viewId": "5325785964216320", "name": "Tours: Trip Cards Component: Chevron right", "category": "other", "apiName": "25683290527_tours_trip_cards_component_chevron_right", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".trip-cards-carousel__controls-title .icon-wrapper+ .icon-wrapper span"}}, {"id": "4550311340146688", "viewId": null, "name": "scroll50", "category": "other", "apiName": "scroll50", "eventType": "custom", "eventFilter": null}, {"id": "4588844413091840", "viewId": null, "name": "MCP Recs - carousel navigation", "category": "other", "apiName": "recommendation_navigation", "eventType": "custom", "eventFilter": null}, {"id": "4710295382261760", "viewId": null, "name": "NL Pop-up submission", "category": "other", "apiName": "nl_pop-up_submission", "eventType": "custom", "eventFilter": null}, {"id": "4750229589721088", "viewId": null, "name": "D&P - Departure Date Click - DefDep", "category": "other", "apiName": "d_p_-_departure_date_click_-_defdep", "eventType": "custom", "eventFilter": null}, {"id": "4754920906162176", "viewId": null, "name": "Include air quote checked v2", "category": "other", "apiName": "include_air_quote_checked_v2", "eventType": "custom", "eventFilter": null}, {"id": "4829446398541824", "viewId": "28395050678", "name": "Print Itinerary", "category": "other", "apiName": "25683290527_print_itinerary", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".itinerary-pdf__print:not(.dmpg)"}}, {"id": "4840891370700800", "viewId": null, "name": "tours_trip-cards-component", "category": "other", "apiName": "tours_trip-cards-component", "eventType": "custom", "eventFilter": null}, {"id": "4877935883059200", "viewId": null, "name": "RAF - Tooltip Hover", "category": "other", "apiName": "raf__tooltip_hover", "eventType": "custom", "eventFilter": null}, {"id": "4947625217097728", "viewId": "5325785964216320", "name": "Variant selector - Itinerary - Click", "category": "other", "apiName": "25683290527_variant_selector__itinerary__click", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": "[data-testid=\"page-block-tripvariations\"] .variation-card--layout1 .variation-card__card, [data-testid=\"page-block-tripvariations\"] \n.trip-variations-list li"}}, {"id": "4983619324739584", "viewId": null, "name": "RAF - Tooltip Click v2", "category": "other", "apiName": "raf__tooltip_click", "eventType": "custom", "eventFilter": null}, {"id": "4996953344311296", "viewId": null, "name": "Main CTA Clicks in pop-up", "category": "other", "apiName": "main_cta_clicks_in_pop-up", "eventType": "custom", "eventFilter": null}, {"id": "5050013684858880", "viewId": null, "name": "BE: View Summary Click", "category": "other", "apiName": "view_summary_click", "eventType": "custom", "eventFilter": null}, {"id": "5090653000957952", "viewId": null, "name": "BE: Trip Summary Drawer Open", "category": "other", "apiName": "trip_summary_open", "eventType": "custom", "eventFilter": null}, {"id": "5097932899221504", "viewId": "5325785964216320", "name": "Variant switcher - Itinerary - List selection", "category": "other", "apiName": "25683290527_variant_switcher__itinerary__list_selection", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": "[data-testid=\"list\"]"}}, {"id": "5125809613045760", "viewId": null, "name": "0 search results", "category": "other", "apiName": "zero_search_results", "eventType": "custom", "eventFilter": null}, {"id": "5134673551032320", "viewId": null, "name": "Easy Quote button on BF LP", "category": "other", "apiName": "easy_quote_button_on_bf_lp", "eventType": "custom", "eventFilter": null}, {"id": "5193576368308224", "viewId": null, "name": "2026 Price Drop Promise - Hero banner interaction", "category": "other", "apiName": "2026_price_drop_promise_-_hero_banner_interaction", "eventType": "custom", "eventFilter": null}, {"id": "5202822493372416", "viewId": null, "name": "Newsletter fill-up start", "category": "other", "apiName": "newsletter_fill-up_start", "eventType": "custom", "eventFilter": null}, {"id": "5235897281544192", "viewId": "5325785964216320", "name": "Tours: Trip Cards Component: Trip card click", "category": "other", "apiName": "25683290527_tours_trip_cards_component_trip_card_click", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".trip-cards-carousel__item"}}, {"id": "5270091042914304", "viewId": "28778111313", "name": "Extras: Stays section CTR", "category": "other", "apiName": "25683290527_extras_stays_section_ctr", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": "#extrasForm [data-test=\"accommodation-before-hotels\"], #extrasForm [data-test=\"accommodation-after-hotels\"]"}}, {"id": "5285304135843840", "viewId": null, "name": "2026 Price Drop Promise - Modal view", "category": "other", "apiName": "modal_view", "eventType": "custom", "eventFilter": null}, {"id": "5349455495430144", "viewId": "6698847691341824", "name": "Mobile Filters Apply", "category": "other", "apiName": "25683290527_mobile_filters_apply", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".mobile-filters__confirm-box"}}, {"id": "5371350534062080", "viewId": null, "name": "scroll25", "category": "other", "apiName": "scroll25", "eventType": "custom", "eventFilter": null}, {"id": "5393074679971840", "viewId": "28778111313", "name": "Extras: Flights section CTR", "category": "other", "apiName": "25683290527_extras_flights_section_ctr", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".flights button"}}, {"id": "5409920678363136", "viewId": "5325785964216320", "name": "Variant selector - Tours - Click", "category": "other", "apiName": "25683290527_variant_selector__tours__click", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".variation-card--layout1 .variation-card__card,\n.trip-variations-list li"}}, {"id": "5424989785030656", "viewId": null, "name": "Open exit intent modal", "category": "other", "apiName": "open_exit_intent_modal", "eventType": "custom", "eventFilter": null}, {"id": "5460124475588608", "viewId": null, "name": "BE: Trip Summary Drawer Close", "category": "other", "apiName": "trip_summary_close", "eventType": "custom", "eventFilter": null}, {"id": "5517089662828544", "viewId": "5325785964216320", "name": "Tours: Trip Cards Component: Chevron left", "category": "other", "apiName": "25683290527_tours_trip_cards_component_chevron_left", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".trip-cards-carousel__controls-title .icon-wrapper:nth-child(1)"}}, {"id": "5571409104076800", "viewId": null, "name": "Newsletter pop-up close without submit", "category": "other", "apiName": "newsletter_pop-up_close_without_submit", "eventType": "custom", "eventFilter": null}, {"id": "5588876316639232", "viewId": null, "name": "RAQ submited - Flights NOT checked", "category": "other", "apiName": "raq_submited__flights_not_checked", "eventType": "custom", "eventFilter": null}, {"id": "5611867857485824", "viewId": null, "name": "MCP Recs - card click", "category": "other", "apiName": "recommendation_card_click", "eventType": "custom", "eventFilter": null}, {"id": "5661773739589632", "viewId": null, "name": "Footer newsletter section view", "category": "other", "apiName": "footer_newsletter_section_view", "eventType": "custom", "eventFilter": null}, {"id": "5668853565358080", "viewId": null, "name": "Black Friday Trip Card Clicks (LP only)", "category": "other", "apiName": "black_friday_trip_card_clicks__lp_only_", "eventType": "custom", "eventFilter": null}, {"id": "5704112034021376", "viewId": null, "name": "2026 Price Drop Promise - PDP26 Code Applied", "category": "other", "apiName": "2026_price_drop_promise_-_pdp26_code_applied", "eventType": "custom", "eventFilter": null}, {"id": "5725490820939776", "viewId": "6698847691341824", "name": "Mobile Filters Open (Sticky)", "category": "other", "apiName": "25683290527_mobile_filters_open_sticky", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".mobile-filters-sticky"}}, {"id": "5788852437123072", "viewId": null, "name": "MCP Recs - card visible", "category": "other", "apiName": "recommendation_card_visible", "eventType": "custom", "eventFilter": null}, {"id": "5798445236092928", "viewId": "6698847691341824", "name": "Mobile Filters Open (Top)", "category": "other", "apiName": "25683290527_mobile_filters_open_top", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": "div#mobileFilters"}}, {"id": "5824175152037888", "viewId": null, "name": "Close exit intent modal", "category": "other", "apiName": "close_exit_intent_modal", "eventType": "custom", "eventFilter": null}, {"id": "5836719484829696", "viewId": "5325785964216320", "name": "Variant switcher - Itinerary - Grid selection", "category": "other", "apiName": "25683290527_variant_switcher__itinerary__grid_selection", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": "[data-testid=\"grid\"]"}}, {"id": "5897177118015488", "viewId": null, "name": "Definite Departure tooltip view", "category": "other", "apiName": "definite_departure_tooltip_shown", "eventType": "custom", "eventFilter": null}, {"id": "5903612157624320", "viewId": "5325785964216320", "name": "Tours: Trip Cards Component", "category": "other", "apiName": "25683290527_tours_trip_cards_component", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".trip-cards-component"}}, {"id": "5923488242860032", "viewId": "28778111313", "name": "Extras: Additional Trips section CTR", "category": "other", "apiName": "25683290527_extras_additional_trips_section_ctr", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": "#additional-tour-requested"}}, {"id": "5933928968617984", "viewId": null, "name": "view_trip_click", "category": "other", "apiName": "view_trip_click", "eventType": "custom", "eventFilter": null}, {"id": "6025806460223488", "viewId": null, "name": "2026 Price Drop Promise - Copy Discount Code Click", "category": "other", "apiName": "copy_discount_code_click", "eventType": "custom", "eventFilter": null}, {"id": "6033627159461888", "viewId": null, "name": "RAF - Departure Airport Click", "category": "other", "apiName": "raf_-_departure_airport_click", "eventType": "custom", "eventFilter": null}, {"id": "6074673692147712", "viewId": "5325785964216320", "name": "Change Variant - Top selector - Click", "category": "other", "apiName": "25683290527_change_variant__top_selector__click", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".header-variants__button-wrapper"}}, {"id": "6087144192606208", "viewId": null, "name": "D&P - Departure Date Convert - DefDep", "category": "other", "apiName": "d_p_-_departure_date_convert_-_defdep", "eventType": "custom", "eventFilter": null}, {"id": "6090331398078464", "viewId": null, "name": "RAF - Tooltip Combined", "category": "other", "apiName": "raf__tooltip_combined", "eventType": "custom", "eventFilter": null}, {"id": "6129753325830144", "viewId": null, "name": "RAQ submitted - Flights checked", "category": "other", "apiName": "raq_submitted__flights_checked", "eventType": "custom", "eventFilter": null}, {"id": "6141271782195200", "viewId": null, "name": "Secondary CTA Clicks in pop-up", "category": "other", "apiName": "secondary_cta_clicks_in_pop-up", "eventType": "custom", "eventFilter": null}, {"id": "6158770720473088", "viewId": "28395050678", "name": "Download Itinerary", "category": "other", "apiName": "25683290527_download_itinerary", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".itinerary-pdf__download:not(.dmpg)"}}, {"id": "6170245465899008", "viewId": null, "name": "MCP Recs - module visible", "category": "other", "apiName": "recommendation_module_visible", "eventType": "custom", "eventFilter": null}, {"id": "6256106985488384", "viewId": null, "name": "NL Footer submissions", "category": "other", "apiName": "nl_footer_submissions", "eventType": "custom", "eventFilter": null}, {"id": "6270832582852608", "viewId": "6698847691341824", "name": "LMD block CTR", "category": "other", "apiName": "25683290527_lmd_block_ctr", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".search-container__results .embedded-card-container a[href*=\"/special-offers/last-minute-deals\"]"}}, {"id": "6273282433875968", "viewId": "28395050678", "name": "'Easy Quote' button clicks", "category": "other", "apiName": "25683290527_easy_quote_button_clicks", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": "button[data-item-name=\"raq\"]"}}, {"id": "6345578351689728", "viewId": null, "name": "2026 Price Drop Promise - Offer Terms click", "category": "other", "apiName": "2026_price_drop_promise_-_offer_terms_click", "eventType": "custom", "eventFilter": null}, {"id": "6350786418966528", "viewId": null, "name": "scroll100", "category": "other", "apiName": "scroll100", "eventType": "custom", "eventFilter": null}, {"id": "6391422111186944", "viewId": "6698847691341824", "name": "Mobile Filters Open", "category": "other", "apiName": "25683290527_mobile_filters_open", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".mobile-filters-sticky, div#mobileFilters"}}, {"id": "6395386139508736", "viewId": null, "name": "RAQ Form Load - Searches", "category": "other", "apiName": "raqload-search", "eventType": "custom", "eventFilter": null}, {"id": "6420402075860992", "viewId": "28395050678", "name": "Available Dates Click", "category": "other", "apiName": "25683290527_available_dates_click", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": "[data-item-name='dates-and-prices']"}}, {"id": "6477732096245760", "viewId": null, "name": "Newsletter Pop-up view", "category": "other", "apiName": "newsletter_pop-up_view", "eventType": "custom", "eventFilter": null}, {"id": "6529647026896896", "viewId": "5325785964216320", "name": "Variant switcher click - Itinerary", "category": "other", "apiName": "25683290527_variant_switcher_click__itinerary", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".trip-variations__view-switch .view-switch"}}, {"id": "6553363232325632", "viewId": null, "name": "RAF - PAX click", "category": "other", "apiName": "raf__pax_click", "eventType": "custom", "eventFilter": null}, {"id": "6599432645378048", "viewId": "5325785964216320", "name": "Download OR Print Itinerary", "category": "other", "apiName": "25683290527_download_or_print_itinerary", "eventType": "click", "eventFilter": {"filterType": "target_selector", "selector": ".itinerary-pdf__download:not(.dmpg),.itinerary-pdf__print:not(.dmpg)"}}, {"id": "6685141033025536", "viewId": null, "name": "scroll75", "category": "other", "apiName": "scroll75", "eventType": "custom", "eventFilter": null}], "dimensions": [{"id": "4624689427906560", "name": "Itinerary Interaction", "apiName": "itinerary_interaction", "segmentId": null}, {"id": "4719315509837824", "name": "Timeframe Visit", "apiName": "timeframe_visit", "segmentId": null}, {"id": "5556078922956800", "name": "SOS25 LP Pricing", "apiName": "sos25_lp_pricing", "segmentId": null}, {"id": "5588787078627328", "name": "RAQResponseTime", "apiName": "RAQResponseTime", "segmentId": null}], "plugins": [function(PluginManager) {
+  var Hogan=function(t){function r(e){if(n[e])return n[e].exports;var i=n[e]={exports:{},id:e,loaded:!1};return t[e].call(i.exports,i,i.exports,r),i.loaded=!0,i.exports}var n={};return r.m=t,r.c=n,r.p="",r(0)}([function(t,r){function n(t){this.r=t,this.buf=""}function e(t,r){var n;if(r&&"object"==typeof r)if(void 0!==r[t])n=r[t];return n}function i(t){return String(null===t||void 0===t?"":t)}function o(t){return t=i(t),p.test(t)?t.replace(u,"&amp;").replace(f,"&lt;").replace(c,"&gt;").replace(l,"&#39;").replace(a,"&quot;"):t}t.exports=n,n.prototype={r:function(t,r,n){return""},v:o,t:i,render:function(t,r,n){return this.ri([t],r||{},n)},ri:function(t,r,n){return this.r(t,r,n)},rs:function(t,r,n){var e=t[t.length-1];if(!s(e))return void n(t,r,this);for(var i=0;i<e.length;i++)t.push(e[i]),n(t,r,this),t.pop()},s:function(t,r,n,e,i,o,u){var f;if(s(t)&&0===t.length)return!1;if(f=!!t,!e&&f&&r)r.push("object"==typeof t?t:r[r.length-1]);return f},d:function(t,r,n,i){var o,u=t.split("."),f=this.f(u[0],r,n,i),c=null;if("."===t&&s(r[r.length-2]))f=r[r.length-1];else for(var l=1;l<u.length;l++)if(o=e(u[l],f),void 0!==o)c=f,f=o;else f="";if(i&&!f)return!1;if(!i&&"function"==typeof f)r.push(c),f=this.mv(f,r,n),r.pop();return f},f:function(t,r,n,i){for(var o=!1,u=null,f=!1,c=r.length-1;c>=0;c--)if(u=r[c],o=e(t,u),void 0!==o){f=!0;break}if(!f)return i?!1:"";if(!i&&"function"==typeof o)o=this.mv(o,r,n);return o},b:function(t){this.buf+=t},fl:function(){var t=this.buf;return this.buf="",t},mv:function(t,r,n){var e=r[r.length-1],o=t.call(e);if("function"==typeof o)return this.ct(i(o.call(e)),e,n);else return o}};var u=/&/g,f=/</g,c=/>/g,l=/'/g,a=/"/g,p=/[&<>"']/,s=Array.isArray||function(t){return"[object Array]"===Object.prototype.toString.call(t)}}]);
+  
+PluginManager.registerWidget({
+      widgetId: '4869235648757760',
+      showFn: function(event) {
+        var $ = window.optimizely.get('jquery');
+        var widget = event.data.config;
+        var _template = new Hogan(function(c,p,i) {var t=this;t.b(i=i||"");return t.fl(); })
+        widget.$id = "4869235648757760";
+        widget.$instance = event.data.id;
+        widget.$render = _template.render.bind(_template)
+        widget.$fieldDefaults = [{"name":"console_logs","default_value":"on"}];
+        (function(widg) {
+  var i = 0;
+  var field;
+  for (; i < widg.$fieldDefaults.length; ++i) {
+    field = widg.$fieldDefaults[i];
+    if (!widg.hasOwnProperty(field.name)) {
+      widg[field.name] = field.default_value;
+    }
+  }
+  })(widget);
+        widget.$html = _template.render({ widget: widget, extension: widget })
+        var extension = widget;
+        
+        /* ==========================================================================
+   Insight Vacations TDP - MCP similar-tour recommendations A/B test
+   Optimizely Web Experimentation - TREATMENT, Optimizely TEMPLATE (apply_js)
+   used as the only change of the Treatment variation (the Original
+   variation has no changes: the module stays hidden there)
+
+   Runs when the activator has activated the page (the visitor reached the
+   trigger point and MCP announced the module as ready). It tells MCP to
+   reveal the module it has already rendered:
+     window CustomEvent "cro-mcpreco-show", detail { croPath, croPv }
+     (also pushed to dataLayer for visibility in debugging tools)
+   croPv is the render the page was activated with, so the reveal can only
+   ever open the render of THIS page view.
+
+   Event-driven, no timers: it also reveals a fresh render if MCP re-renders
+   the module on the same path while the visitor is still there, and stops
+   listening as soon as the path changes.
+========================================================================== */
+(function () {
+  "use strict";
+
+  var LOG         = "[MCPRECO]_[Optly]";
+  var READY_EVENT = "cro-mcpreco-ready";
+  var SHOW_EVENT  = "cro-mcpreco-show";
+
+  /* Console logs: template field "Console logs" (on / off); ?mcpdebug=1 in
+     the page URL turns them on for the visit. */
+  var LOG_ON = String(extension.console_logs) !== "off" || String(location.search || "").indexOf("mcpdebug=1") !== -1;
+
+  function log(msg) {
+    if (!LOG_ON) return;
+    try { console.log(LOG + " " + msg); } catch (e) {}
+  }
+
+  try {
+    var path = location.pathname;
+    var shown = window.__mcprecoShown = window.__mcprecoShown || {};
+
+    var show = function (croPv) {
+      if (!croPv || shown[croPv]) return;
+      shown[croPv] = true;
+      var detail = { croPath: path, croPv: croPv };
+      window.dispatchEvent(new CustomEvent(SHOW_EVENT, { detail: detail }));
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({ event: SHOW_EVENT, croPath: path, croPv: croPv });
+      log("treatment: '" + SHOW_EVENT + "' sent (path=" + path + ", croPv=" + croPv + ")");
+    };
+
+    var st = window.__mcprecoActivation;
+    if (st && st.path === path && st.pv) show(st.pv);
+    else log("treatment: no activated render for " + path + " - waiting for MCP ready");
+
+    var onReady = function (e) {
+      if (location.pathname !== path) { window.removeEventListener(READY_EVENT, onReady); return; }
+      /* Only while the page is still active for this path: after leaving
+         and coming back, the reveal waits for the new activation (which
+         runs this code again) - never before the trigger point. */
+      var a = window.__mcprecoActivation;
+      if (!a || !a.active || a.path !== path) return;
+      var d = e && e.detail;
+      if (d && d.croPath === path && d.croCount > 0) show(d.croPv);
+    };
+    window.addEventListener(READY_EVENT, onReady);
+    /* For undo_js: stop listening when Optimizely undoes the change
+       (the test page deactivates on a route change). */
+    window.__mcprecoTreatmentOff = function () { window.removeEventListener(READY_EVENT, onReady); };
+  } catch (e) {
+    log("treatment error: " + e);
+  }
+})();
+
+      },
+      hideFn: function(event) {
+        var $ = window.optimizely.get('jquery');
+        var widget = event.data.config;
+        widget.$id = "4869235648757760";
+        widget.$instance = event.data.id;
+        widget.$fieldDefaults = [{"name":"console_logs","default_value":"on"}];
+        (function(widg) {
+  var i = 0;
+  var field;
+  for (; i < widg.$fieldDefaults.length; ++i) {
+    field = widg.$fieldDefaults[i];
+    if (!widg.hasOwnProperty(field.name)) {
+      widg[field.name] = field.default_value;
+    }
+  }
+  })(widget);
+        var extension = widget;
+        
+        try { if (window.__mcprecoTreatmentOff) { window.__mcprecoTreatmentOff(); window.__mcprecoTreatmentOff = null; } } catch (e) {}
+
+      },
+    });
+}
+], "interestGroups": [], "tagGroups": []},l=__webpack_require__(4860),d="initializeOptimizelyPreview";if(l.initGlobalStore(f),u.populateDirectiveData(),r.clientHasAlreadyInitialized())e.warn("Main / Disabling because Optimizely has already initialized on this page load. Are there multiple snippets on the page?");else if(r.shouldBailForDesktopApp())e.log("Main / Disabling because of desktop app.");else if(r.conflictInObservingChanges())e.log("Main / Disabling: Observe Changes Indefinitely is on, but browser does not support it.");else{if(r.shouldLoadInnie())a.registerFunction("getProjectId",(function(){return f.projectId})),a.registerFunction("getAccountId",(function(){return f.accountId})),c.addScriptAsync("https://app.optimizely.com/js/innie.js"),e.log("Main / Disabling in favor of the editor client.");else if(r.shouldLoadEmbeddedEditor())e.log("Main / Loading embedded editor"),s.loadEmbeddedEditor("https://app.optimizely.com/dist/visual-editor/main.js");else if(r.shouldLoadPreview()){(r.isSlave()?window.optimizely:window.optimizely=window.optimizely||[]).push({type:"load",data:f}),e.log("Main / Disabling in favor of the preview client."),__webpack_require__(9647).setupPreviewGlobal(),__webpack_require__(9647).pushToPreviewGlobal({type:"pushPreviewData",name:"liveCommitData",data:f}),r.isSlave()||(a.registerFunction("getProjectId",(function(){return f.projectId})),c.addScriptSync("https://cdn.optimizely.com/js/preview2/25683290527.js"))}else if(r.shouldBootstrapDataForPreview()){a.registerFunction(d,(function(n){t(),a.unregisterFunction(d)}));var v=r.isSlave()?PROJECT_ID_FOR_SLAVE_PREVIEW:a.getFunction("getProjectId")();p=r.getProjectToken(),g=v,m=r.getPreviewLayerIds(),o="/dist/preview_data.js?token=__TOKEN__&preview_layer_ids=__PREVIEW_LAYER_IDS__".replace("__TOKEN__",p).replace("__PROJECT_ID__",g).replace("__PREVIEW_LAYER_IDS__",m.join(",")).replace("__GET_ONLY_PREVIEW_LAYERS__",!0);var h=r.getForceVariationIds();h&&h.length>0&&(o+="&optimizely_x="+h.join(",")),c.addScriptSync(o),__webpack_require__(9647).setupPreviewGlobal(),c.addScriptAsync("/dist/js/preview_ui.js")}else r.shouldBootstrapDataForEditor()?(a.registerFunction(d,(function(n){t(),a.unregisterFunction(d)})),c.addScriptAsync(window.optimizely_editor_data_endpoint)):r.shouldInitialize()&&t();var p,g,m;n.timeEnd("block");var b=n.now();n.setMark("optimizelyFinished",b,b)}}try{main()}catch(t){try{__webpack_require__(673).handleError(t)}catch(t){console.log(t)}}})();
