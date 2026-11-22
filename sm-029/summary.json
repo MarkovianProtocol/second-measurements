@@ -1,0 +1,391 @@
+{
+ "as_of": "2026-11-22",
+ "rows": 599,
+ "excluded": {
+  "withdrawn": 11,
+  "resolution date approximate": 7
+ },
+ "resolved": 472,
+ "resolved_within_60": 13,
+ "resolved_within_63": 13,
+ "median_days": 387.0,
+ "over_1_year": 258,
+ "over_3_years": 59,
+ "longest_days": 5464,
+ "corrections_not_found": [],
+ "corrections": [
+  {
+   "petitioner": "Linda Dela Cruz",
+   "facility": "Kawaihae Cogeneration",
+   "petition_date": "1996-12-24",
+   "field": "resolution_date",
+   "value": "1997-03-10",
+   "source": "order signed MAR 10 1997, exhibits/orders/kawaihae_decision1996.pdf p.5; table says 1997-02-01"
+  },
+  {
+   "petitioner": "Air Alliance Houston",
+   "facility": "TPC Houston",
+   "petition_date": "2025-02-17",
+   "field": "resolution_date",
+   "value": "2026-05-06",
+   "source": "order exhibits/orders/tpc-houston-order_5-6-26.pdf (file name 5-6-26; cites an order of 18 July 2025); the other row for the same order says 2026-05-06; table says 2025-05-06"
+  },
+  {
+   "petitioner": "Center for Biological Diversity",
+   "facility": "RM Midstream Latham",
+   "petition_date": "2025-04-24",
+   "field": "petition_date",
+   "value": "2025-04-14",
+   "source": "order of 8 Dec 2025: 'The first petition, dated April 14, 2025, (the \"Latham Petition\")', exhibits/orders/rocky-mountain-midstream-order_12-8-2025.pdf"
+  },
+  {
+   "petitioner": "Environmental Integrity Project",
+   "facility": "Southwestern Electric Power Company - Welsh",
+   "petition_date": "2016-11-08",
+   "field": "withdrawn",
+   "value": true,
+   "source": "withdrawal letter of 25 Oct 2022, exhibits/orders/withdrawal_welsh_cc_east_shell_deer_park_10-25-22.pdf; the table links it only on the Shell Deer Park row"
+  },
+  {
+   "petitioner": "Environmental Integrity Project",
+   "facility": "Flint Hills Resources - Corpus Christi East",
+   "petition_date": "2016-11-29",
+   "field": "withdrawn",
+   "value": true,
+   "source": "same letter, exhibits/orders/withdrawal_welsh_cc_east_shell_deer_park_10-25-22.pdf"
+  }
+ ],
+ "on_time_unripe_dismissals": 11,
+ "unripe_dismissals_total": 13,
+ "on_time_decided": 2,
+ "by_5yr": {
+  "1995-1999": {
+   "resolved": 16,
+   "on_time": 1,
+   "median": 284.5
+  },
+  "2000-2004": {
+   "resolved": 134,
+   "on_time": 11,
+   "median": 328.5
+  },
+  "2005-2009": {
+   "resolved": 65,
+   "on_time": 0,
+   "median": 470
+  },
+  "2010-2014": {
+   "resolved": 69,
+   "on_time": 0,
+   "median": 604
+  },
+  "2015-2019": {
+   "resolved": 66,
+   "on_time": 0,
+   "median": 703.5
+  },
+  "2020-2024": {
+   "resolved": 87,
+   "on_time": 1,
+   "median": 204
+  },
+  "2025-2029": {
+   "resolved": 35,
+   "on_time": 0,
+   "median": 245
+  }
+ },
+ "by_year_2019_on": {
+  "2019": {
+   "resolved": 8,
+   "on_time": 0,
+   "median": 454.5,
+   "still_pending": 1
+  },
+  "2020": {
+   "resolved": 13,
+   "on_time": 0,
+   "median": 461,
+   "still_pending": 0
+  },
+  "2021": {
+   "resolved": 10,
+   "on_time": 0,
+   "median": 401.0,
+   "still_pending": 1
+  },
+  "2022": {
+   "resolved": 16,
+   "on_time": 1,
+   "median": 197.5,
+   "still_pending": 0
+  },
+  "2023": {
+   "resolved": 17,
+   "on_time": 0,
+   "median": 196,
+   "still_pending": 0
+  },
+  "2024": {
+   "resolved": 31,
+   "on_time": 0,
+   "median": 161,
+   "still_pending": 0
+  },
+  "2025": {
+   "resolved": 33,
+   "on_time": 0,
+   "median": 246,
+   "still_pending": 3
+  },
+  "2026": {
+   "resolved": 2,
+   "on_time": 0,
+   "median": 173.5,
+   "still_pending": 11
+  }
+ },
+ "filed_2020_on": {
+  "resolved": 122,
+  "on_time": 1
+ },
+ "on_time_rows": [
+  {
+   "facility": "Hawaii Electric Light Co., Keahole Generating Station",
+   "petitioner": "Kawaihae Cogeneration Partners",
+   "petition_date": "1998-02-17",
+   "resolution_date": "1998-04-03",
+   "days": 45,
+   "outcome": "decided"
+  },
+  {
+   "facility": "Lucid Energy Delaware Big Lizard Compressor Station",
+   "petitioner": "WildEarth Guardians",
+   "petition_date": "2022-09-26",
+   "resolution_date": "2022-11-16",
+   "days": 51,
+   "outcome": "decided"
+  },
+  {
+   "facility": "Chevron Richmond Refinery",
+   "petitioner": "Communities for a Better Environment",
+   "petition_date": "2003-11-24",
+   "resolution_date": "2003-12-19",
+   "days": 25,
+   "outcome": "dismissed as unripe"
+  },
+  {
+   "facility": "Chevron Richmond Refinery",
+   "petitioner": "Plumbers and Steamfitters Union Local 342, Heat and Frost Insulators/Asbeston Workers Local 16, the International Brotherhood of Electrical Workers Local 302, the Boilermakers Union Local 549 and the Laborers Union Local 324",
+   "petition_date": "2003-11-24",
+   "resolution_date": "2003-12-19",
+   "days": 25,
+   "outcome": "dismissed as unripe"
+  },
+  {
+   "facility": "ConocoPhillips 66 Refinery",
+   "petitioner": "Communities for a Better Environment",
+   "petition_date": "2003-11-24",
+   "resolution_date": "2003-12-19",
+   "days": 25,
+   "outcome": "dismissed as unripe"
+  },
+  {
+   "facility": "ConocoPhillips 66 Refinery",
+   "petitioner": "Plumbers and Steamfitters Union Local 342, Heat and Frost Insulators/Asbeston Workers Local 16, the International Brotherhood of Electrical Workers Local 302, the Boilermakers Union Local 549 and the Laborers Union Local 324",
+   "petition_date": "2003-11-24",
+   "resolution_date": "2003-12-19",
+   "days": 25,
+   "outcome": "dismissed as unripe"
+  },
+  {
+   "facility": "Shell Martinez Refining Company, Shell Oil Products Company",
+   "petitioner": "Plumbers and Steamfitters Union Local 342, Heat and Frost Insulators/Asbeston Workers Local 16, the International Brotherhood of Electrical Workers Local 302, the Boilermakers Union Local 549 and the Laborers Union Local 324",
+   "petition_date": "2003-11-24",
+   "resolution_date": "2003-12-19",
+   "days": 25,
+   "outcome": "dismissed as unripe"
+  },
+  {
+   "facility": "Tesoro Refining & Marketing Company",
+   "petitioner": "Our Children's Earth and Environment California",
+   "petition_date": "2003-11-24",
+   "resolution_date": "2003-12-19",
+   "days": 25,
+   "outcome": "dismissed as unripe"
+  },
+  {
+   "facility": "Valero Refining Company",
+   "petitioner": "Our Children's Earth, Sierra Club-Redwood Chapter, Solano Group and Environment California",
+   "petition_date": "2003-11-24",
+   "resolution_date": "2003-12-19",
+   "days": 25,
+   "outcome": "dismissed as unripe"
+  },
+  {
+   "facility": "Shell Refinery",
+   "petitioner": "Equilon Enterprises LLC d.b.a. Shell Oil Products US",
+   "petition_date": "2003-11-18",
+   "resolution_date": "2003-12-19",
+   "days": 31,
+   "outcome": "dismissed as unripe"
+  },
+  {
+   "facility": "Tesoro Golden Eagle Refinery and Amoco Terminal",
+   "petitioner": "Tesoro Refining & Marketing Company",
+   "petition_date": "2003-11-17",
+   "resolution_date": "2003-12-19",
+   "days": 32,
+   "outcome": "dismissed as unripe"
+  },
+  {
+   "facility": "Valero Refining Company",
+   "petitioner": "Valero Refining Company",
+   "petition_date": "2003-10-28",
+   "resolution_date": "2003-12-19",
+   "days": 52,
+   "outcome": "dismissed as unripe"
+  },
+  {
+   "facility": "Chevron Richmond Refinery",
+   "petitioner": "Chevron Products Company",
+   "petition_date": "2003-10-21",
+   "resolution_date": "2003-12-19",
+   "days": 59,
+   "outcome": "dismissed as unripe"
+  }
+ ],
+ "by_region": {
+  "01": {
+   "resolved": 4,
+   "on_time": 0,
+   "median": 299.5,
+   "pending": 0
+  },
+  "02": {
+   "resolved": 95,
+   "on_time": 0,
+   "median": 414,
+   "pending": 6
+  },
+  "03": {
+   "resolved": 36,
+   "on_time": 0,
+   "median": 358.5,
+   "pending": 6
+  },
+  "04": {
+   "resolved": 63,
+   "on_time": 0,
+   "median": 441,
+   "pending": 22
+  },
+  "05": {
+   "resolved": 47,
+   "on_time": 0,
+   "median": 475,
+   "pending": 27
+  },
+  "06": {
+   "resolved": 99,
+   "on_time": 1,
+   "median": 510,
+   "pending": 8
+  },
+  "07": {
+   "resolved": 4,
+   "on_time": 0,
+   "median": 1771.5,
+   "pending": 2
+  },
+  "08": {
+   "resolved": 58,
+   "on_time": 0,
+   "median": 245.5,
+   "pending": 12
+  },
+  "09": {
+   "resolved": 50,
+   "on_time": 12,
+   "median": 139.5,
+   "pending": 19
+  },
+  "10": {
+   "resolved": 15,
+   "on_time": 0,
+   "median": 403,
+   "pending": 5
+  },
+  "blank": {
+   "resolved": 1,
+   "on_time": 0,
+   "median": 86,
+   "pending": 2
+  }
+ },
+ "pending": {
+  "n": 109,
+  "past_60": 109,
+  "over_5y": 95,
+  "over_10y": 90,
+  "over_20y": 37,
+  "oldest": "1998-04-28",
+  "by_age": {
+   "61 days to 1 year": 12,
+   "1 to 5 years": 2,
+   "more than 20 years": 37,
+   "5 to 10 years": 5,
+   "10 to 20 years": 53
+  },
+  "company_filed": [
+   {
+    "petitioner": "Schriever Air Force Base",
+    "facility": "Schriever Air Force Base",
+    "petition_date": "2021-03-18",
+    "kind": "own permit"
+   },
+   {
+    "petitioner": "International-Matex Tank Terminals, LLC",
+    "facility": "Pin Oak Terminals, LLC",
+    "petition_date": "2018-01-25",
+    "kind": "another company's permit"
+   },
+   {
+    "petitioner": "Holsum de Puerto Rico, Inc.",
+    "facility": "Holsum de Puerto Rico, Inc.",
+    "petition_date": "2015-11-16",
+    "kind": "own permit"
+   },
+   {
+    "petitioner": "A-C Equipment Services and John Vitas",
+    "facility": "Motor Castings Co.",
+    "petition_date": "2012-12-07",
+    "kind": "another company's permit"
+   },
+   {
+    "petitioner": "Decatur Energy Center LLC",
+    "facility": "Solutia, Inc.",
+    "petition_date": "2004-07-21",
+    "kind": "another company's permit"
+   },
+   {
+    "petitioner": "Anderson Lithograph Co.",
+    "facility": "Graphic Press",
+    "petition_date": "2002-04-12",
+    "kind": "another company's permit"
+   },
+   {
+    "petitioner": "Wisconsin Electric Power Company",
+    "facility": "Wisconsin Electric, Presque Isle Plant",
+    "petition_date": "2000-11-13",
+    "kind": "own permit"
+   },
+   {
+    "petitioner": "R. R. Donnelley",
+    "facility": "R. R. Donnelley",
+    "petition_date": "1998-04-28",
+    "kind": "own permit"
+   }
+  ]
+ }
+}
