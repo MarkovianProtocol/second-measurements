@@ -1,0 +1,19 @@
+ETH drain tx 0xc928950f79b4e4697af674310d1f3a08c2659adc4d60e719f3af90ab023ff20f 2026-11-21T07:10:59.000000Z transferBatch to 0xF5e10380213880111522dd0efD3dbb45b9f62Bcc
+  ETH to attacker 520.2243399030978
+   USDC 3249631.410561
+   USDT 758141.332716
+Tornado deposits 38 total ETH 2909.0 {1.0: 9, 100.0: 29} to {'0xd90e2f925da726b50c4ed8d0fb90ad053324f31b'}
+into consolidation address (direct txs) [('2026-11-21T07:15:11', 542.6734192585895)]
+   tx_0x7d06e29 [('0xfd24197e', 457.2153602735688)]
+   tx_0xbad5bb2 []
+   tx_0xca19dc5 [('0xfd24197e', 1910.0135578615968)]
+BTC hop1 bc1qmj0x9pkyup07j09axvvr6aquqfsdw254nlz5lz funded 122.86137042 spent 122.86137042
+BTC hop2 bc1qm777twlzmelyutungyfw65ykn2l5kn68e6v4g6 funded 122.86137932 spent 0.0
+BTC vault bc1pypc0kf38v59qhkf0h4nnhxqtn7yjxukpaakasge76azn6hnzrvusyssp94 funded 165597.50932005 spent 165597.50932005
+  BTC hit ac38a5aea1ed81b84307a3709f502abd4c4d3af5502493f883c6d19624fd2cb4 976865 122.86136932 -> bc1qm777twlzmelyutungyfw65ykn2l5kn68e6v4g6
+  BTC hit 20262de39ec3331d78be2b87f18c90cb2ee30363311dd43def14c3aecf155b7a 976863 122.86137042 -> bc1qmj0x9pkyup07j09axvvr6aquqfsdw254nlz5lz
+OP_RETURN Chainflip: return 90%, keep 10%. Addresses and terms: chainflip.io/return
+deadline snapshots 20 2026-11-23T02:11:06Z -> 2026-11-23T19:40:03Z
+   2026-11-23T18:40:00Z return BTC 0.0 return ETH 1e-17 attacker BTC 122.86137932
+   2026-11-23T18:40:01Z return BTC 0.0 return ETH 1e-17 attacker BTC 122.86137932
+   2026-11-23T19:40:03Z return BTC 0.0 return ETH 1e-17 attacker BTC 122.86137932

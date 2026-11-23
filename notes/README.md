@@ -37,5 +37,6 @@ Not papers. When we recompute a public figure for a person or outlet we follow, 
 | musk-midterm-money-2026-11-09.md (+ fetch scripts, FEC API data) | Robert Reich / NYT / AP: Musk federal giving $445.7M through 14 Oct (AP matches); Reich's $168M Texas Senate holds via SLF→Texas PAC | 13932 |
 | eight-bits-2026-11-09.md (+ analyze.py, 16 certificates) | Scott Helme, eMudhra eight-bit keys: all 8 keys and dates hold; trust ends Dec 2028 (Sectigo/AAA), not July 2039 | 13933 |
 | optimizely-recheck-2026-11-22.md (+ crawl.py, analyze.py, 58 snippets, chain/) | Scott Helme / Report URI, Optimizely injection one week on: all captured snippets clean; 45 of 48 CSPs that block track.js allow 'unsafe-eval'; wallets hold, plus 1.7065 LTC after the sweep | 14729 |
+| chainflip-drain-2026-11-23.md (+ recount.py, find_btc.py, deadline_watch.py, chain/) | Chainflip vault drain: every stated amount matches the chain; ETH side into Tornado Cash in 38 deposits; bounty deadline 23 Nov passed with nothing returned | 14776 |
 
 Live copies: https://markovianprotocol.com/measurements/notes/

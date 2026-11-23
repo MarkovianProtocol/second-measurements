@@ -1,0 +1,6096 @@
+{
+ "items": [
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://github.com/mds1/multicall"
+       },
+       "name": "Multicall3",
+       "ordinal": 0,
+       "slug": "multicall3",
+       "tagType": "name"
+      }
+     ]
+    },
+    "name": "Multicall3",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "14424979",
+   "index": 1,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0xd90e2f925DA726b50C4Ed8D0Fb90Ad053324F31b",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0x8c382f139d228e1cb36171de7edd114c897e66b0126bbb174f564693b40d897a",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Contract of Tornado Cash's Router",
+        "tooltipUrl": "https://tornado.cash/"
+       },
+       "name": "Tornado.Cash: Router",
+       "ordinal": 10,
+       "slug": "tornadocash-router",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Router",
+       "ordinal": 0,
+       "slug": "router",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoRouter",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "call",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xd90e2f925DA726b50C4Ed8D0Fb90Ad053324F31b",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0x8c382f139d228e1cb36171de7edd114c897e66b0126bbb174f564693b40d897a",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Contract of Tornado Cash's Router",
+        "tooltipUrl": "https://tornado.cash/"
+       },
+       "name": "Tornado.Cash: Router",
+       "ordinal": 10,
+       "slug": "tornadocash-router",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Router",
+       "ordinal": 0,
+       "slug": "router",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoRouter",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "14196191",
+   "index": 2,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0xB20c66C4DE72433F3cE747b58B86830c459CA911",
+    "implementations": [
+     {
+      "address_hash": "0x2573BAc39EBe2901B4389CD468F2872cF7767FAF",
+      "name": "InstanceRegistry"
+     }
+    ],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: Instance Registry",
+       "ordinal": 10,
+       "slug": "tornadocash-instance-registry",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "AdminUpgradeableProxy",
+    "private_tags": [],
+    "proxy_type": "eip1967",
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "staticcall",
+   "value": "0"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xB20c66C4DE72433F3cE747b58B86830c459CA911",
+    "implementations": [
+     {
+      "address_hash": "0x2573BAc39EBe2901B4389CD468F2872cF7767FAF",
+      "name": "InstanceRegistry"
+     }
+    ],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: Instance Registry",
+       "ordinal": 10,
+       "slug": "tornadocash-instance-registry",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "AdminUpgradeableProxy",
+    "private_tags": [],
+    "proxy_type": "eip1967",
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13969506",
+   "index": 3,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x2573BAc39EBe2901B4389CD468F2872cF7767FAF",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI"
+       },
+       "name": "InstanceRegistry",
+       "ordinal": 0,
+       "slug": "instanceregistry",
+       "tagType": "name"
+      }
+     ]
+    },
+    "name": "InstanceRegistry",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "0"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xd90e2f925DA726b50C4Ed8D0Fb90Ad053324F31b",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0x8c382f139d228e1cb36171de7edd114c897e66b0126bbb174f564693b40d897a",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Contract of Tornado Cash's Router",
+        "tooltipUrl": "https://tornado.cash/"
+       },
+       "name": "Tornado.Cash: Router",
+       "ordinal": 10,
+       "slug": "tornadocash-router",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Router",
+       "ordinal": 0,
+       "slug": "router",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoRouter",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "14178461",
+   "index": 4,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "call",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13927797",
+   "index": 5,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13910121",
+   "index": 6,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13884755",
+   "index": 7,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13867078",
+   "index": 8,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13846838",
+   "index": 9,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13829162",
+   "index": 10,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13808922",
+   "index": 11,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13791246",
+   "index": 12,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13771006",
+   "index": 13,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13753330",
+   "index": 14,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13733090",
+   "index": 15,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13715414",
+   "index": 16,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13690047",
+   "index": 17,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13672371",
+   "index": 18,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13647004",
+   "index": 19,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13629328",
+   "index": 20,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13609088",
+   "index": 21,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13591412",
+   "index": 22,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13566045",
+   "index": 23,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13548369",
+   "index": 24,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13528129",
+   "index": 25,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13510453",
+   "index": 26,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13485087",
+   "index": 27,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13467410",
+   "index": 28,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13442044",
+   "index": 29,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13424367",
+   "index": 30,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13399001",
+   "index": 31,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13381325",
+   "index": 32,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13361085",
+   "index": 33,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13343408",
+   "index": 34,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13323169",
+   "index": 35,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13305492",
+   "index": 36,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13280126",
+   "index": 37,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13262449",
+   "index": 38,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13237083",
+   "index": 39,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13219407",
+   "index": 40,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13194040",
+   "index": 41,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13176364",
+   "index": 42,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13150998",
+   "index": 43,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xA160cdAB225685dA1d56aa342Ad8841c3b53f291",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 100 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-100-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0xf988d321a9813312c0c2546060efaed3c2665d90902b3ab742795d7793cdcb06",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Tornado Cash's official contract for 100 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "100 ETH",
+       "ordinal": 10,
+       "slug": "100-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC Sanctioned"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "Blocked By USDC"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13133321",
+   "index": 44,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "100000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://github.com/mds1/multicall"
+       },
+       "name": "Multicall3",
+       "ordinal": 0,
+       "slug": "multicall3",
+       "tagType": "name"
+      }
+     ]
+    },
+    "name": "Multicall3",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13523994",
+   "index": 45,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0xd90e2f925DA726b50C4Ed8D0Fb90Ad053324F31b",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0x8c382f139d228e1cb36171de7edd114c897e66b0126bbb174f564693b40d897a",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Contract of Tornado Cash's Router",
+        "tooltipUrl": "https://tornado.cash/"
+       },
+       "name": "Tornado.Cash: Router",
+       "ordinal": 10,
+       "slug": "tornadocash-router",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Router",
+       "ordinal": 0,
+       "slug": "router",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoRouter",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "call",
+   "value": "1000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xd90e2f925DA726b50C4Ed8D0Fb90Ad053324F31b",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0x8c382f139d228e1cb36171de7edd114c897e66b0126bbb174f564693b40d897a",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Contract of Tornado Cash's Router",
+        "tooltipUrl": "https://tornado.cash/"
+       },
+       "name": "Tornado.Cash: Router",
+       "ordinal": 10,
+       "slug": "tornadocash-router",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Router",
+       "ordinal": 0,
+       "slug": "router",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoRouter",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13311745",
+   "index": 46,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0xB20c66C4DE72433F3cE747b58B86830c459CA911",
+    "implementations": [
+     {
+      "address_hash": "0x2573BAc39EBe2901B4389CD468F2872cF7767FAF",
+      "name": "InstanceRegistry"
+     }
+    ],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: Instance Registry",
+       "ordinal": 10,
+       "slug": "tornadocash-instance-registry",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "AdminUpgradeableProxy",
+    "private_tags": [],
+    "proxy_type": "eip1967",
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "staticcall",
+   "value": "0"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xB20c66C4DE72433F3cE747b58B86830c459CA911",
+    "implementations": [
+     {
+      "address_hash": "0x2573BAc39EBe2901B4389CD468F2872cF7767FAF",
+      "name": "InstanceRegistry"
+     }
+    ],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: Instance Registry",
+       "ordinal": 10,
+       "slug": "tornadocash-instance-registry",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "AdminUpgradeableProxy",
+    "private_tags": [],
+    "proxy_type": "eip1967",
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13103309",
+   "index": 47,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x2573BAc39EBe2901B4389CD468F2872cF7767FAF",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI"
+       },
+       "name": "InstanceRegistry",
+       "ordinal": 0,
+       "slug": "instanceregistry",
+       "tagType": "name"
+      }
+     ]
+    },
+    "name": "InstanceRegistry",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "0"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0xd90e2f925DA726b50C4Ed8D0Fb90Ad053324F31b",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0x8c382f139d228e1cb36171de7edd114c897e66b0126bbb174f564693b40d897a",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Contract of Tornado Cash's Router",
+        "tooltipUrl": "https://tornado.cash/"
+       },
+       "name": "Tornado.Cash: Router",
+       "ordinal": 10,
+       "slug": "tornadocash-router",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Router",
+       "ordinal": 0,
+       "slug": "router",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoRouter",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13298445",
+   "index": 48,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x47CE0C6eD5B0Ce3d3A51fdb1C52DC66a7c3c2936",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 1 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-1-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0x06d89817a574e3b52d129600d917b0358acd1df81a4880aea858e37a06e831a5",
+        "tooltipDescription": "Tornado Cash's official contract for 1 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "1 ETH",
+       "ordinal": 10,
+       "slug": "1-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC SANCTIONED"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "BLOCKED BY USDC",
+         "BLOCKED BY USDT"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI"
+       },
+       "name": "Fixed pool 1 eth",
+       "ordinal": 0,
+       "slug": "fixed-pool-1-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "call",
+   "value": "1000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0x47CE0C6eD5B0Ce3d3A51fdb1C52DC66a7c3c2936",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 1 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-1-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0x06d89817a574e3b52d129600d917b0358acd1df81a4880aea858e37a06e831a5",
+        "tooltipDescription": "Tornado Cash's official contract for 1 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "1 ETH",
+       "ordinal": 10,
+       "slug": "1-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC SANCTIONED"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "BLOCKED BY USDC",
+         "BLOCKED BY USDT"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI"
+       },
+       "name": "Fixed pool 1 eth",
+       "ordinal": 0,
+       "slug": "fixed-pool-1-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13071088",
+   "index": 49,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "1000000000000000000"
+  },
+  {
+   "block_number": 26461937,
+   "created_contract": null,
+   "error": null,
+   "from": {
+    "ens_domain_name": null,
+    "hash": "0x47CE0C6eD5B0Ce3d3A51fdb1C52DC66a7c3c2936",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": true,
+    "metadata": {
+     "tags": [
+      {
+       "meta": {
+        "main_entity": "Tornado Cash",
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI",
+        "tooltipUrl": "https://tornadocash.eth.limo/"
+       },
+       "name": "Tornado.Cash: 1 ETH",
+       "ordinal": 10,
+       "slug": "tornadocash-1-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {
+        "projectName": "Tornado Cash",
+        "tagUrl": "https://scout-app.kleros.io/single-tags/0x06d89817a574e3b52d129600d917b0358acd1df81a4880aea858e37a06e831a5",
+        "tooltipDescription": "Tornado Cash's official contract for 1 ETH deposit and withdraw",
+        "tooltipUrl": "https://ipfs.io/ipns/tornadocash.eth/"
+       },
+       "name": "1 ETH",
+       "ordinal": 10,
+       "slug": "1-eth-1",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "OFAC Sanctions Lists",
+       "ordinal": 0,
+       "slug": "ofac-sanctions-lists",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "OFAC SANCTIONED"
+        ]
+       },
+       "name": "SANCTIONED",
+       "ordinal": 0,
+       "slug": "sanctioned",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "info": [
+         "BLOCKED BY USDC",
+         "BLOCKED BY USDT"
+        ],
+        "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+       },
+       "name": "BLOCKED",
+       "ordinal": 0,
+       "slug": "blocked",
+       "tagType": "generic"
+      },
+      {
+       "meta": {},
+       "name": "Mixer",
+       "ordinal": 0,
+       "slug": "mixer",
+       "tagType": "generic"
+      },
+      {
+       "meta": {
+        "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "textColor": "#C163D4",
+        "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+        "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+        "tooltipDescription": "Provided by OLI"
+       },
+       "name": "Fixed pool 1 eth",
+       "ordinal": 0,
+       "slug": "fixed-pool-1-eth",
+       "tagType": "name"
+      },
+      {
+       "meta": {},
+       "name": "Tornado.Cash",
+       "ordinal": 0,
+       "slug": "tornadocash",
+       "tagType": "protocol"
+      }
+     ]
+    },
+    "name": "TornadoCash_eth",
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "gas_limit": "13053411",
+   "index": 50,
+   "success": true,
+   "timestamp": "2026-11-21T07:19:11.000000Z",
+   "to": {
+    "ens_domain_name": null,
+    "hash": "0x83584f83f26aF4eDDA9CBe8C730bc87C364b28fe",
+    "implementations": [],
+    "is_contract": true,
+    "is_scam": false,
+    "is_verified": false,
+    "metadata": null,
+    "name": null,
+    "private_tags": [],
+    "proxy_type": null,
+    "public_tags": [],
+    "reputation": "ok",
+    "watchlist_names": []
+   },
+   "transaction_hash": "0x5813fe3cd5c5f7cc5e112ebf7f8ee4953c0eeb4fd63b9e604c78bbe062428838",
+   "transaction_index": 88,
+   "type": "delegatecall",
+   "value": "1000000000000000000"
+  }
+ ],
+ "meta": {
+  "message": null,
+  "status": 1
+ },
+ "next_page_params": {
+  "index": 50,
+  "block_number": 26461937,
+  "transaction_index": 88,
+  "include_zero_value": true
+ }
+}
