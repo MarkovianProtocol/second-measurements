@@ -24,11 +24,14 @@ On 21 November Chainflip's vaults were drained. Chainflip Labs then posted a mes
 | 23 Nov 02:11 | 0 | 0 | 122.86137932 |
 | 23 Nov 18:40, after the deadline | 0 | 0 | 122.86137932 |
 | 23 Nov 19:40 | 0 | 0 | 122.86137932 |
+| 24 Nov, morning | 0 | 0 | 122.86138478 |
 
-(The attacker's address holds 0.00001 BTC more than was stolen: the output of Chainflip's message transaction.)
+(The attacker's address holds 0.00001 BTC more than was stolen: the output of Chainflip's message transaction. The extra 546 satoshis on 24 November came with a second message, from someone else, at 03:21 UTC in block 977,315 (79d3c45d…e8b6): "I am a Chainflip user. You took our funds, and honestly, we were foolish to trust someone else to hold our money. I hope you can negotiate a fair bounty with Chainflip".)
 
 Not confirmed: press reports that Chainflip "recovered 15 BTC into a multisig". Chainflip's return page doesn't say it, and the nearest movement we found is the vault's last 10.48 BTC going to a new address at 11:24 UTC on 21 November. We don't assess the cause; Chainflip says it has "identified the mechanism of key exposure".
 
-Limits: we watched the two return addresses and the attacker's Bitcoin address, not the Tornado Cash pools, so a return through some other route wouldn't show here; and nothing after 19:40 UTC on 23 November. We'll look again at day 30, 21 December.
+Limits: we watched the two return addresses and the attacker's Bitcoin address, not the Tornado Cash pools, so a return through some other route wouldn't show here; and only the three addresses after 19:40 UTC on 23 November. We'll look again at day 30, 21 December.
 
 Files: recount.py (every number above, from the saved explorer responses), find_btc.py (the block scan that found the Bitcoin transaction), deadline_watch.py and chain/deadline_watch_snapshots.jsonl (the hourly reads), chain/ (Blockscout and mempool.space responses as read), src/ (Chainflip's return page, 22 and 23 Nov), SHA256SUMS. Chainflip's message: https://chainflip.io/return
+
+Updated 24 November with that day's read and the second message. The 23 November version is kept unchanged as chainflip-drain-2026-11-23.v1.txt, stamped at leaf 14776.
