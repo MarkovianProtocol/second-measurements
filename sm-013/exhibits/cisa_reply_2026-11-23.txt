@@ -1,0 +1,26 @@
+From: help@get.gov (.gov Registry, CISA)
+To: Markovian Protocol <hello@markovianprotocol.com>
+Date: Mon, 23 Nov 2026 14:11:09 +0000
+Subject: Re: Four questions about DNSSEC on federal .gov domains
+
+Hi @Markovian Protocol.
+1. Does CISA track whether each federal domain is DNSSEC-signed, and would it publish that column?
+This information is in https://get.gov/about/data/#gov-zone-file. We do not plan to publish it in other data sets.
+
+2. get.gov is unsigned. Is that intended?
+Yes.
+
+3. Does anyone monitor federal zones for DNSSEC validation failures, and were the owners of the domains listed on the page told?
+We do not monitor federal zones for DNSSEC validation failures.
+
+Note that DNSSEC is not a requirement for most executive branch systems; see M-18-23<https://www.whitehouse.gov/wp-content/uploads/2018/08/M-18-23.pdf>, which rescinded the DNSSEC requirements of M-08-23.
+
+4. treasury.gov publishes the CDS delete signal. Is running it signed but unchained a deliberate choice?
+We do not offer CDS/CDNSKEY support, though we plan to in the future.
+
+----
+Cameron
+.gov Registry | get.gov<https://get.gov>
+Cybersecurity & Infrastructure Security Agency | cisa.gov<https://cisa.gov>
+
+[Our follow-up of 22 Nov 2026, which they quoted, numbered our questions 1, 3, 4 and 6 from the page as 1 to 4.]
