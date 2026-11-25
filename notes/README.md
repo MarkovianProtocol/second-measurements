@@ -37,6 +37,7 @@ Not papers. When we recompute a public figure for a person or outlet we follow, 
 | musk-midterm-money-2026-11-09.md (+ fetch scripts, FEC API data) | Robert Reich / NYT / AP: Musk federal giving $445.7M through 14 Oct (AP matches); Reich's $168M Texas Senate holds via SLF→Texas PAC | 13932 |
 | eight-bits-2026-11-09.md (+ analyze.py, 16 certificates) | Scott Helme, eMudhra eight-bit keys: all 8 keys and dates hold; trust ends Dec 2028 (Sectigo/AAA), not July 2039 | 13933 |
 | optimizely-recheck-2026-11-22.md (+ crawl.py, analyze.py, 58 snippets, chain/) | Scott Helme / Report URI, Optimizely injection one week on: all captured snippets clean; 45 of 48 CSPs that block track.js allow 'unsafe-eval'; wallets hold, plus 1.7065 LTC after the sweep | 14729 |
-| chainflip-drain-2026-11-23.md (+ recount.py, find_btc.py, deadline_watch.py, chain/) | Chainflip vault drain: every stated amount matches the chain; ETH side into Tornado Cash in 38 deposits; bounty deadline 23 Nov passed with nothing returned | 14776 |
+| chainflip-drain-2026-11-23.md (+ recount.py, find_btc.py, deadline_watch.py, chain/) | Chainflip vault drain: every stated amount matches the chain; ETH side into Tornado Cash in 38 deposits; bounty deadline 23 Nov passed with nothing returned | 14776; 24 Nov update 14802 |
+| lsmith-cpe-repo-2026-11-25.md (+ fetch_nvd.py, check_sources.py, table.py, ecosystems_lookup.py, data/) | NVD CVEs by product CPE vs OSV GIT ranges on the project's repository: PostgreSQL 2 of 209, nginx 20 of 41, MariaDB 254 of 431 (lowercase URL in OSV), OpenSSL 180 of 330; for ecosyste-ms/advisories#1149 | 14865 |
 
 Live copies: https://markovianprotocol.com/measurements/notes/

@@ -1,0 +1,11 @@
+product | NVD CVEs | in OSV | OSV GIT range on own repo | spellings of own repo in OSV | other repos in those ranges | GitHub reviewed | GitHub unreviewed only
+postgresql:postgresql | 209 | 66 | 2 | {'https://github.com/postgres/postgres': 2} | 2 | 1 | 206
+f5:nginx | 41 | 36 | 20 | {'https://github.com/nginx/nginx': 20} | 47 | 2 | 39
+nginx:nginx | 2 | 2 | 0 | {} | 0 | 0 | 2
+mariadb:mariadb | 431 | 266 | 254 | {'https://github.com/mariadb/server': 254} | 181 | 3 | 402
+openssl:openssl | 330 | 309 | 180 | {'https://github.com/openssl/openssl': 180, 'https://github.com/openssl/openssl/': 32} | 204 | 29 | 300
+f5:nginx: product only as a platform in 0 of 41
+mariadb:mariadb: product only as a platform in 1 of 431
+nginx:nginx: product only as a platform in 0 of 2
+openssl:openssl: product only as a platform in 8 of 330
+postgresql:postgresql: product only as a platform in 6 of 209

@@ -1,0 +1,54 @@
+{
+ "https://github.com/postgres/postgres": {
+  "count": 0,
+  "advisories": [],
+  "read_at": "2026-11-25T19:53:11Z"
+ },
+ "https://github.com/nginx/nginx": {
+  "count": 0,
+  "advisories": [],
+  "read_at": "2026-11-25T19:53:11Z"
+ },
+ "https://github.com/MariaDB/server": {
+  "count": 0,
+  "advisories": [],
+  "read_at": "2026-11-25T19:53:11Z"
+ },
+ "https://github.com/mariadb/server": {
+  "count": 0,
+  "advisories": [],
+  "read_at": "2026-11-25T19:53:12Z"
+ },
+ "https://github.com/openssl/openssl": {
+  "count": 3,
+  "advisories": [
+   [
+    "GSA_kwCzR0hTQS05djloLWNnajgtaDY0cM4AA44M",
+    "UNSPECIFIED",
+    [
+     "CVE-2024-0727"
+    ]
+   ],
+   [
+    "GSA_kwCzR0hTQS12cjhqLWhnbW0tamg5cs4AAwTC",
+    "UNSPECIFIED",
+    [
+     "CVE-2022-3996"
+    ]
+   ],
+   [
+    "GSA_kwCzR0hTQS03MzVmLXBnNzYtZnhjNM4AAtFu",
+    "UNSPECIFIED",
+    [
+     "CVE-2022-2274"
+    ]
+   ]
+  ],
+  "read_at": "2026-11-25T19:53:12Z"
+ },
+ "https://github.com/openssl/openssl/": {
+  "count": 0,
+  "advisories": [],
+  "read_at": "2026-11-25T19:53:13Z"
+ }
+}
